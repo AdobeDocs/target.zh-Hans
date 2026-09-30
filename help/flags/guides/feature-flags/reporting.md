@@ -4,13 +4,14 @@ description: 了解如何使用Customer Journey Analytics在Flags中查看功能
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 1%
-
 ---
-
 # 报表 {#reporting}
 
 标记通过&#x200B;**Customer Journey Analytics (CJA)**&#x200B;提供报表。 每个功能标志和功能组详细信息页面上都有&#x200B;**报告**&#x200B;选项卡。 通过它，您可以查看限定为直接嵌入页面中的特定标志或组的CJA报表。

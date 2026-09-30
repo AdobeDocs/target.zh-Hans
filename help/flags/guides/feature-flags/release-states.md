@@ -4,13 +4,14 @@ description: 了解Flags中版本的生命周期状态，包括每个状态的�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 3%
-
 ---
-
 # 发行状态 {#release-states}
 
 发行版管理器可以直接从控制台导航栏更新发行版的状态。 状态控制版本是处于活动状态、仅限于测试、完全转出还是关闭。

@@ -4,19 +4,26 @@ description: 下载旧版Adobe Recommendations Classic文档的PDF。
 title: 可在何处找到Adobe Recommendations Classic的文档？
 feature: Recommendations
 exl-id: e59fbf51-0c2d-4ec3-941d-d10633ce8a28
-TQID: https://experienceleague.adobe.com/kq-os5PQzYnTY9YIgP2r1IAyEJTQ0Uf3mCu7zvMrHWU
+TQID: 'https://experienceleague.adobe.com/kq-os5PQzYnTY9YIgP2r1IAyEJTQ0Uf3mCu7zvMrHWU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 113
+source-wordcount: '113'
 ht-degree: 55%
-
 ---
-
 # 经典版推荐文档
 
 [!DNL Recommendations Classic] 可根据网站上以往的用户活动自动显示客户可能感兴趣的产品或内容。

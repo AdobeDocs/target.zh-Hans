@@ -1,16 +1,23 @@
 ---
 keywords: 模板测试;模板;相似页面上的相同体验
-description: 了解如何使用Adobe [!DNL Target] 可视化体验编辑器(VEC)在结构类似或包含相同模板元素的多个页面上包含相同体验。
+description: 了解如何使用Adobe [!DNL Target]可视化体验编辑器(VEC)在结构类似或包含相同模板元素的多个页面上包含相同体验。
 title: 我是否可以在类似页面上包含相同体验？
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '625'
 ht-degree: 32%
-
 ---
-
 # 在相似页面上包含相同体验
 
 使用[!DNL Adobe Target]中的页面模板为您的页面提供结构，或者如果您的页面包含类似的元素，则使用类似的页面元素或跨整个域测试变体。

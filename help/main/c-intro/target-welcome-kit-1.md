@@ -1,23 +1,31 @@
 ---
 keywords: 欢迎套件;target 欢迎套件;简介;简介;快速入门
-description: 用 Adobe Target 快速启动您的优化和个性化项目。 Adobe [!DNL Target] 欢迎套件是一个很不错的起点。
+description: 用 Adobe Target 快速启动您的优化和个性化项目。 Adobe [!DNL Target]欢迎套件是一个很不错的起点。
 title: 如何开始使用 Target？
 feature: Overview
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-TQID: https://experienceleague.adobe.com/trqV5-1-Fi8MRkvcnjDJPCgWnYXKP48JzzMpW8IpF44
+TQID: 'https://experienceleague.adobe.com/trqV5-1-Fi8MRkvcnjDJPCgWnYXKP48JzzMpW8IpF44'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 380
-ht-degree: 91%
-
+source-wordcount: '381'
+ht-degree: 88%
 ---
-
 # 第 1 章：简介
 
 如果您像当今大多数企业一样，那么您已经实现了数字营销渠道的现代化。 现在您要寻找一些方法区分您的品牌——使其脱颖而出，这样做将提高收入、转化率和其他关键业务指标。 这样做的一种方式就是通过深入了解客户，充分利用他们在您的网站、移动网站、移动应用程序或任何其他品牌接触点上的交互，优化和个性化您为客户投放的数字体验。 您甚至可能希望将这种优化和个性化越过传统的数字接触点，扩展到信息亭、物联网(IoT)设备、呼叫中心交互和Alexa等语音助手等接触点。 已使用 [!DNL Target] 测试其数字体验并使其个性化的品牌硕果累累。

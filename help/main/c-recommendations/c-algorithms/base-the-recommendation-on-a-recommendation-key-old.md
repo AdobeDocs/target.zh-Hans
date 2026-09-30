@@ -1,17 +1,24 @@
 ---
 keywords: 推荐键；推荐逻辑；当前类别；自定义属性；上次购买的项目；上次查看的项目；查看次数最多的项目；最喜爱的项目；热门程度；最近查看的项目；上次购买；上次查看次数最多；收藏；最近查看的项目
-description: 了解如何根据键使用推荐，这些键使用访客行为上下文在Adobe [!DNL Target] 推荐活动中显示相关结果。
+description: 了解如何使用基于键的推荐，这些键使用访客行为上下文在Adobe [!DNL Target]推荐活动中显示相关结果。
 title: 如何使推荐基于推荐键？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '4021'
+source-wordcount: '4075'
 ht-degree: 31%
-
 ---
-
 # 使推荐基于推荐键
 
 基于算法的推荐使用访客行为上下文显示[!DNL Adobe Target] [!DNL Recommendations]活动中的相关结果。
@@ -48,7 +55,7 @@ ht-degree: 31%
 
 * **[!UICONTROL 跨会话]**：基于其他访客在多个会话中所执行的操作。
 
-  当感觉产品强烈地根据访客偏好或品味彼此相互“配合”时，查看多个会话中的行为可能会有意义。例如，访客喜欢《星球大战》，可能还喜欢印第安纳·琼斯，即使访客不一定想在同一时间观看两部电影。或者，访客喜欢棋类游戏“Codenames”，并且可能还喜欢棋类游戏“Avalon”，即使访客无法同时玩这两种游戏。 
+  当感觉产品强烈地根据访客偏好或品味彼此相互“配合”时，查看多个会话中的行为可能会有意义。 例如，访客喜欢《星球大战》，可能还喜欢印第安纳·琼斯，即使访客不一定想在同一时间观看两部电影。 或者，访客喜欢棋类游戏“Codenames”，并且可能还喜欢棋类游戏“Avalon”，即使访客无法同时玩这两种游戏。 
 
 [!DNL Target]会根据每位访客当前购物车中的商品为其提供推荐，无论您查看的是单个会话中的访客行为还是多个会话中的访客行为。
 

@@ -1,23 +1,31 @@
 ---
 keywords: 推荐；选件；预览；启动项；状态；标准；算法
-description: 了解如何预览Adobe [!DNL Target] 推荐活动，以确保在启动该活动之前结果可用。
+description: 了解如何预览Adobe [!DNL Target]“推荐”活动，以确保在启动该活动之前结果可用。
 title: 如何预览和启动“推荐”活动？
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+TQID: 'https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1535
+source-wordcount: '1536'
 ht-degree: 13%
-
 ---
-
 # 预览和启动“推荐”活动
 
 在创建包含[推荐选件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL 推荐]、[!UICONTROL A/B测试]或[!UICONTROL 体验定位] (XT)活动后，您需要预览推荐，以确保结果在启动活动之前可用。 [!DNL Target Recommendations]提供了多种预览推荐的方法。
@@ -110,13 +118,13 @@ CSV下载文件始终反映后端标准执行后生成的结果。
 
 * **对于基于热门程度的算法（不基于密钥），文件包括：**
 
-   * 以*（星号）为前缀的一行备份推荐
-   * 单独的行会根据算法设置列出推荐
+  * 以*（星号）为前缀的一行备份推荐
+  * 单独的行会根据算法设置列出推荐
 
 * **对于基于密钥的算法，文件包括：**
 
-   * 与基于热门程度的算法类似的备份行
-   * 键值格式的多行，其中第一个条目是键的产品ID，后跟表示推荐候选者的逗号分隔的产品ID
+  * 与基于热门程度的算法类似的备份行
+  * 键值格式的多行，其中第一个条目是键的产品ID，后跟表示推荐候选者的逗号分隔的产品ID
 
 ## 激活您的“推荐”活动
 

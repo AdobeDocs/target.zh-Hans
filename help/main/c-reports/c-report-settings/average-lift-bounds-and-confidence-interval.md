@@ -1,16 +1,20 @@
 ---
 keywords: Target;报表;报表设置;环境;提升度;提升度范围;方差;置信度;控制
-description: 了解如何解释Adobe [!DNL Target] 报表（包括数据点和可视化表示形式），以帮助您了解活动的提升度范围和置信度。
+description: 了解如何解释Adobe [!DNL Target]报表（包括数据点和可视化表示形式），以帮助您了解活动的提升度范围和置信度。
 title: 如何查看平均提升度、提升度范围和置信区间？
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '914'
 ht-degree: 59%
-
 ---
-
 # 平均提升度、提升度范围和置信区间
 
 报表包含多个数据点和可视化图表，可帮助您了解与[!DNL Adobe Target]活动关联的提升度范围和置信度级别，从而帮助您更准确地确定入选者。

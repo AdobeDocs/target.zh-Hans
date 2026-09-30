@@ -4,19 +4,26 @@ description: 组织和优化[!UICONTROL 选件]库中的代码和图像选件。
 title: 浏览[!UICONTROL 选件]库中的内容管理
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
+TQID: 'https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 11%
-
 ---
-
 # 处理[!UICONTROL 资产]库中的内容
 
 发现您可以在[!UICONTROL Adobe Target] [!UICONTROL 内容库]中对资源执行的任务。 任务包括注释、复制、删除、下载、编辑、共享和查看属性。
@@ -50,21 +57,21 @@ ht-degree: 11%
 
 * **文件夹**：选择一个或多个要对其执行以下操作：
 
-   * 下载：下载文件夹及其内容。
-   * 复制：复制文件夹及其内容。
-   * 移动：单击“**[!UICONTROL 移动]**”图标；保持文件夹的相同名称，或对其进行重命名；单击“**[!UICONTROL 选择目标]**”以选择要移动文件夹的位置，然后单击“**[!UICONTROL 移动]**”。
-   * 删除（请参阅删除项[&#128279;](#delete)时的注意事项。）
+  * 下载：下载文件夹及其内容。
+  * 复制：复制文件夹及其内容。
+  * 移动：单击“**[!UICONTROL 移动]**”图标；保持文件夹的相同名称，或对其进行重命名；单击“**[!UICONTROL 选择目标]**”以选择要移动文件夹的位置，然后单击“**[!UICONTROL 移动]**”。
+  * 删除（请参阅删除项[&#128279;](#delete)时的注意事项。）
 
 * **选件**：选择一个或多个要对其执行以下操作：
 
-   * [!UICONTROL 共享]：与组织中的人员或组共享图像选件。
-   * [!UICONTROL 下载]：下载图像选件或文件夹及其内容。
-   * [!UICONTROL 查看属性]：查看项目的属性。 确保单击[!UICONTROL 基本]选项卡和[!UICONTROL 高级]选项卡以查看所有可用信息。 您可以编辑属性并添加更多信息。 您可以添加元数据信息、发布状态和许可证数据。
-   * [!UICONTROL 编辑]：编辑文件夹或选件。
-   * [!UICONTROL 批注]：为资源添加注释。 单击资产，选择要添加注释的区域，然后键入注释。
-   * [!UICONTROL 复制]：复制选件。 通过复制并编辑选件，您可以轻松创建类似的新选件。
-   * [!UICONTROL 移动]：单击[!UICONTROL 移动]图标，导航到要将选件或文件夹移动到的位置，然后单击&#x200B;**[!UICONTROL 移动]**。 例如，您可以将一个或多个文件夹移动到另一个文件夹以创建子文件夹。
-   * [!UICONTROL 删除]：删除选件。 有关详细信息，请参阅下面的[删除项目时的注意事项](#delete)。
+  * [!UICONTROL 共享]：与组织中的人员或组共享图像选件。
+  * [!UICONTROL 下载]：下载图像选件或文件夹及其内容。
+  * [!UICONTROL 查看属性]：查看项目的属性。 确保单击[!UICONTROL 基本]选项卡和[!UICONTROL 高级]选项卡以查看所有可用信息。 您可以编辑属性并添加更多信息。 您可以添加元数据信息、发布状态和许可证数据。
+  * [!UICONTROL 编辑]：编辑文件夹或选件。
+  * [!UICONTROL 批注]：为资源添加注释。 单击资产，选择要添加注释的区域，然后键入注释。
+  * [!UICONTROL 复制]：复制选件。 通过复制并编辑选件，您可以轻松创建类似的新选件。
+  * [!UICONTROL 移动]：单击[!UICONTROL 移动]图标，导航到要将选件或文件夹移动到的位置，然后单击&#x200B;**[!UICONTROL 移动]**。 例如，您可以将一个或多个文件夹移动到另一个文件夹以创建子文件夹。
+  * [!UICONTROL 删除]：删除选件。 有关详细信息，请参阅下面的[删除项目时的注意事项](#delete)。
 
 ## 删除项目时的注意事项 {#delete}
 

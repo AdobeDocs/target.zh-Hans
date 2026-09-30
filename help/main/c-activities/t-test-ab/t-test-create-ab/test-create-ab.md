@@ -1,26 +1,35 @@
 ---
 keywords: 创建A/B；A/B测试；A/B活动；新建a/b活动；创建a/b
-description: 使用[!UICONTROL 可视化体验编辑器] (VEC)直接在启用了 [!DNL Target]的页面上创建A/B测试活动。
+description: 使用[!UICONTROL 可视化体验编辑器] (VEC)直接在启用了[!DNL Target]的页面上创建A/B测试活动。
 title: 如何创建A/B测试？
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-TQID: https://experienceleague.adobe.com/3oJeJ1q8KeFLZhUJseG6hOe6xJqH4CKILIUglcL7E3M
+TQID: 'https://experienceleague.adobe.com/3oJeJ1q8KeFLZhUJseG6hOe6xJqH4CKILIUglcL7E3M'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1019
+source-wordcount: '1019'
 ht-degree: 19%
-
 ---
-
 # 创建A/B测试活动
 
 利用[!DNL Adobe Target]中的[!UICONTROL 可视化体验编辑器] (VEC)，在启用了[!DNL Target]的页面上直接创建[!UICONTROL A/B测试]活动，并在[!DNL Target]中修改页面部分。

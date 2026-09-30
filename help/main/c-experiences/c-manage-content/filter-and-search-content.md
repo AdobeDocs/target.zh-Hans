@@ -4,18 +4,24 @@ description: 了解如何在[!UICONTROL 选件]库中搜索代码和图像选件
 title: 如何在选件库中搜索内容？
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-TQID: https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw
+TQID: 'https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: '281'
 ht-degree: 0%
-
 ---
-
 # 搜索和筛选内容
 
 在[!DNL Adobe Target]中的[!UICONTROL 选件]库中按关键字搜索资源。
@@ -41,10 +47,10 @@ ht-degree: 0%
    您可以按以下项过滤：
 
    * **[!UICONTROL 文件类型]**：
-      * [!UICONTROL 图像]
-      * [!UICONTROL 文档]
-      * [!UICONTROL 多媒体]
-      * [!UICONTROL 存档]
+     * [!UICONTROL 图像]
+     * [!UICONTROL 文档]
+     * [!UICONTROL 多媒体]
+     * [!UICONTROL 存档]
    * **[!UICONTROL 文件大小]**：使用滑块选择所需的文件大小： [!UICONTROL 最小]、[!UICONTROL 小]、[!UICONTROL Medium]、[!UICONTROL 大]或[!UICONTROL 最大]。
    * **[!UICONTROL 上次修改时间]**：使用滑块选择时间段：[!UICONTROL 最近]、[!UICONTROL 小时]、[!UICONTROL 天]、[!UICONTROL 周]、[!UICONTROL 月]、[!UICONTROL 年]或[!UICONTROL 所有Assets]。
    * **[!UICONTROL 审批状态]**：[!UICONTROL 已批准]或[!UICONTROL 已拒绝]

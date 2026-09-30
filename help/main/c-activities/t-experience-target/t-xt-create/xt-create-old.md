@@ -1,16 +1,23 @@
 ---
 keywords: 体验定位；XT；创建
-description: 了解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 可视化体验编辑器] (VEC)来创建[!UICONTROL 体验定位] (XT)活动。
+description: 了解如何在[!DNL Adobe Target]中使用[!UICONTROL 可视化体验编辑器] (VEC)创建[!UICONTROL 体验定位] (XT)活动。
 title: 如何创建[!UICONTROL 体验定位]活动？
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 35%
-
 ---
-
 # 创建[!UICONTROL 体验定位] (XT)活动
 
 使用[!UICONTROL 可视化体验编辑器] (VEC)在启用了[!DNL Target]的页面上创建[!UICONTROL 体验定位] (XT)活动，并在[!DNL Adobe Target]内修改页面的各个部分。

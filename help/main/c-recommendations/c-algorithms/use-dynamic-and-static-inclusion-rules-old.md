@@ -1,18 +1,25 @@
 ---
 keywords: 包含规则;包含标准;推荐;新建标准;促销活动;动态筛选;动态;空值;忽略筛选规则;静态筛选器;按值筛选;实体属性匹配;轮廓属性匹配;参数匹配;按值筛选;静态筛选器
-description: 了解如何在Adobe [!DNL Target] 推荐中为标准和促销活动创建包含规则。 为了获得更好的结果，请添加更多动态或静态筛选规则。
+description: 了解如何在Adobe [!DNL Target]推荐中为标准和促销活动创建包含规则。 为了获得更好的结果，请添加更多动态或静态筛选规则。
 title: 如何在推荐中使用动态和静态包含规则？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2111'
-ht-degree: 14%
-
+source-wordcount: '2112'
+ht-degree: 15%
 ---
-
 # 使用动态和静态包含规则
 
 此信息介绍了如何在[!DNL Adobe Target]中为标准和促销活动创建包含规则，以及如何添加动态或静态筛选规则以便为您的推荐获得更好的结果。
@@ -65,7 +72,7 @@ ht-degree: 14%
 | --- | --- |
 | [静态筛选](/help/main/c-recommendations/c-algorithms/static-value.md) | 手动输入一个或多个要过滤的静态值。 |
 
-## 可用的运算符 {#operators}
+## 可用运算符 {#operators}
 
 动态标准和促销活动比静态标准和促销活动强大得多，并能产生更好的结果和参与。
 

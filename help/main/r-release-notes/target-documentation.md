@@ -1,24 +1,31 @@
 ---
 keywords: adobe target;target;文档;api;apis;sdk;sdks;教程;文档;文档
-description: 访问 [!DNL Adobe Target] 文档和资源，包括联机帮助、教程、视频和开发人员文档（SDK、API 和 JavaScript 库）。
-title: 在何处可以找到 [!DNL Adobe Target] 的文档和资源？
+description: 访问[!DNL Adobe Target]文档和资源，包括联机帮助、教程、视频和开发人员文档（SDK、API和JavaScript库）。
+title: 可在何处找到[!DNL Adobe Target]的文档和资源？
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-TQID: https://experienceleague.adobe.com/68ZfYI2cTljrtoOwDja1bb3ZdZYMi-zOSPB7NgL3EbA
+TQID: 'https://experienceleague.adobe.com/68ZfYI2cTljrtoOwDja1bb3ZdZYMi-zOSPB7NgL3EbA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 511
-ht-degree: 89%
-
+source-wordcount: '512'
+ht-degree: 84%
 ---
-
 # [!DNL Target] 文档和资源概述
 
 [!DNL Adobe Target] 文档和资源以多种格式提供，包括有关使用 [!DNL Target] UI 的指南、开发人员信息（包括 SDK 和 API）、教程、社区论坛、视频和网络研讨会。

@@ -4,13 +4,14 @@ description: 了解如何在Flags中为功能组配置基于百分比的逐步�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 3%
-
 ---
-
 # 设置功能组以逐步推出 {#gradual-rollout-feature-group}
 
 已在&#x200B;**基本详细信息**&#x200B;选项卡中配置功能组的百分比转出。 您可以随时在转出过程中向上或向下调整此值。

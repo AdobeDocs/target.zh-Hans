@@ -1,21 +1,27 @@
 ---
 keywords: Experience Cloud;登录;语言;默认 ui 语言;默认语言
-description: 了解如何从Adobe Experience Cloud访问 [!DNL Target] 、设置默认组织以及更改 [!DNL Target] UI和文档的语言。
-title: 如何从 Adobe Experience Cloud 访问 [!DNL Target] ？
+description: 了解如何从Adobe Experience Cloud访问[!DNL Target]、设置默认组织以及更改[!DNL Target]用户界面和文档的语言。
+title: 如何从Adobe Experience Cloud访问[!DNL Target]？
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
-TQID: https://experienceleague.adobe.com/VieoyNb4CtBWO7peyZlJOxfFzTUbbHJvvrcg4yyfWis
+TQID: 'https://experienceleague.adobe.com/VieoyNb4CtBWO7peyZlJOxfFzTUbbHJvvrcg4yyfWis'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 367
-ht-degree: 49%
-
+source-wordcount: '370'
+ht-degree: 46%
 ---
-
 # 从 Adobe Experience Cloud 访问 [!DNL Target]
 
 有关从 [!DNL Adobe Experience Cloud] 访问 [!DNL Adobe Target]，设置默认登陆页以及更改 [!DNL Target] 用户界面语言的信息。

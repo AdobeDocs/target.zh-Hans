@@ -1,25 +1,30 @@
 ---
 keywords: 可视化体验编辑器选项；体验编辑器选项；体验选项；编辑文本；编辑html；编辑文本/html；编辑背景颜色；背景颜色；插入元素；编辑链接；链接；可视化体验编辑器链接；编辑css类；css类；交换选件；选件交换；交换图像；图像交换；移除项；项移除；隐藏项；项隐藏；重新排列；移动元素；元素移动；调整元素大小；元素大小；扩展选择；导航到此链接；链接导航；链接；链接；撤消；重做；撤消/重做；自定义事件；Web组件；选件决策；选件决策
-description: 浏览 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)中可用的选项。
+description: 浏览[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)中可用的选项。
 title: 如何使用[!UICONTROL 可视化体验编辑器] (VEC)选项？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
+TQID: 'https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 7%
-
+source-wordcount: '2271'
+ht-degree: 8%
 ---
-
 # [!UICONTROL 可视化体验编辑器]选项
 
 [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL 可视化体验编辑器] (VEC)。 本文介绍了已更新的UI及其选项。
@@ -105,17 +110,17 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
    可用的组件将分组为逻辑容器：
 
    * [!UICONTROL 基本]
-      * [!UICONTROL 分隔线]
-      * [!UICONTROL HTML]
-      * [!UICONTROL 图像]
+     * [!UICONTROL 分隔线]
+     * [!UICONTROL HTML]
+     * [!UICONTROL 图像]
    * [!UICONTROL 文本]
-      * [!UICONTROL 标题]
-      * [!UICONTROL 段落]
-      * [!UICONTROL 链接]
+     * [!UICONTROL 标题]
+     * [!UICONTROL 段落]
+     * [!UICONTROL 链接]
    * [!UICONTROL 动态]
-      * [[!UICONTROL 推荐]](/help/main/c-recommendations/recommendations-as-an-offer.md)
-      * [[!UICONTROL 体验片段]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-      * [[!UICONTROL HTML选件]](/help/main/c-experiences/c-manage-content/manage-content.md)
+     * [[!UICONTROL 推荐]](/help/main/c-recommendations/recommendations-as-an-offer.md)
+     * [[!UICONTROL 体验片段]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+     * [[!UICONTROL HTML选件]](/help/main/c-experiences/c-manage-content/manage-content.md)
 
 1. 将组件拖动到[!UICONTROL 设计]画布中的现有页面元素上。
 1. 选择以替换所选元素，或将组件插入到所选元素的前面。

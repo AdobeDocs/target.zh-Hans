@@ -1,16 +1,23 @@
 ---
 keywords: 创建自动分配；A/B测试；自动分配活动；新建A/B活动；自动分配；自动分配到最佳体验；分配；自动分配
-description: 了解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 可视化体验编辑器] (VEC)来创建[!UICONTROL 自动分配] A/B测试活动。
+description: 了解如何在[!DNL Adobe Target]中使用[!UICONTROL 可视化体验编辑器] (VEC)来创建[!UICONTROL 自动分配] A/B测试活动。
 title: 如何创建[!UICONTROL 自动分配]活动？
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '906'
 ht-degree: 39%
-
 ---
-
 # 创建[!UICONTROL 自动分配]活动
 
 在[!DNL Adobe Target]中使用[!UICONTROL 可视化体验编辑器] (VEC)直接在启用了[!DNL Target]的页面上创建[!UICONTROL 自动分配] [!UICONTROL A/B测试]活动，并在[!DNL Target]内修改页面的各个部分。

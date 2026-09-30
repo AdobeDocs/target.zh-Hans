@@ -1,22 +1,26 @@
 ---
 keywords: 报表；统计方法；统计计算；统计数据；平均值；转化率；每位访客带来的收入；rpv；置信区间；提升度；welch t-test；离线计算
-description: 了解在 [!DNL Adobe Target]中手动[!UICONTROL A/B测试]活动中使用的统计计算。
+description: 了解[!DNL Adobe Target]中手动[!UICONTROL A/B测试]活动中使用的统计计算。
 title: 如何了解[!UICONTROL A/B测试]活动中使用的统计计算？
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
+TQID: 'https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 224dafac8d5d0ba17baa4ee998ca7dd89b73b898
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: '1506'
 ht-degree: 1%
-
 ---
-
 # A/Bn测试中的统计计算
 
 本文记录了[!DNL Adobe Target]中手动A/Bn测试中使用的详细统计计算。 提供了&#x200B;**[!UICONTROL 转化率]**、**[!UICONTROL 转化率的置信区间]**、**[!UICONTROL 提升度]**、**[!UICONTROL 提升度的置信区间]**、**[!UICONTROL 置信度]**&#x200B;和&#x200B;**[!UICONTROL 贝叶斯]**&#x200B;决策度量的定义。

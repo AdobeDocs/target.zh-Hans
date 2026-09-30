@@ -1,16 +1,20 @@
 ---
 keywords: 摘要
-description: 查看[!UICONTROL 多变量测试] (MVT)活动的摘要，该摘要提供了您在 [!DNL Adobe Target]中的活动的可视化概述。
+description: 查看[!UICONTROL 多变量测试] (MVT)活动的摘要，该摘要提供了您在[!DNL Adobe Target]中的活动的可视化概述。
 title: 如何查看[!UICONTROL 多变量测试] (MVT)活动的摘要？
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 43%
-
 ---
-
 # 测试摘要（[!UICONTROL 多变量测试]）
 
 测试摘要提供了[!DNL Adobe Target] [!UICONTROL 多变量测试]的可视化概述。

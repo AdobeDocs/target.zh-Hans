@@ -1,23 +1,31 @@
 ---
 keywords: 远程选件；缓存的内容；动态内容；URL类型
-description: 了解如何利用 [!DNL Target] 中的远程选件来托管来自CMS或其他系统的外部内容。
+description: 了解如何利用[!DNL Target]中的远程选件来托管来自CMS或其他系统的外部内容。
 title: 如何创建远程选件？
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
+TQID: 'https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1146'
 ht-degree: 24%
-
 ---
-
 # 创建远程产品建议
 
 使用远程选件在[!DNL Adobe Target]之外托管内容，允许[!DNL Target]引用此内容并将其交付到用户网站。 出于易用性或安全原因，此内容可以驻留在内容管理系统(CMS)或其他系统中。
@@ -41,14 +49,14 @@ ht-degree: 24%
 
 * 支持远程选件：
 
-   * A/B活动
-   * 体验定位 (XT) 活动
-   * 基于表单的工作流
+  * A/B活动
+  * 体验定位 (XT) 活动
+  * 基于表单的工作流
 
 * 不支持远程选件：
 
-   * [高级功能](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP)、自动定位和推荐)
-   * Multivariate Testing (MVT)，由于依赖于VEC，它不支持远程选件。
+  * [高级功能](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP)、自动定位和推荐)
+  * Multivariate Testing (MVT)，由于依赖于VEC，它不支持远程选件。
 
 * 如果选件与[!DNL Target]请求位于同一域中，则使用[!UICONTROL Cached]选项可使用相对URL描述选件位置。
 

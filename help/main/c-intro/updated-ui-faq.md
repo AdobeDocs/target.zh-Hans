@@ -1,31 +1,43 @@
 ---
 keywords: target用户界面；用户界面；ui；常见问题解答；faq
-description: 有关更新的 [!DNL Target]t用户界面的问答。
-title: 可在何处找到有关更新的 [!DNL Target] UI的常见问题解答？
+description: 有关更新的[!DNL Target]t用户界面的问答。
+title: 在哪里可以找到有关更新的[!DNL Target] UI的常见问题解答？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-TQID: https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0
+TQID: 'https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Data collection
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2013
+source-wordcount: '2015'
 ht-degree: 1%
-
 ---
-
 # [!DNL Target]用户界面更新常见问题解答
 
 [!DNL Adobe Target]用户界面重新设计于2025年推出，可为所有用户提供更清晰、更直观的体验。 此常见问题解答涵盖对[!DNL Target] UI和[!UICONTROL 可视化体验编辑器] (VEC)的关键更新，包括导航更改、功能放置和移除临时UI切换。 无论您是营销人员、开发人员还是管理员，它都是您实现平稳过渡和智能工作流的指南。
@@ -47,8 +59,8 @@ ht-degree: 1%
 
 * **2025年6月30日**： [已更新 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)成为已启用UI版本切换的所有IMS组织的默认体验。
 
-   * 默认情况下，当前看到旧版UI的客户现在会在登录时看到更新后的UI。
-   * 用户界面版本切换在7月底之前仍然可用，允许用户在需要时切换回去。
+  * 默认情况下，当前看到旧版UI的客户现在会在登录时看到更新后的UI。
+  * 用户界面版本切换在7月底之前仍然可用，允许用户在需要时切换回去。
 
   >[!IMPORTANT]
   >
@@ -56,8 +68,8 @@ ht-degree: 1%
 
 * **2025年7月15日至7月30日**：将分阶段永久禁用UI版本切换。 受影响的IMS组织无法再还原到旧版UI。
 
-   * 例外情况按个别情况予以审查。
-   * 在解决阻止程序问题时，仅短暂地授予对切换弃用的延迟（几天）。
+  * 例外情况按个别情况予以审查。
+  * 在解决阻止程序问题时，仅短暂地授予对切换弃用的延迟（几天）。
 
 如有任何顾虑或您预计在此过渡期间会出现任何问题，请联系[Adobe客户关怀](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)。
 

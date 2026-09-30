@@ -1,16 +1,20 @@
 ---
 keywords: 多变量测试；MVT；预览；体验
-description: 了解如何使用[!UICONTROL 可视化体验编辑器] (VEC)预览 [!DNL Adobe Target] 中[!UICONTROL 多变量测试] (MVT)活动中的每个体验。
+description: 了解如何使用[!UICONTROL 可视化体验编辑器] (VEC)预览[!DNL Adobe Target]中[!UICONTROL 多变量测试] (MVT)活动中的每个体验。
 title: 如何预览[!UICONTROL 多变量测试] (MVT)的体验？
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '203'
 ht-degree: 29%
-
 ---
-
 # 预览[!UICONTROL 多变量测试]的体验
 
 由于[!DNL Adobe Target]中的[!UICONTROL 多变量测试]比较页面上的多个体验，预览每个体验中的页面将会很有帮助。

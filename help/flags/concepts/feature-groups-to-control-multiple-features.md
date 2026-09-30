@@ -4,13 +4,14 @@ description: 了解标记中的功能组如何让您作为单个单元跨应用�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
-
 ---
-
 # 用于控制多个特征的特征组 {#feature-groups}
 
 [功能标志](what-is-a-feature-flag.md)控制单个功能。 当您需要一起管理多个相关功能标记并确保它们访问同一受众时，您使用&#x200B;**功能组**。

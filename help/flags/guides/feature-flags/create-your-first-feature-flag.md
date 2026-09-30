@@ -4,13 +4,14 @@ description: 了解如何在标记中创建功能标记、设置受众并在向�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 2%
-
+ht-degree: 4%
 ---
-
 # 创建您的第一个功能标记 {#create-feature-flag}
 
 ## 先决条件 {#prerequisites}
@@ -40,7 +41,7 @@ ht-degree: 2%
    | **标识** * | 评估标记的标识（例如，ECID）。 这是功能请求中传递的标识。 |
    | **转出百分比** | 您定义的受众中使用此功能的百分比。 默认为100%。 请参阅[设置功能以逐步推出](set-feature-gradual-rollout.md)。 |
 
-   标有*的字段为必填字段。
+   标有 * 的字段为必填。
 
 >[!IMPORTANT]
 >

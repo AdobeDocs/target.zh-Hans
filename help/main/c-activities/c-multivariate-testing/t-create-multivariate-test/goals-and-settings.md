@@ -1,26 +1,32 @@
 ---
 keywords: 活动设置；目标和设置；多变量；MVT
-description: 了解如何使用 [!DNL Adobe Target] 中的[!UICONTROL 目标和设置]页面指定有关[!UICONTROL 多变量测试] (MVT)活动目标的信息。
+description: 了解如何使用[!DNL Adobe Target]中的[!UICONTROL 目标和设置]页面指定有关[!UICONTROL 多变量测试] (MVT)活动目标的信息。
 title: 如何在[!UICONTROL 多变量测试] (MVT)活动中指定目标和设置？
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+TQID: 'https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 39%
-
+source-wordcount: '1266'
+ht-degree: 40%
 ---
-
 # 目标和设置（[!UICONTROL 多变量测试]）
 
 在[!DNL Adobe Target]中的[!UICONTROL 目标和设置]页面中，您可以输入有关[!UICONTROL 多变量测试] (MVT)活动目标的信息。
@@ -64,7 +70,7 @@ ht-degree: 39%
 
 ### 持续时间
 
-活动可以在获得批准时开始，或者您也可以设置特定的日期和时间。 同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。 时间选择器使用24小时时钟，00:00为午夜。 时区设置为在浏览器中配置的时区。 要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
+活动可以在获得批准时开始，或者您也可以设置特定的日期和时间。 同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。 时间选择器使用的是 24 小时制时钟，其中 00:00 表示午夜。 时区设置为在浏览器中配置的时区。 要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
 
 ## 报表设置 {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -183,7 +189,7 @@ ht-degree: 39%
 
 ### 创建多变量测试(9:25)
 
-本视频演示了如何使用[!DNL Target]三步引导式工作流创建多变量测试。 从7:00开始讨论目标和设置。
+本视频演示了如何使用[!DNL Target]三步引导式工作流创建多变量测试。 对目标和设置的讨论开始于 7:00。
 
 * 定义和设计多变量测试
 * 创建多变量测试

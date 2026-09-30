@@ -4,13 +4,14 @@ description: 配置通过Customer Journey Analytics查看功能标志和功能�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 57bd1106-2b3d-4e03-882a-acfef1c0df66
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 4%
-
 ---
-
 # 设置CJA以生成功能标记报表 {#set-up-cja-reporting}
 
 标记与Adobe Customer Journey Analytics (CJA)之间的集成提供了一种统一的方式来衡量功能标记变体的业务影响。 随时将CJA成功量度应用于标记报表，并利用Customer Journey Analytics功能（如[试验面板](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/experimentation)）来评估试验性能并了解功能变体如何影响客户行为。

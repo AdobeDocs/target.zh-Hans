@@ -4,26 +4,34 @@ description: 了解如何解决[!UICONTROL 可视化体验编辑器] (VEC)中的
 title: 如何解决与[!UICONTROL 可视化体验编辑器]相关的问题？
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-TQID: https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs
+TQID: 'https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: '1154'
 ht-degree: 29%
-
 ---
-
 # 排除与[!UICONTROL 可视化体验编辑器]相关的问题
 
 有时，在某些情况下，[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)会发生显示问题。
@@ -87,16 +95,16 @@ ht-degree: 29%
    * 规则名称
    * 修改规则
 
-      * 将&#x200B;**[!UICONTROL 添加]**&#x200B;切换为&#x200B;**[!UICONTROL 删除]**。
-      * 将&#x200B;**[!UICONTROL 请求]**&#x200B;切换为&#x200B;**[!UICONTROL 响应]**。
-      * 输入“X-Frame-Options”作为标头名称。
-      * 重复执行上述步骤，输入“x-frame-options”作为标头名称。
+     * 将&#x200B;**[!UICONTROL 添加]**&#x200B;切换为&#x200B;**[!UICONTROL 删除]**。
+     * 将&#x200B;**[!UICONTROL 请求]**&#x200B;切换为&#x200B;**[!UICONTROL 响应]**。
+     * 输入“X-Frame-Options”作为标头名称。
+     * 重复执行上述步骤，输入“x-frame-options”作为标头名称。
 
-        >[!NOTE]
-        >
-        >通过[!DNL Requestly]处理的标头区分大小写。
+       >[!NOTE]
+       >
+       >通过[!DNL Requestly]处理的标头区分大小写。
 
-      * 将&#x200B;**[!UICONTROL 等于]**&#x200B;更改为&#x200B;**[!UICONTROL 包含]**&#x200B;以作为源 URL 的条件，并输入您尝试在 VEC 中加载的活动的 URL。
+     * 将&#x200B;**[!UICONTROL 等于]**&#x200B;更改为&#x200B;**[!UICONTROL 包含]**&#x200B;以作为源 URL 的条件，并输入您尝试在 VEC 中加载的活动的 URL。
 
      ![chrome_extension图像](assets/chrome_extension.png)
 
@@ -140,14 +148,14 @@ ht-degree: 29%
 
 * 确保网页的Javascript不会干扰创作库。 请勿使用或包含使用以下保留名称的文件：
 
-   * `target-vec-helper.js`
-   * `target-vec.js`
-   * `target.js`
-   * `admin.css`
-   * `sizzle.js`
-   * `mixContentCheck.html`
+  * `target-vec-helper.js`
+  * `target-vec.js`
+  * `target.js`
+  * `admin.css`
+  * `sizzle.js`
+  * `mixContentCheck.html`
 
-     此外，意外覆盖这些文件内定义的变量或事件可能会导致VEC出现问题。
+    此外，意外覆盖这些文件内定义的变量或事件可能会导致VEC出现问题。
 
 * 浏览器阻止安全网站上的不安全页面。
 

@@ -1,23 +1,29 @@
 ---
 keywords: 创建体验;体验创建;优先级;受众;体验;可视化体验编辑器
-description: 了解如何使用 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)在[!UICONTROL 体验定位] (XT)活动中的页面上创建和编辑体验。
+description: 了解如何使用[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)在[!UICONTROL 体验定位] (XT)活动中的页面上创建和编辑体验。
 title: 如何在[!UICONTROL 体验定位]活动中创建体验？
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-TQID: https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ
+TQID: 'https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: '978'
 ht-degree: 21%
-
 ---
-
 # 在[!UICONTROL 体验定位] (XT)活动中创建体验
 
 [!DNL Adobe Target]中的[!UICONTROL 可视化体验编辑器] (VEC)提供了一个可视化界面，用于编辑[!UICONTROL 体验定位] (XT)活动中的页面上的体验。
@@ -124,4 +130,4 @@ ht-degree: 21%
 * 更改页面的内容
 * 更改页面的布局
 
->[!VIDEO](https://video.tv.adobe.com/v/30331?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

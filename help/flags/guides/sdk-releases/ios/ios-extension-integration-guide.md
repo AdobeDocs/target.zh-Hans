@@ -3,13 +3,14 @@ title: iOS集成指南的Flags扩展
 description: 了解如何将Flags扩展与iOS上的Adobe Experience Platform Mobile SDK集成。
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 5%
-
+source-wordcount: '1046'
+ht-degree: 6%
 ---
-
 # 标记iOS的扩展 {#ios-extension-integration-guide}
 
 本指南介绍如何将Flags扩展与iOS上的Adobe Experience Platform Mobile SDK集成。

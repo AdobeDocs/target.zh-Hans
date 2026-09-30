@@ -1,23 +1,28 @@
 ---
 keywords: 多变量测试;MVT;体验性能报表
-description: 了解如何对Adobe [!DNL Target] 体验定位活动使用体验性能报表，以显示活动中每个体验的表现。
+description: 了解如何将Experience Performance报表用于Adobe [!DNL Target]体验定位活动，以显示活动中每个体验的执行情况。
 title: 如何将体验性能报表用于多变量测试？
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-TQID: https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg
+TQID: 'https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 331
-ht-degree: 71%
-
+source-wordcount: '333'
+ht-degree: 74%
 ---
-
 # [!UICONTROL 体验性能]报表(MVT)
 
 [!UICONTROL 体验性能]报表显示活动中每个体验的执行情况。 此报表包含有关参加者数量、转化率、提升度和置信度的信息。
@@ -42,6 +47,6 @@ ht-degree: 71%
 
 ## 培训视频：创建MVT测试![教程徽章](/help/main/assets/tutorial.png)
 
-以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。 从8:20开始描述体验性能报表。
+以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。 对体验性能报表的介绍开始于 8:20。
 
 >[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)

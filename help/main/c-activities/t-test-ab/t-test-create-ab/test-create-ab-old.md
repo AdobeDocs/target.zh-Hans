@@ -1,16 +1,23 @@
 ---
 keywords: 创建A/B；A/B测试；A/B活动；新建a/b活动；创建a/b
-description: 了解如何在Adobe [!DNL Target] 中使用可视化体验编辑器(VEC)，以直接在启用了 [!DNL Target]的页面上创建A/B测试活动。
+description: 了解如何在Adobe [!DNL Target]中使用可视化体验编辑器(VEC)，以直接在启用了[!DNL Target]的页面上创建A/B测试活动。
 title: 如何创建A/B测试？
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '949'
 ht-degree: 36%
-
 ---
-
 # 创建 A/B 测试
 
 在[!DNL Adobe Target]中使用[!UICONTROL 可视化体验编辑器] (VEC)直接在启用了[!DNL Target]的页面上创建[!UICONTROL A/B测试]活动，并在[!DNL Target]内修改页面的各个部分。

@@ -1,16 +1,20 @@
 ---
 keywords: 多变量测试;MVT;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
-description: 了解如何在 [!DNL Adobe Target] [!UICONTROL 多变量测试]活动中指定量度以确定访问何时成功，例如[!UICONTROL 转化]、[!UICONTROL 收入]和[!UICONTROL 参与]。
+description: 了解如何在[!DNL Adobe Target] [!UICONTROL 多变量测试]活动中指定量度以确定访问何时成功，例如[!UICONTROL 转化]、[!UICONTROL 收入]和[!UICONTROL 参与]。
 title: 如何在[!UICONTROL 多变量测试] (MVT)活动中设置目标量度？
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 57%
-
 ---
-
 # 为[!UICONTROL 多变量测试]活动设置量度
 
 在[!DNL Adobe Target] [!UICONTROL 多变量测试]中使用量度来确定访问何时被视为成功。

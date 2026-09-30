@@ -1,22 +1,26 @@
 ---
 keywords: MVT；多变量测试；选件；组合
-description: 了解如何在Adobe [!DNL Target] 中使用[!UICONTROL 可视化体验编辑器] (VEC)来创建要包含在[!UICONTROL 多变量测试] (MVT)中的选件。
+description: 了解如何使用Adobe [!DNL Target]中的[!UICONTROL 可视化体验编辑器] (VEC)创建要包含在[!UICONTROL 多变量测试] (MVT)中的选件。
 title: 如何在[!UICONTROL 多变量测试] (MVT)中创建组合？
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-TQID: https://experienceleague.adobe.com/3vxuP07ZViE1etmmvBdYVHIOrtZqRZfL3nE5RMHo9rU
+TQID: 'https://experienceleague.adobe.com/3vxuP07ZViE1etmmvBdYVHIOrtZqRZfL3nE5RMHo9rU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 498
+source-wordcount: '499'
 ht-degree: 55%
-
 ---
-
 # 创建组合
 
 在[!DNL Adobe Target]中使用[!UICONTROL 可视化体验编辑器] (VEC)创建要包含在[!UICONTROL 多变量测试] (MVT)中的选件。

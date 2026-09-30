@@ -5,21 +5,27 @@ title: 如何使用自动定位摘要报表？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-TQID: https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8
+TQID: 'https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: '666'
 ht-degree: 35%
-
 ---
-
 # [!UICONTROL 自动锁定摘要报表]
 
 有关如何在[!DNL Adobe Target]中解释[!UICONTROL 自动定位摘要]报表的信息。
@@ -47,14 +53,14 @@ ht-degree: 35%
 
 * 表中的各行可帮助您了解活动表现。
 
-   * 报表页面上表的前两行显示的是分配给控制的访客（即随机提供的体验）与分配给个性化算法的访客之间的A/B测试结果。 此信息可用于衡量个性化算法与随机提供控制相比的执行情况。
-   * 其余的行显示体验级别的结果。 对于每个体验，系统会将以下两类访客的平均响应进行比较：向其显示随机提供控制体验的访客，以及向其显示使用了个性化算法的体验的访客。
+  * 报表页面上表的前两行显示的是分配给控制的访客（即随机提供的体验）与分配给个性化算法的访客之间的A/B测试结果。 此信息可用于衡量个性化算法与随机提供控制相比的执行情况。
+  * 其余的行显示体验级别的结果。 对于每个体验，系统会将以下两类访客的平均响应进行比较：向其显示随机提供控制体验的访客，以及向其显示使用了个性化算法的体验的访客。
 
 * 报表中每个体验旁边的绿色复选标记表示已为该体验生成个性化的机器学习模型。 时钟图标表示用于构建模型的流量不足。
 
-   * 由于该模型是根据每个体验构建的，因此可以根据绿色复选标记查看其中部分体验的模型，并使用时钟图标查看其他体验的模型。
-   * 在这种情况下，要提高为所有体验构建模型的活动的速度，需将额外流量发送到未构建模型的体验。
-   * 必须至少有两个具有已构建模型（绿色复选标记）的体验，才能开始个性化。
+  * 由于该模型是根据每个体验构建的，因此可以根据绿色复选标记查看其中部分体验的模型，并使用时钟图标查看其他体验的模型。
+  * 在这种情况下，要提高为所有体验构建模型的活动的速度，需将额外流量发送到未构建模型的体验。
+  * 必须至少有两个具有已构建模型（绿色复选标记）的体验，才能开始个性化。
 
 * 将体验A的转化率与体验B的转化率进行比较在[!UICONTROL 自动定位]中不是正确的比较。 问题在于，与随机提供体验 A 的方式相比（换言之，与控制体验相比），以智能方式提供体验 A 时，体验 A 的性能是否更好。 此外，营销人员还应谨慎解读个人体验的提升，因为个性化算法会尝试优化整个活动的成功量度，而不是针对每一个个人体验进行优化。
 * 可以这样理解：具有最高提升度的体验在人群中具有最大的差异。 也就是说，算法发现了一个最喜爱该特定体验的区段。

@@ -4,35 +4,54 @@ description: 了解 Adobe Target 的基础知识。 本文向您介绍 Target、
 title: 如何使用 Target？
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-TQID: https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA
+TQID: 'https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2
+    internal-label: Analytics data
   - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
   - id: c2923fce-066f-4e68-bc28-ac56b57ccb5c
+    internal-label: Custom segments
   - id: ca2e0bf6-f9f8-4b6b-a630-a3c4b1455817
+    internal-label: Reusable audiences
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
   - id: e73b329c-f712-4a22-abe7-bfbf3be6d0f9
+    internal-label: Multivariate test
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
   - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1538
+source-wordcount: '1540'
 ht-degree: 83%
-
 ---
-
 # Target 关键概念
 
 此信息介绍了有助于您了解 [!DNL Adobe Target] 特性和功能的关键概念。
@@ -139,7 +158,7 @@ Target 包括多种活动类型。 下表提供了每种活动类型的概述，
 
 >[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
 
-### 在Adobe Target (6:21) ![概述徽章](/help/main/assets/overview.png)中使用受众
+### 在Adobe Target中使用受众(6:21) ![概述徽章](/help/main/assets/overview.png)
 
 以下视频介绍了如何在 [!DNL Target Standard/Premium] 中使用受众。
 

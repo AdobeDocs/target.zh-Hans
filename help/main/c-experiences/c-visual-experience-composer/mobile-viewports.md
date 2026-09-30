@@ -1,22 +1,26 @@
 ---
 keywords: 响应式;移动视区;视区;设备;移动;响应式网页设计;rwd
-description: 移动视区可帮助您了解 Adobe  [!DNL Target]  活动在各种大小的屏幕上的观感。 查找常用设备视区大小和分辨率的列表。
+description: 移动视区可帮助您了解Adobe [!DNL Target]活动在各种大小的Screens上的观感。 查找常用设备视区大小和分辨率的列表。
 title: 如何将移动视区用于响应式体验？
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
+TQID: 'https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1379
-ht-degree: 93%
-
+source-wordcount: '1382'
+ht-degree: 92%
 ---
-
 # 移动视区用于响应式体验
 
 通过移动视区，可预览您的 [!DNL Adobe Target] 活动在各种大小的屏幕上的效果。
@@ -169,7 +173,7 @@ ht-degree: 93%
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 可视化体验编辑器(2/2) (7:29) ![概述徽章](/help/main/assets/overview.png)
+### 可视化体验编辑器（第2个，共2个）(7:29) ![概述徽章](/help/main/assets/overview.png)
 
 以下演示视频包含有关通过可视化体验编辑器使用移动设备视区的信息：
 

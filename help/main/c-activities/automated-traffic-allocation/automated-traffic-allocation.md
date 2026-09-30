@@ -1,27 +1,37 @@
 ---
 keywords: 自动流量分配；定位；递增计数并保持用户处于活动中；流量分配；自动分配
-description: 了解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 自动分配]活动，该活动可在两个或更多体验中标识入选者，并自动为入选者重新分配更多流量。
+description: 了解如何在[!DNL Adobe Target]中使用[!UICONTROL 自动分配]活动，该活动在两个或更多体验中标识入选者，并自动为入选者重新分配更多流量。
 title: 什么是[!UICONTROL 自动分配]活动？
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+TQID: 'https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3756
+source-wordcount: '3760'
 ht-degree: 34%
-
 ---
-
 # [!UICONTROL 自动分配]概述
 
 [!DNL Adobe Target]中的[!UICONTROL 自动分配]活动在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
@@ -134,9 +144,9 @@ ht-degree: 34%
 
   例如：
 
-   * “感谢上帝，今天是星期五”导致周五的转化率上升。
-   * “Jump-start your Monday”周一的转化率更高。
-   * “Gear up for a East-coast winter”（为东海岸的冬季做好准备）在东海岸或受冬季影响的地点提供了更高的转化率。
+  * “感谢上帝，今天是星期五”导致周五的转化率上升。
+  * “Jump-start your Monday”周一的转化率更高。
+  * “Gear up for a East-coast winter”（为东海岸的冬季做好准备）在东海岸或受冬季影响的地点提供了更高的转化率。
 
   使用具有不同上下文相关性的体验可能会使[!UICONTROL 自动分配]测试中的结果产生比在A/B测试中更严重的偏差，因为A/B测试对结果的分析会持续较长时间。
 

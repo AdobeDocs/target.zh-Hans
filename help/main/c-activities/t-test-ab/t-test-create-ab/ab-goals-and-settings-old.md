@@ -1,16 +1,23 @@
 ---
 keywords: 活动设置;A/B 目标和设置;报表设置;目标量度;成功量度;依赖的成功量度;高级设置;主要目标;其他量度;目的;优先级;持续时间;报表解决方案;目标;报表的受众;递增此量度之前必须实现哪些成功量度;用户遇到此目标量度后会出现什么情况;注释
 description: 了解如何使用[!UICONTROL 目标和设置]页面指定有关A/B活动目标的信息。
-title: 如何在 [!DNL Target] A/B活动中指定目标和设置？
+title: 如何在[!DNL Target] A/B活动中指定目标和设置？
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 37%
-
+source-wordcount: '1416'
+ht-degree: 38%
 ---
-
 # 目标和设置
 
 在[!DNL Adobe Target]中的[!UICONTROL 目标和设置]页面中，您可以指定有关活动目标的信息。
@@ -25,7 +32,7 @@ ht-degree: 37%
 |--- |--- |
 | [!UICONTROL 目标] | 键入一个可选目的。 目标可以是任何有助于您和您的团队成员识别活动的信息。 |
 | [!UICONTROL 优先级] | 根据您的设置，[!UICONTROL 优先级]的[!DNL Target] UI和选项会有所不同。 您可以使用[!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]的旧设置，也可以启用0到999的细粒度优先级。<P>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。 如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<P>如果未在[!UICONTROL 管理]中启用此选项（默认值），请指定优先级： [!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]。<P>要启用[细粒度优先级](/help/main/administrating-target/reporting.md)，请单击[!UICONTROL 管理] > [!UICONTROL 报告]，然后将[!UICONTROL 启用细粒度优先级]选项切换到“开”位置。 <P>如果已启用此选项，请指定从0到999的值： 0 = [!UICONTROL 低]和999 = [!UICONTROL 高]。 <P>对于在以前版本的[!DNL Target]中创建的活动，[!UICONTROL 低]优先级已转换为0，[!UICONTROL Medium]已转换为5，[!UICONTROL 高]已转换为10。 您可以根据需要调整这些值。<P>注意：在使用细粒度优先级后，您可以禁用此选项，但在此之前，必须将所有优先级重新设置为0、5、10。 |
-| 持续时间 | 活动可以在获得批准时开始，或者您也可以设置特定的日期和时间。 同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。 时间选择器使用24小时时钟，00:00为午夜。 时区设置为在浏览器中配置的时区。 要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。 |
+| 持续时间 | 活动可以在获得批准时开始，或者您也可以设置特定的日期和时间。 同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。 时间选择器使用的是 24 小时制时钟，其中 00:00 表示午夜。 时区设置为在浏览器中配置的时区。 要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。 |
 
 ## [!UICONTROL 报表设置] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -82,7 +89,7 @@ ht-degree: 37%
 
 ### 创建A/B测试(8:36) ![教程徽章](/help/main/assets/tutorial.png)
 
-以下视频演示了创建活动时三步引导式工作流中有哪些可用的活动设置。 从5:30开始讨论目标和设置。
+以下视频演示了创建活动时三步引导式工作流中有哪些可用的活动设置。 对目标和设置的讨论开始于 5:30。
 
 * 在 Adobe Target 中创建 A/B 活动
 * 使用手动拆分或自动流量分配来分配流量

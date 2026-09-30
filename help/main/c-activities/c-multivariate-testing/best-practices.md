@@ -1,21 +1,24 @@
 ---
 keywords: MVT;多变量测试;多变量测试最佳实践;MVT 最佳实践;MVT 组合;MVT 报表
-description: 了解如何改进性能、避免问题以及更正在 [!DNL Adobe Target]中创建和运行[!UICONTROL 多变量测试]活动时可能发生的已知问题。
+description: 了解如何改进性能、避免问题以及纠正在[!DNL Adobe Target]中创建和运行[!UICONTROL 多变量测试]活动时可能发生的已知问题。
 title: '[!UICONTROL 多变量测试]活动的最佳实践是什么？'
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
+TQID: 'https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 55%
-
 ---
-
 # [!UICONTROL 多变量测试]最佳实践
 
 以下提示可帮助您在[!DNL Adobe Target]中创建和运行[!UICONTROL 多变量测试] (MVT)活动时提高性能、避免出现问题，并更正可能会出现的已知问题。
@@ -62,11 +65,11 @@ ht-degree: 55%
 
   重置体验名称和报表的特定操作包括：
 
-   * 添加新位置
-   * 删除位置
-   * 添加新选件或从现有位置删除选件
-   * 编辑富文本选件
-   * 编辑背景颜色选件
+  * 添加新位置
+  * 删除位置
+  * 添加新选件或从现有位置删除选件
+  * 编辑富文本选件
+  * 编辑背景颜色选件
 
 * 通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
 

@@ -1,22 +1,29 @@
 ---
 keywords: 欢迎套件;target 欢迎套件;简介;简介;快速入门
-description: 使用执行摘要结果模板帮助您传达您的 Adobe [!DNL Target] 活动取得成功的情况。
-title: 如何才能与我的组织分享我的 [!DNL Target] 活动的结果？
+description: 使用执行摘要结果模板帮助您传达您的Adobe [!DNL Target]活动取得成功的情况。
+title: 如何与我的组织分享我的[!DNL Target]活动的结果？
 feature: Overview
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
-TQID: https://experienceleague.adobe.com/mO9F-HaF2IvFvB4m9uILZOondvs-POKUUGeb6Oq24EQ
+TQID: 'https://experienceleague.adobe.com/mO9F-HaF2IvFvB4m9uILZOondvs-POKUUGeb6Oq24EQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 100%
-
+source-wordcount: '218'
+ht-degree: 87%
 ---
-
 # 第 8 章：传达您的活动结果
 
 如果运行一项活动并取得了很好的结果，那么您需要与组织分享这些结果。 也许你刚刚获得了更多客户、提高了收入、通过减少呼叫中心致电而节省了资金或提升了平均订单价值。 向利益相关者展示您通过用 [!DNL Target] 进行优化和个性化，可为业务实现什么。

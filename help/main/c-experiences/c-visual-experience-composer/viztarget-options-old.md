@@ -1,16 +1,20 @@
 ---
 keywords: 可视化体验编辑器选项；体验编辑器选项；体验选项；编辑文本；编辑html；编辑文本/html；编辑背景颜色；背景颜色；插入元素；编辑链接；链接；可视化体验编辑器链接；编辑css类；css类；交换选件；选件交换；交换图像；图像交换；移除项；项移除；隐藏项；项隐藏；重新排列；移动元素；元素移动；调整元素大小；元素大小；扩展选择；导航到此链接；链接导航；链接；链接；撤消；重做；撤消/重做；自定义事件；Web组件；选件决策；选件决策
-description: 浏览 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)中可用的选项。
+description: 浏览[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)中可用的选项。
 title: 如何使用[!UICONTROL 可视化体验编辑器] (VEC)选项？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '3014'
 ht-degree: 55%
-
 ---
-
 # 可视化体验编辑器选项
 
 单击[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)中的某个页面元素时，会显示一个菜单，其中提供了可用于该元素类型的选项。 此外，页面底部会显示一个 DOM 路径，可让您轻松浏览页面结构。
@@ -74,15 +78,15 @@ ht-degree: 55%
 
   更改背景颜色和图像。
 
-   * 颜色（指定颜色代码或使用拾色器）
-   * 图像（从图像选择器中选择图像）
-   * 图像源（指定外部 URL）
-   * 附件
-      * 单击顶部的下拉列表以选择 scroll、fixed 或 local
-      * 单击底部的下拉列表以选择 repeat、repeat-x、repeat-y、no-repeat、space 或 round
-   * 剪辑
-      * 单击顶部的下拉列表以选择 border-box、padding-box、content-box 或 text
-      * 单击底部的下拉列表以选择自动音频或音频
+  * 颜色（指定颜色代码或使用拾色器）
+  * 图像（从图像选择器中选择图像）
+  * 图像源（指定外部 URL）
+  * 附件
+    * 单击顶部的下拉列表以选择 scroll、fixed 或 local
+    * 单击底部的下拉列表以选择 repeat、repeat-x、repeat-y、no-repeat、space 或 round
+  * 剪辑
+    * 单击顶部的下拉列表以选择 border-box、padding-box、content-box 或 text
+    * 单击底部的下拉列表以选择自动音频或音频
 
 * **[!UICONTROL 排版规则]**
 
@@ -92,13 +96,13 @@ ht-degree: 55%
 
   您可以编辑以下排版样式：
 
-   * [!UICONTROL 字体大小]
-   * [!UICONTROL 字体粗细]
-   * [!UICONTROL 字体样式]
-   * [!UICONTROL 颜色]（指定颜色代码或使用拾色器）
-   * [!UICONTROL 字间距]
-   * [!UICONTROL 行高]
-   * [!UICONTROL 文本对齐方式]
+  * [!UICONTROL 字体大小]
+  * [!UICONTROL 字体粗细]
+  * [!UICONTROL 字体样式]
+  * [!UICONTROL 颜色]（指定颜色代码或使用拾色器）
+  * [!UICONTROL 字间距]
+  * [!UICONTROL 行高]
+  * [!UICONTROL 文本对齐方式]
 
 * **[!UICONTROL 利润]**
 
@@ -106,8 +110,8 @@ ht-degree: 55%
 
   单击每个边距的下拉图标，从以下选项中进行选择：
 
-   * [!UICONTROL 自动]
-   * [!UICONTROL 值] （拖动滑块以设置边距或指定每个边距的像素数）
+  * [!UICONTROL 自动]
+  * [!UICONTROL 值] （拖动滑块以设置边距或指定每个边距的像素数）
 
   边距支持正值和负值。
 
@@ -129,9 +133,9 @@ ht-degree: 55%
 
   您可以编辑每个边框的以下样式（上边框、右边框、下边框和左边框）：
 
-   * [!UICONTROL 边框样式] （无、隐藏、点线、虚线、实线或双线）
-   * [!UICONTROL 边框颜色]（指定颜色代码或使用拾色器）
-   * [!UICONTROL 边框宽度] （拖动滑块以选择边框宽度或以像素为单位指定宽度）
+  * [!UICONTROL 边框样式] （无、隐藏、点线、虚线、实线或双线）
+  * [!UICONTROL 边框颜色]（指定颜色代码或使用拾色器）
+  * [!UICONTROL 边框宽度] （拖动滑块以选择边框宽度或以像素为单位指定宽度）
 
   边框支持的宽度范围从 0 开始。
 
@@ -143,16 +147,16 @@ ht-degree: 55%
 
   单击[!UICONTROL 静态]下拉列表以从以下位置选项中进行选择：
 
-   * [!UICONTROL 静态]
-   * [!UICONTROL 相对]
-   * [!UICONTROL 绝对]
-   * [!UICONTROL 粘性]
-   * [!UICONTROL 已修复]
+  * [!UICONTROL 静态]
+  * [!UICONTROL 相对]
+  * [!UICONTROL 绝对]
+  * [!UICONTROL 粘性]
+  * [!UICONTROL 已修复]
 
   单击每个位置的下拉图标，从以下选项中进行选择：
 
-   * [!UICONTROL 自动]
-   * [!UICONTROL 值] （拖动滑块以定位元素或指定要移动元素的像素数）
+  * [!UICONTROL 自动]
+  * [!UICONTROL 值] （拖动滑块以定位元素或指定要移动元素的像素数）
 
   位置支持正值和负值。
 
@@ -164,22 +168,22 @@ ht-degree: 55%
 
   单击[!UICONTROL 宽度]和[!UICONTROL 高度]旁边的下拉图标，从以下选项中进行选择：
 
-   * [!UICONTROL 自动]
-   * [!UICONTROL 值] （拖动滑块以调整元素的大小或指定每个维度的像素数）
+  * [!UICONTROL 自动]
+  * [!UICONTROL 值] （拖动滑块以调整元素的大小或指定每个维度的像素数）
 
 * **[!UICONTROL 过滤器]**
 
   拖动每个筛选器选项的滑块或指定所需的百分比：
 
-   * [!UICONTROL 棕褐色]
-   * [!UICONTROL 对比度]
-   * [!UICONTROL 亮度]
-   * [!UICONTROL 灰度]
-   * [!UICONTROL 模糊]
-   * [!UICONTROL 不透明度]
-   * [!UICONTROL 反转]
-*[!UICONTROL 色相旋转]
-   * [!UICONTROL 饱和]
+  * [!UICONTROL 棕褐色]
+  * [!UICONTROL 对比度]
+  * [!UICONTROL 亮度]
+  * [!UICONTROL 灰度]
+  * [!UICONTROL 模糊]
+  * [!UICONTROL 不透明度]
+  * [!UICONTROL 反转]
+    *[!UICONTROL 色相旋转]
+  * [!UICONTROL 饱和]
 
 * **[!UICONTROL CSS编辑器]**
 
@@ -217,7 +221,7 @@ ht-degree: 55%
 
 ### [!UICONTROL 优惠决策]
 
-添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}中创建的选件，以使用Offer Decisioning向客户提供最佳选件和体验。
+添加在 [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}中创建的选件，以使用Offer Decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B测试]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL 体验定位]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -249,7 +253,7 @@ ht-degree: 55%
 
 ### [!UICONTROL 优惠决策]
 
-添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}中创建的选件，以使用Offer Decisioning向客户提供最佳选件和体验。
+添加在 [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}中创建的选件，以使用Offer Decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B测试]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL 体验定位]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -281,7 +285,7 @@ ht-degree: 55%
 
 ### [!UICONTROL 优惠决策]
 
-添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}中创建的选件，以使用Offer Decisioning向客户提供最佳选件和体验。
+添加在 [!DNL Adobe Journey Optimizer]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}中创建的选件，以使用Offer Decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B测试]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL 体验定位]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -388,16 +392,16 @@ VEC支持[Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components
 以下操作在自定义元素中不可用：
 
 * [!UICONTROL 编辑]
-   * [!UICONTROL 文本/HTML]
-   * [!UICONTROL 链接]
-   * [!UICONTROL 编辑Source]
+  * [!UICONTROL 文本/HTML]
+  * [!UICONTROL 链接]
+  * [!UICONTROL 编辑Source]
 
 * [!UICONTROL 替换内容]
 
 以下操作在自定义元素中不可用：
 
 * [!UICONTROL 布局]
-   * [!UICONTROL 重新排列]
+  * [!UICONTROL 重新排列]
 
 ## 使用DOM路径浏览元素 {#dom-path}
 

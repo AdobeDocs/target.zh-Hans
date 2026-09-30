@@ -1,40 +1,59 @@
 ---
 keywords: 公告;skill builder;开发人员聊天;喝咖啡休息时间;活动;forrester;gartner;网络研讨会
-description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Skill Builder 讲座、开发人员和产品经理聊天、网络研讨会等。
-title: 可在何处找到 [!DNL Target] 公告和活动信息？
+description: 阅读公告并报名参加Adobe [!DNL Target]活动，包括Skill Builder讲座、开发人员和产品经理聊天、网络研讨会等。
+title: 可在何处找到[!DNL Target]公告和活动信息？
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-TQID: https://experienceleague.adobe.com/jTTFaG0rC7XEmy7yzL3YSeCqEdMy-oH9mbCMvufT-FQ
+TQID: 'https://experienceleague.adobe.com/jTTFaG0rC7XEmy7yzL3YSeCqEdMy-oH9mbCMvufT-FQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: addf009e-030a-4310-8534-776a3e62ed48
+    internal-label: Customer lifecycle
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Privacy
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2199
-ht-degree: 95%
-
+source-wordcount: '2201'
+ht-degree: 94%
 ---
-
 # [!DNL Adobe Target]公告和活动
 
 关于 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。 包括以往录像（如果有的话）的链接。
@@ -57,7 +76,7 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 
 If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=zh-Hans){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=zh-Hans){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
 +++
 -->
@@ -88,7 +107,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   了解推荐算法如何变革商业规则，从而提高参与度和收入。 从个性化产品建议到内容推荐，无缝引导用户完成整个历程的能力可直接有助于实现显著的业务增长。
 
-  [听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=zh-Hans#M3685){target=_blank}
+  [听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **发掘 AI 支持的个性化**
 
@@ -151,10 +170,10 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   在本次研讨会中，了解如何利用 [!DNL Adobe Target] 的新增功能来大幅提高转化率，并讨论：
 
-   * [!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动中的增强模型控件
-   * 解锁从 [!DNL Adobe] 的 [!DNL Real-Time Customer Data Platform] 评估轮廓属性和高价值区段的能力
-   * 各个品牌如何微调其 AI 支持的算法来加快速度和决策制定
-   * 提供一对一个性化的独特用例
+  * [!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动中的增强模型控件
+  * 解锁从 [!DNL Adobe] 的 [!DNL Real-Time Customer Data Platform] 评估轮廓属性和高价值区段的能力
+  * 各个品牌如何微调其 AI 支持的算法来加快速度和决策制定
+  * 提供一对一个性化的独特用例
 
   +++
 
@@ -174,11 +193,11 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   课程图：
 
-   * [!UICONTROL A/B测试]、[!UICONTROL Multivariate Testing] (MVT)、(XT)以及自动测试和个性化
-   * 活动设置的分步工作流
-   * 批量体验预获取，实现移动设备的始终运行个性化
-   * 用于跨客户体验进行测试和定位的生命周期量度
-   * Mobile SDK = 用于灵活实施的 API（iOS 和 Android 平台）
+  * [!UICONTROL A/B测试]、[!UICONTROL Multivariate Testing] (MVT)、(XT)以及自动测试和个性化
+  * 活动设置的分步工作流
+  * 批量体验预获取，实现移动设备的始终运行个性化
+  * 用于跨客户体验进行测试和定位的生命周期量度
+  * Mobile SDK = 用于灵活实施的 API（iOS 和 Android 平台）
 
   +++
 
@@ -192,9 +211,9 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   探讨以下方面的想法：
 
-   * 如何使用个性化来建立忠诚度
-   * 优化竞争优势
-   * 创造超个性化体验
+  * 如何使用个性化来建立忠诚度
+  * 优化竞争优势
+  * 创造超个性化体验
 
   +++
 
@@ -254,10 +273,10 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   了解 Dick&#39;s Sporting Goods 如何推动两位数的增长：
 
-   * 如何为零售业规划和启动高性能个性化计划
-   * 为什么获得整个组织的认可对于克服障碍和阻碍至关重要
-   * 通过在网络和移动设备上扩展个性化和实验活动，对整体业务产生影响
-   * 使用分析数据将普通访客转化为回访访客的零售技巧
+  * 如何为零售业规划和启动高性能个性化计划
+  * 为什么获得整个组织的认可对于克服障碍和阻碍至关重要
+  * 通过在网络和移动设备上扩展个性化和实验活动，对整体业务产生影响
+  * 使用分析数据将普通访客转化为回访访客的零售技巧
 
   +++
 
@@ -285,10 +304,10 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   了解国民城市银行如何利用 [!DNL Target] 来：
 
-   * 规模测试和实验、个性化和人工智能自动化活动
-   * 推动跨渠道的获胜体验，发展真实的关系
-   * 通过增加参与度和个性化产品建议的采用，加快业务增长
-   * 优化多渠道营销活动，以实现时间价值和 ROI。
+  * 规模测试和实验、个性化和人工智能自动化活动
+  * 推动跨渠道的获胜体验，发展真实的关系
+  * 通过增加参与度和个性化产品建议的采用，加快业务增长
+  * 优化多渠道营销活动，以实现时间价值和 ROI。
 
   +++
 
@@ -316,11 +335,11 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   在此网络研讨会上向 Adobe 和汇丰银行了解以下各项：
 
-   * HSBC 的优化和个性化努力如何推动组织的快速变革
-   * AI 与 Analytics 如何为其工作提速并产生明确、显著的业务影响
-   * 汇丰银行如何成功构建了一个提供 3000 多种活动的大规模项目
+  * HSBC 的优化和个性化努力如何推动组织的快速变革
+  * AI 与 Analytics 如何为其工作提速并产生明确、显著的业务影响
+  * 汇丰银行如何成功构建了一个提供 3000 多种活动的大规模项目
 
-   * McKinsey 文章：“[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)”，2020 年 5 月
+  * McKinsey 文章：“[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)”，2020 年 5 月
 
   +++
 

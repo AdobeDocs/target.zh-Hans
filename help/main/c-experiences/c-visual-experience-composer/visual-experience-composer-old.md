@@ -4,13 +4,17 @@ description: 了解在Adobe Target中使用可视化体验编辑器(VEC)的基�
 title: 如何使用可视化体验编辑器(VEC)？
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1382'
 ht-degree: 75%
-
 ---
-
 # 可视化体验编辑器 (VEC)
 
 有关在[!DNL Adobe Target]中使用[!UICONTROL 可视化体验编辑器] (VEC)的信息。
@@ -113,7 +117,7 @@ VEC 是 [!DNL Adobe Target] 的主要功能之一。 通过 VEC，营销人员�
 * 更改页面的内容
 * 更改页面的布局
 
->[!VIDEO](https://video.tv.adobe.com/v/30331?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
 ### 可视化体验编辑器（第2个，共2个） (7:29) ![教程徽章](/help/main/assets/tutorial.png)
 

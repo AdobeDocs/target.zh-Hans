@@ -1,18 +1,29 @@
 ---
 keywords: 体验;控制;自动个性化;自动锁定
-description: 了解在 [!DNL Adobe Target]中创建[!UICONTROL Automated Personalization] (AP)或[!UICONTROL 自动定位]活动时，如何选择要用作控制的体验。
+description: 了解在[!DNL Adobe Target]中创建[!UICONTROL Automated Personalization] (AP)或[!UICONTROL 自动定位]活动时，如何选择要用作控制的体验。
 title: 如何在[!UICONTROL Automated Personalization]活动中使用特定体验作为控制？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 39%
-
 ---
-
 # 选择[!UICONTROL Automated Personalization]或[!UICONTROL 自动定位]活动的控制
 
 在创建[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)或[[!UICONTROL 自动定位]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)活动时，您可以选择随机提供的体验或特定体验作为控制。
@@ -49,6 +60,6 @@ ht-degree: 39%
 * 由于当您选择体验作为控制时，所有控制流量都会流向一个体验或一组产品建议（与将随机体验作为控制相比，在这种情况下，控制流量会根据您的活动中的体验或产品建议数进行拆分），因此您通常无需使大量流量流向控制。 分配 10% 的流量即可。
 * 如果您对使用特定体验作为控制的实时活动执行以下操作之一，则控制会自动重置为随机提供的体验（而不是之前选择的特定体验）：
 
-   * 删除体验
-   * 删除位置或选件（仅限[!UICONTROL Automated Personalization]）
-   * 通过删除重复的选件或通过排除组手动排除体验（仅限[!UICONTROL Automated Personalization]）
+  * 删除体验
+  * 删除位置或选件（仅限[!UICONTROL Automated Personalization]）
+  * 通过删除重复的选件或通过排除组手动排除体验（仅限[!UICONTROL Automated Personalization]）

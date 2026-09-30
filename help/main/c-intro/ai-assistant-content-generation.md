@@ -3,7 +3,7 @@ keywords: ai助手；人工智能助手；内容生成；内容加速器；内�
 description: 了解如何使用[!DNL AI Assistant]生成参与式内容。
 title: 如何使用[!DNL Target]中的[!DNL AI Assistant]生成参与内容？
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="[!DNL Adobe Target]中有哪些Beta功能。"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip="[!DNL Adobe Target]中有哪些Beta功能。"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030

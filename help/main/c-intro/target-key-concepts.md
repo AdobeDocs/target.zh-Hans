@@ -156,7 +156,7 @@ Target 包括多种活动类型。 下表提供了每种活动类型的概述，
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
 
 ### 在Adobe Target中使用受众(6:21) ![概述徽章](/help/main/assets/overview.png)
 
@@ -168,4 +168,4 @@ Target 包括多种活动类型。 下表提供了每种活动类型的概述，
 * 将活动定位到受众
 * 在活动中使用受众进行被动报告
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/30336?captions=chi_hans)

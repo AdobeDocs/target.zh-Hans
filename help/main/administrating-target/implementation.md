@@ -40,7 +40,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform]中的标记是实施[!DNL Target]的首选方法。 [!DNL Adobe Experience Platform]中的标记是来自[!DNL Adobe]的下一代标记管理功能。 标记为客户提供了一种简单的方式来部署和管理用来加强相关客户体验的分析、营销和广告标记。 有关详细信息，请参阅[使用 [!DNL Adobe Experience Platform]实施 [!DNL Target] ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}。
+>[!DNL Adobe Experience Platform]中的标记是实施[!DNL Target]的首选方法。 [!DNL Adobe Experience Platform]中的标记是来自[!DNL Adobe]的下一代标记管理功能。 标记为客户提供了一种简单的方式来部署和管理用来加强相关客户体验的分析、营销和广告标记。 有关详细信息，请参阅[使用 [!DNL Adobe Experience Platform]实施 [!DNL Target] &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}。
 
 1. 要访问[!UICONTROL 实现]页面，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实现]**。
 

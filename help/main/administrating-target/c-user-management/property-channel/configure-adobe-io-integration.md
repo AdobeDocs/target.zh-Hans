@@ -78,7 +78,7 @@ ht-degree: 56%
 
    ![“集成”选项卡](/help/main/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
-1. （视情况而定）若要添加新集成，请单击“添加集成”****，选择所需的集成，然后单击“保存”****。
+1. （视情况而定）若要添加新集成，请单击“添加集成”**&#x200B;**，选择所需的集成，然后单击“保存”**&#x200B;**。
 
 1. 从&#x200B;**[!UICONTROL 产品角色]**&#x200B;下拉列表中，为该工作区选择所需的角色：
 

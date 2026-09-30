@@ -108,7 +108,7 @@ ht-degree: 44%
 
 1. 根据需要，选择要匹配的&#x200B;**项目属性**&#x200B;和&#x200B;**配置文件属性**、**推荐键**、**筛选键**&#x200B;和/或&#x200B;**Analytics量度**&#x200B;以配置算法。
 
-其余的算法配置选项因所选算法而异。 要完成算法配置，请选择[!UICONTROL 推荐键]、[!UICONTROL 筛选键]、[!UICONTROL 共同发生基础]、[!UICONTROL Analytics量度]和/或[!UICONTROL 项目属性]和要匹配的配置文件属性]。[!UICONTROL 
+其余的算法配置选项因所选算法而异。 要完成算法配置，请选择[!UICONTROL 推荐键]、[!UICONTROL 筛选键]、[!UICONTROL 共同发生基础]、[!UICONTROL Analytics量度]和/或[!UICONTROL 项目属性]和要匹配的配置文件属性。
 
 当您选择[!UICONTROL 按配置文件属性查看的次数最多]或[!UICONTROL 按配置文件属性查看的畅销商品]时，请选择一个&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;作为交互数据分组依据。 配置文件属性来自捕获访客特征的配置文件脚本，例如区域或国家/地区，并且脚本名称必须包含`recsAttribute`前缀，因此该前缀将存储为`user.recsAttribute<Name>`，例如`user.recsAttributeRegion`。 在交付时，[!DNL Target]向每位访客提供与其自身属性值对应的排名列表。
 

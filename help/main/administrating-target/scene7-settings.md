@@ -71,4 +71,4 @@ ht-degree: 85%
 
    **密码：**&#x200B;用于登录到 [!DNL Dynamic Media Classic] ([!DNL Scene7]) 的密码。
 
-1. 单击“提交”****。
+1. 单击“提交”**&#x200B;**。

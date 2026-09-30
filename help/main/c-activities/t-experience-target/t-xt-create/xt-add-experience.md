@@ -42,7 +42,7 @@ ht-degree: 21%
    >
    >默认情况下，VEC 不允许更改包含 JavaScript 的元素，如旋转横幅。 您可以禁用JavaScript以使用VEC更改这些元素。
 
-1. 若要创建其他体验，请单击“添加”****（![“添加”按钮](/help/main/assets/icons/Add.svg)）。
+1. 若要创建其他体验，请单击“添加”**&#x200B;**（![“添加”按钮](/help/main/assets/icons/Add.svg)）。
 
    此时会显示[!UICONTROL 添加受众]对话框。 要将体验定位到某个受众，请在添加体验之前选择该受众。
 

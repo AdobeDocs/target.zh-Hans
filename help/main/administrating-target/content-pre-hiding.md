@@ -4,7 +4,16 @@ description: 了解内容预隐藏如何通过使用帐户级别设置、轻量�
 title: 用于个性化体验的内容预隐藏
 feature: Administration & Configuration
 role: Admin
-source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -47,7 +56,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。 这会将闪烁管理设置应用于您的实例。
 
-1. 启用后，单击&#x200B;**[!UICONTROL 下载]**，然后将该文件添加到页面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前加载。 有关完整的实施说明，请参阅[内容预隐藏SDK](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/prehide-sdk)。
+1. 启用后，单击&#x200B;**[!UICONTROL 下载]**，然后将该文件添加到页面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前加载。 有关完整的实施说明，请参阅[内容预隐藏SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)。
 
    ![](assets/content-pre-hiding-2.png)
 

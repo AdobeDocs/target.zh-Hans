@@ -1,23 +1,29 @@
 ---
 keywords: 多值实体属性;自定义实体属性;有效 JSON;实体属性值;JSON 数组;多值的;多值
-description: 了解如何使用单值和多值自定义实体属性来定义有关Adobe [!DNL Target] 推荐目录中的项目的其他信息。
+description: 了解如何使用单值和多值自定义实体属性来定义有关Adobe [!DNL Target]推荐目录中的项目的其他信息。
 title: 如何使用自定义实体属性？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-TQID: https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q
+TQID: 'https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1504
+source-wordcount: '1505'
 ht-degree: 80%
-
 ---
-
 # 自定义实体属性
 
 在[!DNL Adobe Target Recommendations]中使用单值和多值自定义实体属性来定义有关目录中项目的其他信息。
@@ -132,7 +138,7 @@ function targetPageParams() {
   }
 ```
 
-有关使用交付和保存实体API的信息，请参阅[Adobe Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
+有关使用交付和保存实体API的信息，请参阅[Adobe Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 ## 将运算符用于多值属性 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

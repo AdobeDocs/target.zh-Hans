@@ -1,16 +1,23 @@
 ---
 keywords: 自动流量分配；定位；入选者；统计保证；置信度；确定入选者；提升度；置信度；默认；默认体验；自动分配；自动分配
-description: 了解如何通过检查重要指标（包括提升度和置信度）来解释Adobe [!DNL Target] 中[!UICONTROL 自动分配] A/B活动的结果。
+description: 了解如何通过检查重要指标（包括提升度和置信度）来解释Adobe [!DNL Target]中[!UICONTROL 自动分配] A/B活动的结果。
 title: 如何解释[!UICONTROL 自动分配]报告？
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1258'
 ht-degree: 22%
-
 ---
-
 # 解释自动分配报表
 
 通过检查重要指标（包括提升度和置信度），解释[!UICONTROL Adobe Target]中[!UICONTROL 自动分配] A/B活动的结果。

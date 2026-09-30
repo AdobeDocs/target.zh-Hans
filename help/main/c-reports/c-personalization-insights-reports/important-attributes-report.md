@@ -2,31 +2,42 @@
 keywords: 定位;AP 报告;自动个性化报告;自动定位;自动定位报告;个性化;洞察;FAQ;常见问题解答;重要属性
 description: 了解如何使用[!UICONTROL 重要属性]报表，该报表显示影响个性化模型的主要属性及其相对重要性。
 title: 重要属性报表是什么？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-TQID: https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo
+TQID: 'https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1937
+source-wordcount: '1937'
 ht-degree: 61%
-
 ---
-
 # 重要属性报表
 
 有关[!UICONTROL 重要属性]报表的信息，该报表是[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位] (AT)活动的用户可用的两个专用报表之一。
@@ -107,13 +118,13 @@ ht-degree: 61%
 
 属性是关于个性化算法为了解如何个性化流量而使用的访客或其特定访问的信息。 例如，属性可以是浏览器类型、位置、访问时间等。
 
-有关 [!DNL Target] 在其个性化模型中使用的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。 有关如何将新属性上传到 Target 以在 Target 的个性化模型中使用的更多信息，请参阅[将数据导入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}。
+有关 [!DNL Target] 在其个性化模型中使用的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。 有关如何将新属性上传到 Target 以在 Target 的个性化模型中使用的更多信息，请参阅[将数据导入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 ### 我看到一个或多个我不希望模型用于训练的属性。 我可以从训练模型中移除这些属性吗？ {#models-api}
 
 [!UICONTROL 模型API]（也称为API）允许用户查看和管理机器学习模型中用于[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位] (AT)活动的属性（也称为功能）列表。 如果要排除一个或多个属性不被模型用于AP或AT活动，可以使用模型API将这些属性添加到“”中。
 
-有关详细信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[模型API概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hans){target=_blank}。 要使用API阻止属性，请参阅[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=zh-Hans){target=_blank}。
+有关详细信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[模型API概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}。 要使用API阻止属性，请参阅[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}。
 
 ### [!UICONTROL 自动化区段]和[!UICONTROL 重要属性]报表中的信息是否与CSV下载中的信息相同？
 

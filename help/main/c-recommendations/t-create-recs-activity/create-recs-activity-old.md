@@ -1,17 +1,24 @@
 ---
 keywords: 创建推荐;推荐活动;新建推荐;推荐概述
-description: 了解如何使用Adobe [!DNL Target] 可视化体验编辑器(VEC)直接在启用了 [!DNL Target]的页面上创建“推荐”活动。
+description: 了解如何使用Adobe [!DNL Target]可视化体验编辑器(VEC)直接在启用了[!DNL Target]的页面上创建“推荐”活动。
 title: 如何创建“推荐”活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1342'
 ht-degree: 58%
-
 ---
-
 # 创建“推荐”活动
 
 使用 Target 可视化体验编辑器 (VEC)，可直接在启用了 Target 的页面上创建“推荐”活动，并在 Target 中修改页面的各个部分。
@@ -30,7 +37,7 @@ ht-degree: 58%
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上图中的[[!UICONTROL [选择工作区]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)选项是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您看不到此选项，则表明贵组织具有Target Standard许可证。
+   >上图中的[!UICONTROL [选择工作区]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)选项是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您看不到此选项，则表明贵组织具有Target Standard许可证。
 
 1. （视情况而定）如果您是一位 [Target Premium 客户](/help/main/c-intro/intro.md#premium)，请选择一个[工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -77,7 +84,7 @@ ht-degree: 58%
 
    >[!NOTE]
    >
-   >并非每个标准都能在每个页面上正常运行。 页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。 一般来说，最好只显示兼容的标准。 但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。 根据您的推荐设置（**[!UICONTROL 推荐]** > **[!UICONTROL 设置]** > **[!UICONTROL 筛选不兼容的标准]**），可能不会显示[!UICONTROL 兼容]选项。 有关更多信息，请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
+   >并非每个标准都能在每个页面上正常运行。 页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。 一般来说，最好只显示兼容的标准。 但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。 根据您的推荐设置（**[!UICONTROL 推荐]** > **[!UICONTROL 设置]** > **[!UICONTROL 筛选不兼容的标准]**），可能不会显示[!UICONTROL 兼容]选项。 有关更多信息，请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
    ![“选择标准”对话框](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -178,4 +185,4 @@ ht-degree: 58%
 
 ## 培训视频：创建推荐活动(7:15) ![教程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33958?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

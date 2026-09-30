@@ -4,13 +4,14 @@ description: 了解如何在标记中将功能标记从一个沙盒导入另一�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
-
 ---
-
 # 导入功能标志 {#import-feature-flags}
 
 利用标志，可将功能标志从一个沙盒（例如，沙盒1）导入另一个沙盒（例如，沙盒2）中。 这可避免手动重新创建标记配置，并减少沙盒之间的配置漂移风险。

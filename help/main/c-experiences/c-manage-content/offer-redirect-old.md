@@ -1,16 +1,23 @@
 ---
 keywords: 重定向产品建议;创建重定向产品建议;添加 HTML 产品建议;在重定向中传递所有 URL 参数;在重定向中传递 mboxSessionId（仅当要重定向到其他域时才需使用此功能）
-description: 了解如何在Adobe [!DNL Target] 中创建重定向选件，以使浏览器重定向到新页面。
+description: 了解如何在Adobe [!DNL Target]中创建重定向选件以将浏览器重定向到新页面。
 title: 如何创建重定向选件？
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1211'
 ht-degree: 44%
-
 ---
-
 # 创建重定向产品建议
 
 [!DNL Adobe Target]中的重定向选件导致浏览器重定向到新页面。

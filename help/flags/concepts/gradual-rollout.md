@@ -4,13 +4,14 @@ description: 了解在Flags中逐步推出如何让您以实时反馈和最低�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
-
 ---
-
 # 逐步转出 {#gradual-rollout}
 
 逐步推出可将新功能逐步纳入生产环境，而不是一次为所有用户启用。 此方法可降低风险，有助于管理后端负载，并在完全发布之前创建一个严格的反馈循环。

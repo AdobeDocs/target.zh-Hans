@@ -1,17 +1,24 @@
 ---
 keywords: 标准序列；多个标准；算法；标准；推荐标准；序列；限制返回的项目数；槽级控制；槽
-description: 了解如何设置最多包含五个标准的序列，以便更好地控制Adobe [!DNL Target] 推荐活动中显示的项目。
+description: 了解如何设置最多包含五个标准的序列，以便更好地控制Adobe [!DNL Target] Recommendations活动中显示的项目。
 title: 如何在推荐中创建标准序列？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '868'
 ht-degree: 30%
-
 ---
-
 # 创建标准序列
 
 可使用最多包含五个标准的序列来加强对“[!UICONTROL 推荐]”活动中显示的项目的控制。 您还可以限制返回的项目数（有时称为“插槽级别控制”。）
@@ -87,7 +94,7 @@ ht-degree: 30%
 
    有关推荐逻辑选项的更多信息，请参阅[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)。
 
-## 培训视频：在推荐(12:33) ![教程徽章](/help/main/assets/tutorial.png)中创建标准
+## 培训视频：在“推荐”中创建标准(12:33) ![教程徽章](/help/main/assets/tutorial.png)
 
 本视频包含以下信息：
 
@@ -95,4 +102,4 @@ ht-degree: 30%
 * 创建标准序列
 * 上传自定义标准
 
->[!VIDEO](https://video.tv.adobe.com/v/35358?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

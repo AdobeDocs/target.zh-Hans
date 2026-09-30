@@ -1,16 +1,23 @@
 ---
 keywords: 排除项
-description: 了解如何在Adobe [!DNL Target] 推荐中创建排除项以防止向访客推荐产品或内容。
+description: 了解如何在Adobe [!DNL Target]推荐中创建排除项以防止向访客推荐产品或内容。
 title: 如何在推荐活动中使用排除项？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '630'
 ht-degree: 30%
-
 ---
-
 # 排除项
 
 在[!DNL Adobe Target Recommendations]中创建排除项以阻止向访客推荐产品或内容。 排除项是不向访客推荐的产品或内容的子集。
@@ -37,7 +44,7 @@ ht-degree: 30%
 
    ![exclusions_list图像](assets/exclusions_list.png)
 
-   [!UICONTROL 排除项]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}以更改默认主机组。
+   [!UICONTROL 排除项]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以更改默认主机组。
 
 1. 单击&#x200B;**[!UICONTROL 创建排除项]**。
 
@@ -75,11 +82,11 @@ ht-degree: 30%
 
 请注意，排除项可在整个帐户中使用。 确保在删除排除项之前考虑这一点。 无法恢复已删除的排除项。
 
-## 培训视频：在“推荐” (7:05) ![教程徽章](/help/main/assets/tutorial.png)中创建收藏集和排除项
+## 培训视频：在“推荐”(7:05) ![教程徽章](/help/main/assets/tutorial.png)中创建收藏集和排除项
 
 本视频包含以下信息：
 
 * 创建收藏集
 * 创建排除项
 
->[!VIDEO](https://video.tv.adobe.com/v/35356?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

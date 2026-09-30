@@ -1,21 +1,24 @@
 ---
 keywords: 多变量测试;MVT;MVT 规划;多变量测试规则
-description: 了解如何在 [!DNL Adobe Target] 中规划[!UICONTROL 多变量测试]，以便创建成功的测试。
+description: 了解如何在[!DNL Adobe Target]中规划[!UICONTROL 多变量测试]，以便创建成功的测试。
 title: 如何计划[!UICONTROL 多变量测试]？
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
-TQID: https://experienceleague.adobe.com/Fg9jOrPlkLxpbJdG-AKoWHD3YvIGEJPu7Os-RdfXvQA
+TQID: 'https://experienceleague.adobe.com/Fg9jOrPlkLxpbJdG-AKoWHD3YvIGEJPu7Os-RdfXvQA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 295
-ht-degree: 63%
-
+source-wordcount: '297'
+ht-degree: 62%
 ---
-
 # 规划[!UICONTROL 多变量测试]
 
 [!DNL Adobe Target]中的[!UICONTROL 多变量测试] (MVT)活动需要一些规划，然后才能创建成功的测试。
@@ -37,4 +40,4 @@ MVT需要足够的流量才能生成有用的结果。 在设置测试之前，�
 * 定义和设计多变量测试
 * 创建多变量测试
 
->[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

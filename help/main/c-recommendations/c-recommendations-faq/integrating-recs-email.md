@@ -1,24 +1,32 @@
 ---
 keywords: 电子邮件;ESP;电子邮件服务提供商;rawbox;交付 API;仅限下载模板;电子邮件模板;批量处理;构建时电子邮件
-description: 了解如何将电子邮件与 Adobe  [!DNL Target Recommendations], including using the [!DNL Target] 投放 API、rawbox 模板和仅限下载的模板集成。
+description: 了解如何将电子邮件与Adobe [!DNL Target Recommendations]集成，包括使用[!DNL Target]投放API、rawbox模板和仅限下载的模板。
 title: 如何将“推荐”与电子邮件集成？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-TQID: https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE
+TQID: 'https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1768
-ht-degree: 87%
-
+source-wordcount: '1772'
+ht-degree: 86%
 ---
-
 # 将[!DNL Recommendations]与电子邮件集成
 
 [!DNL Adobe Target] 支持在电子邮件中个性化设置推荐的发送时间。
@@ -85,7 +93,7 @@ curl -X POST \
 >
 >请确保为每个电子邮件收件人（例如，每个 API 调用）的 `sessionId` 和 `tntId` 或 `thirdPartyId` 两者之一均提供唯一值。 如果您没有为这些字段提供唯一值，则由于在单个轮廓中会生成许多事件，API 响应可能变慢或失败。
 
-有关更多信息，请参阅[交付 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=zh-Hans){target=_blank}。
+有关更多信息，请参阅[交付 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank}。
 
 ## 方法 2：使用 rawbox 电子邮件模板 {#rawbox}
 
@@ -114,9 +122,9 @@ rawbox 类似于 mbox 请求，但适用于诸如电子邮件服务提供商 (ES
 
 * 电子邮件应用程序应搜索上述文本，并能够处理此错误。 电子邮件提供商可以选用多种方法来处理此情况：
 
-   * 立即尝试再次调用服务器（建议使用此方法，或许还可以使用尝试计数器）。
-   * 放弃该特定电子邮件，并继续处理下一个电子邮件。
-   * 将该特定电子邮件排入队列，然后在初次运行结束后以批量方式再次运行之前失败的电子邮件。
+  * 立即尝试再次调用服务器（建议使用此方法，或许还可以使用尝试计数器）。
+  * 放弃该特定电子邮件，并继续处理下一个电子邮件。
+  * 将该特定电子邮件排入队列，然后在初次运行结束后以批量方式再次运行之前失败的电子邮件。
 
 ### 请求 URL 示例
 

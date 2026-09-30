@@ -4,13 +4,14 @@ description: 了解如何在受众规则中将上下文属性用于标记中的�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
-
 ---
-
 # 在受众规则中使用上下文 {#context-in-audience-rules}
 
 上下文属性是客户端应用程序在运行时提供的值。 利用这些功能，可根据动态的会话级别信息（如用户的活动语言、设备类型或应用程序状态）定位用户。

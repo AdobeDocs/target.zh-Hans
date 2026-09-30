@@ -2,28 +2,39 @@
 keywords: 故障诊断；常见问题解答；FAQ；自动个性化；控制；默认体验；最佳实践
 description: 在[!UICONTROL Adobe Target]中浏览有关[!UICONTROL Automated Personalization] (AP)活动的常见问题解答(FAQ)和答案列表。
 title: 如何查找有关[!UICONTROL Automated Personalization]活动的常见问题解答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
+TQID: 'https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: '2303'
 ht-degree: 18%
-
 ---
-
 # Automated Personalization常见问题解答
 
 在使用[!DNL Adobe Target]中的[!UICONTROL Automated Personalization]活动时，可查阅以下常见问题和答案。
@@ -57,32 +68,32 @@ ht-degree: 18%
 * 如果要个性化低流量页面，或者要对要个性化的体验进行结构性更改，请考虑使用[!UICONTROL 自动定位]活动代替[!UICONTROL Automated Personalization]。 请参阅[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 * 考虑在您计划于[!UICONTROL Automated Personalization]活动中使用的选件和位置之间完成一个[!UICONTROL A/B测试]活动，以确保位置和选件会对优化目标产生影响。 如果[!UICONTROL A/B测试]活动未能显示显着差异，则[!UICONTROL Automated Personalization]可能也无法生成提升。
 
-   * 如果A/B...N测试显示体验之间没有统计学上的显着差异，则可能是以下一种或多种情况造成的：
+  * 如果A/B...N测试显示体验之间没有统计学上的显着差异，则可能是以下一种或多种情况造成的：
 
-      * 这些选件可能彼此差别不大。
-      * 您选择的位置不会影响成功量度。
-      * 优化目标在转化funnel中太远，无法受到所选选件的影响。
+    * 这些选件可能彼此差别不大。
+    * 您选择的位置不会影响成功量度。
+    * 优化目标在转化funnel中太远，无法受到所选选件的影响。
 
 * 确保使用[流量估算器](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)，以便您了解在[!UICONTROL Automated Personalization]活动中构建个性化模型需要多长时间。
 * 在开始活动之前，根据您的目标，确定控制与目标之间的分配。
 
   根据活动的目标和您选择的控制类型，可以考虑以下三种方案：
 
-   * **将随机体验作为控制，且活动目标是测试个性化算法的有效性**：如果您的目标是评估个性化算法，那么您希望更准确地了解提升度。 如果您仅进行了[!UICONTROL A/B测试]（随机提供的控制），则您还很可能希望比较体验或选件的转化率。 在这种情况下，建议向随机提供体验的控制分配 50% 的流量。
-   * 将&#x200B;**“随机体验”作为控制，且活动目标是最大化个性化流量**：如果您习惯使用算法并希望最大化个性化流量，那么建议向控制分配10%到30%的流量。 这里做出的权衡是您在提升度信息中看到的准确性。 控制流量的置信区间更大，因为流向它们的流量更少。
-   * **将特定体验作为控制，且采用任一目标类型**：如果您要将特定营销人员驱动的体验与个性化模型相比较，那么建议向控制分配 10% 到 30% 的流量。 仅选择一个体验作为控制时，该流量不会分布到活动中的每个选件或体验。
+  * **将随机体验作为控制，且活动目标是测试个性化算法的有效性**：如果您的目标是评估个性化算法，那么您希望更准确地了解提升度。 如果您仅进行了[!UICONTROL A/B测试]（随机提供的控制），则您还很可能希望比较体验或选件的转化率。 在这种情况下，建议向随机提供体验的控制分配 50% 的流量。
+  * 将&#x200B;**“随机体验”作为控制，且活动目标是最大化个性化流量**：如果您习惯使用算法并希望最大化个性化流量，那么建议向控制分配10%到30%的流量。 这里做出的权衡是您在提升度信息中看到的准确性。 控制流量的置信区间更大，因为流向它们的流量更少。
+  * **将特定体验作为控制，且采用任一目标类型**：如果您要将特定营销人员驱动的体验与个性化模型相比较，那么建议向控制分配 10% 到 30% 的流量。 仅选择一个体验作为控制时，该流量不会分布到活动中的每个选件或体验。
 
 * 应尽可能谨慎地使用定位规则，因为它们可能会干扰模型的优化能力。
 * 报表组可以限制[!UICONTROL Automated Personalization]活动的成功。 仅在特定条件下使用报表组：
 
-   * 仅在满足以下条件时才使用报表组：
+  * 仅在满足以下条件时才使用报表组：
 
-      * 您计划在活动运行时替换或添加新选件。
-      * 报表组中的选件对同一访客很有吸引力。
-      * 该报表组中的选件具有大致相同的整体响应率。
+    * 您计划在活动运行时替换或添加新选件。
+    * 报表组中的选件对同一访客很有吸引力。
+    * 该报表组中的选件具有大致相同的整体响应率。
 
-   * 报表组中的选件之间不进行个性化。 个性化模型会将所有选件视为相同内容。
-   * 切勿将一个活动中的所有选件都放到一个报表组中。 这样做会导致向活动中的所有访客均匀随机提供所有选件。
+  * 报表组中的选件之间不进行个性化。 个性化模型会将所有选件视为相同内容。
+  * 切勿将一个活动中的所有选件都放到一个报表组中。 这样做会导致向活动中的所有访客均匀随机提供所有选件。
 
 +++
 

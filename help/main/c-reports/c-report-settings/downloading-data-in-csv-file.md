@@ -1,25 +1,30 @@
 ---
 keywords: 报表;下载报表;CSV;成功量度;订单详细信息
-description: 了解如何以CVS格式从Adobe [!DNL Target] 活动下载数据，以便快速导入到Excel、Access或其他数据分析程序中。
+description: 了解如何以CVS格式从Adobe [!DNL Target]活动下载数据，以便快速导入到Excel、Access或其他数据分析程序中。
 title: 如何以CSV文件下载报表数据？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-TQID: https://experienceleague.adobe.com/-1FEosKnw-h8hRoK-VTO9VZsi5vIghnMnZp-fUUXo2U
+TQID: 'https://experienceleague.adobe.com/-1FEosKnw-h8hRoK-VTO9VZsi5vIghnMnZp-fUUXo2U'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 737
+source-wordcount: '738'
 ht-degree: 35%
-
 ---
-
 # 将数据下载到 CSV 文件
 
 以.csv格式下载数据以便快速导入到[!DNL Excel]、[!DNL Access]或其他数据分析程序中。

@@ -1,30 +1,39 @@
 ---
 keywords: 故障诊断；量度不一致；FAQ；报表；新访客；新访客；回访访客；回访访客；新访问
-description: 浏览有关Adobe [!DNL Target] 报告的常见问题和答案的列表。
-title: 可在何处找到有关 [!DNL Target] 报告的问题的答案？
+description: 浏览有关Adobe [!DNL Target]报表的常见问题和答案的列表。
+title: 可在何处找到有关[!DNL Target]报表的问题的答案？
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-TQID: https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM
+TQID: 'https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1324
-ht-degree: 24%
-
+source-wordcount: '1393'
+ht-degree: 23%
 ---
-
 # 报表常见问题解答
 
 有关 [!DNL Adobe Target] 报表的常见问题解答列表。
@@ -32,8 +41,8 @@ ht-degree: 24%
 ## 如何计算“新访客”和“回访访客”指标？ {#methodology}
 
 只要新访客在网站上处于活动状态，该访客的首次访问就会持续。
-如果用户处于非活动状态30分钟或更长时间，则会重置会话。重置会话意味着该访客在下次访问时成为回访访客，或者在处于非活动状态30分钟后再次变为活动状态。
-如果访客在网站中全天每29分钟移动一次，则该访客将被计为当天的新访客。会话从未重置，因为访客从未超过30分钟的阈值。
+如果用户处于非活动状态30分钟或更长时间，则会重置会话。 重置会话意味着该访客在下次访问时成为回访访客，或者在处于非活动状态30分钟后再次变为活动状态。
+如果访客在网站中全天每29分钟移动一次，则该访客将被计为当天的新访客。 会话从未重置，因为访客从未超过30分钟的阈值。
 
 以下信息更详细地说明了如何计算新访客和回访访客。 另外，还包含一些示例，以解释为何这两个区段的总和并不总是与访客总数相加。
 
@@ -139,6 +148,6 @@ XT 活动应始终包含一个控制体验。 如果您使用XT活动的方式�
 * A/B和MVT测试的最佳实践是保持流量拆分均匀。 在测试期间更改体验之间的流量分配（例如，从90/10更改为50/50）可能会导致体验之间的访客数不均衡。 较低的流量体验可能永远不会“赶上”。
 * 如果您遵循上述最佳实践，并且流量分摊不会随时间而正常化，则您应该检查以下各项：
 
-   * 您是否在使用最新的at.js库？ 有关当前版本和相关发行说明的详细信息，请参阅[at.js版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
+  * 您是否在使用最新的at.js库？ 有关当前版本和相关发行说明的详细信息，请参阅[at.js版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
-   * 是否为重定向测试？ 在页面上触发的标记定时不正确可能会导致不均衡的流量拆分，尤其是在使用[!DNL Analytics]作为[!DNL Target]活动的数据源时。 有关使用Analytics for Target (A4T)纠正重定向活动上流量分配不均衡的详细信息，请参阅[重定向选件 — A4T常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。
+  * 是否为重定向测试？ 在页面上触发的标记定时不正确可能会导致不均衡的流量拆分，尤其是在使用[!DNL Analytics]作为[!DNL Target]活动的数据源时。 有关使用Analytics for Target (A4T)纠正重定向活动上流量分配不均衡的详细信息，请参阅[重定向选件 — A4T常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。

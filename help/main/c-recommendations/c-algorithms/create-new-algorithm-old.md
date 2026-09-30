@@ -2,16 +2,23 @@
 keywords: 标准；算法；垂直行业；页面类型；推荐键；推荐逻辑；数据范围；回顾窗口；行为数据源；部分设计；备用推荐；包含规则；属性权重；当前类别；自定义属性；上次购买的项目；上次查看的项目；查看次数最多的项目；最喜爱的类别；热门程度；最近查看的项目；上次购买；上次查看；最喜爱的项目；最近查看的项目；最近查看的项目；最近查看的项目
 description: 了解如何创建标准来控制Adobe Recommendations活动的内容，以显示最适合您的活动的推荐。
 title: 如何在“推荐”中创建标准？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2933'
+source-wordcount: '2934'
 ht-degree: 48%
-
 ---
-
 # 创建标准
 
 [!UICONTROL Adobe Target] [!UICONTROL 推荐]中的条件可控制[!UICONTROL 推荐]活动的内容。 可创建标准以显示最适合您的活动的推荐。 这些标准使用访客的操作来确定要显示的内容或产品。
@@ -88,7 +95,7 @@ ht-degree: 48%
 
 1. 根据需要，选择要匹配的&#x200B;**项目属性**&#x200B;和&#x200B;**配置文件属性**、**推荐键**、**筛选键**&#x200B;和/或&#x200B;**Analytics量度**&#x200B;以配置算法。
 
-其余的算法配置选项因所选算法而异。 要完成算法配置，请选择[!UICONTROL 推荐键]、[!UICONTROL 筛选键]、[!UICONTROL 共同发生基础]、[!UICONTROL Analytics量度]和/或[!UICONTROL 项目属性]和要匹配的配置文件属性。
+其余的算法配置选项因所选算法而异。 要完成算法配置，请选择[!UICONTROL 推荐键]、[!UICONTROL 筛选键]、[!UICONTROL 共同发生基础]、[!UICONTROL Analytics量度]和/或[!UICONTROL 项目属性]和要匹配的配置文件属性]。[!UICONTROL 
 
 有关选择[!UICONTROL 推荐键]的详细信息，请参阅[使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 
@@ -267,7 +274,7 @@ ht-degree: 48%
 
 如果您是在创建新的“[!UICONTROL 推荐]”活动或编辑现有活动，则默认情况下会选中&#x200B;**[!UICONTROL 保存标准供以后使用]**&#x200B;复选框。 如果您不想在其他活动中使用该标准，请在保存前清除该复选框。
 
-## 培训视频：在推荐(12:33) ![教程徽章](/help/main/assets/tutorial.png)中创建标准
+## 培训视频：在“推荐”中创建标准(12:33) ![教程徽章](/help/main/assets/tutorial.png)
 
 本视频包含以下信息：
 
@@ -275,4 +282,4 @@ ht-degree: 48%
 * 创建标准序列
 * 上传自定义标准
 
->[!VIDEO](https://video.tv.adobe.com/v/35358?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

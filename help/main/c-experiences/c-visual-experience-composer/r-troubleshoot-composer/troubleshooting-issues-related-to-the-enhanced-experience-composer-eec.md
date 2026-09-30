@@ -1,26 +1,32 @@
 ---
 keywords: 定位;EEC;可视化体验编辑器;增强型体验编辑器故障诊断;故障诊断
-description: 了解如何解决在某些情况下 [!DNL Adobe Target] [!UICONTROL 增强型体验编辑器] (EEC)中有时出现的问题。
+description: 了解如何解决在某些情况下[!DNL Adobe Target] [!UICONTROL 增强型体验编辑器] (EEC)中有时出现的问题。
 title: 如何解决与[!UICONTROL 增强型体验编辑器]相关的问题？
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-TQID: https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg
+TQID: 'https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Security
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: '510'
 ht-degree: 29%
-
 ---
-
 # 与[!UICONTROL 增强型体验编辑器]相关的问题疑难解答
 
 在某些情况下，[!DNL Adobe Target] [!UICONTROL 增强型体验编辑器] (EEC)有时会发生显示问题。
@@ -147,7 +153,7 @@ ht-degree: 29%
 
   **补救措施：**&#x200B;允许列表上面列出的IP地址。
 
-* **问题：** IP地址已，但您的网站不支持TLS版本1.2。 [!DNL Target]当前使用默认配置1.2。 在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。 有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hans){target=_blank}。
+* **问题：** IP地址已，但您的网站不支持TLS版本1.2。 [!DNL Target]当前使用默认配置1.2。 在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。 有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}。
 
   **解决方案：**&#x200B;请参阅以下问题（[!UICONTROL 增强型可视化体验编辑器]不会在使用TLS 1.2的网站的安全页面上加载）。
 
@@ -156,7 +162,7 @@ ht-degree: 29%
 ## EEC 无法加载使用 TLS 1.0 的网站上的安全页面。 （仅 EEC） {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++详细信息
-您可能会看到上文“无法在我的网站的安全页面上加载[!UICONTROL 增强型可视化体验编辑器]”中描述的错误消息。 如果上述IP地址已列入允许列表，但您的网站不支持TLS版本1.2。 [!DNL Target]当前使用默认配置1.2。 在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。 有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hans){target=_blank}。
+您可能会看到上文“无法在我的网站的安全页面上加载[!UICONTROL 增强型可视化体验编辑器]”中描述的错误消息。 如果上述IP地址已列入允许列表，但您的网站不支持TLS版本1.2。 [!DNL Target]当前使用默认配置1.2。 在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。 有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}。
 
 要使用 Firefox 检查您网站上的 TLS 版本（使用其他浏览器的步骤相似），请执行以下操作：
 
@@ -173,7 +179,7 @@ ht-degree: 29%
 
    ![firefox_more_info_3图像](assets/firefox_more_info_3.png)
 
-1. 如果您发现您的网站显示的是TLS 1.0，请参阅[TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hans){target=_blank}以了解有关Target的TLS支持策略的信息。 若要补救当前情况（有效期至2018年9月12日）{target=_blank}，请联系[客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以获取TLS版本和域的配置。
+1. 如果您发现您的网站显示的是TLS 1.0，请参阅[TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}以了解有关Target的TLS支持策略的信息。 若要补救当前情况（有效期至2018年9月12日）{target=_blank}，请联系[客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以获取TLS版本和域的配置。
 
 +++
 

@@ -1,16 +1,20 @@
 ---
 keywords: 部分数据;部分数据;A4T;差异;analytics for target;孤立;虚拟报表包;虚拟;故障排除;未拼合;夸大;未指定
-description: 了解如何在使用 Analytics for  [!DNL Target]  (A4T) 时将夸大访问数和访客数产生的影响降至最低。 了解“部分数据”是什么以及如何减少这种数据。
+description: 了解如何在使用Analytics for [!DNL Target] (A4t)时将夸大访问数和访客数产生的影响降至最低。 了解“部分数据”是什么以及如何减少这种数据。
 title: 如何在 A4T 中将夸大的访问数和访客数降至最低？
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1362'
-ht-degree: 97%
-
+ht-degree: 96%
 ---
-
 # 在 A4T 中将夸大的访问数和访客数降至最低
 
 帮助您在使用 [!DNL Adobe Analytics] 作为 [!DNL Adobe Target] (A4T) 的报表源时将夸大访问数和访客数产生的影响降至最低的信息。
@@ -71,7 +75,7 @@ Adobe 有一些客户遇到了 [!DNL Analytics] 中的部分数据比例较高�
 
 **部分数据点击：**&#x200B;用户有时在页面上停留的时间长度不足以发送 [!DNL Analytics] 调用，但 [!DNL Target] 具有适当的 MCID。 此场景导致部分数据点击（点击但未查看 [!DNL Analytics] 页面）。 如果这些用户返回您的网站并查看包含 [!DNL Analytics] 代码的页面，则正确地将其视为回访访客。 如果该页面上只有 [!DNL Analytics] 代码，则将已错失这些点击。 某些客户不想要这些点击的数据，因为他们夸大某些指标（访问次数）并缩减其他指标（每次访问的页面查看次数、每次访问停留的时间等等）。 您还将看到不含任何页面查看次数的访问次数。 但是，仍有正当理由保留这些数据。
 
-为了最大限度减少局部数据点击量，您可以加快页面加载速度，更新到最新版本的库，或者创建一个[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hans)以排除这些点击量。 有关分步说明，请参阅《Analytics 组件指南》**&#x200B;中的[创建虚拟报表套件](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hans)。
+为了最大限度减少局部数据点击量，您可以加快页面加载速度，更新到最新版本的库，或者创建一个[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)以排除这些点击量。 有关分步说明，请参阅《Analytics 组件指南》**&#x200B;中的[创建虚拟报表套件](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。
 
 下图显示了该虚拟报表包的区段定义：
 
@@ -92,7 +96,7 @@ Adobe 有一些客户遇到了 [!DNL Analytics] 中的部分数据比例较高�
 
 **孤立点击：**&#x200B;在少数情况下，用户不会在页面上停留足够长的时间来进行 Analytics 调用，并且 Target 未获得适当的 MCID。 Adobe 将这些点击定义为“孤立”点击。 这些点击代表旧访客较少，且它们不合理地夸大了访问次数和访客数量。
 
-为了最大限度地减少这些“孤立”点击，您可以创建一个排除这些点击的[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hans)，如上所述。
+为了最大限度地减少这些“孤立”点击，您可以创建一个排除这些点击的[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)，如上所述。
 
 ## 这对我的 [!DNL Target] 报表有什么影响？ {#section_AAD354C722BE46D4875507F0FCBA5E36}
 

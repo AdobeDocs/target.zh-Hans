@@ -1,16 +1,20 @@
 ---
 keywords: 多变量测试；活动URL
-description: 了解如何指定活动URL，以确定测试中使用的页面，以及在使用 [!DNL Adobe Target]设计[!UICONTROL 多变量测试]活动时打开的页面。
+description: 了解如何指定活动URL，以确定测试中使用的页面，以及在使用[!DNL Adobe Target]设计[!UICONTROL 多变量测试]活动时打开的页面。
 title: '[!UICONTROL 多变量测试] (MVT)活动中的活动URL是什么？'
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 45%
-
 ---
-
 # 活动 URL
 
 活动URL可决定[!UICONTROL 多变量测试] (MVT)中使用的页面，以及在[!DNL Adobe Target]中设计测试时打开的页面。

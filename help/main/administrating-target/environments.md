@@ -1,31 +1,39 @@
 ---
 keywords: 环境；故障诊断；最佳实践；ubox；重定向；重定向；白名单；黑名单；；阻止列表
-description: 了解如何使用Adobe [!DNL Target] 中的环境来组织您的站点和生产前环境，以便轻松管理和分隔报表。
+description: 了解如何使用Adobe [!DNL Target]中的环境来整理您的站点和生产前环境，以便轻松管理和分隔报表。
 title: 什么是环境？如何使用环境？
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-TQID: https://experienceleague.adobe.com/ve3zhtylLWwRv890FaptsA9shmINkioM6-Yrq-nmmm0
+TQID: 'https://experienceleague.adobe.com/ve3zhtylLWwRv890FaptsA9shmINkioM6-Yrq-nmmm0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: '710'
 ht-degree: 46%
-
 ---
-
 # 环境
 
 可组织您的网站和预生产环境，以便轻松管理和分隔报表。
@@ -64,7 +72,7 @@ ht-degree: 46%
 >
 >[!DNL Recommendations]如果主机变换主机组，则 用户必须重建自己的行为数据库和产品数据库。
 >
->如果在 [!DNL Adobe Experience Platform] 数据流[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans#target){target=_blank}中指定了默认环境，则此设置将覆盖[!DNL Target]中的设置。
+>如果在 [!DNL Adobe Experience Platform] 数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}中指定了[默认环境，则此设置将覆盖[!DNL Target]中的设置。
 
 ## 更改环境的名称 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

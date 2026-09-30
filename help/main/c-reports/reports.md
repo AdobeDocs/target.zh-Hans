@@ -1,25 +1,32 @@
 ---
 keywords: 报表；阻止ip地址；阻止来自ip地址的访客；下载报表；csv；报表
-description: 通过掌握 [!DNL Adobe Target]的报告功能优化您的活动，以增强决策能力并提高ROI。
+description: 通过掌握[!DNL Adobe Target]的报告功能优化您的活动，以增强决策能力并提高ROI。
 title: 如何查看报表？
 feature: Reports
 exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
-TQID: https://experienceleague.adobe.com/aRp-t-Z-Hfu5O01RqfxnKyHHL2suM2ahkteDQJShGQI
+TQID: 'https://experienceleague.adobe.com/aRp-t-Z-Hfu5O01RqfxnKyHHL2suM2ahkteDQJShGQI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: '948'
 ht-degree: 24%
-
 ---
-
 # 报表
 
 报表提供有关[!DNL Adobe Target]活动进度和结果的信息，帮助您根据数据做出决策。 报表数据可以帮助您确定何时结束活动，向您显示哪个体验或选件已入选，并提供确定后续操作所需的分析或学习数据。
@@ -83,7 +90,7 @@ ht-degree: 24%
 | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | 有关AP活动的两个[!UICONTROL Automated Personalization摘要]报表的信息： [!UICONTROL 活动级别]报表和[!UICONTROL 选件级别]报表。 有关详细信息，请参阅[Automated Personalization摘要报表](/help/main/c-reports/personalization-reports/reports-ap.md)。<br>有关AT和AP活动的两个[!UICONTROL Personalization Insights]报表的信息： [!UICONTROL 自动化区段]报表和[!UICONTROL 重要属性]报表。 有关更多信息，请参阅[个性化洞察报告](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [[!UICONTROL 多变量测试]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | 有关MVT活动的以下两个报表的信息：[!UICONTROL 体验性能]报表和[!UICONTROL 位置贡献]报表。 有关详细信息，请参阅[体验性能报表](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) (MVT)和[位置贡献报表](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) (MVT)。 |
 | [[!DNL Adobe Analytics] 作为Adobe Target的报表Source](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | 有关使用[!DNL Adobe Analytics]作为[!DNL Target] (A4T)的报表源的信息。 通过 A4T，您可以访问 [!DNL Target] 活动的 [!DNL Analytics] 报表。 有关更多信息，请参阅 [Analytics for Target (A4T) 报表](/help/main/c-reports/analytics-for-target-a4t-reporting.md)。 |
-| [[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中报告 | 有关[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/customer-journey-analytics){target=_blank}与[!DNL Target]之间集成的信息，该集成为您的优化程序提供了强大的分析和省时的工具。 |
+| [[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中报告 | 有关[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank}与[!DNL Target]之间集成的信息，该集成为您的优化程序提供了强大的分析和省时的工具。 |
 
 ## 阻止来自指定IP地址的报表数据
 

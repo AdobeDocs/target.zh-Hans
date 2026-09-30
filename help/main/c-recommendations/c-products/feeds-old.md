@@ -1,17 +1,24 @@
 ---
 keywords: 推荐信息源；信息源；SAINT；ftp；csv；分类；analytics分类
-description: 了解信息源如何使用CSV文件、Google Product Search信息源格式和 [!DNL Analytics] 产品分类将实体导入 [!DNL Adobe Target] [!DNL Recommendations]。
-title: 如何在 [!DNL Target Recommendations]中使用[!UICONTROL 信息源]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解信息源如何使用CSV文件、Google产品搜索信息源格式和[!DNL Analytics]产品分类将实体导入[!DNL Adobe Target] [!DNL Recommendations]。
+title: 如何在[!DNL Target Recommendations]中使用[!UICONTROL 信息源]？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2572'
+source-wordcount: '2580'
 ht-degree: 45%
-
 ---
-
 # 信息源
 
 使用信息源将实体导入到[!DNL Adobe Target] [!DNL Recommendations]中。 可以使用CSV文件、Google Product Search信息源格式和[!DNL Adobe Analytics]产品分类发送实体。
@@ -121,7 +128,7 @@ Google Product Search 信息源类型使用 Google 格式。 这与[!DNL Adobe]�
 >
 >无需使用 Google 数据。 [!DNL Recommendations]使用与Google相同的格式。 您可以使用此方法上传您的任何数据，并且还可以使用可用的计划功能。 但是，您必须在设置文件时保留 Google 的预定义属性名称。
 
-大多数零售商会将产品上传到Google，这样当访客使用Google产品搜索时，将会显示其产品。 [!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。 实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并且可以使用Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定义的属性。 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
+大多数零售商会将产品上传到Google，这样当访客使用Google产品搜索时，将会显示其产品。 [!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。 实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并且可以使用Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定义的[属性。 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
 
 >[!NOTE]
 >
@@ -212,7 +219,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅&#x200B;*Analytics组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans)。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
+[!DNL Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅&#x200B;*Analytics组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
 
 >[!IMPORTANT]
 >
@@ -246,10 +253,10 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
      支持的 FTP 服务器设置：
 
-      * 必须将 FTP 和 FTPS 设置为使用被动 FTP。
-      * 对于FTPS，请将服务器配置为接受显式FTPS连接。
-      * 不支持 SFTP。
-      * 您可以手动指定启动连接的端口（例如，`ftp://ftp.yoursite.com:2121`）。 如果未指定端口，则将使用默认的 FTP 或 FTPS 端口。
+     * 必须将 FTP 和 FTPS 设置为使用被动 FTP。
+     * 对于FTPS，请将服务器配置为接受显式FTPS连接。
+     * 不支持 SFTP。
+     * 您可以手动指定启动连接的端口（例如，`ftp://ftp.yoursite.com:2121`）。 如果未指定端口，则将使用默认的 FTP 或 FTPS 端口。
 
    * **URL**：如果选择[!UICONTROL URL]，请指定URL。
 
@@ -328,15 +335,15 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 **示例 1:**
 
-* 第一天：太平洋标准时间上午9:00的每日馈送流程。
-* 第二天：现在是下午3:30，从昨天上午9:00起，该信息源就没有运行。
+* 第一天：上午9:00（太平洋标准时间）的每日馈送流程。
+* 第二天：现在是下午 3:30，信息源从昨天上午 9 点之后就没有运行。
 
 状态应为黄色，因为索引原本应在大约 6.5 小时之前运行。 6.5 小时 + 24 等于信息源运行期限的 127%。
 
 **示例 2:**
 
 * 1月1日：每月馈送流程在太平洋标准时间上午9:00进行。
-* 2月3日：上午10:00，馈送已分别有一个月、一天和一小时前未运行。
+* 2月3日：上午10点，馈送已分别有一个月、一天和一小时前未运行。
 
 状态应为黄色，因为索引原本应在大约一天零一小时之前运行。 虽然这只是频率设置的 (31+(1/25))/30 = 1.03%，但它超过了延迟一天的最大值。
 
@@ -344,14 +351,14 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 了解Recommendations (3:01) ![概述徽章](/help/main/assets/overview.png)中的信息源
+### 了解Recommendations中的信息源(3:01) ![概述徽章](/help/main/assets/overview.png)
 
 本视频包含以下信息：
 
 * 了解信息源的用途
 * 了解信息源的值
 
->[!VIDEO](https://video.tv.adobe.com/v/33957?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### 创建信息源(6:44) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -360,4 +367,4 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 设置信息源
 * 了解要使用哪种类型的信息源
 
->[!VIDEO](https://video.tv.adobe.com/v/33956?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

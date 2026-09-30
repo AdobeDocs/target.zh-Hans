@@ -1,16 +1,23 @@
 ---
 keywords: 活动URL；URL；其他URL
-description: 了解如何指定活动URL，以确定测试中使用的页面，以及在使用 [!DNL Adobe Target]设计测试时打开的页面。
+description: 了解如何指定活动URL，以确定测试中使用的页面，以及在使用[!DNL Adobe Target]设计测试时打开的页面。
 title: A/B活动中的活动URL是什么？
 feature: A/B Tests
 exl-id: 7482ae10-fb7e-42ba-9ea0-97b82ed85bff
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 55%
-
 ---
-
 # 活动 URL
 
 活动URL可决定测试中使用的页面，以及在使用Adobe Target设计测试时打开的页面。

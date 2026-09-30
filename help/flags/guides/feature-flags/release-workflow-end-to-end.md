@@ -4,13 +4,14 @@ description: 了解用于管理标记中协调发布的端到端工作流，从�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 2%
-
 ---
-
 # 端到端发布工作流 {#release-workflow}
 
 本页介绍了由版本管理器管理的协调版本中涉及的全序列活动。

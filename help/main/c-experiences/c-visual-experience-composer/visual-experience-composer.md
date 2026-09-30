@@ -4,21 +4,25 @@ description: 了解在Adobe Target中使用可视化体验编辑器(VEC)的基�
 title: 如何使用可视化体验编辑器(VEC)？
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-TQID: https://experienceleague.adobe.com/X4nfYuOtD3TVusnVIIEZhXwUdCZ-dMvbZeJlrkmI9Hs
+TQID: 'https://experienceleague.adobe.com/X4nfYuOtD3TVusnVIIEZhXwUdCZ-dMvbZeJlrkmI9Hs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: '1175'
 ht-degree: 47%
-
 ---
-
 # [!UICONTROL 可视化体验编辑器] (VEC)
 
 [!DNL Adobe Target]中的[!UICONTROL 可视化体验编辑器] (VEC)是一个WYSIWYG编辑器，它允许客户直接在其网站或移动网页上创建和测试个性化体验，而无需编辑代码。

@@ -2,25 +2,33 @@
 keywords: 推荐;设置;名称;目标;优先级;持续时间;报表设置;其他元数据
 description: 了解如何配置用于描述和控制Adobe Target中的“推荐”活动的设置。
 title: 如何配置“推荐”活动设置？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-TQID: https://experienceleague.adobe.com/pfMAvl6MmLCtH3PZfOR4Ve-WFIc3e2iN2Bh-cIzjeC0
+TQID: 'https://experienceleague.adobe.com/pfMAvl6MmLCtH3PZfOR4Ve-WFIc3e2iN2Bh-cIzjeC0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 608
-ht-degree: 44%
-
+source-wordcount: '610'
+ht-degree: 46%
 ---
-
 # “推荐”活动设置
 
 有关可用于描述和控制[!DNL Adobe Target]中的[!UICONTROL 推荐]活动的设置的信息。
@@ -58,15 +66,15 @@ ht-degree: 44%
 
 设置活动的持续时间。
 
-活动可以在激活时开始，或者您也可以设置特定的日期和时间。 同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。 时间选择器使用24小时时钟，00:00为午夜。 时区设置为在浏览器中配置的时区。 要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
+活动可以在激活时开始，或者您也可以设置特定的日期和时间。 同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。 时间选择器使用的是 24 小时制时钟，其中 00:00 表示午夜。 时区设置为在浏览器中配置的时区。 要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
 
 ## 报表设置
 
 * **报告Source：**&#x200B;指定从以下来源收集解决方案数据：
 
-   * [!DNL Adobe Target]
-   * [!DNL Adobe Analytics]
-   * [!DNL Adobe Customer Journey Analytics]
+  * [!DNL Adobe Target]
+  * [!DNL Adobe Analytics]
+  * [!DNL Adobe Customer Journey Analytics]
 
   如果在[帐户设置](/help/main/administrating-target/reporting.md)中指定了报表解决方案，则会使用指定的解决方案，并且此设置不可见。
 

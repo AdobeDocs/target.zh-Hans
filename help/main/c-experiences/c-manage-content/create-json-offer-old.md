@@ -4,13 +4,20 @@ description: 了解如何在中创建JSON选件，以便在[!UICONTROL 基于表
 title: 如何创建JSON选件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 29%
-
 ---
-
 # 创建 JSON 产品建议
 
 在[!DNL Adobe Target]中的[!UICONTROL 选件库]中创建JSON选件，以在[!UICONTROL 基于表单的体验编辑器]中使用。
@@ -23,7 +30,7 @@ JSON选件可用于基于表单的活动，以启用以下用例：需要通过[
 
 * JSON选件当前仅适用于[!UICONTROL A/B测试]、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 体验定位] (XT)活动。
 * JSON选件只能在[基于表单的活动](/help/main/c-experiences/form-experience-composer.md)中使用。
-* 当您使用[服务器端API和Mobile Node.js、Java、.NET和Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}时，可以直接检索JSON选件。
+* 当您使用[服务器端API和Mobile Node.js、Java、.NET和Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}时，可以直接检索JSON选件。
 * 在浏览器中，只能通过at.js 1.2.3（或更高版本）并使用[getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}来检索JSON选件，方法是使用`setJson`操作筛选操作。
 * JSON 选件可作为原生 JSON 对象而不是字符串来交付。 这些对象的用户不必再将对象作为字符串处理后再将其转换为 JSON 对象。
 * 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。 开发人员必须编写代码以使用[getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}明确获取选件。
@@ -44,7 +51,7 @@ JSON选件可用于基于表单的活动，以启用以下用例：需要通过[
 
 ## JSON示例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-仅在使用基于表单的体验编辑器[创建的活动中支持JSON选件。 &#x200B;](/help/main/c-experiences/form-experience-composer.md)目前，能够使用JSON选件的唯一方法是通过直接API/SDK调用。
+仅在使用基于表单的体验编辑器[创建的活动中支持JSON选件。 ](/help/main/c-experiences/form-experience-composer.md)目前，能够使用JSON选件的唯一方法是通过直接API/SDK调用。
 
 示例如下：
 

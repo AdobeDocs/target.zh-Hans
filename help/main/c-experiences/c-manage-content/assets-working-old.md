@@ -1,16 +1,23 @@
 ---
 keywords: 内容库;资产;注释;复制;删除资产;下载资产;编辑内容;共享卡片;查看内容属性
-description: 了解如何管理Adobe [!DNL Target] 选件库中的代码和图像选件。 了解如何查看优惠的详细信息，以及如何编辑、复制、移动或删除优惠。
+description: 了解如何在Adobe [!DNL Target]选件库中管理代码和图像选件。 了解如何查看优惠的详细信息，以及如何编辑、复制、移动或删除优惠。
 title: 如何处理选件库中的内容？
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '773'
 ht-degree: 31%
-
 ---
-
 # 处理资产库中的内容
 
 有关您对[!DNL Adobe Target]中内容库中的资产所能执行的任务的信息，包括注释、复制、删除、下载、编辑、共享和查看属性。
@@ -55,19 +62,19 @@ ht-degree: 31%
 
 * **选择**：选择一个或多个要对其执行以下操作：
 
-   * 下载
-   * 复制
-   * 移动
-   * 删除（请参阅删除项[&#128279;](#delete)时的注意事项。）
+  * 下载
+  * 复制
+  * 移动
+  * 删除（请参阅删除项](#delete)时的[注意事项。）
 
   选择要对其执行以下操作：
 
-   * 共享
-   * 下载
-   * 查看属性
-   * 编辑
-   * 注释
-   * 移动
+  * 共享
+  * 下载
+  * 查看属性
+  * 编辑
+  * 注释
+  * 移动
 
 * **下载**：下载图像选件或文件夹及其内容。
 * **查看属性**：查看项目的属性。 确保单击[!UICONTROL 基本]选项卡和[!UICONTROL 高级]选项卡以查看所有可用信息。 单击属性页面上的铅笔图标，可编辑属性并添加更多信息。 您可以添加元数据信息、发布状态和许可证数据。
@@ -86,7 +93,7 @@ ht-degree: 31%
 
 以下视频包含有关管理内容的信息。 (4:56)
 
-* [Experience Cloud 资产库](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=zh-Hans)与 Target 内容库之间的关联
+* [Experience Cloud 资产库](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)与 Target 内容库之间的关联
 * 自定义 HTML 选件
 * 可视化体验编辑器中的自定义 HTML 选件
 

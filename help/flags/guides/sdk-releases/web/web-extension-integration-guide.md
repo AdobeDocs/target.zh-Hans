@@ -3,13 +3,14 @@ title: Web集成指南的Flags扩展
 description: 了解如何将Flags扩展与Web应用程序的Adobe Experience Platform Web SDK (Alloy)集成。
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 8%
-
 ---
-
 # 标记Web扩展 {#web-extension-integration-guide}
 
 本指南介绍如何将Flags扩展与Web应用程序的Adobe Experience Platform Web SDK (Alloy)集成。 Flags扩展可以为Web体验启用功能标记管理和受控转出。

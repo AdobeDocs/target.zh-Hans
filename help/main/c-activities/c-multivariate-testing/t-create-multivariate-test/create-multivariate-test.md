@@ -1,23 +1,26 @@
 ---
 keywords: MVT;多变量测试;多变量测试创建;MVT 创建;MVT 工作原理;多变量测试工作原理
-description: 了解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 可视化体验编辑器] (VEC)来创建[!UICONTROL 多变量测试] (MVT)。
+description: 了解如何在[!DNL Adobe Target]中使用[!UICONTROL 可视化体验编辑器] (VEC)来创建[!UICONTROL 多变量测试] (MVT)。
 title: 如何创建[!UICONTROL 多变量测试]？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-TQID: https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA
+TQID: 'https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: '811'
 ht-degree: 23%
-
 ---
-
 # 创建多变量测试
 
 通过[!DNL Adobe Target]中的[!UICONTROL 可视化体验编辑器] (VEC)，可以轻松创建[!UICONTROL 多变量测试]，并在[!DNL Target]内修改页面的各个部分。
@@ -135,4 +138,4 @@ ht-degree: 23%
 * 定义和设计多变量测试
 * 创建多变量测试
 
->[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

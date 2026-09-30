@@ -1,16 +1,23 @@
 ---
 keywords: A/B;活动量度;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
-description: 了解如何在 [!DNL Adobe Target] A/B活动中指定量度以确定访问何时成功，例如[!UICONTROL 转化]、[!UICONTROL 收入]和[!UICONTROL 参与]。
+description: 了解如何在[!DNL Adobe Target] A/B活动中指定量度以确定访问何时成功，例如[!UICONTROL 转化]、[!UICONTROL 收入]和[!UICONTROL 参与]。
 title: 如何在A/B活动中设置目标指标？
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '345'
 ht-degree: 57%
-
 ---
-
 # 设置量度
 
 在[!DNL Adobe Target] A/B活动中使用量度来确定访问何时被视为成功。

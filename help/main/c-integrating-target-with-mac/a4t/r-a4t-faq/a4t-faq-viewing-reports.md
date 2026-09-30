@@ -1,27 +1,33 @@
 ---
 keywords: faq;常见问题解答;analytics for target;a4T;报表;报告;查看报表;查看报告;计数方法;展示次数;访客;访问次数;默认量度;活动转化;未指定
-description: 查找有关在使用Analytics for [!DNL Target] (A4T)时查看报表的常见问题解答。 A4T允许您对 [!DNL Target] 活动使用Analytics报表。
+description: 查找有关在使用Analytics for [!DNL Target] (A4T)时查看报表的常见问题解答。 A4T允许您对[!DNL Target]活动使用Analytics报表。
 title: 查找有关使用A4T查看报表的问题答案？
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-TQID: https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc
+TQID: 'https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2699
+source-wordcount: '2700'
 ht-degree: 27%
-
 ---
-
 # 查看报表 - A4T 常见问题解答
 
 本主题包含有关在使用[!DNL Adobe Analytics]作为[!DNL Adobe Target] (A4T)的报表源时查看报表的常见问题解答。
@@ -94,7 +100,7 @@ ht-degree: 27%
 +++回答
 [!DNL Reports & Analytics]将同接触归因模型应用于“活动展示次数”和“活动转化次数”，而[!DNL Analysis Workspace]显示原始量度，由于[!DNL Target]维度的持久性，这些量度可能会虚增。
 
-要计算[!DNL Analysis Workspace]中准确的[!UICONTROL 活动展示次数]和[!UICONTROL 活动转化次数]量度，请确保这两个量度都应用了[!UICONTROL 同一接触]归因模型。 可以通过单击列设置齿轮，启用[!UICONTROL 非默认归因模型]，然后选择[!UICONTROL 同一联系]来应用模型。 在&#x200B;*Analytics工具指南*&#x200B;的[Attributes IQ概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=zh-Hans)中了解有关归因的更多信息。
+要计算[!DNL Analysis Workspace]中准确的[!UICONTROL 活动展示次数]和[!UICONTROL 活动转化次数]量度，请确保这两个量度都应用了[!UICONTROL 同一接触]归因模型。 可以通过单击列设置齿轮，启用[!UICONTROL 非默认归因模型]，然后选择[!UICONTROL 同一联系]来应用模型。 在&#x200B;*Analytics工具指南*&#x200B;的[Attributes IQ概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html)中了解有关归因的更多信息。
 
 +++
 
@@ -160,7 +166,7 @@ ht-degree: 27%
 
 由于这两种体验均在转换之前被看到，因此它们都会获得订单的“点数”。 但在系统中只产生了一个订单，所以点数的总计值反映了这一点。 对于[!DNL Target]报表，由于您不是针对其他活动放置[!DNL Target]活动以查看哪个活动更成功，因此用户看到的所有活动都获得点数并不重要。 您正在比较单个活动中两个项目的结果。 用户不可能在同一活动中看到不同的体验，因此您不必担心订单信用交叉污染。
 
-有关详细信息，请参阅&#x200B;*Analytics管理指南*&#x200B;中的[转化变量(eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=zh-Hans))。
+有关详细信息，请参阅&#x200B;*Analytics管理指南*&#x200B;中的[转化变量(eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html))。
 
 +++
 
@@ -232,7 +238,7 @@ A4T活动报表在停用后的展示次数来源可以是QA模式流量。 Targe
 要在[!DNL Analysis Workspace]中查看活动展示次数，请执行以下操作：
 
 1. 在[!DNL Target] UI中，单击&#x200B;**[!UICONTROL 在Analytics中查看]**。
-1. 将&#x200B;**[!UICONTROL 活动展示次数]**&#x200B;列添加到[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans){target=_blank}报表。
+1. 将&#x200B;**[!UICONTROL 活动展示次数]**&#x200B;列添加到[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}报表。
 1. 在&#x200B;**[!UICONTROL 活动展示次数]**&#x200B;列上，单击[!UICONTROL 齿轮]图标。
 1. 单击&#x200B;**[!UICONTROL 使用非默认归因模型]**。
 1. 选择&#x200B;**[!UICONTROL 同一联系模型]** > **[!UICONTROL 应用]**。

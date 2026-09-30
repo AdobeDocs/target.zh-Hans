@@ -4,27 +4,36 @@ description: 了解如何使用Adobe [!DNL Target] QA URL来执行简单的端�
 title: 如何QA活动？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-TQID: https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI
+TQID: 'https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1815
+source-wordcount: '1816'
 ht-degree: 27%
-
 ---
-
 # 活动 QA
 
 使用[!DNL Adobe Target]中的QA URL来执行简单的端到端活动QA，它提供了永不变更的预览链接、可选的受众定位以及从实时活动数据中分段的QA报表。
@@ -55,8 +64,8 @@ ht-degree: 27%
 
      如果将此设置切换到“关”位置，请考虑以下几点：
 
-      * 如果正在测试的活动与其他实时活动之间存在冲突，则应用[普通优先级规则](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)。 由于发生冲突，您可能无法看到您打算进行QA的活动。
-      * 量度会在已查看的活动中递增，但这仅限于 QA 报表环境。
+     * 如果正在测试的活动与其他实时活动之间存在冲突，则应用[普通优先级规则](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)。 由于发生冲突，您可能无法看到您打算进行QA的活动。
+     * 量度会在已查看的活动中递增，但这仅限于 QA 报表环境。
 
 1. 单击&#x200B;**[!UICONTROL 完成]**，以保存所做的更改。
 1. 与组织成员共享活动链接URL以进行测试。
@@ -85,7 +94,7 @@ ht-degree: 27%
 
 ### [!DNL Adobe Experience Platform Web SDK]
 
-如果您的站点部署了[[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}，则可以通过在站点上加载参数为空值的`at_qa_mode`页面来手动强制自己退出。 例如：
+如果您的站点部署了[[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}，则可以通过在站点上加载参数为空值的`at_qa_mode`页面来手动强制自己退出。 例如：
 
 `https://www.mysite.com/?at_qa_mode=`
 
@@ -98,7 +107,7 @@ ht-degree: 27%
 * 导入到[!DNL Target Standard/Premium]（例如，从[!DNL Target Classic]）中的活动不支持QA URL。
 * 在[!UICONTROL 自动分配]和[!UICONTROL 推荐]活动中，模型不受[!UICONTROL 活动QA]中捕获的访问的影响。
 * 如果在创建活动[时指定了“URL is”基于表单的编辑器中的细化](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或可视化体验编辑器中的[页面交付选项)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，则QA URL不起作用，因为[!UICONTROL 活动QA]会附加URL参数。 要解决此问题，请单击 QA URL 以转到您的网站，并从该 URL 中删除附加的参数，然后再加载新的 URL。
-* 如果您有at.js 1.*x*，则在使用Safari或其他阻止第三方Cookie的浏览器时，[!UICONTROL 活动QA]模式无粘性。 在这些情况下，您必须将预览参数添加到您导航到的每个URL。 如果您实施了[CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=zh-Hans){target=_blank}，则同样如此。
+* 如果您有at.js 1.*x*，则在使用Safari或其他阻止第三方Cookie的浏览器时，[!UICONTROL 活动QA]模式无粘性。 在这些情况下，您必须将预览参数添加到您导航到的每个URL。 如果您实施了[CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}，则同样如此。
 * 如果活动使用多个体验受众（例如，同一活动中同时包含一个美国网站和一个英国网站），则不会为这四种组合（体验A/美国网站、体验A/英国网站、体验B/美国网站、体验B/英国网站）生成QA链接。 而是只会创建两个 QA 链接（体验 A 和体验 B），且用户必须符合相应受众条件才能看到相应的页面。 英国QA人员看不到美国网站。
 * 所有 `at_preview` 参数和值均已进行 URL 编码。 大多数时候，一切都会按预期运行。 但是，有些客户必须加载均衡器或Web服务器，以尝试对查询字符串参数再次进行编码。
 
@@ -125,9 +134,9 @@ ht-degree: 27%
 
 [!DNL Target]支持以下JavaScript库：
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans)
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
 
 下表列出了各种活动类型，并指示每个库是否支持[!UICONTROL 活动QA]模式：
 

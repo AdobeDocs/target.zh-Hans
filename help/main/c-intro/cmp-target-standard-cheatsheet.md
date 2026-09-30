@@ -1,37 +1,55 @@
 ---
 keywords: Target Standard;faq;常见问题解答;速查表;备忘单
-description: 浏览关于使用 [!DNL Target]中各项功能的常见问题解答列表，以及信息和链接以了解详细信息。
+description: 浏览关于使用[!DNL Target]中各项功能的常见问题解答列表，以及信息和链接以了解更多信息。
 title: 可在何处找到优化和个性化问题的答案？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
+TQID: 'https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2871
+source-wordcount: '2871'
 ht-degree: 50%
-
 ---
-
 # Target 优化和个性化常见问题解答
 
 浏览有关使用[!DNL Adobe Target]功能的常见问题解答。 了解如何优化实验、个性化体验以及通过直接链接访问有用的资源以获得更深入的见解。
@@ -69,14 +87,14 @@ ht-degree: 50%
 **[!DNL Adobe]是否有社区/论坛，以便我可以找到关于[!DNL Target]的答案和更多信息？**
 
 +++查看详细信息
-在[Target社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hans){target=_blank}中与其他[!DNL Target]从业人员联系。 与使用[!DNL Target]推动个性化和实验的其他人分享您的专业知识、提出问题并开展协作。 一个欣欣向荣的社区有赖于积极的参与。 您的见解和经验可以帮助他人成功。 快速入门，贡献内容，找到您需要的答案。
+在[Target社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中与其他[!DNL Target]从业人员联系。 与使用[!DNL Target]推动个性化和实验的其他人分享您的专业知识、提出问题并开展协作。 一个欣欣向荣的社区有赖于积极的参与。 您的见解和经验可以帮助他人成功。 快速入门，贡献内容，找到您需要的答案。
 
 +++
 
 **[!DNL Target]支持哪些浏览器？**
 
 +++查看详细信息
-有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hans){target=_blank}矩阵图。 请注意，支持的界面有两方面：[!DNL Target Standard/Premium]以及桌面/设备上的最终用户浏览器支持。
+有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩阵图。 请注意，支持的界面有两方面：[!DNL Target Standard/Premium]以及桌面/设备上的最终用户浏览器支持。
 
 +++
 
@@ -165,7 +183,7 @@ ht-degree: 50%
 **我是否可以安排在固定时间开始和结束活动？**
 
 +++查看详细信息
-通过指定开始日期和结束日期，使用三步活动工作流的[!UICONTROL 目标和设置][&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步骤中的计划功能。
+通过指定开始日期和结束日期，使用三步活动工作流的[!UICONTROL 目标和设置]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步骤中的[计划功能。
 
 请记住激活该活动。 只有实时活动才遵守指定的计划。 达到结束日期后，活动将进入[!UICONTROL 已结束]状态。
 
@@ -254,7 +272,7 @@ ht-degree: 50%
 请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -305,7 +323,7 @@ ht-degree: 50%
 **我有多个域。 其中一个域需要启用[!UICONTROL 增强型体验编辑器]，而其他域则需要禁用它。 我该如何处理？**
 
 +++查看详细信息
-您始终可以使用活动级别[&#128279;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的增强型体验编辑器选项来覆盖默认设置（[!UICONTROL 管理] > [!UICONTROL 可视化体验编辑器]）。
+您始终可以使用活动级别](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的[增强型体验编辑器选项来覆盖默认设置（[!UICONTROL 管理] > [!UICONTROL 可视化体验编辑器]）。
 
 +++
 
@@ -401,7 +419,7 @@ ht-degree: 50%
 请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -434,7 +452,7 @@ ht-degree: 50%
 **我是否可以更改用于评估报表的控制体验，或将计数方法从[!UICONTROL 访客]更改为[!UICONTROL 访问]？**
 
 +++查看详细信息
-使用[&#128279;](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮可进行这些更改。 阅读更多有关这些设置的信息，了解计算结果的差异。
+使用](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮[可进行这些更改。 阅读更多有关这些设置的信息，了解计算结果的差异。
 
 +++
 
@@ -475,6 +493,6 @@ ht-degree: 50%
 **我可以在何处了解有关[!DNL Target] API的更多信息？**
 
 +++查看详细信息
-我们提供了关于 API 的详尽文档。 请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}。
+我们提供了关于 API 的详尽文档。 请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。
 
 +++

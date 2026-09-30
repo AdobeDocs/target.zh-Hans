@@ -5,13 +5,20 @@ title: 如何管理Target？
 feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 11%
-
 ---
-
 # 管理[!DNL Target]概述
 
 此信息可帮助您管理[!DNL Adobe Target]，包括可视化体验编辑器(VEC)、报表、Scene7配置、实现、主机、环境、响应令牌和用户的配置设置。

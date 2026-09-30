@@ -4,27 +4,36 @@ description: 了解为什么某些网站可能无法在[!UICONTROL 可视化体�
 title: 如何使用[!UICONTROL 可视化体验编辑器] (VEC)助手扩展？
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-TQID: https://experienceleague.adobe.com/lqZGGWG1NVtKDzNGPq5k2bDPzxDfNWqPtJ-bYfLCr3Q
+TQID: 'https://experienceleague.adobe.com/lqZGGWG1NVtKDzNGPq5k2bDPzxDfNWqPtJ-bYfLCr3Q'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: '1111'
 ht-degree: 48%
-
 ---
-
 # [!UICONTROL 可视化体验编辑器]帮助程序扩展
 
 适用于[!DNL Google Chrome]的[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)助手浏览器扩展允许您在VEC内可靠地加载网站，以快速创作和QA Web体验。
@@ -70,7 +79,7 @@ SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CS
 
 ## 获取并安装 VEC 助手浏览器扩展
 
-1. 导航到Chrome网上应用商店[&#128279;](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)中的Adobe Target VEC助手浏览器扩展。
+1. 导航到Chrome网上应用商店](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)中的[Adobe Target VEC助手浏览器扩展。
 1. 单击&#x200B;**[!UICONTROL 添加到Chrome >添加扩展]**。
 1. 打开 [!DNL Target] 中的 VEC。
 1. 要使用此扩展，请在处于 VEC 或 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)时，单击 Chrome 浏览器工具栏中的 VEC 助手浏览器扩展图标 (![VEC 助手图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。
@@ -100,6 +109,6 @@ SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CS
 * 当在 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)下使用扩展插入 at.js 时，必须打开另一个 Chrome 选项卡。 此 Chrome 选项卡必须通过您创建该活动的同一 [!DNL Adobe Experience Cloud] 组织的身份验证。
 * 以下消息有助于您随时了解以下情况：
 
-   * 如果尝试使用未能加载的 VEC 来加载网站，则会显示一则消息，建议您安装 VEC 助手浏览器扩展。
-   * 如果尚未在网站上实施 at.js，则 VEC 中会显示一则消息，建议您安装扩展。
-   * 如果扩展已启用并且正在为加载提供支持，则当扩展插入 at.js 库（如果需要），或帮助在 VEC 中可靠地打开网站时，将显示消息。
+  * 如果尝试使用未能加载的 VEC 来加载网站，则会显示一则消息，建议您安装 VEC 助手浏览器扩展。
+  * 如果尚未在网站上实施 at.js，则 VEC 中会显示一则消息，建议您安装扩展。
+  * 如果扩展已启用并且正在为加载提供支持，则当扩展插入 at.js 库（如果需要），或帮助在 VEC 中可靠地打开网站时，将显示消息。

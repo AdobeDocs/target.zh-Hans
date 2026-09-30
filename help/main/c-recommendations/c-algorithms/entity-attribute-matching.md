@@ -1,29 +1,35 @@
 ---
 keywords: 包含规则；包含标准；推荐；促销活动；动态筛选；动态；实体属性匹配
-description: 了解如何通过将潜在项目池与用户与之交互的特定项目进行比较，在 [!DNL Target Recommendations] 中动态筛选。
+description: 了解如何通过将潜在项目池与用户与之交互的特定项目进行比较，在[!DNL Target Recommendations]中动态筛选。
 title: 如何在推荐活动中按实体属性匹配进行筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
-TQID: https://experienceleague.adobe.com/2cBSfWXS96u7iumehPd7enxPjQcebkQCdSBSHWOUcJg
+TQID: 'https://experienceleague.adobe.com/2cBSfWXS96u7iumehPd7enxPjQcebkQCdSBSHWOUcJg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 0%
-
+source-wordcount: '553'
+ht-degree: 2%
 ---
-
 # 实体属性匹配
 
 通过比较潜在的推荐项池与用户与之交互的特定项，在[!DNL Adobe Target Recommendations]中动态筛选。
 
 >[!NOTE]
 >
->为标准和促销活动创建和使用包含规则[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的过程与用例和示例类似。
+>为标准和促销活动创建和使用包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的[过程与用例和示例类似。
 
 例如，只推荐与当前项目品牌相匹配的项目，如以下示例所示：
 

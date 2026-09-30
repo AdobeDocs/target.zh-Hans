@@ -4,13 +4,14 @@ description: 了解如何请求对Adobe Target中的标记团队的访问权限�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 2%
-
 ---
-
 # 请求访问 {#request-access}
 
 在团队级别管理对标志的访问。 要使用标志，您需要添加到具有相应角色的团队中。

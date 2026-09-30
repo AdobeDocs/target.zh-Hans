@@ -4,36 +4,56 @@ description: 纵览 Adobe Target。 了解可用的活动、渠道、实现、�
 title: 可在何处找到 Target 的概括性介绍？
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-TQID: https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w
+TQID: 'https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f599e456-545c-47e5-8e50-b7dfe3579517
+    internal-label: Governance and control
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: a94ced60-8199-4549-b453-ede2acb4101e
+    internal-label: Hybrid implementation
   - id: b06652e6-189f-46a9-90c5-677f6d9cc699
+    internal-label: Adobe Admin Console for Enterprise
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2606
+source-wordcount: '2606'
 ht-degree: 72%
-
 ---
-
 # 第 2 章：Adobe [!DNL Target] 概览
 
 在您开始使用 [!DNL Adobe Target] 之前，大致了解一下该解决方案可能对您有帮助。 在本章中，了解该解决方案的关键功能、可在上面使用它的品牌接触点、实施选项、重要的用户界面功能和工作流程、治理功能及其在整个[!DNL Adobe Experience Cloud]中的角色。 除非指出本章中的某项为 [!DNL Adobe Target Premium] 功能，否则 [!DNL Adobe Target Premium] 和 [!DNL Adobe Target Standard] 均提供该功能。 有关详细信息，请参阅 [Target 简介](/help/main/c-intro/intro.md)。
@@ -75,8 +95,8 @@ ht-degree: 72%
 
 | 实现类型 | 详细信息 |
 | --- | --- |
-| 客户端 | 对于 [!DNL Target] 的这种实现，[!DNL Target] 将与某个活动关联的体验直接提供给客户端浏览器。 浏览器将决定要显示的体验，然后显示该体验。 对于客户端，您可以使用WYSIWYG编辑器、**[!UICONTROL 可视化体验编辑器]** (VEC)或非可视化界面（基于&#x200B;**[!UICONTROL 表单的体验编辑器]**）来创建测试和个性化体验。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank}。 |
-| 服务器端 | 在此类型的 [!DNL Target] 实现中，客户端设备通过您的服务器提出体验请求，您的服务器将该请求发送给 [!DNL Target]，[!DNL Target] 将响应发回您的服务器，然后您的服务器决定将什么体验提供给客户端设备以供其呈现。 体验不一定显示在浏览器中；它能够以电子邮件或网亭形式显示，还可以通过语音助手或者其他一些非可视化体验或不基于浏览器的设备显示。 由于您的服务器位于客户端和 [!DNL Target] 之间，因此如果您需要更好地控制体验并提高其安全性，或者您希望在服务器上运行复杂的后端进程，则此类实施是最佳选择。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}。 |
+| 客户端 | 对于 [!DNL Target] 的这种实现，[!DNL Target] 将与某个活动关联的体验直接提供给客户端浏览器。 浏览器将决定要显示的体验，然后显示该体验。 对于客户端，您可以使用WYSIWYG编辑器、**[!UICONTROL 可视化体验编辑器]** (VEC)或非可视化界面（基于&#x200B;**[!UICONTROL 表单的体验编辑器]**）来创建测试和个性化体验。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}。 |
+| 服务器端 | 在此类型的 [!DNL Target] 实现中，客户端设备通过您的服务器提出体验请求，您的服务器将该请求发送给 [!DNL Target]，[!DNL Target] 将响应发回您的服务器，然后您的服务器决定将什么体验提供给客户端设备以供其呈现。 体验不一定显示在浏览器中；它能够以电子邮件或网亭形式显示，还可以通过语音助手或者其他一些非可视化体验或不基于浏览器的设备显示。 由于您的服务器位于客户端和 [!DNL Target] 之间，因此如果您需要更好地控制体验并提高其安全性，或者您希望在服务器上运行复杂的后端进程，则此类实施是最佳选择。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。 |
 | 混合实现 | 在此实现中，您选择最适合给定用例的实现方法。 例如，您可能会使用客户端实现对主页上巨型横幅中的产品建议进行 A/B 测试，但还可能会使用服务器端实现确定要在客户端浏览器上显示的内部搜索结果、要在智能汽车仪表板上显示的体验或要从语音助手发出的语音响应。 |
 
 ## 活动元素

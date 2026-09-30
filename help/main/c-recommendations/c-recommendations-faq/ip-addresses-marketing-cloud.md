@@ -1,22 +1,28 @@
 ---
 keywords: IP 地址;IP 地址;列入允许列表;允许列表;防火墙;推荐;信息源;服务器;adobe marketing cloud;推荐
-description: 查看在 [!DNL Target] 推荐信息源处理服务器中使用的 IP 地址的列表，以帮助您将防火墙配置为允许来自 Adobe 服务器的 IP 地址。
+description: 查看[!DNL Target]推荐信息源处理服务器中使用的IP地址列表，以帮助您将防火墙配置为允许源自Adobe服务器的IP地址。
 title: 推荐信息源处理服务器使用什么 IP 地址？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-TQID: https://experienceleague.adobe.com/-EhfjK6jTuHX33utQig-XYhf-nzkWlxb58VRmK9fLWo
+TQID: 'https://experienceleague.adobe.com/-EhfjK6jTuHX33utQig-XYhf-nzkWlxb58VRmK9fLWo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 189
-ht-degree: 32%
-
+source-wordcount: '190'
+ht-degree: 19%
 ---
-
 # [!DNL Recommendations]信息源处理服务器使用的IP地址
 
 [!DNL Adobe Target] [!DNL Recommendations]信息源处理服务器中使用的IP地址列表，可帮助您将防火墙配置为允许源自[!DNL Adobe]服务器的IP地址。

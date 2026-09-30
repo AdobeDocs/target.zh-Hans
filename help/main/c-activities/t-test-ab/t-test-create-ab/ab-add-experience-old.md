@@ -1,16 +1,23 @@
 ---
 keywords: 定位;体验;添加体验;体验添加
-description: 了解如何在 [!DNL Adobe Target]中使用[!UICONTROL 可视化体验编辑器] (VEC)。
-title: 如何在A [!DNL Target] A/B活动中添加体验？
+description: 了解如何在[!DNL Adobe Target]中使用[!UICONTROL 可视化体验编辑器] (VEC)。
+title: 如何在[!DNL Target] A/B活动中添加体验？
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 41%
-
 ---
-
 # 添加体验
 
 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)提供了一个可视化界面，用于添加和编辑您页面上的体验。
@@ -104,4 +111,4 @@ ht-degree: 41%
 * 更改页面的内容
 * 更改页面的布局
 
->[!VIDEO](https://video.tv.adobe.com/v/30331?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

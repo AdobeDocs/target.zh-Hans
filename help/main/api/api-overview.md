@@ -1,30 +1,37 @@
 ---
 keywords: API；API；管理员API；交付API；报表API；配置文件API
 description: 查找Adobe [!DNL Target] API，包括管理员、交付、报表和配置文件API。
-title: 可在何处找到 [!DNL Target] API和SDK文档？
+title: 可在何处找到[!DNL Target] API和SDK文档？
 feature: APIs/SDKs
 role: Developer
 exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
-TQID: https://experienceleague.adobe.com/rMCbMps-rUEzRuGXFTejWKnFhWqH11t7YQE3JYlqje4
+TQID: 'https://experienceleague.adobe.com/rMCbMps-rUEzRuGXFTejWKnFhWqH11t7YQE3JYlqje4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: a19e8738-9679-599a-b83b-5f2f15f8e4d6
+    internal-label: APIs/SDKs
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 181
+source-wordcount: '183'
 ht-degree: 3%
-
 ---
-
 # Adobe [!DNL Target] SDK和API
 
 在开始使用[!DNL Adobe Target]之前，您必须在您的网站上实施它。
@@ -46,4 +53,4 @@ ht-degree: 3%
 * 报表API。
 * 推荐API。
 
-有关详细信息，请参阅[Adobe Target开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans){target=_blank}中的[Target API概述](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=zh-Hans){target=_blank}。
+有关详细信息，请参阅[Adobe Target开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}中的[Target API概述](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank}。

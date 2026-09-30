@@ -1,23 +1,29 @@
 ---
 keywords: 包含规则;包含标准;推荐;新建标准;促销活动;动态筛选;动态;空值;忽略筛选规则;静态筛选器;按值筛选;实体属性匹配;轮廓属性匹配;参数匹配;按值筛选;静态筛选器
-description: 了解如何在 [!DNL Target] 推荐中为标准和促销活动创建包含规则。
+description: 了解如何在[!DNL Target]推荐中为标准和促销创建包含规则。
 title: 如何在推荐中使用动态和静态包含规则？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-TQID: https://experienceleague.adobe.com/PM9h863-uQWm3wrU7OVWfmnqQgyUGmF7QFpTUaAZuCQ
+TQID: 'https://experienceleague.adobe.com/PM9h863-uQWm3wrU7OVWfmnqQgyUGmF7QFpTUaAZuCQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2258
+source-wordcount: '2259'
 ht-degree: 14%
-
 ---
-
 # 使用动态和静态包含规则
 
 为[!DNL Adobe Target]中的标准和促销活动创建包含规则，并添加动态或静态筛选规则以获得更好的推荐结果。
@@ -76,7 +82,7 @@ ht-degree: 14%
 | --- | --- |
 | [[!UICONTROL 静态筛选]](/help/main/c-recommendations/c-algorithms/static-value.md) | 手动输入一个或多个要过滤的静态值。 |
 
-## 可用的运算符 {#operators}
+## 可用运算符 {#operators}
 
 动态标准和促销活动比静态标准和促销活动强大得多，并能产生更好的结果和参与。
 
@@ -96,7 +102,7 @@ ht-degree: 14%
 | [!UICONTROL 不包含任何]<P>（[!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]、[!UICONTROL 参数匹配]和[!UICONTROL 静态筛选器]可用。） | 使用“不包含任何”运算符，当访客查看网站上的项目（例如产品）时，您可以促销满足以下条件的其他项目：<ul><li>标题不包含脏字</li></ul> |
 | [!UICONTROL 以任一]开头<P>（[!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]、[!UICONTROL 参数匹配]和[!UICONTROL 静态筛选器]可用。） | 使用“[!UICONTROL ”开头为]的运算符，当访客查看网站上的项目（例如产品）时，您可以促销满足以下条件的其他项目：<ul><li>产品名称以iPhone开头</li></ul> |
 | [!UICONTROL 以任意]结尾<P>（[!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]、[!UICONTROL 参数匹配]和[!UICONTROL 静态筛选器]可用。） | 使用“[!UICONTROL 以]为结尾”运算符，当访客查看网站上的项目（例如产品）时，您可以促销满足以下条件的其他项目：<ul><li>内容以EN结尾，EN表示英语</li></ul> |
-| [!UICONTROL 介于]之间<P>（[!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配]时可用。） | 在动态促销活动中使用“介于之间的is”运算符时，如果访客正在查看网站上的项目（例如产品、文章或影片），您可以向其促销以下其他项目：<ul><li>更贵</li><li>更便宜</li><li>成本加减30%</li><li>同一季的后几集</li><li>系列中以前的书籍</li></ul> |
+| [!UICONTROL 介于]之间<P>（[!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配]时可用。） | 在动态促销活动中使用“介于]之间的i[!UICONTROL s”运算符时，如果访客正在查看网站上的项目（例如产品、文章或影片），您可以向其促销以下其他项目：<ul><li>更贵</li><li>更便宜</li><li>成本加减30%</li><li>同一季的后几集</li><li>系列中以前的书籍</li></ul> |
 | [!UICONTROL 列表在]中包含项<P>（[!UICONTROL 配置文件属性匹配]且[!UICONTROL 参数匹配]时可用。） | 在配置文件属性匹配中使用“[!UICONTROL ”列表在]”运算符中包含项目，当访客查看网站上的项目（例如产品、文章或电影）时，您可以促销以下其他项目：<ul><li>在访客所在的地理位置可用</li></ul>**示例**：您想要推荐仅在访客的地理区域中可用的项目。<P>您的筛选规则可能如下所示：<P>`availableGeographies list contains an item in user.currentGeography`<P>**注意**：使用此运算符时，规则的[右侧](#caveats)应该有一个列表。 |
 | [!UICONTROL 列表在]中不包含项<P>（[!UICONTROL 配置文件属性匹配]且[!UICONTROL 参数匹配]时可用。） | 在配置文件属性匹配中使用“[!UICONTROL ”列表在]”运算符中不包含项目，在这种情况下，当访客查看网站上的项目时（例如产品、文章或电影），您可以排除以下其他项目：<ul><li>在访客查看的最近十个项目的列表中</li></ul></ul>**示例**：您不希望提升访客最近查看过且对其不感兴趣的项目。<P>您的筛选规则可能如下所示：<P>`id is not contained in list user.lastViewedItems`<P>**注意**：使用此运算符时，规则的[右侧](#caveats)应该有一个列表。 |
 | [!UICONTROL 列表在]中包含项<P>（[!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配]时可用。） | 在配置文件属性匹配中使用“[!UICONTROL ”列表在]”运算符中包含项目，当访客查看您网站上的项目时（例如体育赛事或音乐会），您可以促销以下其他项目：<ul><li>与访客最喜爱的团队之一关联</li></ul>**示例**：您希望推荐与访客最喜爱的团队之一关联的游戏。<P>您的筛选规则可能如下所示：<P>` teamsPlaying list contains an item in user.favoriteTeams`<P>**注意**：使用此运算符时，规则的[两侧](#caveats)中应该有一个列表。 |

@@ -1,25 +1,33 @@
 ---
 keywords: 体验；可视化体验编辑器；增强型体验编辑器；基于表单的体验编辑器；表单编辑器；可视化编辑器；体验编辑器；混合内容；iframe；防iframe嵌套；嵌套iframe；x-frame-options；x frame选项；跨域；跨域问题；身份验证工作流
 description: 详细了解Adobe体验编辑器 — 可视化体验编辑器(VEC)、基于表单的体验编辑器和单页可视化体验编辑器。
-title: ' [!DNL Target] 提供哪些体验编辑器？'
+title: '[!DNL Target]提供哪些体验编辑器？'
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
-TQID: https://experienceleague.adobe.com/M6qSdXMgnhZjKOwvH6dMI35uetwpnt7oa9GmlrMkMjw
+TQID: 'https://experienceleague.adobe.com/M6qSdXMgnhZjKOwvH6dMI35uetwpnt7oa9GmlrMkMjw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: '389'
 ht-degree: 79%
-
 ---
-
 # 体验和产品建议
 
 [!DNL Adobe Target]中的体验可决定在访客满足活动的受众条件时显示的内容。

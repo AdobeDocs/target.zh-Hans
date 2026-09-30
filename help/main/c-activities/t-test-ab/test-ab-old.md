@@ -1,16 +1,23 @@
 ---
 keywords: AB；A/B；AB...n；比较体验；定位；比较内容；自动定位；自动分配
-description: 了解Adobe [!DNL Target] 中不同类型的A/B测试活动 — 手动、自动分配和自动定位。 选择适合您的版本。
+description: 了解Adobe [!DNL Target]中不同类型的A/B测试活动：手动、自动分配和自动定位。 选择适合您的版本。
 title: Target中提供了哪种类型的A/B活动？
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 22%
-
 ---
-
 # A/B测试概述
 
 手动[!UICONTROL A/B测试]活动比较两个或更多版本的网站内容，以查看在预先指定的测试期间，哪个版本最有利于提高转化。
@@ -66,4 +73,4 @@ ht-degree: 22%
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

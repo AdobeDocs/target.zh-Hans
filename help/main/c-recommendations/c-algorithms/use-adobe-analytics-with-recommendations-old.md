@@ -1,17 +1,24 @@
 ---
 keywords: 行为数据源；Analytics；推荐；标准；产品变量
-description: 了解如何使用 [!DNL Adobe Analytics] 作为行为数据源，以使用 [!DNL Target Recommendations]中 [!DNL Analytics] 基于视图和/或基于购买的行为数据。
-title: 如何将 [!DNL Adobe Analytics] 与 [!DNL Target Recommendations]一起使用？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解如何使用[!DNL Adobe Analytics]作为行为数据源，以使用来自[!DNL Target Recommendations]中[!DNL Analytics]的基于视图和/或基于购买的行为数据。
+title: 如何将[!DNL Adobe Analytics]与[!DNL Target Recommendations]一起使用？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '829'
 ht-degree: 1%
-
 ---
-
 # 将[!DNL Adobe Analytics]与[!DNL Recommendations]一起使用
 
 将[!DNL Adobe Analytics]用作行为数据源可让客户端在[!DNL Adobe Target] [!DNL Recommendations]活动中使用[!DNL Analytics]中基于视图和/或基于购买的行为数据。 此功能在[!DNL Target Recommendations]设置是新的，且[!DNL Analytics]有许多历史数据可供使用的情况下特别有用。
@@ -49,7 +56,7 @@ ht-degree: 1%
 >
 >如果它是内容网站，则必须将相应的内容片段视为“产品”，并且必须将该内容的关联属性作为属性传递。 此类属性可以包括作者姓名、发布日期、内容标题、发布月份等。 类别级别的粒度或类别类型，应由业务根据用例需求来决定。
 
-有关如何设置产品变量的更多详细信息，请参阅“*实施Adobe Analytics*”指南中的[产品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hans)。 该文档中的一些注释需要部署该文档的团队自行决定（例如：类别）。 在执行此活动之前，始终建议咨询[!DNL Adobe]。
+有关如何设置产品变量的更多详细信息，请参阅“*实施Adobe Analytics*”指南中的[产品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html)。 该文档中的一些注释需要部署该文档的团队自行决定（例如：类别）。 在执行此活动之前，始终建议咨询[!DNL Adobe]。
 
 ### 注意事项
 

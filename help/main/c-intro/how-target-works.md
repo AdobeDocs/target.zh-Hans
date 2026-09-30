@@ -1,38 +1,57 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;搜索引擎优化;搜索引擎优化;seo;边缘群集、中心群集;at.js;mbox.js;
-description: 了解 [!DNL Adobe Target] 的工作原理，包括有关JavaScript库(AEP Web SDK at.js)、服务器调用使用策略、使用情况、Adobe数据中心、SEO测试和机器人的信息。
-title: ' [!DNL Target] 的工作原理'
+description: 了解[!DNL Adobe Target]的工作原理，包括有关JavaScript库(AEP Web SDK at.js)、服务器调用使用策略、使用情况、Adobe数据中心、SEO测试和机器人的信息。
+title: '[!DNL Target]的工作方式'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-TQID: https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE
+TQID: 'https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2421
-ht-degree: 25%
-
+source-wordcount: '2424'
+ht-degree: 24%
 ---
-
 # [!DNL Adobe Target] 的工作原理
 
 了解[!DNL Adobe Target]的工作原理，包括有关JavaScript库（[!DNL Adobe Experience Platform Web SDK]和at.js）的详细信息。 本文还介绍了您可以创建的各种活动类型、[!DNL Target]使用计数策略、[!DNL Target]Edge Network、SEO和机器人检测。
@@ -50,19 +69,19 @@ ht-degree: 25%
 
 Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：此客户端JavaScript库允许[!DNL Adobe Experience Cloud]客户通过[!DNL Experience Platform Edge Network]与各种服务进行交互。 [!DNL Adobe]建议新[!DNL Target]客户实施[!DNL Experience Platform Web SDK]。
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：此客户端JavaScript库允许[!DNL Adobe Experience Cloud]客户通过[!DNL Experience Platform Edge Network]与各种服务进行交互。 [!DNL Adobe]建议新[!DNL Target]客户实施[!DNL Experience Platform Web SDK]。
 * **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**：此[!DNL Target]实现库可缩短Web实施的页面加载时间，并为单页应用程序提供更好的选项。 经常更新新功能，[!DNL Adobe]建议所有[at.js用户更新到最新版本](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 >[!NOTE]
 >
 >mbox.js库是[!DNL Target]的旧版实施，在2021年3月31日之后不再受支持。 升级到[!UICONTROL Experience Platform Web SDK]（首选）或最新版本的at.js。
 
-请在您网站的每个页面上引用[!UICONTROL Experience Platform Web SDK]或at.js。 例如，将其中一个库添加到您的全局标头。 或者，使用Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home){target=_blank}中的标记实现[!DNL Target]。
+请在您网站的每个页面上引用[!UICONTROL Experience Platform Web SDK]或at.js。 例如，将其中一个库添加到您的全局标头。 或者，使用Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}中的[标记实现[!DNL Target]。
 
 以下资源包含帮助您实施 [!DNL Experience Platform Web SDK] 或 at.js 的详细信息：
 
-* [[!DNL Adobe Experience Platform Web SDK]扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=zh-Hans){target=_blank}
-* [使用 [!DNL Adobe Experience Platform]实施 [!DNL Target] &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK]扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [使用 [!DNL Adobe Experience Platform]实施 [!DNL Target] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 每次访客请求访问针对[!DNL Target]进行优化的页面时，系统都会向定位系统发送实时请求，以确定要提供的内容。 每次加载页面时都会提出并完成此请求，受营销人员控制的活动和体验的约束。 内容针对个别网站访客，可最大限度地提高响应率、客户获取率和收入。 个性化内容有助于确保访客做出响应、与之互动或进行购买。
 
@@ -156,7 +175,7 @@ The following information helps you understand the counting strategy used for [!
 
 为了改善响应时间，[!DNL Target] 边缘仅存放活动逻辑、缓存的轮廓和产品建议信息。
 
-活动和内容数据库、[!DNL Analytics]数据、API和营销人团用户界面存放在[!DNL Adobe]中心群集中。 更新将发送到[!DNL Target]边缘，这些边缘会自动与中心群集同步，以不断更新缓存的活动数据。 所有1:1建模也都存储在每个边缘上，允许本地处理复杂的请求。
+活动和内容数据库、[!DNL Analytics]数据、API和营销人团用户界面存放在[!DNL Adobe]中心群集中。 更新将发送到[!DNL Target]边缘，这些边缘会自动与中心群集同步，以不断更新缓存的活动数据。 所有1:1建模也都存储在每个边缘上，从而允许在本地处理复杂的请求。
 
 每个Edge集群都包含响应访客内容请求和跟踪分析数据所需的所有信息。 访客请求被路由到最近的边缘群集。
 
@@ -194,7 +213,7 @@ Edge集群处理距离访客最近的请求，而不是从单个位置处理所�
 >
 >[!DNL Target]当前在中国缺少Edge群集，从而限制了该区域[!DNL Target]客户的访客性能。 防火墙和Edge群集的缺失可能会影响站点体验，导致渲染和页面加载时间变慢。 此外，营销人员在使用[!DNL Target]创作UI时可能会遇到延迟问题。
 
-如果需要，可将 [!DNL Target] 边缘群集列入允许列表。 有关更多信息，请参阅[将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
+如果需要，可将 [!DNL Target] 边缘群集列入允许列表。 有关更多信息，请参阅[将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

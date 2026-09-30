@@ -1,22 +1,29 @@
 ---
 keywords: 排除项
-description: 了解如何在 [!DNL Target Recommendations] 中创建排除项以防止向访客推荐产品或内容。
+description: 了解如何在[!DNL Target Recommendations]中创建排除项以防止向访客推荐产品或内容。
 title: 如何在[!UICONTROL 推荐]活动中使用排除项？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-TQID: https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o
+TQID: 'https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '529'
 ht-degree: 13%
-
 ---
-
 # 排除项
 
 在[!DNL Adobe Target Recommendations]中创建排除项以阻止向访客推荐产品或内容。 排除项是不向访客推荐的产品或内容的子集。
@@ -41,7 +48,7 @@ ht-degree: 13%
 
 1. 单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 排除项]**&#x200B;以显示现有排除项列表。
 
-   [!UICONTROL 排除项]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 有关如何更改默认主机组的信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[计划和实施 [!DNL Recommendations]](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/recommendations){target=_blank}。
+   [!UICONTROL 排除项]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 有关如何更改默认主机组的信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[计划和实施 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}。
 
 1. （视情况而定）单击&#x200B;**[!UICONTROL 显示筛选器]**&#x200B;图标（![显示筛选器图标](/help/main/assets/icons/Filter.svg)），然后在创建（或更新）排除项时从&#x200B;**[!UICONTROL 环境]**&#x200B;下拉列表中选择所需的[环境](/help/main/administrating-target/environments.md)，以预览该环境中排除项的内容。 默认情况下，会显示默认主机组的结果。
 
@@ -77,11 +84,11 @@ After creating a search using "id > contains," for example, you can then click [
 
 请注意，排除项可在整个帐户中使用。 确保在删除排除项之前考虑此注意事项。 无法恢复已删除的排除项。
 
-## 培训视频：在“推荐” (7:05) ![教程徽章](/help/main/assets/tutorial.png)中创建收藏集和排除项
+## 培训视频：在“推荐”(7:05) ![教程徽章](/help/main/assets/tutorial.png)中创建收藏集和排除项
 
 本视频包含以下信息：
 
 * 创建收藏集
 * 创建排除项
 
->[!VIDEO](https://video.tv.adobe.com/v/35356?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

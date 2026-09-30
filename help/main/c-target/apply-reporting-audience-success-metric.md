@@ -1,24 +1,31 @@
 ---
 keywords: 定位;受众;报表;成功量度
-description: 了解如何在 [!DNL Adobe Target] 中选择一个符合报表受众用户条件的成功量度。
+description: 了解如何在[!DNL Adobe Target]中选择一个能够让用户符合报表受众条件的成功量度。
 title: 能否将报表受众应用到成功量度？
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-TQID: https://experienceleague.adobe.com/n3iyCzlY5oDOrCEqvo6nO51PvknlySPCMasQZ0JfIEM
+TQID: 'https://experienceleague.adobe.com/n3iyCzlY5oDOrCEqvo6nO51PvknlySPCMasQZ0JfIEM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 406
+source-wordcount: '407'
 ht-degree: 43%
-
 ---
-
 # 将报表受众应用于成功量度
 
 选择一个可让用户符合[!DNL Adobe Target]中报表受众条件的成功量度。

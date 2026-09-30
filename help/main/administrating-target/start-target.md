@@ -1,26 +1,32 @@
 ---
 keywords: 管理;审批者角色;审批者
-description: 在收到 [!DNL Adobe Experience Cloud]的电子邮件邀请后，执行 [!DNL Adobe Target] 管理员应该执行的第一个任务。
-title: 从何处开始管理 [!DNL Target]？
+description: 在收到[!DNL Adobe Experience Cloud]的电子邮件邀请后，执行[!DNL Adobe Target]管理员应该执行的第一个任务。
+title: 从何处开始管理[!DNL Target]？
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-TQID: https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk
+TQID: 'https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 473
-ht-degree: 30%
-
+source-wordcount: '474'
+ht-degree: 29%
 ---
-
 # 管理员首要步骤
 
 本文包含收到[!DNL Adobe Experience Cloud]的电子邮件邀请后，[!DNL Adobe Target]管理员应该采取的首要步骤。
@@ -29,7 +35,7 @@ ht-degree: 30%
 
 [!DNL Adobe Admin Console]中的系统管理员必须通过邀请您加入，将您添加为[!DNL Target]中的用户。 然后，系统管理员应将您添加到一个或多个特定于角色的产品配置文件（用户组）。 这两项任务均在[Adobe Admin Console](https://adminconsole.adobe.com)中执行。
 
-有关详细信息，请参阅[管理用户组](https://helpx.adobe.com/cn/enterprise/using/users.html)。
+有关详细信息，请参阅[管理用户组](https://helpx.adobe.com/enterprise/using/users.html)。
 
 系统管理员执行这些步骤后，您将会收到一封邀请电子邮件。
 

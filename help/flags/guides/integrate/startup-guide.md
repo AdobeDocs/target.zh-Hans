@@ -4,13 +4,14 @@ description: 按照以下步骤将您的应用程序与标志集成：从请求�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 339de89fff7bb14eb8146d42482b30c86feeedef
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
-
 ---
-
 # 启动指南 {#startup-guide}
 
 请按照以下步骤将标记集成到您的应用程序中。
@@ -45,8 +46,8 @@ ht-degree: 1%
 
 如果通过基于标记的方法（Web或移动设备）进行集成，请在初始化SDK之前配置标记属性：
 
-1. 在[Adobe Experience Platform数据收集](https://experience.adobe.com/#/data-collection)中，创建[标记属性](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/get-started/quick-start)（如果尚未创建），或使用现有的标记属性。
-1. 打开移动或Web标记属性，然后转到[扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/extensions/overview)。
+1. 在[Adobe Experience Platform数据收集](https://experience.adobe.com/#/data-collection)中，创建[标记属性](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)（如果尚未创建），或使用现有的标记属性。
+1. 打开移动或Web标记属性，然后转到[扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)。
 1. 安装和配置&#x200B;**Edge Network**&#x200B;扩展。 然后安装&#x200B;**Flags**&#x200B;扩展。
 1. 选择&#x200B;**数据流**（它必须包括Customer Journey Analytics数据集）并配置Edge域。
 1. 通过&#x200B;**Dev → Staging → Production**&#x200B;发布配置。

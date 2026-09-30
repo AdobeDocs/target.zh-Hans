@@ -4,20 +4,23 @@ description: 了解可用于编辑现有活动的各种方式。
 title: 如何编辑活动？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-TQID: https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA
+TQID: 'https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: '1049'
 ht-degree: 21%
-
 ---
-
 # 编辑活动
 
 了解如何在[!DNL Adobe Target]中编辑现有活动。 本文介绍[!DNL Target]界面中用于修改活动的各种方法。 无论您是更新体验、调整定位规则还是配置目标，[!DNL Target]都可以确保在激活之前安全地保存您的更改。
@@ -70,33 +73,33 @@ ht-degree: 21%
 
 * 如果在同一工作区中复制活动，或者将活动从默认工作区复制到非默认工作区，则会自动打开“活动向导”。 在跨工作区副本中，您可能只需要更新活动属性。
 * 将活动从非默认工作区复制到另一个工作区（默认或非默认）时，将打开活动向导，并且需要一些手动输入才能完成设置：
-   * **[!UICONTROL 属性]**：工作区之间的属性可能不同。 此情况可能会触发警告：
+  * **[!UICONTROL 属性]**：工作区之间的属性可能不同。 此情况可能会触发警告：
 
-      * 在[!UICONTROL 基于表单的体验编辑器]中，警告将直接显示在用户界面中以便立即可见。
+    * 在[!UICONTROL 基于表单的体验编辑器]中，警告将直接显示在用户界面中以便立即可见。
 
-        ![基于表单的工作区警告](/help/main/c-activities/assets/form-based-warning.png)
+      ![基于表单的工作区警告](/help/main/c-activities/assets/form-based-warning.png)
 
-      * 在VEC中，单击[!UICONTROL 配置] > [!UICONTROL 属性]时会显示警告。
+    * 在VEC中，单击[!UICONTROL 配置] > [!UICONTROL 属性]时会显示警告。
 
-        ![vec警告](/help/main/c-activities/assets/vec-warning.png)
+      ![vec警告](/help/main/c-activities/assets/vec-warning.png)
 
-        要解决此问题，请单击[!UICONTROL 添加/删除]，以便只显示目标工作区中可用的属性以供选择。
+      要解决此问题，请单击[!UICONTROL 添加/删除]，以便只显示目标工作区中可用的属性以供选择。
 
-   * **受众和选件**：将活动复制到新工作区时，所有关联的[!DNL Target]或原始工作区中的临时受众和选件将以下列格式复制： [!DNL Target]受众和`<Entity Name>`的临时受众和选件`<Entity Name> Copy <Date>`。
+  * **受众和选件**：将活动复制到新工作区时，所有关联的[!DNL Target]或原始工作区中的临时受众和选件将以下列格式复制： [!DNL Target]受众和`<Entity Name>`的临时受众和选件`<Entity Name> Copy <Date>`。
 
-     行为详细信息：
+    行为详细信息：
 
-      * 在保存并重新打开活动之前，复制的受众和选件不会显示在[!UICONTROL 受众]和[!UICONTROL 选件]列表中。
-      * 复制后无法立即编辑这些实体。 在初始编辑会话期间，客户可能会在VEC中看到这些项目的空内容。
-      * 如果需要，客户可以使用目标工作区中的其他受众或选件替换复制的受众或选件。
+    * 在保存并重新打开活动之前，复制的受众和选件不会显示在[!UICONTROL 受众]和[!UICONTROL 选件]列表中。
+    * 复制后无法立即编辑这些实体。 在初始编辑会话期间，客户可能会在VEC中看到这些项目的空内容。
+    * 如果需要，客户可以使用目标工作区中的其他受众或选件替换复制的受众或选件。
 
-     此过程可确保更平稳的跨工作区活动复制，同时保持自定义的灵活性。
+    此过程可确保更平稳的跨工作区活动复制，同时保持自定义的灵活性。
 
-     在复制活动时，必须手动替换未保存在当前工作区或默认工作区中的非目标受众和选件。
+    在复制活动时，必须手动替换未保存在当前工作区或默认工作区中的非目标受众和选件。
 
-     手动替换这些非目标受众和选件可确保在复制的活动中仅使用有效、可访问的实体，并防止在编辑或交付期间出现错误。
+    手动替换这些非目标受众和选件可确保在复制的活动中仅使用有效、可访问的实体，并防止在编辑或交付期间出现错误。
 
-     ![警告消息](/help/main/c-activities/assets/copy.png)
+    ![警告消息](/help/main/c-activities/assets/copy.png)
 
 >[!NOTE]
 >

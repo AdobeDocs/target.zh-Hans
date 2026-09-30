@@ -1,22 +1,26 @@
 ---
 keywords: 报表；统计方法；统计计算；统计数据；平均值；转化率；每位访客带来的收入；rpv；置信区间；提升度；welch t-test；离线计算
-description: 了解在 [!DNL Adobe Target]中手动[!UICONTROL A/B测试]活动中使用的统计计算。
+description: 了解[!DNL Adobe Target]中手动[!UICONTROL A/B测试]活动中使用的统计计算。
 title: 如何了解[!UICONTROL A/B测试]活动中使用的统计计算？
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
+TQID: 'https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 224dafac8d5d0ba17baa4ee998ca7dd89b73b898
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: '1506'
 ht-degree: 1%
-
 ---
-
 # A/Bn测试中的统计计算
 
 本文记录了[!DNL Adobe Target]中手动A/Bn测试中使用的详细统计计算。 提供了&#x200B;**[!UICONTROL 转化率]**、**[!UICONTROL 转化率的置信区间]**、**[!UICONTROL 提升度]**、**[!UICONTROL 提升度的置信区间]**、**[!UICONTROL 置信度]**&#x200B;和&#x200B;**[!UICONTROL 贝叶斯]**&#x200B;决策度量的定义。
@@ -33,7 +37,7 @@ ht-degree: 1%
 
 下节将说明下图中使用的计算。
 
-显示A/B测试活动的[!UICONTROL 转化率]、[!UICONTROL 平均提升度和置信区间]以及[!UICONTROL 置信度]的目标报告。![&#128279;](/help/main/c-reports/statistical-methodology/img/target_report.png)
+显示A/B测试活动的[!UICONTROL 转化率]、[!UICONTROL 平均提升度和置信区间]以及[!UICONTROL 置信度]的目标报告。](/help/main/c-reports/statistical-methodology/img/target_report.png)![
 
 #### 转化率和每位访客带来的收入(RPV)促销活动
 
@@ -55,7 +59,7 @@ ht-degree: 1%
   * 如果将&#x200B;**[!UICONTROL 访问次数]**&#x200B;用作计数方法，则每个单位都是唯一访问，它在[!DNL Target]会话（具有唯一的`sessionId`）期间定义为体验中的唯一参与者。 当`sessionId`发生更改或访客完成转化步骤时，即会计为新访问。
   * 如果将&#x200B;**[!UICONTROL 活动展示次数]**&#x200B;用作计数方法，则每个单位都是定义为每次访客加载活动的任何页面时的唯一展示次数。
 
-### 平均/转化率的[!UICONTROL 置信区间]
+### 平均]/[!UICONTROL 转化率的[!UICONTROL 置信区间]
 
 转换率的置信区间被直观地定义为与基础数据一致的可能转换率的范围。
 
@@ -109,7 +113,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-此计算使用“Delta”方法，并在本文档[&#128279;](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了
+此计算使用“Delta”方法，并在本文档](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了[
 
 ### [!UICONTROL 置信度]
 

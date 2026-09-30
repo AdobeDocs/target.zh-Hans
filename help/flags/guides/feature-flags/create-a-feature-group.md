@@ -4,13 +4,14 @@ description: 了解如何在标记中创建功能组，以作为一个单元管�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
-
 ---
-
 # 创建功能组 {#create-feature-group}
 
 ## 先决条件 {#prerequisites}
@@ -37,7 +38,7 @@ ht-degree: 0%
 
 1. 提供标题、键、描述和（可选）标记。
 2. 为功能组设置&#x200B;**百分比转出**。
-3. 如果要运行A/B测试，请选择多个变体。 否则，将其保留在一个变体中。 有关详细信息，请参阅带有功能标志[&#128279;](a-b-testing.md)的A/B测试。
+3. 如果要运行A/B测试，请选择多个变体。 否则，将其保留在一个变体中。 有关详细信息，请参阅带有功能标志](a-b-testing.md)的[A/B测试。
 
 ## 步骤3：受众 {#audience}
 

@@ -1,16 +1,23 @@
 ---
 keywords: 受众;选择受众;选取受众;选择器
-description: 受众可确定哪些网站访客进入了Adobe [!DNL Target] 活动。
-title: 如何在 [!DNL Target] A/B活动中选择受众？
+description: 受众可确定哪些网站访客进入了您的Adobe [!DNL Target]活动。
+title: 如何在[!DNL Target] A/B活动中选择受众？
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 68%
-
+source-wordcount: '440'
+ht-degree: 67%
 ---
-
 # 选择受众
 
 受众可确定哪些网站访客进入了您的[!DNL Adobe Target]活动。
@@ -58,7 +65,7 @@ ht-degree: 68%
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 在Adobe Target (6:21) ![概述徽章](/help/main/assets/overview.png)中使用受众
+### 在Adobe Target中使用受众(6:21) ![概述徽章](/help/main/assets/overview.png)
 
 以下视频介绍了如何在 [!DNL Target Standard/Premium] 中使用受众。
 
@@ -68,7 +75,7 @@ ht-degree: 68%
 * 将活动定位到受众
 * 在活动中使用受众进行被动报告
 
->[!VIDEO](https://video.tv.adobe.com/v/30336?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
 ### 活动工作流 — 定位(2:14) ![教程徽章](/help/main/assets/tutorial.png)
 

@@ -4,13 +4,14 @@ description: 了解如何在Flags中管理应用程序，包括添加新应用�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 3%
-
 ---
-
 # 管理应用程序 {#manage-applications}
 
 Flags中的&#x200B;**应用程序**&#x200B;表示您要使用功能标志控制的服务或产品。 在创建功能标记之前，必须将至少一个应用程序载入控制台。

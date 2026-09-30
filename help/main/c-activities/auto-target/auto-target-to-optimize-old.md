@@ -1,17 +1,24 @@
 ---
 keywords: 自动定位；定位；流量分配；常见问题；faq；故障诊断；故障排除
-description: 了解 [!DNL Target] 中的[!UICONTROL 自动定位]活动如何根据客户个人资料和类似访客的行为，为每位访客提供量身定制的体验。
+description: 了解[!DNL Target]中的[!UICONTROL 自动定位]活动如何根据客户个人资料和类似访客的行为，为每位访客提供量身定制的体验。
 title: 什么是[!UICONTROL 自动定位]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2101'
 ht-degree: 20%
-
 ---
-
 # [!UICONTROL 自动定位]概述
 
 [!DNL Adobe Target]中的[!UICONTROL 自动定位]活动使用高级机器学习从多个高性能、营销人员定义的体验中进行选择，以便个性化内容并促进转化。 [!UICONTROL 自动定位]根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，为每位访客提供量身定制的体验。

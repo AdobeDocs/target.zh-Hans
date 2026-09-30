@@ -1,16 +1,23 @@
 ---
 keywords: 多值；属性；推荐；多值；多值；多值
-description: 了解如何使用特殊的多值运算符在Adobe [!DNL Target] 推荐中使用多值字段，例如，推荐具有多个演员的影片时。
+description: 了解如何使用特殊的多值运算符在Adobe [!DNL Target]推荐中使用多值字段，例如，推荐具有多个演员的影片时。
 title: 能否在推荐中使用多值属性？
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '484'
 ht-degree: 8%
-
 ---
-
 # 使用多值属性
 
 有时，您可能需要使用多值字段。 请仔细研究下面的示例：

@@ -4,13 +4,20 @@ description: 了解如何使用Adobe Target中的选件库来管理代码和图�
 title: 如何管理代码和图像选件？
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 16%
-
 ---
-
 # 产品建议
 
 使用[!DNL Adobe Target]中的[!UICONTROL 选件]库管理代码选件和图像选件内容。
@@ -92,7 +99,7 @@ ht-degree: 16%
 
 This video includes information about managing offers.
 
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=zh-Hans) and the Target Content Library 
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
 * Custom HTML Offers 
 * Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
 

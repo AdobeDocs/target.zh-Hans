@@ -1,30 +1,42 @@
 ---
 keywords: 环境数据；会话数据；地理数据；设备数据；移动设备数据；属性；配置文件属性；个性化算法；机器学习算法；机器学习算法
-description: 了解 [!DNL Adobe Target] 收集和使用哪些数据来构建其机器学习算法。
+description: 了解[!DNL Adobe Target]收集和使用哪些数据来构建其机器学习算法。
 title: 构建机器学习算法时会收集哪些数据？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-TQID: https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U
+TQID: 'https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2009
+source-wordcount: '2010'
 ht-degree: 50%
-
 ---
-
 # [!DNL Target]机器学习算法使用的数据
 
 [!DNL Adobe Target]在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位] (AT)活动中自动收集和使用各种数据来构建其个性化算法。 当访客进入[!UICONTROL Automated Personalization]或[!UICONTROL 自动定位]活动时，信息快照将传递到一组“训练记录”（个性化算法学习的访客数据）。
@@ -51,10 +63,10 @@ ht-degree: 50%
 | --- | --- | --- | --- |
 | 页面参数 | BOX | 在对[!DNL Target]的调用中传递的自定义页面参数（“mbox参数”）。 | 自定义 — Mbox参数 — [参数名称] |
 | [!DNL Target]配置文件 | PRO | 自定义配置文件属性通过API或页面参数和[!DNL Target]配置文件脚本直接上传到[!DNL Target]配置文件。 | 自定义 — 访客配置文件 — [属性名称] |
-| 客户属性 | CRS | 客户属性已通过[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=zh-Hans){target=_blank}上传到[!DNL Target]配置文件。 | 自定义 — 访客配置文件 — [属性名称] |
+| 客户属性 | CRS | 客户属性已通过[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}上传到[!DNL Target]配置文件。 | 自定义 — 访客配置文件 — [属性名称] |
 | URL parameters（URL 参数） | URL | 当前查看页面的URL和任何URL参数。 | 自定义 — URL参数 — [URL参数] |
 | 反向链接 URL | 参照 | 反向链接URL和任何反向链接URL的参数。 | 自定义 — [引荐URL参数] - [参数值] |
-| [!DNL Adobe Experience Cloud]共享受众 | AAM | 从其他[!DNL Adobe Experience Cloud]解决方案（例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，通过[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=zh-Hans){target=_blank}）与[!DNL Target]共享的所有受众。 | 自定义 — Experience Cloud受众 — [受众名称] |
+| [!DNL Adobe Experience Cloud]共享受众 | AAM | 从其他[!DNL Adobe Experience Cloud]解决方案（例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，通过[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}）与[!DNL Target]共享的所有受众。 | 自定义 — Experience Cloud受众 — [受众名称] |
 | [!DNL Adobe Experience Platform Real-time CDP]个受众 | UPS | Platform Real-time CDP受众通过[!UICONTROL 目标]与[!DNL Target]共享。 |  |
 
 
@@ -62,7 +74,7 @@ ht-degree: 50%
 
 可以从[!DNL Target]机器学习算法中阻止功能，防止在任何[!UICONTROL Automated Personalization]或[!UICONTROL 自动定位]模型或活动中使用这些功能。
 
-有关详细信息，请参阅&#x200B;*[!DNL Adobe Target]开发人员指南*&#x200B;中的[模型API()概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hans){target=_blank}。
+有关详细信息，请参阅&#x200B;*[!DNL Adobe Target]开发人员指南*&#x200B;中的[模型API()概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}。
 
 ## 设备和移动设备数据 {#device-mobile}
 

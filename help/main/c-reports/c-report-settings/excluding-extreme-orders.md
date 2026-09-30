@@ -1,21 +1,24 @@
 ---
 keywords: Target;报表;报表设置;超常订单;极端值
-description: 了解如何在Adobe [!DNL Target] 中排除影响报表的极端值，以便少数异常订单不会影响您的活动结果。
+description: 了解如何在Adobe [!DNL Target]中排除影响报表的极端值，以便少数异常订单不会影响您的活动结果。
 title: 如何在报表中排除极端值？
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
-TQID: https://experienceleague.adobe.com/yQtG4u-sLVJ66PezWW9ZgmY8ZuK177m-hLdQq-zlmfI
+TQID: 'https://experienceleague.adobe.com/yQtG4u-sLVJ66PezWW9ZgmY8ZuK177m-hLdQq-zlmfI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '333'
 ht-degree: 62%
-
 ---
-
 # 排除极端值
 
 您可以排除影响[!DNL Adobe Target]中报表的极端值，以便少数异常订单不会影响您的活动结果。 例如，与个人购买者购买个人制服相比，一位教练为整个团队购买统一制服可能会产生一个超常订单。

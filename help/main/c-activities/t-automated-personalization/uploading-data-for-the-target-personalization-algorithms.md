@@ -1,37 +1,51 @@
 ---
 keywords: Automated Personalization；ap；上传数据；离线数据；个性化算法；自动定位；自动定位；最佳实践
-description: 了解在 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位]活动中构建个性化模型时如何上载离线数据。
+description: 了解在[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位]活动中构建个性化模型时如何上载离线数据。
 title: 如何为Personalization算法上传数据？
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-TQID: https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0
+TQID: 'https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '324'
 ht-degree: 12%
-
 ---
-
 # 上传[!DNL Target]个性化算法的数据
 
 在[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位]活动中构建个性化模型时，离线数据（如CRM信息或客户流失倾向分数）可能会非常有价值。
 
-有几种方法可在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位]个性化算法中输入数据。 除了[方法中用于将数据导入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}的方法之外，[!DNL Target]算法中还使用了[!DNL Experience Cloud]共享受众([!UICONTROL Adobe Analytics]，[!DNL Audience Manager])和活动中的报表受众。
+有几种方法可在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位]个性化算法中输入数据。 除了[方法中用于将数据导入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的方法之外，[!DNL Target]算法中还使用了[!DNL Experience Cloud]共享受众([!UICONTROL Adobe Analytics]，[!DNL Audience Manager])和活动中的报表受众。
 
 有关[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]个性化算法自动收集和使用的数据的信息，请参阅[Automated Personalization数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 

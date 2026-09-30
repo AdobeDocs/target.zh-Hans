@@ -1,17 +1,24 @@
 ---
 keywords: 创建自定义标准;算法;标准;推荐标准;CSV;FTP;上传 CSV
-description: 了解如何上传CSV文件以在Adobe [!DNL Target] 推荐中自定义您的推荐。
+description: 了解如何上传CSV文件以在Adobe [!DNL Target]推荐中自定义您的推荐。
 title: 如何在推荐中上传自定义标准？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '736'
 ht-degree: 32%
-
 ---
-
 # 上传自定义标准
 
 上传CSV文件以在[!DNL Adobe Target]中自定义您的推荐。
@@ -80,12 +87,12 @@ ht-degree: 32%
   | 未找到目录 | 请提供服务器上存在的目录。 |
   | 未找到文件 | 请提供服务器上所指示目录中存在的文件名称。 |
 
-## 培训视频：在推荐(12:33) ![教程徽章](/help/main/assets/tutorial.png)中创建标准
+## 培训视频：在“推荐”中创建标准(12:33) ![教程徽章](/help/main/assets/tutorial.png)
 
-此视频包含以下信息（有关上载自定义标准的详细信息从11:43开始）：
+本视频包含以下信息（有关上传自定义标准的详细信息从11:43开始）：
 
 * 创建标准
 * 创建标准序列
 * 上传自定义标准
 
->[!VIDEO](https://video.tv.adobe.com/v/35358?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

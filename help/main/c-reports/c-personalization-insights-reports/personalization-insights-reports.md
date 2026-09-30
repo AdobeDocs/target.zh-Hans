@@ -2,30 +2,39 @@
 keywords: 定位;AP 报告;自动个性化报告;自动定位;自动定位报告;个性化;洞察;自动化区段;常见问题解答;常见问题解答;重要属性
 description: 了解如何为Automated Personalization (AP)和自动定位(AT)活动使用专用报表 — 自动化区段和重要属性。
 title: 如何使用Personalization分析报表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-TQID: https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI
+TQID: 'https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1023
+source-wordcount: '1023'
 ht-degree: 29%
-
 ---
-
 # [!UICONTROL Personalization Insights]报表
 
 [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位] (AT)活动的用户可以使用两个专用报表： [!UICONTROL 自动化区段]和[!UICONTROL 重要属性]报表。
@@ -38,23 +47,23 @@ ht-degree: 29%
 
 * [!UICONTROL Personalization Insights]报表仅适用于如下配置的AP和AT活动：
 
-   * [!DNL Target]报告> [!UICONTROL 转化]
+  * [!DNL Target]报告> [!UICONTROL 转化]
 
-     例如：
+    例如：
 
-     ![目标报表>转化](/help/main/c-reports/assets/conversion.png)
+    ![目标报表>转化](/help/main/c-reports/assets/conversion.png)
 
-   * [!DNL Analytics]报告> [!DNL Conversion]
+  * [!DNL Analytics]报告> [!DNL Conversion]
 
-     例如：
+    例如：
 
-     ![Analytic Reporting >转换](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+    ![Analytic Reporting >转换](/help/main/c-reports/assets/analytics-reporting-conversion.png)
 
-   * [!DNL Analytics]报表> [!UICONTROL 使用Analytics量度] > [!UICONTROL 最大化访问转化率]
+  * [!DNL Analytics]报表> [!UICONTROL 使用Analytics量度] > [!UICONTROL 最大化访问转化率]
 
-     例如：
+    例如：
 
-     ![使用Analytics量度>最大化访问转化率](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+    ![使用Analytics量度>最大化访问转化率](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
 
 * 活动上线后将优化目标从收入更改为转化的活动也不受支持。
 
@@ -108,7 +117,7 @@ ht-degree: 29%
 
 ## 培训视频：使用Personalization Insights报表![教程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/328064?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 有关详细信息，请参阅[在Adobe Target中使用Personalization分析报表](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
 

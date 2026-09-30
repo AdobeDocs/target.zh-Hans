@@ -4,25 +4,36 @@ description: 学习六个步骤，这些步骤概述用于在 Adobe Target 中�
 title: 如何形成测试和个性化想法？
 feature: Overview
 exl-id: 1f1af086-70bf-43ab-80aa-36d98d8d8d8f
-TQID: https://experienceleague.adobe.com/jjs7B9nDwYBr7b6TYl2mG3f7wfO1pmgJSfV8NY5-UfU
+TQID: 'https://experienceleague.adobe.com/jjs7B9nDwYBr7b6TYl2mG3f7wfO1pmgJSfV8NY5-UfU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 723
+source-wordcount: '723'
 ht-degree: 100%
-
 ---
-
 # 第 3 章：形成您的测试和个性化想法
 
 对于您的第一个活动，您可能要测试一些非常简单的东西，比如更改行动号召按钮上的颜色或文案。 就是为了让您熟悉新情况。 但是，从更长远的角度来看，您需要建立一个正式、可重复的过程，用于提出测试和个性化活动的想法，该过程有助于您的优化和个性化项目变成熟。 以下六个步骤概述用于这样做的一个成熟的过程，以及每一步要做什么的详细信息。

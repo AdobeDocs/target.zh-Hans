@@ -5,30 +5,41 @@ title: 什么是主机以及如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
+TQID: 'https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: '1095'
 ht-degree: 21%
-
 ---
-
 # 主机
 
 在[!DNL Adobe Target]中组织您的站点和生产前环境，以便轻松管理和分隔报表。
@@ -50,8 +61,8 @@ ht-degree: 21%
 * 主机上必须至少存在一个[!DNL Target]请求
 * 主机上的页面必须具有以下属性：
 
-   * 精确的at.js引用
-   * [!DNL Target]请求或自动生成的全局[!DNL Target]请求
+  * 精确的at.js引用
+  * [!DNL Target]请求或自动生成的全局[!DNL Target]请求
 
 * 必须在浏览器中查看具有[!DNL Target]请求的页面
 
@@ -102,7 +113,7 @@ ht-degree: 21%
 
 >[!IMPORTANT]
 >
->**安全最佳实践**：如果您使用[!DNL Target]的ubox功能，此还将控制[重定向器](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=zh-Hans){target=_blank}可以导航到的域列表。 确保在实施中使用ubox时添加要重定向到的任何域。 如果未指定允许列表，[!DNL Adobe]将无法验证重定向URL并防止潜在的恶意重定向。
+>**安全最佳实践**：如果您使用[!DNL Target]的ubox功能，此还将控制[重定向器](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}可以导航到的域列表。 确保在实施中使用ubox时添加要重定向到的任何域。 如果未指定允许列表，[!DNL Adobe]将无法验证重定向URL并防止潜在的恶意重定向。
 >
 >允许列表的优先级高于环境。 在使用“主机”功能之前清除所有主机，然后只有由“主机”允许列表允许的主机才会显示在主机列表中。 然后，您可以将主机移到所需的环境中。
 

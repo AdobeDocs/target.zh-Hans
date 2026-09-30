@@ -1,23 +1,29 @@
 ---
 keywords: 创建体验;体验创建;优先级;受众;体验;可视化体验编辑器
-description: 了解如何使用 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)在[!UICONTROL 体验定位] (XT)活动中的页面上创建和编辑体验。
+description: 了解如何使用[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)在[!UICONTROL 体验定位] (XT)活动中的页面上创建和编辑体验。
 title: 如何在[!UICONTROL 体验定位]活动中创建体验？
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-TQID: https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ
+TQID: 'https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: '978'
 ht-degree: 21%
-
 ---
-
 # 在[!UICONTROL 体验定位] (XT)活动中创建体验
 
 [!DNL Adobe Target]中的[!UICONTROL 可视化体验编辑器] (VEC)提供了一个可视化界面，用于编辑[!UICONTROL 体验定位] (XT)活动中的页面上的体验。
@@ -36,7 +42,7 @@ ht-degree: 21%
    >
    >默认情况下，VEC 不允许更改包含 JavaScript 的元素，如旋转横幅。 您可以禁用JavaScript以使用VEC更改这些元素。
 
-1. 若要创建其他体验，请单击“添加”**&#x200B;**（![“添加”按钮](/help/main/assets/icons/Add.svg)）。
+1. 若要创建其他体验，请单击“添加”****（![“添加”按钮](/help/main/assets/icons/Add.svg)）。
 
    此时会显示[!UICONTROL 添加受众]对话框。 要将体验定位到某个受众，请在添加体验之前选择该受众。
 
@@ -105,7 +111,7 @@ ht-degree: 21%
 * 描述如何向不同地理区域的受众交付特定于位置的内容
 * 描述如何对体验重新排序，以确保将适当的内容交付给适当的受众
 
->[!VIDEO](https://video.tv.adobe.com/v/38307?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### 活动类型(9:03)
 
@@ -115,7 +121,7 @@ ht-degree: 21%
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### 使用[!UICONTROL 可视化体验编辑器]
 
@@ -124,4 +130,4 @@ ht-degree: 21%
 * 更改页面的内容
 * 更改页面的布局
 
->[!VIDEO](https://video.tv.adobe.com/v/30331?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

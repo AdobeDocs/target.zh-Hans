@@ -1,16 +1,20 @@
 ---
 keywords: 活动；活动；分析仪表板
-description: '[!UICONTROL Adobe Target仪表板]提供了贵组织如何随着时间的推移使用 [!DNL Target] 的高级视图，显示采用情况、活动量和实验使用情况。'
+description: '[!UICONTROL Adobe Target功能板]提供了贵组织如何随着时间的推移使用[!DNL Target]、呈现采用情况、活动量和实验使用情况的概要视图。'
 title: Adobe Target分析功能板
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
-source-git-commit: 346b54882d4082f14bbc16ede350758a362ee418
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 1%
-
 ---
-
 # Adobe Target分析功能板
 
 [!UICONTROL Adobe Target仪表板]提供了贵组织如何逐渐使用[!DNL Adobe Target]的高级视图。 它有助于团队一眼就了解采用情况、活动量和实验使用情况。

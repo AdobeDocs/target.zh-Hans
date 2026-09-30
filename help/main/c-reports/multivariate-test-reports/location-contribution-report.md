@@ -4,19 +4,23 @@ description: 了解如何对Adobe [!DNL Target] [!UICONTROL 体验定位]活动�
 title: 如何为[!UICONTROL 多变量测试]活动使用[!UICONTROL 位置贡献]报表？
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-TQID: https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc
+TQID: 'https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 283
-ht-degree: 32%
-
+source-wordcount: '285'
+ht-degree: 35%
 ---
-
 # [!UICONTROL 位置贡献]报表(MVT)
 
 [!UICONTROL 位置贡献]报表显示每个元素和每个选件的性能。
@@ -41,6 +45,6 @@ ht-degree: 32%
 
 ## 培训视频：创建 MVT 测试
 
-本视频演示了如何使用[!DNL Target]三步引导式工作流创建多变量测试。 位置贡献报表的说明从8:45开始。
+本视频演示了如何使用[!DNL Target]三步引导式工作流创建多变量测试。 对位置贡献报表的介绍开始于 8:45。
 
->[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

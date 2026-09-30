@@ -4,27 +4,36 @@ description: 了解为什么某些网站可能无法在[!UICONTROL 可视化体�
 title: 如何使用[!UICONTROL 可视化编辑帮助程序]扩展？
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-TQID: https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus
+TQID: 'https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 52%
-
 ---
-
 # [!UICONTROL 可视化编辑帮助程序]扩展
 
 适用于[!DNL Google Chrome]的[!DNL Adobe Experience Cloud] [!UICONTROL 可视化编辑帮助程序]浏览器扩展允许您在[!UICONTROL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)中以可靠的方式加载网站，以便快速创作和QA Web体验。
@@ -65,7 +74,7 @@ ht-degree: 52%
 
 ## 获取并安装[!UICONTROL 可视化编辑帮助程序]浏览器扩展
 
-1. 导航到Chrome网上应用商店[&#128279;](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}中的[!DNL Adobe Experience Cloud] [!UICONTROL 可视化编辑帮助程序]浏览器扩展。
+1. 导航到Chrome网上应用商店](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}中的[[!DNL Adobe Experience Cloud] [!UICONTROL 可视化编辑帮助程序]浏览器扩展。
 1. 单击&#x200B;**[!UICONTROL 添加到Chrome]** > **[!UICONTROL 添加扩展]**。
 1. 打开 [!DNL Target] 中的 VEC。
 1. 若要使用该扩展，请在VEC或QA模式下单击Chrome浏览器工具栏中的[!UICONTROL 可视化编辑帮助程序]浏览器扩展图标（![可视化编辑扩展图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）。
@@ -80,8 +89,8 @@ ht-degree: 52%
 * 当在 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)下使用扩展插入 at.js 时，必须打开另一个 Chrome 选项卡。 此 Chrome 选项卡必须经过创建活动所在[!DNL Adobe Experience Cloud]组织的身份验证。
 * 以下消息有助于您随时了解以下情况：
 
-   * 如果尝试使用无法加载的VEC加载网站，系统会显示一条消息，建议您安装[!UICONTROL 可视化编辑帮助程序]浏览器扩展。
-   * 如果网站上尚未实施 at.js 或 alloy.js，则 VEC 中将显示一条消息，建议您安装扩展。
+  * 如果尝试使用无法加载的VEC加载网站，系统会显示一条消息，建议您安装[!UICONTROL 可视化编辑帮助程序]浏览器扩展。
+  * 如果网站上尚未实施 at.js 或 alloy.js，则 VEC 中将显示一条消息，建议您安装扩展。
 * 如果尝试使用新扩展，然后改回[旧扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，而 [!DNL Target] 未能加载您的网站，请清除所有浏览器数据并禁用新扩展。
 
 ## 常见问题解答

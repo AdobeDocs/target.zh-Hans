@@ -1,17 +1,24 @@
 ---
 keywords: 推荐;备用
-description: 了解如何在Adobe [!DNL Target] 推荐中使用备用推荐。 没有足够推荐项目的推荐会显示备份算法的结果。
+description: 了解如何在Adobe [!DNL Target]推荐中使用备份推荐。 没有足够推荐项目的推荐会显示备份算法的结果。
 title: 如何在推荐中使用备用推荐？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '552'
 ht-degree: 75%
-
 ---
-
 # 使用备用推荐
 
 如果您在[!DNL Adobe Target]中使用备份推荐功能，则任何推荐中没有足够推荐项的推荐都不会显示默认内容。 “推荐”将改为显示备用算法的结果。
@@ -20,7 +27,7 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->其他信息包含在创建标准[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)主题的内容部分中，其中包括一个矩阵，该矩阵说明了当同时或单独使用[!UICONTROL 局部设计渲染]和[!UICONTROL 显示备份推荐]选项时将观察到的结果。
+>其他信息包含在创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)主题的[内容部分中，其中包括一个矩阵，该矩阵说明了当同时或单独使用[!UICONTROL 局部设计渲染]和[!UICONTROL 显示备份推荐]选项时将观察到的结果。
 
 备用推荐功能始终采用网站查看最多的项目来填充算法数据被使用后的剩余位置。 例如，您的模板配置为显示 5 个推荐项目，并且您使用的是“*购买相关性*”算法。 然而，您仅有足够的数据来填充 5 个位置中的两个，那么备用推荐功能就会使用查看最多的项目来填充其它 3 个位置。
 

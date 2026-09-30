@@ -1,33 +1,47 @@
 ---
 keywords: 欢迎套件;target 欢迎套件;简介;简介;快速入门
-description: 阅读我们的专家小组关于使用 Adobe [!DNL Target] 作为测试和个性化工作的一部分给出的提示。
+description: 阅读我们的专家小组关于使用Adobe [!DNL Target]作为测试和个性化工作的一部分给出的提示。
 title: 可在何处找到关于使用 Target 的提示和技巧？
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-TQID: https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0
+TQID: 'https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Audience segmentation
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2891
-ht-degree: 73%
-
+source-wordcount: '2961'
+ht-degree: 72%
 ---
-
 # 第 4 章：关于使用 Target 的提示
 
 根据我们与许多[!DNL Target]用户的合作，我们已发现可从[!DNL Target]解决方案中获得更多价值的方法。 我们在本章中包括的许多提示中总结了这些方法。 虽然您可能还没有准备好立即使用所有这些想法，但请妥善保存此列表。 从解决方案积累的经验越多，项目就越成熟，您也就越频繁地见到这些提示如何帮助您用[!DNL Target]完成更多任务。
@@ -42,7 +56,7 @@ ht-degree: 73%
 
 **应了解的要点**：由于 [!DNL Target] 是一种开放而无特定要求的平台，它与多种不同的技术配合得都很好，因此可按多种不同的方式添加 CRM 或购买的数据。 这意味着可选择一种最适合您组织的方法。
 
-有关更多信息，请参阅[将数据纳入到 Target 中的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}。
+有关更多信息，请参阅[将数据纳入到 Target 中的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 ## 提示 2：通过将 [!DNL Target] 受众融入其他 Adobe Experience Cloud 受众，可更深入地进行个性化。
 
@@ -168,8 +182,8 @@ ht-degree: 73%
 
 设置活动以使用 QA 参数的好处之一是，可与团队中的每个人分享这些链接。 您可以让更多人知道该活动，并确保他们在点击测试变体时不会认为网站没有正常运行。
 
-完成测试后，传达活动开展情况、测试结果以及尤其是经验教训，将有助于加强对测试结果的认知和兴趣。与组织中的每个人分享结果还可避免重新测试某个假设、告诉每个人什么有效，并且帮助他们根据您发现的事实从根本上质疑他们自己关于什么有效的想法。最好准备一个模板，每次都用它分享您的调查结果和关键经验教训。
-然后，考虑创建可分享的书籍或Microsoft PowerPoint资料夹，以逐渐积累这些经验教训。
+完成测试后，传达活动开展情况、测试结果以及尤其是经验教训，将有助于加强对测试结果的认知和兴趣。 与组织中的每个人分享结果还可避免重新测试某个假设、告诉每个人什么有效，并且帮助他们根据您发现的事实从根本上质疑他们自己关于什么有效的想法。 最好准备一个模板，每次都用它分享您的调查结果和关键经验教训。
+然后，考虑创建可分享的书籍或 Microsoft PowerPoint 幻灯片组，以逐渐积累这些经验教训。
 
 ## 提示 20：发掘移动功能以创建更多创新的移动活动。
 

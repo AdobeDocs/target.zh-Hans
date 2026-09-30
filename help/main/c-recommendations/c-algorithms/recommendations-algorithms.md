@@ -1,30 +1,41 @@
 ---
 keywords: 推荐算法；模型训练；模型提供；内容交付；基于项目；基于用户；基于热门程度；基于购物车；自定义标准
-description: 了解 [!DNL Target Recommendations]中使用的算法，包括模型训练和模型服务。
+description: 了解[!DNL Target Recommendations]中使用的算法，包括模型训练和模型服务。
 title: 我可以在何处了解Target的推荐算法背后的科学原理？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
+TQID: 'https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3045
+source-wordcount: '3045'
 ht-degree: 0%
-
 ---
-
 # Target 的推荐算法背后的科学原理
 
 对[!DNL Adobe Target Recommendations]中使用的算法的深入描述，包括模型训练的逻辑和数学细节以及模型服务的过程。
@@ -63,13 +74,13 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 对于“已查看/购买此项目的用户也已查看/购买这些项目”算法，目标是计算所有项目对之间的相似度(A，B)。 对于给定的项目A，排名最前的推荐按照其相似度s(A，B)排序。
 
-此类相似性的一个示例是项目之间的共存：购买两个项目的用户数量的简单计数。 虽然这种量度是直观的，但因为偏向于推荐热门项目，所以这种量度是天真的。 例如，如果在retailer杂货店大多数人购买面包，则面包会与所有物品具有高共现率，但这不一定是很好的推荐。 [!DNL Target]改为使用更复杂的相似性量度，称为对数似然比(LLR)。 当两个项目A和B同时发生的概率与它们不同时发生的概率差别很大时，该数量就很大。 具体来说，请考虑查看了这个项目，但购买了该算法的用户的情况。 当购买B的概率为&#x200B;*而非*&#x200B;时，LLR相似性很大，这与某人是否查看A无关。
+此类相似性的一个示例是项目之间的共存：购买两个项目的用户数量的简单计数。 虽然这种量度是直观的，但因为偏向于推荐热门项目，所以这种量度是天真的。 例如，如果在retailer杂货店大多数人购买面包，则面包会与所有物品具有高共现率，但这不一定是很好的推荐。 [!DNL Target]改为使用更复杂的相似性量度，称为对数似然比(LLR)。 当两个项目A和B同时发生的概率与它们不同时发生的概率差别很大时，该数量就很大。 具体来说，请考虑查看了这个项目，但购买了该]算法的[!UICONTROL 用户的情况。 当购买B的概率为&#x200B;*而非*&#x200B;时，LLR相似性很大，这与某人是否查看A无关。
 
 例如，如果
 
 已查看/已购买算法的![公式](assets/formula.png)
 
-则不应将项目B与项目A一起推荐。此PDF[&#128279;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了此对数似然比相似度计算的完整详细信息。
+则不应将项目B与项目A一起推荐。此PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了[此对数似然比相似度计算的完整详细信息。
 
 实际算法实现的逻辑流程如下图所示：
 
@@ -77,7 +88,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 这些步骤的详情如下：
 
-* **输入数据**：行为数据，其形式为在[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的访客的视图和购买。
+* **输入数据**：行为数据，其形式为在[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的访客的视图和购买。
 
 * **模型训练**：
 
@@ -101,7 +112,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 这些步骤的详情如下：
 
-* **输入数据**：如前所述，此算法完全基于目录数据(通过[目录馈送、实体API或来自页面上的更新](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}引入到[!DNL Target]。
+* **输入数据**：如前所述，此算法完全基于目录数据(通过[目录馈送、实体API或来自页面上的更新](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}引入到[!DNL Target]。
 
 * **模型训练**：
 
@@ -139,7 +150,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 这些步骤的详情如下：
 
-* **输入数据**：这与项 — 项协同筛选(CF)方法相同。 [!UICONTROL 推荐给您]和基于购物车的算法都使用行为数据，其形式为在[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}时或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}中收集的用户查看和购买。
+* **输入数据**：这与项 — 项协同筛选(CF)方法相同。 [!UICONTROL 推荐给您]和基于购物车的算法都使用行为数据，其形式为在[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}时或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}中收集的用户查看和购买。
 
 * **模型训练**：
 
@@ -147,7 +158,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
   * **训练测试拆分**：为每个用户执行使用情况的按时间顺序拆分，将其使用情况的前80%分配给训练数据，其余20%分配给测试数据。
   * **项目相似度模型训练**：对于[!UICONTROL 为您推荐]和基于Cart的算法，核心项目相似度计算在构建候选项目向量方面有所不同。 对于[!UICONTROL 为您推荐]，项目矢量具有维度NUsers，其中每个条目表示该项目用户的隐式评级之和 — 购买项目的权重是该项目查看次数的2倍。 对于基于购物车的推荐，项目矢量具有二进制条目；如果只考虑会话内行为，则每个会话都有一个新条目。 否则，每个访客在此项目矢量中都有一个条目。
 
-  训练步骤计算几种类型的向量相似度：这里讨论的LLR相似度([&#128279;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf))、余弦相似度（以前定义）和规范化的L2相似度(定义为：
+  训练步骤计算几种类型的向量相似度：这里讨论的LLR相似度([](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf))、余弦相似度（以前定义）和规范化的L2相似度(定义为：
 
   ![显示训练计算的公式](assets/formula4.png)
 
@@ -171,7 +182,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 * 整个网站查看的次数最多
 * 按类别查看的次数最多
 * [!UICONTROL 按项目属性查看的次数最多]
-* [!UICONTROL 个人资料属性查看次数最多]
+* [!UICONTROL 按轮廓属性划分的最多浏览量]
 * [!UICONTROL 网站上的最畅销商品]
 * [!UICONTROL 按类别划分的最畅销商品]
 * 按项目属性[!UICONTROL 最畅销商品]

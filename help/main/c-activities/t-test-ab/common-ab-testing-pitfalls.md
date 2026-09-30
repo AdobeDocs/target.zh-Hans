@@ -1,23 +1,31 @@
 ---
 keywords: AB;A/B;AB...n;错误;隐患;错误;隐患;显著性;入选者;有统计学意义的差异;统计;统计功效;流量分配;分配;
-description: 了解公司在  [!DNL Adobe Target] 和其他测试解决方案中执行 A/B 测试时如何避免最常见的隐患和错误。
+description: 了解公司在[!DNL Adobe Target]和其他测试解决方案中执行A/B测试时如何避免最常见的隐患和错误。
 title: 如何避免常见的 A/B 测试错误？
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-TQID: https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ
+TQID: 'https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3983
-ht-degree: 100%
-
+source-wordcount: '3984'
+ht-degree: 99%
 ---
-
 # 十个常见的 A/B 测试隐患以及避免方法
 
 [!DNL Adobe Target] 中的 A/B 测试是大多数数字营销优化方案的基础，可帮助营销人员为其访客和客户提供经过优化、有针对性的体验。 本文概述公司在执行 A/B 测试时容易遇到的十个最显著的隐患。 此外，还介绍避免这些隐患的方法，以使贵公司可通过其测试工作获得更高的投资回报率 (ROI)，并对其报告的 A/B 测试结果更有信心。

@@ -1,32 +1,44 @@
 ---
 keywords: 字符限制;mbox 参数;批量投放 api;轮廓参数;限制;内置轮廓;最大值;限制;约束;字符;最佳实践;orderid;orderTotal;mbox3rdPartyID;类别;categoryID;故障排除
-description: 查看影响 [!DNL Adobe Target]中活动和其他元素的字符限制和其他限制的列表。
-title: ' [!DNL Adobe Target]中的各种字符、大小和其他限制是什么？'
+description: 查看影响[!DNL Adobe Target]中活动和其他元素的字符限制和其他限制的列表。
+title: '[!DNL Adobe Target]中的各种字符、大小和其他限制是什么？'
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-TQID: https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4
+TQID: 'https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1772
+source-wordcount: '1772'
 ht-degree: 73%
-
 ---
-
 # 限制
 
 字符限制和其他限制（选件大小、受众、配置文件、值、参数等） 会影响[!DNL Adobe Target]中活动和其他元素的其他限制的信息（选件大小、受众、配置文件、值、参数等）。
@@ -81,17 +93,17 @@ ht-degree: 73%
 
   如果某个客户的给定用户会话超过了 100 个并发 [!DNL Target] 内容投放请求，则会阻止该用户会话的所有后续请求。 如果有两个或更多请求均发送到 [!DNL Target] 服务器且尚未收到任何请求的响应，则将这些请求视为并发请求。 [!DNL Target] 按顺序处理相同会话的并发请求。
 
-   * **错误行为**：
+  * **错误行为**：
 
-      * 投放 API 和批量 Mbox v2：
-         * 错误代码：HTTP 420 请求太多
-         * 错误消息：“相同会话 ID 的请求太多”
+    * 投放 API 和批量 Mbox v2：
+      * 错误代码：HTTP 420 请求太多
+      * 错误消息：“相同会话 ID 的请求太多”
 
-      * 旧版 mbox API：
-         * 显示默认内容，并带有注释“相同会话 ID 的请求太多”
+    * 旧版 mbox API：
+      * 显示默认内容，并带有注释“相同会话 ID 的请求太多”
 
-      * at.js：
-         * 显示默认内容
+    * at.js：
+      * 显示默认内容
 
 * **限制**：每个[!DNL Target]内容投放批次mbox请求有50个mbox。
 
@@ -139,8 +151,8 @@ ht-degree: 73%
 
 * **字符数限制**：最大字符长度取决于语言。
 
-   * 15,000 个字符（单值、单字节和双字节语言）
-   * 500 个值，每个值 100 个字符（多值）
+  * 15,000 个字符（单值、单字节和双字节语言）
+  * 500 个值，每个值 100 个字符（多值）
 
   单值实体自定义属性的最大长度为 15,000 个字符（对于单字节和双字节 UTF-8 编码语言，例如英语和其他拉丁文字字母）或 10,000 个字符（对于三字节 UTF-8 编码语言，例如中文、日语和韩语）。
 
@@ -212,9 +224,9 @@ ht-degree: 73%
 
   对于标准 mbox 调用：
 
-   * mbox 参数：每个 mbox 500 个参数。
-   * 轮廓参数：每个 mbox 500 个参数轮廓参数。
-   * 其他参数（URL、反向链接URL等）：对于每种其他参数类型，每个mbox50个。
+  * mbox 参数：每个 mbox 500 个参数。
+  * 轮廓参数：每个 mbox 500 个参数轮廓参数。
+  * 其他参数（URL、反向链接URL等）：对于每种其他参数类型，每个mbox50个。
 
   除非因 Web 浏览器限制而缩短请求，否则将应用这些限制。
 
@@ -228,25 +240,25 @@ ht-degree: 73%
 
   **批处理 mbox v2**：
 
-   * mbox 参数数量 100
-   * mbox 参数名称最大长度 128
-   * mbox 参数值不得为 null
-   * mbox 参数值 5000
-   * 轮廓参数数量 50
-   * 轮廓参数名称最大长度 128
-   * 轮廓参数值不得为 null
-   * 轮廓参数值最大长度 256
+  * mbox 参数数量 100
+  * mbox 参数名称最大长度 128
+  * mbox 参数值不得为 null
+  * mbox 参数值 5000
+  * 轮廓参数数量 50
+  * 轮廓参数名称最大长度 128
+  * 轮廓参数值不得为 null
+  * 轮廓参数值最大长度 256
 
   **投放 API 端点**：
 
-   * mbox 参数数量 100
-   * mbox 参数名称最大长度 128
-   * mbox 参数值不得为 null
-   * mbox 参数值 5000
-   * 轮廓参数数量 50
-   * 轮廓参数名称最大长度 128
-   * 轮廓参数值不得为 null
-   * 轮廓参数值最大长度 256
+  * mbox 参数数量 100
+  * mbox 参数名称最大长度 128
+  * mbox 参数值不得为 null
+  * mbox 参数值 5000
+  * 轮廓参数数量 50
+  * 轮廓参数名称最大长度 128
+  * 轮廓参数值不得为 null
+  * 轮廓参数值最大长度 256
 
 ### mbox 请求 URL
 

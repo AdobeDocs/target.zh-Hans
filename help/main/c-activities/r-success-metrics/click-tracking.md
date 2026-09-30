@@ -1,25 +1,33 @@
 ---
 keywords: 点击跟踪;跟踪点击次数;点击次数;AppMeasurement
-description: 了解 [!DNL Adobe Target] 如何让您跟踪任何元素上的点击作为成功量度。
+description: 了解[!DNL Adobe Target]如何让您跟踪任何作为成功量度的元素上的点击次数。
 title: 点击跟踪是什么？
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
+TQID: 'https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: '943'
 ht-degree: 55%
-
 ---
-
 # 点击跟踪
 
 [!DNL Adobe Target]允许您跟踪任何元素上的点击作为成功量度。 点击跟踪是指监视和记录用户对某个网页或体验中的元素进行的交互（尤其是点击）的过程。 这是在A/B测试、多变量测试和个性化活动中衡量参与度和绩效的关键部分。
@@ -92,14 +100,14 @@ ht-degree: 55%
 
   将点击跟踪事件附加到 [!DNL at.js]（链接）标记或 `A` 标记后，`FORM` 会执行以下步骤：
 
-   1. 调用 `event.preventDefault()`。
+  1. 调用 `event.preventDefault()`。
 
-   1. 触发[!DNL Target]请求。
+  1. 触发[!DNL Target]请求。
 
-   1. 在[!DNL Target]请求成功或错误回调时，执行默认行为：
+  1. 在[!DNL Target]请求成功或错误回调时，执行默认行为：
 
-      * `A`（链接）标记：默认行为是导航到由 HREF 属性定义的 URL。
-      * `FORM` 标记：默认行为是提交表单。
+     * `A`（链接）标记：默认行为是导航到由 HREF 属性定义的 URL。
+     * `FORM` 标记：默认行为是提交表单。
 
   此默认行为可能干扰[!DNL Analytics]点击跟踪。 如果您使用[!DNL Analytics]，则点击跟踪应依赖[!DNL Analytics]而不是[!DNL Target]。
 

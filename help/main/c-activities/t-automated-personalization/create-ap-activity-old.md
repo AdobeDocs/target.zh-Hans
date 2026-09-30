@@ -1,17 +1,24 @@
 ---
 keywords: 自动个性化；ap
-description: 了解如何使用[!UICONTROL 可视化体验编辑器]在 [!DNL Adobe Target] 中创建[!UICONTROL Automated Personalization] (AP)活动。
+description: 了解如何使用[!UICONTROL 可视化体验编辑器]在[!DNL Adobe Target]中创建[!UICONTROL Automated Personalization] (AP)活动。
 title: 如何创建[!UICONTROL Automated Personalization]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1928'
 ht-degree: 30%
-
 ---
-
 # 创建[!UICONTROL Automated Personalization]活动
 
 在[!DNL Adobe Target]中使用[!UICONTROL 可视化体验编辑器] (VEC)创建[!UICONTROL Automated Personalization] (AP)活动。

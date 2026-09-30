@@ -1,17 +1,24 @@
 ---
 keywords: 收藏集;定位
-description: 了解如何在 [!DNL Target Recommendations]中使用产品或项目的集合。
+description: 了解如何在[!DNL Target Recommendations]中使用产品或项目的集合。
 title: 如何在推荐活动中使用收藏集？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 42%
-
+source-wordcount: '898'
+ht-degree: 41%
 ---
-
 # 收藏集
 
 收藏集是一组符合推荐标准的产品或项目。 集合的定义方式是指定作为集合一部分的项必须满足的条件。
@@ -46,7 +53,7 @@ ht-degree: 42%
 
    ![悬停图标：编辑、复制和删除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL 收藏集]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}以更改默认主机组。
+   [!UICONTROL 收藏集]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以更改默认主机组。
 
 1. 单击&#x200B;**[!UICONTROL 创建收藏集]**。
 
@@ -102,11 +109,11 @@ ht-degree: 42%
 
    ![更改收藏集选项](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
-## 培训视频：在“推荐” (7:05) ![教程徽章](/help/main/assets/tutorial.png)中创建收藏集和排除项
+## 培训视频：在“推荐”(7:05) ![教程徽章](/help/main/assets/tutorial.png)中创建收藏集和排除项
 
 本视频包含以下信息：
 
 * 创建收藏集
 * 创建排除项
 
->[!VIDEO](https://video.tv.adobe.com/v/35356?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

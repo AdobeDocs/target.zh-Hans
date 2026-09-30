@@ -1,23 +1,30 @@
 ---
 keywords: 随机林；决策树；ap；Automated Personalization
-description: 了解 [!DNL Adobe Target] 如何在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位]活动中使用随机林算法。
-title: ' [!DNL Target] 如何使用随机林算法？'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解[!DNL Adobe Target]如何在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位]活动中使用随机林算法。
+title: '[!DNL Target]如何使用随机林算法？'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M
+TQID: 'https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1458
+source-wordcount: '1460'
 ht-degree: 40%
-
 ---
-
 # 随机林算法
 
 在(AP)和[!DNL Auto-Target]活动中使用的主要个性化算法是随机林。 集成方法（如随机森林）使用多种学习算法以获得比任何组成学习算法都更好的预测性能。 [!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]中的随机林算法是一种分类或回归方法，它通过在训练时构造大量决策树来运行。

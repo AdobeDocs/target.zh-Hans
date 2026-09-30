@@ -1,22 +1,26 @@
 ---
 keywords: CSS 选择器;自定义代码;代码编辑器;移动设备 Web 体验编辑器
-description: 了解如何使用Adobe [!DNL Target] 中的“修改”面板查看页面修改和添加其他修改（CSS选择器、Mbox和自定义代码）。
+description: 了解如何使用Adobe [!DNL Target]中的“修改”面板查看页面修改和添加其他修改（CSS选择器、Mbox和自定义代码）。
 title: 可以对页面进行哪些修改？
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-TQID: https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU
+TQID: 'https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2263
-ht-degree: 82%
-
+source-wordcount: '2264'
+ht-degree: 81%
 ---
-
 # 修改
 
 有关[!DNL Adobe Target]中[!UICONTROL 修改]页面的信息，该页面允许您查看对页面的修改并添加其他修改（CSS选择器、Mbox和自定义代码）。

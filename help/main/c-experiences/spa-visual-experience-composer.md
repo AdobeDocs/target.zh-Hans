@@ -393,7 +393,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 是 |
 | [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md) | 是 |
-| [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | 是 |
+| [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans){target=_blank} | 是 |
 | [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 是 |
 
 ## 受支持的功能 {#supported-features}
@@ -416,7 +416,7 @@ adobe.target.getOffers({
 
 ![“页面交付”选项对话框](/help/main/c-experiences/assets/page-delivery.png)
 
-例如，根据以上显示的[!UICONTROL 页面交付]设置所定义的内容，当访客直接登陆`https://www.adobe.com` *或*&#x200B;且任何包含`https://www.adobe.com/products`的URL时，Target活动就会符合条件并执行。 这非常适用于任何多页面应用程序，在该应用程序中，与页面的每次交互都会调用页面重新加载，at.js 会为此检索符合用户导航到的 URL 条件的活动。
+例如，根据以上显示的[!UICONTROL 页面交付]设置所定义的内容，当访客直接登陆`https://www.adobe.com` *或*&#x200B;且任何包含`https://www.adobe.com/cn/products`的URL时，Target活动就会符合条件并执行。 这非常适用于任何多页面应用程序，在该应用程序中，与页面的每次交互都会调用页面重新加载，at.js 会为此检索符合用户导航到的 URL 条件的活动。
 
 但是，由于SPA的工作方式不同，因此必须配置[!UICONTROL 页面交付]设置，以便允许将所有操作应用于SPA VEC活动中定义的视图。
 

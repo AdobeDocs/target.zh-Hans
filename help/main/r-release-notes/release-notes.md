@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
+source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 28%
+source-wordcount: '1112'
+ht-degree: 26%
 ---
 # [!DNL Target]发行说明（当前版本）
 
@@ -40,7 +40,7 @@ ht-degree: 28%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target Standard/Premium] 26.9.7（2026年9月28日）
+## [!DNL Target Standard/Premium] 26.9.8（2026年9月30日）
 
 ### 功能
 
@@ -80,6 +80,15 @@ ht-degree: 28%
 
 ### 改进功能
 
+**[!UICONTROL 管理]**
+
++++ 查看详细信息
+
+* **无法向用户授予AI权限**。 具有产品管理员和系统管理员访问权限的用户无法将AI权限授予其他用户。 尝试启用AI权限导致`Unauthorized`错误，即使为组织启用了AI也是如此。 (TGT-56261)
+
++++
+
+## [!DNL Target Standard/Premium] 26.9.7（2026年9月28日）
 
 
 **[!UICONTROL 推荐]**
@@ -138,7 +147,7 @@ ht-degree: 28%
 
 +++查看详细信息
 
-* 在最顶部的页面元素&#x200B;**上的[!DNL Experience Fragments]无法访问**&#x200B;[!UICONTROL &#x200B;此项前插入]控件。 在可视化体验编辑器中，选择页面上最顶部的元素将页面向上滚动，导致&#x200B;**[!UICONTROL 此项前插入]**&#x200B;控件在无法选择该控件的可见视区上方渲染。 (TGT-55829)
+* 在最顶部的页面元素&#x200B;**上的[!DNL Experience Fragments]无法访问**[!UICONTROL &#x200B;此项前插入]控件。 在可视化体验编辑器中，选择页面上最顶部的元素将页面向上滚动，导致&#x200B;**[!UICONTROL 此项前插入]**&#x200B;控件在无法选择该控件的可见视区上方渲染。 (TGT-55829)
 
 +++
 

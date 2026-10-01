@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 70%
+source-wordcount: '1510'
+ht-degree: 68%
 ---
 # [!DNL Target]简介
 
@@ -104,30 +104,6 @@ ht-degree: 70%
 >title="基准量度值"
 >abstract="试验开始前的当前表现，即对照组的平均值。 此字段始终为必填项。 对于百分比量度，请输入百分数：例如，如果目前有 5% 的访客点击“立即购买”，请输入 5。 对于计数量度，请直接输入原始数值（可含小数）。"
 
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="主要量度"
->abstract="主要量度会自动从报表设置中获取。 如需更改，请修改“目标和设置”中的目标量度。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="假设验证"
->abstract="假设是您定义的一项陈述，用于说明试验的预期结果。 请描述要更改的内容及其位置，然后说明您预期哪个量度会发生变化，以及具体如何变化。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="分析"
->abstract="试验洞察是指在试验数据达到统计显著性后，AI 从中发现的有价值的信息。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="机会"
->abstract="试验机会是指 AI 根据在试验屏幕截图和结果中发现的规律，提出的试验处理方案构想。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="试验处理方案详情"
->abstract="试验处理方案详情通过图像展示用户符合方案适用条件时所看到的实际效果。 您可以查看所有试验的这些图像。 某些试验可能会要求您确认图像，或在必要时进行替换。"
 
 作为[!DNL Adobe Experience Cloud]的一部分，[!DNL Adobe Target]提供全面的工具，以个性化跨Web、移动站点、应用程序、社交媒体和其他数字渠道的客户体验。
 

@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何在网站、应用程序和社交渠道中个性化客户体验，从而提升营收。
 feature-set: Target
-source-git-commit: 57fda375b52d514f7af207a6bf4bbdaf18b815ea
+source-git-commit: b8d259ffb03092740b50fe317f181f4b7c91e8d5
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1327'
 ht-degree: 83%
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 83%
     + [启用AI助手](/help/main/c-intro/enabling-ai-assistant.md)
     + [使用AI助手获取产品知识](/help/main/c-intro/ai-assistant-product-knowledge.md)
     + {hide-from-toc}[使用AI助手生成内容](/help/main/c-intro/ai-assistant-content-generation.md)
+  + [Adobe Target的同事技能](c-intro/coworker-skills.md)
   + Adobe Target 欢迎套件 {#welcome}
     + [Target 欢迎套件概述](/help/main/c-intro/target-welcome-kit.md)
     + [第 1 章：简介](/help/main/c-intro/target-welcome-kit-1.md)
@@ -123,6 +124,7 @@ ht-degree: 83%
 + 活动 {#activities}
   + [活动概述](c-activities/activities.md)
   + [分析功能板](c-activities/insights-dashboard.md)
+  + [样本量计算器](c-activities/sample-size-calculator.md)
   + [Target 活动类型](c-activities/target-activities-guide.md)
   + A/B 测试 {#abtest}
     + [A/B 测试概述](c-activities/t-test-ab/test-ab.md)
@@ -194,6 +196,7 @@ ht-degree: 83%
     + [点击跟踪](c-activities/r-success-metrics/click-tracking.md)
     + [印象分数](c-activities/r-success-metrics/capture-score.md)
   + [活动更改日志](c-activities/change-log.md)
+  + [AI分析](c-activities/ai-insights.md)
   + 活动故障诊断 {#troubleshoot-activities}
     + [活动故障诊断概述](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [内容交付故障诊断](c-activities/c-troubleshooting-activities/content-trouble.md)

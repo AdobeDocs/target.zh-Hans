@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: de649ea8b193a832eb55d398c7443a95675abb44
+source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
 workflow-type: tm+mt
-source-wordcount: '3949'
+source-wordcount: '3955'
 ht-degree: 56%
 ---
 # 单页面应用程序 (SPA) 可视化体验编辑器
@@ -90,128 +90,134 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 既然我们介绍了 Adobe Target 视图的内容，我们可以在 Target 中利用这一概念，使营销人员能够通过 VEC 在 SPA 上运行 A/B 和 XT 测试。 这将需要一次性开发人员设置。 下面我们将完成这些步骤以进行此设置。
 
-1. 安装 at.js 2.x。
++++ 安装 at.js 2.x。
 
-   首先，我们需要安装at.js 2.x。 开发此版本的at.js时考虑了SPA。 at.js的早期版本并且不支持Adobe Target视图和适用于SPA的VEC。
+首先，我们需要安装at.js 2.x。 开发此版本的at.js时考虑了SPA。 at.js的早期版本并且不支持Adobe Target视图和适用于SPA的VEC。
 
-   ![“实施详细信息”对话框](/help/main/c-experiences/assets/imp-200.png)
+![“实施详细信息”对话框](/help/main/c-experiences/assets/imp-200.png)
 
-   通过位于[!UICONTROL 管理>实现]中的Adobe Target UI下载at.js 2.x。 at.js 2.x也可以通过[Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}中的标记进行部署。 但是，Adobe Target扩展当前不是最新的，不受支持。
+通过位于[!UICONTROL 管理>实现]中的Adobe Target UI下载at.js 2.x。 at.js 2.x也可以通过[Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}中的标记进行部署。 但是，Adobe Target扩展当前不是最新的，不受支持。
 
-1. 在您的网站上实施at.js 2.x的最新函数： [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank}。
++++
 
-   在定义要运行A/B或XT测试的SPA视图之后，实施at.js 2.x的`triggerView()`函数，并将视图作为参数传递。 这允许营销人员使用 VEC 来针对所定义的那些视图设计和运行 A/B 和 XT 测试。 如果没有为这些视图定义 `triggerView()` 函数，则 VEC 将不会检测到视图，因此营销人员将无法使用 VEC 来设计和运行 A/B 和 XT 测试。
++++ 实施at.js 2.x的最新函数
 
-   **`adobe.target.triggerView(viewName, options)`**
+在您的网站上实施at.js 2.x的最新函数[triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank}。
 
-   | 参数 | 类型 | 必需？ | 验证 | 描述 |
-   | --- | --- | --- | --- | --- |
-   | viewName | 字符串 | 是 | &#x200B;1. 无尾随空格。<br>2。 不能为空。<br>3。 所有页面的视图名称都应是唯一的。<br>4。 **警告**：视图名称不应以 `/` 开头或结尾。 这是因为客户通常会从 URL 路径中提取视图名称。 对于我们，“home”和“`/home`”是不同的。<br>5。 **警告**：不应使用 `{page: true}` 选项连续多次触发同一视图。 | 将任何名称作为要显示视图的字符串类型传递。 此视图名称显示在VEC的[!UICONTROL 修改]面板中，供营销人员创建操作并运行其A/B和XT活动。 |
-   | options | 对象 | 否 |  |  |
-   | options > page | 布尔值 | 否 |  | **TRUE**：page 的默认值为 true。 当`page=true`时，将向Edge服务器发送增加展示次数计数的通知。<br>**FALSE**：当`page=false`时，将不会发送增加展示次数计数的通知。 当您只想在具有产品建议的页面上重新渲染组件时，才应该使用此选项。 |
+在定义要运行A/B或XT测试的SPA视图之后，实施at.js 2.x的`triggerView()`函数，并将视图作为参数传递。 这允许营销人员使用 VEC 来针对所定义的那些视图设计和运行 A/B 和 XT 测试。 如果没有为这些视图定义 `triggerView()` 函数，则 VEC 将不会检测到视图，因此营销人员将无法使用 VEC 来设计和运行 A/B 和 XT 测试。
 
-   现在，我们来查看一些关于如何在React中为假定的电子商务SPA调用`triggerView()`函数的示例用例：
+**`adobe.target.triggerView(viewName, options)`**
 
-   **链接：[主站点](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+| 参数 | 类型 | 必需？ | 验证 | 描述 |
+| --- | --- | --- | --- | --- |
+| viewName | 字符串 | 是 | &#x200B;1. 无尾随空格。<br>2。 不能为空。<br>3。 所有页面的视图名称都应是唯一的。<br>4。 **警告**：视图名称不应以 `/` 开头或结尾。 这是因为客户通常会从 URL 路径中提取视图名称。 对于我们，“home”和“`/home`”是不同的。<br>5。 **警告**：不应使用 `{page: true}` 选项连续多次触发同一视图。 | 将任何名称作为要显示视图的字符串类型传递。 此视图名称显示在VEC的[!UICONTROL 修改]面板中，供营销人员创建操作并运行其A/B和XT活动。 |
+| options | 对象 | 否 |  |  |
+| options > page | 布尔值 | 否 |  | **TRUE**：page 的默认值为 true。 当`page=true`时，将向Edge服务器发送增加展示次数计数的通知。<br>**FALSE**：当`page=false`时，将不会发送增加展示次数计数的通知。 当您只想在具有产品建议的页面上重新渲染组件时，才应该使用此选项。 |
 
-   ![home-react-1](/help/main/c-experiences/assets/react1.png)
+现在，我们来查看一些关于如何在React中为假定的电子商务SPA调用`triggerView()`函数的示例用例：
 
-   作为营销人员，如果我们想要在整个主页网站上运行 A/B 测试，那么可能需要将视图命名为可从 URL 中提取的“home”。
+**链接：[主站点](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
-   ```javascript
-   function targetView() {
-     var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
-   
-     viewName = viewName || 'home'; // view name cannot be empty
-   
-     // Sanitize viewName to get rid of any trailing symbols derived from URL
-     if (viewName.startsWith('#') || viewName.startsWith('/')) {
-       viewName = viewName.substr(1);
-     }
-   
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   // react router v4
-   const history = syncHistoryWithStore(createBrowserHistory(), store);
-   history.listen(targetView);
-   
-   // react router v3
-   <Router history={hashHistory} onUpdate={targetView} >
-   ```
+![home-react-1](/help/main/c-experiences/assets/react1.png)
 
-   **链接：[产品站点](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+作为营销人员，如果我们想要在整个主页网站上运行 A/B 测试，那么可能需要将视图命名为可从 URL 中提取的“home”。
 
-   现在，让我们来看一个比较复杂的示例。 假设我们是营销人员，想要在用户单击“Load More”（加载更多）按钮后将价格标签颜色更改为红色，以对第二行的产品进行个性化。
+```javascript
+function targetView() {
+  var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
 
-   ![react products](/help/main/c-experiences/assets/react4.png)
+  viewName = viewName || 'home'; // view name cannot be empty
 
-   ```javascript
-   function targetView(viewName) {
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   class Products extends Component {
-     render() {
-       return (
-         <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
-       );
-     }
-   
-     handleLoadMoreClicked() {
-       var page = this.state.page + 1; // assuming page number is derived from component's state
-       this.setState({page: page});
-       targetView('PRODUCTS-PAGE-' + page);
-     }
-   }
-   ```
+  // Sanitize viewName to get rid of any trailing symbols derived from URL
+  if (viewName.startsWith('#') || viewName.startsWith('/')) {
+    viewName = viewName.substr(1);
+  }
 
-   **链接： [结帐](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
 
-   ![react checkout](/help/main/c-experiences/assets/react6.png)
+// react router v4
+const history = syncHistoryWithStore(createBrowserHistory(), store);
+history.listen(targetView);
 
-   如果营销人员想要根据所选择的递送首选项来对网站上的内容进行个性化，则可以为每个递送首选项创建一个视图。 在这种情况下，当我们选择“Normal Delivery”（普通递送）时，可以将视图命名为“Normal Delivery”（普通递送）。 如果选择了“Express Delivery”（快递），则可以将视图命名为“Express Delivery”（快递）。
+// react router v3
+<Router history={hashHistory} onUpdate={targetView} >
+```
 
-   现在，营销人员可能想要运行 A/B 测试，以查看与将两个交付选项的按钮颜色保持为蓝色相比，在选择“Express Delivery”（快递）后将按钮颜色从蓝色更改为红色是否可以提高转化率。
+**链接：[产品站点](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
-   ```javascript
-   function targetView(viewName) {
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   class Checkout extends Component {
-     render() {
-       return (
-         <div onChange={this.onDeliveryPreferenceChanged}>
-           <label>
-             <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
-             <span> Normal Delivery (7-10 business days)</span>
-           </label>
-   
-           <label>
-             <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
-             <span> Express Delivery* (2-3 business days)</span>
-           </label>
-         </div>
-       );
-     }
-     onDeliveryPreferenceChanged(evt) {
-       var selectedPreferenceValue = evt.target.value;
-       targetView(selectedPreferenceValue);
-     }
-   }
-   ```
+现在，让我们来看一个比较复杂的示例。 假设我们是营销人员，想要在用户单击“Load More”（加载更多）按钮后将价格标签颜色更改为红色，以对第二行的产品进行个性化。
 
-1. 通过 VEC 启动 A/B 或 XT 活动。
+![react products](/help/main/c-experiences/assets/react4.png)
+
+```javascript
+function targetView(viewName) {
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
+
+class Products extends Component {
+  render() {
+    return (
+      <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
+    );
+  }
+
+  handleLoadMoreClicked() {
+    var page = this.state.page + 1; // assuming page number is derived from component's state
+    this.setState({page: page});
+    targetView('PRODUCTS-PAGE-' + page);
+  }
+}
+```
+
+**链接： [结帐](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+
+![react checkout](/help/main/c-experiences/assets/react6.png)
+
+如果营销人员想要根据所选择的递送首选项来对网站上的内容进行个性化，则可以为每个递送首选项创建一个视图。 在这种情况下，当我们选择“Normal Delivery”（普通递送）时，可以将视图命名为“Normal Delivery”（普通递送）。 如果选择了“Express Delivery”（快递），则可以将视图命名为“Express Delivery”（快递）。
+
+现在，营销人员可能想要运行 A/B 测试，以查看与将两个交付选项的按钮颜色保持为蓝色相比，在选择“Express Delivery”（快递）后将按钮颜色从蓝色更改为红色是否可以提高转化率。
+
+```javascript
+function targetView(viewName) {
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
+
+class Checkout extends Component {
+  render() {
+    return (
+      <div onChange={this.onDeliveryPreferenceChanged}>
+        <label>
+          <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
+          <span> Normal Delivery (7-10 business days)</span>
+        </label>
+
+        <label>
+          <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
+          <span> Express Delivery* (2-3 business days)</span>
+        </label>
+      </div>
+    );
+  }
+  onDeliveryPreferenceChanged(evt) {
+    var selectedPreferenceValue = evt.target.value;
+    targetView(selectedPreferenceValue);
+  }
+}
+```
+
++++
+
++++ 通过 VEC 启动 A/B 或 XT 活动。
 
 当在 SPA 上实施 `adobe.target.triggerView()` 并作为参数传递视图名称后，VEC 将能够检测到这些视图，并允许用户为其 A/B 或 XT 活动创建操作和修改。
 
@@ -284,6 +290,8 @@ VEC 的[修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code
 >[!NOTE]
 >
 >在单击“Express Delivery”（快递）单选按钮之前，CHECKOUT-EXPRESS 视图将不会显示在修改面板中。 这是因为 `triggerView()` 函数在选择了“Express Delivery”（快递）单选按钮时触发，但只有在 VEC 知道存在有要显示在修改面板中的视图时才会发生这种情况。
+
++++
 
 ## 深入了解 at.js 和 SPA
 

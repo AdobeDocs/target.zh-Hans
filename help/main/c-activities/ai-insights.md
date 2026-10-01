@@ -4,10 +4,10 @@ description: 了解如何在Adobe Target活动概述中使用Experimentation Acc
 title: 活动概述中的AI见解
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 31%
+source-wordcount: '763'
+ht-degree: 27%
 ---
 # AI分析
 
@@ -24,7 +24,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="分析"
->abstract="试验洞察是指在试验数据达到统计显著性后，AI 从中发现的有价值的信息。"
+>abstract="分析是指人工智能产生的结果，当您的实验达到统计学意义时，这些结果即可使用。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="分析"
->abstract="试验洞察是指在试验数据达到统计显著性后，AI 从中发现的有价值的信息。"
+>abstract="实验见解是人工智能生成的学习，当实验达到统计学意义时变得可用。"
 
 实验见解是来自此实验的AI生成的学习。 一旦试验达到统计学意义并提供有助于其成功的背景信息，这些见解即可使用。 它们会突出显示入选体验中存在的与控制体验不同的关键属性，并且可能会影响结果。
 

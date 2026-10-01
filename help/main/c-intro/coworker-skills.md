@@ -25,7 +25,7 @@ ht-degree: 2%
 [!DNL Adobe Target] MCP工具和协同工作将单独进行记录，并提供不同的功能：
 
 * [目标MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)记录直接MCP服务器公开的各个工具，包括其支持的活动类型、参数、权限以及读取或写入范围。
-* [Co-worker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences)提供了一个单独的自然语言编排层，可以组合功能并应用其他工作流。
+* [Co-worker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences)提供了一个单独的自然语言编排层，可以组合功能并应用其他工作流。
 
 下表是对相关功能的高层次比较。
 

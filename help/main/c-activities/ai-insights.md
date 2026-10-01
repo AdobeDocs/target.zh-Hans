@@ -4,10 +4,10 @@ description: 了解如何在Adobe Target活动概述中使用Experimentation Acc
 title: 活动概述中的AI见解
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 643b30757e9212388dcb6921580f86feb0704338
+source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 18%
 ---
 # AI分析
 
@@ -20,6 +20,11 @@ ht-degree: 16%
 您的&#x200B;**[!UICONTROL 活动概述]**&#x200B;中的&#x200B;**[!UICONTROL AI分析]**&#x200B;菜单提供对分析和优化机会的访问。 使用此选项卡可审查试验学习情况、比较处理方法并确定可提高转化率的更改。
 
 ## 设置AI见解和机会
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights"
+>title="分析"
+>abstract="试验洞察是指在试验数据达到统计显著性后，AI 从中发现的有价值的信息。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -69,10 +74,10 @@ ht-degree: 16%
 
 设置完成后，您的活动便可生成机会。 试验具有足够的数据进行统计验证并确认所需的试验详细信息后，分析即可使用。
 
-## 分析
+## 分析 {#insights}
 
 >[!CONTEXTUALHELP]
->id="target_ai_insights"
+>id="target_ai_insights_insights"
 >title="分析"
 >abstract="试验洞察是指在试验数据达到统计显著性后，AI 从中发现的有价值的信息。"
 

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 340fe2c3fadde03a6a592a16d687c483099dfd88
+source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 30%
+source-wordcount: '1062'
+ht-degree: 28%
 ---
 # [!DNL Target]发行说明（当前版本）
 
@@ -41,6 +41,46 @@ ht-degree: 30%
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
 ## [!DNL Target Standard/Premium] 26.9.7（2026年9月28日）
+
+### 功能
+
+<table>
+<thead>
+<tr>
+<th><strong>样本量计算器</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>样本量计算器可以估计所需的流量、测试持续时间、体验数量或您可以可靠检测到的最小影响，从而帮助您在启动前计划试验。 它通过“活动”菜单提供，使用输入帮助您确定测试所需的资源和运行时间。</p>
+<p>样本量计算器功能目前作为测试版功能提供。</p>
+<p>有关更多信息，请参阅此<a href="../c-activities/sample-size-calculator.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI Insights</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI分析通过手动流量分配，为A/B测试活动提供AI生成的试验学习和优化机会。 一旦试验达到统计显着性，分析会突出显示可能对其性能有所贡献的入选体验的属性。 建议的机会包括新的体验想法、假设和实施指导，以帮助提高转化率。</p>
+<p>AI分析功能目前作为测试版功能提供。</p>
+<p>有关更多信息，请参阅此<a href="../c-activities/ai-insights.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进功能
+
+
 
 **[!UICONTROL 推荐]**
 
@@ -98,7 +138,7 @@ ht-degree: 30%
 
 +++查看详细信息
 
-* 在最顶部的页面元素&#x200B;**上的[!DNL Experience Fragments]无法访问**&#x200B;[!UICONTROL &#x200B;此项前插入]控件。 在可视化体验编辑器中，选择页面上最顶部的元素将页面向上滚动，导致&#x200B;**[!UICONTROL 此项前插入]**&#x200B;控件在无法选择该控件的可见视区上方渲染。 (TGT-55829)
+* 在最顶部的页面元素&#x200B;**上的[!DNL Experience Fragments]无法访问**[!UICONTROL &#x200B;此项前插入]控件。 在可视化体验编辑器中，选择页面上最顶部的元素将页面向上滚动，导致&#x200B;**[!UICONTROL 此项前插入]**&#x200B;控件在无法选择该控件的可见视区上方渲染。 (TGT-55829)
 
 +++
 

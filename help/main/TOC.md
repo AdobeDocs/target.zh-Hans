@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何在网站、应用程序和社交渠道中个性化客户体验，从而提升营收。
 feature-set: Target
-source-git-commit: 57fda375b52d514f7af207a6bf4bbdaf18b815ea
+source-git-commit: d56bda63de533f7a1d0fb4f7297242a58064403f
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1322'
 ht-degree: 83%
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 83%
     + {hide-from-toc}[集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Adobe Journey Optimizer用例 {#use-cases}
       + {hide-from-toc}[Adobe Journey Optimizer中的热门优化用例 — 基于Web和代码的渠道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-      + {hide-from-toc}[在Adobe Journey Optimizer中通过A/B测试进行的内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+      + 在Adobe Journey Optimizer中通过A/B测试进行的{hide-from-toc}[内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
       + {hide-from-toc}[在网页中添加或隐藏组件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
   + 将Target与Adobe Experience Manager (AEM)集成 {#aem}
@@ -123,6 +123,7 @@ ht-degree: 83%
 + 活动 {#activities}
   + [活动概述](c-activities/activities.md)
   + [分析功能板](c-activities/insights-dashboard.md)
+  + [样本量计算器](c-activities/sample-size-calculator.md)
   + [Target 活动类型](c-activities/target-activities-guide.md)
   + A/B 测试 {#abtest}
     + [A/B 测试概述](c-activities/t-test-ab/test-ab.md)
@@ -194,6 +195,7 @@ ht-degree: 83%
     + [点击跟踪](c-activities/r-success-metrics/click-tracking.md)
     + [印象分数](c-activities/r-success-metrics/capture-score.md)
   + [活动更改日志](c-activities/change-log.md)
+  + [AI分析](c-activities/ai-insights.md)
   + 活动故障诊断 {#troubleshoot-activities}
     + [活动故障诊断概述](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [内容交付故障诊断](c-activities/c-troubleshooting-activities/content-trouble.md)

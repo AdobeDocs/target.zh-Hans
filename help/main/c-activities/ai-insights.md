@@ -4,10 +4,10 @@ description: 了解如何在Adobe Target活动概述中使用Experimentation Acc
 title: 活动概述中的AI见解
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 18%
+source-wordcount: '766'
+ht-degree: 31%
 ---
 # AI分析
 
@@ -40,6 +40,26 @@ ht-degree: 18%
 >id="target_ai_insights_treatment_details"
 >title="体验详细信息"
 >abstract="体验详细信息显示了用户符合体验条件时体验的外观。 您可以查看所有试验的这些图像。 某些试验可能会要求您确认图像，或在必要时进行替换。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="主要量度"
+>abstract="主要量度会自动从报表设置中获取。 如需更改，请修改“目标和设置”中的目标量度。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="假设验证"
+>abstract="假设是您定义的一项陈述，用于说明试验的预期结果。 请描述要更改的内容及其位置，然后说明您预期哪个量度会发生变化，以及具体如何变化。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="机会"
+>abstract="试验机会是指 AI 根据在试验屏幕截图和结果中发现的规律，提出的试验处理方案构想。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="试验处理方案详情"
+>abstract="试验处理方案详情通过图像展示用户符合方案适用条件时所看到的实际效果。 您可以查看所有试验的这些图像。 某些试验可能会要求您确认图像，或在必要时进行替换。"
 
 在访问AI生成的洞察和机会之前，您首先需要通过确认主要量度、假设验证和体验屏幕截图来设置活动。
 

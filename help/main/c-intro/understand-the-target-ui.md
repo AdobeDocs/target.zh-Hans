@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1442'
 ht-degree: 23%
 ---
 # 了解 [!DNL Target] UI
@@ -62,11 +62,11 @@ ht-degree: 23%
 
 提供反馈的说明，包括适用的文件或屏幕截图，以及任何其他详细信息（如有必要），然后单击&#x200B;**[!UICONTROL 提交]**。
 
-### [!DNL AI Assistant]
+### [!DNL Coworker]
 
-（视情况而定）如果您的组织已授予您使用[!DNL AI Assistant]的权限，请单击[!DNL AI Assistant]图标。
+（视情况而定）如果您的组织已授予您使用[!DNL Coworker]的权限，请单击[!DNL Coworker]图标。
 
-有关详细信息，请参阅[Adobe Experience Platform AI助手概述](/help/main/c-intro/ai-assistant.md)。
+有关详细信息，请参阅[Adobe Target的同事技能](/help/main/c-intro/coworker-skills.md)。
 
 ### 帮助
 

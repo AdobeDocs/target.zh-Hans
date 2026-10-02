@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何在网站、应用程序和社交渠道中个性化客户体验，从而提升营收。
 feature-set: Target
-source-git-commit: b8d259ffb03092740b50fe317f181f4b7c91e8d5
+source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 83%
+source-wordcount: '1304'
+ht-degree: 84%
 ---
 
 # Adobe Target 从业者指南 {#using}
@@ -26,11 +26,6 @@ ht-degree: 83%
   + [Target 关键概念](c-intro/target-key-concepts.md)
   + [了解 Target UI](/help/main/c-intro/understand-the-target-ui.md)
   + [Target UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)
-  + Adobe Target AI助手 {#assistant-ai}
-    + [AI 助手概述](/help/main/c-intro/ai-assistant.md)
-    + [启用AI助手](/help/main/c-intro/enabling-ai-assistant.md)
-    + [使用AI助手获取产品知识](/help/main/c-intro/ai-assistant-product-knowledge.md)
-    + {hide-from-toc}[使用AI助手生成内容](/help/main/c-intro/ai-assistant-content-generation.md)
   + [Adobe Target的同事技能](c-intro/coworker-skills.md)
   + Adobe Target 欢迎套件 {#welcome}
     + [Target 欢迎套件概述](/help/main/c-intro/target-welcome-kit.md)
@@ -109,7 +104,7 @@ ht-degree: 83%
     + {hide-from-toc}[集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Adobe Journey Optimizer用例 {#use-cases}
       + {hide-from-toc}[Adobe Journey Optimizer中的热门优化用例 — 基于Web和代码的渠道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-      + {hide-from-toc}[在Adobe Journey Optimizer中通过A/B测试进行的内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+      + 在Adobe Journey Optimizer中通过A/B测试进行的{hide-from-toc}[内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
       + {hide-from-toc}[在网页中添加或隐藏组件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
   + 将Target与Adobe Experience Manager (AEM)集成 {#aem}

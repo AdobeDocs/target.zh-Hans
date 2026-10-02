@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '727'
 ht-degree: 28%
 ---
 # [!DNL Adobe Target]商业从业者指南
@@ -62,13 +62,13 @@ UI旨在清晰而高效，帮助您充分利用[!DNL Target]。 利用指向详�
 
 [![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
->[!TAB AI助手]
+>[!TAB AI同事]
 
-**在[!DNL Adobe Experience Platform]**&#x200B;中遇到[!DNL AI Assistant]
+**在[!DNL Adobe Experience Platform]**&#x200B;中遇到[!DNL Coworker]
 
-[!DNL AI Assistant]是您导航[!DNL Adobe Experience Cloud]的智能指南。 在产品（如[!DNL Target]、[!DNL AI Assistant]）中提供，可帮助您从界面快速了解关键概念和功能。
+[!DNL Coworker]是您导航[!DNL Adobe Experience Cloud]的智能指南。 在产品（如[!DNL Target]、[!DNL Coworker]）中提供，可帮助您从界面快速了解关键概念和功能。
 
-[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/c-intro/ai-assistant.md)
+[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/c-intro/coworker-skills.md)
 
 >[!TAB 目标资源]
 
@@ -96,11 +96,11 @@ UI旨在清晰而高效，帮助您充分利用[!DNL Target]。 利用指向详�
 - [[!DNL Target] 发行说明](r-release-notes/release-notes.md)：包含有关当前版本的信息、有关影响[!DNL Target]的已知问题的信息、此文档的重要更改列表以及以前发行说明的存档。
 - [简介 [!DNL Target]](c-intro/intro.md)：说明[!DNL Target]的核心概念。
 - [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
-- [[!UICONTROL AI助手]概述](/help/main/c-intro/ai-assistant.md)： A[!DNL dobe Experience Platform]中的[!DNL AI Assistant]是一项用户界面功能，可用于导航和了解[!DNL Adobe Target]概念。
+- [Adobe Target的同事技能](/help/main/c-intro/coworker-skills.md)：在[!DNL Adobe Target]中了解同事在探索活动和受众、创建测试、分析绩效和解决推荐问题方面的技能。
 - 将[!DNL Target]与[!DNL Adobe Experience Cloud]集成：说明如何将[!DNL Target]与其他[!DNL Experience Cloud]解决方案集成，包括[[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md)和[[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md)。
 - [[!DNL Adobe Target] 教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hans)：提供教程和视频，帮助您充分利用[!DNL Target]。
 - [故障排除 [!DNL Target]](r-troubleshooting-target/troubleshooting-target.md)：提供指向本指南中所含故障排除信息的链接，其中包括关于影响[!DNL Target]中的活动和其他元素的字符限制和其他限制（选件大小、受众、配置文件、值、参数等）的信息。
-- 移动应用的[[!DNL Target] &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=zh-Hans){target=_blank}：说明[!DNL Target]如何用于移动应用优化和个性化。
+- 移动应用的[[!DNL Target] ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=zh-Hans){target=_blank}：说明[!DNL Target]如何用于移动应用优化和个性化。
 - [资源和联系信息](cmp-resources-and-contact-information.md)：提供关于更多资源的信息，以帮助您了解 [!DNL Target] 功能以及如果您需要帮助，如何联系 [!DNL Adobe]。
 
 ## 营销人员 {#marketers}
@@ -131,4 +131,4 @@ UI旨在清晰而高效，帮助您充分利用[!DNL Target]。 利用指向详�
 
 | Adobe [!DNL Target] 解决方案帮助 | [!DNL Adobe Experience Cloud] 资源 |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target] 学习与支持](https://helpx.adobe.com/cn/support/target.html)</li><li>[高级 [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=zh-Hans){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target社区论坛]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hans)</li><li>[[!DNL Experience Cloud] 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)</li><li>[[!DNL Experience Cloud] 帮助主页](https://helpx.adobe.com/cn/support/experience-cloud.html)</li><li>[[!DNL Adobe] 培训和教程](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)</li></ul> |
+| <ul><li>[[!DNL Adobe Target] 学习与支持](https://helpx.adobe.com/cn/support/target.html)</li><li>[高级 [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=zh-Hans){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target社区论坛]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)</li><li>[[!DNL Experience Cloud] 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)</li><li>[[!DNL Experience Cloud] 帮助主页](https://helpx.adobe.com/cn/support/experience-cloud.html)</li><li>[[!DNL Adobe] 培训和教程](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)</li></ul> |

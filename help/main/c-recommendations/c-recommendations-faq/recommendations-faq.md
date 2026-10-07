@@ -2,7 +2,7 @@
 keywords: 故障诊断;常见问题解答;FAQ;推荐;特殊字符;属性权重;内容相似度
 description: 查看有关[!DNL Target Recommendations]活动的常见问题和答案的列表。
 title: 可在何处找到关于[!DNL Recommendations]的问答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '3579'
+source-wordcount: '3560'
 ht-degree: 80%
 ---
 # “推荐”常见问题解答
@@ -116,7 +116,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果使用 mbox 中存在类别 ID 的位置，则标准选取器包含所有适用的标准。
 
-[!DNL Target] 具有[“筛选不兼容的标准”](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}设置以控制算法选取器的智能筛选。
+[!DNL Target] 具有[“筛选不兼容的标准”](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}设置以控制算法选取器的智能筛选。
 
 >[!NOTE]
 >
@@ -271,7 +271,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 我是否可以在 [!DNL Recommendations Premium] 中使用在 [!DNL Adobe Recommendations Classic] 中创建的算法？
 
-[!DNL Recommendations Premium] 不支持 [!DNL Recommendations Classic] 中创建的算法。 您或许可以使用 [!DNL Target Premium] 中的旧算法；但是，在 [!DNL Target Premium] UI 中停用或删除活动时，该算法可能会产生同步问题。 有关这两种解决方案之间差异的更多信息，请参阅 [!DNL Target Premium]&#x200B;[&#128279;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[!DNL Recommendations Classic] 与 [!DNL Recommendations] 活动。
+[!DNL Recommendations Premium] 不支持 [!DNL Recommendations Classic] 中创建的算法。 您或许可以使用 [!DNL Target Premium] 中的旧算法；但是，在 [!DNL Target Premium] UI 中停用或删除活动时，该算法可能会产生同步问题。 有关这两种解决方案之间差异的更多信息，请参阅 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] 与 [!DNL Recommendations] 活动。
 
 ## 如何只推荐新文章或视频？ {#recommend-new-articles}
 
@@ -310,5 +310,4 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * 当 [!DNL Target] 用 getOffer() 返回 JSON 产品建议时，它返回的是 JSON 类型。 但是，如果您返回 JSON 推荐设计，则它返回的是 HTML 类型。
 * 60 天未通过信息源或 API 收到更新之后，已到期的实体可正确地到期；但是，在到期后并不从目录搜索的索引中删除已到期的实体。 当前也不从目录搜索的索引中删除通过信息源或 API 删除的实体。 (IRI-857)
 * A/B 活动和体验定位活动中的推荐产品建议不显示推荐栏的可视预览 (TGT-33426)
-* 通过 API 创建的推荐活动可在用户界面中查看，但只能通过 API 进行编辑。
 * “标准”列表（卡片）视图中显示的“自定义标准”信息源状态每十分钟刷新一次，在极少情况下可能会超过十分钟。 在“自定义标准”编辑视图中显示的状态是实时获取的，因此始终为最新。 (TGT-35896、TGT-36173)

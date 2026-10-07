@@ -56,7 +56,7 @@ ht-degree: 21%
 
 >[!IMPORTANT]
 >
->此集成与Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的[[!UICONTROL Adobe Analytics不同。 实施与支持的活动类型不同。 在将此集成用于[!DNL Target]活动之前，请确保仔细阅读本文。
+>此集成与Target[&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的Adobe Analytics不同。 实施与支持的活动类型不同。 在将此集成用于[!DNL Target]活动之前，请确保仔细阅读本文。
 
 * 要使用 [!DNL Customer Journey Analytics] 作为 [!DNL Target] 的报表源，您和您的公司必须均可以访问 [!DNL Customer Journey Analytics] 和 [!DNL Target]。 如果您需要任一解决方案的访问权限，请联系组织的管理员或客户代表。
 * 若要创建具有[!DNL Customer Journey Analytics]报告的[!DNL Target]活动，您必须在[!DNL Target]中具有“[!UICONTROL 审批者]”或“[!UICONTROL 编辑者]”角色。
@@ -200,7 +200,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->此集成与Target] (A4T)的[!UICONTROL Adobe Analytics不同。
+>此集成与Target (A4T)的Adobe Analytics不同。
 >
 >* [!DNL Target]/[!DNL Customer Journey Analytics]集成不包括预建报表，如A4T。 必须在[!DNL Customer Journey Analytics]中生成活动报告。
 >

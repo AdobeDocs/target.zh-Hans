@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '3579'
+source-wordcount: '3560'
 ht-degree: 80%
 ---
 # “推荐”常见问题解答
@@ -310,5 +310,4 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * 当 [!DNL Target] 用 getOffer() 返回 JSON 产品建议时，它返回的是 JSON 类型。 但是，如果您返回 JSON 推荐设计，则它返回的是 HTML 类型。
 * 60 天未通过信息源或 API 收到更新之后，已到期的实体可正确地到期；但是，在到期后并不从目录搜索的索引中删除已到期的实体。 当前也不从目录搜索的索引中删除通过信息源或 API 删除的实体。 (IRI-857)
 * A/B 活动和体验定位活动中的推荐产品建议不显示推荐栏的可视预览 (TGT-33426)
-* 通过 API 创建的推荐活动可在用户界面中查看，但只能通过 API 进行编辑。
 * “标准”列表（卡片）视图中显示的“自定义标准”信息源状态每十分钟刷新一次，在极少情况下可能会超过十分钟。 在“自定义标准”编辑视图中显示的状态是实时获取的，因此始终为最新。 (TGT-35896、TGT-36173)

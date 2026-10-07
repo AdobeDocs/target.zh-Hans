@@ -1,27 +1,31 @@
 ---
 keywords: 定位;移动设备;Target 移动设备;DeviceAtlas;iPhone;iPhone 机型;Device Atlas;displaywidth;显示屏宽度;显示屏高度;设备类型;displayheight;手机;平板电脑;设备型号
-description: 了解如何在 [!DNL Adobe Target] 中创建受众以定位移动设备。
+description: 了解如何在[!DNL Adobe Target]中创建受众以定位移动设备。
 title: 我是否可以根据移动设备选项定位访客？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
 workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 39%
-
+source-wordcount: '828'
+ht-degree: 33%
 ---
-
 # 移动设备
 
 在[!DNL Adobe Target]中创建受众以根据移动设备、设备类型、设备供应商、屏幕维度等参数定位移动设备。
@@ -89,6 +93,14 @@ iOS 12.2（或更高版本）更新不会影响以下模型的识别，因为这
 ### 定位运行Safari 14.0.2（或更高版本）的设备
 
 使用移动规则来定位在macOS上运行Safari版本14.0.2（或更高版本）的设备时，由于Apple的用户代理和DeviceAtlas存在已知问题，[!DNL Target]在Mac和iPad设备上错误地识别了Safari。 此问题将在将来得到解决。
+
+### 覆盖用户代理的自定义脚本 {#custom-scripts-overwrite-user-agent}
+
+由于移动设备定位依赖于User-Agent字符串，因此，页面上任何在[!DNL Target]读取之前修改`navigator.userAgent`的自定义脚本都可能导致设备定位失败。
+
+如果您的网站有一个自定义脚本，用于侦听所有事件，而不是它所需的特定事件，则它可能会无意中拦截[!DNL Web SDK]事件并覆盖`navigator.userAgent`。 因此，[!DNL Target]会收到错误的设备信息而不是访客的实际设备，并且不会提供预期的体验。
+
+如果移动设备定位未按预期运行，请检查页面上的任何自定义脚本或事件侦听器是否修改了`navigator.userAgent`，并尽可能缩小这些侦听器的范围，以便它们不会无意中拦截[!DNL Target]或Web SDK事件。
 
 ## 培训视频：创建受众
 

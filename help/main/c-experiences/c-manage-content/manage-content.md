@@ -17,9 +17,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '974'
 ht-degree: 8%
 ---
 # 产品建议
@@ -30,7 +30,7 @@ ht-degree: 8%
 
 ![“产品建议”页面](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
-[!UICONTROL 选件]库包含已通过[!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS)和API设置的选件。 在 [!DNL Target Classic] 或其他解决方案中创建的产品建议可以在 [!DNL Target Standard/Premium] 中进行编辑。
+[!UICONTROL 选件]库包含已通过[!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS)和API设置的选件。 在 [!DNL Target Classic] 或其他解决方案中创建的产品建议可以在 [!DNL Target Standard/Premium] 中进行编辑。 通过[!DNL Adobe Target] API或[!DNL Adobe Target] MCP服务器创建的选件也可以在[!DNL Target] UI中编辑。
 
 [!UICONTROL 选件]库提供了所有代码和图像选件的概览，并允许您执行各种操作：
 

@@ -73,9 +73,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '72418'
+source-wordcount: '72456'
 ht-degree: 48%
 ---
 # 以前版本的发行说明
@@ -112,11 +112,11 @@ ht-degree: 48%
 
 ## [!DNL Target Standard/Premium] 26.8.3（2026年8月13日）
 
-**活动和受众**
+**活动、选件和受众**
 
 +++查看详细信息
 
-* **为由API/MCP创建的活动和受众启用了“编辑”功能。** 通过[!DNL Adobe Target]管理员API和[!DNL Target] MCP创建的活动和受众现在可以在[!DNL Target] UI中进行编辑。
+* **为API/MCP创建的活动、选件和受众启用了“编辑”。** 通过[!DNL Adobe Target]管理员API和[!DNL Target] MCP创建的活动、选件和受众现在可以在[!DNL Target] UI中进行编辑。 在UI中编辑由API创建的活动后，该活动将被视为由UI修改的活动。 以前受限制的操作（包括[!UICONTROL 复制]和[!UICONTROL 删除]）变为可用，具体取决于您的权限和活动状态。 (TGT-55116)
 
 +++
 

@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 65%
+source-wordcount: '2219'
+ht-degree: 62%
 ---
 # [!UICONTROL 自动化区段]报告
 
@@ -92,9 +92,9 @@ ht-degree: 65%
 
 | 元素 | 详细信息 |
 |--- |--- |
-| 左侧面板 | 左侧面板列出了 Target 的个性化模型为此活动确定的 20 个最大“自动化区段”。 “自动化区段”就像一个受众，但它是由 Target 的个性化模型定义的，而不是由营销人员定义。 每个自动化区段由特定属性的特定值（或值范围）组成。<br>自动化区段可以重叠。 自动化区段可以由一个、两个、三个或四个属性来定义。 有关更多详细信息，请参阅下面的示例。<br>要了解有关 Target 个性化模型的更多信息，请参阅[随机林算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)。 要了解有关 Target 个性化模型用于创建自动化区段的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。 |
+| 左侧面板 | 左侧面板列出了最多100个由Target的个性化模型为此活动标识的最大“自动化区段”。 “自动化区段”就像一个受众，但它是由 Target 的个性化模型定义的，而不是由营销人员定义。 每个自动化区段由特定属性的特定值（或值范围）组成。<br>自动化区段可以重叠。 自动化区段可以由一个、两个、三个或四个属性来定义。 有关更多详细信息，请参阅下面的示例。<br>要了解有关 Target 个性化模型的更多信息，请参阅[随机林算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)。 要了解有关 Target 个性化模型用于创建自动化区段的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。 |
 | 中心图 | 中心图显示活动内容在突出显示的自动化区段中的执行情况。 当您单击左侧面板上的不同区段时，中心图将会相应更新。 |
-| 圆形分析图 | 中心面板顶部的圆形分析图显示了自动化区段的大小，以及活动中个性化访问的总次数（例如，个性化模型提供的此活动的流量。 它不包括控制流量或整个入选者模型提供的流量）。 区段的大小仅基于个性化访问。<br>![饼图](/help/main/c-reports/assets/pie.png) |
+| 圆形分析图 | 中心面板顶部的饼图显示自动化区段的大小，以及活动中的个性化访问总数。 个性化访问仅包括Target的个性化模型为其选择选件或体验的流量。 它们不包括控制流量、整个入选者模型提供的流量以及用于继续训练模型的随机流量。 区段的大小仅基于个性化访问。<br>![饼图](/help/main/c-reports/assets/pie.png) |
 | 双轴条形图 | 双轴条形图包含按该特定自动化区段的选件或体验划分的访问和转化信息。 |
 | 粉色条 | 粉色条表示转化率，使用图形的底轴。 您可以将鼠标悬停在该条上以获取更多信息。 |
 | 蓝色条 | 蓝色条表示访问次数，使用图形的顶轴。 您可以将鼠标悬停在该条上以获取更多信息。 |

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '2649'
-ht-degree: 25%
+source-wordcount: '2682'
+ht-degree: 24%
 ---
 # 活动概述
 
@@ -120,7 +120,7 @@ ht-degree: 25%
 
 | 操作 | 描述 |
 | --- | --- |
-| [!UICONTROL 编辑] | 更改活动。 任何活动都可以编辑，包括通过[!DNL Adobe Target] API或[!DNL Adobe Target] MCP服务器创建的活动。<P>有关各种活动编辑方式的更多信息，请参阅[编辑活动或另存为草稿](/help/main/c-activities/edit-activity.md)。 |
+| [!UICONTROL 编辑] | 更改活动。 任何活动都可以编辑，包括通过[!DNL Adobe Target] API或[!DNL Adobe Target] MCP服务器创建的活动。 在UI中编辑由API创建的活动后，该活动将被视为由UI修改的活动。 以前受限制的操作（包括[!UICONTROL 复制]和[!UICONTROL 删除]）变为可用，具体取决于您的权限和活动状态。<P>有关各种活动编辑方式的更多信息，请参阅[编辑活动或另存为草稿](/help/main/c-activities/edit-activity.md)。 |
 | [!UICONTROL 停用] | 停止实时或计划的活动。 可以重新激活或存档已停用的活动。<P>如果您停用活动或将活动存档，稍后又重新激活它，并且在停用活动或将活动存档之前有访客处于活动中，则该访客在重新激活活动后将继续成为该活动的一部分。 在这两个事件之间的时段内记录的任何转化量度不会归因于该活动。 |
 | [!UICONTROL 激活] | 启动不活动的活动或准备激活的活动。 |
 | [!UICONTROL 存档] | 将活动发送到存档中。 默认情况下，已存档的活动不再出现在[!UICONTROL 活动]列表中。 更改[!UICONTROL 活动]列表的筛选器以包含已存档的活动以查看它们。 您可以激活已存档的活动以便再次使用。<P>如果您停用活动或将活动存档，稍后又重新激活它，并且在停用活动或将活动存档之前有访客处于活动中，则该访客在重新激活活动后将继续成为该活动的一部分。 在这两个事件之间的时段内记录的任何转化量度不会归因于该活动。 |

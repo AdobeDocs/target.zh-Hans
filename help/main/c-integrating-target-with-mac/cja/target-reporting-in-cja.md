@@ -1,34 +1,45 @@
 ---
 keywords: customer journey analytics；customer journey analytics for target；customer journey analytics报告源；customer journey analytics作为target的报告源；cja中的目标报告；Customer Journey Analytics中的目标报告
-description: 在 [!DNL Adobe Customer Journey Analytics] 中使用 [!DNL Target] 报告创建基于 [!DNL Customer Journey Analytics] 转化指标和受众区段的活动，并使用 [!DNL Customer Journey Analytics] 报告检查结果。
-title: 什么是 [!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]中报告？
+description: 在[!DNL Adobe Customer Journey Analytics]中使用[!DNL Target]报告创建基于[!DNL Customer Journey Analytics]转化指标和受众区段的活动，并使用[!DNL Customer Journey Analytics]报告检查结果。
+title: 什么是[!DNL Adobe Customer Journey Analytics]中的[!DNL Target]报告？
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 TQID: https://experienceleague.adobe.com/bEwtqdwOsXyDbBUdxZKMl3I3LLTgxdxURvXjrfco-WI
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5b60a40e83437c535ccb3a7e7800493619fc62c8
+    internal-label: Administration
+source-git-commit: f5c3f6f1b0cc044f0daaafb59643b8ffb3e3f8e4
 workflow-type: tm+mt
-source-wordcount: 1754
-ht-degree: 20%
-
+source-wordcount: '1826'
+ht-degree: 21%
 ---
-
 # [!DNL Target]在[!DNL Adobe Customer Journey Analytics]中报告
 
 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/customer-journey-analytics){target=_blank}与[!DNL Target]之间的集成为您的优化程序提供了强大的分析和省时的工具。
@@ -55,7 +66,7 @@ ht-degree: 20%
 * 成为[!DNL Adobe Experience Platform]中的角色的一部分以设置[!DNL Target]活动，并将[!DNL Customer Journey Analytics]作为报表源。 有关详细信息，请参阅&#x200B;*数据架构师和工程师教程中的*&#x200B;配置权限&#x200B;*中的[在 [!DNL Adobe Experience Platform]中添加角色](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank}。*
 * 根据您的设置，可以根据活动或组织级别更改报表。 请参阅&#x200B;*在 Target 中配置报表*&#x200B;中的[报表云解决方案](/help/main/administrating-target/reporting.md#solution)。
 * 使用一个报表源或另一个。 您无法将单个活动的数据收集到多个报表源中。
-* 当您将[!DNL Customer Journey Analytics]设置为报表源时，系统会提示您为报表指定沙盒和数据视图。 在配置过程中，您只会看到您有权访问的沙盒和数据视图。
+* 在设置 [!DNL Customer Journey Analytics] 作为您的报表源时，系统会提示您指定用于报表的沙盒。 对于具有手动流量拆分或[!UICONTROL 自动分配]的A/B活动，您还可以在[!DNL Target]中选择数据视图和[!DNL Customer Journey Analytics]量度。 这些选择选项不适用于[!UICONTROL 体验定位]、[!UICONTROL 多变量测试]或[!UICONTROL 推荐]活动。 在配置过程中，您只会看到您有权访问的沙盒和数据视图。
 * 任何现有[!DNL Target]活动继续使用[!DNL Target]数据收集，不受启用此集成的影响。
 * 若要使用此集成，首选实现方法通过[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}实现[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform){target=_blank}和[!DNL Target]。
 
@@ -73,15 +84,15 @@ ht-degree: 20%
 
 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}或[at.js](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript库时，支持以下活动类型：
 
-| 活动类型 | 受支持? |
-|--- |--- |
-| [使用手动流量拆分的 A/B 活动](/help/main/c-activities/t-test-ab/test-ab.md) | 是 |
-| [使用自动分配的 A/B 活动](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 |
-| [使用自动锁定的 A/B 活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 否 |
-| [体验定位 (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 是 |
-| [多变量测试 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 |
-| [Automated Personalization (AP) 活动](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |
-| [推荐活动](/help/main/c-recommendations/recommendations.md) | 是 |
+| 活动类型 | 受支持? | 是否支持数据视图？ |
+|--- |--- |--- |
+| [使用手动流量拆分的 A/B 活动](/help/main/c-activities/t-test-ab/test-ab.md) | 是 | 是 |
+| [使用自动分配的 A/B 活动](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 | 是 |
+| [使用自动锁定的 A/B 活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 否 | 否 |
+| [体验定位 (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 是 | 否 |
+| [多变量测试 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 否 |
+| [Automated Personalization (AP) 活动](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 | 否 |
+| [推荐活动](/help/main/c-recommendations/recommendations.md) | 是 | 否 |
 
 [!UICONTROL 自动定位]和[!UICONTROL Automated Personalization]活动尚不支持[!DNL Customer Journey Analytics]作为报表源。
 
@@ -107,7 +118,7 @@ ht-degree: 20%
 
    ![选择沙盒选项](/help/main/c-integrating-target-with-mac/cja/assets/sandbox.png)
 
-1. 选择&#x200B;**[!UICONTROL 数据视图]**。 数据视图的功能类似于[!DNL Customer Journey Analytics]报表的[!DNL Analytics]报表包。 仅显示选定沙盒中您有权访问的数据视图。
+1. 对于具有手动流量拆分或[!UICONTROL 自动分配]的A/B活动，请选择&#x200B;**[!UICONTROL 数据视图]**。 数据视图的功能类似于[!DNL Customer Journey Analytics]报表的[!DNL Analytics]报表包。 仅显示选定沙盒中您有权访问的数据视图。
 
    ➡️ [在Adobe Customer Journey Analytics文档中了解有关数据视图的更多信息](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/data-views)
 
@@ -115,7 +126,7 @@ ht-degree: 20%
 
    * **[!UICONTROL 转化]**：选择受众必须采取的操作以指示已达到目标。 [了解有关成功量度的更多信息](/help/main/c-activities/r-success-metrics/success-metrics.md)。
 
-   * **[!UICONTROL 使用Customer Journey Analytics指标]**：从所选数据视图中选择[!DNL Customer Journey Analytics]指标或计算量度。 此量度用作优化标准。 模型在[!DNL Customer Journey Analytics]数据上运行，并以用于[!DNL Customer Journey Analytics]报表的相同节奏刷新性能数据。
+   * **[!UICONTROL 使用Customer Journey Analytics指标]**：仅适用于具有手动流量拆分或[!UICONTROL 自动分配]的A/B活动。 从所选数据视图中选择[!DNL Customer Journey Analytics]个量度或计算量度。 此量度用作优化标准。 模型在[!DNL Customer Journey Analytics]数据上运行，并以用于[!DNL Customer Journey Analytics]报表的相同节奏刷新性能数据。
 
    ![使用“目标量度”下的 Customer Journey Analytics 量度选项](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 

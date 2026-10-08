@@ -157,7 +157,7 @@ ht-degree: 35%
 
    * **[!UICONTROL 变量]**：度量值的分布方式。 点进率通常具有低差异，每位用户的收入可能更高。 如果您不确定，请保留默认值 1。
 
-     在[Analytics文档](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)中了解如何计算&#x200B;**[!UICONTROL 差异]**
+     在[Analytics文档](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)中了解如何计算&#x200B;**[!UICONTROL 差异]**
 
      ![](assets/calculator-cja-analytics-2.png)
 

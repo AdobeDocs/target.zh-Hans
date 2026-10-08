@@ -7,29 +7,29 @@ badge: label="Beta" type="Informative"
 source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
 workflow-type: tm+mt
 source-wordcount: '1604'
-ht-degree: 11%
+ht-degree: 35%
 ---
 # 样本量计算器
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="每日流量"
->abstract="每天有多少用户进入实验。 如果您不知道此值，请选择上面的“流量” ，计算器将使用其他输入进行解析。"
+>abstract="每天进入试验的用户数量。 如果您不知道此值，请选择上方的“流量”，计算器将根据其他输入值自动计算该值。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="置信度"
->abstract="在认为结果有意义之前，你有多确定这个结果不是偶然造成的。 95% 的置信度意味着出现假阳性结果的概率不超过 5%。 较高的值会减少误报，但它们也需要更多数据。"
+>abstract="在将结果判定为具有统计显著性之前，您需要多大程度地确信该结果并非由随机因素造成。 95% 的置信度意味着出现假阳性结果的概率不超过 5%。 值越高，假阳性越少，但所需的数据量也越大。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
 >title="统计功效"
->abstract="如果存在实际效果，则检测实际效果的概率。 80%的功率水平意味着有80%的机会检测到真实的效果。 较高的功率会减少误报，但需要更多的流量或较长的运行时间。"
+>abstract="在确实存在真实效应的情况下检测到该效应的概率。 80% 的统计功效意味着检测到真实效应的概率为 80%。 统计功效越高，假阴性越少，但需要更多流量或更长的运行时间。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup_cja"
 >title="设置测试"
->abstract="这些字段定义试验、预期结果和结果的置信阈值。 绑定到以上所选值的字段会自动解析；其余字段用期望值填写。"
+>abstract="这些字段用于定义试验、预期结果以及结果的置信度阈值。 系统会自动计算与您上方所选值对应的字段；请在其余字段中填写您的预期值。"
 
 
 >[!AVAILABILITY]
@@ -42,32 +42,32 @@ ht-degree: 11%
 
 ![](assets/calculator_menu.png)
 
-## A/B（目标报告）
+## A/B（Target 报告）
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_bonferroni"
->title="Bonferroni校正"
->abstract="调整置信度级别，以便考虑同时将多个选件与控制选件进行比较。 仅当选件数量大于两时，这一点才重要。 它与Adobe的公共Target计算器工具中使用的相同校正相匹配。"
+>title="Bonferroni 校正"
+>abstract="调整置信度，以考虑同时将多个产品建议与控制组进行比较的情况。 仅当产品建议数量大于两个时，此项才会产生影响。 这与 Adobe 公共 Target Calculator 工具所采用的校正方法相同。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_metric_type"
 >title="量度类型"
->abstract="您要衡量的量度类型。 使用“百分比”表示每个用户执行或不执行操作的二进制结果，例如点击次数或转化次数。 将数字用于收入或页面查看次数等量度，这些量度的值会因用户而有很大的差异。"
+>abstract="您要衡量的量度类型。 对于点击或转化等二元结果，请使用“百分比”，因为每个用户只有完成或未完成操作两种情况。 对于收入或页面查看次数等量度，请使用“数值”，因为不同用户的值可能存在很大差异。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_offers"
 >title="产品建议数"
->abstract="试验中的体验数量，包括控制。 两个以上的选件会自动应用Bonferroni校正（启用时）以在所有比较中保持总体置信水平准确。"
+>abstract="试验中的体验数量，包括控制体验。 当产品建议数量超过两个时，系统会自动应用 Bonferroni 校正（如果已启用），以确保所有比较的总体置信度保持准确。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_lift"
 >title="提升度"
->abstract="相对于要检测的基线的改进。 输入该值作为基线的百分比。 例如，11.8%的基准转化率目标提高5%，达到12.39%。"
+>abstract="您希望检测到的相对于基准值的提升幅度。 请输入相对于基准值的百分比。 例如，如果基准转化率为 11.8%，提升 5% 的目标转化率即为 12.39%。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_conversion_rate"
 >title="基准线转化率"
->abstract="实验开始前的当前转化率，即控制臂平均值。 此值始终为必填项。 对于百分比量度，请输入百分比，例如5 （表示5%）。 对于计数量度，请直接输入原始数值（可含小数）。"
+>abstract="试验开始前的当前转化率，即控制组的平均值。 此值为必填项。 对于百分比量度，请输入百分比数值，例如输入 5 表示 5%。 对于计数量度，请直接输入原始数值（可含小数）。"
 
 估计规划和运行A/B测试所需的输入。 这些值可帮助您确定需要多少流量、测试应该运行多久以及可以实际检测的影响大小。
 
@@ -128,7 +128,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
 >title="变量"
->abstract="量度值的分布方式，而非平均值。 点击率等量度（通常为0和1）的方差通常较低，而像每用户收入这样的量度可能会有较高的方差。 如果不确定，请将默认值保留为1。"
+>abstract="量度值的离散程度，而不是平均值。 点进率等量度（大多数值为 0 或 1）的方差通常较低，而每位用户收入等量度的方差可能要高得多。 如果您不确定，请保留默认值 1。"
 
 估算依赖于Adobe Analytics或Customer Journey Analytics数据的A/B活动的规划输入。 它可帮助您在启动活动之前定义试验大小、预期提升和测试持续时间。
 
@@ -155,9 +155,9 @@ ht-degree: 11%
 
    * **[!UICONTROL 预期改进]**：您预期试验将产生的改进。
 
-   * **[!UICONTROL 变量]**：度量值的分布方式。 点进率通常具有低差异，每位用户的收入可能更高。 如果不确定，请将默认值保留为1。
+   * **[!UICONTROL 变量]**：度量值的分布方式。 点进率通常具有低差异，每位用户的收入可能更高。 如果您不确定，请保留默认值 1。
 
-     在[Analytics文档](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)中了解如何计算&#x200B;**[!UICONTROL 差异]**
+     在[Analytics文档](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)中了解如何计算&#x200B;**[!UICONTROL 差异]**
 
      ![](assets/calculator-cja-analytics-2.png)
 

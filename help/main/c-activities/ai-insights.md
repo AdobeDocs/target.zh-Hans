@@ -7,7 +7,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 27%
+ht-degree: 36%
 ---
 # AI分析
 
@@ -19,12 +19,12 @@ ht-degree: 27%
 
 您的&#x200B;**[!UICONTROL 活动概述]**&#x200B;中的&#x200B;**[!UICONTROL AI分析]**&#x200B;菜单提供对分析和优化机会的访问。 使用此选项卡可审查试验学习情况、比较处理方法并确定可提高转化率的更改。
 
-## 设置AI见解和机会
+## 设置 AI 洞察和机会
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="分析"
->abstract="分析是指人工智能产生的结果，当您的实验达到统计学意义时，这些结果即可使用。"
+>abstract="洞察是由 AI 生成的发现，当试验达到统计显著性时即可查看。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -39,7 +39,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
 >title="体验详细信息"
->abstract="体验详细信息显示了用户符合体验条件时体验的外观。 您可以查看所有试验的这些图像。 某些试验可能会要求您确认图像，或在必要时进行替换。"
+>abstract="体验详细信息会显示用户符合体验资格时所呈现的体验效果图。 您可以查看所有试验的这些图像。 某些试验可能会要求您确认图像，或在必要时进行替换。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="分析"
->abstract="实验见解是人工智能生成的学习，当实验达到统计学意义时变得可用。"
+>abstract="试验洞察是由 AI 生成的经验总结，当试验达到统计显著性时即可查看。"
 
 实验见解是来自此实验的AI生成的学习。 一旦试验达到统计学意义并提供有助于其成功的背景信息，这些见解即可使用。 它们会突出显示入选体验中存在的与控制体验不同的关键属性，并且可能会影响结果。
 
@@ -118,7 +118,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="机会"
->abstract="实验机会是AI建议的体验想法，这些想法基于在您的实验屏幕截图和结果中找到的模式AI。"
+>abstract="试验机会是 AI 根据从试验屏幕快照和结果中发现的模式建议的体验创意。"
 
 **[!UICONTROL 机会]**&#x200B;面板显示AI生成的推荐，这些推荐旨在提高测试性能并符合更广泛的业务目标和KPI。
 

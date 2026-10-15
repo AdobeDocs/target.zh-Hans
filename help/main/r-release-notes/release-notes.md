@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
+source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 26%
+source-wordcount: '462'
+ht-degree: 58%
 ---
 # [!DNL Target]发行说明（当前版本）
 
@@ -40,173 +40,21 @@ ht-degree: 26%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target Standard/Premium] 26.9.8（2026年9月30日）
-
-### 功能
-
-<table>
-<thead>
-<tr>
-<th><strong>样本量计算器</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>样本量计算器可以估计所需的流量、测试持续时间、体验数量或您可以可靠检测到的最小影响，从而帮助您在启动前计划试验。 它通过“活动”菜单提供，使用输入帮助您确定测试所需的资源和运行时间。</p>
-<p>样本量计算器功能目前作为测试版功能提供。</p>
-<p>有关更多信息，请参阅此<a href="../c-activities/sample-size-calculator.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>AI Insights</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI分析通过手动流量分配，为A/B测试活动提供AI生成的试验学习和优化机会。 一旦试验达到统计显着性，分析会突出显示可能对其性能有所贡献的入选体验的属性。 建议的机会包括新的体验想法、假设和实施指导，以帮助提高转化率。</p>
-<p>AI分析功能目前作为测试版功能提供。</p>
-<p>有关更多信息，请参阅此<a href="../c-activities/ai-insights.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### 改进功能
-
-**[!UICONTROL 管理]**
-
-+++ 查看详细信息
-
-* **无法向用户授予AI权限**。 具有产品管理员和系统管理员访问权限的用户无法将AI权限授予其他用户。 尝试启用AI权限导致`Unauthorized`错误，即使为组织启用了AI也是如此。 (TGT-56261)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.7（2026年9月28日）
-
-
-**[!UICONTROL 推荐]**
-
-+++ 查看详细信息
-
-* 可视化体验编辑器&#x200B;**中出现**“用户输入无效”错误。 在可视化体验编辑器中编辑“推荐”活动时，在尝试保存并关闭活动时出现“无效用户输入”错误。
-
-+++
-
-
-## [!DNL Target Standard/Premium] 26.9.6（2026年9月24日）
-
-**[!UICONTROL 可视化体验编辑器] (VEC)**
-
-+++查看详细信息
-
-* 通过可视化体验编辑器&#x200B;**访问经SSO验证的页面时，出现**&#x200B;无尽的重定向循环。 当加载到可视化体验编辑器的页面URL经历SSO/登录重定向流程时，可视化体验编辑器进入无限重定向循环，从未到达预期页面。 (TGT-56233)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.5（2026年9月21日）
-
-### 功能
-
-<table>
-<thead>
-<tr>
-<th><strong>内容预隐藏</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>内容预隐藏仅隐藏Adobe Target个性化即将更改的部分，从而有助于减少页面闪烁，在内容加载时可提供更顺畅的体验。 此方法可避免隐藏整个页面，并有助于在启动新活动时最大限度地减少实施工作。</p>
-<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。</p>
-<p>有关更多信息，请参阅此<a href="../administrating-target/content-pre-hiding.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### 改进功能
+## [!DNL Target Standard/Premium] 26.10.1（2026年10月13日）
 
 **[!UICONTROL 目标分析]**
 
 +++查看详细信息
 
-* **A4T报告链接未在[!DNL Target] UI**&#x200B;中生成。 对于[!DNL A4T]活动，未在&#x200B;**[!UICONTROL 报表]**&#x200B;分区中生成报表链接，即使基础报表数据在[!DNL Target] UI和[!DNL Adobe Analytics] UI中均可见。 (TGT-56247)
+* **A4T报告失败，出现“出现错误”错误**。 修复了使用新添加的报表包的[!DNL A4T]活动在[!DNL Target]报表中显示“出现错误”而不是结果的问题。 单击Analytics中的&#x200B;**[!UICONTROL 查看]**&#x200B;也会显示“不兼容的报表包”消息，其中缺少[!DNL Analytics for Target]分类信息。 (TGT-56389)
 
 +++
-
-## [!DNL Target Standard/Premium] 26.9.4（2026年9月17日）
 
 **[!UICONTROL 可视化体验编辑器] (VEC)**
 
 +++查看详细信息
 
-* 在最顶部的页面元素&#x200B;**上的[!DNL Experience Fragments]无法访问**&#x200B;[!UICONTROL &#x200B;此项前插入]控件。 在可视化体验编辑器中，选择页面上最顶部的元素将页面向上滚动，导致&#x200B;**[!UICONTROL 此项前插入]**&#x200B;控件在无法选择该控件的可见视区上方渲染。 (TGT-55829)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.3（2026年9月16日）
-
-**[!UICONTROL 报表]**
-
-+++查看详细信息
-
-* **某些[!DNL A4T Auto-Target]报表中缺少[!UICONTROL 提升]和[!UICONTROL 置信度]值**。 对于使用&#x200B;**[!UICONTROL 最大访问转化率]**&#x200B;优化目标的[!DNL A4T Auto-Target]活动，默认的&#x200B;**[!UICONTROL 我的主要量度]**&#x200B;报告量度未正确解析，将&#x200B;**[!UICONTROL 提升度]**&#x200B;和&#x200B;**[!UICONTROL 置信度]**&#x200B;留空。 (TGT-56137)
-
-+++
-
-**[!UICONTROL 目标分析]**
-
-+++查看详细信息
-
-* 对于没有[!DNL Analytics]访问权限的实时活动，**[!UICONTROL 报告Source]字段现在为只读**。 以前，当实时活动的所有者无权访问[!DNL Adobe Analytics]时，**[!UICONTROL 报告Source]**&#x200B;字段及其相关字段保持可编辑状态。 (TGT-56089)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.2（2026年9月8日）
-
-
-**[!UICONTROL 推荐]**
-
-+++查看详细信息
-
-* **[!DNL New]用户界面对信息源URL的编码不正确**。 从新[!DNL Target]界面中的URL创建推荐信息源时，信息源URL编码不正确，导致信息源创建失败，出现未知错误。 (TGT-56084)
-
-+++
-
-**[!UICONTROL 报表]**
-
-+++查看详细信息
-
-* **自动化区段报表无法一致地显示属性值**。 自动化区段报表显示[!DNL Automated Personalization]和[!DNL Auto-Target]活动的属性值和范围不一致。 某些自动化区段仅显示属性名称，而不是关联的值或范围。 (TGT-55855)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.1（2026年9月1日）
-
-**[!UICONTROL 受众]**
-
-+++查看详细信息
-
-* **复制仅包含活动受众的活动无法保存**。 当A/B活动使用仅活动（本地范围）受众规则和自定义代码修改时，复制它并保存副本会失败并出现“受众ID无效”错误。 (TGT-55785)
-
-+++
-
-**[!DNL Adobe Target]MCP服务器 — 推荐工具（公共Beta）**
-
-+++查看详细信息
-
-[!DNL Adobe Target] MCP服务器现在公开推荐工具，允许您列出、检查、创建和更新标准、收藏集、设计、促销和排除项，并直接从AI助手搜索产品目录。
-
-此功能需要具有&#x200B;**Target Premium**&#x200B;且启用了Recommendations的租户；此功能在非Premium帐户上不可用。
-
-有关详细信息，请参阅[MCP服务器工具引用](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)。
+* 显示&#x200B;**原始HTML，而不是通过mbox**&#x200B;交付的[!DNL Experience Fragments]的选件名称。 修复了通过mbox传递[!DNL Experience Fragment]时，**[!UICONTROL 修改]**&#x200B;面板显示原始HTML/代码而不是选件名称的问题。 (TGT-56241)
 
 +++
 

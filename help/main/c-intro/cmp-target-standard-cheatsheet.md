@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '2871'
+source-wordcount: '2913'
 ht-degree: 50%
 ---
 # Target 优化和个性化常见问题解答
@@ -95,6 +95,8 @@ ht-degree: 50%
 
 +++查看详细信息
 有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hans){target=_blank}矩阵图。 请注意，支持的界面有两方面：[!DNL Target Standard/Premium]以及桌面/设备上的最终用户浏览器支持。
+
+[!DNL Target]接口支持[!DNL Safari]。 您可以在[!DNL Safari]中创建基于表单的活动，并使用所有功能，但[!DNL Safari]不支持的[!UICONTROL 可视化体验编辑器] (VEC)和[!UICONTROL 增强型体验编辑器] (EEC)除外。 要在VEC或EEC中编辑体验，请使用[!DNL Google Chrome]。
 
 +++
 

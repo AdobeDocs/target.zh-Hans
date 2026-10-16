@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c3f6f1b0cc044f0daaafb59643b8ffb3e3f8e4
+source-git-commit: 525737d4f8973f0b1ff04becd00c361c64b111e2
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 21%
+source-wordcount: '1877'
+ht-degree: 20%
 ---
 # [!DNL Target]在[!DNL Adobe Customer Journey Analytics]中报告
 
@@ -120,6 +120,8 @@ ht-degree: 21%
 
 1. 对于具有手动流量拆分或[!UICONTROL 自动分配]的A/B活动，请选择&#x200B;**[!UICONTROL 数据视图]**。 数据视图的功能类似于[!DNL Customer Journey Analytics]报表的[!DNL Analytics]报表包。 仅显示选定沙盒中您有权访问的数据视图。
 
+   [!UICONTROL 自动分配]活动需要数据视图。 对于使用手动流量拆分的A/B活动，它是可选的。
+
    ➡️ [在Adobe Customer Journey Analytics文档中了解有关数据视图的更多信息](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/data-views)
 
 1. 指定目标量度。 选择下列选项之一：
@@ -127,6 +129,8 @@ ht-degree: 21%
    * **[!UICONTROL 转化]**：选择受众必须采取的操作以指示已达到目标。 [了解有关成功量度的更多信息](/help/main/c-activities/r-success-metrics/success-metrics.md)。
 
    * **[!UICONTROL 使用Customer Journey Analytics指标]**：仅适用于具有手动流量拆分或[!UICONTROL 自动分配]的A/B活动。 从所选数据视图中选择[!DNL Customer Journey Analytics]个量度或计算量度。 此量度用作优化标准。 模型在[!DNL Customer Journey Analytics]数据上运行，并以用于[!DNL Customer Journey Analytics]报表的相同节奏刷新性能数据。
+
+     [!UICONTROL 自动分配]活动需要该量度。 对于使用手动流量拆分的A/B活动，它是可选的。 如果选择量度，则还必须选择数据视图。
 
    ![使用“目标量度”下的 Customer Journey Analytics 量度选项](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 

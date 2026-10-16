@@ -1,8 +1,8 @@
 ---
-keywords: 推荐信息源；信息源；SAINT；ftp；csv；分类；analytics分类
+keywords: 推荐信息源；信息源；SAINT；ftp；sftp；csv；分类；analytics分类
 description: 了解信息源如何使用CSV文件、[!DNL Google Product Search]信息源格式和[!DNL Analytics]产品分类将实体导入[!DNL Adobe Target] [!DNL Recommendations]。
 title: 如何在[!DNL Target Recommendations]中使用[!UICONTROL 信息源]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 TQID: 'https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go'
@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 36%
+source-wordcount: '2785'
+ht-degree: 31%
 ---
 # 信息源
 
@@ -128,31 +128,28 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-[!DNL Google Product Search]馈送类型使用[!DNL Google]格式。 这与[!DNL Adobe]专有的CSV上传格式不同。
-
-如果您现有[!DNL Google Product Feed]，则可以将其用作导入文件。
+[!DNL Google Product Search]信息源类型使用[!DNL Google]格式，而不是[!DNL Adobe]专有的CSV格式。 您可以重用现有的[!DNL Google Product Feed]将产品数据导入[!DNL Recommendations]。
 
 >[!NOTE]
 >
->不需要使用[!DNL Google]数据。 [!DNL Recommendations]使用与[!DNL Google]相同的格式。 您可以使用此方法上传您的任何数据，并且还可以使用可用的计划功能。 但是，在设置文件时，必须保留[!DNL Google]预定义属性名称。
+>您不需要向[!DNL Google]提交数据。 您可以导入自己的数据和计划更新，前提是文件使用预定义的[!DNL Google]属性名称。
 
-大多数零售商会将产品上传到[!DNL Google]，因此当访客使用[!DNL Google]产品搜索时，会显示其产品。 [!DNL Recommendations]完全遵循实体源的[!DNL Google]规范。 实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并且可以使用Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定义的属性。 结果可在[[!DNL Google] 购物页面](https://www.google.com/prdhp)上搜索。
+[!DNL Recommendations]接受遵循[!DNL Google]信息源规范并使用由Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定义的[属性的.xml、.txt和.tsv文件。 指定信息源的URL或FTP位置，以便[!DNL Recommendations]服务器可以检索文件并生成您的目录。
 
 >[!NOTE]
 >
->托管[!DNL Google]信息源内容的服务器上必须允许使用POST方法。
+>承载[!DNL Google]馈送的服务器必须允许POST方法。
 
-由于[!DNL Recommendations]用户已将.xml或.txt源配置为通过URL或FTP发送到[!DNL Google]，因此实体源将接受该产品数据并使用这些数据构建Recommendations目录。 指定此信息源存在的位置后，推荐服务器随即会检索数据。
+请牢记以下要求和限制：
 
-如果您使用[!DNL Google Product Search]上传实体信息源，并且想要在其中显示推荐或基于查看次数跟踪算法交付的产品查看次数，则仍必须在页面上具有产品页面mbox。
+* 仍需要产品页面mbox才能在该页面上显示推荐或跟踪基于查看数的算法的产品查看。
+* [!DNL Google]信息源不支持自定义属性的多个值。
 
-[!DNL Google]信息源不支持自定义属性的多个值。
+在保存并激活馈送时，馈送会运行，并且其每日运行时间比初始运行时间晚一个小时。
 
-馈送会在您保存并激活它时运行。 它在您保存馈送时运行，然后在一小时后每天运行。
+以下示例显示了.xml格式的[!DNL Google Product Search]馈送：
 
-以下是[!DNL Google Product Search]源.xml文件的示例代码：
-
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
 <feed xmlns="https://www.w3.org/2005/Atom" xmlns:ns2="https://base.google.com/ns/1.0" xmlns:ns3="https://base.google.com/cns/1.0"> 
     <title>Product Feed</title> 
@@ -227,7 +224,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Adobe Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅&#x200B;*Analytics组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans)。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
+[!DNL Adobe Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅&#x200B;*Analytics组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
 
 >[!IMPORTANT]
 >
@@ -257,12 +254,28 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
    * **FTP**：如果您选择 FTP，请提供 FTP 服务器信息、登录凭据、文件名和 FTP 目录。 您可以使用带有SSL的FTP (FTPS)实现更安全的上传。
 
-     支持的 FTP 服务器设置：
+     +++ 支持的FTP服务器设置
 
      * 必须将 FTP 和 FTPS 设置为使用被动 FTP。
      * 对于FTPS，请将服务器配置为接受显式FTPS连接。
-     * 不支持 SFTP。
      * 您可以手动指定启动连接的端口（例如，`ftp://ftp.yoursite.com:2121`）。 如果未指定端口，则将使用默认的 FTP 或 FTPS 端口。
+
+   +++
+
+   * **SFTP**：输入SFTP服务器的主机名或IP地址、端口（默认值： 22）、用户名、目录和文件名。 对于身份验证，请提供密码、SSH私钥或两者。
+
+     +++ 支持的SFTP服务器设置和限制
+
+     * 身份验证使用密码、SSH私钥或两者。 至少需要一个。
+     * 客户生成并拥有密钥对。 在SFTP用户的`authorized_keys`文件中安装公钥，然后将私钥作为PEM文本粘贴到Target中。 接受的密钥类型为RSA、Ed25519和ECDSA，格式为PEM (`-----BEGIN RSA PRIVATE KEY-----`)、PKCS#8 (`-----BEGIN PRIVATE KEY-----`)或OpenSSH (`-----BEGIN OPENSSH PRIVATE KEY-----`)。
+     * 不支持受密码保护的私钥，无法保存信息源。
+     * Target会存储已加密的私钥，并且不再显示。 要旋转馈送，请编辑馈送并输入新键。
+     * 输入没有`sftp://`前缀、端口或路径的裸主机名或IP地址。 将“端口”字段用于非默认端口。
+     * 首次连接时接受服务器主机密钥，无需与Adobe交换指纹。
+     * SFTP在Target界面和Recommendations API中可用，但在旧版Recommendations Classic管理界面中不可用。 Adobe不托管SFTP端点，请使用客户托管的服务器。
+     * SFTP服务器必须可从Internet访问，并允许来自Adobe Target下载地址的入站连接。 发布此更新之前，生产IP列表必须由工程部门确认。
+
+   +++
 
    * **URL**：如果选择[!UICONTROL URL]，请指定URL。
 
@@ -289,11 +302,11 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-创建或编辑信息源后，该信息源将立即运行。 然后，馈送会根据您设置的参数进行更新。 需要一些时间才能提供这些信息。 首先，信息源必须同步，接着必须对其进行处理并将其编入索引，然后才能对其发布并使其可供使用。 当前状态显示在[!UICONTROL 信息源]列表中的[信息源状态](/help/main/c-recommendations/c-products/feeds.md#status)下。 在该过程完成之前，您可以关闭 [!DNL Target]，该过程会继续执行。
+创建或编辑馈送后，馈送会立即运行，然后根据您的设置进行更新。 馈送在数据可用之前必须同步、处理和索引。 检查[!UICONTROL 信息源]列表中的[信息源状态](/help/main/c-recommendations/c-products/feeds.md#status)以了解进度。 即使您关闭[!DNL Target]，处理过程仍会继续。
 
-编入索引期间，在将各个值编入索引之前，将会显示产品和信息源标头。 这样，您就可以搜索并查看产品，从而在完成索引之前创建收藏集、排除项、设计和活动。
+在索引过程中，产品和信息源标题显示在单个值之前，因此您可以在索引完成之前搜索产品并创建收藏集、排除项、设计和活动。
 
-如果状态显示为“成功”，则表示文件已找到且已正确解析。 在将该文件编入索引之前，无法在 [!DNL Recommendations] 中使用相应的信息，编入索引可能需要一些时间，具体取决于文件的大小。 如果进程失败，则表示找不到文件。 例如，您使用了不正确的URL，或者FTP信息不正确，或者存在解析错误。
+“成功”状态表示已找到文件并已正确解析该文件。 其数据仅在索引后才会在[!DNL Recommendations]中可用，这需要一些时间，具体取决于文件大小。 失败可能是由于URL或FTP信息不正确、文件缺失或解析错误所致。
 
 ## 信息源状态和指示器 {#concept_E475986720D1400999868B3DFD14A7A0}
 
@@ -315,7 +328,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 | 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | [!DNL Target]已将信息源文件导入其内容交付系统。 已在内容交付系统中对项目属性进行了更改，这些更改将很快地反映在交付的推荐中。 如果没有看到预期的更改，请重试并刷新包含推荐的页面。<br>注意：<ul><li>如果对项目属性所做的更改导致项目被排除在推荐之外，则会立即反映该排除项。 如果项目是新添加的，或者对属性的更改导致该项目不再&#x200B;*从推荐中*，则在下一次算法更新之前不会反映此项目，此过程将在24小时内发生。</li><li>显示此状态时，更新可能尚未反映在[!UICONTROL 目录搜索] UI中。 [!UICONTROL 目录搜索]中列出了单独的状态，指示上次更新可搜索目录的时间。</li></ul> |
 | 部分导入失败 | 以前，当所有行均未上传时，馈送仍会被标记为成功。 因此，会错误地认为所有行都已上载为信息源，这表明上载成功。<P>以下是您可能会遇到部分信息源导入的情景：<ul><li>您为生产环境上传了一个信息源文件，例如100行。</li><li>馈送运行并上传了这些行中的80行，由于格式不正确、字段超出字符数等原因，删除了20行。</li><li>馈送在UI中标记为成功，这让您感觉已上传所有100行。</li><li>您预计这20种产品中会有一部分在交付活动中出现，但实际上并未出现。</li><li> 您现在很困惑，因为您上传了包含相关产品的产品详细信息的信息源。 当您通过实体API进行查询时，您不会在后端看到它，这告知您它不在后端。</li></ul>为了消除这种混淆，改进了消息以确切告知馈送发生了什么情况。 它现在不会标记为成功，而是标记为部分导入失败。 |
 | [!UICONTROL 未能编入索引] | 索引操作失败。 请重试。 |
-| 找不到[!UICONTROL 服务器] | FTP 或 URL 位置无效或无法访问。 |
+| 找不到[!UICONTROL 服务器] | FTP、SFTP或URL位置无效或无法访问。 |
 
 要更新信息源（例如，更改信息源配置或信息源文件），请打开该信息源，进行任何所需更改，然后单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -361,7 +374,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 了解信息源的用途
 * 了解信息源的值
 
->[!VIDEO](https://video.tv.adobe.com/v/33957?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### 创建信息源(6:44) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -370,4 +383,4 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 设置信息源
 * 了解要使用哪种类型的信息源
 
->[!VIDEO](https://video.tv.adobe.com/v/33956?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

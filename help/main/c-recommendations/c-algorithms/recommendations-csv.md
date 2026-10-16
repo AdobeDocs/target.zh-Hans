@@ -1,8 +1,8 @@
 ---
-keywords: 创建自定义标准;算法;标准;推荐标准;CSV;FTP;上传 CSV
+keywords: 创建自定义标准；算法；标准；推荐标准；CSV；FTP；SFTP；上传CSV
 description: 了解如何上传CSV文件以在Adobe [!DNL Target]推荐中自定义您的推荐。
 title: 如何在[!DNL Recommendations]中上传自定义标准？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 TQID: 'https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 32%
+source-wordcount: '762'
+ht-degree: 27%
 ---
 # 上传自定义标准
 
@@ -57,9 +57,13 @@ ht-degree: 32%
 
    要成功上传，CSV 文件的格式设置必须正确。 单击&#x200B;**[!UICONTROL 下载 CSV 模板]**，可获取格式正确的 CSV 文件。
 
-   您可以选择以下两个位置：
+   您有三个位置选项：
 
    * **FTP：**&#x200B;若要从FTP服务器上传CSV文件，请选择&#x200B;**[!UICONTROL FTP]**，然后输入所需信息。 您可以使用SSL，SSL会使用FTPS协议安全地传输CSV文件。
+
+   * **SFTP：**&#x200B;要通过SFTP服务器上传CSV文件，请选择&#x200B;**[!UICONTROL SFTP]**，然后输入主机名或IP地址、端口（默认为22）、用户名、密码和/或SSH私钥、目录和文件名。 有关详细信息，请参阅[支持的SFTP服务器设置](/help/main/c-recommendations/c-products/feeds.md#sftp-settings)。
+
+     SFTP不会更改自定义标准CSV格式。 使用`# Key,Recommendation_1,...`格式，如果使用其他馈送类型的格式，会导致导入失败。
 
    * **URL：**&#x200B;要通过URL上传CSV文件，请选择&#x200B;**[!UICONTROL URL]**，然后输入信息源URL。
 

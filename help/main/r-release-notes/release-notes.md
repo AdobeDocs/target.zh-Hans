@@ -29,16 +29,51 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
+source-git-commit: 06cdc2613d49e3c71c2d29c6ee1307d39215ac84
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 58%
+source-wordcount: '643'
+ht-degree: 42%
 ---
 # [!DNL Target]发行说明（当前版本）
 
 浏览[!DNL Adobe Target]中的最新功能、增强功能和修复。 这些发行说明还涵盖了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台组件（如果适用）的更新。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 26.10.2（2026年10月15日）
+
+**[!UICONTROL 活动]**
+
++++查看详细信息
+
+* **活动概述**&#x200B;中显示的目标设置不正确。 修复了活动的&#x200B;**[!UICONTROL 概述]**&#x200B;页面中显示的目标设置不正确的问题。 例如，`https://`已添加到页面URL，并且未显示&#x200B;**[!UICONTROL URL包含]**&#x200B;条件，即使实际目标配置正确也是如此。 (TGT-56326)
+
++++
+
+**[!UICONTROL 推荐]**
+
++++查看详细信息
+
+* **在实时活动中更新促销活动后显示的备用推荐**。 修复了在实时[!DNL Recommendations]活动中编辑促销活动导致[!DNL Target]创建新促销和推荐单位的问题，即使其定义未发生任何更改也是如此。 (TGT-56369)
+
++++
+
+**[!UICONTROL 报表]**
+
++++查看详细信息
+
+* **报告预设在两周后删除**。 修复了用户在大约两周后为活动保存的报表预设会自动删除的问题。 (TGT-56374)
+
++++
+
+**[!UICONTROL 可视化体验编辑器] (VEC)**
+
++++查看详细信息
+
+* **Safari支持已添加到[!DNL Adobe Target]**。 [!DNL Safari]浏览器现在支持[!DNL Target]。 请注意，[!DNL Safari]不支持可视化体验编辑器和[!DNL Enhanced Experience Composer]。 因此，[!DNL VEC]中现在会显示一个叠加，以通知用户必须切换到[!DNL Chrome]才能使用编辑器。 (TGT-55853)
+
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.1（2026年10月13日）
 

@@ -1,6 +1,6 @@
 ---
 keywords: 可视化体验编辑器；vec；默认url；增强型体验编辑器；eec；混合内容；体验快照；移动设备视区；css；css选择器
-description: 了解如何通过指定其常规设置、移动设备视区配置和CSS选择器来配置Adobe [!DNL Target] 可视化体验编辑器(VEC)。
+description: 了解如何通过指定其常规设置、移动设备视区配置和CSS选择器来配置Adobe [!DNL Target]可视化体验编辑器(VEC)。
 title: 如何配置可视化体验编辑器(VEC)？
 feature: Administration & Configuration
 role: Admin
@@ -8,28 +8,38 @@ exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 TQID: https://experienceleague.adobe.com/E1ck4-aG4txqaFLs3t3-8bN-BQIoY8stRASTRJfhZMY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: 721
+source-wordcount: '733'
 ht-degree: 47%
-
 ---
-
 # 配置[!UICONTROL 可视化体验编辑器]
 
 通过指定其常规设置、移动设备视区配置和CSS选择器来配置[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)。
@@ -57,6 +67,8 @@ ht-degree: 47%
 ### 启用增强型体验编辑器 {#eec}
 
 允许在防 iFrame 嵌套网站和具有混合内容的网站上进行编辑。 某些网站可能与增强型版本不兼容。 取消选择此选项以还原到原始[!UICONTROL 可视化体验编辑器]。 所做的这一选择不会对网站上的活动交付造成任何影响。
+
+请注意，[!DNL Safari]中不支持[!UICONTROL 增强型体验编辑器]。
 
 有关更多信息，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 

@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 06cdc2613d49e3c71c2d29c6ee1307d39215ac84
+source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '645'
 ht-degree: 42%
 ---
 # [!DNL Target]发行说明（当前版本）
@@ -71,7 +71,7 @@ ht-degree: 42%
 +++查看详细信息
 
 * **Safari支持已添加到[!DNL Adobe Target]**。 [!DNL Safari]浏览器现在支持[!DNL Target]。 请注意，[!DNL Safari]不支持可视化体验编辑器和[!DNL Enhanced Experience Composer]。 因此，[!DNL VEC]中现在会显示一个叠加，以通知用户必须切换到[!DNL Chrome]才能使用编辑器。 (TGT-55853)
-
+  [了解详情](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#browser-requirements)
 +++
 
 

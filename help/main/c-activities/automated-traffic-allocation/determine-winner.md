@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: cfab6f04bc59cc7480d871f327fde9ce0a2d6e8f
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 20%
+source-wordcount: '1288'
+ht-degree: 19%
 ---
 # 解释[!UICONTROL 自动分配]报告
 
@@ -41,6 +41,8 @@ ht-degree: 20%
 在宣布明确的入选者后，[!DNL Target]会显示“入选者：体验&#x200B;*X*”徽章。
 
 ![入选者徽章](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
+
+入选者徽章还会显示在[!UICONTROL 活动]列表中的活动信息弹出窗口中，因此您无需打开[!UICONTROL 自动分配]活动即可查看其状态。
 
 >[!NOTE]
 >
@@ -92,6 +94,6 @@ ht-degree: 20%
 
 ### 对于使用[!UICONTROL Analytics作为报表源] (A4T)的[!UICONTROL 自动分配]活动，是否有“无入选项目”、“入选项目”和“星标”徽章可用？
 
-“尚未有入选者”和“入选者”徽章当前在[!DNL Analysis Workspace]的[!UICONTROL A4T]面板中不可用。 如果在[!DNL Target]中查看了同一报告，则这些徽章也将不可用。 使用A4T的[!UICONTROL 自动分配]活动的[!DNL Target]报表中显示的入选者“星级”徽章应当被忽略。
+“尚未有入选者”和“入选者”徽章显示在[!UICONTROL 活动]列表的活动信息弹出窗口中。 在[!DNL Analysis Workspace]的[!UICONTROL A4T]面板中或在[!DNL Target]中查看同一报表时，它们不会显示。 如果A4T [!UICONTROL 自动分配]活动的[!DNL Target]报告显示入选者“星级”徽章，请忽略该徽章。
 
 有关此以及其他限制和注释的更多信息，请参阅[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动&#x200B;*的* A4T支持[自动分配](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)。

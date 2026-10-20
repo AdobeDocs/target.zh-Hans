@@ -49,7 +49,7 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。 因此，[!DNL `http://www.adobe.com`]和[!DNL `https://wwww.adobe.com`]都匹配。
+   >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。 因此，[!DNL `http://www.adobe.com/cn`]和[!DNL `https://wwww.adobe.com`]都匹配。
 
    活动URL是显示推荐的页面。
 

@@ -95,7 +95,7 @@ ht-degree: 0%
 
 +++我的[!DNL Adobe Target]数据是否已发送到MCP客户端提供程序？
 
-当您提交提示时，MCP客户端可能会将相关上下文（包括MCP服务器返回的[!DNL Adobe Target]数据）发送到其模型以供处理。 在连接到生产数据之前，请查看MCP客户端提供商的隐私和数据处理策略。 Adobe的数据处理受[Adobe隐私政策](https://www.adobe.com/privacy.html)和[数据保护条款](https://www.adobe.com/go/dpt-ww)管辖。
+当您提交提示时，MCP客户端可能会将相关上下文（包括MCP服务器返回的[!DNL Adobe Target]数据）发送到其模型以供处理。 在连接到生产数据之前，请查看MCP客户端提供商的隐私和数据处理策略。 Adobe的数据处理受[Adobe隐私政策](https://www.adobe.com/cn/privacy.html)和[数据保护条款](https://www.adobe.com/go/dpt-ww)管辖。
 +++
 
 +++写入操作能否对实时活动造成意外更改？

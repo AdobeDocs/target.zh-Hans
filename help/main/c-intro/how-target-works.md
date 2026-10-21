@@ -250,7 +250,7 @@ Edge集群处理距离访客最近的请求，而不是从单个位置处理所�
 
 * **使用rel=&quot;canonical&quot;**：有时A/B测试需要不同的URL才能测试变体。 在这些情况下，所有变体都应当包含引用原始（控制）URL的rel=&quot;canonical&quot;标记。 例如，如果[!DNL Adobe]正在测试其主页，其中对每个变体使用不同的URL，则主页的以下canonical标记应放置在每个变体的`<head>`标记中：
 
-  `<link rel="canonical" href="https://www.adobe.com" />`
+  `<link rel="canonical" href="https://www.adobe.com/cn" />`
 
 * **使用302（临时）重定向**：当测试中的变体页面使用单独的URL时，[!DNL Google]建议使用302重定向将流量定向到测试变体。 302重定向会通知搜索引擎，该重定向是临时的，仅在测试运行时有效。
 

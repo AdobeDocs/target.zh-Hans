@@ -30,7 +30,7 @@ ht-degree: 35%
 
    >[!NOTE]
    >
-   >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。 因此，[!DNL `https://www.adobe.com`]和[!DNL `http://www.adobe.com`]都匹配。
+   >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。 因此，[!DNL `https://www.adobe.com/cn`]和[!DNL `http://www.adobe.com/cn`]都匹配。
    >
    >默认情况下，VEC或[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)会打开[可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的页面。 在活动创建过程中，您可以指定其他页面。
    >

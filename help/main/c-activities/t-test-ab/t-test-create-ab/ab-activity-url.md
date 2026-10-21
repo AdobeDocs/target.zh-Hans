@@ -31,7 +31,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。 因此，[!DNL `http://www.adobe.com`]和[!DNL `https://www.adobe.com`]都匹配。
+>[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。 因此，[!DNL `http://www.adobe.com/cn`]和[!DNL `https://www.adobe.com/cn`]都匹配。
 
 ## 指定其他 URL
 

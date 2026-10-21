@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ee887007d9793bbe49bbb8f84151473cd626846d
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 21%
+source-wordcount: '1443'
+ht-degree: 22%
 ---
 # [!UICONTROL 成功量度]
 
@@ -59,7 +59,7 @@ ht-degree: 21%
 | 成功量度 | 测量方法 | 定义 |
 |--- |--- |--- |
 | [!UICONTROL 转化] | 基于转化 | 转化是指访客在您定义的网站上执行某项操作时，例如 <ul><li>已查看页面</li><li>已查看 mbox</li><li>已单击元素</li></ul>每个访客或每次访客完成转化时，转化可以计为一次。 |
-| [!UICONTROL 收入] | 基于转化 | 由访问带来的收入。 您只能选择一个收入量度：<ul><li>已查看 mbox</li></ul>有关更新的[!DNL Target] UI中与收入成功量度相关的更改的详细信息，请参阅下面的[已更新 [!DNL Target] UI更改](#changes)。 |
+| [!UICONTROL 收入] | 基于转化 | 由访问带来的收入。 您只能选择一个收入量度：<ul><li>已查看 mbox</li></ul>在[!UICONTROL 报表]部分而不是在活动设置期间选择收入视图（RPV、AOV、总销售额或订单）。 请参阅[在收入报表视图之间切换](#revenue-views)。 |
 | [!UICONTROL 参与] | 基于参与度 | 访问生成的参与度。 您可以从以下参与量度中进行选择：<UL><li>页面查看次数：每次独特访问均会计为一次转化。</li><li>[!UICONTROL 自定义得分]：从访客第一次看到活动的第一个显示区[!DNL Target]请求开始，根据网站上已访问页面的分配值得出汇总得分。</li>[!DNL Time on Site]：从访客看到活动的第一个显示[!DNL Target]请求到加载会话中具有请求的最后一页所花费的时间（以秒为单位）。</UL> |
 
 对于基于参与度的量度（与基于转化和基于收入的量度不同），访客必须重新获得每次访问时活动的资格，才能递增该会话的计数。 关联的量度将在重新获得资格后开始递增，并在每个访客的会话结束时停止。 会话若处于不活动状态超过 30 分钟便会结束。 因此，在测试期间不会立即看到结果；但是，从该会话获得的所有结果在会话结束后的几分钟内均可用。
@@ -75,6 +75,25 @@ ht-degree: 21%
 当您查看活动的报表时，您为活动选择的成功量度会显示在报表设置中。
 
 某些量度，如[!UICONTROL 自定义得分]和[!UICONTROL 每位访客带来的收入]，需要自定义实施来传递信息，如订单总数和订单ID。
+
+### 在收入报表视图之间切换 {#revenue-views}
+
+默认情况下，收入报表会在[!UICONTROL 每次访问收入(RPV)]视图中打开，因此在活动设置期间无需进行选择。 您可以在查看结果时随时切换到其他视图。
+
+要在收入报表视图之间切换，请执行以下操作：
+
+1. 打开您的&#x200B;**[!UICONTROL 活动]**&#x200B;并导航到&#x200B;**[!UICONTROL 报表]**&#x200B;部分。
+
+1. 单击![](assets/Smock_Gears_18_N.png)并选择所需的量度视图：
+
+   * **[!UICONTROL 每位访客带来的收入(RPV)]**
+   * **[!UICONTROL 平均订单值(AOV)]**
+   * 总销售额&#x200B;****
+   * **[!UICONTROL 订单率]**
+
+   ![](assets/change-view.png)
+
+[!UICONTROL 每次访问带来的收入(RPV)]将保留显示的视图，除非选择其他选项。 此选择仅影响报表中显示的指标，不影响投放指标。
 
 ## 高级设置 {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
@@ -135,15 +154,3 @@ ht-degree: 21%
 * 其高级选项“计数将如何递增”被设置为“每次展示”或“每次展示（不包括刷新）”的成功指标无法用作另一指标所依赖的成功指标。
 
   将成功量度设置为每次展示递增时，[!DNL Target]会在每次访客访问此成功量度时再次计入访客。 然后，[!DNL Target]将成功量度“成员资格”重置为0，以便在下次展示时再次对其计数。 因此，如果另一个量度要求首先看到此量度，[!DNL Target]从不识别用户已看到第一个量度。
-
-## 更新了[!DNL Target]用户界面更改 {#changes}
-
-于2015年2月17日启动的[[!DNL Target Standard/Premium] 25.2.1版本](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)引入了更新的[!DNL Target]和[!UICONTROL 可视化体验编辑器] (VEC) UI。 此部分概述了旧版和更新版UI之间的主要差异，特别是这些差异与配置和管理成功量度相关的差异。
-
-### 与[!UICONTROL 收入]成功量度相关的UI更改
-
-在更新的[!DNL Target]界面中，已删除报表的[!UICONTROL 默认视图]下拉列表。 此字段是多余的，因为它之前在旧版UI中保存了[!DNL Overview] > [!UICONTROL 报表]下的默认报表视图。
-
-通过更新的UI，默认报表量度现在始终设置为[!UICONTROL 每位访客带来的收入(RPV)]。 您仍然可以自定义[!UICONTROL 报表]部分中的视图，以显示与您的分析最相关的量度。
-
-此更改不会影响投放量度。 此更改仅影响报表视图中显示的默认筛选器。 由于RPV是客户中最常用的量度，因此选择此默认值以简化报表工作流。 您可以随时在[!UICONTROL 报表]分区内切换到其他量度。

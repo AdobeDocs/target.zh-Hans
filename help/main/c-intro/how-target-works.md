@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 24%
+source-wordcount: '2288'
+ht-degree: 20%
 ---
 # [!DNL Adobe Target] 的工作原理
 
@@ -236,13 +236,7 @@ Edge集群处理距离访客最近的请求，而不是从单个位置处理所�
 
 [!DNL Adobe Target] 将遵循搜索引擎准则来进行测试。
 
-有关更多信息，请参阅以下 Google 资源：
-
-* [网站测试和 Google 搜索](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [实验与隐身](https://support.google.com/analytics/answer/12979939?hl)
-
-
-[Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) 中有篇博文介绍了相关准则。 尽管该帖子可追溯到2012年，但它仍是[!DNL Google]关于该问题的最新声明，并且准则仍然适用。
+有关详细信息，请参阅[Google文档](https://developers.google.com/search/docs/crawling-indexing/website-testing)。
 
 * **无遮蔽**：遮蔽涉及向用户显示一组内容，并通过专门识别搜索引擎机器人并向其提供不同的内容而向其显示另一组内容。
 
@@ -266,13 +260,7 @@ Edge集群处理距离访客最近的请求，而不是从单个位置处理所�
 
   此外，还要考虑您正在测试的页面的辅助功能。 如果搜索引擎无法访问页面，并且页面从未打算在自然搜索中排名，则这些注意事项不适用。 一个示例是电子邮件营销活动的专用登陆页面。
 
-Google 指出，遵循这些准则“应会使您的测试对您的网站在搜索结果中的排名产生很小影响或不会产生任何影响”。
-
-除了这些准则之外，Google 还在其 Content Experiments 工具的文档中提供了另外一个准则：
-
-* “您的变体页面应保留原始页面的实质性内容。 这些变体不应更改原始内容的含义或用户对原始内容的大体理解。”
-
-Google 举例说明“如果某个网站的原始页面加载了与向用户显示的组合无关的关键词，则我们可能会从索引中删除该网站。”
+Google声明，测试中的变体通常对搜索结果片段或页面排名几乎没有或完全没有影响。
 
 [!UICONTROL Adobe]认为难以无意中改变测试变体中原始内容的含义。 但是，[!UICONTROL Adobe]建议了解页面上的关键字主题并保持这些主题。 对页面内容所做的更改，特别是添加或删除相关的关键词，可能会导致 URL 在自然搜索中的排名发生变化。 [!DNL Adobe] 建议与 SEO 合作伙伴合作制定测试协议。
 

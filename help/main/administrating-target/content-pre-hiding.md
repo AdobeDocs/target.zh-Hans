@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: a12dea5df94b20aecd8bf30da62646d01b0b07fe
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '591'
 ht-degree: 1%
 ---
 # 用于个性化体验的内容预隐藏
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。 这会将闪烁管理设置应用于您的实例。
 
-1. 启用后，单击&#x200B;**[!UICONTROL 下载]**，然后将该文件添加到页面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前加载。 有关完整的实施说明，请参阅[内容预隐藏SDK](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/prehide-sdk)。
+1. 启用后，单击&#x200B;**[!UICONTROL 下载]**，然后将该文件添加到页面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前加载。 有关完整的实施说明，请参阅[内容预隐藏SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)。
 
    ![](assets/content-pre-hiding-2.png)
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 在为实例启用预隐藏的情况下，选择每个活动是否在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;中使用它。 为其启用预隐藏的活动在活动时包括在目标行为中。
 
-然后，[!DNL Target]根据在[!UICONTROL 可视化体验编辑器] (VEC)和[!UICONTROL 基于表单的编辑器]中创作的实时活动构建轻量级规则集，其中描述了投放可以更改的选择器和区域。
+然后，[!DNL Target]根据在[!UICONTROL 可视化体验编辑器] (VEC)中创作的实时活动构建轻量级规则集，其中描述了选择器和投放可更改的区域。
 
 创建或编辑活动时：
 

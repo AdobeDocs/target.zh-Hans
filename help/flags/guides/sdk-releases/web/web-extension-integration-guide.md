@@ -147,7 +147,7 @@ window.flagClientReady
 
 | 属性 | 必需 | 描述 |
 |---|---|---|
-| `identityNamespace` | 是 | 身份命名空间（请参阅[Adobe身份命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)）。 公用值： `ECID`、`Email`、`CRMId`。 |
+| `identityNamespace` | 是 | 身份命名空间（请参阅[Adobe身份命名空间](https://experienceleague.adobe.com/zh-Hans/docs/experience-platform/identity/features/namespaces)）。 公用值： `ECID`、`Email`、`CRMId`。 |
 | `identityId` | 是 | 当前用户的身份值。 |
 | `attributes` | 否 | `Record<string, string[]>`. 键是标记规则使用的上下文属性名称（例如`locale`、`platform`）。 值是该键的候选属性值的列表。 |
 

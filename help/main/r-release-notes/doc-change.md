@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c358f8940302be125c1f7ddab4f695846c46580b
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2623'
 ht-degree: 19%
 ---
 # 文档更改
@@ -67,7 +67,6 @@ ht-degree: 19%
 |  | [开始使用 [!DNL Adobe Target] MCP服务器](/help/main/c-integrating-target-with-mac/mcp/target-mcp-get-started.md) | 新文章。 了解如何将[!DNL Adobe Target] MCP服务器连接到AI助手，包括先决条件、客户端配置和疑难解答。 |
 |  | [[!DNL Adobe Target] MCP服务器 — 用例和演练](/help/main/c-integrating-target-with-mac/mcp/target-mcp-use-cases.md) | 新文章。 探索[!DNL Adobe Target] MCP服务器的常见用例和分步提示演练。 |
 |  | [[!DNL Adobe Target] MCP服务器工具引用](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) | 新文章。 [!DNL Adobe Target] MCP服务器公开的所有只读工具的完整参数引用。 |
-|  | [自行托管 [!DNL Adobe Target] MCP服务器](/help/main/c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md) | 新文章。 了解如何使用Python、Docker或本地开发环境运行您自己的[!DNL Adobe Target] MCP服务器实例。 |
 | 5月7日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 26.5.1版的发行说明。 |
 
 ### [!DNL Target Standard/Premium] 26.1.1（2026年1月18日）

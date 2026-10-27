@@ -2,7 +2,7 @@
 keywords: 电子邮件;ESP;电子邮件服务提供商;rawbox;交付 API;仅限下载模板;电子邮件模板;批量处理;构建时电子邮件
 description: 了解如何将电子邮件与Adobe [!DNL Target Recommendations]集成，包括使用[!DNL Target]投放API、rawbox模板和仅限下载的模板。
 title: 如何将“推荐”与电子邮件集成？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 TQID: 'https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE'
@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 86%
+source-wordcount: '1774'
+ht-degree: 83%
 ---
 # 将[!DNL Recommendations]与电子邮件集成
 
@@ -93,11 +93,11 @@ curl -X POST \
 >
 >请确保为每个电子邮件收件人（例如，每个 API 调用）的 `sessionId` 和 `tntId` 或 `thirdPartyId` 两者之一均提供唯一值。 如果您没有为这些字段提供唯一值，则由于在单个轮廓中会生成许多事件，API 响应可能变慢或失败。
 
-有关更多信息，请参阅[交付 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=zh-Hans){target=_blank}。
+有关更多信息，请参阅[交付 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank}。
 
 ## 方法 2：使用 rawbox 电子邮件模板 {#rawbox}
 
-rawbox 类似于 mbox 请求，但适用于诸如电子邮件服务提供商 (ESP) 之类的非 Web 环境。 由于没有可用于 rawbox 请求的 [!DNL Adobe Experience Platform Web SDK] 或 [!DNL at.js]，因此您必须手动创建请求。 以下示例介绍了如何在电子邮件中处理 rawbox 请求。
+rawbox 类似于 mbox 请求，但适用于诸如电子邮件服务提供商 (ESP) 之类的非 Web 环境。 由于您没有可在rawbox请求中使用的[!DNL Adobe Experience Platform Web SDK]或[!DNL at.js]，因此您必须手动创建请求。 以下示例介绍了如何在电子邮件中处理 rawbox 请求。
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ rawbox 类似于 mbox 请求，但适用于诸如电子邮件服务提供商 (ES
 
 使用此方法，您可以跟踪推荐在电子邮件中的性能，像测试常规推荐那样测试电子邮件中的推荐，并继续跟踪网站。
 
-在 [!DNL Target] 中，使用[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)选项设置 [!DNL Recommendations] 活动。 对于位置，选择您之前选择的要用于来自 ESP 的 rawbox 请求的 mbox 名称。 为电子邮件选择所需的外观设计。 在构建电子邮件时，ESP 会向 [!DNL Target] 服务器发起调用，以在每个电子邮件中各生成一个 rawbox。 您的 ESP 必须能够在电子邮件发送时将返回的 HTML 包含到电子邮件中。
+在 [!DNL Target] 中，使用[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)选项设置 [!DNL Recommendations] 活动。 对于位置，选择您选择在来自ESP的rawbox请求中使用的mbox的名称。 为电子邮件选择所需的外观设计。 在构建电子邮件时，ESP 会向 [!DNL Target] 服务器发起调用，以在每个电子邮件中各生成一个 rawbox。 您的 ESP 必须能够在电子邮件发送时将返回的 HTML 包含到电子邮件中。
 
 您使用的电子邮件系统必须能够处理以下情形：
 
@@ -162,7 +162,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | 响应 | 描述 |
 |--- |--- |
-| //错误: | 由负载平衡器在无法返回内容时生成 |
+| //错误: | 在无法返回内容时由负载平衡器生成 |
 | 成功 | `mboxNoRedirect` 参数设置为“true”，且服务器未返回任何推荐（即，mbox 没有匹配项，或服务器缓存未初始化）。 |
 | 请求错误 | 缺少 `mbox` 参数。<ul><li>未指定 `mboxDefault` 或 `mboxNoRedirect` 参数。</li><li>指定了 `mboxTrace` 请求参数，但未指定 `mboxNoRedirect` 参数。</li><li>mbox 名称以 `-clicked` 后缀结尾时，未指定 `mboxTarget` 参数。</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | 请求不存在匹配项时，未指定 `mboxDefault` 参数，同时也未指定 `mboxNoRedirect` 参数。 |

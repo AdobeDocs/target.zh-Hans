@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '990'
 ht-degree: 35%
 ---
 # 基于表单的体验编辑器
@@ -50,7 +50,7 @@ ht-degree: 35%
 
    如果您正在创建[!UICONTROL 推荐]活动，则此屏幕不同。 [!UICONTROL 推荐]活动不包含体验。
 
-1. &#x200B;
+1. 
    1. 单击&#x200B;**[!UICONTROL 重命名]**&#x200B;图标（![重命名图标](/help/main/assets/icons/MoreSmallListVert.svg)），单击&#x200B;**[!UICONTROL 重命名]**，指定活动的名称，然后单击&#x200B;**[!UICONTROL 保存]**。
 
    活动名称不能以下列任何字符开头：

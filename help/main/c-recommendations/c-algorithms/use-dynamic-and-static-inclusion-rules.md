@@ -2,7 +2,7 @@
 keywords: 包含规则;包含标准;推荐;新建标准;促销活动;动态筛选;动态;空值;忽略筛选规则;静态筛选器;按值筛选;实体属性匹配;轮廓属性匹配;参数匹配;按值筛选;静态筛选器
 description: 了解如何在[!DNL Target]推荐中为标准和促销创建包含规则。
 title: 如何在推荐中使用动态和静态包含规则？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2259'
-ht-degree: 14%
+source-wordcount: '2260'
+ht-degree: 13%
 ---
 # 使用动态和静态包含规则
 
@@ -102,7 +102,7 @@ ht-degree: 14%
 | [!UICONTROL 不包含任何]<P>（[!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]、[!UICONTROL 参数匹配]和[!UICONTROL 静态筛选器]可用。） | 使用“不包含任何”运算符，当访客查看网站上的项目（例如产品）时，您可以促销满足以下条件的其他项目：<ul><li>标题不包含脏字</li></ul> |
 | [!UICONTROL 以任一]开头<P>（[!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]、[!UICONTROL 参数匹配]和[!UICONTROL 静态筛选器]可用。） | 使用“[!UICONTROL ”开头为]的运算符，当访客查看网站上的项目（例如产品）时，您可以促销满足以下条件的其他项目：<ul><li>产品名称以iPhone开头</li></ul> |
 | [!UICONTROL 以任意]结尾<P>（[!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]、[!UICONTROL 参数匹配]和[!UICONTROL 静态筛选器]可用。） | 使用“[!UICONTROL 以]为结尾”运算符，当访客查看网站上的项目（例如产品）时，您可以促销满足以下条件的其他项目：<ul><li>内容以EN结尾，EN表示英语</li></ul> |
-| [!UICONTROL 介于]之间<P>（[!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配]时可用。） | 在动态促销活动中使用“介于之间的is”运算符时，如果访客正在查看网站上的项目（例如产品、文章或影片），您可以向其促销以下其他项目：<ul><li>更贵</li><li>更便宜</li><li>成本加减30%</li><li>同一季的后几集</li><li>系列中以前的书籍</li></ul> |
+| [!UICONTROL 介于]之间<P>（[!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配]时可用。） | 在动态促销活动中使用“介于]之间的i[!UICONTROL s”运算符时，如果访客正在查看网站上的项目（例如产品、文章或影片），您可以向其促销以下其他项目：<ul><li>更贵</li><li>更便宜</li><li>成本加减30%</li><li>同一季的后几集</li><li>系列中以前的书籍</li></ul> |
 | [!UICONTROL 列表在]中包含项<P>（[!UICONTROL 配置文件属性匹配]且[!UICONTROL 参数匹配]时可用。） | 在配置文件属性匹配中使用“[!UICONTROL ”列表在]”运算符中包含项目，当访客查看网站上的项目（例如产品、文章或电影）时，您可以促销以下其他项目：<ul><li>在访客所在的地理位置可用</li></ul>**示例**：您想要推荐仅在访客的地理区域中可用的项目。<P>您的筛选规则可能如下所示：<P>`availableGeographies list contains an item in user.currentGeography`<P>**注意**：使用此运算符时，规则的[右侧](#caveats)应该有一个列表。 |
 | [!UICONTROL 列表在]中不包含项<P>（[!UICONTROL 配置文件属性匹配]且[!UICONTROL 参数匹配]时可用。） | 在配置文件属性匹配中使用“[!UICONTROL ”列表在]”运算符中不包含项目，在这种情况下，当访客查看网站上的项目时（例如产品、文章或电影），您可以排除以下其他项目：<ul><li>在访客查看的最近十个项目的列表中</li></ul></ul>**示例**：您不希望提升访客最近查看过且对其不感兴趣的项目。<P>您的筛选规则可能如下所示：<P>`id is not contained in list user.lastViewedItems`<P>**注意**：使用此运算符时，规则的[右侧](#caveats)应该有一个列表。 |
 | [!UICONTROL 列表在]中包含项<P>（[!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配]时可用。） | 在配置文件属性匹配中使用“[!UICONTROL ”列表在]”运算符中包含项目，当访客查看您网站上的项目时（例如体育赛事或音乐会），您可以促销以下其他项目：<ul><li>与访客最喜爱的团队之一关联</li></ul>**示例**：您希望推荐与访客最喜爱的团队之一关联的游戏。<P>您的筛选规则可能如下所示：<P>` teamsPlaying list contains an item in user.favoriteTeams`<P>**注意**：使用此运算符时，规则的[两侧](#caveats)中应该有一个列表。 |
@@ -122,7 +122,7 @@ ht-degree: 14%
 
 | 操作 | 适用选项 | 详细信息 |
 |--- |--- |--- |
-| [!UICONTROL 忽略此筛选规则] | [!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 此操作是[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配]的默认操作。<P>该选项指定忽略该规则。 例如，如果有三个筛选规则，第三个规则不传递任何值，则您只需忽略具有空值的第三个规则，而不是不返回任何结果。 |
+| [!UICONTROL 忽略此筛选规则] | [!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 此操作是[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配]的默认操作。<P>该选项指定忽略该规则。 例如，如果有三个筛选规则，且第三个规则未传递任何值，则您可以忽略具有空值的第三个规则，而不返回任何结果。 |
 | [!UICONTROL 不显示此条件的任何结果]<P>（仅限标准） | [!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 此操作是[!UICONTROL 实体属性匹配]的默认操作。<P>此操作是[!DNL Target]在添加此选项之前处理空值的方式：不显示此条件的结果。 |
 | [!UICONTROL 不促销任何项目<P>（仅限促销活动）] | [!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 此操作是[!UICONTROL 实体属性匹配]的默认操作。<P>此操作是[!DNL Target]在添加此选项之前处理空值的方式：不显示此条件的结果。 |
 | [!UICONTROL 使用静态值] | [!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 如果值为空，您可以选择使用静态值。 |

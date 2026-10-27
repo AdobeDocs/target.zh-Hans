@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 62%
+source-wordcount: '336'
+ht-degree: 53%
 ---
 # 排除极端值
 
@@ -31,7 +31,7 @@ ht-degree: 62%
 
 如果某个值与根据上个月（从当前时间往回算起）的数据计算出来的平均订单值之间的标准偏差超过 +/- 3，则该值会被视为极端值。
 
-例如，使用 RPV 时，极端值筛选器往往很有用。 RPV 结合了转化率和平均订单值，并且通常会暴露这些量度的不稳定性。 如果您使用 RPV 并确定这些订单显现出未被正常分配的状态，则在应用超常订单筛选器时可能会看到更正常的结果。
+例如，使用 RPV 时，极端值筛选器往往很有用。 RPV 结合了转化率和平均订单值，并且通常会暴露这些量度的不稳定性。 如果您使用RPV并且确定订单似乎未正常分配，那么如果您应用极端订单过滤器，您可能会看到更正常的结果。
 
 如果某个值被标记为极端值，则其订单值会被替换为上个月体验的平均订单值（排除极端值后计算出来的平均值）。 在[!UICONTROL 订单详细信息]报表和CSV下载中（用于每日结果），该订单也被标记为极端。
 

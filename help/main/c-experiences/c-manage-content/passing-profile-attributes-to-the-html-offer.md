@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 55%
 ---
 # 将动态数据传递给产品建议
@@ -33,7 +33,7 @@ ht-degree: 55%
 ## 商业案例
 
 * 促销折扣产品建议，以“填充”或“补充”上次购买的产品。 除了为目录中的每个项目创建单独的产品建议之外，您可以创建一个包含动态文本的产品建议，其会从轮廓中读取“上次购买的产品”并在产品建议中显示链接。
-* 一个访客通过 `keyword=world`&#x200B;`cup` 访问您的登陆页。 您在产品建议中显示词语 *World cup*。
+* 一个访客通过 `keyword=world``cup` 访问您的登陆页。 您在产品建议中显示词语 *World cup*。
 * 使用信息个性化推荐标签，例如(1)添加到访客购物车的最后一个项目(Nike Air Max 1000s)、(2)访客的颜色偏好（黑色）和(3)访客最喜爱的非鞋类别（连帽上衣）。 示例：“用这些炫酷的‘黑色’‘连帽衫’来搭配您的‘Nike Air Max 1000s’！”
 
 ## 技术优势

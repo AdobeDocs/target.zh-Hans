@@ -2,7 +2,7 @@
 keywords: 体验;控制;自动个性化;自动锁定
 description: 了解在[!DNL Adobe Target]中创建[!UICONTROL Automated Personalization] (AP)或[!UICONTROL 自动定位]活动时，如何选择要用作控制的体验。
 title: 如何在[!UICONTROL Automated Personalization]活动中使用特定体验作为控制？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 36%
+source-wordcount: '846'
+ht-degree: 31%
 ---
 # 选择[!UICONTROL Automated Personalization]或[!UICONTROL 自动定位]活动的控制
 
@@ -73,7 +73,7 @@ ht-degree: 36%
 * 不建议删除控制体验。
 * 不建议向使用特定体验作为控制的实时活动中添加许多新选件或体验。
 * 在[!UICONTROL Automated Personalization]活动中，不建议包含对控制体验的定位，这可能会进一步限制能够查看该体验的用户。
-* 在[!UICONTROL Automated Personalization]活动中，如果选择了特定体验，则提升度和置信度信息在选件级别报表中为&#x200B;*NOT*。 提升度和置信度信息适用于[!UICONTROL Automated Personalization]活动的整体“目标”与“控制”流量级别。 如果选择“随机”作为控制，则可以使用提升度和置信度信息。 造成这种差异的原因在于，由于单位不同，将特定体验的转化率与产品建议的转化率进行比较不合逻辑。 无论选择哪种类型的控制，[!UICONTROL 自动定位]活动中的可用信息都是相同的。
+* 在[!UICONTROL Automated Personalization]活动中，如果选择了特定体验，则提升度和置信度信息在选件级别报表中为&#x200B;*NOT*。 提升度和置信度信息适用于[!UICONTROL Automated Personalization]活动的整体“目标”与“控制”流量级别。 如果选择“随机”作为控制，则可以使用提升度和置信度信息。 造成这种差异的原因在于，由于单位不同，将特定体验的转化率与选件的转化率进行比较不合逻辑。 无论选择哪种类型的控制，[!UICONTROL 自动定位]活动中的可用信息都是相同的。
 * 由于当您选择体验作为控制时，所有控制流量都会流向一个体验或一组产品建议（与将随机体验作为控制相比，在这种情况下，控制流量会根据您的活动中的体验或产品建议数进行拆分），因此您通常无需使大量流量流向控制。 分配 10% 的流量即可。
 * 如果您对使用特定体验作为控制的实时活动执行以下操作之一，则控制会自动重置为随机提供的体验（而不是之前选择的特定体验）：
 

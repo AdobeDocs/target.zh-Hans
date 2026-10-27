@@ -1,25 +1,28 @@
 ---
 keywords: 故障诊断;常见问题解答;FAQ;锁定;受众
-description: 查看有关Adobe [!DNL Target] 活动中使用的体验定位和受众的常见问题解答(FAQ)。
+description: 查看有关Adobe [!DNL Target]活动中使用的体验定位和受众的常见问题解答(FAQ)。
 title: 可在何处找到关于目标和受众的问答？
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 TQID: https://experienceleague.adobe.com/WI8A9wqYpjiCCUABg5cBxJ92WwFLYN7qM-0DeYkrxOk
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1004
-ht-degree: 53%
-
+source-wordcount: '1007'
+ht-degree: 49%
 ---
-
 # 锁定和受众常见问题解答
 
 有关体验定位和受众的常见问题解答 (FAQ) 列表。
@@ -105,9 +108,9 @@ URL定位会将URL转换为一组规则以进行评估：
 
 [!DNL Target] 限制每个 mbox 调用只能包含 50 个唯一的轮廓属性。 如果您需要将50个以上的配置文件属性传递到[!DNL Target]，则可以使用[!UICONTROL 配置文件更新] API方法来传递它们。 有关更多信息，请参阅 Adobe Target API 文档中的[配置文件更新](https://developers.adobetarget.com/api/#authentication-tokens)。
 
-## 为何访客在 AP 活动中看到他们不应看到的体验？ {#section_41CECEAE0881446A8D9F3B016857914B}
+## 为什么访客在AP活动中看到他们不应看到的体验？ {#section_41CECEAE0881446A8D9F3B016857914B}
 
-自动个性化活动会在每次会话中都进行一次评估。 如果之前已有活跃会话符合某个特定体验的条件，且现在已在该体验中添加了新选件，则用户会同时看到新的内容以及之前显示的选件。 因为用户之前符合这些体验的参加条件，因此他们在会话持续期间仍会看到这些体验。 如果您希望在每一次进行页面访问时都进行评估，则应该切换到体验定位 (XT) 活动类型。
+自动个性化活动会在每次会话中都进行一次评估。 如果之前已有活跃会话符合某个特定体验的条件，且现在已在该体验中添加了新选件，则用户会同时看到新的内容以及之前显示的选件。 因为用户之前符合这些体验的参加条件，因此他们在会话持续期间仍会看到这些体验。 如果需要在每次访问单个页面时对此进行评估，则应将更改为体验定位(XT)活动类型。
 
 ## 为何对通过API创建的受众所做的更改未反映在[!DNL Target] UI中？ {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 

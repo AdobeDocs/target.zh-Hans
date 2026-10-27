@@ -17,14 +17,14 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
 ---
 # [!UICONTROL 自动分配]为您提供比手动测试更快的测试结果和更高的收入
 
-使用手动A/B活动时，您可能会丢失转化，因为直到活动完成才能将入选体验交付给整个受众。 即使在您了解到某些体验优于其他体验之后，您的流量分配仍保持不变，并且活动必须运行其整个课程，然后才能对入选者执行操作。
+手动A/B活动可能会失去转化，因为在该活动完成之前，您无法将入选体验交付给整个受众。 即使在您了解到某些体验优于其他体验之后，您的流量分配仍保持不变，并且活动必须运行其整个课程，然后才能对入选者执行操作。
 
 ## 自动分配流量
 

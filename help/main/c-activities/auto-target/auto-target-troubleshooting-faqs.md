@@ -2,7 +2,7 @@
 keywords: 自动定位;定位;流量分配;常见问题;常见问题;故障排除;故障排除;流量
 description: 浏览有关[!UICONTROL 自动定位]活动的故障排除主题和常见问题。
 title: 如何为[!UICONTROL 自动定位]活动排除故障？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 TQID: 'https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU'
@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 30%
+source-wordcount: '1991'
+ht-degree: 28%
 ---
 # [!UICONTROL 自动定位]常见问题解答和疑难解答
 
@@ -54,7 +54,7 @@ ht-degree: 30%
 
 +++
 
-### 是否建议以90（对照）/10（针对性）的分摊使用[!UICONTROL Adobe]自动定位直至生成模型？
+### 是否建议以90（对照）/10（针对性）的分摊使用[!UICONTROL Adobe]自动定位]直至生成模型？[!UICONTROL 
 
 +++回答 
 最优的流量分配分摊取决于要实现的目标。
@@ -66,7 +66,7 @@ ht-degree: 30%
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
 
-No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+No, check marks for model generation show only the models built to date. There is no way to go back and see when a model was completed.
 -->
 
 +++
@@ -108,7 +108,7 @@ No, check marks for model generation show only the models built to date. There's
 +++回答
 在[!UICONTROL 自动定位]活动中构建模型的时间通常取决于选定活动位置的流量以及与活动成功量度关联的转化率。
 
-[!UICONTROL 自动定位]不会尝试为给定体验构建个性化模型，直到该体验发生至少50次转化。 此外，如果所构建的模型质量缺佳（通过使用称为AUC[&#128279;](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度对留出的“测试”数据进行离线评估而确定），则不会使用该模型以个性化的方式提供流量。
+[!UICONTROL 自动定位]不会尝试为给定体验构建个性化模型，直到该体验发生至少50次转化。 此外，如果所构建的模型质量缺佳（通过使用称为AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度[对留出的“测试”数据进行离线评估而确定），则不会使用该模型以个性化的方式提供流量。
 
 关于[!UICONTROL 自动定位]的模型构建要记住的其他要点：
 

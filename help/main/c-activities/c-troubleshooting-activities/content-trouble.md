@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1689'
-ht-degree: 85%
+ht-degree: 84%
 ---
 # 内容交付故障诊断
 
@@ -138,7 +138,7 @@ ht-degree: 85%
 
 ## 推荐中未显示最畅销商品 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-*`SiteCatalyst: purchase`* 调用无法用于“购买”算法流量数据。 请改用 *`orderConfirmPage`* 调用。
+*`SiteCatalyst: purchase`*&#x200B;调用无法用于“购买”算法流量数据。 请改用 *`orderConfirmPage`* 调用。
 
 ## 检查活动优先级 {#section_3D0DD07240F0465BAF655D0804100AED}
 
@@ -229,12 +229,12 @@ adobe.target.trackEvent({
 
 ### 添加扩展![Tutorial徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33301?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### 基本 Adobe Target 调试 ![课程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33302?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox 跟踪 ![教程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33303?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

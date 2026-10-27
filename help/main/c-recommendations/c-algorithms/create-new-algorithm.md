@@ -2,7 +2,7 @@
 keywords: 标准；算法；垂直行业；页面类型；推荐键；推荐逻辑；数据范围；回顾窗口；行为数据源；部分设计；备用推荐；包含规则；属性权重；当前类别；自定义属性；上次购买的项目；上次查看的项目；查看次数最多的项目；最喜爱的类别；热门程度；最近查看的项目；上次购买；上次查看；最喜爱的项目；最近查看的项目；最近查看的项目；最近查看的项目
 description: 了解如何创建条件来控制[!DNL Recommendations]活动的内容，以显示最适合您的活动的推荐。
 title: 如何在[!DNL Recommendations]中创建[!UICONTROL 标准]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: 'https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM'
@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 44%
+source-wordcount: '2988'
+ht-degree: 43%
 ---
 # 创建标准
 
@@ -57,7 +57,7 @@ ht-degree: 44%
 
 1. 键入&#x200B;**[!UICONTROL 标准名称]**。
 
-   这是用于描述标准的“内部”名称。 例如，您可能希望将标准命名为“利润最高的产品”，但是不希望公开显示此名称。 请参阅下一步骤，以设置公开显示的标题。
+   这是用于描述标准的“内部”名称。 例如，您可能希望将您的标准称为“最高利润产品”，但不希望该标题公开显示。 请参阅下一步骤，以设置公开显示的标题。
 
 1. 为使用该标准的所有“推荐”键入一个要在页面上公开显示的&#x200B;**[!UICONTROL 显示标题]**。
 
@@ -108,7 +108,7 @@ ht-degree: 44%
 
 1. 根据需要，选择要匹配的&#x200B;**项目属性**&#x200B;和&#x200B;**配置文件属性**、**推荐键**、**筛选键**&#x200B;和/或&#x200B;**Analytics量度**&#x200B;以配置算法。
 
-其余的算法配置选项因所选算法而异。 要完成算法配置，请选择[!UICONTROL 推荐键]、[!UICONTROL 筛选键]、[!UICONTROL 共同发生基础]、[!UICONTROL Analytics量度]和/或[!UICONTROL 项目属性]和要匹配的配置文件属性。
+其余的算法配置选项因所选算法而异。 要完成算法配置，请选择[!UICONTROL 推荐键]、[!UICONTROL 筛选键]、[!UICONTROL 共同发生基础]、[!UICONTROL Analytics量度]和/或[!UICONTROL 项目属性]和要匹配的配置文件属性]。[!UICONTROL 
 
 当您选择[!UICONTROL 按配置文件属性查看的次数最多]或[!UICONTROL 按配置文件属性查看的畅销商品]时，请选择一个&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;作为交互数据分组依据。 配置文件属性来自捕获访客特征的配置文件脚本，例如区域或国家/地区，并且脚本名称必须包含`recsAttribute`前缀，因此该前缀将存储为`user.recsAttribute<Name>`，例如`user.recsAttributeRegion`。 在交付时，[!DNL Target]向每位访客提供与其自身属性值对应的排名列表。
 
@@ -177,7 +177,7 @@ ht-degree: 44%
 
    如果您的网站拥有大量流量且行为更改频繁，请选择较短的数据范围。 较短的范围可使 [!DNL Recommendations] 能够更好地响应市场和业务的变化。 例如，较短的范围意味着 [!DNL Recommendations] 将在访客开始季节性购物时就检测到访客行为的变化（例如返校购物季或圣诞节），并推荐适合这些购物季的项目。
 
-   如果您没有大量数据，或访客行为不经常更改，则您可以选择较长的范围。 但是，对于许多网站，较短的窗口会产生质量较高的推荐。
+   如果您没有大量数据，或访客行为没有频繁更改，则可以选择更长的窗口。 但是，对于许多网站，较短的窗口会产生质量较高的推荐。
 
    可用的数据范围包括：
 

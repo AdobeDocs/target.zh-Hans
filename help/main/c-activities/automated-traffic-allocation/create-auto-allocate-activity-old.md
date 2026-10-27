@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
     internal-label: Auto-allocate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 39%
+source-wordcount: '907'
+ht-degree: 36%
 ---
 # 创建[!UICONTROL 自动分配]活动
 
@@ -67,7 +67,7 @@ ht-degree: 39%
 
 1. 通过更改页面上的元素创建任何体验。
 
-   创建新活动后，[!UICONTROL 可视化体验编辑器]会在左侧显示两个选项卡：“体验 A”和“体验 B”。其中，“体验 A”是控制体验。 您的焦点位于体验B选项卡上，您可以根据需要对其进行修改。 体验 B 是可添加到测试中的替代体验。 您可以在测试中添加多个体验。 如果您不想在体验选项中包含默认的网站体验，则也可以从活动中删除体验 A。
+   创建新活动后，[!UICONTROL 可视化体验编辑器]会在左侧显示两个选项卡：“体验 A”和“体验 B”。其中，“体验 A”是控制体验。 您的焦点位于体验B选项卡上，您可以根据需要对其进行修改。 体验 B 是可添加到测试中的替代体验。 您可以在测试中添加多个体验。 如果不想将默认网站体验作为一个选项，您也可以从活动中删除体验A。
 
    有关在[!UICONTROL 可视化体验编辑器]中添加和修改体验的详细信息，请参阅[添加体验](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)。 要修改体验 B，请从步骤 2 开始操作。
 
@@ -124,4 +124,4 @@ ht-degree: 39%
 * 在[!DNL Adobe Target]中创建[!UICONTROL A/B测试]活动
 * 使用手动拆分或自动流量分配来分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/30338?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 47%
+source-wordcount: '1934'
+ht-degree: 44%
 ---
 # 报表设置
 
@@ -151,7 +151,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->如果您的组织使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target=_blank} (AEP)将指标数据发送到[!DNL Target]，则AEP数据流中的环境应该与您的[!DNL Target]报表设置中的环境相匹配。
+>如果您的组织使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP)将指标数据发送到[!DNL Target]，则AEP数据流中的环境应该与您的[!DNL Target]报表设置中的环境相匹配。
 
 ### 重置报表数据
 
@@ -266,8 +266,8 @@ ht-degree: 47%
 
 该图形显示了前 16 个体验的线条（有些线条存在重叠，因此显示的线条不到 16 个）。 左侧“体验”窗格中每个体验名称旁边的彩色圆点表示该体验的绘制线条以相应的颜色显示。
 
-如果在“体验”窗格中向下滚动，您会看到第 17 到 26 个体验的名称都处于灰显状态，如下图所示：
+如果在“体验”窗格中向下滚动，您会注意到第17个至第26个体验的名称显示为灰色，如下图所示：
 
 如果将鼠标悬停在某个灰显的体验上，图形中会暂时显示与该体验对应的新绘制线条，该线条为灰色。
 
-假设您希望显示体验 R 的绘制线条，而不显示体验 P 的线条，那么可以单击体验 P 的名称来取消选择该体验，然后单击体验 R 的名称来将其选中，如下所示：
+假设您要显示体验R的绘制线，但不想看到体验P的绘制线。您可以单击体验P的名称以取消选择它，然后单击体验R的名称以将其选中，如下所示：

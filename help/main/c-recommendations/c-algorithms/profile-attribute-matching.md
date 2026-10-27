@@ -2,7 +2,7 @@
 keywords: 包含规则；包含标准；推荐；促销活动；动态筛选；动态；配置文件属性匹配
 description: 了解如何通过比较项目（实体）与用户配置文件中的值在[!DNL Target Recommendations]中动态筛选。
 title: 如何在“推荐”活动中按配置文件属性匹配进行筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 TQID: 'https://experienceleague.adobe.com/Gm91Mww5ylvNjUcmzp6KwxIG6LTibvI44LnW67KFzqk'
@@ -18,9 +18,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 0%
 ---
 # 配置文件属性匹配
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->为标准和促销活动创建和使用包含规则[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的过程与用例和示例类似。
+>为标准和促销活动创建和使用包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的[过程与用例和示例类似。
 
 以下情形显示如何使用[!UICONTROL 配置文件属性匹配]：
 

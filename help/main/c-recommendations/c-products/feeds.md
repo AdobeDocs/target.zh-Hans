@@ -2,7 +2,7 @@
 keywords: 推荐信息源；信息源；SAINT；ftp；sftp；csv；分类；analytics分类
 description: 了解信息源如何使用CSV文件、[!DNL Google Product Search]信息源格式和[!DNL Analytics]产品分类将实体导入[!DNL Adobe Target] [!DNL Recommendations]。
 title: 如何在[!DNL Target Recommendations]中使用[!UICONTROL 信息源]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 TQID: 'https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go'
@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2785'
-ht-degree: 31%
+source-wordcount: '2792'
+ht-degree: 29%
 ---
 # 信息源
 
@@ -134,7 +134,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 >
 >您不需要向[!DNL Google]提交数据。 您可以导入自己的数据和计划更新，前提是文件使用预定义的[!DNL Google]属性名称。
 
-[!DNL Recommendations]接受遵循[!DNL Google]信息源规范并使用由Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定义的属性的.xml、.txt和.tsv文件。 指定信息源的URL或FTP位置，以便[!DNL Recommendations]服务器可以检索文件并生成您的目录。
+[!DNL Recommendations]接受遵循[!DNL Google]信息源规范并使用由Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定义的[属性的.xml、.txt和.tsv文件。 指定信息源的URL或FTP位置，以便[!DNL Recommendations]服务器可以检索文件并生成您的目录。
 
 >[!NOTE]
 >
@@ -224,7 +224,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Adobe Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅&#x200B;*Analytics组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans)。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
+[!DNL Adobe Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅&#x200B;*Analytics组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
 
 >[!IMPORTANT]
 >
@@ -343,7 +343,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 | 状态指示器 | 描述 |
 |--- |--- |
 | 绿色状态指示器 | 当成功将信息源编入索引时，会显示绿色状态圆点，以指示该信息源处于成功状态。 |
-| 黄色状态指示器 | 当信息源或信息源索引延迟的时间为信息源频率的 25% 时，会显示黄色状态圆点。 例如，对于设置为每日运行的信息源，如果在计划时间后的六小时内没有完成索引，则会显示黄色圆点。 注意：一旦信息源状态为“正在等待索引队列”，新更新的值即可用于交付和标准处理。 |
+| 黄色状态指示器 | 当信息源或信息源索引延迟的时间为信息源频率的 25% 时，会显示黄色状态圆点。 例如，对于设置为每日运行的信息源，如果在计划时间后的六小时内未完成索引，则会显示黄色圆点。 注意：一旦信息源状态为“正在等待索引队列”，新更新的值即可用于交付和标准处理。 |
 | 白色状态指示器 | 当未设置信息源运行计划时，会显示白色状态圆点，以指示信息源尚未运行。 |
 | 红色状态指示器 | 如果馈送无法将数据上传到服务器，则会显示红色状态指示器。 |
 
@@ -352,7 +352,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 **示例 1:**
 
 * 第一天：上午9:00（太平洋标准时间）的每日馈送流程。
-* 第二天：现在是下午 3:30，信息源从昨天上午 9 点之后就没有运行。
+* 第二天：现在是下午3点30分，信息源从昨天上午9点起就没有运行过。
 
 状态应为黄色，因为索引原本应在大约 6.5 小时之前运行。 6.5 小时 + 24 等于信息源运行期限的 127%。
 
@@ -374,7 +374,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 了解信息源的用途
 * 了解信息源的值
 
->[!VIDEO](https://video.tv.adobe.com/v/33957?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### 创建信息源(6:44) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -383,4 +383,4 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 设置信息源
 * 了解要使用哪种类型的信息源
 
->[!VIDEO](https://video.tv.adobe.com/v/33956?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

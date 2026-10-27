@@ -2,7 +2,7 @@
 keywords: 包含规则；包含标准；推荐；促销活动；动态筛选；动态；实体属性匹配
 description: 了解如何通过将潜在项目池与用户与之交互的特定项目进行比较，在Adobe [!DNL Target]推荐中动态筛选。
 title: 如何在推荐活动中按实体属性匹配进行筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 product_v2:
@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '546'
 ht-degree: 0%
 ---
 # 实体属性匹配
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->为标准和促销活动创建和使用包含规则[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的过程与用例和示例类似。
+>为标准和促销活动创建和使用包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的[过程与用例和示例类似。
 
 例如，只推荐与当前项目品牌相匹配的项目，如以下示例所示：
 

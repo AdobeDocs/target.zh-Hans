@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 92%
+source-wordcount: '1384'
+ht-degree: 89%
 ---
 # 移动视区用于响应式体验
 
@@ -91,7 +91,7 @@ ht-degree: 92%
 | Samsung Galaxy Tab 10 | 800 x 1280 | 800 x 1280 |
 | Chromebook Pixel | 1280 x 850 | 2560 x 1700 |
 
-要向特定设备上的访客投放活动，请在活动示中选择适合该设备的受众。 使用移动 Web 编辑器在该设备上编辑活动中的页面。 要在您的整个数字体验中运行某项活动以确保在所有设备上均可正常显示该活动，请勿应用定位。 请改用移动视区在每种屏幕大小上预览该活动。
+要向特定设备上的访客投放活动，请在活动示中选择适合该设备的受众。 使用移动 Web 编辑器在该设备上编辑活动中的页面。 要在您的整个数字体验中运行活动以确保在所有设备上均可正常显示该活动，请勿应用定位。 请改用移动视区在每种屏幕大小上预览该活动。
 
 对于响应式网站，一般将您的网站设计为在受到特定屏幕大小的设备访问时以不同的视图打开。 那些触发新视图的屏幕大小称为“CSS 断点”。 CSS 断点是网站内容根据设备宽度作出响应以向访客显示最优布局的那些点。 CSS 断点也称为[媒体查询](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)。
 
@@ -101,7 +101,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->可从移动视区中编辑体验。 但是，这些更改适用于所有视区和设备，而非仅适用于您所在的视区。 同样，在普通桌面视图中编辑体验将更改所有屏幕大小的页面，而非仅更改桌面视图的页面。 目前，[!DNL Target] 不支持特定于视区的页面更改。
+>可从移动视区中编辑体验。 但是，这些更改适用于所有视区和设备，而不只是您正在使用的视区。 同样，在普通桌面视图中编辑体验将更改所有屏幕大小的页面，而非仅更改桌面视图的页面。 目前，[!DNL Target] 不支持特定于视区的页面更改。
 
 ## 移动视区配置 {#task_B4B161499DC0470584ED922A4D20FCAB}
 
@@ -184,7 +184,7 @@ ht-degree: 92%
 * 预览和构建响应式网站的体验
 * 使用叠加高亮显示元素类型
 
->[!VIDEO](https://video.tv.adobe.com/v/30330?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Adobe Target 中的帐户首选项 ![“概述”标记](/help/main/assets/overview.png)
 

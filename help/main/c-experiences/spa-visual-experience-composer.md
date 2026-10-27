@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 56%
+source-wordcount: '3960'
+ht-degree: 55%
 ---
 # 单页面应用程序 (SPA) 可视化体验编辑器
 
@@ -383,7 +383,7 @@ adobe.target.getOffers({
 | [自动个性化](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |
 | [推荐](/help/main/c-recommendations/recommendations.md) | 否 |
 
-**如果安装了 at.js 2.x 并在网站上实施了 `triggerView()`，则在 SPA VEC 不支持自动锁定时，我们该如何运行自动锁定 A/B 活动？**
+**如果安装了at.js 2.x并在网站上实施了`triggerView()`，则在SPA VEC不支持自动定位时，我们该如何运行自动定位A/B活动？**
 
 如果要使用自动锁定 A/B 活动，可以在 VEC 中移动所有要在页面加载事件中执行的操作。 将鼠标悬停在每个操作上，然后单击[!UICONTROL 移动到页面加载事件]按钮。 完成此操作后，在下一步中，您可以为流量分配方法选择“自动锁定”。
 
@@ -393,7 +393,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 是 |
 | [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md) | 是 |
-| [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans){target=_blank} | 是 |
+| [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | 是 |
 | [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 是 |
 
 ## 受支持的功能 {#supported-features}
@@ -416,7 +416,7 @@ adobe.target.getOffers({
 
 ![“页面交付”选项对话框](/help/main/c-experiences/assets/page-delivery.png)
 
-例如，根据以上显示的[!UICONTROL 页面交付]设置所定义的内容，当访客直接登陆`https://www.adobe.com/cn` *或*&#x200B;且任何包含`https://www.adobe.com/cn/products`的URL时，Target活动就会符合条件并执行。 这非常适用于任何多页面应用程序，在该应用程序中，与页面的每次交互都会调用页面重新加载，at.js 会为此检索符合用户导航到的 URL 条件的活动。
+例如，根据以上显示的[!UICONTROL 页面交付]设置所定义的内容，当访客直接登陆`https://www.adobe.com` *或*&#x200B;且任何包含`https://www.adobe.com/products`的URL时，Target活动就会符合条件并执行。 这非常适用于任何多页面应用程序，在该应用程序中，与页面的每次交互都会调用页面重新加载，at.js 会为此检索符合用户导航到的 URL 条件的活动。
 
 但是，由于SPA的工作方式不同，因此必须配置[!UICONTROL 页面交付]设置，以便允许将所有操作应用于SPA VEC活动中定义的视图。
 
@@ -476,7 +476,7 @@ adobe.target.getOffers({
 
 ## 培训视频：在 Adobe Target 中使用 SPA VEC
 
->[!VIDEO](https://video.tv.adobe.com/v/34758?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 有关详细信息，请参阅[在Adobe Target中使用单页应用程序的可视化体验编辑器(SPA VEC)](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)。
 

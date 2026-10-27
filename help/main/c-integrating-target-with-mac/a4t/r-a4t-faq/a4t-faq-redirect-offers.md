@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 50%
+source-wordcount: '1475'
+ht-degree: 46%
 ---
 # 重定向产品建议 - A4T 常见问题解答
 
@@ -145,7 +145,7 @@ ht-degree: 50%
 
 +++
 
-## 如果我没有在重定向活动中使用 A4T，也不想在 URL 中添加这些额外的参数，我应该怎么做？ {#section_9E608D75FF9349FE96C65FEDD7539F45}
+## 如果我没有在重定向活动中使用A4T，也不想在URL中添加这些额外的参数，我应该怎么做？ {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
 +++回答
 在下列情况下使用自定义编码重定向：
@@ -163,7 +163,7 @@ ht-degree: 50%
 +++回答
 如果您同时使用 A4T 和重定向产品建议，则 Target 会将 `adobe_mc_ref` 和 `adobe_mc_sdid` 参数附加到 URL。 这两个值已进行 URL 编码。 在大多数情况下，一切都会按预期运行；但是，有些客户使用的负载平衡器或 Web 服务器可能会尝试对查询字符串参数再次进行编码。
 
-由于此双重编码过程，访客 API 在尝试对 `adobe_mc_sdid` 值进行解码时，将无法提取 SDID 值，故而会生成一个新的 SDID。 此过程会导致发送到Target和Analytics的SDID值不正确，并且您会在Analytics报表中看到重定向拆分不均匀。
+由于此双重编码过程，访客API在尝试对`adobe_mc_sdid`值进行解码时，将无法提取SDID值并生成新的SDID。 此过程会导致发送到Target和Analytics的SDID值不正确，并且您会在Analytics报表中看到重定向拆分不均匀。
 
 Adobe建议您与IT团队联系，以确保`adobe_mc_ref`和`adobe_mc_sdid`，以便这两个值不会发生任何形式的转换。
 
@@ -183,13 +183,13 @@ Adobe建议您与IT团队联系，以确保`adobe_mc_ref`和`adobe_mc_sdid`，�
 ## 我能否使用自定义/HTML 重定向选件？ {#section_E49F9A83A286488C8F1098A040203D7E}
 
 +++回答
-不能，您必须在使用 [!DNL Analytics] 作为报表源 (A4T) 的活动中使用内置的重定向产品建议。 对 [!DNL Target] 而言，HTML 产品建议是不透明的：[!DNL Target] 无法知晓某段特定的 HTML 是否包含可对重定向进行实例化的 JavaScript。
+不能，您必须在使用 [!DNL Analytics] 作为报表源 (A4T) 的活动中使用内置的重定向产品建议。 从[!DNL Target]的角度来看，HTML选件是不透明的： [!DNL Target]无法知晓某段特定的HTML是否包含可对重定向进行实例化的JavaScript。
 
 +++
 
 ### 我能否将自定义/HTML重定向选件与[!DNL Platform Web SDK]结合使用？
 
 +++回答
-不能，您必须在使用A4T的活动中使用内置的重定向选件。 从[!DNL Target]的角度来看，HTML选件是不透明的。 [!DNL Target]无法知晓某段HTML是否包含可实例化重定向的JavaScript。
+不能，您必须在使用A4T的活动中使用内置的重定向选件。 从[!DNL Target]的角度来看，HTML选件是不透明的。 [!DNL Target]无法知道HTML的特定部分包含可对重定向进行实例化的JavaScript。
 
 +++

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 46%
+source-wordcount: '711'
+ht-degree: 43%
 ---
 # 环境
 
@@ -72,7 +72,7 @@ ht-degree: 46%
 >
 >[!DNL Recommendations]如果主机变换主机组，则 用户必须重建自己的行为数据库和产品数据库。
 >
->如果在 [!DNL Adobe Experience Platform] 数据流[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans#target){target=_blank}中指定了默认环境，则此设置将覆盖[!DNL Target]中的设置。
+>如果在 [!DNL Adobe Experience Platform] 数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}中指定了[默认环境，则此设置将覆盖[!DNL Target]中的设置。
 
 ## 更改环境的名称 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

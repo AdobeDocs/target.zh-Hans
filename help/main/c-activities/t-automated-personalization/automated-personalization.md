@@ -2,7 +2,7 @@
 keywords: 自动个性化；AP；受众；组合；随机林；多臂老虎机；汤普森采样；ML；机器学习
 description: 了解如何在[!DNL Adobe Target]中使用[!UICONTROL Automated Personalization] (AP)活动，这些活动使用高级机器学习将不同的选件变体与每位访客匹配。
 title: 什么是[!UICONTROL Automated Personalization] (AP)活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 TQID: 'https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ'
@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 29%
+source-wordcount: '1054'
+ht-degree: 27%
 ---
 # [!UICONTROL Automated Personalization] (AP)
 
@@ -81,7 +81,7 @@ ht-degree: 29%
 
 * 多臂老虎机确保模型始终“花费”一小部分流量以在活动期间继续学习，并防止过度利用以前学习过的趋势。
 * 使用最新的访客行为数据每24小时重建一次基础模型，以确保[!DNL Target]始终使用更改的访客偏好设置。
-* 如果该算法无法为单个访客确定入选体验，则会自动切换为显示整体性能最佳的体验，同时仍继续寻找个性化的入选者。 性能最佳的体验将使用[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling)来查找。
+* 如果算法无法确定个别访客的入选体验，它会自动切换到显示总体最佳性能体验的模式，同时仍会继续查找个性化的入选体验。 性能最佳的体验将使用[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling)来查找。
 
 ## 模型会不断优化单个目标量度
 
@@ -99,9 +99,9 @@ ht-degree: 29%
 
 在构建个性化模型时，离线数据（如CRM信息或客户流失倾向分数）可能非常有价值。 有几种方法可在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位]个性化算法中输入数据。
 
-* [mbox 参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}
-* [轮廓参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}
-* [用于配置文件更新的服务器端API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}
+* [mbox 参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [轮廓参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [用于配置文件更新的服务器端API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
 
 有关[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]个性化算法自动收集和使用的数据的信息，请参阅[Automated Personalization数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 
@@ -113,4 +113,4 @@ ht-degree: 29%
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

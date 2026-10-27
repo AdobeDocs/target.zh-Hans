@@ -2,7 +2,7 @@
 keywords: 创建自动定位；A/B测试；自动定位活动；新建A/B活动；自动定位；自动定位以提供个性化体验；个性化；优化
 description: 了解如何使用[!UICONTROL 可视化体验编辑器] (VEC)创建[!UICONTROL 自动定位] A/B测试活动。
 title: 如何创建[!UICONTROL 自动定位]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 TQID: 'https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k'
@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 17%
+source-wordcount: '1063'
+ht-degree: 15%
 ---
 # 创建[!UICONTROL 自动定位]活动
 
@@ -95,7 +95,7 @@ ht-degree: 17%
 
 1. 通过更改页面上的元素创建新体验。
 
-   创建新活动后，[!UICONTROL 可视化体验编辑器]在左侧显示两个选项卡：[!UICONTROL 体验A]和[!UICONTROL 体验B]。[!UICONTROL 体验A]是控制体验。 您关注的焦点是[!UICONTROL 体验B]选项卡，您可以根据需要对其进行修改。 [!UICONTROL 体验B]是您可以添加到测试的备用体验。 您可以通过单击[!UICONTROL 体验]窗格顶部的[!UICONTROL 添加]图标（![添加图标](/help/main/assets/icons/Add.svg)）将多个体验添加到测试中。 如果您不想在体验选项中包含默认的网站体验，则也可以从活动中删除体验 A。
+   创建新活动后，[!UICONTROL 可视化体验编辑器]在左侧显示两个选项卡：[!UICONTROL 体验A]和[!UICONTROL 体验B]。[!UICONTROL 体验A]是控制体验。 您关注的焦点是[!UICONTROL 体验B]选项卡，您可以根据需要对其进行修改。 [!UICONTROL 体验B]是您可以添加到测试的备用体验。 您可以通过单击[!UICONTROL 体验]窗格顶部的[!UICONTROL 添加]图标（![添加图标](/help/main/assets/icons/Add.svg)）将多个体验添加到测试中。 如果不想将默认网站体验作为一个选项，您也可以从活动中删除体验A。
 
    有关在[!UICONTROL 可视化体验编辑器]中添加和修改体验的详细信息，请参阅[添加体验](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。 要修改体验 B，请从步骤 2 开始操作。
 

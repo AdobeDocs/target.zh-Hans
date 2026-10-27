@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4075'
-ht-degree: 31%
+source-wordcount: '4083'
+ht-degree: 29%
 ---
 # 使推荐基于推荐键
 
@@ -41,7 +41,7 @@ ht-degree: 31%
 
 ## 基于购物车 {#cart-based}
 
-[!UICONTROL 基于购物车的]算法类型允许根据访客当前购物车的内容推荐项目。 推荐键是通过逗号分隔值的[mbox参数`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}提供的。 仅考虑前 10 个值。
+[!UICONTROL 基于购物车的]算法类型允许根据访客当前购物车的内容推荐项目。 推荐键是通过逗号分隔值的[mbox参数`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}提供的。 仅考虑前 10 个值。
 
 基于购物车的推荐逻辑类似于“[!UICONTROL 为您推荐]”基于用户的算法，以及“[!UICONTROL 查看这些项目、购买那些]”的人和“[!UICONTROL 购买这些项目、购买那些]”基于项目的算法。
 
@@ -319,7 +319,7 @@ ht-degree: 31%
 
 用例可能包括：
 
-* 您想要推荐管理的自定义列表中的影片，但“仅”当访客尚未观看这些影片时才进行推荐。
+* 您想从策划的自定义列表中推荐电影，但前提是访客尚未观看这些电影。
 * 您要运行离线算法并使用结果来支持推荐，但必须确保从不推荐缺货项目。
 * 您想要只包含属于访客最喜爱类别的项目。
 
@@ -372,7 +372,7 @@ ht-degree: 31%
 
    ![“创建新标准”对话框](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-如果自定义轮廓属性与单个实体 ID 不直接匹配，则需要向 [!DNL Recommendations] 说明您希望如何与实体进行匹配。 例如，假设您要显示访客最喜爱的品牌中的最畅销商品项目。
+如果自定义配置文件属性与单个实体ID不直接匹配，则需要向[!DNL Recommendations]说明您希望如何与实体进行匹配。 例如，假设您要显示访客最喜爱的品牌中的最畅销商品项目。
 
 1. 从&#x200B;**[!UICONTROL 推荐键]**&#x200B;下拉列表中选择自定义配置文件属性（例如，“最喜爱的品牌”）。
 

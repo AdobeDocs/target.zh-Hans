@@ -2,7 +2,7 @@
 keywords: 包含规则;包含标准;推荐;新建标准;促销活动;动态筛选;动态;空值;忽略筛选规则;静态筛选器;按值筛选;实体属性匹配;轮廓属性匹配;参数匹配;按值筛选;静态筛选器
 description: 了解如何在Adobe [!DNL Target]推荐中为标准和促销活动创建包含规则。 为了获得更好的结果，请添加更多动态或静态筛选规则。
 title: 如何在推荐中使用动态和静态包含规则？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 15%
+source-wordcount: '2113'
+ht-degree: 13%
 ---
 # 使用动态和静态包含规则
 
@@ -107,7 +107,7 @@ ht-degree: 15%
 
 | 操作 | 适用选项 | 详细信息 |
 |--- |--- |--- |
-| [!UICONTROL 忽略此筛选规则] | [!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 此操作是[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配]的默认操作。<br>此选项指定忽略该规则。 例如，如果有三个筛选规则，第三个规则不传递任何值，则您只需忽略具有空值的第三个规则，而不是不返回任何结果。 |
+| [!UICONTROL 忽略此筛选规则] | [!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 此操作是[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配]的默认操作。<br>此选项指定忽略该规则。 例如，如果有三个筛选规则，且第三个规则未传递任何值，则您可以忽略具有空值的第三个规则，而不返回任何结果。 |
 | [!UICONTROL 不显示此条件的任何结果]<br>（仅限该条件） | [!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 此操作是[!UICONTROL 实体属性匹配]的默认操作。<br>此操作是[!DNL Target]在添加此选项之前处理空值的方式：不显示此条件的结果。 |
 | [!UICONTROL 不促销任何项目<br>（仅限促销活动）] | [!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 此操作是[!UICONTROL 实体属性匹配]的默认操作。<br>此操作是[!DNL Target]在添加此选项之前处理空值的方式：不显示此条件的结果。 |
 | [!UICONTROL 使用静态值] | [!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 如果值为空，您可以选择使用静态值。 |

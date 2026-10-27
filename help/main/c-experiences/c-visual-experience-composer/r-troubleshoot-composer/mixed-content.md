@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 84%
+source-wordcount: '569'
+ht-degree: 73%
 ---
 # 在浏览器中启用混合内容
 
@@ -35,7 +35,7 @@ ht-degree: 84%
 
 以前，虽然不允许使用混合内容，但是您在创建活动时仍然能够执行三步引导式工作流的步骤 1 中的某些操作。 现在，[!DNL Target] 会阻止执行步骤 1 中的操作。 显示此消息时，您必须先启用混合内容，然后才能继续创建活动。
 
-浏览器的安全设置可能会阻止将混合内容或不安全 (HTTP) 内容加载到安全 (HTTPS) 页面或框架（例如 VEC）。 如果您不希望禁用浏览器的安全设置，则必须使用 HTTPS 网站。
+浏览器的安全设置可能会阻止将混合内容或不安全 (HTTP) 内容加载到安全 (HTTPS) 页面或框架（例如 VEC）。 如果您不想禁用浏览器的安全设置，则必须具有HTTPS网站。
 
 如果您的网站运行在不安全 (HTTP) 的域上，您需要允许 VEC 加载活动的混合内容。
 
@@ -47,7 +47,7 @@ ht-degree: 84%
 
 ## 在 [!DNL Google Chrome] 中启用混合内容 {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-如果通过安全连接访问网站，则 [!DNL Chrome] 确认已安全地传输了网页上的内容。
+如果您通过安全连接访问网站，[!DNL Chrome]将验证网页上的内容是否已安全地传输。
 
 请参阅 Google Chrome 帮助中的“[管理有关不安全网站的警告](https://support.google.com/chrome/answer/99020?hl=en)”。
 
@@ -86,7 +86,7 @@ ht-degree: 84%
 
 ## 在 [!DNL Microsoft Edge] 中启用混合内容
 
-如果通过安全连接访问网站，则 [!DNL Edge] 确认已安全地传输了网页上的内容。
+如果您通过安全连接访问网站，[!DNL Edge]将验证网页上的内容是否已安全地传输。
 
 如果将 VEC 用于 [!DNL Edge] 的最新版本，则必须更新网站设置。 您网站的访客无需完成这些步骤。
 

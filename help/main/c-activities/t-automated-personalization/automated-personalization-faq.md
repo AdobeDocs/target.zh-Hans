@@ -2,7 +2,7 @@
 keywords: 故障诊断；常见问题解答；FAQ；自动个性化；控制；默认体验；最佳实践
 description: 在[!UICONTROL Adobe Target]中浏览有关[!UICONTROL Automated Personalization] (AP)活动的常见问题解答(FAQ)和答案列表。
 title: 如何查找有关[!UICONTROL Automated Personalization]活动的常见问题解答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 TQID: 'https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo'
@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2303'
-ht-degree: 18%
+source-wordcount: '2307'
+ht-degree: 17%
 ---
 # Automated Personalization常见问题解答
 

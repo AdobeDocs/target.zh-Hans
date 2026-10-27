@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 29%
+source-wordcount: '457'
+ht-degree: 25%
 ---
 # 可视化体验编辑器中使用的元素选择器
 
@@ -85,7 +85,7 @@ ht-degree: 29%
 
    选择器：`#container` > `ul.navigation:eq(0)` > `li.item:eq(0)`（“>”表示直接子项。)
 
-   `eq` 告知索引存在一个具有“tagName=UL”的元素，且第一个类为 `navigation`。 因此，`index` 为 0。 有关更多信息，请参阅 MDN 中的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
+   `eq`告知索引存在一个具有“tagName=UL”的元素，第一个类为`navigation`。 因此，`index` 为 0。 有关更多信息，请参阅 MDN 中的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
 
 1. 如果元素不包含类，[!DNL Target]将对该元素使用`tagName`，并遍历父元素，直到找到`<HTML>`元素或具有ID的元素。
 

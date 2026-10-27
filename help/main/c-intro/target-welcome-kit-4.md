@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2961'
-ht-degree: 72%
+source-wordcount: '2987'
+ht-degree: 71%
 ---
 # 第 4 章：关于使用 Target 的提示
 
@@ -56,7 +56,7 @@ ht-degree: 72%
 
 **应了解的要点**：由于 [!DNL Target] 是一种开放而无特定要求的平台，它与多种不同的技术配合得都很好，因此可按多种不同的方式添加 CRM 或购买的数据。 这意味着可选择一种最适合您组织的方法。
 
-有关更多信息，请参阅[将数据纳入到 Target 中的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}。
+有关更多信息，请参阅[将数据纳入到 Target 中的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 ## 提示 2：通过将 [!DNL Target] 受众融入其他 Adobe Experience Cloud 受众，可更深入地进行个性化。
 
@@ -178,7 +178,7 @@ ht-degree: 72%
 
 例如，Adobe 医疗保健服务客户最近展现了测试的作用，说明了该团队认为稳操胜券的巨型横幅如何实际上对转化产生负面影响。 如果您的组织尚未完全接纳测试，则最好先执行更简单、范围更小的测试，以便可循序渐进地根据测试结果做出更改。
 
-## 提示 19：让大家都知道您已启动测试，以免在网站发生变化时引起关切。
+## 提示19：让每个人都知道您已启动测试，以免在网站发生变化时引起关切。
 
 设置活动以使用 QA 参数的好处之一是，可与团队中的每个人分享这些链接。 您可以让更多人知道该活动，并确保他们在点击测试变体时不会认为网站没有正常运行。
 

@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '631'
 ht-degree: 30%
 ---
 # 排除项
@@ -44,7 +44,7 @@ ht-degree: 30%
 
    ![exclusions_list图像](assets/exclusions_list.png)
 
-   [!UICONTROL 排除项]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}以更改默认主机组。
+   [!UICONTROL 排除项]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以更改默认主机组。
 
 1. 单击&#x200B;**[!UICONTROL 创建排除项]**。
 
@@ -89,4 +89,4 @@ ht-degree: 30%
 * 创建收藏集
 * 创建排除项
 
->[!VIDEO](https://video.tv.adobe.com/v/35356?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

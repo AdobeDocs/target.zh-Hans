@@ -2,7 +2,7 @@
 keywords: 推荐;常见问题解答;FAQ
 description: 关于[!DNL Target Recommendations]设计的常见问题解答(FAQ)及其答案。
 title: 可在何处获得[!DNL Target Recommendations]的设计问题的答案？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 TQID: 'https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 57%
+source-wordcount: '476'
+ht-degree: 46%
 ---
 # 设计常见问题解答
 
@@ -29,7 +29,7 @@ ht-degree: 57%
 
 ## 推荐项目的价格并没有在小数点的右侧显示两个值。 我该如何显示它们？
 
-默认情况下，设计模板中返回的数值（如 `entity.value`）不会在小数点之后显示任何尾随的零。 例如，如果某个项目的价格为 $35.00，则 `entity.value` 等于 35，并且页面上仅显示 35，而不是 $35.00。
+默认情况下，设计模板中返回的数值（如`entity.value`）不会在小数点之后显示任何尾随的零。 例如，如果某个项目的价格为 $35.00，则 `entity.value` 等于 35，并且页面上仅显示 35，而不是 $35.00。
 
 有两种方法可用于解决此问题：
 
@@ -43,7 +43,7 @@ ht-degree: 57%
 
 ## 设计中为何没有显示类别？ 我正在使用`$entity1.categoryId`。 {#section_073309B8051049C7953D396A93EA0713}
 
-类别 ID 无法在设计中显示。 由于可以存储多个类别，因此系统不知道要显示哪个类别。
+类别ID无法在设计中显示。 由于可以存储多个类别，因此系统不知道要显示哪个类别。
 
 ## 我应该如何更改设计才能实现即时更新？ {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 

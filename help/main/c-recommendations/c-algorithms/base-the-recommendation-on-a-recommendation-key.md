@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4434'
-ht-degree: 25%
+source-wordcount: '4442'
+ht-degree: 24%
 ---
 # 使推荐基于推荐键
 
@@ -53,7 +53,7 @@ ht-degree: 25%
 
 ## 基于购物车 {#cart-based}
 
-[!UICONTROL 基于购物车的]算法类型允许根据访客当前购物车的内容推荐项目。 推荐键是通过逗号分隔值的[mbox参数`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}提供的。 仅考虑前 10 个值。
+[!UICONTROL 基于购物车的]算法类型允许根据访客当前购物车的内容推荐项目。 推荐键是通过逗号分隔值的[mbox参数`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}提供的。 仅考虑前 10 个值。
 
 基于购物车的推荐逻辑类似于“[!UICONTROL 为您推荐]”基于用户的算法，以及“[!UICONTROL 查看这些项目、购买那些]”的人和“[!UICONTROL 购买这些项目、购买那些]”基于项目的算法。
 
@@ -153,7 +153,7 @@ ht-degree: 25%
 
 如果您选择了“按类别查看次数最多”算法，则可以选择以下推荐键：
 
-* [!UICONTROL 当前类别 &#x200B;]
+* [!UICONTROL 当前类别 ]
 * [!UICONTROL 最喜爱类别]
 
 ### [!UICONTROL 按项目属性查看的次数最多]
@@ -178,7 +178,7 @@ ht-degree: 25%
 
 如果选择[!UICONTROL 按类别查看的次数最多]算法，则可以选择以下[!UICONTROL 推荐键]：
 
-* [!UICONTROL 当前类别 &#x200B;]
+* [!UICONTROL 当前类别 ]
 * [!UICONTROL 最喜爱类别]
 
 ### 按项目属性[!UICONTROL 最畅销商品]
@@ -200,7 +200,7 @@ ht-degree: 25%
 
 此算法依赖于配置文件脚本来填充属性，脚本名称必须以`recsAttribute`前缀开头，因此[!DNL Target]将其存储为`user.recsAttribute<Name>`。 您可以为与用例相关的任何访客特征编写脚本。
 
-在[此页面](https://experienceleague.adobe.com/zh-hans/docs/target/using/audiences/visitor-profiles/profile-parameters)中了解有关使用配置文件脚本设置配置文件属性的更多信息。
+在[此页面](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)中了解有关使用配置文件脚本设置配置文件属性的更多信息。
 
 例如，基于访客区域的推荐的名为`recsAttributeRegion`的脚本可能如下所示：
 
@@ -215,7 +215,7 @@ if (region) return region;
 
 建议按访客配置文件属性而不是项目信息分组的最畅销商品，如[!UICONTROL 按类别最畅销商品]和[!UICONTROL 按项目属性最畅销商品]那样。 [!DNL Target]为每个属性值保留一个单独的畅销商品列表，并在交付时向每位访客显示与其自身存储值匹配的列表。
 
-与配置文件属性查看次数最多的一样，此算法依赖配置文件脚本来填充该属性，脚本名称必须以`recsAttribute`前缀开头，因此[!DNL Target]将其存储为`user.recsAttribute<Name>`。 您可以为与用例相关的任何访客特征编写脚本。 在[此页面](https://experienceleague.adobe.com/zh-hans/docs/target/using/audiences/visitor-profiles/profile-parameters)中了解有关使用配置文件脚本设置配置文件属性的更多信息。
+与配置文件属性]查看次数最多的[!UICONTROL 一样，此算法依赖配置文件脚本来填充该属性，脚本名称必须以`recsAttribute`前缀开头，因此[!DNL Target]将其存储为`user.recsAttribute<Name>`。 您可以为与用例相关的任何访客特征编写脚本。 在[此页面](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)中了解有关使用配置文件脚本设置配置文件属性的更多信息。
 
 例如，基于访客忠诚度级别的推荐的名为`recsAttributeLoyaltyTier`的脚本可能如下所示：
 
@@ -368,7 +368,7 @@ if (tier) return tier;
 
 用例可能包括：
 
-* 您想要推荐管理的自定义列表中的影片，但“仅”当访客尚未观看这些影片时才进行推荐。
+* 您想从策划的自定义列表中推荐电影，但前提是访客尚未观看这些电影。
 * 您要运行离线算法并使用结果来支持推荐，但必须确保从不推荐缺货项目。
 * 您想要只包含属于访客最喜爱类别的项目。
 
@@ -419,7 +419,7 @@ if (tier) return tier;
 1. 从&#x200B;**[!UICONTROL 推荐键]**&#x200B;下拉列表中选择自定义配置文件属性（例如，“[!UICONTROL 上次添加到观看列表的节目]”）。
 1. 然后选择您的&#x200B;**[!UICONTROL 推荐逻辑]**（例如，[!UICONTROL 查看了这个项目，也查看了那个项目]的人员）。
 
-如果自定义轮廓属性与单个实体 ID 不直接匹配，则需要向 [!DNL Recommendations] 说明您希望如何与实体进行匹配。 例如，假设您要显示访客最喜爱的品牌中的最畅销商品项目。
+如果自定义配置文件属性与单个实体ID不直接匹配，则需要向[!DNL Recommendations]说明您希望如何与实体进行匹配。 例如，假设您要显示访客最喜爱的品牌中的最畅销商品项目。
 
 1. 从&#x200B;**[!UICONTROL 推荐键]**&#x200B;下拉列表中选择自定义配置文件属性（例如，“最喜爱的品牌”）。
 
@@ -460,7 +460,7 @@ if (tier) return tier;
 * [!UICONTROL 查看了这个项目，但购买了那个项目的人]
 * [!UICONTROL 购买了这个项目，也购买了那个项目的人]
 
-### [!UICONTROL 当前类别 &#x200B;] {#current-category}
+### [!UICONTROL 当前类别 ] {#current-category}
 
 推荐由访客当前正在查看的产品类别决定。
 

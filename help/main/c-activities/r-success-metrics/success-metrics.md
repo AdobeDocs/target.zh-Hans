@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ee887007d9793bbe49bbb8f84151473cd626846d
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1444'
 ht-degree: 22%
 ---
 # [!UICONTROL 成功量度]
@@ -88,7 +88,7 @@ ht-degree: 22%
 
    * **[!UICONTROL 每位访客带来的收入(RPV)]**
    * **[!UICONTROL 平均订单值(AOV)]**
-   * 总销售额&#x200B;**&#x200B;**
+   * 总销售额&#x200B;****
    * **[!UICONTROL 订单率]**
 
    ![](assets/change-view.png)

@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: f7501c88-b36a-590b-9cc4-dea607bda94b
     internal-label: Visual Experience Composer (VEC)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1382'
-ht-degree: 75%
+ht-degree: 74%
 ---
 # 可视化体验编辑器 (VEC)
 
@@ -33,7 +33,7 @@ VEC 是 [!DNL Adobe Target] 的主要功能之一。 通过 VEC，营销人员�
 >
 >如果页面包含混合内容（例如，安全网站中的非安全页面），某些浏览器（如 Firefox）可能会阻止页面在 VEC 中显示。 如果您的页面未显示，请单击浏览器地址栏中URL旁边的图标，然后单击&#x200B;**[!UICONTROL 在此页面上禁用保护]**。 此问题不会影响向网站访客显示页面。
 
-无法在 VEC 中修改页面上 iframe 中的内容。 要编辑 iframe 中的内容，请确保 iframe 文档已启用 Target，然后在 VEC 中加载该 iframe URL。
+无法在VEC中修改页面上iframe中的内容。 要编辑 iframe 中的内容，请确保 iframe 文档已启用 Target，然后在 VEC 中加载该 iframe URL。
 
 您可以使用页面顶部的下拉菜单来查看您的页面，因为它会显示给不同的受众或具有不同的体验。 您可以在第二个下拉列表中为每个体验提供一个名称。 例如，如果您要测试导航栏中主页链接的位置，则可以将主页链接显示在最前面的体验命名为诸如“主页链接”之类的名称，以便轻松地在列表中识别体验。
 
@@ -128,7 +128,7 @@ VEC 是 [!DNL Adobe Target] 的主要功能之一。 通过 VEC，营销人员�
 * 预览和构建响应式网站的体验
 * 使用叠加高亮显示元素类型
 
->[!VIDEO](https://video.tv.adobe.com/v/30330?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### 办公时间：可视化体验编辑器![教程徽章](/help/main/assets/tutorial.png)
 

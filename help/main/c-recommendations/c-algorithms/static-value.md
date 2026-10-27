@@ -2,7 +2,7 @@
 keywords: 包含规则；包含标准；推荐；促销活动；促销活动；动态筛选；静态；静态筛选
 description: 了解如何在Adobe [!DNL Target]推荐中手动输入一个或多个静态值以使用包含规则进行筛选。
 title: 如何在“推荐”活动中按静态值筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 TQID: 'https://experienceleague.adobe.com/-HTJO4YFi0-isyA-5LbVUaEPu7YX1WFgPy-OexMSXFY'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 43%
+source-wordcount: '250'
+ht-degree: 32%
 ---
 # [!UICONTROL 静态筛选]
 
@@ -33,7 +33,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->如果您熟悉 Target 17.6.1 版本（2017 年 6 月）之前的包含规则配置方式，那么您可能会注意到一些选项和运算符已经发生了变化。 为了更加一致和直观，现在，只有那些适用于选定选项的运算符才会显示，而且部分运算符进行了重命名（“匹配”现在为“等于”）。 此版本之前创建的所有已有排除规则均会迁移到新的结构中。 您不需要重新调整结构。
+>如果您熟悉Target 17.6.1版本（2017年6月）之前的包含规则配置方式，那么您可能会注意到一些选项和运算符已经发生了变化。 为了更加一致和直观，现在，只有那些适用于选定选项的运算符才会显示，而且部分运算符进行了重命名（“匹配”现在为“等于”）。 此版本之前创建的所有已有排除规则均会迁移到新的结构中。 您不需要重新调整结构。
 
 ## 推荐分级为G或PG的内容
 

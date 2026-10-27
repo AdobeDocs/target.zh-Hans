@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 46%
+source-wordcount: '1480'
+ht-degree: 45%
 ---
 # [!UICONTROL 多变量测试]概述
 
@@ -73,7 +73,7 @@ Target的[流量估算器](/help/main/c-activities/c-multivariate-testing/t-crea
 
 * 当您至少有三个元素要进行测试时，请使用 MVT 测试。 如果要测试的元素比这少，则运行一组 A/B 测试。
 * 选择您认为对结果影响最大的页面元素。
-* 不要在一个测试中包含太多的元素或位置。 数字越大，测试持续时间越长。
+* 请勿在测试中包含过多的元素或位置。 数字越大，测试持续时间越长。
 * 提前对测试设计进行规划。 当测试开始运行并开始收集和分析数据时，请勿对其进行编辑。
 * 元素之间应相互独立。
 
@@ -110,13 +110,13 @@ Target的[流量估算器](/help/main/c-activities/c-multivariate-testing/t-crea
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### 正在创建多变量测试(9:25) ![教程徽章](/help/main/assets/tutorial.png)
 
-此视频介绍如何使用Target三步引导式工作流来了解、规划和创建多变量测试。
+此视频介绍如何使用[!DNL]Target三步引导式工作流来了解、规划和创建多变量测试。
 
 * 定义和设计多变量测试
 * 创建多变量测试
 
->[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

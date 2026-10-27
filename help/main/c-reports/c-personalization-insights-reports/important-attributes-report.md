@@ -2,7 +2,7 @@
 keywords: 定位;AP 报告;自动个性化报告;自动定位;自动定位报告;个性化;洞察;FAQ;常见问题解答;重要属性
 description: 了解如何使用[!UICONTROL 重要属性]报表，该报表显示影响个性化模型的主要属性及其相对重要性。
 title: 重要属性报表是什么？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 TQID: 'https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo'
@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1937'
-ht-degree: 61%
+source-wordcount: '1949'
+ht-degree: 55%
 ---
 # 重要属性报表
 
@@ -73,7 +73,7 @@ ht-degree: 61%
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL 重要属性]报表只有在您激活活动至少15天后才能使用。 在此初始阶段，您将无法访问此报表，也无法单击“[!UICONTROL 重要属性]”图标。 15天过后，假定您的活动中有足够的个性化流量，即可使用[!UICONTROL 重要属性]报表。
+   >[!UICONTROL 重要属性]报表只有在您激活活动至少15天后才能使用。 在此初始期间，您将无法访问此报表或单击[!UICONTROL 重要属性]图标。 15天过后，假定您的活动中有足够的个性化流量，即可使用[!UICONTROL 重要属性]报表。
 
 1. 激活活动15天后，单击&#x200B;**[!UICONTROL 重要属性]** （![重要属性图标](/help/main/assets/icons/ViewList.svg) ）图标。
 
@@ -91,7 +91,7 @@ ht-degree: 61%
 
    >[!NOTE]
    >
-   >个性化洞察 UI 报告包含选择的信息。 “重要属性”报表的 CSV 下载包含其他详细信息。 下载的重要属性报表包含排名靠前的 100 个属性的完整列表，而 UI 报表则仅包含排名靠前的 10 个属性。 如果您要在报表中查找某个特定属性，但未找到该属性，这并不意味着该属性不会影响活动，而只是该属性没有列在排名靠前的 100 个属性中。
+   >个性化洞察 UI 报告包含选择的信息。 “重要属性”报表的 CSV 下载包含其他详细信息。 下载的重要属性报表包含排名靠前的 100 个属性的完整列表，而 UI 报表则仅包含排名靠前的 10 个属性。 如果您要在报表中查找特定属性，但该属性不存在，这并不意味着该属性不会影响活动，它只是没有列出前100个属性。
 
 ## 解释重要属性报表
 
@@ -110,7 +110,7 @@ ht-degree: 61%
 
 您的活动可能还不能使用[!UICONTROL Personalization Insights]报表的原因包括以下几点：
 
-* 激活活动后不满 15 天。 在您启动活动至少 15 天后，自动化区段和重要属性报表才可用。 在此初始阶段，您将无法访问这些报表，也无法单击“自动化区段”和“重要属性”图标。
+* 激活活动后不满 15 天。 自动化区段和重要属性报表只有在您开始活动至少15天后才能使用。 在此初始期间，您将无法访问这些报表，或单击自动化区段和重要属性图标。
 * 您的活动在指定的时间范围内没有足够的流量。 15 天过后，如果您的活动中有[足够的个性化流量](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)来构建个性化模型，将可以使用自动化区段和重要属性报表。
 * 您的活动包含收入优化目标。 目前，“[!UICONTROL 个性化分析]”仅适用于转化优化目标活动。 我们将在未来的版本中添加对收入优化目标活动的支持。
 
@@ -118,13 +118,13 @@ ht-degree: 61%
 
 属性是关于个性化算法为了解如何个性化流量而使用的访客或其特定访问的信息。 例如，属性可以是浏览器类型、位置、访问时间等。
 
-有关 [!DNL Target] 在其个性化模型中使用的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。 有关如何将新属性上传到 Target 以在 Target 的个性化模型中使用的更多信息，请参阅[将数据导入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}。
+有关 [!DNL Target] 在其个性化模型中使用的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。 有关如何将新属性上传到 Target 以在 Target 的个性化模型中使用的更多信息，请参阅[将数据导入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
-### 我看到一个或多个我不希望模型用于训练的属性。 我可以从训练模型中移除这些属性吗？ {#models-api}
+### 我看到一个或多个不希望模型用于训练的属性。 我可以从训练模型中移除这些属性吗？ {#models-api}
 
 [!UICONTROL 模型API]（也称为API）允许用户查看和管理机器学习模型中用于[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位] (AT)活动的属性（也称为功能）列表。 如果要排除一个或多个属性不被模型用于AP或AT活动，可以使用模型API将这些属性添加到“”中。
 
-有关详细信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[模型API概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hans){target=_blank}。 要使用API阻止属性，请参阅[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=zh-Hans){target=_blank}。
+有关详细信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[模型API概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}。 要使用API阻止属性，请参阅[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}。
 
 ### [!UICONTROL 自动化区段]和[!UICONTROL 重要属性]报表中的信息是否与CSV下载中的信息相同？
 

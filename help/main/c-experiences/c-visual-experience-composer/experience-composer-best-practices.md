@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2552'
-ht-degree: 49%
+source-wordcount: '2560'
+ht-degree: 46%
 ---
 # [!UICONTROL 可视化体验编辑器]最佳实践和限制
 
@@ -79,7 +79,7 @@ ht-degree: 49%
 +++详细信息
 在[!DNL Visual Experience Composer]中编辑CSS类时，使用描述性类名使类易于识别很有用。 这有助于确保您编辑的是正确的 CSS 类，并且您的页面会按预期显示。
 
-隐藏或删除元素时，请勿使用 `!important` CSS 属性。
+隐藏或删除元素时，请勿使用`!important` CSS属性。
 
 如果`!important` CSS属性存在，则`target.js`在交付期间所做的更改将会被站点的CSS规则覆盖。
 
@@ -124,7 +124,7 @@ ht-degree: 49%
 
 +++
 
-### 请勿在您的网站中使用基本标记来解析 URL 和链接。
+### 请勿在您的网站中使用基本标记来解析URL和链接。
 
 +++详细信息
 VEC使用更新链接的代理服务器在后台操作网站。 如果添加基本标记，则浏览器会再次解析代理服务器使用的 URL，这样 URL 会显示为已损坏。
@@ -141,9 +141,9 @@ VEC使用更新链接的代理服务器在后台操作网站。 如果添加基�
 
 每次更改都会在VEC中创建一个新元素。 因为第 2 个操作修改了 Element 1，如果删除 Element 1，则第 2 个操作将没有任何可修改的内容，因此更改不再有效。
 
-换言之，如果您添加一个带有文本的元素，然后在单独的操作中使用不同的文本对该元素进行编辑，则代码编辑器会将两种操作当做单独的元素显示。 在编辑元素时，您创建了一个新元素，该元素修改了之前创建的原始元素，在其中包含已编辑的文本。 如果删除了原始元素，则编辑后的文本将无法找到被编辑的元素，而且也不会显示出来。 第二个元素会保留在元素列表中，但不会对页面产生影响，因为它所更改的元素不再存在。
+换言之，如果您添加一个带有文本的元素，然后在单独的操作中使用不同的文本对该元素进行编辑，则代码编辑器会将两种操作当做单独的元素显示。 在编辑元素时，您创建了一个新元素，该元素修改了之前创建的原始元素，在其中包含已编辑的文本。 如果您随后删除原始元素，则编辑后的文本将无法找到已编辑的元素，并且不会显示。 第二个元素会保留在元素列表中，但不会对页面产生影响，因为它所更改的元素不再存在。
 
-查看[!UICONTROL 可视化体验编辑器]&#x200B;[&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)中使用的元素选择器。
+查看[!UICONTROL 可视化体验编辑器]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)中使用的[元素选择器。
 
 +++
 
@@ -188,7 +188,7 @@ VEC使用更新链接的代理服务器在后台操作网站。 如果添加基�
 
 +++
 
-### 请勿在您的网站中使用基本标记来解析 URL 和链接。
+### 请勿在您的网站中使用基本标记来解析URL和链接。
 
 +++详细信息
 当您使用[!UICONTROL 增强型体验编辑器]时，网站会在后台被代理服务器操作，该代理服务器会更新所有链接URL以使它们在代理中工作。 如果添加基本标记，则所有这些URL都将由浏览器解析，因此看起来已损坏。
@@ -265,7 +265,7 @@ VEC使用更新链接的代理服务器在后台操作网站。 如果添加基�
 ### [!UICONTROL 移动]功能不支持z-index。
 
 +++详细信息
-由于没有 z-index 功能，因此被移动的元素不能移动到其他元素上方。 有关详细信息，请参阅[限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
+由于没有z-index功能，因此被移动的元素无法移动到其他元素上方。 有关详细信息，请参阅[限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
 
 +++
 
@@ -323,7 +323,7 @@ VEC使用更新链接的代理服务器在后台操作网站。 如果添加基�
 ### 正在处理与[!DNL Chrome]扩展策略更改的VEC兼容性。 {#ext}
 
 +++详细信息
-由于Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新了V3清单策略，在浏览器分析原始DOM之前，扩展无法再对其进行修改。 因此，某些安全脚本（例如iframe-busting实施）可能会阻止页面在VEC中加载。
+由于Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新了[V3清单策略，在浏览器分析原始DOM之前，扩展无法再对其进行修改。 因此，某些安全脚本（例如iframe-busting实施）可能会阻止页面在VEC中加载。
 
 为确保兼容性，当页面加载到[!DNL Target] iframe中时，应有条件地禁用这些脚本。 通过检查`window.adobeVecExtension`对象的存在可以安全地完成此过程，该对象在VEC加载期间由[!DNL Target]注入。
 

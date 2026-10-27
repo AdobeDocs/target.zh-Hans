@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 41%
+source-wordcount: '1320'
+ht-degree: 40%
 ---
 # A4T 报表
 
@@ -81,7 +81,7 @@ ht-degree: 41%
 
   任何增加的数字在报表中都显示为正数，即使不需要增加时也是如此。 例如，虽然您希望降低跳出率，但是较高的跳出率会显示为具有最高提升度的入选者。 根据报表做出决策时，请留心这些量度及类似量度，并确定您是希望降低还是提高这些量度的数值。
 
-在活动开始后，甚至测试完成后，您都可以在[!DNL Target]中将量度或受众应用于报表。 您无需事先知晓要衡量的确切内容。
+在活动开始后，甚至测试完成后，您都可以在[!DNL Target]中将量度或受众应用于报表。 你不必事先知道你想测量什么。
 
 单击可直接从活动报告页面查看完整的[!DNL Analytics]报告。
 
@@ -103,7 +103,7 @@ ht-degree: 41%
 1. 单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]**。
 1. 在 **[!UICONTROL Data Warehouse 请求]**&#x200B;选项卡中，填写相应的字段。
 
-   有关各个字段的更多信息，请参阅 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=zh-Hans) 中的“Data Warehouse 请求描述”。
+   有关各个字段的更多信息，请参阅 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html) 中的“Data Warehouse 请求描述”。
 
    | 字段 | 说明 |
    |--- |--- |
@@ -123,5 +123,5 @@ ht-degree: 41%
 
 有关 [!DNL Data Warehouse] 的更多信息，请访问 [!DNL Analytics] 帮助文档中的以下链接：
 
-* [创建Data Warehouse请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=zh-Hans)
-* [Data Warehouse最佳实践](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=zh-Hans)
+* [创建Data Warehouse请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouse最佳实践](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

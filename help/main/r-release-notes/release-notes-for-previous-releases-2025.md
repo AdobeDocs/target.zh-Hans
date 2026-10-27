@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 2025年之前的版本中包括什么功能？
 feature: Release Notes
 TQID: 'https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw'
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '25397'
+source-wordcount: '25402'
 ht-degree: 5%
 ---
 # 以前版本的发行说明
@@ -83,7 +83,7 @@ ht-degree: 5%
 
 * **具有实体属性匹配的按属性列出的促销活动在活动保存后无法加载推荐键。** 修复了在保存活动后进行编辑时，类型为[!UICONTROL 按属性促销]、规则类型为[!UICONTROL 实体属性匹配]的促销未加载推荐键的问题。 问题是由未通过GraphQL请求`customKeyId`导致的。 现在，推荐键可在编辑促销活动期间正确加载。 (TGT-53117)
 * 从ExpB切换到ExpA时，**推荐会以可视方式持续存在。** 解决了在体验B中插入推荐，然后切换到体验A以使推荐选件框可见的问题。 这只是视觉上的不一致；现在，在体验之间切换时，修改可正确呈现，从而确保准确的UI行为。 (TGT-53911)
-* **推荐键未加载[!UICONTROL Promotion by Attribute]，其中[!UICONTROL 实体属性]匹配。** 解决了规则类型为[!UICONTROL 实体属性匹配]的“按属性促销”类型的促销活动在保存活动后进行编辑时无法加载推荐键的问题。 现在，可通过GraphQL正确检索推荐键，从而确保促销活动按预期显示和运行。 (TGT-53917)
+* **推荐键未加载[!UICONTROL Promotion by Attribute]，其中[!UICONTROL 实体属性]匹配。** 解决了规则类型为[!UICONTROL 实体属性匹配]的“按属性]促销”类型的促销活动在保存活动后进行编辑时无法加载推荐键的问题。 [!UICONTROL 现在，可通过GraphQL正确检索推荐键，从而确保促销活动按预期显示和运行。 (TGT-53917)
 * **编辑有关隐藏的HTML元素的推荐在更新的UI中不起作用。** 解决了[!UICONTROL 新建创建]和VEC UI中无法编辑应用于隐藏HTML元素的推荐活动的问题。 此功能现在可按预期工作，从而恢复与旧版UI的等同性，并确保无论元素可见性如何，推荐都可以修改。 (TGT-53953)
 * **无法在更新的UI中编辑隐藏HTML元素的推荐活动。** 解决了在更新的UI中，无法编辑应用于隐藏HTML元素的推荐活动的问题。 此功能现在可按预期工作，从而恢复与旧版UI的等同性，并确保无论元素可见性如何，推荐都可以修改。 (TGT-53951)
 * **推荐目录在更新的UI中间歇性地缺少属性值。** 解决了在更新的[!UICONTROL 推荐] UI中，目录搜索列表间歇性地无法显示某些属性值（例如，消息）的问题，即使该值存在于产品信息源中也是如此。 现在，搜索结果中的属性值加载一致，无需重新配置列，提高了目录管理的可靠性和效率。 (TGT-52769)
@@ -275,7 +275,7 @@ ht-degree: 5%
 
 +++查看详细信息
 
-* **已将特定于Target的Web SDK文档页面移动到Adobe Target存储库。** 作为Web SDK文档重构的一部分，特定于[!DNL Target]的内容已从常规Web SDK文档迁移到[!DNL Adobe Target] [开发人员指南](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此更改改进了内容可搜索性，并确保相应的产品团队维护特定于解决方案的指导。 (TGT-53374)
+* **已将特定于Target的Web SDK文档页面移动到Adobe Target存储库。** 作为Web SDK文档重构的一部分，特定于[!DNL Target]的内容已从常规Web SDK文档迁移到[!DNL Adobe Target] [开发人员指南](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此更改改进了内容可搜索性，并确保相应的产品团队维护特定于解决方案的指导。 (TGT-53374)
 
 +++
 
@@ -356,7 +356,7 @@ ht-degree: 5%
 * 同一数据流ID只能用于不同的连接，前提是它们是在不同的沙盒中配置的。
 * 此规则适用于所有数据流选择，包括选择“无”时。
 
-此更新可确保配置的一致性，并防止在多沙盒环境中发生冲突。 有关详细信息，请参阅&#x200B;*Adobe Target目标*&#x200B;指南中的[Experience Platform连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}。
+此更新可确保配置的一致性，并防止在多沙盒环境中发生冲突。 有关详细信息，请参阅&#x200B;*Adobe Target目标*&#x200B;指南中的[Experience Platform连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}。
 
 ### [!DNL Target Standard/Premium] 25.9.1（2025年9月5日）
 
@@ -1066,7 +1066,7 @@ ht-degree: 5%
 
 +++查看详细信息
 
-* 修复了从[!UICONTROL 报表]页面选择“将订单详细信息导出到CSV”导致下载空文件的问题。 即使活动中存在有效的订单数据，也会发生此问题。 (TGT-52225)
+* 修复了从[!UICONTROL 报表]页面选择“将订单详细信息导出到CSV]”导致下载空文件的问题。 [!UICONTROL 即使活动中存在有效的订单数据，也会发生此问题。 (TGT-52225)
 * 修复了在创建和分配新报表受众后尝试保存活动时的问题。 返回的错误消息为：“访问被拒绝。 要执行此操作，需要以下所有权限： [编辑器]。” 尽管用户具有审批者级别的访问权限，但还是出现了此问题。 (TGT-53103)
 
 +++
@@ -1246,7 +1246,7 @@ We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe
 
 [!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you are setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
 For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
 -->
@@ -1520,7 +1520,7 @@ For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/
 此更新基于最新的[!DNL Adobe Spectrum]设计系统，标准化了以前不一致的设计模式，同时添加了新的增强功能，例如：
 
 * [重新设计了报表](/help/main/administrating-target/reporting.md)，以便更好地了解活动结果。
-* [[!UICONTROL 已更新更改日志]](/help/main/c-activities/change-log.md)页面，现在从[[!DNL Audit Query API]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}获取信息以进行实时分析。
+* [[!UICONTROL 已更新更改日志]](/help/main/c-activities/change-log.md)页面，现在从[[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}获取信息以进行实时分析。
 * [可自定义的列表视图](/help/main/c-activities/activities.md)，以便在不同的团队需求之间提供更好的灵活性。
 * [增强的快速信息和详细信息屏幕](/help/main/c-activities/activities.md)，以便更轻松地访问信息。
 * [会话持久搜索和筛选器选项](/help/main/c-activities/activities.md)。

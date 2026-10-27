@@ -7,19 +7,22 @@ exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 TQID: https://experienceleague.adobe.com/72tenrUdLD52p36hO1O70-zhr1Cg0jTVLfKXUR7iNhU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 741
+source-wordcount: '742'
 ht-degree: 18%
-
 ---
-
 # mbox3rdPartyId 的实时轮廓同步
 
 [!DNL Adobe Target]中的`mbox3rdPartyId`是您公司的访客ID，例如您公司的忠诚度计划的会员ID。
@@ -55,17 +58,17 @@ ht-degree: 18%
 
 * 您可以使用两种方法将访客的客户ID发送到[!DNL Target]：
 
-   1. 使用`mbox3rdPartyId`/`thirdPartyId`。
+  1. 使用`mbox3rdPartyId`/`thirdPartyId`。
 
-      * 当您使用`targetPageParams`或`targetPageParamsAll`时，`mbox3rdPartyId`是参数名称
-      * `thirdPartyId`是您直接在投放API有效载荷中设置的参数名称。
-      * 您只能在此参数中发送一个值。
+     * 当您使用`targetPageParams`或`targetPageParamsAll`时，`mbox3rdPartyId`是参数名称
+     * `thirdPartyId`是您直接在投放API有效载荷中设置的参数名称。
+     * 您只能在此参数中发送一个值。
 
-   1. 使用ECID服务的`setCustomerId`/`customerIds`函数。
+  1. 使用ECID服务的`setCustomerId`/`customerIds`函数。
 
-      * `setCustomerId`是一个您可以在客户端（浏览器）实施中使用的函数，前提是页面上有VisitorAPI.js。
-      * `customerIds`是您在投放API有效载荷中直接设置它时使用的参数名称，通常在服务器端或IOT（物联网）实施中完成。
-      * 与`mbox3rdPartyId`/`thirdPartyId`不同，您可以在此方法中将多个ID作为列表发送，但由于[!DNL Target]仅支持每个TnT ID一个客户ID，因此它使用具有已知别名（在客户属性UI中配置的别名）的列表中的第一个ID。
+     * `setCustomerId`是一个您可以在客户端（浏览器）实施中使用的函数，前提是页面上有VisitorAPI.js。
+     * `customerIds`是您在投放API有效载荷中直接设置它时使用的参数名称，通常在服务器端或IOT（物联网）实施中完成。
+     * 与`mbox3rdPartyId`/`thirdPartyId`不同，您可以在此方法中将多个ID作为列表发送，但由于[!DNL Target]仅支持每个TnT ID一个客户ID，因此它使用具有已知别名（在客户属性UI中配置的别名）的列表中的第一个ID。
 
   如果[!DNL Target]是您唯一的[!DNL Adobe Experience Cloud]解决方案并且您不想使用客户属性，则可以使用`mbox3rdPartyId`/`thirdPartyId`。 对于所有其他情况，我们建议您使用`setCustomerId`/`customerIds`来发送客户ID。
 

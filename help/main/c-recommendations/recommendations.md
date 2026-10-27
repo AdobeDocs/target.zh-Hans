@@ -2,7 +2,7 @@
 keywords: 推荐;推荐标准;推荐算法;推荐活动;标准;推荐定向;推荐
 description: 了解Adobe [!DNL Target]中的“推荐”活动，这些活动根据以前的用户活动或其他算法自动显示可能让客户感兴趣的内容。
 title: 什么是[!DNL Target]推荐？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 TQID: 'https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA'
@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 91%
+source-wordcount: '872'
+ht-degree: 88%
 ---
 # 推荐
 
@@ -66,7 +66,7 @@ ht-degree: 91%
 
 ## 术语
 
-在开始使用 [!DNL Recommendations] 之前，熟悉本节中使用的一些术语很有帮助。 如果尚未完全理解这些术语，也不必担心，随着您设置自己的 [!DNL Recommendations] 活动，您将更加熟悉这些术语。
+在开始使用 [!DNL Recommendations] 之前，熟悉本节中使用的一些术语很有帮助。 如果尚未完全理解这些术语，也不必担心，随着您设置[!DNL Recommendations]活动，您将更加熟悉这些术语。
 
 | 术语 | 定义 |
 | --- | --- |
@@ -89,7 +89,7 @@ ht-degree: 91%
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 <!--
 ## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}

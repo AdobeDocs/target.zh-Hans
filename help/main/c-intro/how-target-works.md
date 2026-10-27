@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2289'
 ht-degree: 20%
 ---
 # [!DNL Adobe Target] 的工作原理
@@ -69,19 +69,19 @@ ht-degree: 20%
 
 Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：此客户端JavaScript库允许[!DNL Adobe Experience Cloud]客户通过[!DNL Experience Platform Edge Network]与各种服务进行交互。 [!DNL Adobe]建议新[!DNL Target]客户实施[!DNL Experience Platform Web SDK]。
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：此客户端JavaScript库允许[!DNL Adobe Experience Cloud]客户通过[!DNL Experience Platform Edge Network]与各种服务进行交互。 [!DNL Adobe]建议新[!DNL Target]客户实施[!DNL Experience Platform Web SDK]。
 * **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**：此[!DNL Target]实现库可缩短Web实施的页面加载时间，并为单页应用程序提供更好的选项。 经常更新新功能，[!DNL Adobe]建议所有[at.js用户更新到最新版本](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 >[!NOTE]
 >
 >mbox.js库是[!DNL Target]的旧版实施，在2021年3月31日之后不再受支持。 升级到[!UICONTROL Experience Platform Web SDK]（首选）或最新版本的at.js。
 
-请在您网站的每个页面上引用[!UICONTROL Experience Platform Web SDK]或at.js。 例如，将其中一个库添加到您的全局标头。 或者，使用Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home){target=_blank}中的标记实现[!DNL Target]。
+请在您网站的每个页面上引用[!UICONTROL Experience Platform Web SDK]或at.js。 例如，将其中一个库添加到您的全局标头。 或者，使用Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}中的[标记实现[!DNL Target]。
 
 以下资源包含帮助您实施 [!DNL Experience Platform Web SDK] 或 at.js 的详细信息：
 
-* [[!DNL Adobe Experience Platform Web SDK]扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=zh-Hans){target=_blank}
-* [使用 [!DNL Adobe Experience Platform]实施 [!DNL Target] &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK]扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [使用 [!DNL Adobe Experience Platform]实施 [!DNL Target] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 每次访客请求访问针对[!DNL Target]进行优化的页面时，系统都会向定位系统发送实时请求，以确定要提供的内容。 每次加载页面时都会提出并完成此请求，受营销人员控制的活动和体验的约束。 内容针对个别网站访客，可最大限度地提高响应率、客户获取率和收入。 个性化内容有助于确保访客做出响应、与之互动或进行购买。
 
@@ -213,7 +213,7 @@ Edge集群处理距离访客最近的请求，而不是从单个位置处理所�
 >
 >[!DNL Target]当前在中国缺少Edge群集，从而限制了该区域[!DNL Target]客户的访客性能。 防火墙和Edge群集的缺失可能会影响站点体验，导致渲染和页面加载时间变慢。 此外，营销人员在使用[!DNL Target]创作UI时可能会遇到延迟问题。
 
-如果需要，可将 [!DNL Target] 边缘群集列入允许列表。 有关更多信息，请参阅[将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
+如果需要，可将 [!DNL Target] 边缘群集列入允许列表。 有关更多信息，请参阅[将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -244,7 +244,7 @@ Edge集群处理距离访客最近的请求，而不是从单个位置处理所�
 
 * **使用rel=&quot;canonical&quot;**：有时A/B测试需要不同的URL才能测试变体。 在这些情况下，所有变体都应当包含引用原始（控制）URL的rel=&quot;canonical&quot;标记。 例如，如果[!DNL Adobe]正在测试其主页，其中对每个变体使用不同的URL，则主页的以下canonical标记应放置在每个变体的`<head>`标记中：
 
-  `<link rel="canonical" href="https://www.adobe.com/cn" />`
+  `<link rel="canonical" href="https://www.adobe.com" />`
 
 * **使用302（临时）重定向**：当测试中的变体页面使用单独的URL时，[!DNL Google]建议使用302重定向将流量定向到测试变体。 302重定向会通知搜索引擎，该重定向是临时的，仅在测试运行时有效。
 

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 29%
+source-wordcount: '1156'
+ht-degree: 27%
 ---
 # 排除与[!UICONTROL 可视化体验编辑器]相关的问题
 
@@ -47,14 +47,14 @@ ht-degree: 29%
 
 +++
 
-## 我的页面无法在 EEC 中打开，或者加载速度缓慢。 活动或体验在 VEC 中的加载速度缓慢。 （仅 VEC） {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## 我的页面无法在EEC中打开，或加载缓慢。 活动或体验在 VEC 中的加载速度缓慢。 （仅 VEC） {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++详细信息
 若干问题可能会影响[!UICONTROL Target]体验编辑器中的页面性能。 一些常见的问题包括：
 
 * 您的页面上没有 mbox。
 * 您的网站使用了代理阻止，该功能不允许在任一体验编辑器中打开页面。
-* 您的网站不允许在 iFrame 中自行打开。
+* 您的站点不允许在iFrame中打开自身。
 
 如果[!UICONTROL 增强型体验编辑器]中出现问题，请尝试关闭[!UICONTROL 增强型体验编辑器]，然后改用[!UICONTROL 可视化体验编辑器]。
 
@@ -169,7 +169,7 @@ ht-degree: 29%
 ## 当我使用[!UICONTROL 浏览]模式时，VEC显示为已损坏。 （仅 VEC） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++详细信息
-使用[!UICONTROL 浏览]模式时，如果您访问的URL未实现[!DNL Target]库（[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=zh-Hans){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}）或包含frame-buster标头，则VEC显示为已损坏。 由于浏览器安全问题，[!DNL Target]无法正确访问您导航到的URL，或者如果页面加载，VEC URL不会一致更新。
+使用[!UICONTROL 浏览]模式时，如果您访问的URL未实现[!DNL Target]库（[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}）或包含frame-buster标头，则VEC显示为已损坏。 由于浏览器安全问题，[!DNL Target]无法正确访问您导航到的URL，或者如果页面加载，VEC URL不会一致更新。
 
 出现此问题的原因是VEC在`<iframe>`中加载了网页。 由于相同源策略，浏览器的当前安全机制阻止[!DNL Target] UI访问给定帧的元素。 浏览器阻止脚本尝试访问具有不同来源且包含`location.href`等信息的帧。
 

@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '838'
 ht-degree: 52%
 ---
 # [!UICONTROL 可视化编辑帮助程序]扩展
@@ -74,12 +74,12 @@ ht-degree: 52%
 
 ## 获取并安装[!UICONTROL 可视化编辑帮助程序]浏览器扩展
 
-1. 导航到Chrome网上应用商店[&#128279;](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}中的[!DNL Adobe Experience Cloud] [!UICONTROL 可视化编辑帮助程序]浏览器扩展。
+1. 导航到Chrome网上应用商店](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}中的[[!DNL Adobe Experience Cloud] [!UICONTROL 可视化编辑帮助程序]浏览器扩展。
 1. 单击&#x200B;**[!UICONTROL 添加到Chrome]** > **[!UICONTROL 添加扩展]**。
 1. 打开 [!DNL Target] 中的 VEC。
 1. 若要使用该扩展，请在VEC或QA模式下单击Chrome浏览器工具栏中的[!UICONTROL 可视化编辑帮助程序]浏览器扩展图标（![可视化编辑扩展图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）。
 
-   在[!UICONTROL Target] VEC中打开网站以进行创作时，[!UICONTROL 可视化编辑帮助程序]会自动启用。 该扩展不具有任何有条件的设置。 该扩展会自动处理所有设置，包括 SameSite cookie 设置。
+   在[!UICONTROL Target] VEC中打开网站以进行创作时，[!UICONTROL 可视化编辑帮助程序]会自动启用。 该扩展没有任何条件设置。 该扩展会自动处理所有设置，包括 SameSite cookie 设置。
 
    若要了解有关`SameSite=None`属性浏览器修复的更多信息，请参阅“最近公布的 Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？” （在[排除与可视体验编辑器和增强体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)中）。
 

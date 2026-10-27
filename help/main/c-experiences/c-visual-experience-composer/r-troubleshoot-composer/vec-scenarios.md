@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 90%
+source-wordcount: '533'
+ht-degree: 87%
 ---
 # 页面修改方案
 
@@ -95,7 +95,7 @@ Target 选择器可决定要在何处显示体验。 如果页面在 Target 之�
 
 **结果：**
 
-选择器无法正常工作，因为 `ul.nav:eq(0)` 提供了一个动态添加的元素。 此元素将不可用，并且操作也无法应用。 创建活动后，如果动态或手动添加具有相同类的相似列表项目，则会在第一个位置上创建一个新元素。 这会破坏选择器。
+选择器无法正常工作，因为 `ul.nav:eq(0)` 提供了一个动态添加的元素。 元素将不可用，并且不会应用操作。 创建活动后，如果动态或手动添加具有相同类的相似列表项目，则会在第一个位置上创建一个新元素。 这会破坏选择器。
 
 之前：
 

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 31%
+source-wordcount: '1274'
+ht-degree: 29%
 ---
 # 与[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器]和[!UICONTROL 增强型体验编辑器]相关的问题疑难解答
 
@@ -139,7 +139,7 @@ ht-degree: 31%
 
 +++
 
-## 我无法编辑防 iFrame 嵌套网站的体验。 （VEC 和 EEC） {#section_9FE266B964314F2EB75604B4D7047200}
+## 我无法编辑防iFrame嵌套网站的体验。 （VEC 和 EEC） {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++详细信息
 通过启用[!UICONTROL 增强型体验编辑器] (EEC)，可以解决此问题。 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]**，然后选中启用[!UICONTROL 增强型体验编辑器]的复选框。 EEC使用[!DNL Adobe]管理的代理加载您的页面以进行编辑。 此代理允许在iFrame-busting网站上进行编辑，并允许在尚未添加[!DNL Adobe Target]代码的网站和页面上进行编辑。 在添加代码之前，活动不会向网站交付内容。 某些网站可能无法通过EEC加载，在这种情况下，您可以取消选中此选项以通过iFrame加载EEC。
@@ -153,7 +153,7 @@ ht-degree: 31%
 ## 我想在尚未完成mbox/[!DNL Target]实施的页面上设置测试。 （VEC 和 EEC） {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++详细信息
-请参阅上面的“我无法编辑防 iFrame 嵌套网站的体验”。
+请参阅上面的“我无法编辑iFrame-bursting网站的体验”。
 
 +++
 

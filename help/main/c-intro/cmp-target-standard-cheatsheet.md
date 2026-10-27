@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2913'
-ht-degree: 50%
+source-wordcount: '2918'
+ht-degree: 48%
 ---
 # Target 优化和个性化常见问题解答
 
@@ -87,14 +87,14 @@ ht-degree: 50%
 **[!DNL Adobe]是否有社区/论坛，以便我可以找到关于[!DNL Target]的答案和更多信息？**
 
 +++查看详细信息
-在[Target社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hans){target=_blank}中与其他[!DNL Target]从业人员联系。 与使用[!DNL Target]推动个性化和实验的其他人分享您的专业知识、提出问题并开展协作。 一个欣欣向荣的社区有赖于积极的参与。 您的见解和经验可以帮助他人成功。 快速入门，贡献内容，找到您需要的答案。
+在[Target社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中与其他[!DNL Target]从业人员联系。 与使用[!DNL Target]推动个性化和实验的其他人分享您的专业知识、提出问题并开展协作。 一个欣欣向荣的社区有赖于积极的参与。 您的见解和经验可以帮助他人成功。 快速入门，贡献内容，找到您需要的答案。
 
 +++
 
 **[!DNL Target]支持哪些浏览器？**
 
 +++查看详细信息
-有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hans){target=_blank}矩阵图。 请注意，支持的界面有两方面：[!DNL Target Standard/Premium]以及桌面/设备上的最终用户浏览器支持。
+有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩阵图。 请注意，支持的界面有两方面：[!DNL Target Standard/Premium]以及桌面/设备上的最终用户浏览器支持。
 
 [!DNL Target]接口支持[!DNL Safari]。 您可以在[!DNL Safari]中创建基于表单的活动，并使用所有功能，但[!DNL Safari]不支持的[!UICONTROL 可视化体验编辑器] (VEC)和[!UICONTROL 增强型体验编辑器] (EEC)除外。 要在VEC或EEC中编辑体验，请使用[!DNL Google Chrome]。
 
@@ -185,7 +185,7 @@ ht-degree: 50%
 **我是否可以安排在固定时间开始和结束活动？**
 
 +++查看详细信息
-通过指定开始日期和结束日期，使用三步活动工作流的[!UICONTROL 目标和设置]&#x200B;[&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步骤中的计划功能。
+通过指定开始日期和结束日期，使用三步活动工作流的[!UICONTROL 目标和设置]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步骤中的[计划功能。
 
 请记住激活该活动。 只有实时活动才遵守指定的计划。 达到结束日期后，活动将进入[!UICONTROL 已结束]状态。
 
@@ -274,7 +274,7 @@ ht-degree: 50%
 请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -291,7 +291,7 @@ ht-degree: 50%
 **我厌烦了当我尝试在[!UICONTROL 可视化体验编辑器] (VEC)中加载我的页面时，一直看到“允许您的浏览器加载脚本”消息。 怎样才能让我不再看到这条消息？**
 
 +++查看详细信息
-这是因为您的网站具有混合内容，它是一个同时获取HTTP和HTTPS资源的网站。 请让您的 IT 团队将网站内容全部移到 HTTPS。
+这是因为您的网站具有混合内容 — 它是一个同时获取HTTP和HTTPS资源的网站。 请让您的 IT 团队将网站内容全部移到 HTTPS。
 
 在此之前，请按照[在浏览器中启用混合内容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的说明操作，以允许浏览器加载混合内容。 这是目前大多数浏览器采用的一种安全功能。
 
@@ -325,11 +325,11 @@ ht-degree: 50%
 **我有多个域。 其中一个域需要启用[!UICONTROL 增强型体验编辑器]，而其他域则需要禁用它。 我该如何处理？**
 
 +++查看详细信息
-您始终可以使用活动级别[&#128279;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的增强型体验编辑器选项来覆盖默认设置（[!UICONTROL 管理] > [!UICONTROL 可视化体验编辑器]）。
+您始终可以使用活动级别](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的[增强型体验编辑器选项来覆盖默认设置（[!UICONTROL 管理] > [!UICONTROL 可视化体验编辑器]）。
 
 +++
 
-**为何我看不到交换图像的选项？**
+**为什么我看不到交换图像的选项？**
 
 +++查看详细信息
 联系 Adobe 以[确保已为 Scene7 设置您的帐户](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5)。 配置完毕后，您将可以轻松地将图像与其他图像进行交换。
@@ -395,7 +395,7 @@ ht-degree: 50%
 **为什么 QA 过程中未进行内容交付？**
 
 +++查看详细信息
-您的网站可能拥有动态 ID、重复 ID 或元素上的动态类。 您可能必须在帐户级别（或者在活动级别，如果问题特定于域或页面）评估网站首选项的选项。 请参阅 [CSS 选择器](/help/main/administrating-target/visual-experience-composer-set-up.md#css)。
+您的网站可能会在元素上具有动态ID、重复ID或动态类。 您可能必须在帐户级别（或者在活动级别，如果问题特定于域或页面）评估网站首选项的选项。 请参阅 [CSS 选择器](/help/main/administrating-target/visual-experience-composer-set-up.md#css)。
 
 +++
 
@@ -421,7 +421,7 @@ ht-degree: 50%
 请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -440,7 +440,7 @@ ht-degree: 50%
 **我无法在运行活动之前定义受众。 我发现[!DNL Target]活动中报表受众的这一方面很具限制性。 怎样才可以让这个过程更轻松一点？**
 
 +++查看详细信息
-这就涉及 [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的方便之处。 如果您有[!DNL Adobe Analytics]，只需将源选择为[!DNL Analytics]即可，这将消除此限制。 现在，您可以在任何时间对任何受众进行分析，而无需预先定义报表受众。
+这就涉及 [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的方便之处。 如果您有[!DNL Adobe Analytics]，只需将源选择为[!DNL Analytics]即可，这将消除此限制。 现在，您可以随时对任何受众执行分析，而无需预先定义报表受众。
 
 +++
 
@@ -454,7 +454,7 @@ ht-degree: 50%
 **我是否可以更改用于评估报表的控制体验，或将计数方法从[!UICONTROL 访客]更改为[!UICONTROL 访问]？**
 
 +++查看详细信息
-使用[&#128279;](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮可进行这些更改。 阅读更多有关这些设置的信息，了解计算结果的差异。
+使用](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮[可进行这些更改。 阅读更多有关这些设置的信息，了解计算结果的差异。
 
 +++
 
@@ -495,6 +495,6 @@ ht-degree: 50%
 **我可以在何处了解有关[!DNL Target] API的更多信息？**
 
 +++查看详细信息
-我们提供了关于 API 的详尽文档。 请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}。
+我们提供了关于 API 的详尽文档。 请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。
 
 +++

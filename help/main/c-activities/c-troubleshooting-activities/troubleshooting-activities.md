@@ -1,5 +1,5 @@
 ---
-keywords: Target 故障诊断;默认内容;测试未处于实时状态;活动未处于实时状态;定位无法运行;显示之前的体验;无法创建活动;创建活动;页面结构发生更改;页面结构已修改;错误消息;删除轮廓脚本时出错;ajax 无法运行
+keywords: Target故障诊断；默认内容；测试未处于实时状态；活动未处于实时状态；定位无法运行；显示之前的体验；无法创建活动；创建活动；页面结构发生更改；页面结构已修改；错误消息；删除配置文件脚本时出错；ajax无法运行
 description: 查找如果您的网站上不显示您的Adobe [!DNL Target]活动的故障排除建议。
 title: 如何为活动排除故障？
 feature: Activities
@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 41%
+source-wordcount: '870'
+ht-degree: 36%
 ---
 # 活动故障诊断
 
@@ -119,7 +119,7 @@ ht-degree: 41%
 
 **验证：**&#x200B;使用[!UICONTROL 冲突]选项卡查看其他活动是否正在运行。
 
-**注意：**&#x200B;[!UICONTROL 冲突]选项卡不适用于模板测试模块。
+**注意：**[!UICONTROL 冲突]选项卡不适用于模板测试模块。
 
 **选项：**
 

@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 29%
+source-wordcount: '514'
+ht-degree: 23%
 ---
 # 与[!UICONTROL 增强型体验编辑器]相关的问题疑难解答
 
 在某些情况下，[!DNL Adobe Target] [!UICONTROL 增强型体验编辑器] (EEC)有时会发生显示问题。
 
-## EEC 无法加载在公共 IP 上不可访问的内部 QA URL。 {#section_D29E96911D5C401889B5EACE267F13CF}
+## EEC无法加载在公共IP上不可访问的内部QA URL。 {#section_D29E96911D5C401889B5EACE267F13CF}
 
 
 +++详细信息
@@ -153,16 +153,16 @@ ht-degree: 29%
 
   **补救措施：**&#x200B;允许列表上面列出的IP地址。
 
-* **问题：** IP地址已，但您的网站不支持TLS版本1.2。 [!DNL Target]当前使用默认配置1.2。 在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。 有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hans){target=_blank}。
+* **问题：** IP地址已，但您的网站不支持TLS版本1.2。 [!DNL Target]当前使用默认配置1.2。 在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。 有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}。
 
   **解决方案：**&#x200B;请参阅以下问题（[!UICONTROL 增强型可视化体验编辑器]不会在使用TLS 1.2的网站的安全页面上加载）。
 
 +++
 
-## EEC 无法加载使用 TLS 1.0 的网站上的安全页面。 （仅 EEC） {#section_C5B31E3D32A844F68E5A8153BD17551F}
+## EEC无法加载使用TLS 1.0的网站上的安全页面。 （仅 EEC） {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++详细信息
-您可能会看到上文“无法在我的网站的安全页面上加载[!UICONTROL 增强型可视化体验编辑器]”中描述的错误消息。 如果上述IP地址已列入允许列表，但您的网站不支持TLS版本1.2。 [!DNL Target]当前使用默认配置1.2。 在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。 有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hans){target=_blank}。
+您可能会看到上文“无法在我的网站的安全页面上加载[!UICONTROL 增强型可视化体验编辑器]”中描述的错误消息。 如果上述IP地址已列入允许列表，但您的网站不支持TLS版本1.2。 [!DNL Target]当前使用默认配置1.2。 在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。 有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}。
 
 要使用 Firefox 检查您网站上的 TLS 版本（使用其他浏览器的步骤相似），请执行以下操作：
 
@@ -179,7 +179,7 @@ ht-degree: 29%
 
    ![firefox_more_info_3图像](assets/firefox_more_info_3.png)
 
-1. 如果您发现您的网站显示的是TLS 1.0，请参阅[TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hans){target=_blank}以了解有关Target的TLS支持策略的信息。 若要补救当前情况（有效期至2018年9月12日）{target=_blank}，请联系[客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以获取TLS版本和域的配置。
+1. 如果您发现您的网站显示的是TLS 1.0，请参阅[TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}以了解有关Target的TLS支持策略的信息。 若要补救当前情况（有效期至2018年9月12日）{target=_blank}，请联系[客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以获取TLS版本和域的配置。
 
 +++
 

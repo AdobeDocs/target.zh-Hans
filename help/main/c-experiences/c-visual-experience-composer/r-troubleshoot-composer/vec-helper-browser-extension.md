@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 48%
 ---
 # [!UICONTROL 可视化体验编辑器]帮助程序扩展
@@ -79,7 +79,7 @@ SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CS
 
 ## 获取并安装 VEC 助手浏览器扩展
 
-1. 导航到Chrome网上应用商店[&#128279;](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)中的Adobe Target VEC助手浏览器扩展。
+1. 导航到Chrome网上应用商店](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)中的[Adobe Target VEC助手浏览器扩展。
 1. 单击&#x200B;**[!UICONTROL 添加到Chrome >添加扩展]**。
 1. 打开 [!DNL Target] 中的 VEC。
 1. 要使用此扩展，请在处于 VEC 或 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)时，单击 Chrome 浏览器工具栏中的 VEC 助手浏览器扩展图标 (![VEC 助手图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。

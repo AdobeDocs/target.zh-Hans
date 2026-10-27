@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 61%
+source-wordcount: '479'
+ht-degree: 57%
 ---
 # 初始配置 - A4T 常见问题解答
 
@@ -62,14 +62,14 @@ ht-degree: 61%
 
 +++
 
-## 为何在 Target 中看不到 Analytics 选项？ {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## 为什么在Target中看不到Analytics选项？ {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 +++回答
 请参阅“我的报表包为何没有加载？” 上面。 这个问题的根本原因同上。
 
 +++
 
-## 为何在 Analytics 中看不到 A4T 报表？ {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## 为何在Analytics中看不到A4T报表？ {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 +++回答
 请参阅“我的报表包为何没有加载？” （见上文）。 这个问题的根本原因同上。

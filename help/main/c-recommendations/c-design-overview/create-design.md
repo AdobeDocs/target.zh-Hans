@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 23%
+source-wordcount: '1069'
+ht-degree: 21%
 ---
 # 创建设计
 
@@ -170,7 +170,7 @@ ht-degree: 23%
    | `[YOUR_CLIENT_CODE]` | Target客户端代码（位于#recsSettings >推荐API令牌>客户端代码）。 |
    | `[YOUR_MBOX_NAME]` | 您在基于表单的“推荐”的“位置”部分中选择的名称，在本例中为Sample_Recs_Response。 |
    | `[ENTITY_ID` | 您目录中的项目的 `entity.id`。 |
-   | `[AT_PROPERTY_TOKEN]` | （可选）如果您在活动设置过程中选择了某个属性（“企业权限”的一部分），则需添加此参数。 |
+   | `[AT_PROPERTY_TOKEN]` | （可选）如果在活动设置期间选择了资产（企业权限的一部分），请添加。 |
 
 在运行算法并获取结果后，您的响应应当类似于以下示例：
 

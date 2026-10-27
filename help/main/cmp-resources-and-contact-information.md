@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1334'
 ht-degree: 76%
 ---
 # 资源和联系信息
@@ -44,7 +44,7 @@ ht-degree: 76%
 
 发现[!UICONTROL Adobe Target社区]：您的见解和协作中心。
 
-[!UICONTROL Adobe Target社区论坛]是您[!DNL Adobe Targe]t所有内容的首选目标。 无论您是刚刚入门还是经验丰富的从业者，该社区都提供了宝贵的机会，使您能够：
+[!UICONTROL Adobe Target社区论坛]是您[!DNL Adobe Targe]t所有内容的首选目标。 无论您是刚刚入门还是经验丰富的从业者，该社区都为您提供了宝贵的机会，以便：
 
 * **探索[!DNL Target]功能**：了解最佳实践并探索使用[!DNL Target]的新方法。
 * **连接和协作**：与同行和[!DNL Adobe]专家互动以共享见解并一起解决挑战。

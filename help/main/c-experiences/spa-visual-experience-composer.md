@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 56%
+source-wordcount: '3960'
+ht-degree: 55%
 ---
 # 单页面应用程序 (SPA) 可视化体验编辑器
 
@@ -383,7 +383,7 @@ adobe.target.getOffers({
 | [自动个性化](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |
 | [推荐](/help/main/c-recommendations/recommendations.md) | 否 |
 
-**如果安装了 at.js 2.x 并在网站上实施了 `triggerView()`，则在 SPA VEC 不支持自动锁定时，我们该如何运行自动锁定 A/B 活动？**
+**如果安装了at.js 2.x并在网站上实施了`triggerView()`，则在SPA VEC不支持自动定位时，我们该如何运行自动定位A/B活动？**
 
 如果要使用自动锁定 A/B 活动，可以在 VEC 中移动所有要在页面加载事件中执行的操作。 将鼠标悬停在每个操作上，然后单击[!UICONTROL 移动到页面加载事件]按钮。 完成此操作后，在下一步中，您可以为流量分配方法选择“自动锁定”。
 

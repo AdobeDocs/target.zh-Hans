@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 41%
+source-wordcount: '713'
+ht-degree: 34%
 ---
 # 添加促销活动
 
@@ -33,7 +33,7 @@ ht-degree: 41%
 
 创建 [!DNL Recommendations] 活动时，您可以选择将促销项目包含在您的 [!DNL Recommendations] 设计中。 促销活动使用设计中的可用版块，且优先于标准结果和备用推荐。 例如，如果您的设计中有六个版块，而您将其中两个用于促销活动，则其余四个可用于基于标准推荐的项目。
 
-系统将根据按标准为您的活动推荐的项目删除重复的促销活动，以便给定的项目不会在同一个推荐栏中出现两次。
+系统将根据按标准为您的活动推荐的项目删除重复的促销活动，以便给定的项目不会在单个推荐栏中出现两次。
 
 您可以促销特定项目、动态促销项目、基于属性促销项目或促销收藏集。
 

@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2259'
-ht-degree: 14%
+source-wordcount: '2260'
+ht-degree: 13%
 ---
 # 使用动态和静态包含规则
 
@@ -122,7 +122,7 @@ ht-degree: 14%
 
 | 操作 | 适用选项 | 详细信息 |
 |--- |--- |--- |
-| [!UICONTROL 忽略此筛选规则] | [!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 此操作是[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配]的默认操作。<P>该选项指定忽略该规则。 例如，如果有三个筛选规则，第三个规则不传递任何值，则您只需忽略具有空值的第三个规则，而不是不返回任何结果。 |
+| [!UICONTROL 忽略此筛选规则] | [!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 此操作是[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配]的默认操作。<P>该选项指定忽略该规则。 例如，如果有三个筛选规则，且第三个规则未传递任何值，则您可以忽略具有空值的第三个规则，而不返回任何结果。 |
 | [!UICONTROL 不显示此条件的任何结果]<P>（仅限标准） | [!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 此操作是[!UICONTROL 实体属性匹配]的默认操作。<P>此操作是[!DNL Target]在添加此选项之前处理空值的方式：不显示此条件的结果。 |
 | [!UICONTROL 不促销任何项目<P>（仅限促销活动）] | [!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 此操作是[!UICONTROL 实体属性匹配]的默认操作。<P>此操作是[!DNL Target]在添加此选项之前处理空值的方式：不显示此条件的结果。 |
 | [!UICONTROL 使用静态值] | [!UICONTROL 实体属性匹配]、[!UICONTROL 配置文件属性匹配]和[!UICONTROL 参数匹配] | 如果值为空，您可以选择使用静态值。 |

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 56%
+source-wordcount: '648'
+ht-degree: 50%
 ---
 # 授予 Adobe I/O 集成访问工作区的权限并分配角色
 
@@ -60,7 +60,7 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->如果未执行这项操作，则在 [!DNL Target] 2019 年 9 月版发布之后，访问控制将会激活，而且如果您当前设置为仅访问默认工作区，那么您将看到激活后也只能访问默认工作区。 预先设置集成不会产生不良影响。 越早完成更改越好。 根据组织中的工作区数量，此过程只需单击几次，即可使用所需的角色将现有集成添加到工作区中。
+>如果未执行这项操作，则在[!DNL Target] 2019年9月版发布之后，访问控制将会激活，而且如果您当前设置为仅访问默认工作区，那么您将看到激活后也只能访问默认工作区。 预先设置集成不会产生不良影响。 越早完成更改越好。 根据组织中的工作区数量，此过程只需单击几次，即可使用所需的角色将现有集成添加到工作区中。
 
 **要授予 Adobe I/O 集成访问工作区的权限并分配角色，请执行以下操作：**
 

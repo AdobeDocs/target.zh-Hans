@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4434'
-ht-degree: 25%
+source-wordcount: '4442'
+ht-degree: 24%
 ---
 # 使推荐基于推荐键
 
@@ -368,7 +368,7 @@ if (tier) return tier;
 
 用例可能包括：
 
-* 您想要推荐管理的自定义列表中的影片，但“仅”当访客尚未观看这些影片时才进行推荐。
+* 您想从策划的自定义列表中推荐电影，但前提是访客尚未观看这些电影。
 * 您要运行离线算法并使用结果来支持推荐，但必须确保从不推荐缺货项目。
 * 您想要只包含属于访客最喜爱类别的项目。
 
@@ -419,7 +419,7 @@ if (tier) return tier;
 1. 从&#x200B;**[!UICONTROL 推荐键]**&#x200B;下拉列表中选择自定义配置文件属性（例如，“[!UICONTROL 上次添加到观看列表的节目]”）。
 1. 然后选择您的&#x200B;**[!UICONTROL 推荐逻辑]**（例如，[!UICONTROL 查看了这个项目，也查看了那个项目]的人员）。
 
-如果自定义轮廓属性与单个实体 ID 不直接匹配，则需要向 [!DNL Recommendations] 说明您希望如何与实体进行匹配。 例如，假设您要显示访客最喜爱的品牌中的最畅销商品项目。
+如果自定义配置文件属性与单个实体ID不直接匹配，则需要向[!DNL Recommendations]说明您希望如何与实体进行匹配。 例如，假设您要显示访客最喜爱的品牌中的最畅销商品项目。
 
 1. 从&#x200B;**[!UICONTROL 推荐键]**&#x200B;下拉列表中选择自定义配置文件属性（例如，“最喜爱的品牌”）。
 

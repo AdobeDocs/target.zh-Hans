@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 55%
+source-wordcount: '626'
+ht-degree: 54%
 ---
 # [!UICONTROL 多变量测试]最佳实践
 
@@ -34,7 +34,7 @@ ht-degree: 55%
 
 ## 创建 {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
-* 在测试中仅包含所需数量的组合，切勿包含多余组合。
+* 请勿包含测试所需的任意组合。
 
   测试的组合每增加一个即会显著增加实现可接受结果所需的流量和时间。 例如，如果您有 3 个位置，每个位置具有 3 个产品建议，则总共会有 27 种可能的组合 (3x3x3)。 如果在 3 个位置中，有 2 个位置包含 3 个可能的产品建议，而另外 1 个位置具有 2 个产品建议，则总共会有 18 种可能的组合 (3x3x2)。 每增加一个位置和选件，组合的数量均会显著增多。
 

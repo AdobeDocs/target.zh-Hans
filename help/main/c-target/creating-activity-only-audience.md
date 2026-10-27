@@ -1,24 +1,26 @@
 ---
 keywords: 受众;受众规则;创建受众;仅限该活动;临时
-description: 了解如何在Adobe [!DNL Target] 中创建一次性使用的仅限该活动的受众。
+description: 了解如何在Adobe [!DNL Target]中创建一次性使用的仅限该活动的受众。
 title: 能否创建只使用一次的受众？
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 TQID: https://experienceleague.adobe.com/IWQT8Lw7uXxY8znUlzOIB-92M2sdjvMj91Ut-gAvZVU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: '479'
 ht-degree: 30%
-
 ---
-
 # 创建仅限活动的受众
 
 创建活动时，可在[!DNL Adobe Target]三步引导式工作流中创建仅限该活动的受众。 这些临时受众可用于同一活动内的其他位置，但不会存储在[!UICONTROL 受众库]中，因此无法用于其他活动。
@@ -59,5 +61,5 @@ ht-degree: 30%
 
   您可以使用以下替代方案来使用“排除规则”：
 
-   * [创建和使用库受众](/help/main/c-target/c-audiences/create-audience.md)，而不是仅用于活动的受众。
-   * [将多个](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)（最多20个）库受众合并为仅限该活动的受众。 在组合受众时，即使组合受众另存为仅限该活动的受众，也可以在各个库受众中使用包含和排除规则。
+  * [创建和使用库受众](/help/main/c-target/c-audiences/create-audience.md)，而不是仅用于活动的受众。
+  * [将多个](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)（最多20个）库受众合并为仅限该活动的受众。 在组合受众时，即使组合受众另存为仅限该活动的受众，也可以在各个库受众中使用包含和排除规则。

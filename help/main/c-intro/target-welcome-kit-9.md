@@ -1,6 +1,6 @@
 ---
 keywords: 欢迎套件;target 欢迎套件;简介;简介;开始使用
-description: 您已在 Adobe Target 中创建了您的第一个活动。 接下来做什么？ 使用本文查找其他资源、培训教程和操作方法视频的链接。
+description: 您已在Adobe Target中创建了您的第一个活动。 接下来做什么？ 使用本文查找其他资源、培训教程和操作方法视频的链接。
 title: 可在何处找到其他资源以更有效地使用 Target？
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
@@ -29,16 +29,16 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 79%
+source-wordcount: '708'
+ht-degree: 77%
 ---
 # 第 9 章：后续步骤和资源
 
-我们已经介绍了运行您的第一个活动的基础知识。 我们希望该活动向您和您的公司表明，使用 [!DNL Adobe Target] 进行优化和个性化对于提高业务盈利能力有着巨大潜力。 而这仅仅是开始。 您应该考虑一下对于您的第二个活动将侧重于什么方面？ 请考虑创建要优先运行的活动的列表。 您将惊讶地发现，您能以多快的速度在一个个活动中改善客户体验并推动业务成功。
+我们已经介绍了运行您的第一个活动的基础知识。 我们希望该活动向您和您的公司表明，使用 [!DNL Adobe Target] 进行优化和个性化对于提高业务盈利能力有着巨大潜力。 而这仅仅是开始。 您应该考虑一下对于您的第二项活动将侧重于哪些方面？ 请考虑创建要优先运行的活动的列表。 您将惊讶地发现，您能以多快的速度在一个个活动中改善客户体验并推动业务成功。
 
-顺便说一下，您还有许多方式可详细了解测试、个性化和使用 [!DNL Target]。 请查看下方的资源列表以开始积累这些知识。 收听我们的网络研讨会、阅读 Adobe Target 博客、参加 Adobe Summit 并在 Adobe Target 网络社区中积极交流。 不要忘记，我们一直以来都致力于帮助您启动项目并迈向成功之路。 请随时联系。
+顺便说一下，您还有许多方式可详细了解测试、个性化和使用 [!DNL Target]。 请查看下方的资源列表以开始积累这些知识。 收听我们的网络研讨会、阅读 Adobe Target 博客、参加 Adobe Summit 并在 Adobe Target 网络社区中积极交流。 请不要忘记，我们一直以来都致力于帮助您启动项目并迈向成功之路。 请随时联系。
 
 我们已整理好有条理的重要信息列表，以帮助您获得更多关于使用[!DNL Target]进行优化和个性化的知识。
 

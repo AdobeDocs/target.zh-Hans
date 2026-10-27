@@ -24,9 +24,9 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '896'
 ht-degree: 0%
 ---
 # [!DNL Adobe Target] MCP服务器 — 用例和演练 {#target-mcp-use-cases}
@@ -56,7 +56,7 @@ ht-degree: 0%
 | **收入分析** | “获取活动AT4821的订单和收入报表，并总结哪个体验为每位访客带来了最大的收入。” |
 | **A4T报告** | “提取A4T报告用于我的签出优化测试，并汇总Analytics端转化数据。” |
 | **活动分析** | “了解我的‘夏季促销横幅’测试 — 性能是什么样的，是否存在任何异常？” |
-| **受众管理** | “列出所有以移动用户为目标的受众，并向我展示他们关联的活动。” |
+| **受众管理** | “列出所有以移动用户为目标的受众，并向我显示他们关联的活动。” |
 | **QA和预览** | “为活动12345生成QA预览URL，以便我可以在激活之前查看所有变体。” |
 <!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
 | **实施审核** |“配置了什么版本的at.js，哪些响应令牌当前处于活动状态？” |

@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Web experience
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 97%
+source-wordcount: '2528'
+ht-degree: 95%
 ---
 # 术语表
 
@@ -231,7 +231,7 @@ Target Standard 中活动的可视化表现形式。
 
 **Form-Based Experience Composer（基于表单的体验编辑器）**
 
-一个非可视化体验和产品建议创建界面，当可视化体验编辑器不可用或不实用时，它有助于创建在 A/B 测试、体验定位、自动个性化和“推荐”活动中使用的体验。 例如，您可以使用基于表单的编辑器为电子邮件、网亭和语音助手中的交付创建体验和产品建议。
+一个非可视化体验和选件创建界面，当可视化体验编辑器不可用或不实用时，它有助于创建在A/B测试、体验定位、Automated Personalization和“推荐”活动中使用的体验。 例如，您可以使用基于表单的编辑器为电子邮件、网亭和语音助手中的交付创建体验和产品建议。
 
 ## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 

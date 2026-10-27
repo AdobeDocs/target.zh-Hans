@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 68%
+source-wordcount: '536'
+ht-degree: 64%
 ---
 # 使用备用推荐
 
@@ -37,7 +37,7 @@ ht-degree: 68%
 >
 >其他信息包含在创建标准[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)主题的内容部分中，其中包括一个矩阵，该矩阵说明了当同时或单独使用[!UICONTROL 局部设计渲染]和[!UICONTROL 显示备份推荐]选项时将观察到的结果。
 
-备用推荐功能始终使用网站上查看次数最多的项目来填充使用算法数据之后剩余的任何空位。 例如，您的模板配置为显示 5 个推荐项目，并且您使用的是“*购买相关性*”算法。 然而，您仅有足够的数据来填充 5 个位置中的两个，那么备用推荐功能就会使用查看最多的项目来填充其它 3 个位置。
+备用推荐功能始终使用网站上查看次数最多的项目来填充使用算法数据之后剩余的任何空位。 例如，您的模板配置为显示五个推荐项目，并且您使用的是&#x200B;*购买亲和度*&#x200B;算法。 然而，您仅有足够的数据来填充 5 个位置中的两个，那么备用推荐功能就会使用查看最多的项目来填充其它 3 个位置。
 
 备用推荐是从整个网站中前 500 个查看次数最多的产品中随机选择的。 备用推荐的数据时间段为一周。
 

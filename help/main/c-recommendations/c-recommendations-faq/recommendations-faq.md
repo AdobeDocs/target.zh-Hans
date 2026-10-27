@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3560'
-ht-degree: 80%
+source-wordcount: '3565'
+ht-degree: 77%
 ---
 # “推荐”常见问题解答
 
@@ -59,7 +59,7 @@ ht-degree: 80%
 
 * 如果某个项目之前已被排除但现在应该添加，该项目将包含在下一次算法运行（12-24 个小时）中。
 
-  出现此情形是因为 [!DNL Target] 会在线和离线应用排除项。 如果某个项目是新排除的，会快速应用在线排除项。 如果某个项目是新添加的，在线排除项会快速消失，但离线排除项一直到下一次运行算法时才会消失。
+  出现此情形是因为 [!DNL Target] 会在线和离线应用排除项。 如果某个项目是新排除的，会快速应用在线排除项。 如果某个项目是新添加的，在线排除项会快速消失，但离线排除项直到下一次运行算法才会消失。
 
 * 如果某个项目之前已添加但现在应该排除，则会根据“项目属性已更新……”排除该项目。 上文讨论的时间线取决于信息源来源（通过mbox/API为15分钟，通过信息源为12-24小时）。
 
@@ -108,11 +108,11 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## 创建“推荐”活动时，为何并不是所有标准（包括自定义标准）都可选择？ {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## 在创建推荐活动时，为何不是所有标准（包括自定义标准）都可以选择？ {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 可用的标准依据当前类别而定。 在创建推荐产品建议时，算法选取器根据类别 ID 显示标准。
 
-如果要应用标准的位置不包含类别 ID，则算法选择器中不会提供相应的标准。
+如果要应用标准的位置不包含类别ID，则算法选择器中不会提供某些标准。
 
 如果使用 mbox 中存在类别 ID 的位置，则标准选取器包含所有适用的标准。
 
@@ -205,7 +205,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果您编辑现有标准、促销活动或模板测试规则，则会显示筛选标准以及在创建期间提供的 mbox 名称。
 
-## 在定义新受众后，为什么我无法保存旧版“推荐”活动？ {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## 定义新受众后，为何无法保存旧版“推荐”活动？ {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 确保受众具有唯一的名称。 如果您为受众指定了与现有受众相同的名称，则无法保存旧版“推荐”活动（在 2016 年 10 月之前创建的“推荐”活动）。
 
@@ -229,7 +229,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 >[!NOTE]
 >
->如果排除的实体过多，则推荐所表现出的行为就像是没有足够的实体来填充推荐模板。
+>如果排除的实体过多，则Recommendations所表现出的行为就像是没有足够的实体来填充推荐模板。
 
 要排除 `entityIds`，请将 `&excludes=${mbox.excludedIds}` 令牌追加到产品建议内容 URL。 在提取了内容 URL 之后，所需参数将使用当前的 mbox 请求参数替代。
 

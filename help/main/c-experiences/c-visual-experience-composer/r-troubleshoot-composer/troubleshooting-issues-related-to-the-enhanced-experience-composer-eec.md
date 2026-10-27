@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 29%
+source-wordcount: '514'
+ht-degree: 23%
 ---
 # 与[!UICONTROL 增强型体验编辑器]相关的问题疑难解答
 
 在某些情况下，[!DNL Adobe Target] [!UICONTROL 增强型体验编辑器] (EEC)有时会发生显示问题。
 
-## EEC 无法加载在公共 IP 上不可访问的内部 QA URL。 {#section_D29E96911D5C401889B5EACE267F13CF}
+## EEC无法加载在公共IP上不可访问的内部QA URL。 {#section_D29E96911D5C401889B5EACE267F13CF}
 
 
 +++详细信息
@@ -159,7 +159,7 @@ ht-degree: 29%
 
 +++
 
-## EEC 无法加载使用 TLS 1.0 的网站上的安全页面。 （仅 EEC） {#section_C5B31E3D32A844F68E5A8153BD17551F}
+## EEC无法加载使用TLS 1.0的网站上的安全页面。 （仅 EEC） {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++详细信息
 您可能会看到上文“无法在我的网站的安全页面上加载[!UICONTROL 增强型可视化体验编辑器]”中描述的错误消息。 如果上述IP地址已列入允许列表，但您的网站不支持TLS版本1.2。 [!DNL Target]当前使用默认配置1.2。 在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。 有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hans){target=_blank}。

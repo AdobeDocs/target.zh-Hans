@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2934'
-ht-degree: 48%
+source-wordcount: '2937'
+ht-degree: 47%
 ---
 # 创建标准
 
@@ -47,7 +47,7 @@ ht-degree: 48%
 
 1. 键入&#x200B;**[!UICONTROL 标准名称]**。
 
-   这是用于描述标准的“内部”名称。 例如，您可能希望将标准命名为“利润最高的产品”，但是不希望公开显示此名称。 请参阅下一步骤，以设置公开显示的标题。
+   这是用于描述标准的“内部”名称。 例如，您可能希望将您的标准称为“最高利润产品”，但不希望该标题公开显示。 请参阅下一步骤，以设置公开显示的标题。
 
    ![基本信息部分](assets/basic-information.png)
 
@@ -125,7 +125,7 @@ ht-degree: 48%
 
    如果您的网站拥有大量流量且行为更改频繁，请选择较短的数据范围。 较短的范围可使 [!DNL Recommendations] 能够更好地响应市场和业务的变化。 例如，较短的范围意味着 [!DNL Recommendations] 将在访客开始季节性购物时就检测到访客行为的变化（例如返校购物季或圣诞节），并推荐适合这些购物季的项目。
 
-   如果您没有大量数据，或访客行为不经常更改，则您可以选择较长的范围。 但是，对于许多网站，较短的窗口会产生质量较高的推荐。
+   如果您没有大量数据，或访客行为没有频繁更改，则可以选择更长的窗口。 但是，对于许多网站，较短的窗口会产生质量较高的推荐。
 
    可用的数据范围包括：
 

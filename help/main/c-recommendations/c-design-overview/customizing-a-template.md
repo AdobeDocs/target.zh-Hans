@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 32%
+source-wordcount: '1095'
+ht-degree: 28%
 ---
 # 使用[!DNL Velocity]自定义设计
 
@@ -257,7 +257,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 * 如果存在第五个实体，脚本将插入一个闭合 div，并使用 `<div class="at-table-row">` 另起一个新行。
 * 在 4x2 设计中，显示的结果最多为 8 个，但可以通过修改 `$count <=8` 对该值进行自定义，以适应较小或较大的列表。
-* 请注意，该逻辑无法将实体均衡地分布在多个行上。 例如，如果有五个或六个实体要显示，则不会动态地变为顶行显示三个，底行显示两个（或顶行显示三个，底行显示三个）。 顶行将显示四个项目后，才会另起一行。
+* 请注意，该逻辑不会将实体均衡地分布在多个行上。 例如，如果有五个或六个实体要显示，则不会动态地变为顶行显示三个，底行显示两个（或顶行显示三个，底行显示三个）。 顶行将显示四个项目后，才会另起一行。
 
 ```
 <div class="at-table">

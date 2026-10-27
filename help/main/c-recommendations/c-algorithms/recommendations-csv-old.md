@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 32%
+source-wordcount: '738'
+ht-degree: 29%
 ---
 # 上传自定义标准
 
@@ -68,7 +68,7 @@ ht-degree: 32%
 
 * 自定义标准更新默认为“累计”。 CSV 上传文件中指定的新键值对会覆盖现有的键值对。 没有在CSV上传中指定键的现有键值对仍可用于交付，并且会在上次将其作为CSV文件的一部分上传后的31天内过期。
 
-  要使设置能够放弃下一次 CSV 上传中未包含的现有结果，请与客户关怀团队联系。 如果启用此设置，则只有自定义CSV馈送文件中存在的键可用于交付。 此设置适用于所有自定义标准。
+  请联系客户关怀以启用相应设置，从而放弃未包含在下次CSV上传中的现有结果。 如果启用此设置，则只有自定义CSV馈送文件中存在的键可用于交付。 此设置适用于所有自定义标准。
 
 * 自定义标准信息源每 24 小时更新一次。
 

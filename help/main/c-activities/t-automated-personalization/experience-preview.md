@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 48%
+source-wordcount: '748'
+ht-degree: 41%
 ---
 # 用体验预览 URL 预览 Automated Personalization 活动
 
@@ -42,7 +42,7 @@ ht-degree: 48%
 
    您可以添加多个 URL，如果您在运行一个多页面测试或模板测试，并且想要在多个页面上预览活动，则需要使用多个 URL。
 
-   模态窗口显示指向您网站上体验的链接，以便在[!DNL Target] VEC之外获得体验的“真实预览”。 您必须通过共享消息中的链接来共享预览。 如果单击链接，然后从页面复制生成的 URL，则不会起作用，因为 URL 包含只有在从消息中的链接访问页面时才会正确显示页面的参数。 应当采取的正确操作是，复制模态窗口中的文本，然后通过电子邮件将整个文本发送给您的团队。
+   模态窗口显示指向您网站上体验的链接，以便在[!DNL Target] VEC之外获得体验的“真实预览”。 您必须通过共享消息中的链接来共享预览。 单击链接并从页面复制生成的URL不起作用，因为该URL包含一个参数，只有在您从消息中的链接访问页面时，该参数才会正确显示页面。 应当采取的正确操作是，复制模态窗口中的文本，然后通过电子邮件将整个文本发送给您的团队。
 
 1. 单击&#x200B;**[!UICONTROL 生成所有]**，然后单击每个体验进行预览。
 
@@ -76,7 +76,7 @@ ht-degree: 48%
 
 **使用体验预览URL查看体验**
 
-* 只要页面未发生更改，便可预览任何已保存的活动。
+* 只要页面未发生更改，任何已保存活动的预览都会起作用。
 * 无论活动处于活动状态还是非活动状态，体验预览URL均可用。
 * 您无法预览处于[!UICONTROL 草稿]状态的体验。
 * 查看体验预览URL不会影响报表。

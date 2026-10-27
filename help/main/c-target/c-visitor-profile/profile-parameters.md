@@ -1,27 +1,32 @@
 ---
 keywords: 轮廓脚本;轮廓脚本属性;轮廓脚本最佳实践;调试;调试;脚本;轮廓脚本;属性;属性;参数
-description: 了解访客专属的一些属性，这些属性存储在访客的轮廓中，以提供可在您的 Adobe  [!DNL Target]  活动中使用的信息。
+description: 了解访客专属的一些属性，这些属性存储在访客的配置文件中，以提供可在您的Adobe [!DNL Target]活动中使用的信息。
 title: 什么是轮廓属性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 2520
-ht-degree: 88%
-
+source-wordcount: '2523'
+ht-degree: 86%
 ---
-
 # 轮廓属性
 
 [!DNL Adobe Target] 中的轮廓属性是特定于某个访客的参数。 这些属性存储在该访客的轮廓中，以提供可在您的活动中使用的关于该访客的信息。
@@ -89,7 +94,7 @@ if (mbox.name == 'Track_Interest') {
 * 参数和值区分大小写。 请对照您在活动或测试期间收到的参数和值的大小写。
 * 有关更多 JavaScript 语法，请参阅下方的“脚本轮廓参数的 JavaScript 参考”部分。
 * 禁用脚本后，参数保留在轮廓中。 对于用户，如果其轮廓已包含活动受众使用的参数，则符合该活动的资格。
-* 不能删除活动中正在使用的轮廓脚本。
+* 无法删除活动中正在使用的配置文件脚本。
 * 建议不要创建在一个轮廓脚本中使用另一个轮廓脚本所得结果的依赖性轮廓脚本。 因为无法保证轮廓脚本执行的顺序。
 
 ## 查看轮廓脚本信息卡片 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -149,11 +154,11 @@ if (mbox.name == 'Track_Interest') {
 
   作为最佳实践：
 
-   * 使轮廓脚本保持小规模且尽可能简洁。
-   * 避免使用正则表达式或仅使用简单的正则表达式。 即使简单的表达式也需要使用许多指令求值。
-   * 避免出现递归。
-   * 应测试轮廓脚本的性能后再将轮廓脚本添加到 [!DNL Target]。 在每次执行 mbox 请求时执行所有轮廓脚本。 如果轮廓脚本无法正确执行，则执行 mbox 请求耗时更长，而这可能会影响流量和转化。
-   * 如果轮廓脚本过于复杂，请考虑改为使用[响应令牌](/help/main/administrating-target/response-tokens.md)。
+  * 使轮廓脚本保持小规模且尽可能简洁。
+  * 避免使用正则表达式或仅使用简单的正则表达式。 即使简单的表达式也需要使用许多指令求值。
+  * 避免出现递归。
+  * 应测试轮廓脚本的性能后再将轮廓脚本添加到 [!DNL Target]。 在每次执行 mbox 请求时执行所有轮廓脚本。 如果轮廓脚本无法正确执行，则执行 mbox 请求耗时更长，而这可能会影响流量和转化。
+  * 如果轮廓脚本过于复杂，请考虑改为使用[响应令牌](/help/main/administrating-target/response-tokens.md)。
 
 * 有关更多信息，请参阅 JS Rhino 引擎文档。
 
@@ -267,7 +272,7 @@ else if (mbox.param("adobeQA"))
 | `user.get('<par_name>')` | 返回为当前访客设置的“`user.<par_name>`”值；如果尚未设置任何值，则返回 null。 |
 | `user.categoryAffinity` | 返回最佳类别的名称。 |
 | `user.categoryAffinities` | 返回具有最佳类别的数组。 |
-| `user.isFirstSession` | 如果这是访客的第一个会话，则返回 true。 |
+| `user.isFirstSession` | 如果这是访客的第一个会话，则返回true。 |
 | `user.browser` | 返回 HTTP 标头中的用户代理。 例如，您可以创建仅针对 Safari 用户的表达式目标：`if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
 
 ### 常用运算符

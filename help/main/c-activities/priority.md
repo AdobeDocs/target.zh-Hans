@@ -1,6 +1,6 @@
 ---
 keywords: 设置;优先级
-description: 了解[!DNL Adobe Target]如何根据您使用的[!DNL Target]界面和活动创建功能，以不同方式确定要交付给页面的活动（或多个活动）。
+description: 了解[!DNL Adobe Target]如何根据您使用的[!DNL Target]界面和活动创建功能，以不同的方式确定要交付给页面的活动（或多个活动）。
 title: '[!DNL Target]如何为不同的活动分配优先级？'
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '993'
 ht-degree: 34%
 ---
 # 优先级

@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
     internal-label: Auto target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 20%
+source-wordcount: '2104'
+ht-degree: 18%
 ---
 # [!UICONTROL 自动定位]概述
 
@@ -127,7 +127,7 @@ ht-degree: 20%
 
 * 多臂老虎机确保模型始终“花费”一小部分流量以在活动学习的整个生命周期中继续学习，并防止过度利用之前学习到的趋势。
 * 使用最新的访客行为数据每24小时重建一次基础模型，以确保[!DNL Target]始终利用不断变化的访客偏好设置。
-* 如果该算法无法为个人用户确定入选体验，则会自动切换为显示总体性能最佳的体验，同时仍继续查找个性化入选者。 使用[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling)查找性能最佳的体验。
+* 如果算法无法确定个人的入选体验，它会自动切换到显示总体最佳性能体验的模式，同时继续查找个性化的入选体验。 使用[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling)查找性能最佳的体验。
 
 ### 算法会不断针对单个目标量度进行优化。
 
@@ -139,7 +139,7 @@ ht-degree: 20%
 
 ### [!DNL Target]自动使用所有[!DNL Adobe Experience Cloud]共享受众来构建个性化模型。
 
-* 您无需执行任何特定操作来将受众添加到模型中。 有关将 [!DNL Experience Cloud Audiences] 与 [!DNL Target] 配合使用的信息，请参阅 [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)。
+* 您无需执行任何特定操作即可将受众添加到模型。 有关将 [!DNL Experience Cloud Audiences] 与 [!DNL Target] 配合使用的信息，请参阅 [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)。
 
 ### 营销人员可以上传离线数据、倾向得分或其他自定义数据来构建个性化模型。
 
@@ -151,7 +151,7 @@ ht-degree: 20%
 
 尽管生成[!UICONTROL 自动定位]或[!UICONTROL 自动Personalization]模型所需的每个体验&#x200B;*的流量*&#x200B;相同，但[!UICONTROL Automated Personalization]活动中的体验通常比[!UICONTROL 自动定位]活动中的体验更多。
 
-例如，如果您有一个[!UICONTROL 自动Personalization]活动，其中包含两个位置，且您已为每个位置创建两个选件，则该活动中总共将包含四个(2 = 4)体验（不含排除项）。 使用[!UICONTROL 自动定位]，您可以将体验1设置为在位置1中包含选件1，在位置2中包含选件2，将体验2设置为在位置1中包含选件1，在位置2中包含选件2。 由于[!UICONTROL 自动定位]允许您选择在一个体验中进行多次更改，因此您可以减少活动中的体验总数。
+例如，如果您有一个[!UICONTROL 自动Personalization]活动，其中包含两个位置，且您已为每个位置创建两个选件，则该活动中将共包含四个(2 = 4)体验（不含排除项）。 使用[!UICONTROL 自动定位]，您可以将体验1设置为在位置1中包含选件1，在位置2中包含选件2，将体验2设置为在位置1中包含选件1，在位置2中包含选件2。 由于[!UICONTROL 自动定位]允许您选择在一个体验中进行多次更改，因此您可以减少活动中的体验总数。
 
 对于[!UICONTROL 自动定位]，可以使用简单的经验规则来了解流量要求：
 

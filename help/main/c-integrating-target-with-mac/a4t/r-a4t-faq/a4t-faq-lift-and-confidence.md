@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 25%
+source-wordcount: '550'
+ht-degree: 21%
 ---
 # 提升度和置信度 - A4T 常见问题解答
 
@@ -48,7 +48,7 @@ ht-degree: 25%
 
 +++
 
-## 我为何看不到计算量度的提升度和置信度？ {#lift-confidence}
+## 为什么在计算指标上看不到提升和置信度？ {#lift-confidence}
 
 +++回答
 提升和置信度函数当前不支持计算量度。 Analytics在聚合级别（而非访客级别）计算指标。 置信度是一种访客级别的计算。
@@ -69,7 +69,7 @@ ht-degree: 25%
 
 +++
 
-## Ad Hoc 和 Report Builder 中是否会计算提升度和置信度？ 如果不会在本机计算，那么我能否自行计算？ {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
+## Ad Hoc 和 Report Builder 中是否会计算提升度和置信度？ 如果不是原生的，我可以在那里自己做吗？ {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 +++回答
 Ad Hoc 或 Report Builder 中不会计算提升度和置信度，而且您也无法为连续变量自行计算。 但是，可以手动为二进制量度计算提升度和置信度。

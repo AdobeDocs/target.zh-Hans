@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2913'
-ht-degree: 50%
+source-wordcount: '2918'
+ht-degree: 48%
 ---
 # Target 优化和个性化常见问题解答
 
@@ -291,7 +291,7 @@ ht-degree: 50%
 **我厌烦了当我尝试在[!UICONTROL 可视化体验编辑器] (VEC)中加载我的页面时，一直看到“允许您的浏览器加载脚本”消息。 怎样才能让我不再看到这条消息？**
 
 +++查看详细信息
-这是因为您的网站具有混合内容，它是一个同时获取HTTP和HTTPS资源的网站。 请让您的 IT 团队将网站内容全部移到 HTTPS。
+这是因为您的网站具有混合内容 — 它是一个同时获取HTTP和HTTPS资源的网站。 请让您的 IT 团队将网站内容全部移到 HTTPS。
 
 在此之前，请按照[在浏览器中启用混合内容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的说明操作，以允许浏览器加载混合内容。 这是目前大多数浏览器采用的一种安全功能。
 
@@ -329,7 +329,7 @@ ht-degree: 50%
 
 +++
 
-**为何我看不到交换图像的选项？**
+**为什么我看不到交换图像的选项？**
 
 +++查看详细信息
 联系 Adobe 以[确保已为 Scene7 设置您的帐户](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5)。 配置完毕后，您将可以轻松地将图像与其他图像进行交换。
@@ -395,7 +395,7 @@ ht-degree: 50%
 **为什么 QA 过程中未进行内容交付？**
 
 +++查看详细信息
-您的网站可能拥有动态 ID、重复 ID 或元素上的动态类。 您可能必须在帐户级别（或者在活动级别，如果问题特定于域或页面）评估网站首选项的选项。 请参阅 [CSS 选择器](/help/main/administrating-target/visual-experience-composer-set-up.md#css)。
+您的网站可能会在元素上具有动态ID、重复ID或动态类。 您可能必须在帐户级别（或者在活动级别，如果问题特定于域或页面）评估网站首选项的选项。 请参阅 [CSS 选择器](/help/main/administrating-target/visual-experience-composer-set-up.md#css)。
 
 +++
 
@@ -440,7 +440,7 @@ ht-degree: 50%
 **我无法在运行活动之前定义受众。 我发现[!DNL Target]活动中报表受众的这一方面很具限制性。 怎样才可以让这个过程更轻松一点？**
 
 +++查看详细信息
-这就涉及 [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的方便之处。 如果您有[!DNL Adobe Analytics]，只需将源选择为[!DNL Analytics]即可，这将消除此限制。 现在，您可以在任何时间对任何受众进行分析，而无需预先定义报表受众。
+这就涉及 [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的方便之处。 如果您有[!DNL Adobe Analytics]，只需将源选择为[!DNL Analytics]即可，这将消除此限制。 现在，您可以随时对任何受众执行分析，而无需预先定义报表受众。
 
 +++
 

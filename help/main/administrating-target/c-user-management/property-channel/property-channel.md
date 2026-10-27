@@ -9,33 +9,48 @@ exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 TQID: https://experienceleague.adobe.com/-BGfedOu33CmhLMoKT543SebVtnp-H3DiWhmwO9OkCw
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: e22d67ea-317b-44f8-abd1-52e07f636ca8
+    internal-label: Reporting
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 3233
-ht-degree: 47%
-
+source-wordcount: '3255'
+ht-degree: 48%
 ---
-
 # 企业用户权限
 
 企业用户权限是一种正式管理企业范围用户对[!DNL Adobe Target]访问权限的方法。 将用户添加到[!DNL Target]，根据其角色分配权限，并根据不同的部门、全局位置、渠道和其他逻辑分组为团队创建工作区。 您可以为用户分配[!UICONTROL 观察者]、[!UICONTROL 编辑者]、[!UICONTROL 审批者]或[!UICONTROL 发布者]的角色。
@@ -171,7 +186,7 @@ Web 属性是一个规则库和一种嵌入代码。 Web 属性可以是一个�
 ### 跨国组织
 
 如果您所在的组织是跨国组织，则您可能拥有两个工作区：一个用于欧洲网页、属性或网站，而另一个用于美国网页、属性或网站。
-重组后，使用上图中的角色，您可以设置类似于以下的工作区和权限：
+重组后，使用上图中的用户画像，您可以设置类似于以下所述的工作区和权限：
 
 * **Jan**：Jan 是该组织美国网页、属性和网站的卓越中心优化负责人。 她可能在 Adobe Experience Cloud 中拥有系统管理员权限。
 
@@ -231,40 +246,40 @@ Web 属性是一个规则库和一种嵌入代码。 Web 属性可以是一个�
 * **重要信息**：请勿删除包含活动的工作区。 如果删除包含活动的工作区，请与客户关怀团队合作以恢复这些活动。
 * 在使用“我的所有工作区”视图时：
 
-   * 您可以查看您拥有适当角色和访问权限的所有工作区的活动、受众和选件。
-   * 当您选择[!UICONTROL 我的所有工作区]视图时，会在“活动”、“受众”和“选件”页面中添加一个新列。 此列列出项目的工作区以及与该项目关联的用户权限（观察者、编辑者或审批者），
-   * 在“我的所有工作区”视图中创建活动、受众或选件时，必须选择要在其中创建项目的工作区。 只能选择您拥有编辑者或审批者权限的工作区。
-   * 在“我的所有工作区”视图中复制活动、受众或选件时，必须选择要在其中复制项目的工作区。 只能选择您拥有编辑者或审批者权限的工作区。
+  * 您可以查看您拥有适当角色和访问权限的所有工作区的活动、受众和选件。
+  * 当您选择[!UICONTROL 我的所有工作区]视图时，会在“活动”、“受众”和“选件”页面中添加一个新列。 此列列出项目的工作区以及与该项目关联的用户权限（观察者、编辑者或审批者），
+  * 在“我的所有工作区”视图中创建活动、受众或选件时，必须选择要在其中创建项目的工作区。 只能选择您拥有编辑者或审批者权限的工作区。
+  * 在“我的所有工作区”视图中复制活动、受众或选件时，必须选择要在其中复制项目的工作区。 只能选择您拥有编辑者或审批者权限的工作区。
 
 * 任何工作区中的任何[!UICONTROL 审批者]都可以控制以下[!UICONTROL 管理]页面上的任何设置：
 
-   * 可视化体验编辑器
-   * 报表
-   * Scene7配置
-   * 实施
-   * 属性
-   * 主机
-   * 环境
-   * 响应令牌
-   * 用户
+  * 可视化体验编辑器
+  * 报表
+  * Scene7配置
+  * 实施
+  * 属性
+  * 主机
+  * 环境
+  * 响应令牌
+  * 用户
 
 * 用户无法将资源从一个工作区（产品配置文件）移动到另一个工作区。 但是，可以将资源从一个工作区（产品配置文件）复制到另一个工作区。
 * 从 [!DNL Audiences] 页面查看受众时，页面加载速度低于预期。 如果您以任何方式与搜索栏进行互动，则会加快受众的显示速度。 此问题已知，并将在即将到来的更新中修复。 此问题不会影响在活动创建工作流中选择受众。
 * 以下资源属于新的企业权限模型的一部分：
 
-   * 在[!DNL Target Standard/Premium]中创建的活动、受众和代码选件可在客户启用权限后使用。 （注意：客户必须有权使用[!DNL Target Premium]。）
-   * 可以将资产添加到默认Workspace中的现有活动；但是，此方法可能会发生更改。
-   * 只有在Target Premium中创建的新资源（例如活动、代码选件和受众）才能按权限进行限制（启用企业权限后）。
-   * 外部资源仅供默认工作区中的用户使用。 默认工作区中的用户角色会应用到全局（适用于所有 Target 请求和所有 Target 资源）。
+  * 在[!DNL Target Standard/Premium]中创建的活动、受众和代码选件可在客户启用权限后使用。 （注意：客户必须有权使用[!DNL Target Premium]。）
+  * 可以将资产添加到默认Workspace中的现有活动；但是，此方法可能会发生更改。
+  * 只有在Target Premium中创建的新资源（例如活动、代码选件和受众）才能按权限进行限制（启用企业权限后）。
+  * 外部资源仅供默认工作区中的用户使用。 默认工作区中的用户角色会应用到全局（适用于所有 Target 请求和所有 Target 资源）。
 
 * 以下资源&#x200B;*不*&#x200B;属于新的企业权限模型的一部分：
 
-   * 图像产品建议
-   * 所有“推荐”资源，其中包括标准库、设计库、目录、推荐设置。
-   * 在启用企业权限之前，可以复制在Target Premium中创建的现有资源（例如活动、代码选件和受众），但不能将这些资源移动到其他工作区。
-   * 使用以下解决方案或方法创建的活动、受众、代码选件、图像选件或任何其他资源不受企业权限模型控制，但属于默认Workspace的一部分：Target Classic、Adobe Experience Manager (AEM)、Adobe Mobile Services，以及通过API创建的资源。 通过 API 创建的资源（包括活动、受众、代码产品建议和图像产品建议）。
-   * 图像选件（存储在`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`下的资产）当前不受企业权限模型控制。
-   * 当目标链接或目标页面是包含在活动中的属性的一部分时，clickTracking和重定向会起作用。 此外，使用`targetPageParams()`函数时，clickTracking可能无法正常工作。 `targetPageParamsAll()` 是推荐的函数。
+  * 图像产品建议
+  * 所有“推荐”资源，其中包括标准库、设计库、目录、推荐设置。
+  * 在启用企业权限之前，可以复制在Target Premium中创建的现有资源（例如活动、代码选件和受众），但不能将这些资源移动到其他工作区。
+  * 使用以下解决方案或方法创建的活动、受众、代码选件、图像选件或任何其他资源不受企业权限模型控制，但属于默认Workspace的一部分：Target Classic、Adobe Experience Manager (AEM)、Adobe Mobile Services，以及通过API创建的资源。 通过 API 创建的资源（包括活动、受众、代码产品建议和图像产品建议）。
+  * 图像选件（存储在`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`下的资产）当前不受企业权限模型控制。
+  * 当目标链接或目标页面是包含在活动中的属性的一部分时，clickTracking和重定向会起作用。 此外，使用`targetPageParams()`函数时，clickTracking可能无法正常工作。 `targetPageParamsAll()` 是推荐的函数。
 
   [!DNL Target]当前要求执行跟踪的任何页面上均具有`at_property`令牌。 如果令牌：(1)不存在，(2)在活动设置（VEC内）时未被检测到，或者(3)未通过`targetPageParamsAll()`函数传递给clickTracking Target调用，则量度不会递增，并显示为“0”。
 

@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 29%
+source-wordcount: '666'
+ht-degree: 26%
 ---
 # 创建使用 Analytics 作为报表源的活动
 
@@ -56,7 +56,7 @@ ht-degree: 29%
 
      检查您的[!DNL Analytics]公司。 如果您的[!DNL Adobe Experience Cloud]帐户与多个[!DNL Analytics]公司关联，请注销[!DNL Target]，然后在正确的公司下登录到[!DNL Analytics]。 然后返回到[!DNL Target]，并加载报表包。
 
-   * 看不到预期的报表包。
+   * 您看不到预期的报表包。
 
      只有配置为连接到[!DNL Target]的报表包才可供选择。 如果您没有看到预期的报表包，请先尝试注销并重新登录到[!DNL Adobe Experience Cloud]以重试。
 
@@ -75,7 +75,7 @@ ht-degree: 29%
    >
    >您可以向[!DNL Analytics]发送基于Target的自定义量度，而不是仅依赖于[!DNL Analytics]数据。 例如，您可以监视点击页面，该页面通常不受[!DNL Analytics]的跟踪。 此自定义指标自动从[!DNL Target]服务器发送到[!DNL Analytics]，并在[!DNL Analytics]的指标选择器中显示为“[!DNL Target]转化”指标。 如果您选择使用[!DNL Analytics]量度，[!DNL Target]转化量度为空。
 
-   设置目标并不意味着您不能在评估测试结果时使用其他量度。 但是，目标可提醒您要通过活动加以改进的方面。
+   设置目标并不意味着在评估测试结果时不能使用其他量度。 但是，目标可提醒您要通过活动加以改进的方面。
 
    达到目标后，访客会继续保留在活动中。 访客会继续看到活动内容，但不会被计为一次新活动参加。
 

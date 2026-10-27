@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 14%
+source-wordcount: '646'
+ht-degree: 13%
 ---
 # 活动设置 - A4T 常见问题解答
 
@@ -53,7 +53,7 @@ ht-degree: 14%
 
 +++
 
-## 我刚刚创建了一个活动。 但是为何看不到任何数据？ {#section_9F8092BE4225442896F926540292F221}
+## 我刚刚创建了一个活动。 为什么我看不到任何数据输入？ {#section_9F8092BE4225442896F926540292F221}
 
 
 +++回答
@@ -82,7 +82,7 @@ ht-degree: 14%
 +++回答
 假设访客在两次访问之间的visitorId不会发生更改，则符合以下情况。
 
-如果在活动中调整了流量分配百分比，则访客可能会在目标体验和控制体验之间切换。
+如果在活动期间调整了流量分配百分比，则访客可能会在目标体验和控制体验之间切换。
 
 如果在活动期间未调整百分比，则最初看到控制的访客始终会发送给控制。 被发送到目标体验的访客始终会被发送到目标体验。
 

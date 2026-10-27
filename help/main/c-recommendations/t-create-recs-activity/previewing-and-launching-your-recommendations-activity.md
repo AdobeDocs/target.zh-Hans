@@ -21,14 +21,14 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1539'
 ht-degree: 13%
 ---
 # 预览和启动“推荐”活动
 
-在创建包含[推荐选件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL 推荐]、[!UICONTROL A/B测试]或[!UICONTROL 体验定位] (XT)活动后，您需要预览推荐，以确保结果在启动活动之前可用。 [!DNL Target Recommendations]提供了多种预览推荐的方法。
+创建包含[推荐选件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL 推荐]、[!UICONTROL A/B测试]或[!UICONTROL 体验定位] (XT)活动后，您需要预览推荐，以确保在启动活动之前结果可用。 [!DNL Target Recommendations]提供了多种预览推荐的方法。
 
 ## 检查推荐算法状态
 

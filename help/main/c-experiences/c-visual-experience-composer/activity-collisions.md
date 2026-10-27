@@ -16,10 +16,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 45%
+source-wordcount: '351'
+ht-degree: 38%
 ---
 # 活动冲突
 
@@ -42,4 +42,4 @@ ht-degree: 45%
 
 此列表还会显示每个潜在冲突的状态和优先级，以及其他相关信息。 您可以使用状态和优先级来帮助确定冲突发生的可能性。 以两个可能相互冲突的活动为例。 如果一个活动当前未处于活动状态，则不会发生冲突。 仅当非活动处于活动状态时，才可能出现冲突。 如果具有相同优先级和相同受众的两个实时活动之间存在潜在冲突，则会发生冲突。 您可以更改优先级或状态来阻止冲突发生。
 
-如果活动的受众不相同，活动之间仍可能存在冲突，因为某个特定访客可能属于多个受众。
+如果受众不同，则仍可能存在冲突，因为特定访客可能属于多个受众。

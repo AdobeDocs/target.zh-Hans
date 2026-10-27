@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 33%
+source-wordcount: '829'
+ht-degree: 31%
 ---
 # 移动设备
 
@@ -36,7 +36,7 @@ ht-degree: 33%
 
 可通过分析用户-代理字符串来实现设备检测。 但是，有些设备制造商（例如 Apple）不会在用户-代理中提供足够的信息，从而无法使用此功能。
 
-例如，Apple 设备不会在用户-代理中共享特定于设备型号的令牌。 结果是无法使用基于关键字的简单方法检测iPhone模型（例如iPhone 12 Pro、iPhone 12、iPhone 11 Pro Max等）。
+例如，Apple设备不会在UA中共享特定于设备型号的令牌。 结果是无法使用基于关键字的简单方法检测iPhone模型（例如iPhone 12 Pro、iPhone 12、iPhone 11 Pro Max等）。
 
 要解决此问题，[!DNL Target]会收集其他数据，以便使用以下参数准确检测iPhone和其他Apple设备：
 

@@ -9,30 +9,42 @@ exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cd7b6938-5837-4ee0-9790-5840997133d9
+    internal-label: User management
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 55%
-
+source-wordcount: '1513'
+ht-degree: 53%
 ---
-
 # 配置企业权限
 
 此信息介绍了向[!DNL Target]实施添加用户，创建工作区、用户组和属性，更新[!DNL Target]实施以包含`at_property`参数，以及指定角色和权限时需要执行的任务。
@@ -92,8 +104,8 @@ ht-degree: 55%
 
    * **新工作区（产品配置文件）：**&#x200B;您可以通过执行以下操作来开始利用新的权限功能：
 
-      * 在 [!DNL Admin Console for Enterprise] 中创建新工作区。
-      * 将 Target 属性分配到工作区。
+     * 在 [!DNL Admin Console for Enterprise] 中创建新工作区。
+     * 将 Target 属性分配到工作区。
 
    您可以使用这些工作区按地区、业务部门、网站区域或通过您选择的任何其他方法，将访问权限划分给不同的团队。 用户可以包含在多个工作区中，也可以在每个工作区拥有不同的角色。
 
@@ -104,7 +116,7 @@ ht-degree: 55%
 
 ### 获取工作区ID {#workspace-id}
 
-您需要传递工作区 ID 才能使用 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank} 中的企业权限。
+您需要传递工作区ID才能使用[Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}中的企业权限。
 
 1. 在[Adobe Admin Console](https://adminconsole.adobe.com)中，单击[!UICONTROL 产品]选项卡，然后单击左侧菜单中的产品以显示PLC（工作区）列表。
 1. 单击所需的 PLC（工作区），然后在 URL 中找到“轮廓”ID，如下所示。
@@ -135,7 +147,7 @@ ht-degree: 55%
    * **描述：**&#x200B;为属性指定可选描述。
    * **渠道：**&#x200B;为属性选择所需的渠道：Web、移动设备应用程序、电子邮件或其他/API（例如机顶盒或 PlayStation 游戏机）。
 
-1. 单击&#x200B;**[!UICONTROL 复制]**&#x200B;以将代码复制到剪贴板，在[5：更新您的实现以包含at_property参数](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)中执行步骤时将使用该代码。
+1. 单击&#x200B;**[!UICONTROL 复制]**&#x200B;以将代码复制到剪贴板，在执行[5：更新您的实现以包含at_property参数](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)中的步骤时将使用该代码。
 1. 完成后单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
@@ -225,21 +237,21 @@ ht-degree: 55%
 * 从 Adobe Target 界面访问 Adobe Admin Console（3 种方式）
 * 在 Adobe Admin Console 中配置工作区
 
-   * 向工作区添加用户
-   * 向工作区添加属性
+  * 向工作区添加用户
+  * 向工作区添加属性
 
 * 了解默认工作区
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421729?captions=chi_hans)
 
-### 如何在Adobe Target (3:05) ![教程徽章](/help/main/assets/tutorial.png)中创建属性
+### 如何在Adobe Target中创建属性(3:05) ![教程徽章](/help/main/assets/tutorial.png)
 
 * 如何在 [!DNL Adobe Target] 界面中创建属性
 * 如何生成要包含在属性实施中的属性令牌
 * 熟悉三种实施方法：
 
-   * Web
-   * 移动设备应用程序
-   * 电子邮件、机顶盒或API调用
+  * Web
+  * 移动设备应用程序
+  * 电子邮件、机顶盒或API调用
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/)

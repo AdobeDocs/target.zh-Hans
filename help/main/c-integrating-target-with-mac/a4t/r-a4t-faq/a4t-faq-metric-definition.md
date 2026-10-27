@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 35%
+source-wordcount: '369'
+ht-degree: 34%
 ---
 # 量度定义 - A4T 常见问题解答
 
@@ -32,7 +32,7 @@ ht-degree: 35%
 
 +++
 
-## 在配置目标量度时，为何无法访问高级设置选项？ {#adv-settings}
+## 配置目标量度时，为何无法访问高级设置选项？ {#adv-settings}
 
 +++回答
 [!UICONTROL 高级设置]选项不适用于使用[!DNL Analytics]作为报表源(A4T)的活动。

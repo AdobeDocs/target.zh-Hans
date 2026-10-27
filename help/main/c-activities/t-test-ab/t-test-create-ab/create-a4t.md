@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 19%
+source-wordcount: '498'
+ht-degree: 16%
 ---
 # 使用[!DNL Adobe Analytics]数据
 
@@ -47,6 +47,6 @@ ht-degree: 19%
 
 您必须选择一个成功量度以用作每个活动的目标。 您的活动目标是表示活动取得成功的转化活动。 如果没有设定目标来以某种特定方式做出改进，最好不要运行测试。 您可以选择[!DNL Analytics]量度选择器中可用的任何[!DNL Analytics]量度。
 
-设置目标并不意味着您不能在评估测试结果时使用其他量度。 但是，目标可提醒您要通过测试加以改进的方面。
+设置目标并不意味着在评估测试结果时不能使用其他量度。 但是，目标可提醒您要通过测试加以改进的方面。
 
 访客完成目标后，该访客将不再包含在活动中。 如果访客在完成活动后重新进入您的活动，则该访客将被计为新访客。

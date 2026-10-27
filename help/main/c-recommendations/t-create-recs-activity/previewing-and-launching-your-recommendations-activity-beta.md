@@ -14,14 +14,14 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1448'
 ht-degree: 14%
 ---
 # 预览和启动“推荐”活动
 
-在创建包含[推荐选件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL 推荐]、[!UICONTROL A/B测试]或[!UICONTROL 体验定位] (XT)活动后，您需要预览推荐，以确保结果在启动活动之前可用。 [!DNL Target Recommendations]提供了多种预览推荐的方法。
+创建包含[推荐选件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL 推荐]、[!UICONTROL A/B测试]或[!UICONTROL 体验定位] (XT)活动后，您需要预览推荐，以确保在启动活动之前结果可用。 [!DNL Target Recommendations]提供了多种预览推荐的方法。
 
 ## 检查推荐算法状态
 

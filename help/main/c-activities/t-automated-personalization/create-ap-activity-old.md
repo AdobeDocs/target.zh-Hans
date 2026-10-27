@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1928'
-ht-degree: 30%
+source-wordcount: '1929'
+ht-degree: 29%
 ---
 # 创建[!UICONTROL Automated Personalization]活动
 
@@ -150,7 +150,7 @@ ht-degree: 30%
    | [!UICONTROL 目标] | （可选）键入测试的目标。 此目标可帮助您记住活动的用途。 |
    | [!UICONTROL 优先级] | 根据您的设置，[!UICONTROL 优先级]的[!DNL Target] UI和选项会有所不同。 您可以使用[!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]的旧设置，也可以启用0到999的细粒度优先级。<P>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。 如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<P>如果未在[!UICONTROL 管理] > [!UICONTROL 报告]中启用此选项（默认值），请指定优先级： [!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]。<P>要启用细粒度优先级，请单击[!UICONTROL 管理] > [!UICONTROL 报告]，然后将[!UICONTROL 启用细粒度优先级]选项切换到“开”位置。<P>如果已启用此选项，请指定从0到999的值：<ul><li>0 = 低</li><li>999 = 高</li></ul>对于在以前的[!DNL Target Standard/Premium]版本中创建的活动，[!UICONTROL 低]优先级已转换为0，[!UICONTROL Medium]优先级已转换为5，[!UICONTROL 高]优先级已转换为10。 您可以根据需要调整这些值。<P>**注意**：在使用细粒度优先级后，您可以禁用此选项，但在此之前，必须将所有优先级重新设置为0、5、10。 |
    | [!UICONTROL 持续时间] | 设置活动的开始和结束日期。 您可以选择[!UICONTROL 激活时]，也可以指定特定的日期和时间。 |
-   | [!UICONTROL 优化目标] | 指定优化目标，该目标包含两个参数：<ul><li>您想要通过活动衡量哪些指标</li><li>活动参加者采取的哪项操作可指示目标已达到。</li></ul>您可以通过选择[!UICONTROL 我的主要目标]右侧的三个圆点来命名优化目标。 [!UICONTROL Automated Personalization]活动可以测量[!UICONTROL 转化]或[!UICONTROL 收入]。 可以通过查看页面或查看mbox来实现转换。 点击次数也可以进行跟踪。<P>主要目标也可作为建模系统用来计算体验是否成功的建模量度。<P>达到建模目标后，出于跟踪目的，可以将访客保留在活动中。 例如，通常使用[!UICONTROL Automated Personalization]活动来提高点击率，并且设置为建模目标。 然而，重要的是要了解增加的点击率是如何导致最终转化的，因此通过最终转化进行跟踪必不可少。<P>您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。<P>在使一个量度依赖于另一个量度之前，您必须定义两个（或多个）成功量度。<P>通过“[!UICONTROL 添加依赖项]”选项，可以指定是否要先实现其他成功量度，然后才能递增该成功量度。<P>要添加依赖项，请执行以下操作：<ol><li>添加其他量度后，单击[!UICONTROL 其他目标]右侧的三个圆点式菜单下的&#x200B;**[!UICONTROL 高级设置]**。</li><li>单击[!UICONTROL 报表设置]部分底部的&#x200B;**[!UICONTROL 添加依赖项]**&#x200B;选项。</li><li>将所需量度从左侧窗格拖放到右侧窗格中，然后单击[!UICONTROL 已实现]，以在[!UICONTROL 已实现]和[!UICONTROL 未实现]之间进行切换。</li></ol>添加依赖项后，您可以编辑或删除依赖项。 |
+   | [!UICONTROL 优化目标] | 指定优化目标，该目标包含两个参数：<ul><li>您想要通过活动衡量哪些指标</li><li>活动参加者采取的哪项操作可指示目标已达到。</li></ul>您可以通过选择[!UICONTROL 我的主要目标]右侧的三个圆点来命名优化目标。 [!UICONTROL Automated Personalization]活动可以测量[!UICONTROL 转化]或[!UICONTROL 收入]。 可以通过查看页面或查看mbox来实现转换。 点击次数也可以进行跟踪。<P>主要目标也可作为建模系统用来计算体验是否成功的建模量度。<P>达到建模目标后，出于跟踪目的，可以将访客保留在活动中。 例如，通常使用[!UICONTROL Automated Personalization]活动来提高点击率，并且设置为建模目标。 但是，了解点击率的增加如何导致最终转化很重要，因此跟踪最终转化至关重要。<P>您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。<P>在使一个量度依赖于另一个量度之前，您必须定义两个（或多个）成功量度。<P>通过“[!UICONTROL 添加依赖项]”选项，可以指定是否要先实现其他成功量度，然后才能递增该成功量度。<P>要添加依赖项，请执行以下操作：<ol><li>添加其他量度后，单击[!UICONTROL 其他目标]右侧的三个圆点式菜单下的&#x200B;**[!UICONTROL 高级设置]**。</li><li>单击[!UICONTROL 报表设置]部分底部的&#x200B;**[!UICONTROL 添加依赖项]**&#x200B;选项。</li><li>将所需量度从左侧窗格拖放到右侧窗格中，然后单击[!UICONTROL 已实现]，以在[!UICONTROL 已实现]和[!UICONTROL 未实现]之间进行切换。</li></ol>添加依赖项后，您可以编辑或删除依赖项。 |
    | [!UICONTROL 转化量度] | 默认情况下，转化量度与优化目标量度相同。 但是，您可以通过取消选中[!UICONTROL 与优化目标相同]选项来定义单独的转化量度。 |
    | [!UICONTROL 其他量度] | 添加任何其他要使用的报表量度。 您可以添加转化或收入量度。<P>**注意**： [!UICONTROL 参与度]量度不支持作为其他量度。 [!DNL Target] UI可能允许您选择[!UICONTROL 参与]量度，但数据在报表中无法准确显示。 |
    | [!UICONTROL 报表受众] | 添加受众以在报表中启用按受众筛选功能。 默认情况下，报表会显示所有符合条件的访客结果。 添加受众可筛选结果，从而获得更具体的访客子集。<P>**注意**：与其他活动类型不同，[!UICONTROL Automated Personalization]不能使用[!UICONTROL Adobe Analytics]作为其报表源(A4T)。 |

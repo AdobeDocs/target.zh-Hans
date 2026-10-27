@@ -24,9 +24,9 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3805'
 ht-degree: 14%
 ---
 # [!DNL Adobe Target] MCP服务器工具参考 {#target-mcp-tools-reference}
@@ -35,7 +35,7 @@ ht-degree: 14%
 >
 >[!DNL Adobe Target] MCP服务器可用于&#x200B;**公共Beta**&#x200B;中的所有客户。 当前在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中支持它。
 
-此页面是[!DNL Adobe Target] MCP服务器公开的所有工具的完整引用。 对于每个工具，您都可以找到描述、参数详细信息、返回值以及自然语言提示示例。 有关设置说明和用例，请参阅[入门](target-mcp-get-started.md)和[用例和演练](target-mcp-use-cases.md)。
+此页面是[!DNL Adobe Target] MCP服务器公开的所有工具的完整引用。 对于每个工具，您将找到描述、参数详细信息、返回值以及自然语言提示示例。 有关设置说明和用例，请参阅[入门](target-mcp-get-started.md)和[用例和演练](target-mcp-use-cases.md)。
 
 >[!IMPORTANT]
 >

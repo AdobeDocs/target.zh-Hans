@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2201'
-ht-degree: 94%
+source-wordcount: '2202'
+ht-degree: 93%
 ---
 # [!DNL Adobe Target]公告和活动
 
@@ -317,7 +317,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   +++详细信息
 
-  相比以往，营销人员、产品所有者和开发人员需要更多地在网站上、应用程序中以及他们与客户联系的其他各个环节优化整体客户体验。 具有数据筒仓和复杂实现的多个工具无法解决这一问题。
+  相比以往，营销人员、产品所有者和开发人员需要更多地在网站上、应用程序中以及他们与客户联系的其他各个环节优化整体客户体验。 具有数据孤岛和复杂实现的多种工具无法解决这一问题。
 
   在这场录播的网络研讨会中，Adobe Target 产品专家讨论了如何将关键的体验优化决策转移到设备上，无延迟地在本地执行，在为客户提高网站性能的同时创造激动人心的新用例。
 

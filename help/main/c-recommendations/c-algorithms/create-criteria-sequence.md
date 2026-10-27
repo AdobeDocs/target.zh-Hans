@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 21%
+source-wordcount: '834'
+ht-degree: 17%
 ---
 # 创建标准序列
 
@@ -33,7 +33,7 @@ ht-degree: 21%
 
 要创建标准序列，您必须先创建要包含到序列中的标准。 有关详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
-在单个标准无法返回足够多的结果，从而无法填充设计的情况下，通过使用标准序列，您可以提供更多具有针对性的推荐，而不是使用更为宽泛的备用推荐。 通常，标准序列会从更具体的定位（可能会返回更少的结果）到更一般的定位（通常返回更多结果）。
+通过使用标准序列，您可以在标准没有返回足够的结果来填满设计时提供其他目标推荐，而不是使用更通用的备用推荐。 通常，标准序列会从更具体的定位（可能会返回更少的结果）到更一般的定位（通常返回更多结果）。
 
 您的标准序列可能会因页面类型的不同而有所不同，如以下示例中所示：
 

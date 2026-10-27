@@ -159,7 +159,7 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 >[!NOTE]
 >
->可用选项取决于要创建或编辑的活动类型和元素。 有关在[!UICONTROL A/B测试]活动中编辑图像和选件的更多信息，请参阅以下[使用设计]画布](#design)编辑元素。[!UICONTROL 
+>可用选项取决于要创建或编辑的活动类型和元素。 有关在[!UICONTROL A/B测试]活动中编辑图像和选件的更多信息，请参阅以下[使用设计]画布(#design)编辑元素。
 
 ### [!UICONTROL 属性]边栏
 

@@ -192,7 +192,7 @@ if (mbox.name == 'Track_Interest') {
 
 **是否可以使用配置文件脚本捕获位于数据层中的页面信息？**
 
-由于配置文件脚本在服务器端执行，因此它们无法直接读取页面。 数据必须通过mbox请求或将数据传入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的其他[方法传入。 当数据进入 [!DNL Target] 之后，轮廓脚本可按照 mbox 参数或轮廓参数的形式读取数据。
+由于配置文件脚本在服务器端执行，因此它们无法直接读取页面。 数据必须通过mbox请求或将数据传入Target[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的其他方法传入。 当数据进入 [!DNL Target] 之后，轮廓脚本可按照 mbox 参数或轮廓参数的形式读取数据。
 
 ## 脚本轮廓参数的 JavaScript 参考
 

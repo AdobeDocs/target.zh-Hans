@@ -151,7 +151,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >[!UICONTROL 新版本]和内容]的[!UICONTROL 更新是唯一适用于[!DNL Target]的通知类别。 其他类别适用于其他[!DNL Adobe]解决方案。
+   >[!UICONTROL 新版本]和内容的更新是唯一适用于[!DNL Target]的通知类别。 其他类别适用于其他[!DNL Adobe]解决方案。
 
 1. 选择您希望在浏览器中显示警报的通知。
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 87c0d2aa67d54dcbc2963be63d2d7ad9c02b6aa9
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 8%
+source-wordcount: '413'
+ht-degree: 5%
 ---
 # 代码片段
 
@@ -35,5 +35,24 @@ ht-degree: 8%
 >* [[!UICONTROL 可视化体验编辑器]选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文介绍更新的VEC UI及其选项。
 >
 >* [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)：此常见问题解答是关于新的[!DNL Target] UI和[!UICONTROL 可视化体验编辑器] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。
+
+## 活动名称规则 {#activity-name-rules}
+
+活动名称不能以`=`、`+`、`-`或`@`开头。 活动名称也不能包含以下任何字符序列：`;=`、`;+`、`;-`、`;@`、`,=`、`,+`、`,-`、`,@`、`["`或`"]`。
+
+## 在定位步骤中选择受众 {#audience-selection-steps}
+
+1. 要更改受众，请单击右框架中的&#x200B;**[!UICONTROL 替换]**&#x200B;图标（![替换图标](/help/main/assets/icons/Retweet.svg)）。
+
+1. 在&#x200B;**[!UICONTROL 添加受众]**&#x200B;对话框中，[选择所需的受众](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，然后单击&#x200B;**[!UICONTROL 分配受众]**。
+
+   要创建组合多个受众的受众，请单击&#x200B;**[!UICONTROL 组合受众]**。 有关详细信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md)。
+
+   若要新建一个在[!UICONTROL 受众库]中没有的受众，请单击&#x200B;**[!UICONTROL 创建受众]**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)中，选择以下选项之一：
+
+   * **[!UICONTROL 受众库]**：创建保存到[!UICONTROL 受众库]的按需受众，该受众可在其他活动中重复使用。
+   * **[!UICONTROL 仅限此活动]**：创建未保存到[!UICONTROL 受众库]且只能用于当前活动的[特定活动受众](/help/main/c-target/creating-activity-only-audience.md)。
+
+1. 单击右框中的&#x200B;**[!UICONTROL 访客百分比]**，然后选择您希望参加活动的符合条件的访客所占的百分比。
 
 

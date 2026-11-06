@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 4bdd36a7ca0162f95e5d9efd67899433d970d384
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '961'
 ht-degree: 17%
 ---
 # 创建A/B测试活动
@@ -68,29 +68,7 @@ ht-degree: 17%
 
 1. 要命名该活动，请单击“[!UICONTROL 无标题的活动]”旁边的&#x200B;**[!UICONTROL 编辑]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)），指定该活动的描述性名称，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   活动名称不能以下列任何字符开头：
-
-   | 字符 | 描述 |
-   |--- |--- |
-   | `=` | 等号 |
-   | `+` | 加号 |
-   | `-` | 减号 |
-   | `@` | @ 符号 |
-
-   活动名称不能包含以下任何字符序列：
-
-   | 字符序列 | 描述 |
-   |--- |--- |
-   | ;= | 分号，等于 |
-   | ;+ | 分号，加号 |
-   | ;- | 分号，减号 |
-   | ;@ | 分号， At sign |
-   | ,= | 逗号，等于 |
-   | ,+ | 逗号，加号 |
-   | ,- | 逗号，减 |
-   | ,@ | 逗号， At sign |
-   | `[`&quot; | 左方括号，双引号 |
-   | &quot;`]` | 双引号，右方括号 |
+   {{activity-name-rules}}
 
 1. 通过更改页面上的元素创建新体验。
 
@@ -108,23 +86,25 @@ ht-degree: 17%
 
 1. （视情况而定）单击&#x200B;**[!UICONTROL 所有访客]**&#x200B;控件为该活动选择其他受众。
 
-   已将[!UICONTROL 所有访客]受众设置为默认受众。 如果选择其他受众，则其名称将显示在最左侧的控件中。
+   已将[!UICONTROL 所有访客]受众设置为默认受众。 如果选择其他受众，则其名称将显示在最左侧的控件中。 例如，您可以将准入资格限制为 50% 的访客或 45% 的“加州”受众。
+
+   +++ 选择其他受众的步骤
 
    此时将显示正确的框架，您可以在其中添加或删除受众，并分配活动的访客百分比。
 
-   1. 要更改受众，请单击右框架中的&#x200B;**[!UICONTROL 替换]图标** （![替换图标](/help/main/assets/icons/Retweet.svg) ）。
-   1. 在[!UICONTROL 添加受众]对话框中，[选择所需的受众](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，然后单击&#x200B;**[!UICONTROL 分配受众]**。
+   1. 要更改受众，请单击右框架中的&#x200B;**[!UICONTROL 替换]**&#x200B;图标（![替换图标](/help/main/assets/icons/Retweet.svg)）。
+   1. 在&#x200B;**[!UICONTROL 添加受众]**&#x200B;对话框中，[选择所需的受众](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，然后单击&#x200B;**[!UICONTROL 分配受众]**。
 
-      您可以单击&#x200B;**合并受众**&#x200B;到[创建合并多个受众的受众](/help/main/c-target/combining-multiple-audiences.md)。
+      要创建组合多个受众的受众，请单击&#x200B;**[!UICONTROL 组合受众]**。 有关详细信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md)。
 
-      如果需要创建一个不在[!UICONTROL 受众库]中的新受众，请单击&#x200B;**创建受众**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
+      若要新建一个在[!UICONTROL 受众库]中没有的受众，请单击&#x200B;**[!UICONTROL 创建受众]**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)中，选择以下选项之一：
 
       * **[!UICONTROL 受众库]**：创建保存到[!UICONTROL 受众库]的按需受众，该受众可在其他活动中重复使用。
       * **[!UICONTROL 仅限此活动]**：创建未保存到[!UICONTROL 受众库]且只能用于当前活动的[特定活动受众](/help/main/c-target/creating-activity-only-audience.md)。
 
    1. 单击右框中的&#x200B;**[!UICONTROL 访客百分比]**，然后选择您希望参加活动的符合条件的访客所占的百分比。
 
-   例如，您可以将准入资格限制为 50% 的访客或 45% 的“加州”受众。
+   +++
 
 1. 单击&#x200B;**[!UICONTROL 流量分配]**&#x200B;控件，然后在右窗格中选择所需的流量分配方法，如下所示：
 

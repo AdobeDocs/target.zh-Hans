@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 8%
+source-wordcount: '267'
+ht-degree: 7%
 ---
 # 代码片段
 
@@ -36,4 +36,7 @@ ht-degree: 8%
 >
 >* [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)：此常见问题解答是关于新的[!DNL Target] UI和[!UICONTROL 可视化体验编辑器] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。
 
+## 活动名称规则 {#activity-name-rules}
+
+活动名称不能以`=`、`+`、`-`或`@`开头。 活动名称也不能包含以下任何字符序列：`;=`、`;+`、`;-`、`;@`、`,=`、`,+`、`,-`、`,@`、`["`或`"]`。
 

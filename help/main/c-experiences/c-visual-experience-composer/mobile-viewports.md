@@ -190,4 +190,4 @@ ht-degree: 89%
 
 本视频从4:40开始介绍设置移动视区。
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507633?captions=chi_hans)

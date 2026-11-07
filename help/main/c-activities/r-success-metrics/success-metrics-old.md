@@ -128,4 +128,4 @@ ht-degree: 41%
 * 了解和构建“转化”、“收入”及“参与度”量度
 * 构建点击跟踪量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507823?captions=chi_hans)

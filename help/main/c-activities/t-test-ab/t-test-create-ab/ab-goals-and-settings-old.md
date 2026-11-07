@@ -85,7 +85,7 @@ ht-degree: 38%
 * 添加报表受众以创建报表筛选器
 * 输入活动的注释
 
-(https://video.tv.adobe.com/v/17381?captions=chi_hans)
+(https://video.tv.adobe.com/v/3507951?captions=chi_hans)
 
 ### 创建A/B测试(8:36) ![教程徽章](/help/main/assets/tutorial.png)
 

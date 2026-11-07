@@ -140,4 +140,4 @@ ht-degree: 47%
 >
 >[!DNL Target] [!UICONTROL 管理]菜单UI（以前称为[!UICONTROL 安装程序]）已重新设计，以提供改进的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息通常正确，但是，选项可能位于不同的位置。 更新后的视频很快就会发布。
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507633?captions=chi_hans)

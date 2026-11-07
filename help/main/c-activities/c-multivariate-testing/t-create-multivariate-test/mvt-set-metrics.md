@@ -76,4 +76,4 @@ ht-degree: 56%
 * 了解并生成[!UICONTROL 转化]、[!UICONTROL 收入]和[!UICONTROL 参与度]量度
 * 构建点击跟踪量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507823?captions=chi_hans)

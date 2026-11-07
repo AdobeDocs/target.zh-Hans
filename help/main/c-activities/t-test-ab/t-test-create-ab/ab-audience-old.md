@@ -86,6 +86,6 @@ ht-degree: 67%
 * 选择流量分配方法
 * 在不同的体验之间分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507597?captions=chi_hans)
 
 有关详细信息，请参阅[受众](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。

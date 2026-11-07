@@ -158,4 +158,4 @@ ht-degree: 35%
 * 了解何时使用基于表单的体验编辑器，何时使用可视化体验编辑器
 * 使用细化来定位位置
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/3507888?captions=chi_hans)

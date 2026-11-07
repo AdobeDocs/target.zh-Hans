@@ -196,4 +196,4 @@ ht-degree: 40%
 * 创建受众
 * 定义受众类别
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507778?captions=chi_hans)

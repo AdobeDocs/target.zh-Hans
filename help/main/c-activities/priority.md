@@ -121,4 +121,4 @@ ht-degree: 34%
 * 添加报表受众以创建报表筛选器
 * 输入活动的注释
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507951?captions=chi_hans)

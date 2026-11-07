@@ -301,4 +301,4 @@ else if (mbox.param("adobeQA"))
 * 使用“可用令牌”菜单访问可用选项
 * 启用和禁用配置文件脚本
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/3507915?captions=chi_hans)

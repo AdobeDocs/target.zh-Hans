@@ -84,4 +84,4 @@ ht-degree: 35%
 
 ## 视频：将[!DNL Target]与[!DNL Campaign]集成
 
->[!VIDEO](https://video.tv.adobe.com/v/35149)
+>[!VIDEO](https://video.tv.adobe.com/v/3508014?captions=chi_hans)

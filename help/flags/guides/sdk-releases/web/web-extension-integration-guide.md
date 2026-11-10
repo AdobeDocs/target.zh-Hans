@@ -6,9 +6,9 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
+source-git-commit: a25ca0f3ce4c9cf38a871d8193ec43250d61edb9
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1241'
 ht-degree: 7%
 ---
 # 标记Web扩展 {#web-extension-integration-guide}
@@ -55,21 +55,25 @@ Flags扩展需要以下Adobe Experience Platform扩展：
 
    ![](../assets/extension-install.png)
 
-1. 配置扩展设置：
+#### 配置扩展设置 {#configure-extension-settings}
 
-* 客户端ID：标记中应用程序的唯一标识符。
+安装Flags扩展时，您将转到配置页面。 配置以下设置：
 
-1. 选择&#x200B;**[!UICONTROL 保存]**。
+| 设置 | 描述 | 必需 |
+|---|---|---|
+| 客户端 ID | 标记中应用程序的唯一标识符。 | 是 |
 
-1. 按照[发布流程](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/overview)更新您的配置。
+#### 发布扩展 {#publish-extension}
 
-   1. 将扩展添加到库。
+按照[发布流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)更新您的配置。
 
-   1. 构建到您的开发环境。
+1. 将扩展添加到库。
 
-   1. 使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hans)进行验证。
+1. 构建到您的开发环境。
 
-   1. 提升至暂存和生产环境。
+1. 使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)进行验证。
+
+1. 提升至暂存和生产环境。
 
 ## 将Tags嵌入代码添加到您的网站 {#embed-code}
 
@@ -91,7 +95,7 @@ Flags扩展需要以下Adobe Experience Platform扩展：
 
    >[!NOTE]
    >
-   >每个环境都有一个唯一的嵌入代码URL。 有关详细信息，请参阅[环境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hans#)文档。
+   >每个环境都有一个唯一的嵌入代码URL。 有关详细信息，请参阅[环境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#)文档。
 
    ![](../assets/extension-install-4.png)
 
@@ -275,10 +279,10 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | 字段 | 类型 | 描述 |
 |---|---|---|
 | `id` | number | 数字功能标识符。 `-1`用于功能级的control sentinel。 |
-| `key` | 字符串\| null | 功能键。 `null`用于功能级的control sentinel。 |
-| `featureGroupKey` | 字符串\| null | 功能组密钥（可用时） |
-| `meta` | 字符串\| null | 功能元数据（可用时） |
-| `analyticsParam` | AnalyticsParam \|空 | 已评估功能的Analytics详细信息 |
+| `key` | `string \| null` | 功能键。 `null`用于功能级的control sentinel。 |
+| `featureGroupKey` | `string \| null` | 功能组密钥（可用时） |
+| `meta` | `string \| null` | 功能元数据（可用时） |
+| `analyticsParam` | `AnalyticsParam \| null` | 已评估功能的Analytics详细信息 |
 
 *AnalyticsParam*
 
@@ -286,7 +290,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | number | 数字功能组标识符 |
 | `featureId` | number | 数字功能标识符 |
-| `variantId` | 数字\| null | 变量标识符（`0`，如果用户是在控制组中） |
+| `variantId` | `number \| null` | 变量标识符（`0`，如果用户是在控制组中） |
 
 **控制组行为**
 

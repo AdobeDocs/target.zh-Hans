@@ -29,7 +29,7 @@ ht-degree: 3%
   | [生命周期](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | 应用程序生命周期数据 | 与AEPCore相同 |
   | [Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) | 与Adobe Experience Platform Edge Network的通信。 需要数据流。 | AEPEdge 5.0.2 |
   | Edge Network的[标识](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) | Edge Network的身份管理 | AEPEdgeIdentity 5.0.0 |
-  | [标志](https://experienceleague.adobe.com/en/docs/target/flags/home) | 功能标志评估 | 查看[安装](#installation) |
+  | [标志](https://experienceleague.adobe.com/zh-hans/docs/target/flags/home) | 功能标志评估 | 查看[安装](#installation) |
 
 ## 在数据收集中配置标志 {#configure}
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
-1. 按照[发布流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)更新您的配置。
+1. 按照[发布流程](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/overview)更新您的配置。
 
 ### 获取环境文件ID {#environment-file-id}
 

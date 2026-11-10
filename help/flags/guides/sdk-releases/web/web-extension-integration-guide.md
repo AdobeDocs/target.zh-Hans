@@ -61,13 +61,13 @@ Flags扩展需要以下Adobe Experience Platform扩展：
 
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
-1. 按照[发布流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)更新您的配置。
+1. 按照[发布流程](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/overview)更新您的配置。
 
    1. 将扩展添加到库。
 
    1. 构建到您的开发环境。
 
-   1. 使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)进行验证。
+   1. 使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hans)进行验证。
 
    1. 提升至暂存和生产环境。
 
@@ -91,7 +91,7 @@ Flags扩展需要以下Adobe Experience Platform扩展：
 
    >[!NOTE]
    >
-   >每个环境都有一个唯一的嵌入代码URL。 有关详细信息，请参阅[环境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#)文档。
+   >每个环境都有一个唯一的嵌入代码URL。 有关详细信息，请参阅[环境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hans#)文档。
 
    ![](../assets/extension-install-4.png)
 

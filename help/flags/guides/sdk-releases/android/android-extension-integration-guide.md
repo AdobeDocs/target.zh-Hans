@@ -61,7 +61,7 @@ Flags扩展需要以下Adobe Experience Platform扩展：
 
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
-1. 按照[发布流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)更新您的配置。
+1. 按照[发布流程](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/overview)更新您的配置。
 
 ### 获取环境文件ID {#environment-file-id}
 

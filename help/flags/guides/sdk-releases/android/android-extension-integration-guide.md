@@ -84,7 +84,7 @@ Flags扩展需要以下Adobe Experience Platform扩展：
 >Flags扩展不是Mobile SDK BOM的一部分。 将`<latest-version>`替换为Maven Central中的最新版本。 如果没有版本，Gradle将无法解析依赖关系。
 >
 ></br>
-&gt;对于生产应用程序，Adobe建议使用明确的版本号，而不是使用动态版本，例如“3.+”。 有关更多信息，请参阅[管理Gradle依赖项](https://docs.gradle.org/current/userguide/dependency_management.html)。
+>&gt;对于生产应用程序，Adobe建议使用明确的版本号，而不是使用动态版本，例如“3.+”。 有关更多信息，请参阅[管理Gradle依赖项](https://docs.gradle.org/current/userguide/dependency_management.html)。
 
 将以下依赖项添加到应用程序的`build.gradle.kts` (Kotlin)或`build.gradle` (Groovy)文件：
 

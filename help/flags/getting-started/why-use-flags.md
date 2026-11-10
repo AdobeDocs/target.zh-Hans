@@ -7,9 +7,9 @@ exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # 为何使用标志 {#why-use}
@@ -37,6 +37,6 @@ ht-degree: 0%
 提前将代码部署到生产环境，然后在某个确切的时间点（例如，在产品启动事件开始时）激活该功能，而不用在最后一刻更改任何代码。
 
 **终止开关**
-如果在发布后发现问题，则无需修补程序或重新部署即可立即关闭该功能。
+如果在发布后发现问题，请在不使用修补程序或重新部署的情况下关闭该功能。 更改将在下次刷新标记时生效（默认情况下每5分钟刷新一次）。
 
 <!-- -->

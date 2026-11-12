@@ -101,7 +101,7 @@ ht-degree: 16%
 
    * **[!UICONTROL 每位访客带来的收入(RPV)]**
    * **[!UICONTROL 平均订单值(AOV)]**
-   * 总销售额&#x200B;****
+   * 总销售额&#x200B;**&#x200B;**
    * **[!UICONTROL 订单率]**
 
    ![](assets/change-view.png)

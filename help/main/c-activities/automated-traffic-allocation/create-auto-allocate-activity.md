@@ -141,7 +141,7 @@ ht-degree: 10%
    | 方法 | 作用 |
    |---|---|
    | **[!UICONTROL 手动（默认）]** | 指定您希望看到各个体验的参加者所占的百分比。 您可以将百分比平分到所有体验，或者也可以为每个体验指定较高或较低的百分比。 所有体验的百分比总和必须等于 100%。 |
-   | **[!UICONTROL 自动分配到最佳体验]** | 大多数活动参加者会被自动定向到具有更高性能的体验。 为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。 有关详细信息，请参阅[**[!UICONTROL 自动分配&#x200B;]**概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。 |
+   | **[!UICONTROL 自动分配到最佳体验]** | 大多数活动参加者会被自动定向到具有更高性能的体验。 为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。 有关详细信息，请参阅[**[!UICONTROL 自动分配&#x200B;]**&#x200B;概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。 |
    | **[!UICONTROL 自动定位以提供个性化体验]** | [!DNL Target]使用先进的机器学习技术，确定多个高性能、由营销人员定义的体验，然后根据访客各自的客户配置文件和过去类似访客的行为，为其提供量身定制的体验，从而个性化内容并促进转化。 有关详细信息，请参阅[自动定位概述](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
    +++
@@ -167,7 +167,7 @@ ht-degree: 10%
    >
    >如果要将[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)与此活动一起使用，请参阅自动分配和自动定位活动支持[A4T的重要信息](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。
    >
-   >如果要在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中使用[[!DNL Target] 报告，请参阅[此页面](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source)。
+   >如果要在 [!DNL Adobe Customer Journey Analytics]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中使用[!DNL Target] 报告，请参阅[此页面](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source)。
 
 1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;或&#x200B;**[!UICONTROL 保存]**。
 

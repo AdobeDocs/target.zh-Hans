@@ -37,7 +37,7 @@ ht-degree: 1%
 
 下节将说明下图中使用的计算。
 
-显示A/B测试活动的[!UICONTROL 转化率]、[!UICONTROL 平均提升度和置信区间]以及[!UICONTROL 置信度]的目标报告。](/help/main/c-reports/statistical-methodology/img/target_report.png)![
+显示A/B测试活动的[!UICONTROL 转化率]、[!UICONTROL 平均提升度和置信区间]以及[!UICONTROL 置信度]的目标报告。![&#128279;](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 #### 转化率和每位访客带来的收入(RPV)促销活动
 
@@ -59,7 +59,7 @@ ht-degree: 1%
   * 如果将&#x200B;**[!UICONTROL 访问次数]**&#x200B;用作计数方法，则每个单位都是唯一访问，它在[!DNL Target]会话（具有唯一的`sessionId`）期间定义为体验中的唯一参与者。 当`sessionId`发生更改或访客完成转化步骤时，即会计为新访问。
   * 如果将&#x200B;**[!UICONTROL 活动展示次数]**&#x200B;用作计数方法，则每个单位都是定义为每次访客加载活动的任何页面时的唯一展示次数。
 
-### 平均]/[!UICONTROL 转化率的[!UICONTROL 置信区间]
+### 平均/转化率的[!UICONTROL 置信区间]
 
 转换率的置信区间被直观地定义为与基础数据一致的可能转换率的范围。
 
@@ -113,7 +113,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-此计算使用“Delta”方法，并在本文档](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了[
+此计算使用“Delta”方法，并在本文档[&#128279;](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了
 
 ### [!UICONTROL 置信度]
 

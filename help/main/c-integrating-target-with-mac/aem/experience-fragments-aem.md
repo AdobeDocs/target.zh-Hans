@@ -147,12 +147,12 @@ ht-degree: 28%
 
    有关配置各种类型的活动的更多信息，请参阅以下主题：
 
-   * **A/B 测试：**[创建 A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **自动分配：**[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
-   * **自动锁定：**[自动锁定](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **自动个性化 (AP)：**[创建自动个性化活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
-   * **体验定位 (XT)：**[创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
-   * **A/B 测试或 XT 活动中的推荐：**[推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)
+   * **A/B 测试：**&#x200B;[创建 A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+   * **自动分配：**&#x200B;[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **自动锁定：**&#x200B;[自动锁定](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * **自动个性化 (AP)：**&#x200B;[创建自动个性化活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
+   * **体验定位 (XT)：**&#x200B;[创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
+   * **A/B 测试或 XT 活动中的推荐：**&#x200B;[推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
    在[!DNL Target]中导出为JSON的[!UICONTROL 体验片段]无法在使用VEC创建的活动中使用；基于VEC的活动仅支持HTML [!UICONTROL 体验片段]。 如果要使用JSON [!UICONTROL 体验片段]，请在使用[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)创建的活动中使用它们。
 
@@ -180,7 +180,7 @@ ht-degree: 28%
 
 有时整个HTML页面会包装[!UICONTROL 体验片段]并导致问题。 确保[!UICONTROL 体验片段]是HTML的一小部分，而不是包含HTML、HEAD、BODY等的完整HTML页面。
 
-有关详细信息，请参阅以下博客帖子： [AEM 6.5：从[!UICONTROL 导出到Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank}的体验片段]中删除clientlibs。
+有关详细信息，请参阅以下博客帖子： [AEM 6.5：从[[!UICONTROL 导出到Target]](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank}的体验片段]中删除clientlibs。
 
 ## 培训视频：将AEM [!UICONTROL 体验片段]用于[!DNL Adobe Target]
 

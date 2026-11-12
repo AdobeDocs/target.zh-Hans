@@ -88,4 +88,4 @@ Adobe不再为新[!DNL Target]客户或新用户设置使用受限、免费的[!
 
    ![Scene7配置字段](/help/main/administrating-target/assets/scene7-1.png)
 
-1. 单击“提交”****。
+1. 单击“提交”**&#x200B;**。

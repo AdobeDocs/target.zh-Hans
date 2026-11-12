@@ -194,7 +194,7 @@ ht-degree: 24%
 
 * 每个参加者&#x200B;**[!UICONTROL 一次]**
 * 每次展示时&#x200B;**[!UICONTROL （不包括页面刷新）]**
-* 每次展示时&#x200B;****
+* 每次展示时&#x200B;**&#x200B;**
 
 请参阅[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#overview)，以了解有关高级设置的更多信息。
 

@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 79%
@@ -65,10 +65,10 @@ ht-degree: 79%
 
 “[!UICONTROL 目标和设置]”页面包含其他设置，这些设置会因您创建的活动类型而有所不同。 有关这些设置的更多信息，请参阅您的活动类型所对应的内容：
 
-* [A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [自动个性化](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-* [体验定位](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [多变量测试](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [体验定位](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
+* [多变量测试](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [推荐](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
 ## 培训视频：活动设置![教程徽章](/help/main/assets/tutorial.png)

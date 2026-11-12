@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 35%
@@ -147,7 +147,7 @@ ht-degree: 35%
 1. 单击&#x200B;**[!UICONTROL 下一步]**，然后为您选择的活动类型完成常规的活动创建步骤。
 
 * [创建 A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
 * [创建“推荐”活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## 培训视频：基于表单的编辑器![教程徽章](/help/main/assets/tutorial.png)

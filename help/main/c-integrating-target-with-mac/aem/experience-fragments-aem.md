@@ -1,7 +1,7 @@
 ---
 keywords: 体验;json;AEM;Adobe Experience Manager;导出到 Adobe Target;体验片段;片段;XF
-description: 了解如何在 [!DNL Adobe Target] 活动中使用 [!DNL Adobe Experience Manager] [!UICONTROL 体验片段]。
-title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 体验片段]？
+description: 了解如何在[!DNL Adobe Target]活动中使用[!DNL Adobe Experience Manager] [!UICONTROL 体验片段]。
+title: 如何使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 体验片段]？
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
 TQID: https://experienceleague.adobe.com/-W1ELJx0ajes6BPEVIiS8q6ebmRLTTgIrxvGMUEWEaM
@@ -22,13 +22,11 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
-source-wordcount: 1446
+source-wordcount: '1449'
 ht-degree: 28%
-
 ---
-
 # AEM [!UICONTROL 体验片段]
 
 在[!DNL Target]活动中使用在[!DNL Adobe Experience Manager] (AEM)中创建的[!UICONTROL 体验片段] (XF)以帮助优化和个性化。
@@ -40,16 +38,16 @@ ht-degree: 28%
 * 此功能要求您是 [!DNL Adobe Experience Manager] (AEM) 客户。 有关更多信息，请见以下[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
 * [!UICONTROL 体验片段]和[!UICONTROL 内容片段]可用于以下活动类型：
 
-   * [[!UICONTROL A/B 测试]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL 自动分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL Auto-Target（自动定位）]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL 体验定位] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+  * [[!UICONTROL A/B 测试]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL 自动分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL Auto-Target（自动定位）]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL 体验定位] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL 体验片段]和[!UICONTROL 内容片段]不适用于以下活动类型：
 
-   * [[!UICONTROL 多变量测试] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL 推荐]](/help/main/c-recommendations/recommendations.md)
+  * [[!UICONTROL 多变量测试] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL 推荐]](/help/main/c-recommendations/recommendations.md)
 
 * 您可以使用[可视化体验编辑器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)在[!DNL Target]活动中使用[!UICONTROL 体验片段]。
 
@@ -152,8 +150,8 @@ ht-degree: 28%
    * **A/B 测试：**&#x200B;[创建 A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **自动分配：**&#x200B;[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **自动锁定：**&#x200B;[自动锁定](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **自动个性化 (AP)：**&#x200B;[创建自动个性化活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **体验定位 (XT)：**&#x200B;[创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **自动个性化 (AP)：**&#x200B;[创建自动个性化活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
+   * **体验定位 (XT)：**&#x200B;[创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
    * **A/B 测试或 XT 活动中的推荐：**&#x200B;[推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
    在[!DNL Target]中导出为JSON的[!UICONTROL 体验片段]无法在使用VEC创建的活动中使用；基于VEC的活动仅支持HTML [!UICONTROL 体验片段]。 如果要使用JSON [!UICONTROL 体验片段]，请在使用[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)创建的活动中使用它们。
@@ -192,6 +190,6 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->在4:54中讨论的[!DNL AEM]深层链接功能已被删除。
+>已删除在4:54讨论的[!DNL AEM]深层链接功能。
 
 有关更多详细信息，请参阅&#x200B;*AEM Sites视频和教程*&#x200B;页面上的[将[!UICONTROL 体验片段]用于Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=zh-Hans)。

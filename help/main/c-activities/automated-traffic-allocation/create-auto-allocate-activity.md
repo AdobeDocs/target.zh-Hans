@@ -25,120 +25,143 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 9f1aaf5c0b172b4bbe89266800708881306e4592
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 12%
+source-wordcount: '1172'
+ht-degree: 10%
 ---
-# 创建[!UICONTROL 自动分配]活动
+# 创建[!UICONTROL 自动分配]活动 {#create-auto-allocate-activity}
 
-在[!DNL Adobe Target]中使用[!UICONTROL 可视化体验编辑器] (VEC)直接在启用了[!DNL Target]的页面上创建[!UICONTROL 自动分配] [!UICONTROL A/B测试]活动，并在[!DNL Target]内修改页面的各个部分。
+>[!BEGINSHADEBOX]
 
-除了[!UICONTROL 自动分配] [!UICONTROL A/B测试]活动（本文中讨论）之外，[!DNL Target]还提供另外两种类型的[!UICONTROL A/B测试]活动： [!UICONTROL 手动（默认）]和[!UICONTROL 自动定位]。 查看&#x200B;*A/B测试概述*&#x200B;中的[A/B测试活动类型](/help/main/c-activities/t-test-ab/test-ab.md#types)。
+**在此页面上：**&#x200B;了解如何在&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)中创建&#x200B;**[!UICONTROL 自动分配]**&#x200B;活动。 您可以构建体验、设置定位并选择自动分配流量分配方法，然后配置目标和设置。
 
-要创建[!UICONTROL 自动分配]活动，请执行以下操作：
+>[!ENDSHADEBOX]
+
+在[!DNL Adobe Target]中使用&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)直接在启用了[!DNL Target]的页面上创建&#x200B;**[!UICONTROL 自动分配]** **[!UICONTROL A/B测试]**&#x200B;活动，并在[!DNL Target]内修改页面的各个部分。
+
+>[!NOTE]
+>
+>除了&#x200B;**[!UICONTROL 自动分配]** **[!UICONTROL A/B测试]**&#x200B;活动（本文中讨论）之外，[!DNL Target]还提供另外两种类型的&#x200B;**[!UICONTROL A/B测试]**&#x200B;活动： **[!UICONTROL 手动（默认）]**&#x200B;和&#x200B;**[!UICONTROL 自动定位]**。 查看&#x200B;*A/B测试概述*&#x200B;中的[A/B测试活动类型](/help/main/c-activities/t-test-ab/test-ab.md#types)。
+
+该活动遵循VEC中的三步引导式工作流：
+
+1. [构建体验](#build-experiences)
+1. [设置定位和流量分配](#set-targeting)
+1. [配置目标和设置](#configure-goals-and-settings)
+
+## 步骤1：构建体验 {#build-experiences}
+
+创建活动，然后设计您想要针对控件测试的替代体验。
+
+### 创建活动 {#create-activity}
+
+在&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;中打开要测试的页面，并命名该活动。
 
 1. 从&#x200B;**[!UICONTROL 活动]**&#x200B;列表中，单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL A/B测试]**。
 
-1. 从[!UICONTROL 创建A/B测试活动]对话框中，根据需要选择&#x200B;**[!UICONTROL 可视化]**。
+   ![](../assets/create-ab-1.png)
 
-   如果您希望使用[!UICONTROL 基于表单的体验编辑器]，请选择[!UICONTROL 表单]。 请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，以了解更多信息。
+1. 从&#x200B;**[!UICONTROL 创建A/B测试活动]**&#x200B;对话框中，选择您的体验编辑器：
+
+   * **[!UICONTROL 可视化]**。
+   * **[!UICONTROL 基于表单的体验编辑器]**，有关详细信息，请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)。
 
    >[!NOTE]
    >
-   >除了VEC和[!UICONTROL 基于表单的体验编辑器]之外，[!DNL Target]还提供[!UICONTROL 单页应用程序] VEC。 有关各种编辑器的更多信息，请参阅[体验和产品建议](/help/main/c-experiences/experiences.md)。
+   >除了VEC和&#x200B;**[!UICONTROL 基于表单的体验编辑器]**&#x200B;之外，[!DNL Target]还提供&#x200B;**[!UICONTROL 单页应用程序]** VEC。 有关各种编辑器的更多信息，请参阅[体验和产品建议](/help/main/c-experiences/experiences.md)。
    >
    >有关VEC的故障诊断信息，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
 1. （视情况而定）如果您是[Target Premium客户](/help/main/c-intro/intro.md#premium)，请从&#x200B;**[!UICONTROL 选择Workspace]**&#x200B;下拉列表中选择一个[工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-   [[!UICONTROL 选择工作区]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)选项是[Target Premium](/help/main/c-intro/intro.md)功能，如果您的组织具有[!UICONTROL Target Standard]许可证，则可能无法显示。
-
 1. 在&#x200B;**[!UICONTROL 输入活动URL]**&#x200B;框中，指定您的[活动URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)。
 
    如果您的帐户[配置了默认 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，则默认情况下将显示该 URL。 您可以根据需要将默认URL更改为其他URL。
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。
+1. 单击&#x200B;**[!UICONTROL 创建]**。 此时会打开&#x200B;**[!UICONTROL 可视化体验编辑器]**，其中显示了在 URL 中指定的页面。
 
-   此时会打开[!UICONTROL 可视化体验编辑器]，其中显示了在 URL 中指定的页面。
+1. 要命名该活动，请单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)）并指定该活动的描述性名称，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-1. 要命名该活动，请单击“[!UICONTROL 无标题的活动]”旁边的&#x200B;**[!UICONTROL 编辑]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)），指定该活动的描述性名称，然后单击&#x200B;**[!UICONTROL 保存]**。
+   {{activity-name-rules}}
 
-   活动名称不能以下列任何字符开头：
+   ![](../assets/create-ab-2.png)
 
-   | 字符 | 描述 |
-   |--- |--- |
-   | `=` | 等号 |
-   | `+` | 加号 |
-   | `-` | 减号 |
-   | `@` | @ 符号 |
+### 设计体验 {#design-experiences}
 
-   活动名称不能包含以下任何字符序列：
+通过更改页面上的元素创建新体验。
 
-   | 字符序列 | 描述 |
-   |--- |--- |
-   | ;= | 分号，等于 |
-   | ;+ | 分号，加号 |
-   | ;- | 分号，减号 |
-   | ;@ | 分号， At sign |
-   | ,= | 逗号，等于 |
-   | ,+ | 逗号，加号 |
-   | ,- | 逗号，减 |
-   | ,@ | 逗号， At sign |
-   | `[`&quot; | 左方括号，双引号 |
-   | &quot;`]` | 双引号，右方括号 |
+创建新活动后，**[!UICONTROL 可视化体验编辑器]**&#x200B;在左侧显示两个选项卡：体验A和体验B。
 
-1. 通过更改页面上的元素创建新体验。
+* **体验A**&#x200B;是控制体验。 如果您不想将默认站点体验作为选项包含，则可以删除该选项。
+* **体验B**&#x200B;是您添加到测试的备用体验。 您的焦点位于此选项卡上，您可以根据需要对其进行修改。
 
-   创建新活动后，[!UICONTROL 可视化体验编辑器]在左侧显示两个选项卡：[!UICONTROL 体验A]和[!UICONTROL 体验B]。[!UICONTROL 体验A]是控制体验。 您关注的焦点是[!UICONTROL 体验B]选项卡，您可以根据需要对其进行修改。 [!UICONTROL 体验B]是您可以添加到测试的备用体验。 您可以通过单击[!UICONTROL 体验]窗格顶部的[!UICONTROL 添加]图标（![添加图标](/help/main/assets/icons/Add.svg)）将多个体验添加到测试中。 如果不想将默认网站体验作为一个选项，您也可以从活动中删除体验A。
+若要向测试添加更多体验，请单击&#x200B;**[!UICONTROL 添加]**&#x200B;图标（![添加图标](/help/main/assets/icons/Add.svg)）。
 
-   有关在[!UICONTROL 可视化体验编辑器]中添加和修改体验的详细信息，请参阅[添加体验](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。 要修改[!UICONTROL 体验B]，请从步骤2开始。
+![](../assets/create-ab-3.png)
 
-1. 单击[!UICONTROL 可视化体验编辑器]顶部的&#x200B;**[!UICONTROL 定位]**，以进入三步引导式工作流中的下一个步骤。
+有关在&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;中添加和修改体验的详细信息，请参阅[添加体验](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#ab-add-experience)。
 
-   此时会打开流程图。
+## 步骤2：设置定位和流量分配 {#set-targeting}
 
-   ![A/B 测试定位步骤](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
+访问&#x200B;**[!UICONTROL 定位]**&#x200B;菜单后，将打开流程图。
 
-   流程图会引导您完成以下步骤：分配受众及其流量百分比，选择流量分配方法，以及指定活动中每个体验的流量分配。
+![A/B 测试定位步骤](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
+
+流程图会引导您分配受众及其流量百分比，选择流量分配方法，并为活动中的每个体验指定流量分配。
 
 1. （视情况而定）单击&#x200B;**[!UICONTROL 所有访客]**&#x200B;控件为该活动选择其他受众。
 
-   已将[!UICONTROL 所有访客]受众设置为默认受众。 如果选择其他受众，则其名称将显示在最左侧的控件中。
+   已将&#x200B;**[!UICONTROL 所有访客]**&#x200B;受众设置为默认受众。 如果选择其他受众，则其名称将显示在最左侧的控件中。 例如，您可以将准入资格限制为 50% 的访客或 45% 的“加州”受众。
+
+   +++ 选择其他受众的步骤
 
    此时将显示正确的框架，您可以在其中添加或删除受众，并分配活动的访客百分比。
 
-   1. 要更改受众，请单击右框架中的&#x200B;**[!UICONTROL 替换]图标** （![替换图标](/help/main/assets/icons/Retweet.svg) ）。
-   1. 在[!UICONTROL 添加受众]对话框中，[选择所需的受众](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，然后单击&#x200B;**[!UICONTROL 分配受众]**。
+   1. 要更改受众，请单击右框架中的&#x200B;**[!UICONTROL 替换]**&#x200B;图标（![替换图标](/help/main/assets/icons/Retweet.svg)）。
+   1. 在&#x200B;**[!UICONTROL 添加受众]**&#x200B;对话框中，[选择所需的受众](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，然后单击&#x200B;**[!UICONTROL 分配受众]**。
 
-      您可以单击&#x200B;**合并受众**&#x200B;到[创建合并多个受众的受众](/help/main/c-target/combining-multiple-audiences.md)。
+      要创建组合多个受众的受众，请单击&#x200B;**[!UICONTROL 组合受众]**。 有关详细信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md)。
 
-      如果需要创建一个不在[!UICONTROL 受众库]中的新受众，请单击&#x200B;**创建受众**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
+      若要新建一个在&#x200B;**[!UICONTROL 受众库]**&#x200B;中没有的受众，请单击&#x200B;**[!UICONTROL 创建受众]**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)中，选择以下选项之一：
 
-      * **[!UICONTROL 受众库]**：创建保存到[!UICONTROL 受众库]的按需受众，该受众可在其他活动中重复使用
-      * **仅此活动**：创建未保存到[!UICONTROL 受众库]且仅能在当前活动中使用的[特定于活动的受众](/help/main/c-target/creating-activity-only-audience.md)
+      * **[!UICONTROL 受众库]**：创建保存到&#x200B;**[!UICONTROL 受众库]**&#x200B;的按需受众，该受众可在其他活动中重复使用。
+      * **[!UICONTROL 仅限此活动]**：创建未保存到&#x200B;**[!UICONTROL 受众库]**&#x200B;且只能用于当前活动的[特定活动受众](/help/main/c-target/creating-activity-only-audience.md)。
 
    1. 单击右框中的&#x200B;**[!UICONTROL 访客百分比]**，然后选择您希望参加活动的符合条件的访客所占的百分比。
 
-   例如，您可以将准入资格限制为 50% 的访客或 45% 的“加州”受众。
+   +++
 
 1. 单击&#x200B;**[!UICONTROL 流量分配]**&#x200B;控件，然后在右窗格中选择所需的流量分配方法。 在此方案中，单击&#x200B;**[!UICONTROL 自动分配到最佳体验]**。
 
    ![流量分配方法设置](/help/main/c-activities/automated-traffic-allocation/assets/auto-allocate-to-best-exp.png)
 
-   可以使用以下流量分配方法：
+   +++ 流量分配方法
 
-   * **[!UICONTROL 手动（默认）]**：指定您希望看到每个体验的参加者所占的百分比。 您可以将百分比平分到所有体验，或者也可以为每个体验指定较高或较低的百分比。 所有体验的百分比总和必须等于 100%。
+   | 方法 | 作用 |
+   |---|---|
+   | **[!UICONTROL 手动（默认）]** | 指定您希望看到各个体验的参加者所占的百分比。 您可以将百分比平分到所有体验，或者也可以为每个体验指定较高或较低的百分比。 所有体验的百分比总和必须等于 100%。 |
+   | **[!UICONTROL 自动分配到最佳体验]** | 大多数活动参加者会被自动定向到具有更高性能的体验。 为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。 有关详细信息，请参阅[**[!UICONTROL 自动分配&#x200B;]**&#x200B;概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。 |
+   | **[!UICONTROL 自动定位以提供个性化体验]** | [!DNL Target]使用先进的机器学习技术，确定多个高性能、由营销人员定义的体验，然后根据访客各自的客户配置文件和过去类似访客的行为，为其提供量身定制的体验，从而个性化内容并促进转化。 有关详细信息，请参阅[自动定位概述](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
-   * **[!UICONTROL 自动分配到最佳体验]**：将大多数活动参加者自动定向到具有更高性能的体验。 为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。 有关详细信息，请参阅[[!UICONTROL 自动分配]概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
-
-   * **[!UICONTROL 自动定位以提供个性化体验]**： [!DNL Target]使用先进的机器学习技术，确定多个高性能、由营销人员定义的体验，然后根据访客各自的客户配置文件和过去类似访客的行为，为其提供量身定制的体验，从而个性化内容并促进转化。 有关详细信息，请参阅[自动定位概述](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
+   +++
 
 1. 单击右侧窗格中的&#x200B;**[!UICONTROL 体验]**，然后为每个体验指定所需的流量分配。
 
 1. 如果您对受众、体验选择和流量分配选择感到满意，请单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以进入三步引导式工作流的第三步。
 
-1. 指定活动的[目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)。
+## 步骤3：配置目标和设置 {#configure-goals-and-settings}
+
+在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上，您指示[!DNL Target]如何度量该活动。 可用的设置取决于您是使用[!DNL Target]还是[Analytics作为报表源](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。
+
+1. 指定活动的[目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)。 查看页面的各个部分，并设置您需要的。
+
+   | 区域 | 设置内容 |
+   |---|---|
+   | **[!UICONTROL 活动设置]** | 可选目标&#x200B;**[!UICONTROL 优先级]**（在多个活动共享位置和受众时使用）和&#x200B;**[!UICONTROL 持续时间]**（开始和结束日期）。 |
+   | **[!UICONTROL 报表设置]** | 报表源、目标量度（例如&#x200B;**[!UICONTROL 转化]**&#x200B;量度）、其他量度、报表受众和统计方法。 |
+   | **[!UICONTROL 高级设置]** | 成功量度之间的依赖关系、访客达到目标量度后发生的情况以及计数的递增方式。 |
+   | **[!UICONTROL 其他元数据]** | 有关对您或其他团队成员有用的活动的注释。 |
 
    >[!NOTE]
    >
@@ -148,4 +171,4 @@ ht-degree: 12%
 
 1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;或&#x200B;**[!UICONTROL 保存]**。
 
-创建活动后，[!UICONTROL 概述]选项卡会显示有关该活动的信息，包括活动图。
+创建活动后，**[!UICONTROL 概述]**&#x200B;选项卡会显示有关该活动的信息，包括活动图。

@@ -1,6 +1,8 @@
 ---
 keywords: scene7;dynamic media classic;数字资产管理;资源;dam;内容库;交换图像
-description: 了解如何将Adobe [!DNL Target]与Adobe Dynamic Media Classic（以前为Scene7）集成以便在内容库中提供数字资产管理(DAM)。
+description: 将Adobe Target连接到Adobe Dynamic Media Classic (Scene7)，以便创作者可以在活动中使用来自Experience Cloud资源的图像选件和交换图像。
+landing-page-description: 在“管理”中配置Scene7配置以在VEC和基于表单的体验编辑器中启用图像选件、内容库DAM工作流和交换图像操作。
+short-description: 在“管理”中配置Scene7配置以在VEC和基于表单的体验编辑器中启用图像选件、内容库DAM工作流和交换图像操作。
 title: 如何配置 Dynamic Media Classic (Scene7) 集成？
 feature: Administration & Configuration
 role: Admin
@@ -10,6 +12,8 @@ product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
@@ -18,57 +22,70 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 85%
+source-wordcount: '541'
+ht-degree: 5%
 ---
-# Dynamic Media Classic（以前为 Scene7）配置
+# 配置Dynamic Media Classic (Scene7)
 
-[!DNL Adobe Target]可以与[!DNL Adobe Dynamic Media Classic]（以前为[!DNL Scene7]）集成以在[!UICONTROL 内容库]中提供数字资产管理(DAM)。
+使用&#x200B;**[!UICONTROL 管理]**&#x200B;下的&#x200B;**[!UICONTROL Scene7配置]**&#x200B;选项卡将[!DNL Adobe Target]连接到[!DNL Adobe Dynamic Media Classic]（以前为[!DNL Scene7]）。 该集成将数字资产管理(DAM)引入[!UICONTROL 内容库]并在活动中启用图像交换工作流。
+
+有关此选项卡如何与其他管理任务配合使用，请参阅[如何管理Target？](/help/main/administrating-target/administrating-target.md)。 要在界面中找到&#x200B;**[!UICONTROL 管理]**，请参阅[了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)。
+
+**概述**
+
+1. [集成支持的功能](#what-it-enables)：图像选件、交换图像和符合条件的资产。
+1. [帐户和凭据](#account-and-credentials)：现有[!DNL Dynamic Media]帐户和支持的帐户类型。
+1. [使用指南](#usage-guidelines)： URL、投放以及不支持的。
+1. [在Target中配置Scene7](#configure-scene7)：登录和区域设置。
 
 {{permissions-update}}
 
->[!NOTE]
->
->将 [!DNL Target] 与 [!DNL Dynamic Media Classic] 集成后，可以交付已上传到 [!DNL Adobe Experience Cloud] 资源文件夹的资源（作为活动的一部分交付）。 此集成不允许访问在 [!DNL Dynamic Media Classic] 中上传以便在 [!DNL Target] 活动中交付的所有资源。
+## 集成支持的功能 {#what-it-enables}
 
-如果您已经拥有 [!DNL Dynamic Media] 帐户，则可以提供现有凭据。 如果您没有帐户，则可以向 [!DNL Adobe] 代表请求获取使用受限的 [!DNL Dynamic Media Classic] 帐户，而不需要支付额外费用。 可以使用此帐户在 [!DNL Target] 中只执行一些限定的操作。 当客户的工作流需要使用图像交换功能时，他们可以使用此服务。
+设置&#x200B;**[!UICONTROL Scene7配置]**&#x200B;后，作者可以使用上载到[!DNL Target]活动中[!DNL Adobe Experience Cloud]资源文件夹的图像。 **[!UICONTROL 交换图像选件]**&#x200B;选项出现在活动工作流中，包括在[可视化体验编辑器和基于表单的体验编辑器](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中。 有关VEC中的交换行为，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
-<!-- 
->[!NOTE]
->
->A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
--->
+如果未配置此设置，则在活动创建期间将无法使用&#x200B;**[!UICONTROL 交换图像选件]**。
 
-如果未配置此设置，则活动创建工作流中的[!UICONTROL 交换图像选件]选项将不可用。 配置此设置后，[可视体验编辑器 (VEC) 和基于表单的体验编辑器](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中都会提供用于交换/更改图像产品建议的选项。 随后，您可以使用图像产品建议，其中包含从 [!DNL Adobe Experience Cloud] 上传以供在 [!DNL Target] 活动中使用的图像。
+集成提供的资产属于Experience Cloud资产文件夹中的活动。 它&#x200B;**不**&#x200B;公开[!DNL Dynamic Media Classic]中的每个资产以用于[!DNL Target]活动。
 
-在活动创建过程中，如果您想要直接在产品建议或自定义代码中引用公共图像 URL，则应当将图像部署到您自己的 Web 服务器，并在代码中使用您自己的 URL。 无法获取已上传到 [!DNL Experience Cloud] 的图像的已发布 URL，以将其直接用在使用 [!DNL Target] 的定位工作流中或这些工作流之外。 按照合同规定，不允许使用此功能。
+配置后，在[!UICONTROL 选件]库中管理图像选件。 请参阅[管理内容](/help/main/c-experiences/c-manage-content/manage-content.md)。
 
-请注意，[!DNL Dynamic Media] 中图像的存储 URL 和最终发布 URL 是不同的，任何人&#x200B;*不得*&#x200B;使用图像的存储链接创建产品建议，否则将无法正常交付。 您必须按照帮助文档中的相关说明来使用图像产品建议功能。
+## 帐户和凭据 {#account-and-credentials}
 
-要与 [!DNL Dynamic Media Classic] ([!DNL Scene7]) 集成，您需要指定以下信息。
+如果您已经拥有[!DNL Dynamic Media]帐户，请在&#x200B;**[!UICONTROL Scene7配置]**&#x200B;页面上输入这些凭据。
+
+Adobe不再为新[!DNL Target]客户或新用户设置使用受限、免费的[!DNL Dynamic Media Classic]帐户。 如果您的组织已经拥有此集成的登录凭据，则这些凭据将继续工作。 有关帐户问题，请联系您的[!DNL Adobe]代表。
+
+## 使用指南 {#usage-guidelines}
+
+将图像与此集成一起使用时，请牢记以下限制：
+
+* **图像选件，而不是存储URL。** [!DNL Dynamic Media]存储URL和发布的投放URL不同。 不要从存储链接构建选件；投放失败。 请改用[图像选件](/help/main/c-experiences/c-manage-content/manage-content.md)和交换图像工作流。
+* 自定义代码中的&#x200B;**公共URL。** 要直接在选件或自定义代码中引用公共图像URL，请将图像托管在您自己的Web服务器上，并使用该URL。 您无法为已上传的Experience Cloud图像获取已发布的URL，以在[!DNL Target]定位工作流之外使用；合同不允许使用该功能。
+* **符合条件的资源。** 只有上传到Experience Cloud资源文件夹的资源（以及此集成支持的工作流）在范围内，而不是完整的[!DNL Dynamic Media Classic]目录。
+
+## 在Target中配置Scene7 {#configure-scene7}
+
+使用以下步骤连接[!DNL Dynamic Media Classic] ([!DNL Scene7])：
 
 1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Scene7配置]**。
+1. 输入您的[!DNL Dynamic Media Classic]帐户信息：
 
-1. 指定以下 [!DNL Dynamic Media Classic] 帐户信息：
+   | 字段 | 描述 |
+   | --- | --- |
+   | **地区** | [!DNL Dynamic Media]帐户的地区：北美洲、欧洲或亚洲。 |
+   | **临时文件夹** | 用于手动上传到[!DNL Dynamic Media]的Target文件夹之外的内容的位置。 |
+   | **电子邮件地址** | 用于登录到[!DNL Dynamic Media Classic] ([!DNL Scene7])的电子邮件地址。 |
+   | **密码** | 用于登录到[!DNL Dynamic Media Classic] ([!DNL Scene7])的密码。 |
 
-   **区域：**&#x200B;您的 [!DNL Dynamic Media] 帐户所在的区域：北美洲、欧洲或亚洲。
-
-   **临时文件夹：**&#x200B;位于 Target 文件夹以外且手动上传到 [!DNL Dynamic Media] 的内容所在的位置。
-
-   **电子邮件地址：**&#x200B;用于登录到 [!DNL Dynamic Media Classic] ([!DNL Scene7]) 的电子邮件地址。
-
-   **密码：**&#x200B;用于登录到 [!DNL Dynamic Media Classic] ([!DNL Scene7]) 的密码。
+   ![Scene7配置字段](/help/main/administrating-target/assets/scene7-1.png)
 
 1. 单击“提交”**&#x200B;**。

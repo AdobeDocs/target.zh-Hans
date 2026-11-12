@@ -30,99 +30,108 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: c86619f0c004279bf4d9b871c84bf2e37ba932b7
 workflow-type: tm+mt
-source-wordcount: '2033'
-ht-degree: 22%
+source-wordcount: '1963'
+ht-degree: 18%
 ---
-# 创建[!UICONTROL Automated Personalization]活动
+# 创建[!UICONTROL Automated Personalization]活动 {#create-ap-activity}
 
-在[!DNL Adobe Target]中使用[!UICONTROL 可视化体验编辑器] (VEC)创建[!UICONTROL Automated Personalization] (AP)活动。
+>[!BEGINSHADEBOX]
 
-[!DNL Target]中的[!UICONTROL Automated Personalization] (AP)活动工作流与其他活动类型的工作流有所不同。
+**在此页面上：**&#x200B;了解如何在&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)中创建&#x200B;**[!UICONTROL Automated Personalization]** (AP)活动。 您可以构建体验，设置定位和控制组，然后配置目标和设置。
 
-此过程遵循[!UICONTROL 可视化体验编辑器]中的三步引导式工作流：
+>[!ENDSHADEBOX]
 
-1. [步骤1：构建体验](#build-experiences)
-1. [步骤2：设置定位](#set-targeting)
-1. [步骤3：配置目标和设置](#configure-goals-and-settings)
+[!DNL Target]中的&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动工作流与其他活动类型的工作流有所不同。 它遵循&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;中的三步引导式工作流：
+
+1. [构建体验](#build-experiences)
+1. [设置定位](#set-targeting)
+1. [配置目标和设置](#configure-goals-and-settings)
+
+## 开始之前 {#before-you-begin}
+
+为获得最佳性能，请将&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;和&#x200B;**[!UICONTROL 自动定位]**&#x200B;活动保持在以下限制之内：
+
+* 4-6个位置，每个位置提供4-6个选件。
+* 总共5,000个体验以取得最佳结果。 硬限制为30,000，启用&#x200B;**[!UICONTROL 不允许重复项]**&#x200B;选项时，将应用相同的限制。
+
+体验的总数因位置和选件的笛卡尔组合而增加。 较大的配置可能会导致&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;中的加载或编辑速度缓慢。
 
 ## 步骤1：构建体验 {#build-experiences}
 
-定义[!UICONTROL Automated Personalization]可以个性化的内容变体池。 您的体验和选件越丰富、越清晰，算法就越能更好地将正确的内容与每位访客匹配。
+定义&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;可以个性化的内容变体池。 您的体验和选件越丰富、越清晰，算法就越能更好地将正确的内容与每位访客匹配。
 
-1. 从[!DNL Target] [!UICONTROL 活动]列表中，单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL Automated Personalization]**。
+### 创建活动 {#create-activity}
 
-1. 要使用[!UICONTROL 可视化体验编辑器] (VEC)，请单击&#x200B;**[!UICONTROL 可视化]**。
+启动活动，并在&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)中打开要个性化的页面。
 
-   若要使用[!UICONTROL 基于表单的体验编辑器]，请选择[!UICONTROL 表单]。 请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，以了解更多信息。
+1. 从[!DNL Target] **[!UICONTROL 活动]**&#x200B;列表中，单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL Automated Personalization]**。
 
-   >[!NOTE]
-   >
-   >除了VEC和[!UICONTROL 基于表单的体验编辑器]之外，[!DNL Target]还提供[!UICONTROL 单页应用程序VEC]。 有关各种编辑器的更多信息，请参阅[体验和产品建议](/help/main/c-experiences/experiences.md)。
-   >
-   >有关VEC的故障诊断信息，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
+   ![](../assets/ap-activities-2.png)
+
+1. 选择您的体验编辑器：
+
+   * 要使用&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)，请单击&#x200B;**[!UICONTROL 可视化]**。
+
+   * 若要使用&#x200B;**[!UICONTROL 基于表单的体验编辑器]**，请改为选择&#x200B;**[!UICONTROL 表单]**。 请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，以了解更多信息。
+
+     >[!NOTE]
+     >
+     >除了VEC和&#x200B;**[!UICONTROL 基于表单的体验编辑器]**&#x200B;之外，[!DNL Target]还提供&#x200B;**[!UICONTROL 单页应用程序VEC]**。 有关各种编辑器的更多信息，请参阅[体验和产品建议](/help/main/c-experiences/experiences.md)。 有关VEC的故障诊断信息，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
+
+     ![](../assets/ap-activities-3.png)
 
 1. （视情况而定） [选择工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 在&#x200B;**[!UICONTROL 输入活动URL]**&#x200B;框中，指定您的[活动URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)。
+1. 在&#x200B;**[!UICONTROL 输入活动URL]**&#x200B;框中，指定您的[活动URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)。 如果您的帐户[配置了默认 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，则默认情况下将显示该 URL。 您可以根据需要将默认URL更改为其他URL。
 
-   如果您的帐户[配置了默认 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，则默认情况下将显示该 URL。 您可以根据需要将默认URL更改为其他URL。
+   请注意，[!DNL Target]不区分URL协议（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com/cn`]和[!DNL `https://www.adobe.com/cn`]都匹配。
 
-   [!DNL Target]不区分URL协议（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com/cn`]和[!DNL `https://wwww.adobe.com`]都匹配。
+1. 然后，单击&#x200B;**[!UICONTROL 创建]**。 此时将在VEC中打开具有指定URL的页面。
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。
+1. 要命名该活动，请单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)）并指定该活动的描述性名称，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   此时将在VEC中打开具有指定URL的页面。
+   {{activity-name-rules}}
 
-1. 要命名该活动，请单击“[!UICONTROL 无标题的活动]”旁边的&#x200B;**[!UICONTROL 编辑]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)），指定该活动的描述性名称，然后单击&#x200B;**[!UICONTROL 保存]**。
+   ![](../assets/ap-activities-1.png)
 
-   活动名称不能以下列任何字符开头：
+### 设计内容 {#design-content}
 
-   | 字符 | 描述 |
-   |--- |--- |
-   | `=` | 等号 |
-   | `+` | 加号 |
-   | `-` | 减号 |
-   | `@` | @ 符号 |
+设置算法可组合的内容，并排除您不希望出现的任何体验。
 
-   活动名称不能包含以下任何字符序列：
+1. 按照[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)中的说明修改页面元素。
 
-   | 字符序列 | 描述 |
-   |--- |--- |
-   | ;= | 分号，等于 |
-   | ;+ | 分号，加号 |
-   | ;- | 分号，减号 |
-   | ;@ | 分号， At sign |
-   | ,= | 逗号，等于 |
-   | ,+ | 逗号，加号 |
-   | ,- | 逗号，减 |
-   | ,@ | 逗号， At sign |
-   | `[`&quot; | 左方括号，双引号 |
-   | &quot;`]` | 双引号，右方括号 |
+   * 要快速预览多个图像，请从资源管理器中一次选择多个图像。 然后，您可以查看页面，其中包含为活动配置的每个映像。
+   * 要更改选件中的文本，请直接在页面上编辑文本元素。
 
-1. 按照[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)中所述，修改页面元素。
-
-   您可以从资产管理器中一次选择多个图像。 这样，您就可以快速查看页面，以及为该活动配置的每个映像。 您还可以轻松编辑选件中的文本元素。 当您编辑某个元素时，该元素上会出现一个条块，指示您对它进行了更改。
+   编辑元素时，该元素上会显示一些条形，表示已对其进行更改。
 
 1. 单击&#x200B;**[!UICONTROL 管理内容]**&#x200B;图标（![管理内容图标](/help/main/assets/icons/Experience.svg)）以配置可用的组合。
 
-   将显示一个对话框，其中包含两个选项卡：[!UICONTROL 体验]和[!UICONTROL 选件]。 [!UICONTROL 体验]选项卡列出了每项内容及其分配到的位置。 要排除一个或多个体验，请选中相应的复选框，然后单击[!UICONTROL 排除]图标。 有关更多选项，请参阅[管理排除项](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。
+   将打开&#x200B;**[!UICONTROL 管理内容]**&#x200B;对话框，其中包含两个选项卡：**[!UICONTROL 体验]**&#x200B;和&#x200B;**[!UICONTROL 选件]**。
 
-   >[!IMPORTANT]
-   >
-   >为获得最佳性能，请将[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动限制为4-6个位置，每个位置具有4-6个选件。 体验的总数因位置和选件的笛卡尔组合而增加。 较大的配置可能会导致[!UICONTROL 可视化体验编辑器]中的加载或编辑速度缓慢。 将总体验保留在5,000个以下以获得最佳结果；硬限制为30,000 （启用[!UICONTROL 不允许重复项]选项时适用相同限制）。
+   ![](../assets/ap-activities-4.png)
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL 选件]**&#x200B;以选择内容片段并将其分配给报表组，或只允许特定访客查看特定具有定位的选件。
+1. 在&#x200B;**[!UICONTROL 体验]**&#x200B;选项卡上，查看内容段的列表以及每个内容段分配到的位置。
 
-   有关报表组的详细信息，请参阅[Automated Personalization中的选件报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)。
+1. （可选）要从活动中排除体验，请选中要排除的每个体验对应的复选框，然后单击&#x200B;**[!UICONTROL 排除]**&#x200B;图标。
+
+   有关更多选项，请参阅[管理排除项](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。
+
+   ![](../assets/ap-activities-5.png)
+
+1. （视情况而定）单击&#x200B;**[!UICONTROL 选件]**&#x200B;选项卡以管理活动中的选件。
+
+   * 要组织报表的选件，请选择内容块并将它们分配给报表组。 有关详细信息，请参阅[Automated Personalization中的选件报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)。
+   * 要限制能够查看选件的人员，请使用定位功能来仅允许特定访客查看该选件。
 
 <!--
 1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combination of elements that you want to exclude from the activity.
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the **[!UICONTROL Disallow Duplicates]** option.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
@@ -135,68 +144,110 @@ ht-degree: 22%
 
 确定哪些访客进入活动以及您的流量暴露了多少。 将它们与对照组配对，以便[!DNL Target]可以测量个性化交付的提升度。
 
-1. 单击[!UICONTROL 可视化体验编辑器]顶部的&#x200B;**[!UICONTROL 定位]**，以进入三步引导式工作流中的下一个步骤。
-
-   如果您使用过其他[!DNL Target]活动类型，则&#x200B;**定位**&#x200B;步骤看起来会很熟悉。 在此步骤中，您可以选择受众，并指定查看每个体验的访客百分比。
-
-1. 流程图会引导您完成以下步骤：分配受众及其流量百分比，选择流量分配方法，以及指定活动中每个体验的流量分配。
+1. 单击&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;顶部的&#x200B;**[!UICONTROL 定位]**，以进入三步引导式工作流中的下一个步骤。
 
    ![AP测试定位步骤](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
 
 1. （视情况而定）单击&#x200B;**[!UICONTROL 所有访客]**&#x200B;控件以[为活动选择其他受众](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)并设置其访客百分比。
 
-   已将[!UICONTROL 所有访客]受众设置为默认受众。 如果选择其他受众，则其名称显示在最左侧的控件中，例如，您可以将条目限制为所有访客的50%或“加利福尼亚人”受众的45%。
+   已将&#x200B;**[!UICONTROL 所有访客]**&#x200B;受众设置为默认受众。 如果选择其他受众，则其名称将显示在最左侧的控件中。 例如，您可以将准入资格限制为 50% 的访客或 45% 的“加州”受众。
 
-1. 单击&#x200B;**[!UICONTROL 流量分配]**&#x200B;控件以从以下选项中进行选择：
+1. 单击&#x200B;**[!UICONTROL 流量分配]**&#x200B;控件并选择以下选项之一：
 
    ![流量分配目标选项](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
 
-   * **[!UICONTROL 评估Personalization算法(50/50)]：**&#x200B;如果您的目标是测试算法，则可以在控制和目标算法之间按50/50的百分比拆分访客。 这种拆分可让您对提升进行最精确的评估。 建议将“随机体验”用作控制。
-   * **[!UICONTROL 最大化Personalization流量(90/10)]：**&#x200B;如果您的目标是创建“始终运行”的活动，请将10%的访客放入控制。 此选项确保算法有足够的数据来不断学习。 这里做出的权衡是，为了对更大比例的流量进行个性化，提升度的准确性将会降低。 无论您的目标如何，在使用特定体验作为控制时，都建议使用此选项。
-   * **[!UICONTROL 自定义分配]：**&#x200B;根据需要手动拆分百分比。
+   +++流量分配目标选项
 
-1. （视情况而定）从[!UICONTROL 控制]下拉列表中，[选择要用作控制的特定体验](/help/main/c-activities/t-automated-personalization/experience-as-control.md)或选择[!UICONTROL 随机体验。]
+   | 选项 | 何时使用 |
+   |--- |--- |
+   | **[!UICONTROL 评估Personalization算法(50/50)]** | 您的目标是测试算法。 对照算法和目标算法之间的访客比例均为50/50。 这种拆分可提供提升度的最准确估计，也是测试算法是否比无个性化（例如，随机提供的控制）性能更佳的最快和最准确的方法。 建议将“随机体验”用作控制。 |
+   | **[!UICONTROL 最大化Personalization流量(90/10)]** | 您的目标是创建“始终运行”的活动。 10%的访客进入控制，这将确保算法有足够的数据来不断学习。 当您不太关注确切的提升度时，这是最大程度地增加个性化流量的最快、最准确的方法。 取舍是，你的精确度较低。 无论您的目标如何，当您使用特定体验作为控制时，都建议使用此选项。 |
+   | **[!UICONTROL 自定义分配]** | 您希望手动拆分百分比。 |
 
-   控制体验通过比较来确定自动化测试所带来的提升量。
+   +++
 
-   [!UICONTROL Automated Personalization]始终针对控制组测量性能。 最佳做法是在控制组中至少放入 10% 的参加者。 如果您的目标是测试给定数据上的个性化算法是否比无个性化（例如，随机提供的控制）的执行得更好，则控制和个性化算法之间的50/50流量分摊是实现此目标的最快和最准确的方法。 如果您希望最大化个性化的流量量，并且不太关注了解您的活动正在产生的确切提升度，则控制和个性化算法之间的10/90流量分摊是实现此目标的最快、最准确的方法。
+1. （视情况而定）从&#x200B;**[!UICONTROL 控制]**&#x200B;下拉列表中，[选择要用作控制的特定体验](/help/main/c-activities/t-automated-personalization/experience-as-control.md)或选择&#x200B;**[!UICONTROL 随机体验]**。
+
+   控制体验通过比较来确定自动化测试所带来的提升量。 **[!UICONTROL Automated Personalization]**&#x200B;始终针对控制组测量性能。 最佳做法是在控制组中至少放入 10% 的参加者。
 
    >[!NOTE]
    >
-   >在[!UICONTROL Automated Personalization]活动中，将评估每个请求的参加标准（URL定位、模板规则和受众目标）。 在以前的版本中，每个会话会评估一次参加标准。
+   >在&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动中，将评估每个请求的参加标准（URL定位、模板规则和受众目标）。 在以前的版本中，每个会话会评估一次参加标准。
 
 ## 步骤3：配置目标和设置 {#configure-goals-and-settings}
 
 告诉[!DNL Target]成功是什么样的。 您选择的优化目标是个性化算法所针对的量度，因此请挑选对此活动最重要的结果。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以显示&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面。
+
 1. 使用以下设置配置活动，然后单击&#x200B;**[!UICONTROL 保存并关闭]**。
 
    | 设置 | 描述 |
    |--- |--- |
-   | [!UICONTROL 名称] | 命名活动。 请为活动提供一个描述清楚的名称，以便团队成员能够在[!UICONTROL 活动]列表中识别该活动。 请参阅上面的表格，查看在活动名称中不允许使用的字符。 |
-   | [!UICONTROL 目标] | （可选）键入测试的目标。 此目标可帮助您记住活动的用途。 |
-   | [!UICONTROL 优先级] | 根据您的设置，[!UICONTROL 优先级]的[!DNL Target] UI和选项会有所不同。 您可以使用[!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]的旧设置，也可以启用0到999的细粒度优先级。<P>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。 如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<P>如果未在[!UICONTROL 管理] > [!UICONTROL 报告]中启用此选项（默认值），请指定优先级： [!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]。<P>要启用细粒度优先级，请单击[!UICONTROL 管理] > [!UICONTROL 报告]，然后将[!UICONTROL 启用细粒度优先级]选项切换到“开”位置。<P>如果已启用此选项，请指定从0到999的值：<ul><li>0 = 低</li><li>999 = 高</li></ul>对于在以前的[!DNL Target Standard/Premium]版本中创建的活动，[!UICONTROL 低]优先级已转换为0，[!UICONTROL Medium]优先级已转换为5，[!UICONTROL 高]优先级已转换为10。 您可以根据需要调整这些值。<P>**注意**：在使用细粒度优先级后，您可以禁用此选项，但在此之前，必须将所有优先级重新设置为0、5、10。 |
-   | [!UICONTROL 持续时间] | 设置活动的开始和结束日期。 您可以选择[!UICONTROL 激活时]，也可以指定特定的日期和时间。 |
-   | [!UICONTROL 优化目标] | 指定优化目标，该目标包含两个参数：<ul><li>您想要通过活动衡量哪些指标</li><li>活动参加者采取的哪项操作可指示目标已达到。</li></ul>您可以通过选择[!UICONTROL 我的主要目标]右侧的三个圆点来命名优化目标。 [!UICONTROL Automated Personalization]活动可以测量[!UICONTROL 转化]或[!UICONTROL 收入]。 可以通过查看页面或查看mbox来实现转换。 点击次数也可以进行跟踪。<P>主要目标也可作为建模系统用来计算体验是否成功的建模量度。<P>达到建模目标后，出于跟踪目的，可以将访客保留在活动中。 例如，通常使用[!UICONTROL Automated Personalization]活动来提高点击率，并且设置为建模目标。 但是，了解点击率的增加如何导致最终转化很重要，因此跟踪最终转化至关重要。<P>您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。<P>在使一个量度依赖于另一个量度之前，您必须定义两个（或多个）成功量度。<P>通过“[!UICONTROL 添加依赖项]”选项，可以指定是否要先实现其他成功量度，然后才能递增该成功量度。<P>要添加依赖项，请执行以下操作：<ol><li>添加其他量度后，单击[!UICONTROL 其他目标]右侧的三个圆点式菜单下的&#x200B;**[!UICONTROL 高级设置]**。</li><li>单击[!UICONTROL 报表设置]部分底部的&#x200B;**[!UICONTROL 添加依赖项]**&#x200B;选项。</li><li>将所需量度从左侧窗格拖放到右侧窗格中，然后单击[!UICONTROL 已实现]，以在[!UICONTROL 已实现]和[!UICONTROL 未实现]之间进行切换。</li></ol>添加依赖项后，您可以编辑或删除依赖项。 |
-   | [!UICONTROL 转化量度] | 默认情况下，转化量度与优化目标量度相同。 但是，您可以通过取消选中[!UICONTROL 与优化目标相同]选项来定义单独的转化量度。 |
-   | [!UICONTROL 其他量度] | 添加任何其他要使用的报表量度。 您可以添加转化或收入量度。<P>**注意**： [!UICONTROL 参与度]量度不支持作为其他量度。 [!DNL Target] UI可能允许您选择[!UICONTROL 参与]量度，但数据在报表中无法准确显示。 |
-   | [!UICONTROL 报表受众] | 添加受众以在报表中启用按受众筛选功能。 默认情况下，报表会显示所有符合条件的访客结果。 添加受众可筛选结果，从而获得更具体的访客子集。<P>**注意**：与其他活动类型不同，[!UICONTROL Automated Personalization]不能使用[!UICONTROL Adobe Analytics]作为其报表源(A4T)。 |
-   | [!UICONTROL 注意] | 键入对您或其他团队成员有用的有关活动的任何信息。 [!UICONTROL 注释]窗格可调整大小。 |
+   | **[!UICONTROL 名称]** | 命名活动。 请为活动提供一个描述清楚的名称，以便团队成员能够在&#x200B;**[!UICONTROL 活动]**&#x200B;列表中识别该活动。 遵循[步骤1：构建体验](#build-experiences)中所述的活动名称规则。 |
+   | **[!UICONTROL 目标]** | （可选）键入测试的目标。 此目标可帮助您记住活动的用途。 |
+   | **[!UICONTROL 优先级]** | 决定当多个活动共享某个位置和某个受众时，要显示哪个活动。 请参阅[设置优先级](#set-priority)。 |
+   | **[!UICONTROL 持续时间]** | 设置活动的开始和结束日期。 您可以选择&#x200B;**[!UICONTROL 激活时]**，也可以指定特定的日期和时间。 |
+   | **[!UICONTROL 优化目标]** | 个性化算法所针对的指标。 请参阅[设置优化目标](#set-optimization-goal)。 |
+   | **[!UICONTROL 转化量度]** | 默认情况下，转化量度与优化目标量度相同。 但是，您可以通过取消选中&#x200B;**[!UICONTROL 与优化目标相同]**&#x200B;选项来定义单独的转化量度。 |
+   | **[!UICONTROL 其他量度]** | 添加任何其他要使用的报表量度。 您可以添加转化或收入量度。<P>**注意**： **[!UICONTROL 参与度]**&#x200B;量度不支持作为其他量度。 [!DNL Target] UI可能允许您选择&#x200B;**[!UICONTROL 参与]**&#x200B;量度，但数据在报表中无法准确显示。 |
+   | **[!UICONTROL 报表受众]** | 添加受众以在报表中启用按受众筛选功能。 默认情况下，报表会显示所有符合条件的访客结果。 添加受众可筛选结果，从而获得更具体的访客子集。<P>**注意**：与其他活动类型不同，**[!UICONTROL Automated Personalization]**&#x200B;不能使用&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;作为其报表源(A4T)。 |
+   | **[!UICONTROL 注意]** | 键入对您或其他团队成员有用的有关活动的任何信息。 **[!UICONTROL 注释]**&#x200B;窗格可调整大小。 |
 
-   在命名或重命名指标时，不允许使用以下字符：
+   在命名或重命名度量时，不允许使用以下字符： `/`、`?`、`#`、`:`、`=`、`+`、`-`和`@`。
 
-   | 字符 | 描述 |
-   |--- |--- |
-   | / | 正斜线 |
-   | ? | 问号 |
-   | # | 数字符号 |
-   | : | 冒号 |
-   | = | 等号 |
-   | + | 加号 |
-   | - | 减号 |
-   | @ | @ 符号 |
+### 设置优先级 {#set-priority}
 
-单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;后，将显示该活动的[!UICONTROL 概述]页面。 单击&#x200B;**预览体验**&#x200B;以预览您的体验在交付时的外观。 此时会显示一个弹出窗口，您可以使用它查看和共享指向网站上您的AP体验的链接，从而在[!UICONTROL Target] [!UICONTROL 可视化体验编辑器] (VEC)之外获得体验的“真实预览”。 您必须通过共享消息中的链接来共享预览。 单击链接然后直接从浏览器复制URL不起作用。 复制链接会导致URL包含一个参数，只有在您从消息中的链接访问页面时，该参数才会正确显示页面。
+如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。 如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。
+
+根据您的设置，**[!UICONTROL 优先级]**&#x200B;的[!DNL Target] UI和选项会有所不同：
+
+* **旧版优先级（默认）：**&#x200B;如果未启用细粒度优先级，请指定优先级&#x200B;**[!UICONTROL 低]**、**[!UICONTROL Medium]**&#x200B;或&#x200B;**[!UICONTROL 高]**。
+* **细粒度优先级：**&#x200B;指定从0到999的值，其中0 =低，999 =高。 要启用此选项，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 报告]**，然后将&#x200B;**[!UICONTROL 启用细粒度优先级]**&#x200B;选项切换到“开”位置。
+
+对于在以前的[!DNL Target Standard/Premium]版本中创建的活动，**[!UICONTROL 低]**&#x200B;优先级已转换为0，**[!UICONTROL Medium]**&#x200B;优先级已转换为5，**[!UICONTROL 高]**&#x200B;优先级已转换为10。 您可以根据需要调整这些值。
+
+>[!NOTE]
+>
+>在使用细粒度优先级后，您可以禁用这些优先级，但在此之前，必须将所有优先级重新设置为0、5、10。
+
+### 设置优化目标 {#set-optimization-goal}
+
+优化目标包含两个参数：
+
+* 您想要通过活动衡量哪些指标
+* 活动参加者采取的表明目标已实现的操作
+
+您可以通过选择&#x200B;**[!UICONTROL 我的主要目标]**&#x200B;右侧的三个圆点来命名优化目标。 **[!UICONTROL Automated Personalization]**&#x200B;活动可以测量&#x200B;**[!UICONTROL 转化]**&#x200B;或&#x200B;**[!UICONTROL 收入]**。 可以通过查看页面或查看mbox来实现转换。 点击次数也可以进行跟踪。
+
+主要目标也可作为建模系统用来计算体验是否成功的建模量度。
+
+达到建模目标后，出于跟踪目的，可以将访客保留在活动中。 例如，通常使用&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动来提高点击率，并且设置为建模目标。 但是，了解点击率的增加如何导致最终转化很重要，因此跟踪最终转化至关重要。
+
+#### 使一个指标依赖于另一个指标 {#add-dependency}
+
+您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。 在使一个量度依赖于另一个量度之前，您必须定义两个（或多个）成功量度。 通过“**[!UICONTROL 添加依赖项]**”选项，可以指定是否要先实现其他成功量度，然后才能递增该成功量度。
+
+要添加依赖项，请执行以下操作：
+
+1. 添加其他量度后，单击&#x200B;**[!UICONTROL 其他目标]**&#x200B;右侧的三个圆点式菜单下的&#x200B;**[!UICONTROL 高级设置]**。
+
+1. 单击&#x200B;**[!UICONTROL 报表设置]**&#x200B;部分底部的&#x200B;**[!UICONTROL 添加依赖项]**&#x200B;选项。
+
+1. 将所需量度从左侧窗格拖放到右侧窗格中，然后单击&#x200B;**[!UICONTROL 已实现]**，以在&#x200B;**[!UICONTROL 已实现]**&#x200B;和&#x200B;**[!UICONTROL 未实现]**&#x200B;之间进行切换。
+
+添加依赖项后，您可以编辑或删除依赖项。
+
+## 预览体验 {#preview-experiences}
+
+在启动活动之前，请检查您的体验在网站上的外观。
+
+1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;后，将显示该活动的&#x200B;**[!UICONTROL 概述]**&#x200B;页面。 单击&#x200B;**预览体验**。
+
+1. 在显示的弹出窗口中，查看和共享指向您网站上的AP体验的链接。 这些链接为您提供了&#x200B;**[!UICONTROL Target]** **[!UICONTROL 可视化体验编辑器]** (VEC)外部体验的“真实预览”。
+
+   >[!NOTE]
+   >
+   >您必须通过共享消息中的链接来共享预览。 单击链接然后直接从浏览器复制URL不起作用。 复制链接会导致URL包含一个参数，只有在您从消息中的链接访问页面时，该参数才会正确显示页面。
 
 有关报表的信息，请参阅[Automated Personalization报表](/help/main/c-reports/personalization-reports/reports-ap.md)。

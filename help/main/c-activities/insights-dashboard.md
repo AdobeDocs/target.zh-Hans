@@ -10,14 +10,20 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '858'
 ht-degree: 1%
 ---
-# Adobe Target分析功能板
+# Adobe Target分析功能板 {#insights-dashboard}
 
-[!UICONTROL Adobe Target仪表板]提供了贵组织如何逐渐使用[!DNL Adobe Target]的高级视图。 它有助于团队一眼就了解采用情况、活动量和实验使用情况。
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何阅读&#x200B;**[!UICONTROL Adobe Target功能板]**：如何选择时间范围，以及KPI、活动类型细分、A/B测试指标和随时间变化的活动显示什么。
+
+>[!ENDSHADEBOX]
+
+**[!UICONTROL Adobe Target仪表板]**&#x200B;提供了贵组织如何逐渐使用[!DNL Adobe Target]的高级视图。 它有助于团队一眼就了解采用情况、活动量和实验使用情况。
 
 该仪表板专为希望快速了解[!DNL Target]使用情况的从业人员和利益相关者设计，无需深入了解各个活动报告。
 
@@ -63,23 +69,23 @@ ht-degree: 1%
 
 ![](assets/insights-4.png)
 
-**实时活动总数**&#x200B;指标详细列出了选定时间范围内任何时间点上实时的活动数。 如果活动积极提供流量，则即使该活动在选定时段之前开始或之后结束，该活动也被视为实时活动。 使用此量度可以：
+**[!UICONTROL 实时活动总数]**&#x200B;指标详细列出了选定时间范围内任何时间点上实时的活动数。 如果活动积极提供流量，则即使该活动在选定时段之前开始或之后结束，该活动也被视为实时活动。 使用此量度可以：
 
 * 了解在此时间段内[!DNL Target]的使用情况。
 * 衡量个性化和测试工作的整体规模。
 
-**实时或修改的活动**&#x200B;量度表示贵组织在所选时间范围内实时、创建或修改的活动总数。 使用此量度可以：
+**[!UICONTROL 实时或修改的活动]**&#x200B;量度表示贵组织在所选时间范围内实时、创建或修改的活动总数。 使用此量度可以：
 
 * 了解[!DNL Target]活动库的总大小以及正在使用的活动数量。
 
 * 跟踪您的试验和个性化项目的长期增长。
 
-**结束的活动**&#x200B;量度表示在所选时间范围内达到完成或停止日期的活动数。 使用此量度可以：
+**[!UICONTROL 结束的活动]**&#x200B;量度表示在所选时间范围内达到完成或停止日期的活动数。 使用此量度可以：
 
 * 了解在该时间段内结束的活动量。
 * 跟踪一段时间的完成量。
 
-**已发布活动**&#x200B;度量详细列出了选定时间范围内已发布的活动数。 首次将活动上线时，该活动会被视为已发布。 如果某个活动处于实时状态、停止状态，然后又重新处于实时状态，则此量度中只会计入第一次发生的事件。 使用此量度可以：
+**[!UICONTROL 已发布活动]**&#x200B;度量详细列出了选定时间范围内已发布的活动数。 首次将活动上线时，该活动会被视为已发布。 如果某个活动处于实时状态、停止状态，然后又重新处于实时状态，则此量度中只会计入第一次发生的事件。 使用此量度可以：
 
 * 测量已启动的新活动数。
 * 了解活动创建和发布速度。
@@ -88,13 +94,13 @@ ht-degree: 1%
 
 ![](assets/insights-5.png)
 
-[!UICONTROL 活动类型]图表显示所选时间范围内按类型列出的实时活动分布，包括：
+**[!UICONTROL 活动类型]**&#x200B;图表显示所选时间范围内按类型列出的实时活动分布，包括：
 
-* [!UICONTROL A/B 测试]
-* [!UICONTROL 体验定位]
-* [!UICONTROL 推荐]
-* [!UICONTROL Automated Personalization]
-* [!UICONTROL 多变量测试]
+* **[!UICONTROL A/B 测试]**
+* **[!UICONTROL 体验定位]**
+* **[!UICONTROL 推荐]**
+* **[!UICONTROL Automated Personalization]**
+* **[!UICONTROL 多变量测试]**
 
 使用此图表可以识别贵组织最依赖的[!DNL Target]功能，并发现扩大您运行的活动类型组合的机会。
 
@@ -110,7 +116,7 @@ ht-degree: 1%
 
 使用这些量度了解A/B测试的使用频率，并跟踪一段时间内的试验量和采用情况。
 
-### 一段时间内的活动
+### 一段时间内的活动 {#activities-over-time}
 
 ![](assets/insights-7.png){align="center"}
 

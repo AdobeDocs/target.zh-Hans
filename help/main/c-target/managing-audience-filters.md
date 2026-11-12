@@ -1,6 +1,6 @@
 ---
 keywords: 定位；受众筛选器；受众；筛选器
-description: 了解如何在 [!DNL Adobe Target] 中使用受众筛选器查看共享特征的访客的数据。
+description: 了解如何在[!DNL Adobe Target]中使用受众筛选器查看共享特征的访客的数据。
 title: 能否将受众筛选器用于报表？
 feature: Audiences
 exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '479'
 ht-degree: 59%
-
 ---
-
 # 适用于报表的受众筛选器
 
 [!DNL Adobe Target]中的受众筛选器（或称受众）是指共享特定特征或一组特征的访客组。
@@ -60,5 +58,5 @@ ht-degree: 59%
 | 创建适当的活动或测试。 | [活动和测试](/help/main/c-intro/target-key-concepts.md) |
 | 创建受众（如有需要）。 | [创建受众](/help/main/c-target/c-audiences/create-audience.md) |
 | 合并多个受众（如有需要）。 | [合并多个受众](/help/main/c-target/combining-multiple-audiences.md) |
-| 在活动的“目标和设置”页面上应用受众。 | A/B测试： [目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization： [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>体验定位： [目标和设置](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>多变量测试： [目标和设置](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>推荐： [推荐活动设置](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>活动设置： [活动设置](/help/main/c-activities/activity-settings.md) |
+| 在活动的“目标和设置”页面上应用受众。 | A/B测试： [目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization： [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>体验定位： [目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>多变量测试： [目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>推荐： [推荐活动设置](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>活动设置： [活动设置](/help/main/c-activities/activity-settings.md) |
 | 查看包含受众筛选器相关信息的报表。 | [报表设置](/help/main/c-reports/c-report-settings/report-settings.md) |

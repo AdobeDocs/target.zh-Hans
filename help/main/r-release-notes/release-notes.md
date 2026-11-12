@@ -29,16 +29,27 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
+source-git-commit: b608d181c660201f2c373ec8a1ac6e95be1be96c
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 42%
+source-wordcount: '703'
+ht-degree: 39%
 ---
 # [!DNL Target]发行说明（当前版本）
 
 浏览[!DNL Adobe Target]中的最新功能、增强功能和修复。 这些发行说明还涵盖了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台组件（如果适用）的更新。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 26.11.1（2026年11月12日）
+
+**[!UICONTROL 活动]**
+
++++查看详细信息
+
+* **[!DNL Coworker]个入口点已添加到活动列表**。 如果您的组织有权访问[!DNL Coworker]，则[!UICONTROL 活动]列表现在包含每个活动的&#x200B;**[!UICONTROL 查看我的实时测试]**&#x200B;按钮和&#x200B;**[!UICONTROL 咨询同事]**&#x200B;菜单。 使用这些按钮可让[!DNL Coworker]查看您的实时活动或回答有关特定活动的问题。 (TGT-56536)
+  [了解详情](../c-activities/activities.md#coworker)
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.2（2026年10月15日）
 

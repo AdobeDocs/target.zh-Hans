@@ -39,9 +39,9 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->[!DNL Target]不区分URL协议（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com`]和[!DNL `https://www.adobe.com`]都匹配。
+>[!DNL Target]不区分URL协议（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com/cn`]和[!DNL `https://www.adobe.com/cn`]都匹配。
 
-如果您指定的URL所对应的网站不包含[!DNL Target] [at.js JavaScript库或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}，则您将无法选择页面元素。
+如果您指定的URL所对应的网站不包含[!DNL Target] [at.js JavaScript库或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hans){target=_blank}，则您将无法选择页面元素。
 
 ## 显示其他页面 {#different-page}
 

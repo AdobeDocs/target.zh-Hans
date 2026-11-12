@@ -1,7 +1,7 @@
 ---
 keywords: 体验;json;AEM;Adobe Experience Manager;导出到 Adobe Target;体验片段;片段;XF
-description: 了解如何在 [!DNL Adobe Target] 活动中使用 [!DNL Adobe Experience Manager] [!UICONTROL 体验片段]。
-title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 体验片段]？
+description: 了解如何在[!DNL Adobe Target]活动中使用[!DNL Adobe Experience Manager] [!UICONTROL 体验片段]。
+title: 如何使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 体验片段]？
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
 TQID: https://experienceleague.adobe.com/-W1ELJx0ajes6BPEVIiS8q6ebmRLTTgIrxvGMUEWEaM
@@ -22,13 +22,11 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
-source-wordcount: 1446
+source-wordcount: '1449'
 ht-degree: 28%
-
 ---
-
 # AEM [!UICONTROL 体验片段]
 
 在[!DNL Target]活动中使用在[!DNL Adobe Experience Manager] (AEM)中创建的[!UICONTROL 体验片段] (XF)以帮助优化和个性化。
@@ -40,16 +38,16 @@ ht-degree: 28%
 * 此功能要求您是 [!DNL Adobe Experience Manager] (AEM) 客户。 有关更多信息，请见以下[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
 * [!UICONTROL 体验片段]和[!UICONTROL 内容片段]可用于以下活动类型：
 
-   * [[!UICONTROL A/B 测试]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL 自动分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL Auto-Target（自动定位）]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL 体验定位] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+  * [[!UICONTROL A/B 测试]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL 自动分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL Auto-Target（自动定位）]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL 体验定位] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL 体验片段]和[!UICONTROL 内容片段]不适用于以下活动类型：
 
-   * [[!UICONTROL 多变量测试] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL 推荐]](/help/main/c-recommendations/recommendations.md)
+  * [[!UICONTROL 多变量测试] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL 推荐]](/help/main/c-recommendations/recommendations.md)
 
 * 您可以使用[可视化体验编辑器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)在[!DNL Target]活动中使用[!UICONTROL 体验片段]。
 
@@ -76,10 +74,10 @@ ht-degree: 28%
 
 有关更多信息，请参阅：
 
-* **AEM as a Cloud Service**： *Adobe Targetas a Cloud Service*&#x200B;指南中的[与Experience Manager集成](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank}。
-* **Adobe Developer**： *管理用户指南*&#x200B;文档中的[使用Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=zh-Hans){target=_blank}与Adobe Target集成。
+* **AEM as a Cloud Service**： *Adobe Targetas a Cloud Service*&#x200B;指南中的[与Experience Manager集成](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank}。
+* **Adobe Developer**： *管理用户指南*&#x200B;文档中的[使用Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html){target=_blank}与Adobe Target集成。
 * **[!DNL AEM]6.5**： *Adobe Analytics 6.5*&#x200B;文档中的[选择使用Adobe Experience Manager和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=zh-Hans){target=_blank}。
-* **[!DNL AEM]6.4**： *Adobe Analytics 6.4*&#x200B;文档中的[选择使用Adobe Experience Manager和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hans){target=_blank}。
+* **[!DNL AEM]6.4**： *Adobe Analytics 6.4*&#x200B;文档中的[选择使用Adobe Experience Manager和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank}。
 
 ### 第 2 步：创建体验片段
 
@@ -102,9 +100,9 @@ ht-degree: 28%
 
 根据您的 [!DNL AEM]版本，请参阅以下链接以获取分步说明：
 
-* **AEM as a Cloud Service**： [在&#x200B;*Adobe Target as a Cloud Service*&#x200B;指南中，将[!UICONTROL 体验片段]导出到Experience Manager](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}。
+* **AEM as a Cloud Service**： [在&#x200B;*Adobe Target as a Cloud Service*&#x200B;指南中，将[!UICONTROL 体验片段]导出到Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}。
 * **[!DNL AEM]6.5**： *Adobe Experience Manager 6.5*&#x200B;文档中的[将体验片段导出到Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=zh-Hans){target=_blank}。
-* **[!DNL AEM]6.4**： *Adobe Experience Manager 6.4*&#x200B;文档中的[将体验片段导出到Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=zh-Hans){target=_blank}。
+* **[!DNL AEM]6.4**： *Adobe Experience Manager 6.4*&#x200B;文档中的[将体验片段导出到Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank}。
 
 ## 在[!DNL Target]活动中使用[!UICONTROL 体验片段] {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -149,12 +147,12 @@ ht-degree: 28%
 
    有关配置各种类型的活动的更多信息，请参阅以下主题：
 
-   * **A/B 测试：**&#x200B;[创建 A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **自动分配：**&#x200B;[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
-   * **自动锁定：**&#x200B;[自动锁定](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **自动个性化 (AP)：**&#x200B;[创建自动个性化活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **体验定位 (XT)：**&#x200B;[创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **A/B 测试或 XT 活动中的推荐：**&#x200B;[推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)
+   * **A/B 测试：**[创建 A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+   * **自动分配：**[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **自动锁定：**[自动锁定](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * **自动个性化 (AP)：**[创建自动个性化活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
+   * **体验定位 (XT)：**[创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
+   * **A/B 测试或 XT 活动中的推荐：**[推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
    在[!DNL Target]中导出为JSON的[!UICONTROL 体验片段]无法在使用VEC创建的活动中使用；基于VEC的活动仅支持HTML [!UICONTROL 体验片段]。 如果要使用JSON [!UICONTROL 体验片段]，请在使用[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)创建的活动中使用它们。
 
@@ -182,16 +180,16 @@ ht-degree: 28%
 
 有时整个HTML页面会包装[!UICONTROL 体验片段]并导致问题。 确保[!UICONTROL 体验片段]是HTML的一小部分，而不是包含HTML、HEAD、BODY等的完整HTML页面。
 
-有关详细信息，请参阅以下博客帖子： [AEM 6.5：从[[!UICONTROL 导出到Target]](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank}的体验片段]中删除clientlibs。
+有关详细信息，请参阅以下博客帖子： [AEM 6.5：从[!UICONTROL 导出到Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank}的体验片段]中删除clientlibs。
 
 ## 培训视频：将AEM [!UICONTROL 体验片段]用于[!DNL Adobe Target]
 
 以下视频介绍如何设置和使用[!UICONTROL 体验片段]：
 
->[!VIDEO](https://video.tv.adobe.com/v/38075?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
 
 >[!NOTE]
 >
->在4:54中讨论的[!DNL AEM]深层链接功能已被删除。
+>已删除在4:54讨论的[!DNL AEM]深层链接功能。
 
-有关更多详细信息，请参阅&#x200B;*AEM Sites视频和教程*&#x200B;页面上的[将[!UICONTROL 体验片段]用于Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=zh-Hans)。
+有关更多详细信息，请参阅&#x200B;*AEM Sites视频和教程*&#x200B;页面上的[将[!UICONTROL 体验片段]用于Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html)。

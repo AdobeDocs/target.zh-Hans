@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 32%
@@ -59,7 +59,7 @@ ht-degree: 32%
 ## 何时使用[!UICONTROL 自动分配]与[!UICONTROL A/B测试]或[!UICONTROL Automated Personalization]活动 {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * 如果您希望从一开始就优化活动并尽快确定入选体验，则使用&#x200B;**[!UICONTROL 自动分配]**。 通过更频繁地提供高性能体验，可以提高整体活动性能。
-* 当您想要在优化网站之前表征所有体验的性能时，请使用标准&#x200B;**[A/B测试](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**。 A/B测试有助于您对所有体验进行排名，而[!UICONTROL 自动分配]会查找表现最好的体验，但无法保证区分表现较差的体验。
+* 当您想要在优化网站之前表征所有体验的性能时，请使用标准&#x200B;**[A/B测试](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)**。 A/B测试有助于您对所有体验进行排名，而[!UICONTROL 自动分配]会查找表现最好的体验，但无法保证区分表现较差的体验。
 * 如果您希望使用最复杂的优化算法，例如根据个人配置文件属性构建预测的机器学习模型，请使用[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)。 [!UICONTROL 自动分配]查看体验的汇总行为（与标准A/B测试类似），并且不区分访客。
 
 ## [!UICONTROL 自动分配]的主要优势 {#section_0913BF06F73C4794862561388BBDDFF0}
@@ -72,7 +72,7 @@ ht-degree: 32%
 
 讨论[!UICONTROL 自动分配]时，以下术语很有用：
 
-**多臂老虎机：**&#x200B;[多臂老虎机](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}优化方法可在探索性学习与对该学习的利用之间实现平衡。
+**多臂老虎机：**[多臂老虎机](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}优化方法可在探索性学习与对该学习的利用之间实现平衡。
 
 ## 算法的工作原理 {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -104,7 +104,7 @@ ht-degree: 32%
 >
 >如果某个活动只有两个体验，则两个体验会获得相等的流量，直到[!DNL Target]找到具有75%置信度的入选体验。 到那时，三分之二的流量会分配给入选者，三分之一分配给失败者。 之后，当体验达到95%的置信度时，90%的流量会分配给入选者，10%的流量会分配给失败者。 [!DNL Target]始终向“丢失”体验发送一些流量，以避免最终出现误报（即，继续进行一些探索）。
 
-激活[!UICONTROL 自动分配]活动后，不允许从Target UI中进行以下操作：
+激活[!UICONTROL 自动分配]活动后，不允许从Tar[!DNL]get UI中进行以下操作：
 
 * 将“流量分配”模式切换为“手动”
 * 更改目标量度类型
@@ -258,7 +258,7 @@ ht-degree: 32%
 * 选择流量分配方法
 * 在不同的体验之间分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/3507597?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### 创建A/B测试(8:36) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -267,4 +267,4 @@ ht-degree: 32%
 * 在[!DNL Adobe Target]中创建A/B活动
 * 使用手动拆分或自动流量分配来分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/30338?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

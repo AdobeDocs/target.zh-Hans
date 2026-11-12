@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 76cfdeb96e4d9c0bb69aab192f89636821787791
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -87,14 +87,14 @@ ht-degree: 48%
 **[!DNL Adobe]是否有社区/论坛，以便我可以找到关于[!DNL Target]的答案和更多信息？**
 
 +++查看详细信息
-在[Target社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hans){target=_blank}中与其他[!DNL Target]从业人员联系。 与使用[!DNL Target]推动个性化和实验的其他人分享您的专业知识、提出问题并开展协作。 一个欣欣向荣的社区有赖于积极的参与。 您的见解和经验可以帮助他人成功。 快速入门，贡献内容，找到您需要的答案。
+在[Target社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中与其他[!DNL Target]从业人员联系。 与使用[!DNL Target]推动个性化和实验的其他人分享您的专业知识、提出问题并开展协作。 一个欣欣向荣的社区有赖于积极的参与。 您的见解和经验可以帮助他人成功。 快速入门，贡献内容，找到您需要的答案。
 
 +++
 
 **[!DNL Target]支持哪些浏览器？**
 
 +++查看详细信息
-有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hans){target=_blank}矩阵图。 请注意，支持的界面有两方面：[!DNL Target Standard/Premium]以及桌面/设备上的最终用户浏览器支持。
+有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩阵图。 请注意，支持的界面有两方面：[!DNL Target Standard/Premium]以及桌面/设备上的最终用户浏览器支持。
 
 [!DNL Target]接口支持[!DNL Safari]。 您可以在[!DNL Safari]中创建基于表单的活动，并使用所有功能，但[!DNL Safari]不支持的[!UICONTROL 可视化体验编辑器] (VEC)和[!UICONTROL 增强型体验编辑器] (EEC)除外。 要在VEC或EEC中编辑体验，请使用[!DNL Google Chrome]。
 
@@ -105,7 +105,7 @@ ht-degree: 48%
 **我是否可以执行一种严格且具有统计意义的活动，在使用控制体验的同时找到入选和落选的体验？**
 
 +++查看详细信息
-使用 [A/B 测试](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)（“手动定位”选项）以及[样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5)以获得最佳结果。
+使用 [A/B 测试](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)（“手动定位”选项）以及[样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)以获得最佳结果。
 
 +++
 
@@ -185,7 +185,7 @@ ht-degree: 48%
 **我是否可以安排在固定时间开始和结束活动？**
 
 +++查看详细信息
-通过指定开始日期和结束日期，使用三步活动工作流的[!UICONTROL 目标和设置]&#x200B;[&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步骤中的计划功能。
+通过指定开始日期和结束日期，使用三步活动工作流的[!UICONTROL 目标和设置]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步骤中的[计划功能。
 
 请记住激活该活动。 只有实时活动才遵守指定的计划。 达到结束日期后，活动将进入[!UICONTROL 已结束]状态。
 
@@ -274,7 +274,7 @@ ht-degree: 48%
 请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -325,7 +325,7 @@ ht-degree: 48%
 **我有多个域。 其中一个域需要启用[!UICONTROL 增强型体验编辑器]，而其他域则需要禁用它。 我该如何处理？**
 
 +++查看详细信息
-您始终可以使用活动级别[&#128279;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的增强型体验编辑器选项来覆盖默认设置（[!UICONTROL 管理] > [!UICONTROL 可视化体验编辑器]）。
+您始终可以使用活动级别](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的[增强型体验编辑器选项来覆盖默认设置（[!UICONTROL 管理] > [!UICONTROL 可视化体验编辑器]）。
 
 +++
 
@@ -421,7 +421,7 @@ ht-degree: 48%
 请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -454,7 +454,7 @@ ht-degree: 48%
 **我是否可以更改用于评估报表的控制体验，或将计数方法从[!UICONTROL 访客]更改为[!UICONTROL 访问]？**
 
 +++查看详细信息
-使用[&#128279;](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮可进行这些更改。 阅读更多有关这些设置的信息，了解计算结果的差异。
+使用](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮[可进行这些更改。 阅读更多有关这些设置的信息，了解计算结果的差异。
 
 +++
 
@@ -495,6 +495,6 @@ ht-degree: 48%
 **我可以在何处了解有关[!DNL Target] API的更多信息？**
 
 +++查看详细信息
-我们提供了关于 API 的详尽文档。 请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}。
+我们提供了关于 API 的详尽文档。 请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。
 
 +++

@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e62cab5f2a4ac7d18bdb6847784a06b37513624a
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 本文记录了[!DNL Adobe Target]中手动A/Bn测试中使用的详细统计计算。 提供了&#x200B;**[!UICONTROL 转化率]**、**[!UICONTROL 转化率的置信区间]**、**[!UICONTROL 提升度]**、**[!UICONTROL 提升度的置信区间]**、**[!UICONTROL 置信度]**&#x200B;和&#x200B;**[!UICONTROL 贝叶斯]**&#x200B;决策度量的定义。
 
-**[!UICONTROL A/B测试]**（手动）活动支持[目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)中为每个活动选择的两种统计方法：
+**[!UICONTROL A/B测试]**（手动）活动支持[目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology)中为每个活动选择的两种统计方法：
 
 * [Welch的t检验](#welchs-t-test)：一种频率方法，它基于固定样本大小的假设检验报告&#x200B;**[!UICONTROL 置信度]**&#x200B;百分比和置信区间。 用于具有&#x200B;**[!UICONTROL 收入]**&#x200B;或&#x200B;**[!UICONTROL 参与]**&#x200B;主要目标的活动。
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 下节将说明下图中使用的计算。
 
-显示A/B测试活动的[!UICONTROL 转化率]、[!UICONTROL 平均提升度和置信区间]以及[!UICONTROL 置信度]的目标报告。![&#128279;](/help/main/c-reports/statistical-methodology/img/target_report.png)
+显示A/B测试活动的[!UICONTROL 转化率]、[!UICONTROL 平均提升度和置信区间]以及[!UICONTROL 置信度]的目标报告。](/help/main/c-reports/statistical-methodology/img/target_report.png)![
 
 #### 转化率和每位访客带来的收入(RPV)促销活动
 
@@ -59,7 +59,7 @@ ht-degree: 1%
   * 如果将&#x200B;**[!UICONTROL 访问次数]**&#x200B;用作计数方法，则每个单位都是唯一访问，它在[!DNL Target]会话（具有唯一的`sessionId`）期间定义为体验中的唯一参与者。 当`sessionId`发生更改或访客完成转化步骤时，即会计为新访问。
   * 如果将&#x200B;**[!UICONTROL 活动展示次数]**&#x200B;用作计数方法，则每个单位都是定义为每次访客加载活动的任何页面时的唯一展示次数。
 
-### 平均/转化率的[!UICONTROL 置信区间]
+### 平均]/[!UICONTROL 转化率的[!UICONTROL 置信区间]
 
 转换率的置信区间被直观地定义为与基础数据一致的可能转换率的范围。
 
@@ -113,7 +113,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-此计算使用“Delta”方法，并在本文档[&#128279;](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了
+此计算使用“Delta”方法，并在本文档](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了[
 
 ### [!UICONTROL 置信度]
 
@@ -157,7 +157,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 **[!UICONTROL Bayesian]**&#x200B;方法还允许营销人员根据过去试验和控制变体的结果引入假设。
 
-**[!UICONTROL Bayesian]**&#x200B;方法仅适用于主要目标指标为&#x200B;**[!UICONTROL 转化]**&#x200B;的活动，具有&#x200B;**[!UICONTROL 收入]**&#x200B;或&#x200B;**[!UICONTROL 参与]**&#x200B;主要目标的活动始终使用&#x200B;**[!UICONTROL Welch的t检验]**。 有关选择方法的详细信息，请参阅[目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)。
+**[!UICONTROL Bayesian]**&#x200B;方法仅适用于主要目标指标为&#x200B;**[!UICONTROL 转化]**&#x200B;的活动，具有&#x200B;**[!UICONTROL 收入]**&#x200B;或&#x200B;**[!UICONTROL 参与]**&#x200B;主要目标的活动始终使用&#x200B;**[!UICONTROL Welch的t检验]**。 有关选择方法的详细信息，请参阅[目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology)。
 
 ### 平均提升度和可信区间
 

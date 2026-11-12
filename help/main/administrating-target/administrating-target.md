@@ -30,27 +30,29 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 569476ceebaa6913cc86f4a2b871ccf29d9894d8
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 12%
+source-wordcount: '238'
+ht-degree: 5%
 ---
 # 管理[!DNL Target]概述
 
-此信息可帮助您管理[!DNL Adobe Target]，包括Visual Experience Composer (VEC)、报表、Scene7配置、实现、主机、环境、URL、响应令牌、用户和[!DNL Recommendations]的配置设置。
+使用&#x200B;**[!UICONTROL 管理]**&#x200B;为[!UICONTROL 可视化体验编辑器] (VEC)、报表、传递基础结构、访问控制和[!DNL Recommendations]配置帐户范围的默认值。
 
-{{permissions-update}}
+如果您是第一次设置[!DNL Target]，请从[管理员首要步骤](/help/main/administrating-target/start-target.md)开始。 有关在更新的界面中查找&#x200B;**[!UICONTROL 管理]**&#x200B;的帮助，请参阅[了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)。
 
-要访问[!UICONTROL 管理]菜单项，请单击顶部菜单栏中的&#x200B;**[!UICONTROL 管理]**，然后单击左侧的所需选项卡：
+要打开管理页面，请单击顶部菜单栏中的&#x200B;**[!UICONTROL 管理]**，然后单击左侧的选项卡：
 
-* [可视化体验编辑器](/help/main/administrating-target/visual-experience-composer-set-up.md)
-* [报表](/help/main/administrating-target/reporting.md)
-* [Scene7配置](/help/main/administrating-target/scene7-settings.md)
-* [实施](/help/main/c-implementing-target/implementing-target.md)
-* [属性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
-* [主机](/help/main/administrating-target/hosts.md)
-* [环境](/help/main/administrating-target/environments.md)
-* [列入允许列表的URL](/help/main/administrating-target/allowlisted-urls.md)
-* [响应令牌](/help/main/administrating-target/response-tokens.md)
-* [用户](/help/main/administrating-target/c-user-management/user-management.md)
-* [推荐](/help/main/administrating-target/recommendations-settings.md)
+| “管理”选项卡 | 描述 |
+| --- | --- |
+| [Visual Experience Composer（可视化体验编辑器）](/help/main/administrating-target/visual-experience-composer-set-up.md) | 设置在VEC中构建体验时使用的默认页面URL和选项。 |
+| [报表](/help/main/administrating-target/reporting.md) | 为您的组织选择报表解决方案、时区、货币和其他报表默认值。 另请参阅[预计收入提升](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)。 |
+| [Scene7配置](/help/main/administrating-target/scene7-settings.md) | 连接[!DNL Dynamic Media] (Scene7)以在选件和体验中交付图像。 |
+| [实施](/help/main/administrating-target/implementation.md) | 查看&#x200B;**[!UICONTROL 管理]**&#x200B;页面上的全局实施设置。 有关完整实施指南，请参阅[实施Target](/help/main/c-implementing-target/implementing-target.md)。 |
+| [主机](/help/main/administrating-target/hosts.md) | 组织[!DNL Target]接收请求的站点和生产前环境。 |
+| [环境](/help/main/administrating-target/environments.md) | 将主机分组到生产、暂存和开发等环境中。 |
+| [个列入允许列表的URL](/help/main/administrating-target/allowlisted-urls.md) | 管理远程选件和相关验证的受信任URL模式。 |
+| [响应令牌](/help/main/administrating-target/response-tokens.md) | 在[!DNL Target]响应中包含配置文件和活动数据以进行调试和集成。 |
+| [属性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | 创建工作区并分配企业角色（仅限[Target Premium](/help/main/c-intro/intro.md#premium)）。 |
+| [用户](/help/main/administrating-target/c-user-management/user-management.md) | 添加用户并分配[!DNL Target]角色和权限。 |
+| [推荐](/help/main/administrating-target/recommendations-settings.md) | 配置[!DNL Recommendations]活动的默认设置。 |

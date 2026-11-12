@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 44%
@@ -94,7 +94,7 @@ ht-degree: 44%
 
 ## [!UICONTROL 报表量度] {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-单击&#x200B;**[!UICONTROL 报表量度]**&#x200B;下拉列表以选择其他[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)或多个量度以显示在图形和图表中。
+单击&#x200B;**[!UICONTROL 报表量度]**&#x200B;下拉列表以选择其他[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#overview)或多个量度以显示在图形和图表中。
 
 默认情况下，主量度在创建活动时的成功量度设置中确定。 如果您更改该设置并重新保存活动，则报表的主量度会随之更新。
 
@@ -151,7 +151,7 @@ ht-degree: 44%
 
 >[!NOTE]
 >
->如果您的组织使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target=_blank} (AEP)将指标数据发送到[!DNL Target]，则AEP数据流中的环境应该与您的[!DNL Target]报表设置中的环境相匹配。
+>如果您的组织使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP)将指标数据发送到[!DNL Target]，则AEP数据流中的环境应该与您的[!DNL Target]报表设置中的环境相匹配。
 
 ### 重置报表数据
 

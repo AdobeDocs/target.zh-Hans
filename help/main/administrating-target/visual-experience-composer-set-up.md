@@ -35,72 +35,79 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 47%
+source-wordcount: '777'
+ht-degree: 32%
 ---
-# 配置[!UICONTROL 可视化体验编辑器]
+# 配置可视化体验编辑器(VEC)
 
-通过指定其常规设置、移动设备视区配置和CSS选择器来配置[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)。
+使用&#x200B;**[!UICONTROL 管理]**&#x200B;下的&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;选项卡设置[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)的全帐户默认值。 每当作者在VEC中构建或预览体验时，这些设置都会应用。
 
-要访问[!UICONTROL 可视化体验编辑器]配置页面，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]。**
+**配置概述**
 
-{{permissions-update}}
+1. [常规设置](#general-settings)：默认URL、增强型体验编辑器、混合内容和体验快照。
+1. [移动设备视区配置](#mobile-viewport-configuration)：预览响应式体验的设备（仅限[Target Premium](/help/main/c-intro/intro.md#premium)）。
+1. [CSS选择器](#css)： Target如何生成用于内容交付的选择器。
+
+要打开配置页面，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]**。
 
 >[!NOTE]
 >
->请注意，此页面上的设置适用于整个[!DNL Target]帐户。
+>此页面上的设置适用于整个[!DNL Target]帐户。
 
-## 一般设置
+## 一般设置 {#general-settings}
 
-您可以为[!UICONTROL 可视化体验编辑器]指定常规设置。
+在&#x200B;**[!UICONTROL 常规设置]**&#x200B;部分中，配置打开VEC时使用的默认值。
 
 ![常规设置部分](/help/main/administrating-target/assets/general-settings.png)
 
 以下设置可供使用：
 
-### 默认 URL
+* **默认URL**
 
-选择[!UICONTROL 可视化体验编辑器]使用的默认 URL。 这是您每当为各个新活动设置体验时所使用的默认页面（例如主页）。 如果未设置默认的 URL，您在创建各个活动时必须为活动输入 URL。
+  选择[!UICONTROL 可视化体验编辑器]使用的默认 URL。 这是您每当为各个新活动设置体验时所使用的默认页面（例如主页）。 如果未设置默认的 URL，您在创建各个活动时必须为活动输入 URL。
 
-### 启用增强型体验编辑器 {#eec}
+* **启用增强型体验编辑器**
 
-允许在防 iFrame 嵌套网站和具有混合内容的网站上进行编辑。 某些网站可能与增强型版本不兼容。 取消选择此选项以还原到原始[!UICONTROL 可视化体验编辑器]。 所做的这一选择不会对网站上的活动交付造成任何影响。
+  允许在防 iFrame 嵌套网站和具有混合内容的网站上进行编辑。 某些网站可能与增强型版本不兼容。 取消选择此选项以还原到原始[!UICONTROL 可视化体验编辑器]。 所做的这一选择不会对网站上的活动交付造成任何影响。
 
-请注意，[!DNL Safari]中不支持[!UICONTROL 增强型体验编辑器]。
+  请注意，[!DNL Safari]中不支持[!UICONTROL 增强型体验编辑器]。
 
-有关更多信息，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
+  有关更多信息，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
-您还可以在活动级别启用[!UICONTROL 增强型体验编辑器]。
+  您还可以在活动级别启用[!UICONTROL 增强型体验编辑器]。 请参阅[了解如何在活动级别](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)启用增强型体验编辑器。
 
-### 加载混合内容
+* **加载混合内容**
 
-在使用[!UICONTROL 增强型体验编辑器] (EEC)打开网站时启用混合内容。 启用此选项可避免通过[!DNL Target]代理服务器加载静态资源所产生的额外开销。
+  在使用[!UICONTROL 增强型体验编辑器] (EEC)打开网站时启用混合内容。 启用此选项可避免通过[!DNL Target]代理服务器加载静态资源所产生的额外开销。
 
-例如，在以下情况下，此选项非常有用：
+  例如，在以下情况下，此选项非常有用：
 
-* 您的内容安全策略(CSP)标头允许在启用EEC的情况下无需使用代理服务器即可加载混合内容。
-* 您的HTTP网站在EEC中的加载时间增加，其中JavaScript、图像等内容通过代理加载所需的时间较长。
+  * 您的内容安全策略(CSP)标头允许在启用EEC的情况下无需使用代理服务器即可加载混合内容。
+  * 您的HTTP网站在EEC中的加载时间增加，其中JavaScript、图像等内容通过代理加载所需的时间较长。
 
-### 在活动流程图中生成体验快照
+* **在活动流程图中生成体验快照**
 
-启用体验快照后，活动工作流程图中会生成体验的缩览图。 但对于某些用户而言，禁用体验快照可能会提高性能。
+  启用体验快照后，活动工作流程图中会生成体验的缩览图。 但对于某些用户而言，禁用体验快照可能会提高性能。
 
-## 移动设备视区配置
+## 移动视区配置 {#mobile-viewport-configuration}
 
 >[!NOTE]
 >
->[!UICONTROL 移动设备视区配置]设置是[Target Premium](/help/main/c-intro/intro.md#premium)功能。
+>**[!UICONTROL 移动设备视区配置]**&#x200B;设置是[Target Premium](/help/main/c-intro/intro.md#premium)功能。
 
-
-您可以添加预览体验时要使用的设备。 每个设备都有一个关联的受众。
+添加要在预览体验时使用的设备。 每个设备都有一个关联的受众。
 
 ![移动设备视区配置部分](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-单击&#x200B;**[!UICONTROL 添加]**，为移动设备视区指定描述性名称，指定宽度和高度，选择所需的操作系统，然后单击[!UICONTROL 保存]。
+使用以下步骤可添加移动设备视区：
 
-有关如何添加移动设备视区的信息，请参阅[移动设备视区配置](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
+1. 单击&#x200B;**[!UICONTROL 添加]**。
+1. 为移动设备视区指定描述性名称，指定宽度和高度，然后选择所需的操作系统。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+有关预览和受众的详细信息，请参阅[了解如何将移动视区用于响应式体验](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
 
 ## CSS 选择器 {#css}
 
@@ -112,32 +119,26 @@ ht-degree: 47%
 
 您可以选择下列任一选项或两个选项都选择：
 
-### 使用元素 ID
+* **使用元素ID**
 
-如果多个元素使用同一个 ID，或元素 ID 在页面加载时可能会发生更改，请取消选择此选项。
+  如果多个元素使用同一个 ID，或元素 ID 在页面加载时可能会发生更改，请取消选择此选项。
 
-### 使用元素类
+* **使用元素类**
 
-默认情况下，[!DNL Target] 仅使用元素 ID。 但是，如果您的页面设计为使用类来标识元素（例如使用[!DNL Adobe Experience Manager]生成的页面），则您还应选择[!UICONTROL 使用元素类]。
+  默认情况下，[!DNL Target] 仅使用元素 ID。 但是，如果您的页面设计为使用类来标识元素（例如使用[!DNL Adobe Experience Manager]生成的页面），则您还应选择&#x200B;**[!UICONTROL 使用元素类]**。 通常，使用ID时选择器的准确性最高，使用类时最低，两种选项均未选择时最低。 在VEC中测试页面，确认选择器正确无误。
 
->[!NOTE]
->
->虽然已采取各种措施来确保准确性，但请注意，使用类仍可能会导致出现错误。 如果您未选择任何选项，准确性也会受到影响。 准确性由高到低的顺序为：选择 ID > 选择类 > 未选择任何选项。 请务必测试页面，以确保选择器正确无误。
-
-您可以为每个活动覆盖此设置（单击[!UICONTROL 设置]齿轮图标，然后选择[!UICONTROL CSS选择器]）。 如果您使用不同的方式配置了多个网站，此操作会特别有用。
-
->[!NOTE]
->
->在[!UICONTROL Automated Personalization]和[!UICONTROL Multivariate Testing]活动中，无法为每个活动覆盖此设置。  请参阅[可视化体验编辑器中使用的元素选择器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)，以了解更多有关选择器的信息。
+  您可以通过单击&#x200B;**[!UICONTROL 设置]**&#x200B;齿轮图标并选择&#x200B;**[!UICONTROL CSS选择器]**&#x200B;为每个活动覆盖此设置，当同一帐户中的网站配置不同时，这些选择器非常有用。 每个活动的覆盖在&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;或&#x200B;**[!UICONTROL Multivariate Testing]**&#x200B;活动中不可用。 有关选择器的行为和疑难解答，请参阅可视化体验编辑器中使用的[元素选择器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)。
 
 ## 培训视频：帐户首选项(7:33) ![概述徽章](/help/main/assets/overview.png)
+
+>[!BEGINSHADEBOX]
+
+[!DNL Target] **[!UICONTROL 管理]**&#x200B;菜单UI（以前称为&#x200B;**[!UICONTROL 安装程序]**）已重新设计，以提供改进的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息通常正确，但是，选项可能位于不同的位置。 更新后的视频很快就会发布。
+
+>[!ENDSHADEBOX]
 
 以下视频包含有关帐户首选项的信息。
 
 * 介绍 [!DNL Target Standard] 中可用的帐户设置
 
->[!NOTE]
->
->[!DNL Target] [!UICONTROL 管理]菜单UI（以前称为[!UICONTROL 安装程序]）已重新设计，以提供改进的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息通常正确，但是，选项可能位于不同的位置。 更新后的视频很快就会发布。
-
->[!VIDEO](https://video.tv.adobe.com/v/3507633?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17379)

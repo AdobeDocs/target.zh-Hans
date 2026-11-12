@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 35%
@@ -50,7 +50,7 @@ ht-degree: 35%
 
    如果您正在创建[!UICONTROL 推荐]活动，则此屏幕不同。 [!UICONTROL 推荐]活动不包含体验。
 
-1. &#x200B;
+1. 
    1. 单击&#x200B;**[!UICONTROL 重命名]**&#x200B;图标（![重命名图标](/help/main/assets/icons/MoreSmallListVert.svg)），单击&#x200B;**[!UICONTROL 重命名]**，指定活动的名称，然后单击&#x200B;**[!UICONTROL 保存]**。
 
    活动名称不能以下列任何字符开头：
@@ -147,7 +147,7 @@ ht-degree: 35%
 1. 单击&#x200B;**[!UICONTROL 下一步]**，然后为您选择的活动类型完成常规的活动创建步骤。
 
 * [创建 A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
 * [创建“推荐”活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## 培训视频：基于表单的编辑器![教程徽章](/help/main/assets/tutorial.png)
@@ -158,4 +158,4 @@ ht-degree: 35%
 * 了解何时使用基于表单的体验编辑器，何时使用可视化体验编辑器
 * 使用细化来定位位置
 
->[!VIDEO](https://video.tv.adobe.com/v/3507888?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)

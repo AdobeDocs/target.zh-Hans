@@ -141,4 +141,4 @@ ht-degree: 32%
 
 * 介绍 [!DNL Target Standard] 中可用的帐户设置
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507633?captions=chi_hans)

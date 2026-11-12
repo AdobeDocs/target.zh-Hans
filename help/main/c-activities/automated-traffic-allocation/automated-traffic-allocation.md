@@ -258,7 +258,7 @@ ht-degree: 32%
 * 选择流量分配方法
 * 在不同的体验之间分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507597?captions=chi_hans)
 
 ### 创建A/B测试(8:36) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -267,4 +267,4 @@ ht-degree: 32%
 * 在[!DNL Adobe Target]中创建A/B活动
 * 使用手动拆分或自动流量分配来分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/30338?captions=chi_hans)

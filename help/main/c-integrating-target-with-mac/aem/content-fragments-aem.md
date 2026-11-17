@@ -1,7 +1,7 @@
 ---
 keywords: 体验;json;AEM;Adobe Experience Manager;导出到 Adobe Target;内容片段;片段;CF;cf;headless;个性化;试验
-description: 了解如何在 [!DNL Adobe Target] 活动中使用 [!DNL Adobe Experience Manager] [!UICONTROL 内容片段]。
-title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]？
+description: 了解如何在[!DNL Adobe Target]活动中使用[!DNL Adobe Experience Manager] [!UICONTROL 内容片段]。
+title: 如何使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]？
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 TQID: https://experienceleague.adobe.com/tb500kFSZoR3czs10Gs3EIOWEX2ybnd7tSWwDmWSMWQ
@@ -22,13 +22,11 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
-source-wordcount: 775
+source-wordcount: '777'
 ht-degree: 20%
-
 ---
-
 # AEM [!UICONTROL 内容片段]
 
 在[!DNL Target]活动中使用在[!DNL Adobe Experience Manager] (AEM)中创建的[!UICONTROL 内容片段] (CF)来辅助Headless个性化和实验。
@@ -40,16 +38,16 @@ ht-degree: 20%
 * 此功能要求您是 [!DNL Adobe Experience Manager as a Cloud Service] 客户。 有关更多信息，请见以下[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
 * [!UICONTROL 体验片段]和[!UICONTROL 内容片段]可用于以下活动类型：
 
-   * [[!UICONTROL A/B 测试]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL 自动分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL Auto-Target（自动定位）]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL 体验定位] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+  * [[!UICONTROL A/B 测试]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL 自动分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL Auto-Target（自动定位）]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL 体验定位] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL 体验片段]和[!UICONTROL 内容片段]不适用于以下活动类型：
 
-   * [[!UICONTROL 多变量测试] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL 推荐]](/help/main/c-recommendations/recommendations.md)
+  * [[!UICONTROL 多变量测试] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL 推荐]](/help/main/c-recommendations/recommendations.md)
 
 * 您只能使用基于[表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)在[!DNL Target]活动中使用[!UICONTROL 内容片段]。 您&#x200B;*不能*&#x200B;在使用[!UICONTROL 可视化体验编辑器] (VEC)的[!DNL Target]活动中使用[!UICONTROL 内容片段]。
 
@@ -87,7 +85,7 @@ ht-degree: 20%
 >
 >对[!UICONTROL 内容片段]使用人工智能、机器学习和推荐：
 >
->* 要充分利用[!DNL Target]人工智能和ML功能，您可以在创建[!UICONTROL A/B测试]活动时选择[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)或[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
+>* 要充分利用[!DNL Target]人工智能和ML功能，您可以在创建[!UICONTROL A/B测试]活动时选择[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)或[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 >
 >* [!UICONTROL 内容片段]在[!DNL Recommendations]活动中不受支持。 但是，要将[!UICONTROL 内容片段]用于推荐，您可以创建[!UICONTROL A/B测试]活动（包括[!UICONTROL 自动分配]和[!UICONTROL 自动定位]）或[!UICONTROL 体验定位] (XT)活动，以及[将推荐作为选件](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 

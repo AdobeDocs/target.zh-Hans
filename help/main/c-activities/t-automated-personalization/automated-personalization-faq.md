@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 17%
@@ -74,7 +74,7 @@ ht-degree: 17%
     * 您选择的位置不会影响成功量度。
     * 优化目标在转化funnel中太远，无法受到所选选件的影响。
 
-* 确保使用[流量估算器](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)，以便您了解在[!UICONTROL Automated Personalization]活动中构建个性化模型需要多长时间。
+* 确保使用[流量估算器](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator)，以便您了解在[!UICONTROL Automated Personalization]活动中构建个性化模型需要多长时间。
 * 在开始活动之前，根据您的目标，确定控制与目标之间的分配。
 
   根据活动的目标和您选择的控制类型，可以考虑以下三种方案：
@@ -162,7 +162,7 @@ ht-degree: 17%
 
 +++查看详细信息
 
-在活动中构建模型的时间通常取决于流向所选活动位置的流量和活动成功量度。 使用[流量估算器](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)确定在您的活动中构建模型预计所需的时间。
+在活动中构建模型的时间通常取决于流向所选活动位置的流量和活动成功量度。 使用[流量估算器](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator)确定在您的活动中构建模型预计所需的时间。
 
 +++
 

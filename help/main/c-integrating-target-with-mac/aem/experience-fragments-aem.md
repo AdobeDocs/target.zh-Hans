@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 28%
@@ -126,7 +126,7 @@ ht-degree: 28%
 >
 >对[!UICONTROL 体验片段]使用人工智能、机器学习和推荐：
 >
->* 要充分利用 [!DNL Target] AI 和 ML 功能，您可以在创建活动时选择[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)或[自动锁定](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
+>* 要充分利用 [!DNL Target] AI 和 ML 功能，您可以在创建活动时选择[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)或[自动锁定](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 >
 >* [!UICONTROL 体验片段]在[!DNL Recommendations]活动中不受支持。 但是，要将[!UICONTROL 体验片段]用于推荐，您可以创建[!UICONTROL A/B测试]活动（包括[!UICONTROL 自动分配]和[!UICONTROL 自动定位]）或[!UICONTROL 体验定位] (XT)活动，以及[将推荐作为选件](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 
@@ -148,7 +148,7 @@ ht-degree: 28%
    有关配置各种类型的活动的更多信息，请参阅以下主题：
 
    * **A/B 测试：**&#x200B;[创建 A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **自动分配：**&#x200B;[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **自动分配：**&#x200B;[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)
    * **自动锁定：**&#x200B;[自动锁定](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
    * **自动个性化 (AP)：**&#x200B;[创建自动个性化活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
    * **体验定位 (XT)：**&#x200B;[创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)

@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76cfdeb96e4d9c0bb69aab192f89636821787791
+source-git-commit: 174d4631b6f4a481c039bd7fff52a8e70161e19e
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -119,7 +119,7 @@ ht-degree: 48%
 **如果时间较短，我如何执行活动，以及我是否可以优化目标以进行测试？**
 
 +++查看详细信息
-查看[个报告以确定入选体验](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9)。
+查看[个报告以确定入选体验](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#interpret-auto-allocate-reports)。
 
 +++
 
@@ -264,7 +264,7 @@ ht-degree: 48%
 **我能否启动只有少数访客的活动？**
 
 +++查看详细信息
-使用Target三步引导式工作流步骤2 [中提供的百分比分配控件（“定位”页面）](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)来确定要如何设置活动。
+使用Target三步引导式工作流步骤2 [中提供的百分比分配控件（“定位”页面）](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#select-audience)来确定要如何设置活动。
 
 +++
 
@@ -339,7 +339,7 @@ ht-degree: 48%
 **我想在两个不同的体验之间进行测试，例如现金折扣与百分比折扣，但我希望能够正确锁定体验（针对来自不同国家/地区的人员显示不同的区域设置文本或不同货币）。 我该如何处理？**
 
 +++查看详细信息
-您可以使用我们的[多个体验版本功能](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF)轻松实现此目的。 请注意此类测试中有关交付的细微差别。
+您可以使用我们的[多个体验版本功能](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#use-case)轻松实现此目的。 请注意此类测试中有关交付的细微差别。
 
 +++
 

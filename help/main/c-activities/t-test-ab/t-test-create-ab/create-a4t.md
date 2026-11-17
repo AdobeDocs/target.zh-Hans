@@ -18,35 +18,45 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 4876228feee28031373f7e0abe62a66b05b15274
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 16%
+source-wordcount: '448'
+ht-degree: 0%
 ---
-# 使用[!DNL Adobe Analytics]数据
+# 使用[!DNL Adobe Analytics]数据 {#create-a4t}
 
-您可以将[!DNL Adobe Target]中的活动配置为使用[!DNL Adobe Analytics]作为报表源(A4T)。
+>[!BEGINSHADEBOX]
 
-有关将[!DNL Analytics]设置为[!DNL Target]的数据源的详细信息，请参阅[Adobe Analytics作为Adobe Target的报表Source](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。
+**在此页面上：**&#x200B;了解如何配置活动以使用[!DNL Adobe Analytics]作为报表源(A4T)，开始之前要准备什么，以及如何选择活动的目标。
 
-在设置使用[!DNL Analytics]作为报表源的活动之前，请建立该活动的目标，如提高每位访客带来的收入(RPV)或增加购物车的点击次数。 需为活动选择最终成功量度。 尽管您可以随时在[!DNL Analytics]中选择其他量度，但您仍必须指定希望此测试影响的特定量度。
+>[!ENDSHADEBOX]
 
->[!NOTE]
->
->如果您已将您的[!DNL Adobe Experience Cloud]帐户与[!DNL Analytics]和[!DNL Target]都关联，则即使尚未为您的帐户设置[!DNL Target]和[!DNL Analytics]之间的集成，也可以使用[!DNL Adobe Analytics]选项。
+Analytics for Target (A4T)使用数据和量度[!DNL Adobe Analytics]测量[!DNL Adobe Target]活动的结果。 要使用A4T，请配置该活动，以使[!DNL Analytics]作为其报表源。 有关将[!DNL Analytics]设置为[!DNL Target]的数据源的详细信息，请参阅[Adobe Analytics作为Adobe Target的报表Source](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。
 
-选择[!DNL Analytics]作为[!DNL Target]的报告源时，请选择一个[!DNL Analytics]报告包来接收[!DNL Target]活动数据。 要指定报表源，请先从您的帐户绑定的[!DNL Analytics]家公司中选择任意，然后为活动选择合适的报表包。 只有配置为连接到[!DNL Adobe Target]的报表包才可供选择。 如果您没有看到预期的报表包，请先尝试注销并重新登录到[!DNL Adobe Experience Cloud]以重试。 如果列表中仍缺少报表包，请联系客户关怀团队。
-
-[!UICONTROL Analytics for Target] (A4T)需要跟踪服务器才能正确报告结果。 默认跟踪服务器显示在[!UICONTROL 跟踪服务器]字段中。 如果使用多个跟踪服务器，请确保在此字段中包含正确的跟踪服务器。 有关详细信息，请参阅[使用Analytics跟踪服务器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
+## 开始之前 {#before-you-begin}
 
 >[!NOTE]
 >
->如果您使用[!DNL Adobe Analytics]作为活动的报表源，并且使用的是at.js版本0.9.1（或更高版本），则无需在活动创建期间指定跟踪服务器。 at.js 库自动将跟踪服务器值发送到 [!DNL Target]。 在活动创建期间，您可以将“[!UICONTROL 目标和设置]”页面上的“[!UICONTROL 跟踪服务器]”字段留空。
+>当您的[!DNL Adobe Experience Cloud]帐户同时链接到[!DNL Analytics]和[!DNL Target]时，**[!UICONTROL Adobe Analytics]**&#x200B;选项可用，即使尚未为您的帐户设置[!DNL Target]和[!DNL Analytics]之间的集成。
 
-在将[!DNL Analytics]设置为报表源后设置活动时，没有用于设置报表受众的选项。 [!DNL Analytics]区段在[!DNL Target] [!UICONTROL 活动]报表中可用。
+在创建活动之前，确立其目标，例如提高每位访客带来的收入(RPV)或增加购物车的点击次数。 然后选择用于衡量此目标的最终成功量度。 可随时在[!DNL Analytics]中选择其他量度，但您仍必须指定该测试预计会影响的一个量度。
 
-您必须选择一个成功量度以用作每个活动的目标。 您的活动目标是表示活动取得成功的转化活动。 如果没有设定目标来以某种特定方式做出改进，最好不要运行测试。 您可以选择[!DNL Analytics]量度选择器中可用的任何[!DNL Analytics]量度。
+## 选择Analytics作为报表源 {#select-reporting-source}
 
-设置目标并不意味着在评估测试结果时不能使用其他量度。 但是，目标可提醒您要通过测试加以改进的方面。
+>[!NOTE]
+>
+>如果您使用at.js版本0.9.1或更高版本，则在创建使用[!DNL Adobe Analytics]作为报表源的活动时，无需指定跟踪服务器。 at.js库自动将跟踪服务器值发送到[!DNL Target]。 **[!UICONTROL 目标和设置]**&#x200B;页面上的&#x200B;**[!UICONTROL 跟踪服务器]**&#x200B;字段可以保留为空。
 
-访客完成目标后，该访客将不再包含在活动中。 如果访客在完成活动后重新进入您的活动，则该访客将被计为新访客。
+已在活动的&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上选择报表源。 在此页面上，您选择了一个[!DNL Analytics]公司和接收[!DNL Target]活动数据的报表包，并验证跟踪服务器。
+
+➡️有关步骤、报表包要求和跟踪服务器的详细信息，请参阅[报告Source](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source)。
+
+当[!DNL Analytics]为报表源时，该活动不提供用于设置报表受众的选项。 [!DNL Analytics]区段在[!DNL Target] **[!UICONTROL 活动]**&#x200B;报表中可用。
+
+## 设置活动的目标 {#set-goal}
+
+每个活动都需要成功量度作为目标。 目标是表示活动成功的转化活动。 可以使用[!DNL Analytics]量度选择器中可用的任何量度。 最佳实践是，绝不要在没有以特定方式改进的目标的情况下运行测试。
+
+设置目标不会阻止您使用其他量度来评估测试结果。 但是，目标指明了您希望通过测试改进的方面。
+
+访客完成目标后，该访客将不再包含在活动中。 如果该访客在完成活动后重新进入该活动，则将被计为新访客。

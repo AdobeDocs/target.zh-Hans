@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -106,7 +106,7 @@ Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 
 [!UICONTROL 自动分配]在两个或更多选项中标识入选体验。 然后，它会自动为入选者重新分配更多流量，从而随着测试的继续运行和学习而提高转化率。
 
-有关详细信息，请参阅[[!UICONTROL 自动分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+有关详细信息，请参阅[[!UICONTROL 自动分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)。
 
 ### [!UICONTROL 自动定位] (AT)
 
@@ -118,7 +118,7 @@ Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 
 [!UICONTROL Automated Personalization] (AP)将选件或消息组合在一起，并使用高级机器学习将不同的变体与每位访客相配。 AP根据个别客户个人资料对内容进行个性化以提高提升度。
 
-有关更多信息，请参阅[自动个性化](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)。
+有关更多信息，请参阅[自动个性化](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview)。
 
 ### [!UICONTROL 体验定位] (XT)
 

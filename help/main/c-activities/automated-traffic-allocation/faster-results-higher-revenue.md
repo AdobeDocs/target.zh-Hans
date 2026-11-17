@@ -17,43 +17,49 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 878df20c7fb08c893239135c20f358b5606d0c6f
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '580'
 ht-degree: 0%
 ---
-# [!UICONTROL 自动分配]为您提供比手动测试更快的测试结果和更高的收入
+# [!UICONTROL 自动分配]如何优于手动测试 {#faster-results-higher-revenue}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解为什么&#x200B;**[!UICONTROL 自动分配]**&#x200B;活动比手动A/B测试产生更快的结果和更高的收入，它的工作方式，以及何时手动流量分配仍然是更好的选择。
+
+>[!ENDSHADEBOX]
 
 手动A/B活动可能会失去转化，因为在该活动完成之前，您无法将入选体验交付给整个受众。 即使在您了解到某些体验优于其他体验之后，您的流量分配仍保持不变，并且活动必须运行其整个课程，然后才能对入选者执行操作。
 
-## 自动分配流量
+## 自动分配流量 {#auto-allocating-traffic}
 
-如果您希望某个选项在活动中更早更频繁地提供入选体验，同时删除或减少挑库样本量、置信度级别和其他统计概念的设置和计算成本，则[!UICONTROL 自动分配]是您的最佳选项。
+如果您要在活动中更频繁和更早地提供入选体验，同时消除或减少挑选样本量、置信度级别和其他统计概念的设置和计算成本，则&#x200B;**[!UICONTROL 自动分配]**&#x200B;是您的最佳选择。
 
-## [!UICONTROL 自动分配]如何工作？
+## [!UICONTROL 自动分配]如何工作？ {#how-it-works}
 
-[!UICONTROL 自动分配]使用多臂老虎机的原理。 如果这个词不熟悉，单臂老虎机就是老虎机的俗语（想想：拉斯维加斯）。 将流量的自动分配可视化为具有多个老虎机（在此例中是测试变体），并在开始时均匀提取所有句柄。 随着时间的推移，一台或多台机器或测试变体可能比其他机器支付得更多。 当这种情况发生时，赌徒会自然而然地开始拉那些获胜更频繁的赌徒的把手。 在流量分配术语中，[!DNL Target]为更多的访客提供获益更多的体验或体验。
+**[!UICONTROL 自动分配]**&#x200B;使用多臂老虎机的原理。 独臂老虎机是老虎机的俗语。 将流量自动分配想象为一组老虎机，在这个例子中是测试变体，其句柄在开始时是等拉取的。 随着时间的推移，一台或多台机器或测试变体可能比其他机器支付得更多。 当这种情况发生时，赌徒会自然而然地开始拉取获胜次数更多的机器的手柄。 在流量分配术语中，[!DNL Target]为更多的访客提供获益更多的体验或体验。
 
-请考虑下图，其中显示了一个为期两周的A/B活动。 通过[!UICONTROL 自动分配]，当出现入选体验时，[!UICONTROL Target]会在测试早期将更多流量分配给该入选者。
+下图显示了一个为期两周的A/B活动。 通过&#x200B;**[!UICONTROL 自动分配]**，当出现入选体验时，[!DNL Target]会在测试早期将更多流量分配给该入选者。
 
 ![自动分配插图](/help/main/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 
-## [!UICONTROL 自动分配]如何提供更快的结果？
+## [!UICONTROL 自动分配]如何提供更快的结果？ {#faster-results}
 
-好处显而易见：更多访客会看到表现最佳的变体。 当一个变数拉到前面时，会有更多的访客在测试仍在运行时，被引导到入选体验。 如果正在运行的A/B活动发生在核心业务时刻（例如，假日、产品发布或全球新闻活动），此方法特别有用。
+更多访客会看到表现最佳的变体。 由于单个变体拉在前面，因此在测试仍在运行时，会有更多访客转向该入选体验。 如果A/B活动在核心业务时刻（例如，假日、产品发布或世界新闻事件）运行，此方法将特别有用。
 
-## [!UICONTROL 自动分配]如何提供更高的收入？
+## [!UICONTROL 自动分配]如何提供更高的收入？ {#higher-revenue}
 
-[!UICONTROL 自动分配]查找入选者的速度快于手动A/B拆分，并且允许您利用入选者立即捕获在传统或手动方法中会损失的追加收入。 由于[!UICONTROL 自动分配]将更多流量引向转化率最高的体验，因此它可以提高您的收入，同时促进活动运行和学习。
+**[!UICONTROL 自动分配]**&#x200B;查找入选者的速度快于手动A/B拆分，允许您立即利用该入选者，从而捕获在传统或手动方法中会损失的追加收入。 **[!UICONTROL 自动分配]**&#x200B;会将更多流量引向转化率最高的体验，这样可以在活动运行和学习时增加您的收入。
 
-在以下示例中，[!UICONTROL 自动分配]通过将更多流量(40%)推送到转化率最高的体验D，在测试期间获得了更多收入。
+在以下示例中，**[!UICONTROL 自动分配]**&#x200B;通过将更多流量(40%)推送到转化率最高的体验D，在测试期间获得了更多收入。
 
 ![自动分配提供更高的收入图示](/help/main/c-activities/automated-traffic-allocation/assets/five-experiences.png)
 
-## 在哪些情况下我应该坚持手动流量分配？
+## 在哪些情况下我应该坚持手动流量分配？ {#manual-allocation}
 
-如果必须将每个体验的执行方式相对于其他体验进行排序，则最适用的人工A/B测试。 [!UICONTROL 自动分配]查找和利用表现最佳的体验，但不保证区分表现较差的体验。 使用手动流量分配完全控制访客流量有多少会看到每个测试变体，并自定义与您的业务相关的统计阈值。
+手动A/B测试是最适用的选项，因为您必须对每个体验的执行方式相对于其他体验进行排名。 **[!UICONTROL 自动分配]**&#x200B;查找和利用表现最好的体验，但不保证表现不佳的体验之间有区别。 使用手动流量分配完全控制访客流量有多少会看到每个测试变体，并自定义与您的业务相关的统计阈值。
 
-## 快速入门
+## 快速入门 {#get-started}
 
-准备好启动您的第一个[!UICONTROL 自动分配]活动吗？ [在这里了解详情](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。
+准备好启动您的第一个&#x200B;**[!UICONTROL 自动分配]**&#x200B;活动吗？ 请参阅[创建自动分配活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)和[自动分配概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。

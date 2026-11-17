@@ -49,7 +49,7 @@ ht-degree: 8%
 
 在构建&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动时，**[!UICONTROL 流量估算器]**&#x200B;允许您检查流向页面的流量是否足以让个性化模型及时准备就绪。 在启动活动之前运行此检查可帮助您避免测试无法联系到足够的访客以提供个性化内容，并向您展示如何在流量不足时调整选件组合数量或活动的持续时间。
 
-1. 从您的&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动中，访问[!UICONTROL 可视化体验编辑器]的**2}体验&#x200B;]**页面。**[!UICONTROL 
+1. 从您的&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动中，访问[!UICONTROL 可视化体验编辑器]的&#x200B;**2&rbrace;体验&#x200B;**&#x200B;页面。**
 
 1. 单击&#x200B;**[!UICONTROL 流量]**&#x200B;图标（![流量估算器图标](/help/main/assets/icons/Gauge2.svg)）。
 

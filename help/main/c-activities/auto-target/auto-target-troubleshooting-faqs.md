@@ -99,7 +99,7 @@ No, check marks for model generation show only the models built to date. There i
 
 在&#x200B;**[!UICONTROL 自动定位]**&#x200B;活动中构建模型的时间通常取决于您选定活动位置的流量以及与活动成功量度关联的转化率。
 
-**[!UICONTROL 自动定位]**&#x200B;不会尝试为给定体验构建个性化模型，直到该体验发生至少50次转化。 此外，如果所构建的模型质量缺佳（通过使用称为AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度[对留出的“测试”数据进行离线评估而确定），则不会使用该模型以个性化的方式提供流量。
+**[!UICONTROL 自动定位]**&#x200B;不会尝试为给定体验构建个性化模型，直到该体验发生至少50次转化。 此外，如果所构建的模型质量缺佳（通过使用称为AUC[&#128279;](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度对留出的“测试”数据进行离线评估而确定），则不会使用该模型以个性化的方式提供流量。
 
 关于在&#x200B;**[!UICONTROL 自动定位]**&#x200B;中构建模型，请记住以下几点：
 

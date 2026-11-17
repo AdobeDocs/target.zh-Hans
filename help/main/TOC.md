@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何在网站、应用程序和社交渠道中个性化客户体验，从而提升营收。
 feature-set: Target
-source-git-commit: 7799b1855a382df8461a78e5bf4e7d02dbcce751
+source-git-commit: 4c4ef48f9849069a6a525d167bc42c933fd0b156
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 84%
+source-wordcount: '1285'
+ht-degree: 83%
 ---
 
 # Adobe Target 从业者指南 {#using}
@@ -107,7 +107,7 @@ ht-degree: 84%
     + {hide-from-toc}[集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Adobe Journey Optimizer用例 {#use-cases}
       + {hide-from-toc}[Adobe Journey Optimizer中的热门优化用例 — 基于Web和代码的渠道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-      + {hide-from-toc}[在Adobe Journey Optimizer中通过A/B测试进行的内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+      + 在Adobe Journey Optimizer中通过A/B测试进行的{hide-from-toc}[内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
       + {hide-from-toc}[在网页中添加或隐藏组件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
   + 将Target与Adobe Experience Manager (AEM)集成 {#aem}
@@ -142,7 +142,7 @@ ht-degree: 84%
     + [自动分配概述](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
     + [创建自动分配活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
     + [解释自动分配报表](c-activities/automated-traffic-allocation/determine-winner.md)
-    + [自动分配比手动测试产生测试结果更快和收入更高](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+    + [自动分配与手动测试相比有何表现](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
   + 自动锁定 {#auto-target}
     + [自动锁定概述](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
     + [创建自动锁定活动](/help/main/c-activities/auto-target/create-auto-target.md)

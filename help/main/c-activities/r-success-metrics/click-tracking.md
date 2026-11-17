@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6c83bb52aabc3441ee9c8caf02988dc5c227d837
+source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 47%
+source-wordcount: '1004'
+ht-degree: 40%
 ---
 # 点击跟踪 {#click-tracking}
 
@@ -42,15 +42,15 @@ ht-degree: 47%
 >
 >全局[!DNL Target]请求在用作基于表单的活动中的位置时不支持跟踪点击。
 
-* [设置点击跟踪](#section_5540C5A533114E57BAE022A600B02E72)
-* [“选定的元素”面板](#selected-elements)
-* [注意事项](#considerations)：选择元素、点击量的计数方式、Analytics和at.js以及限制
-
 ## 设置点击跟踪 {#section_5540C5A533114E57BAE022A600B02E72}
+
+点击跟踪是一种转化成功量度。 它计算活动参加者在您选择的页面元素上进行的点击次数，以便您衡量访客与这些元素的互动情况。 可以跟踪页面的任何元素，例如链接、按钮或图像。
 
 1. 在活动的&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上设置目标时，选择&#x200B;**[!UICONTROL 转化]**&#x200B;成功量度。
 
 1. 对于操作，选择&#x200B;**[!UICONTROL 已单击元素]**，然后单击&#x200B;**[!UICONTROL 选择元素]**。
+
+   已选择![个元素](../assets/click-tracking-1.png)
 
    随即会在&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC) 中打开您的页面。
 
@@ -60,15 +60,19 @@ ht-degree: 47%
 
 1. 单击屏幕顶部的&#x200B;**[!UICONTROL 完成]**&#x200B;以保存您的选择。
 
+   然后，**[!UICONTROL 目标和设置]**&#x200B;页面上的目标量度会显示所选元素的数量。 将鼠标悬停在上面可查看元素。
+
+   已选择![个元素](../assets/click-tracking-2.png)
+
 当活动参加者点击某个选定元素时，该点击即会被计为一次转化。
 
 ## “选定的元素”面板 {#selected-elements}
 
 对于&#x200B;**[!UICONTROL A/B测试]**、**[!UICONTROL 体验定位]** (XT)、**[!UICONTROL Automated Personalization]** (AP)和&#x200B;**[!UICONTROL 多变量测试]** (MVT)活动，**[!UICONTROL 选定元素]**&#x200B;面板会在左侧列出为点击跟踪选定的元素。
 
-![“选定的元素”面板](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
+![“选定的元素”面板](../assets/click-tracking-3.png)
 
-单击&#x200B;**[!UICONTROL 跟踪的组件]**&#x200B;面板中的某个元素时，可以应用一些操作。 下表介绍了可对元素执行的各项操作：
+单击&#x200B;**[!UICONTROL 选定的元素]**&#x200B;面板中的某个元素时，可以应用一些操作。 下表介绍了可对元素执行的各项操作：
 
 | 操作 | 描述 |
 | --- | --- |
@@ -80,19 +84,17 @@ ht-degree: 47%
 
 如果您已经知道选择器的DOM路径，则可以通过单击面板顶部的&#x200B;**[!UICONTROL 添加组件]**&#x200B;图标来手动添加该路径。
 
-![添加组件图标](/help/main/c-activities/r-success-metrics/assets/add-element.png)
+![添加组件图标](../assets/click-tracking-4.png)
 
 ## 注意事项 {#considerations}
 
-设置点击跟踪时，请考虑以下几点。
-
 ### 选择元素
 
-* 设置点击跟踪时，可使用 DOM 路径功能。 单击页面上的某个元素时，将显示 VEC 选项菜单。 另外，相应的 DOM 路径将显示在页面底部。 您可以使用 DOM 路径快速查看有关所选元素（类型、ID 和类）的信息，并向上或向下移动 DOM 路径以选择所需的元素。
+* 单击某个元素时，将显示VEC选项菜单，并且该元素的DOM路径将显示在页面底部。 使用DOM路径可查看有关元素（类型、ID和类）的信息，并向上或向下移动路径以选择所需的元素。
 
-  与在活动创建工作流的步骤1中创建体验类似，通过页面底部的DOM路径选择器，您可以选择元素。 在从 DOM 路径中选择元素时，VEC 中的相应元素将显示为“已选定”。 要取消选择选定的元素，您可以在DOM路径选择器中再次单击该元素，或者在VEC中单击“已选定”框。
+  您在DOM路径中选择的元素在VEC中显示为&#x200B;**[!UICONTROL Selected]**。 要取消选择它，请在DOM路径中再次单击它，或在VEC中单击&#x200B;**[!UICONTROL 已选定]**&#x200B;框。
 
-  ![DOM路径选择器](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+  ![DOM路径选择器](../assets/click-tracking-5.png)
 
   有关更多信息，请参阅&#x200B;*可视化体验编辑器选项*&#x200B;中的[使用 DOM 路径浏览元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
 
@@ -100,10 +102,6 @@ ht-degree: 47%
 * 务必选择要跟踪的元素的级别。 例如，指定按钮时，请务必选择链接，而不要选择按钮文本。
 * 如果您选择了多个元素，则当参加者点击任一选定元素时，即会被计为一次点击。 要单独对每个项目进行计数，需为每个元素分别设置成功量度。 要通过单击页面上的多个元素而计算一项，请编辑CSS元素选择器以匹配多个元素。
 * 对于单页应用程序(SPA)上的&#x200B;**[!UICONTROL Automated Personalization]** (AP)和自动定位活动，您可以选择属于特定[!DNL Target]视图的点击跟踪元素。 有关视图的详细信息，请参阅[Adobe Target视图和单页应用程序](/help/main/c-experiences/spa-visual-experience-composer.md)。
-
-单击&#x200B;**[!UICONTROL 完成]**&#x200B;后，**[!UICONTROL 目标和设置]**&#x200B;页面的目标量度中将显示选定元素的数量。 将鼠标悬停在其上可查看所选的元素。
-
-已选择![个元素](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ### 点击量的计数方式
 
@@ -152,4 +150,4 @@ ht-degree: 47%
 * 了解并生成&#x200B;**[!UICONTROL 转化]**、**[!UICONTROL 收入]**&#x200B;和&#x200B;**[!UICONTROL 参与度]**&#x200B;量度
 * 构建点击跟踪量度
 
->[!VIDEO](https://video.tv.adobe.com/v/3507823?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)

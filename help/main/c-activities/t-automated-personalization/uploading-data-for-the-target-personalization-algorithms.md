@@ -3,7 +3,7 @@ keywords: Automated Personalization；ap；上传数据；离线数据；个性�
 description: 了解在[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位]活动中构建个性化模型时如何上载离线数据。
 title: 如何为Personalization算法上传数据？
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 TQID: 'https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0'
 product_v2:
@@ -36,26 +36,32 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 12%
+source-wordcount: '365'
+ht-degree: 7%
 ---
-# 上传[!DNL Target]个性化算法的数据
+# 上传[!DNL Target]个性化算法的数据 {#upload-data-personalization}
 
-在[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位]活动中构建个性化模型时，离线数据（如CRM信息或客户流失倾向分数）可能会非常有价值。
+>[!BEGINSHADEBOX]
 
-有几种方法可在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位]个性化算法中输入数据。 除了[方法中用于将数据导入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}的方法之外，[!DNL Target]算法中还使用了[!DNL Experience Cloud]共享受众([!UICONTROL Adobe Analytics]，[!DNL Audience Manager])和活动中的报表受众。
+**在此页面上：**&#x200B;了解如何将离线数据和自定义数据发送到&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;和&#x200B;**[!UICONTROL 自动定位]**&#x200B;算法，以及要遵循的最佳实践。
 
-有关[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]个性化算法自动收集和使用的数据的信息，请参阅[Automated Personalization数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
+>[!ENDSHADEBOX]
+
+当您在[!DNL Adobe Target] **[!UICONTROL Automated Personalization]** (AP)和&#x200B;**[!UICONTROL 自动定位]**&#x200B;活动中构建个性化模型时，离线数据（如CRM信息或客户流失倾向分数）可能会非常有价值。
+
+有几种方法可在&#x200B;**[!UICONTROL Automated Personalization]** (AP)和&#x200B;**[!UICONTROL 自动定位]**&#x200B;个性化算法中输入数据。 除了[方法中用于将数据导入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的方法之外，[!DNL Target]算法中还使用了[!DNL Experience Cloud]共享受众(**[!UICONTROL Adobe Analytics]**，[!DNL Audience Manager])和活动中的报表受众。
+
+有关&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;和&#x200B;**[!UICONTROL 自动定位]**&#x200B;个性化算法自动收集和使用的数据的信息，请参阅[Automated Personalization数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 
 ## 最佳实践 {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
 
-以下列表介绍了上传[!DNL Target]个性化算法数据的最佳实践：
+在上传[!DNL Target]个性化算法的数据时，请遵循以下最佳实践：
 
-* 可用于[!DNL Target]个性化算法的高质量数据越多，您的[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动中生成的模型的质量就越好。
-* 限制使用多个具有相同用途的配置文件脚本或属性。
-* 请勿传递唯一ID，例如会话ID（如果需要）。
-* 查看[!DNL Target]自动收集的数据（[为Target Personalization算法收集的数据](/help/main/c-activities/t-automated-personalization/ap-data.md)），以便您不会发送重复信息。 例如，[!DNL Target]使用IP地址确定访客的邮政编码。 这就不需要将此信息作为单独的变量进行传递。
-* 请勿在同一属性或变量中传递多个值。 如果连接了多个变量，[!DNL Target]个性化算法会将每个字符串视为唯一值，从而减少个性化信息的值。
-* 使用令人难忘且有意义的命名惯例以使您的[Personalization分析报表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)更易于理解。
+* [!DNL Target]个性化算法可用的高质量数据越多，您的&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;和&#x200B;**[!UICONTROL 自动定位]**&#x200B;活动中生成的模型的质量就越好。
+* 限制使用具有相同用途的多个配置文件脚本或属性。
+* 如果不需要唯一ID，请勿传递该ID，例如会话ID。
+* 查看[!DNL Target]自动收集哪些数据（[Target Personalization算法的数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)），以便您不会发送重复信息。 例如，[!DNL Target]使用IP地址确定访客的邮政编码。 这就不需要将此信息作为单独的变量进行传递。
+* 请勿在同一属性或变量中传递多个值。 如果连接多个变量，[!DNL Target]个性化算法会将每个字符串都视为唯一值，这会减少个性化信息的值。
+* 使用令人难忘且有意义的命名惯例以使您的[Personalization分析报表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)更易于理解。

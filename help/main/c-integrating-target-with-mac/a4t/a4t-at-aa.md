@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
 source-wordcount: '1511'
 ht-degree: 6%
@@ -49,7 +49,7 @@ ht-degree: 6%
 * 使用[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)多臂赌博机功能将流量引导至入选体验。
 * 使用[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)集成机器学习算法为每个访客选择最佳体验。 [!UICONTROL 自动定位]会根据每个用户的配置文件、行为和上下文选择最佳体验，同时使用[!DNL Adobe Analytics]目标量度和[!DNL Adobe Analytics]的丰富报告和分析功能。
 
-确保您已实施[用于A/B测试和体验定位活动的A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)。 如果您使用`analyticsLogging = client_side`，则还必须将`sessionId`值传递给[!DNL Analytics]。 有关详细信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[Analytics for Target (A4T)报表](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=zh-Hans){target=_blank}。
+确保您已实施[用于A/B测试和体验定位活动的A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)。 如果您使用`analyticsLogging = client_side`，则还必须将`sessionId`值传递给[!DNL Analytics]。 有关详细信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[Analytics for Target (A4T)报表](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank}。
 
 若要开始，请执行以下操作：
 
@@ -61,7 +61,7 @@ ht-degree: 6%
 
    * **[!UICONTROL 手动（默认）]**：指定您希望看到每个体验的参加者所占的百分比。 您可以将百分比平分到所有体验，或者也可以为每个体验指定较高或较低的百分比。 所有体验的百分比总和必须等于 100%。
 
-   * **[!UICONTROL 自动分配到最佳体验]**：将大多数活动参加者自动定向到具有更高性能的体验。 为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。 有关详细信息，请参阅[[!UICONTROL 自动分配]概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+   * **[!UICONTROL 自动分配到最佳体验]**：将大多数活动参加者自动定向到具有更高性能的体验。 为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。 有关详细信息，请参阅[[!UICONTROL 自动分配]概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)。
 
    * **[!UICONTROL 自动定位以提供个性化体验]**： [!DNL Target]使用先进的机器学习技术，确定多个高性能、由营销人员定义的体验，然后根据访客各自的客户配置文件和过去类似访客的行为，为其提供量身定制的体验，从而个性化内容并促进转化。 有关详细信息，请参阅[自动定位概述](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 
@@ -161,7 +161,7 @@ ht-degree: 6%
 
 * 使用[!DNL Analytics]作为[!UICONTROL 自动定位]活动的数据源时，会话在六小时后结束。 六小时后发生的转化不计算在内。
 
-有关详细信息，请参阅&#x200B;*Analytics工具指南*&#x200B;中的[归因模型和回顾窗口](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hans)。
+有关详细信息，请参阅&#x200B;*Analytics工具指南*&#x200B;中的[归因模型和回顾窗口](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html)。
 
 ## 教程
 

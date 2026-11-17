@@ -2,7 +2,7 @@
 keywords: 流量估算器；自动个性化；ap；估算流量
 description: 使用[!UICONTROL 流量估算器]评估您是否有足够的流量使[!UICONTROL Automated Personalization]活动取得成功。
 title: 成功的[!UICONTROL Automated Personalization]活动需要多少流量？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 TQID: 'https://experienceleague.adobe.com/rLjNgDlAWK-r9Zv7083vo-PdWTPy3aHGS4fXEGeTdnY'
@@ -22,32 +22,44 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '802'
 ht-degree: 8%
 ---
-# 估算成功所需流量
+# 估算成功所需流量 {#traffic-estimator}
 
-[!DNL Adobe Target] [!UICONTROL 流量估算器]提供的反馈可让您知道您是否具有足够的流量以使[!UICONTROL Automated Personalization] (AP)活动成功。
+>[!BEGINSHADEBOX]
 
-由于[!UICONTROL Automated Personalization]活动使用多个选件组合，因此了解需要多少流量才能获得有意义的结果非常重要。 [!UICONTROL 流量估算器]使用有关您的页面的统计信息和正在测试的体验数量来估算流量和活动成功所需的测试持续时间。
+**在此页面上：**&#x200B;了解如何使用&#x200B;**[!UICONTROL 流量估算器]**&#x200B;来检查您的&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动是否有足够的流量可以成功。
 
-[!UICONTROL 流量估算器]通过比较估算的页面展示次数和页面的典型转化率，确定是否有足够的流量来生成个性化模型。 对于成功的活动，在理想的情况下，正确的样本量可确保个性化内容在活动持续时间的一半时间或 14 天内（以较短者为准）准备就绪。 此过程留有充足的时间来获取个性化内容并了解要交付的内容。
+>[!ENDSHADEBOX]
 
-请记住，[!DNL Target]会随机提供体验，直到生成个性化算法为止。 每个优惠旁边的复选标记图标显示该优惠的模型何时准备就绪，[!DNL Target]何时能够开始提供个性化内容。 由于提升仅在模型准备就绪后才属于预期提升度，因此，通过视觉指示可设置正确的预期。 使用[!UICONTROL 可视化体验编辑器] (VEC)中的[!UICONTROL 流量估算器]获取模型准备就绪的指南。
+[!DNL Adobe Target] **[!UICONTROL 流量估算器]**&#x200B;提供的反馈可让您知道您是否具有足够的流量以使&#x200B;**[!UICONTROL Automated Personalization]** (AP)活动成功。 AP活动使用多个选件组合，因此了解需要多少流量才能获得有意义的结果非常重要。 **[!UICONTROL 流量估算器]**&#x200B;使用有关您的页面的统计信息和正在测试的体验数量来估算流量和活动成功所需的测试持续时间。
 
-## 使用流量估算器
+**[!UICONTROL 流量估算器]**&#x200B;通过比较估算的页面展示次数和页面的典型转化率，确定是否有足够的流量来生成个性化模型。 对于成功的活动，在理想的情况下，正确的样本量可确保个性化内容在活动持续时间的一半时间或 14 天内（以较短者为准）准备就绪。 此过程留有充足的时间来获取个性化内容并了解要交付的内容。
 
-1. 在[!UICONTROL Automated Personalization]活动的[!UICONTROL 可视化体验编辑器]的[!UICONTROL 体验]页面中，单击[!UICONTROL 体验]页面左上角的&#x200B;**[!UICONTROL 流量]**&#x200B;图标（![流量估算器图标](/help/main/assets/icons/Gauge2.svg)）。
+[!DNL Target]会随机提供体验，直到生成个性化算法为止。 每个优惠旁边的复选标记图标显示该优惠的模型何时准备就绪，[!DNL Target]何时能够开始提供个性化内容。 只有在模型准备就绪后，才会出现提升预期，因此可视指示允许您设置正确的预期。 使用&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)中的&#x200B;**[!UICONTROL 流量估算器]**&#x200B;获取模型准备就绪的指南。
 
-   [!UICONTROL 流量估算器]打开。
+>[!NOTE]
+>
+>并不总是部署个性化模型，即使您的流量足够。 [!DNL Target]构建和测试模型，但只有在性能优于随机选择的体验时才会部署模型。 如果模型并不比随机模型更好，则选件之间的差异可能并不足够。 在这种情况下，如果消息类似，则使选件在视觉上更加不同，或者更改消息本身即可。
+
+## 使用流量估算器 {#use-traffic-estimator}
+
+在构建&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动时，**[!UICONTROL 流量估算器]**&#x200B;允许您检查流向页面的流量是否足以让个性化模型及时准备就绪。 在启动活动之前运行此检查可帮助您避免测试无法联系到足够的访客以提供个性化内容，并向您展示如何在流量不足时调整选件组合数量或活动的持续时间。
+
+1. 从您的&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动中，访问[!UICONTROL 可视化体验编辑器]的**2}体验&#x200B;]**页面。**[!UICONTROL 
+
+1. 单击&#x200B;**[!UICONTROL 流量]**&#x200B;图标（![流量估算器图标](/help/main/assets/icons/Gauge2.svg)）。
+
+   **[!UICONTROL 流量估算器]**&#x200B;打开。 要退出窗口，请再次单击图标。
 
    ![流量估算器用户界面](assets/ap-est.png)
 
-   您可以再次单击该图标以隐藏[!UICONTROL 流量估算器]。
-
 1. 指定典型转化率（或此活动的预期转化率）、预计每日活动展示次数和测试持续时间。
+
+   **[!UICONTROL 流量估算器]**&#x200B;使用这些量度来确定要运行成功的测试所需的调整。
 
    | 量度 | 描述 |
    | --- | --- |
@@ -56,32 +68,22 @@ ht-degree: 8%
    | **[!UICONTROL 预计每日访问次数]** | 此量度是基于定位标准的每日访问次数，这些访问来自能够查看活动的访客。 此量度可以基于您的分析数据。 此数字必须是访问次数，而不是独特访客。 |
    | **[!UICONTROL 测试持续时间]** | 您希望该活动运行的天数。 |
 
-   [!UICONTROL 流量估算器]使用这些量度来确定要运行成功的测试所需的调整。
 
-   在[!UICONTROL 流量估算器]的顶部附近，计算您输入的值并显示结果。
+
+1. 查看结果。 当您更改这些数字时，估算的结果也会相应改变。
+
+   例如，如果您要测试多个组合，而您的转化率和展示次数太低，则&#x200B;**[!UICONTROL 流量估算器]**&#x200B;会显示测试成功必须运行多久。 或者，如果您的流量较低，则&#x200B;**[!UICONTROL 流量估算器]**&#x200B;可能会建议较少的选件组合数量，以便您可以在所需的天数内运行测试。
 
    ![显示值和结果的流量预估](assets/ap-est-no.png)
 
-   当您更改这些数字时，估算的结果也会相应改变。 例如，如果您要测试多个组合，而您的转化率和展示次数太低，则[!UICONTROL 流量估算器]会显示测试成功必须运行多久。 或者，如果您的流量较低，则[!UICONTROL 流量估算器]可能会建议较少的选件组合数量，以便您可以在所需的天数内运行测试。
+1. 如果流量不足，请考虑以下选项：
 
-   如果流量不足，请考虑以下事项：
-
-   * 考虑使用[[!UICONTROL 自动定位]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活动而不是[!UICONTROL Automated Personalization]创建在一个体验变量中进行多项选件更改的体验。
-   * 减少[!UICONTROL Automated Personalization]活动中的选件组合数量。
+   * 使用[**[!UICONTROL 自动定位]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活动而不是&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;创建在一个体验变量中进行多项选件更改的体验。
+   * 减少&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动中的选件组合数量。
    * 延长活动持续时间。
 
-   调整这些数字，直到[!UICONTROL 流量估算器]指示您有足够的流量，然后相应地设计测试。
+1. 调整这些数字，直到&#x200B;**[!UICONTROL 流量估算器]**&#x200B;指示您有足够的流量，然后相应地设计测试。
+
+   如果流量足够，**[!UICONTROL 流量]**&#x200B;图标会显示绿色复选标记。 如果流量不足，该图标会显示一个红色警告标签。
 
    ![流量估算器显示足够的流量消息](assets/ap-est-yes.png)
-
-   如果流量足够，[!UICONTROL 流量]图标会显示绿色复选标记。 如果流量不足，该图标会显示一个红色警告标签。
-
-## 关于流量估算的常见问题解答
-
-在使用[!UICONTROL 流量估算器]时请考虑以下常见问题：
-
-### 即使我的AP活动具有足够的流量，为何仍无法构建个性化模型？
-
-在某些情况下，您的流量足够大，可以生成个性化模型，但该流量可能会通知[!DNL Target]个性化模型与随机模型之间没有有意义的差异。 尽管模型是在[!DNL Target]中构建并经过测试，但并未部署，因为该模型并不比随机模型好多少。
-
-此模型没有优于随机模型的一个可能原因可能是选件之间的差异不足。 如果是这样的话，您可以尝试在消息相似的情况下使选件在视觉上更加不同，也可以尝试更改消息本身。

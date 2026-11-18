@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 77%
@@ -82,7 +82,7 @@ ht-degree: 77%
 ### 多变量测试 (MVT)
 
 * [多变量测试最佳实践](/help/main/c-activities/c-multivariate-testing/best-practices.md)
-* [多变量测试故障诊断](/help/main/c-activities/c-multivariate-testing/best-practices.md)
+* [多变量测试故障诊断](/help/main/c-activities/c-multivariate-testing/best-practices.md#follow-up)
 * [估算成功测试所需的流量](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
 ### 推荐
@@ -129,7 +129,7 @@ ht-degree: 77%
 
 ## 全局 mbox
 
-* [全局 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=zh-Hans)
+* [全局 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## 主机/环境
 
@@ -141,12 +141,12 @@ ht-degree: 77%
 
 ### 常规实施
 
-* [支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hans)
+* [支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
 * [结合使用基于云的实例和Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### 全局 mbox
 
-* [全局mbox常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=zh-Hans)
+* [全局mbox常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
@@ -157,7 +157,7 @@ ht-degree: 77%
 
 ## 移动应用程序
 
-* [Target 移动应用程序版常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=zh-Hans)
+* [Target 移动应用程序版常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## 报表
 
@@ -166,11 +166,11 @@ ht-degree: 77%
 
 ## 搜索引擎优化 (SEO)
 
-* [搜索引擎优化 (SEO) 友好测试](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans)
+* [搜索引擎优化 (SEO) 友好测试](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## 安全性
 
-* [内容安全策略 (CSP) 指令](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=zh-Hans)
+* [内容安全策略 (CSP) 指令](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
 
 ## 系统状态
 

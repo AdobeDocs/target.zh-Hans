@@ -22,12 +22,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '951'
 ht-degree: 24%
 ---
-# 报表
+# 报告入门
 
 报表提供有关[!DNL Adobe Target]活动进度和结果的信息，帮助您根据数据做出决策。 报表数据可以帮助您确定何时结束活动，向您显示哪个体验或选件已入选，并提供确定后续操作所需的分析或学习数据。
 
@@ -90,7 +90,7 @@ ht-degree: 24%
 | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | 有关AP活动的两个[!UICONTROL Automated Personalization摘要]报表的信息： [!UICONTROL 活动级别]报表和[!UICONTROL 选件级别]报表。 有关详细信息，请参阅[Automated Personalization摘要报表](/help/main/c-reports/personalization-reports/reports-ap.md)。<br>有关AT和AP活动的两个[!UICONTROL Personalization Insights]报表的信息： [!UICONTROL 自动化区段]报表和[!UICONTROL 重要属性]报表。 有关更多信息，请参阅[个性化洞察报告](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [[!UICONTROL 多变量测试]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | 有关MVT活动的以下两个报表的信息：[!UICONTROL 体验性能]报表和[!UICONTROL 位置贡献]报表。 有关详细信息，请参阅[体验性能报表](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) (MVT)和[位置贡献报表](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) (MVT)。 |
 | [[!DNL Adobe Analytics] 作为Adobe Target的报表Source](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | 有关使用[!DNL Adobe Analytics]作为[!DNL Target] (A4T)的报表源的信息。 通过 A4T，您可以访问 [!DNL Target] 活动的 [!DNL Analytics] 报表。 有关更多信息，请参阅 [Analytics for Target (A4T) 报表](/help/main/c-reports/analytics-for-target-a4t-reporting.md)。 |
-| [[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中报告 | 有关[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/customer-journey-analytics){target=_blank}与[!DNL Target]之间集成的信息，该集成为您的优化程序提供了强大的分析和省时的工具。 |
+| [[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中报告 | 有关[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank}与[!DNL Target]之间集成的信息，该集成为您的优化程序提供了强大的分析和省时的工具。 |
 
 ## 阻止来自指定IP地址的报表数据
 

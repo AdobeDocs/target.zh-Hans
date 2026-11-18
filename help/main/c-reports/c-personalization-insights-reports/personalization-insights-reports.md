@@ -2,7 +2,7 @@
 keywords: 定位;AP 报告;自动个性化报告;自动定位;自动定位报告;个性化;洞察;自动化区段;常见问题解答;常见问题解答;重要属性
 description: 了解如何为Automated Personalization (AP)和自动定位(AT)活动使用专用报表 — 自动化区段和重要属性。
 title: 如何使用Personalization分析报表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 TQID: 'https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI'
@@ -30,12 +30,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 28%
+source-wordcount: '1027'
+ht-degree: 27%
 ---
-# [!UICONTROL Personalization Insights]报表
+# 开始使用[!UICONTROL Personalization Insights]报表
 
 [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位] (AT)活动的用户可以使用两个专用报表： [!UICONTROL 自动化区段]和[!UICONTROL 重要属性]报表。
 
@@ -117,7 +117,7 @@ ht-degree: 28%
 
 ## 培训视频：使用Personalization Insights报表![教程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/328064?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 有关详细信息，请参阅[在Adobe Target中使用Personalization分析报表](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
 

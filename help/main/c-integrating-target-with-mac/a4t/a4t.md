@@ -33,12 +33,12 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 76%
+source-wordcount: '1129'
+ht-degree: 75%
 ---
-# [!DNL Adobe Analytics] 作为 [!DNL Adobe Target] 的报表源 (A4T)
+# A4T入门
 
 [!DNL Adobe Analytics for Target] (A4T) 是一种跨解决方案的集成，通过它，可根据 [!DNL Analytics] 转化指标和受众区段创建活动。 A4T 集成让您可以使用 [!DNL Analytics] 报表检查结果。 如果将 [!DNL Analytics] 用作活动的报表源，则该活动的所有报表和区段都基于 [!DNL Analytics] 数据收集。
 
@@ -134,7 +134,7 @@ ht-degree: 76%
 * 介绍 A4T 的工作原理
 * 了解使用 A4T 之前需要满足的先决条件
 
->[!VIDEO](https://video.tv.adobe.com/v/3421723?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
 ### Analytics/Adobe Target集成(A4T) (40:33) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -151,5 +151,5 @@ ht-degree: 76%
 >
 >* [Analytics for [!DNL Target] 实施](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)：包含适用于 at.js 和平台 Web SDK 的实施信息。
 >* [重定向产品建议 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
->* [什么是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)：包含有关 Platform Web SDK 的概述信息。
->* [Target 概述](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=zh-Hans)：包含特定于 [!DNL Target] 和 [!DNL Platform Web SDK] 的信息。
+>* [什么是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)：包含有关 Platform Web SDK 的概述信息。
+>* [Target 概述](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)：包含特定于 [!DNL Target] 和 [!DNL Platform Web SDK] 的信息。

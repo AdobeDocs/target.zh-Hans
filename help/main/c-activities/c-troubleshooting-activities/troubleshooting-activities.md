@@ -18,12 +18,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '873'
 ht-degree: 36%
 ---
-# 活动故障诊断
+# 活动故障诊断入门
 
 如果您的网站上不显示您的 [!DNL Adobe Target] 活动，这些故障排除建议应该能帮助您找到解决方案。
 
@@ -119,7 +119,7 @@ ht-degree: 36%
 
 **验证：**&#x200B;使用[!UICONTROL 冲突]选项卡查看其他活动是否正在运行。
 
-**注意：**&#x200B;[!UICONTROL 冲突]选项卡不适用于模板测试模块。
+**注意：**[!UICONTROL 冲突]选项卡不适用于模板测试模块。
 
 **选项：**
 

@@ -1,6 +1,6 @@
 ---
 keywords: 受众;受众规则;创建受众;定位受众;报表受众;区段;自定义轮廓参数;受众定义;受众列表
-description: 了解如何在 [!DNL Adobe Target]中使用受众。
+description: 了解如何在[!DNL Adobe Target]中使用受众。
 title: 如何使用受众列表？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 844
+source-wordcount: '847'
 ht-degree: 27%
-
 ---
-
-# 创建受众
+# 创建受众入门
 
 [!DNL Adobe Target]中的受众可决定哪些人可以看到目标活动中的内容和体验。
 
@@ -37,7 +35,7 @@ ht-degree: 27%
 * [创建特定于活动的受众](/help/main/c-target/creating-activity-only-audience.md)并定位它
 * [合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以创建临时受众
 
-您还可以在[!DNL Target]和其他[!DNL Adobe Experience Cloud]应用程序中将[!DNL Adobe Analytics]收集的受众数据用于实时定位和个性化。 请参阅&#x200B;*Experience Cloud中央界面组件*&#x200B;指南中的[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans&?lang=zh-Hans)。
+您还可以在[!DNL Target]和其他[!DNL Adobe Experience Cloud]应用程序中将[!DNL Adobe Analytics]收集的受众数据用于实时定位和个性化。 请参阅&#x200B;*Experience Cloud中央界面组件*&#x200B;指南中的[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hans)。
 
 [!DNL Target]中有两种类型的受众：
 
@@ -63,7 +61,7 @@ ht-degree: 27%
 
   >[!NOTE]
   >
-  >使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}的所有[!DNL Target]客户都可以使用[!DNL Adobe Experience Platform]源。 [!DNL Adobe Experience Platform]中可用的受众可以按原样使用，也可以将[与现有受众结合使用](/help/main/c-target/combining-multiple-audiences.md)。
+  >使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}的所有[!DNL Target]客户都可以使用[!DNL Adobe Experience Platform]源。 [!DNL Adobe Experience Platform]中可用的受众可以按原样使用，也可以将[与现有受众结合使用](/help/main/c-target/combining-multiple-audiences.md)。
   >
   >用户在[!DNL Target]中必须具有[!UICONTROL 审批者]或更高状态才能在AEP/RTCDP ([!DNL Real-time Customer Data Platform])中配置[!DNL Target] [!UICONTROL 目标]卡。
   >
@@ -141,4 +139,4 @@ Keep the following points in mind as you work with imported audiences:
 * 将活动定位到受众
 * 在活动中使用受众进行被动报告
 
->[!VIDEO](https://video.tv.adobe.com/v/30336?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

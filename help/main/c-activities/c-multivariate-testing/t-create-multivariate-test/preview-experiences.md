@@ -16,28 +16,34 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 8%
+source-wordcount: '280'
+ht-degree: 6%
 ---
-# 预览[!UICONTROL 多变量测试]的体验
+# 预览[!UICONTROL 多变量测试]的体验 {#preview-mvt-experiences}
 
-由于[!DNL Adobe Target]中的[!UICONTROL 多变量测试]比较页面上的多个体验，预览每个体验中的页面将会很有帮助。
+>[!BEGINSHADEBOX]
 
-1. 单击&#x200B;**[!UICONTROL 预览]**，然后单击&#x200B;**[!UICONTROL 显示体验]**&#x200B;图标（![显示体验图标](/help/main/assets/icons/WebPages.svg)）以显示左侧框架中的所有体验列表。
+**在此页面上：**&#x200B;了解如何在&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;中预览&#x200B;**[!UICONTROL 多变量测试]**&#x200B;的每个体验，以及如何排除或包含体验。
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target]中的&#x200B;**[!UICONTROL 多变量测试]** (MVT)比较页面上的多个体验，因此预览每个体验中的页面很有帮助。 预览会显示选件在每个体验中的合并方式，以便您决定在测试开始之前是否排除体验。
+
+1. 在&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)中，单击&#x200B;**[!UICONTROL 预览]**，然后单击&#x200B;**[!UICONTROL 显示体验]**&#x200B;图标（![显示体验图标](/help/main/assets/icons/WebPages.svg)）以显示左框架中所有体验的列表。
+
+   ![更改图像选件菜单](../assets/multivariate-5.png)
 
 1. 单击列表中的特定体验，以查看该体验。
 
-1. （视情况而定）要从活动中排除一个或多个体验，请单击&#x200B;**[!UICONTROL 管理内容]**&#x200B;图标（![管理内容图标](/help/main/assets/icons/Experience.svg)）以显示[!UICONTROL 管理内容]对话框。
+1. （可选）要排除或包含体验，请单击&#x200B;**[!UICONTROL 管理内容]**&#x200B;图标（![管理内容图标](/help/main/assets/icons/Experience.svg)）以显示&#x200B;**[!UICONTROL 管理内容]**&#x200B;对话框。
 
-1. （视情况而定）在[!UICONTROL 管理内容]对话框中，单击要排除的体验旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击&#x200B;**[!UICONTROL 排除]**。
+1. 您可能会选择排除显示冲突变体的体验，或在美学上未实现平衡的体验。 然后执行以下操作之一：
 
-   您可能会选择排除显示冲突变体的体验，或在美学上未实现平衡的体验。
-
-1. （视情况而定）要排除多个体验，请选中所需体验对应的复选框，然后单击&#x200B;**[!UICONTROL 排除]**。
-
-1. （视情况而定）要包含多个已排除的体验，请选中所需体验对应的复选框，然后单击&#x200B;**[!UICONTROL 包含]**。
+   * 要排除一个体验，请单击该体验旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击&#x200B;**[!UICONTROL 排除]**。
+   * 要排除多个体验，请选中体验对应的复选框，然后单击&#x200B;**[!UICONTROL 排除]**。
+   * 要包含已排除的多个体验，请选中体验对应的复选框，然后单击“**[!UICONTROL 包含]**”。
 
 >[!NOTE]
 >

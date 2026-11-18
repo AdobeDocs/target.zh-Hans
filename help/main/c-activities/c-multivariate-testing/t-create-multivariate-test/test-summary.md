@@ -16,23 +16,29 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 30%
+source-wordcount: '162'
+ht-degree: 9%
 ---
-# 测试摘要（[!UICONTROL 多变量测试]）
+# 测试摘要（[!UICONTROL 多变量测试]） {#mvt-test-summary}
 
-[!UICONTROL 定位]页面提供了[!DNL Adobe Target] [!UICONTROL 多变量测试]的可视化概述。
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解&#x200B;**[!UICONTROL 多变量测试]**&#x200B;的测试摘要显示的内容，以便在继续之前查看配置。
+
+>[!ENDSHADEBOX]
+
+**[!UICONTROL 定位]**&#x200B;页面提供了[!DNL Adobe Target] **[!UICONTROL 多变量测试]**&#x200B;的可视化概述。 查看此摘要可让您在设置目标和设置之前确认测试的配置。
 
 ![“测试摘要”对话框](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary-new.png)
 
 测试摘要显示了以下内容：
 
-* 测试名称
-* URL
-* 受众：单击受众可从可用受众列表中选择其他受众。
-* 算法：唯一可用的算法是[!UICONTROL 全因子]。 提供算法名称是为了供用户参考，以便让用户知道所使用的算法。
+* 测试名称。
+* URL。
+* 观众。 单击受众以从可用受众列表中选择其他受众。
+* 算法。 唯一可用的算法是&#x200B;**[!UICONTROL 全因子]**。 算法名称仅供参考，便于您了解所使用的算法。
 * 包含和排除的体验数量。
 
-对测试配置感到满意时，请单击&#x200B;**[!UICONTROL 下一步]**。 [!UICONTROL 目标和设置]页面将打开。
+对测试配置感到满意时，请单击&#x200B;**[!UICONTROL 下一步]**。 **[!UICONTROL 目标和设置]**&#x200B;页面将打开。

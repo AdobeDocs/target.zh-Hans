@@ -24,12 +24,12 @@ topic_v2:
     internal-label: Content and assets
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 36%
+source-wordcount: '412'
+ht-degree: 35%
 ---
-# AEM [!UICONTROL 体验片段]和[!UICONTROL 内容片段]概述
+# 开始使用AEM [!UICONTROL 体验片段]和[!UICONTROL 内容片段]
 
 在[!DNL Target]活动中使用在[!DNL Adobe Experience Manager] (AEM)中创建的[!UICONTROL 体验片段] (XF)和[!UICONTROL 内容片段] (CF)以帮助优化和个性化。
 
@@ -65,4 +65,4 @@ ht-degree: 36%
 
 [!DNL Adobe Experience Manager] [!UICONTROL 体验片段]和[!UICONTROL 内容片段]表面上可能相似，但每个片段类型在不同的用例中起着关键的作用。
 
-有关[!UICONTROL 体验片段]和[!UICONTROL 内容片段]如何相似、不同以及何时以及如何使用的详细信息，请参阅[AEM Sites视频和教程指南](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=zh-Hans){target=_blank}中的[了解[!UICONTROL 内容片段]和[!UICONTROL 体验片段]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=zh-Hans){target=_blank}。
+有关[!UICONTROL 体验片段]和[!UICONTROL 内容片段]如何相似、不同以及何时以及如何使用的详细信息，请参阅[AEM Sites视频和教程指南](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}中的[了解[!UICONTROL 内容片段]和[!UICONTROL 体验片段]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}。

@@ -14,14 +14,12 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 50%
-
+source-wordcount: '388'
+ht-degree: 49%
 ---
-
-# 受众类别
+# 受众类别入门
 
 您可以使用[!DNL Adobe Target]定位多个类别属性中的任意一个。 要为每个属性创建定位规则（或组），请将所需属性拖放到受众生成器窗格中。
 
@@ -48,4 +46,4 @@ ht-degree: 50%
 * 创建受众
 * 定义受众类别
 
->[!VIDEO](https://video.tv.adobe.com/v/3507778?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)

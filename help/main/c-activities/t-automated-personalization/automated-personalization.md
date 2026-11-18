@@ -2,7 +2,7 @@
 keywords: 自动个性化；AP；受众；组合；随机林；多臂老虎机；汤普森采样；ML；机器学习
 description: 了解如何在[!DNL Adobe Target]中使用[!UICONTROL Automated Personalization] (AP)活动，这些活动使用高级机器学习将不同的选件变体与每位访客匹配。
 title: 什么是[!UICONTROL Automated Personalization] (AP)活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 TQID: 'https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ'
@@ -38,12 +38,12 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '908'
 ht-degree: 15%
 ---
-# [!UICONTROL Automated Personalization] (AP) {#automated-personalization-overview}
+# 开始使用[!UICONTROL Automated Personalization] {#automated-personalization-overview}
 
 >[!BEGINSHADEBOX]
 
@@ -83,7 +83,7 @@ ht-degree: 15%
 | **适应访客行为的变化** | 多臂老虎机总是花费一小部分流量在活动期间继续学习，并防止过度利用以前学习到的趋势。 使用最新的访客行为数据每24小时重建一次基础模型。 如果算法无法确定单个访客的入选体验，它将显示使用[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling)找到的总体性能最佳的体验，同时继续查找个性化的入选者。 |
 | **目标量度** | 模型会不断优化单个目标量度，该量度可以基于转化，也可以基于收入（更具体地说，每次访问产生&#x200B;**[!UICONTROL 收入]**）。 |
 | **数据和受众** | [!DNL Target]自动收集关于访客的信息以构建个性化模型。 有关&#x200B;**[!UICONTROL 自动定位]**&#x200B;和&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;中使用的属性的详细信息，请参阅[Automated Personalization数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 [!DNL Target]还自动使用所有[!DNL Adobe Experience Cloud]共享受众，因此您无需执行任何特定操作即可将受众添加到模型。 有关详细信息，请参阅[Experience Cloud受众](/help/main/c-integrating-target-with-mac/mmp.md)。 |
-| **自定义数据** | 营销人员可以上传离线数据（如CRM信息或客户流失倾向分数）或其他自定义数据来构建个性化模型。 可以使用[mbox参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}、[配置文件参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}或配置文件更新[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}的服务器端API输入数据。 |
+| **自定义数据** | 营销人员可以上传离线数据（如CRM信息或客户流失倾向分数）或其他自定义数据来构建个性化模型。 可以使用[mbox参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}、[配置文件参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}或配置文件更新](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的[服务器端API输入数据。 |
 
 ## 培训视频：活动类型 {#training-video}
 
@@ -93,4 +93,4 @@ ht-degree: 15%
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

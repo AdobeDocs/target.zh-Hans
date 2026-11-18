@@ -27,12 +27,12 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '3660'
+source-wordcount: '3662'
 ht-degree: 15%
 ---
-# [!UICONTROL 自动分配]概述 {#auto-allocate-overview}
+# 开始使用[!UICONTROL 自动分配] {#auto-allocate-overview}
 
 >[!BEGINSHADEBOX]
 
@@ -105,7 +105,7 @@ ht-degree: 15%
 | ![第 2 轮](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-2.png){width="200" zoomable="yes"} | **第2**&#x200B;轮：80%的流量分配给体验A和D（各40%）。 20%的流量是随机分配的，因此体验A、B、C和D各自将获得5%的流量。 在本轮中，体验 B 展现良好性能。<ul><li>算法挑选出体验D进入下一轮，因为它具有最高的转化率（由每个活动的垂直比例尺表示）。</li><li>算法还挑选出体验 B 进入下一轮，因为在其余三个体验中，它具有最高的 Bernstein 95% 置信区间上限。</li></ul>体验 D 和 B 进入下一轮。 |
 | ![第 3 轮](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-3.png){width="200" zoomable="yes"} | **第3**&#x200B;轮：80%的流量分配给体验B和D（各40%）。 20%的流量是随机分配的，因此体验A、B、C和D各自将获得5%的流量。 在本轮中，体验 D 继续展现良好性能，体验 C 的性能也不错。<ul><li>算法挑选出体验D进入下一轮，因为它具有最高的转化率（由每个活动的垂直比例尺表示）。</li><li>算法还挑选出体验 C 进入下一轮，因为在其余三个体验中，它具有最高的 Bernstein 95% 置信区间上限。</li></ul>体验 D 和 C 进入下一轮。 |
 | ![第 4 轮](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-4.png){width="200" zoomable="yes"} | **第4**&#x200B;轮：80%的流量分配给体验C和D（各40%）。 20%的流量是随机分配的，因此体验A、B、C和D各自将获得5%的流量。 在本轮中，体验 C 展现良好性能。<ul><li>算法挑选出体验C进入下一轮，因为它具有最高的转化率（由每个活动的垂直比例尺表示）。</li><li>算法还挑选出体验 D 进入下一轮，因为在其余三个体验中，它具有最高的 Bernstein 95% 置信区间上限。</li></ul>体验 C 和 D 进入下一轮。 |
-| ![第 n 轮](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **第&#x200B;*n***轮：随着活动继续运行，高性能体验开始显现，并且此过程会一直持续到确定入选体验为止。 如果转换率最高的体验的置信区间与任何其他体验的置信区间不重叠，则会将其标记为入选者。 [徽章显示在入选活动的页面](/help/main/c-activities/automated-traffic-allocation/determine-winner.md)和&#x200B;**[!UICONTROL &#x200B;活动&#x200B;]**&#x200B;列表中。<ul><li>算法挑选出体验 C 作为明确的入选者。</li></ul>此时，算法会将80%的流量提供给体验C，并将20%的流量继续随机提供给所有体验（A、B、C和D）。 体验 C 总共获得 85% 的流量。 如果获胜者的置信区间再次开始重叠（这种情况不太可能发生），则算法将还原为第4轮的行为。<br>**重要信息**：如果您在此过程中提早手动选择获胜者，则很容易选择错误的体验。 因此，最好的做法是一直等到算法确定入选体验为止。 |
+| ![第 n 轮](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **第&#x200B;*n***轮：随着活动继续运行，高性能体验开始显现，并且此过程会一直持续到确定入选体验为止。 如果转换率最高的体验的置信区间与任何其他体验的置信区间不重叠，则会将其标记为入选者。 [徽章显示在入选活动的页面](/help/main/c-activities/automated-traffic-allocation/determine-winner.md)和**[!UICONTROL &#x200B;活动&#x200B;]**列表中。<ul><li>算法挑选出体验 C 作为明确的入选者。</li></ul>此时，算法会将80%的流量提供给体验C，并将20%的流量继续随机提供给所有体验（A、B、C和D）。 体验 C 总共获得 85% 的流量。 如果获胜者的置信区间再次开始重叠（这种情况不太可能发生），则算法将还原为第4轮的行为。<br>**重要信息**：如果您在此过程中提早手动选择获胜者，则很容易选择错误的体验。 因此，最好的做法是一直等到算法确定入选体验为止。 |
 
 >[!NOTE]
 >
@@ -297,7 +297,7 @@ ht-degree: 15%
 * 选择流量分配方法
 * 在不同的体验之间分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/3507597?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### 创建A/B测试(8:36) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -306,4 +306,4 @@ ht-degree: 15%
 * 在[!DNL Adobe Target]中创建A/B活动
 * 使用手动拆分或自动流量分配来分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/30338?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

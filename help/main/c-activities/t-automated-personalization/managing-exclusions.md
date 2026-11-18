@@ -2,7 +2,7 @@
 keywords: 重复数据删除；允许重复项；排除重复的选件；自动个性化；不允许重复的选件；排除；默认内容；
 description: 管理[!UICONTROL Automated Personalization] (AP)活动中的排除项。
 title: 如何管理[!UICONTROL Automated Personalization]活动中的排除项？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -25,57 +25,67 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 23%
+source-wordcount: '506'
+ht-degree: 4%
 ---
-# 管理排除项
+# 管理排除项 {#manage-exclusions}
 
-通过掌握排除项来控制您的[!UICONTROL Automated Personalization] (AP)策略。 无论您是防止重复的选件、优化体验组合，还是删除默认内容，排除项都可以让您根据目标和受众期望，提供更清晰、更相关的体验。
+>[!BEGINSHADEBOX]
 
-## 允许或禁止重复的选件 {#concept_4EF78013F80E48EFA024AE0274C9F037}
+**在此页面上：**&#x200B;了解如何在&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动中阻止重复的选件、排除特定体验和排除默认内容。
+
+>[!ENDSHADEBOX]
+
+排除项控制&#x200B;**[!UICONTROL Automated Personalization]** (AP)活动提供哪些优惠和体验。 它们可防止同一选件显示两次，删除不兼容的选件组合，并删除默认内容，以使活动提供与您的目标和受众一致的更清晰、更相关的体验。
+
+## 允许或禁止重复的选件 {#allow-duplicate-offers}
+
+<a id="concept_4EF78013F80E48EFA024AE0274C9F037"></a>
 
 在AP活动中的不同位置使用选件库中的选件时，请防止重复这些选件。
 
-例如，在您的一个活动中，一个页面上可能有 6 个位置和 12 个选件。 活动中的多个位置可能存在相同的选件。 通过此功能，您可以防止在同一活动内的不同位置同时显示重复的选件。
+例如，一个活动在具有12个选件的页面上可以有6个位置，因此同一选件可以放置在多个位置。 不允许重复的选件，这会阻止在同一活动中的不同位置同时显示同一选件。
 
-1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)时，单击&#x200B;**[!UICONTROL 配置]**&#x200B;图标（![配置图标](/help/main/assets/icons/Setting.svg) ）>单击&#x200B;**[!UICONTROL 允许重复的选件]**&#x200B;以根据您的需求打开和关闭此功能。
+1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)时，单击&#x200B;**[!UICONTROL 配置]**&#x200B;图标（![配置图标](/help/main/assets/icons/Setting.svg)）。
 
-## 排除特定体验 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
+1. 单击&#x200B;**[!UICONTROL 允许重复的选件]**&#x200B;可根据需要打开或关闭此功能。
 
-如果要从AP活动中排除某些选件组合，请排除特定体验。
+   ![配置图标](../assets/exclusion-1.png)
 
-可能有某些组合无法协同工作，或者您可能正在限制测试的体验数量，以降低活动的流量要求。
+## 排除特定体验 {#exclude-experiences}
 
-1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)时，单击&#x200B;**管理内容**&#x200B;图标（![管理内容图标](/help/main/assets/icons/Experience.svg)）。
+<a id="task_C17D36EF58AF4908B17A3D84CA6DE85A"></a>
 
-   “[!UICONTROL 体验]”列表显示了所有内容和位置选项经过排列组合而生成的各个体验。
+排除特定体验，以从AP活动中删除某些选件组合。 某些组合可能无法正常工作，或者您可以限制测试的体验数量以降低活动的流量要求。
 
-1. 根据需要排除相应的体验。
+1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)时，单击&#x200B;**[!UICONTROL 管理内容]**&#x200B;图标（![管理内容图标](/help/main/assets/icons/Experience.svg)）。
 
-   您可以通过单击&#x200B;[!UICONTROL **更多操作**]&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)）然后单击&#x200B;[!UICONTROL **排除**]&#x200B;来排除特定体验。
+   “**[!UICONTROL 体验]**”列表显示了所有内容和位置选项经过排列组合而生成的各个体验。
 
-   或者，您也可以批量排除体验，方法是选中相关体验的复选框，然后单击&#x200B;**[!UICONTROL 排除]**。 选中一个或多个体验时，将显示[!UICONTROL 排除]图标。
+1. 排除您不想测试的体验。
+
+   * 要排除单个体验，请单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)），然后单击&#x200B;**[!UICONTROL 排除]**。
+   * 要同时排除多个体验，请选中每个体验对应的复选框，然后单击&#x200B;**[!UICONTROL 排除]**。 选择一个或多个体验时，将显示&#x200B;**[!UICONTROL 排除]**&#x200B;图标。
 
    ![批量排除体验](/help/main/c-activities/t-automated-personalization/assets/exclude1.png)
 
-   体验现已从活动中排除，其[!UICONTROL 状态]显示为[!UICONTROL 已排除]。
+   体验现已从活动中排除，其&#x200B;**[!UICONTROL 状态]**&#x200B;显示为&#x200B;**[!UICONTROL 已排除]**。
 
-## 排除默认内容 {#task_DCB4528989DF4C05A3A4729E5891D18F}
+## 排除默认内容 {#exclude-default-content}
 
-有时，您可能不希望将默认内容包含在AP活动中。 您可以使用此方法在一个位置中只有一个选件（与默认内容不同）作为活动的一部分。
+<a id="task_DCB4528989DF4C05A3A4729E5891D18F"></a>
 
-排除默认内容是一种非常有用的方法，可用于更改页面上其余内容的外观，以使其符合您在 AP 活动中所测试的产品建议。 例如，假设您想要匹配所测试选件的调色板，则可以更改页面的背景颜色并排除默认的背景颜色。
+如果不希望默认内容成为AP活动的一部分，请将其排除，这样某个位置将只包含一个与默认内容不同的选件。 此方法还允许您更改页面其余部分的外观，以适合您测试的选件。 例如，要匹配选件的调色板，您可以更改页面的背景颜色并排除默认的背景颜色。
 
-**使用[!UICONTROL 可视化体验编辑器] (VEC)排除默认内容：**
+1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)时，选择要替换的内容，然后单击&#x200B;**[!UICONTROL 更改文本/HTML]**、**[!UICONTROL 更改图像选件]**&#x200B;或&#x200B;**[!UICONTROL 更改背景颜色]**。 可用选项因内容类型而异。
 
-1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)时，选择要替换的内容并单击以访问&#x200B;**[!UICONTROL 更改文本/HTML]**、**[!UICONTROL 更改图像选件]**&#x200B;或&#x200B;**[!UICONTROL 更改背景颜色]**。 可用选项因内容类型而异。
+   ![更改选项](../assets/exclusion-1.png)
 
-   ![更改选项](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. 创建新内容。
 
-1. 单击&#x200B;**[!UICONTROL 更多操作]** （ ![更多操作图标](/help/main/assets/icons/Setting.svg) ）图标，然后单击&#x200B;**排除默认选件/包含默认选件**/切换以排除或包含默认选件。
+1. 单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/Setting.svg)），然后单击&#x200B;**排除默认选件/包含默认选件**&#x200B;切换以排除或包含默认选件。
 
    <!--
    Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 

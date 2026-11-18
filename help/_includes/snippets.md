@@ -1,8 +1,8 @@
 ---
-source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 7%
+source-wordcount: '323'
+ht-degree: 6%
 ---
 # 代码片段
 
@@ -40,3 +40,6 @@ ht-degree: 7%
 
 活动名称不能以`=`、`+`、`-`或`@`开头。 活动名称也不能包含以下任何字符序列：`;=`、`;+`、`;-`、`;@`、`,=`、`,+`、`,-`、`,@`、`["`或`"]`。
 
+## 访客匹配到活动 {#visitor-matching}
+
+已在&#x200B;**[!UICONTROL A/B测试]**&#x200B;或&#x200B;**[!UICONTROL 多变量测试]**&#x200B;活动中的访客与该活动匹配，直到他们转换为止。 先前在&#x200B;**[!UICONTROL 体验定位]**&#x200B;活动中的访客必须再次匹配该活动。 如果访客符合受众规则，则这些规则将属于这些活动并属于特定体验。

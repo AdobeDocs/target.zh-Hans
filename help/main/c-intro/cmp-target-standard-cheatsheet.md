@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -194,14 +194,14 @@ ht-degree: 48%
 **我是否可以仅对[!UICONTROL 定位]步骤进行更改，而不是执行整个三步引导式工作流进行编辑？**
 
 +++查看详细信息
-您可以轻松地执行此操作，方法是[从[!UICONTROL 活动概述]页面](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)直接进入您选择的所需步骤，然后使用[!UICONTROL 保存并关闭]选项退出该步骤。
+您可以轻松地执行此操作，方法是[从[!UICONTROL 活动概述]页面](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C)直接进入您选择的所需步骤，然后使用[!UICONTROL 保存并关闭]选项退出该步骤。
 
 +++
 
 **我是否可以停留在特定步骤、不断修改活动（例如产品建议文本或自定义代码），然后在另一个选项卡中执行 QA？**
 
 +++查看详细信息
-这是可能的。 只需[使用可用的[!UICONTROL 保存]选项即可进行增量更改而不退出步骤](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
+这是可能的。 只需[使用可用的[!UICONTROL 保存]选项即可进行增量更改而不退出步骤](/help/main/c-activities/edit-activity.md#section_29EE2ECA6B88473A8F9AC5600FFBB174)。
 
 +++
 
@@ -378,7 +378,7 @@ ht-degree: 48%
 **为何我没有看到我想要看到的产品建议/体验，反而看到了一些其他的活动？**
 
 +++查看详细信息
-使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
+使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
 
 +++
 
@@ -402,7 +402,7 @@ ht-degree: 48%
 **为何我没有看到我想要看到的产品建议/体验，反而看到了一些其他的活动？**
 
 +++查看详细信息
-使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
+使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
 
 +++
 

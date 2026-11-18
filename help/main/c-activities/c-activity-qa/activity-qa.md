@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 27%
@@ -64,7 +64,7 @@ ht-degree: 27%
 
      如果将此设置切换到“关”位置，请考虑以下几点：
 
-     * 如果正在测试的活动与其他实时活动之间存在冲突，则应用[普通优先级规则](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)。 由于发生冲突，您可能无法看到您打算进行QA的活动。
+     * 如果正在测试的活动与其他实时活动之间存在冲突，则应用[普通优先级规则](/help/main/c-activities/priority.md#priority)。 由于发生冲突，您可能无法看到您打算进行QA的活动。
      * 量度会在已查看的活动中递增，但这仅限于 QA 报表环境。
 
 1. 单击&#x200B;**[!UICONTROL 完成]**，以保存所做的更改。

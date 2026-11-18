@@ -29,28 +29,32 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 22dff18ca8369805557788d62c4eaf09f9764494
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 84%
+source-wordcount: '1677'
+ht-degree: 55%
 ---
-# 内容交付故障诊断
+# 内容交付故障诊断 {#content-trouble}
 
-如果您的页面没有显示预期内容，可以采取以下步骤来对内容交付进行调试。
+>[!BEGINSHADEBOX]
 
-* 仔细检查您的活动或营销活动代码。 键入错误或其他错误可能会导致无法显示预期内容。
-* 使用 mboxTrace 或 mboxDebug 为 [!DNL Target] 请求排除故障。
-* 使用 Adobe Experience Cloud Debugger（一个易于使用的工具，它与 mboxDebug 提供几乎相同的信息）为 [!DNL Target] 请求排除故障。
+**在此页面上：**&#x200B;了解如何在页面未显示预期内容时在[!DNL Adobe Target]中调试内容投放。
 
-当您在您的页面上设置 [!DNL Target] 以确保触发 Target 请求并且设置 Cookie 时，mboxDebug 特别有用。 但是，在调试内容交付时，mboxDebug 并不会提供有用的详细信息。 如果活动未显示在页面上或页面上显示了不需要的内容，请使用 mboxTrace 对页面进行细致的检查和调试。
+>[!ENDSHADEBOX]
 
-## 检索要用于调试工具的授权令牌 {#section_BED130298E794D1FA229DB7C3358BA54}
+当页面不显示预期内容时，原因可能是活动代码错误、[!DNL Target]请求缺失或放置错误，或与另一个活动冲突。 请仔细检查您的活动或营销策划代码，因为拼写错误或其他错误可能会阻止显示预期的内容。 然后使用mboxTrace、mboxDebug或Adobe Experience Cloud调试器检查[!DNL Target]请求。
 
-由于 mboxTrace 和 mboxDebug 可将营销活动数据和轮廓数据披露给外部各方，因此需要授权令牌。 可在 [!DNL Target] UI 中检索授权令牌。 令牌的有效时间为 6 个小时。
+当您在页面上设置[!DNL Target]时，**mboxDebug**&#x200B;特别有用，以确保触发[!DNL Target]请求并设置Cookie。 但是，不会转到调试内容交付时有用的详细信息。 如果活动未显示在页面上或页面上显示了不需要的内容，请使用 mboxTrace 对页面进行细致的检查和调试。
+
+## 调试工具 {#debugging-tools}
+
+### 检索授权令牌 {#section_BED130298E794D1FA229DB7C3358BA54}
+
+mboxTrace和mboxDebug可将营销活动数据和配置文件数据公开给外部各方，因此需要授权令牌。 可在 [!DNL Target] UI 中检索授权令牌。 令牌的有效时间为 6 个小时。
 
 您必须具有以下用户权限之一才能生成身份验证令牌：
 
-* 至少[!UICONTROL 编辑者]权限（或[!UICONTROL 审批者]）
+* 至少&#x200B;**[!UICONTROL 编辑者]**&#x200B;权限（或&#x200B;**[!UICONTROL 审批者]**）
 
   有关 [!DNL Target Standard] 客户的详细信息，请在“用户”**&#x200B;中参阅[指定角色和权限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。 有关 [!DNL Target Premium] 客户的详细信息，请参阅[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)。
 
@@ -62,7 +66,7 @@ ht-degree: 84%
 
 要检索授权令牌，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实现]**。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实现]**。
 1. 在“调试器工具”部分中，单击&#x200B;**[!UICONTROL 生成新的身份验证令牌]**。
 
    ![生成新的身份验证令牌](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
@@ -71,7 +75,7 @@ ht-degree: 84%
 
    ![授权令牌](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
-## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
+### mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
 通过 mboxTrace，可接收附加到 [!DNL Target] 响应的跟踪信息。 跟踪信息反映 [!DNL Target] 调用的结果（例如，转化或展示）以及任何其他可能有助于确定为何发生此特定结果的数据，如在营销活动中从中作出选择的一组可用分支。 使用此信息可调试内容发送服务。
 
@@ -110,107 +114,132 @@ ht-degree: 84%
 
 您网站的正常功能和外观不受 mboxTrace 的影响。 访客可以看到您的常规推荐设计。
 
-## mboxDebug {#mboxdebug}
+### mboxDebug {#mboxdebug}
 
 要使用 mboxDebug，请将 mboxDebug 参数附加到您 URL 的末尾。 下表包含关于与 [!DNL Target] 响应相关的 URL 参数的信息。
 
->[!NOTE]
->
->某些 mboxDebug 参数无论是否进行身份验证均可用。
+请注意，某些mboxDebug参数无论是否进行身份验证均可用。
 
 | URL 参数 | 用途 |
 |--- |--- |
 | `mboxDebug=1` | 调试器<br>将此参数添加到任何定义了 Target 请求的 URL 将打开一个弹出窗口，其中显示有用的调试详细信息。 Cookie 信息、PCid 和会话 ID 值都会写出，并且用户可看到所有 URL。 单击 Target 请求 URL 以显示对该 [!DNL Target] 要求的响应。 有关更多信息，请参阅 [mbox_debug.pdf](/help/main/assets/mbox_debug.pdf)。 |
 | `mboxDisable=1` | 停用页面上的 mbox |
-| `mboxOverride.browserIp=<Insert IP address>` | 测试地理定位<br>使用此 URL 参数测试地理定位。 输入 IP 地址作为此属性的值，Test&amp;Target 的地理定位功能会评估该 IP 地址，查找营销活动中设置的与其匹配的任何地理定位或客户群。 |
+| `mboxOverride.browserIp=<Insert IP address>` | 测试地理定位<br>使用此 URL 参数测试地理定位。 键入IP地址作为此属性的值，[!DNL Target]地理定位将评估该IP地址，以与营销活动中设置的任何地理定位或分段相匹配。 |
 
 >[!NOTE]
 >
 >确保 URL 片段位于查询字符串参数之后。 第一个 `#` 之后的任何内容均为片段标识符，并导致调试参数无法正常运行。
 
-## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
+### Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-借助 Adobe Experience Cloud 调试器，您可以快速、轻松地了解 Target 实施。 您可以快速查看库配置、检查请求以确保正确传递自定义参数、打开控制台日志记录以及禁用所有 Target 请求。 在 Experience Cloud 中通过身份验证，即可使用强大的 MboxTrace 工具检查活动和受众资格鉴定以及访客轮廓。
+Adobe Experience Cloud Debugger可帮助您了解[!DNL Target]实施。 您可以查看库配置、验证自定义参数是否正确传递、打开控制台日志记录并禁用所有[!DNL Target]请求。 在Experience Cloud中进行身份验证后，您可以使用mboxTrace检查您的活动、受众资格以及访客资料。
 
-有关更多信息，请参阅下面的培训视频：
+有关详细信息，请参阅本页末尾的[培训视频](#training-videos)和使用Adobe Experience Cloud调试器[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}调试at.js。
 
-有关更多详细信息，请参阅[使用 Adobe Experience Cloud Debugger 调试 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}。
+## 常见问题 {#common-problems}
 
-## 推荐中未显示最畅销商品 {#section_3920C857270A406C80BE6CBAC8221ECD}
++++ 推荐中未显示最畅销商品
 
 *`SiteCatalyst: purchase`*&#x200B;调用无法用于“购买”算法流量数据。 请改用 *`orderConfirmPage`* 调用。
 
-## 检查活动优先级 {#section_3D0DD07240F0465BAF655D0804100AED}
++++
 
-用 [!DNL Target Standard/Premium] 创建的基于表单的活动可能与在 [!DNL Target Classic] UI 中创建的优先级相同并使用相同 [!DNL Target] 请求的活动发生冲突。
+</br>
 
-## 自定义代码无法在 Internet Explorer 8 中生成预期结果。 {#section_FAC3651F19144D12A37A3E4F14C06945}
++++ 基于表单的活动与Target Classic活动发生冲突
 
-Target 不再支持 IE 8。
+用 [!DNL Target Standard/Premium] 创建的基于表单的活动可能与在 [!DNL Target Classic] UI 中创建的优先级相同并使用相同 [!DNL Target] 请求的活动发生冲突。 有关详细信息，请参阅[活动优先级](/help/main/c-activities/priority.md)。
 
-## 未设置 Target Cookie {#section_77AFEB541C0B495EB67E29A4475DF960}
++++
 
-如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。 有关更多信息，请参阅 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}。
+</br>
 
-## 如果某个元素也是 Adobe Experience Manager 个性化的一部分，则 Target 内容会闪烁或无法显示。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
++++ 未设置[!DNL Target] Cookie
 
-如果某个 DOM 元素是 Adobe Experience Manager (AEM) 个性化定位和 Target 活动的一部分，则 Target 内容可能会闪烁或无法显示。
+如果您的网站具有子域，例如[!DNL us.domain.com]，但您需要在[!DNL domain.com]（而不是[!DNL us.domain.com]）上设置[!DNL Target] Cookie，则必须覆盖`cookieDomain`设置。 有关更多信息，请参阅 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}。
 
-要修复这种状况，您可以在运行 Target 的页面上禁用 AEM 个性化。
++++
 
-## 由于 URL 无效，无法交付重定向选件和远程选件。 {#section_7D09043B687F43B39DAEDF17D00375AC}
+</br>
+
++++ 当某个元素也是Adobe Experience Manager个性化的一部分时，内容会闪烁或无法显示
+
+如果DOM元素是Adobe Experience Manager (AEM)个性化定位和[!DNL Target]活动的一部分，则[!DNL Target]内容可能会闪烁或无法显示。
+
+要解决这种情况，您可以在运行[!DNL Target]的页面上禁用AEM个性化。
+
++++
+
+</br>
+
++++ 由于URL无效，重定向和远程选件无法交付
 
 如果重定向产品建议或远程产品建议使用无效的 URL，则可能无法交付该产品建议。
 
-对于重定向产品建议，[!DNL Target] 响应可包含 `/* invalid redirect offer URL */`
+* 对于重定向选件，[!DNL Target]响应可以包含`/* invalid redirect offer URL */`。
+* 对于远程选件，[!DNL Target]响应可以包含`/* invalid remote offer URL */`。
 
-或
+您可以在浏览器中或使用mboxTrace检查[!DNL Target]响应。 有关有效 URL 的更多信息，请参阅 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66)。
 
-对于远程产品建议，[!DNL Target] 响应可包含 `/* invalid remote offer URL */`
++++
 
-可在浏览器中或使用 mboxTrace 检查 [!DNL Target] 响应。 有关有效 URL 的更多信息，请参阅 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66)。
+</br>
 
-## 我的网站上不触发 [!DNL Target] 请求。
++++ 我的网站上未触发[!DNL Target]请求
 
-如果所使用的 doctype 无效，则 at.js 不触发 Target 请求。 at.js 需要 HTML 5 doctype。
+如果您使用无效的doctype，at.js不会触发[!DNL Target]请求。 at.js 需要 HTML 5 doctype。
 
-## 确保 [!DNL Target] 活动正确处理包含查询字符串参数的 URL。 {#query-strings}
++++
 
-[!UICONTROL 活动URL]确定授予访客参加活动资格并向用户呈现活动体验的页面。 在活动创建期间出现提示时，键入完整的 URL 并不总是能确保在该网站页面上提供内容，尤其是当 URL 包含查询字符串参数时。
+## URL中包含查询字符串参数的活动 {#query-strings}
+
+**[!UICONTROL 活动URL]**&#x200B;确定授予访客参加活动资格并向用户呈现活动体验的页面。 在活动创建期间出现提示时，键入完整的 URL 并不总是能确保在该网站页面上提供内容，尤其是当 URL 包含查询字符串参数时。
 
 默认情况下，[!UICONTROL 可视化体验编辑器] (VEC)会打开[可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的页面。 您也可以在活动创建期间指定不同页面。
 
-要在VEC打开后显示其他页面，请单击&#x200B;**[!UICONTROL 配置齿轮图标]** >选择&#x200B;**[!UICONTROL 页面交付]** >然后在[!UICONTROL 活动URL]字段中指定所需URL。
+要在VEC打开后显示其他页面，请单击&#x200B;**[!UICONTROL 配置齿轮图标]** >选择&#x200B;**[!UICONTROL 页面交付]** >然后在&#x200B;**[!UICONTROL 活动URL]**&#x200B;字段中指定所需URL。
 
 ![配置页面传递设置 UI](assets/configure-page-delivery.png)
 
-但是，如果 URL 包含查询字符串参数呢？ 它是否会生效并显示个性化内容？ 在此场景中，无论目标受众是谁，您都可以在基础 URL 之外包括模板规则，以定义您的查询参数。
+当URL包含查询字符串参数时，页面可能不符合活动资格或显示个性化内容。 无论目标受众是谁，您都可以在基础URL之外包括模板规则，以定义查询参数。
 
 以下选项可用于包括额外的模板规则：
 
-### 选项1：复制URL，并使用“包含”选项将其保留在模板规则中。
+* **选项1：**&#x200B;复制URL并使用“包含”选项将其保留在模板规则中
 
-此选项确保该 URL 符合活动的条件，但请注意，其上可能会附加极端情况，会影响您的报告数据，包含基础 URL 的 URL 会有额外的记录。
+  +++ 查看模板规则设置
 
-在此场景中，URL 是 `https://shopping.mycart.com?type=Summers%20Offers` 而额外的模板规则“包含”相同的 URL，以 OR 分隔符分隔：
+  此选项确保该 URL 符合活动的条件，但请注意，其上可能会附加极端情况，会影响您的报告数据，包含基础 URL 的 URL 会有额外的记录。
 
-![在模板规则中复制 URL](assets/option1.png)
+  在此场景中，URL 是 `https://shopping.mycart.com?type=Summers%20Offers` 而额外的模板规则“包含”相同的 URL，以 OR 分隔符分隔：
 
-### 选项2：限制URL仅“包含”查询字符串的条件。
+  ![在模板规则中复制 URL](assets/option1.png)
 
-之前选项中讨论的极端情况适用于此选项，但这里的条件性设置仅限为查询字符串。
+  +++
 
-在此场景中，URL 是 `https://shopping.mycart.com?type=Summers%20Offers` 而额外的模板规则仅“包含”查询字符串，以 OR 分隔符分隔：
+* **选项2：**&#x200B;限制URL“包含”只包含查询字符串的条件
 
-![仅包含查询字符串的模板规则](assets/option2.png)
+  +++ 查看模板规则设置
 
-### 选项 3：不定向到完整 URL，而是利用 URL 的特定部分。
+  之前选项中讨论的极端情况适用于此选项，但这里的条件性设置仅限为查询字符串。
 
-在此方案中，URL是`https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则指定具有[!UICONTROL type] > [!UICONTROL 的[!UICONTROL 查询]是（区分大小写）] > type=Summers%20Offers，以OR分隔符分隔：
+  在此场景中，URL 是 `https://shopping.mycart.com?type=Summers%20Offers` 而额外的模板规则仅“包含”查询字符串，以 OR 分隔符分隔：
 
-![模板规则利用 URL 的特定部分](assets/option3.png)
+  ![仅包含查询字符串的模板规则](assets/option2.png)
 
-## [!DNL Target]配置文件属性值中的转义双引号无法按预期工作。 {#escape}
+  +++
+
+* **选项3：**&#x200B;不定向到完整URL，而是利用URL的特定部分
+
+  +++ 查看模板规则设置
+
+  在此方案中，URL是`https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则指定具有&#x200B;**[!UICONTROL type]** > **[!UICONTROL 的**&#x200B;[!UICONTROL &#x200B;查询&#x200B;]&#x200B;**是（区分大小写）]** > type=Summers%20Offers，以OR分隔符分隔：
+
+  ![模板规则利用 URL 的特定部分](assets/option3.png)
+
+  +++
+
+## 在配置文件属性值中转义双引号 {#escape}
 
 当您在[!DNL Target]配置文件属性中发送包含双引号的值时，必须对其进行双重转义，如下所示。
 
@@ -223,7 +252,7 @@ adobe.target.trackEvent({
 });
 ```
 
-## 培训视频
+## 培训视频 {#training-videos}
 
 以下视频包含有关本文中所讨论概念的详细信息。
 

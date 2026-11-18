@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 59%
@@ -58,5 +58,5 @@ ht-degree: 59%
 | 创建适当的活动或测试。 | [活动和测试](/help/main/c-intro/target-key-concepts.md) |
 | 创建受众（如有需要）。 | [创建受众](/help/main/c-target/c-audiences/create-audience.md) |
 | 合并多个受众（如有需要）。 | [合并多个受众](/help/main/c-target/combining-multiple-audiences.md) |
-| 在活动的“目标和设置”页面上应用受众。 | A/B测试： [目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization： [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>体验定位： [目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>多变量测试： [目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>推荐： [推荐活动设置](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>活动设置： [活动设置](/help/main/c-activities/activity-settings.md) |
+| 在活动的“目标和设置”页面上应用受众。 | A/B测试： [目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization： [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>体验定位： [目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>多变量测试： [目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>推荐： [推荐活动设置](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>活动设置： [活动设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) |
 | 查看包含受众筛选器相关信息的报表。 | [报表设置](/help/main/c-reports/c-report-settings/report-settings.md) |

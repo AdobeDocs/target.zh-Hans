@@ -54,6 +54,6 @@ ht-degree: 2%
 * 通过创建定位到这两个州的体验以及定位到自行车爱好者的第三个体验，向不同地理区域的受众交付特定于位置的内容。
 * 对三个体验重新排序，以确保向正确的受众交付正确的内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/38307?captions=chi_hans)
 
 观看视频后，请继续[创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)。

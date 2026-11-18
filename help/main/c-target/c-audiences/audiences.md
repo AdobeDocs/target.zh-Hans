@@ -1,6 +1,6 @@
 ---
 keywords: 受众;受众规则;创建受众;定位受众;报表受众;区段;自定义轮廓参数;受众定义;受众列表
-description: 了解如何在 [!DNL Adobe Target]中使用受众。
+description: 了解如何在[!DNL Adobe Target]中使用受众。
 title: 如何使用受众列表？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 844
+source-wordcount: '847'
 ht-degree: 27%
-
 ---
-
-# 创建受众
+# 创建受众入门
 
 [!DNL Adobe Target]中的受众可决定哪些人可以看到目标活动中的内容和体验。
 

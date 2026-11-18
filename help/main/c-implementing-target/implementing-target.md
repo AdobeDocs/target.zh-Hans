@@ -1,9 +1,9 @@
 ---
 keywords: 实施
-description: 了解基本概念，熟悉 [!DNL Target] 的工作方式以及与您的基础架构集成的方式，并了解如何跟踪访客。
+description: 了解基本概念，熟悉[!DNL Target]的工作方式以及与您的基础架构集成的方式，并了解如何跟踪访客。
 landing-page-description: 在开始使用Adobe Target之前，必须在您的网站上实施它。
 short-description: 在开始使用Adobe Target之前，必须在您的网站上实施它。
-title: 如何实施 [!DNL Target]？
+title: 如何实施[!DNL Target]？
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 210
-ht-degree: 11%
-
+source-wordcount: '213'
+ht-degree: 10%
 ---
-
-# 实施 Target
+# 开始实施[!DNL Target]
 
 在开始使用[!DNL Adobe Target]之前，您必须在您的网站上实施它。
 

@@ -24,12 +24,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '661'
 ht-degree: 7%
 ---
-# [!UICONTROL 标准]
+# 开始使用[!UICONTROL 标准]
 
 [!DNL Adobe Target] [!DNL Recommendations]中的[!UICONTROL 标准]是一些规则，可根据预先确定的一组访客行为来确定要推荐的产品或内容。 标准可基于流行趋势、访客的当前与过去行为，或相似的产品和内容。 您可以添加多个标准，以便对多个推荐类型进行相互测试。
 

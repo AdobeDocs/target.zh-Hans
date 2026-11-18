@@ -18,12 +18,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 63%
+source-wordcount: '126'
+ht-degree: 61%
 ---
-# 实体
+# 实体入门
 
 实体是指您想推荐的项目。 实体可以是任何事物，例如产品、内容（文章、幻灯片、图像、电影和电视节目）、工作列表、餐馆等。
 

@@ -18,12 +18,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '892'
 ht-degree: 0%
 ---
-# [!UICONTROL 可视化体验编辑器] (VEC)
+# 开始使用[!UICONTROL 可视化体验编辑器]
 
 [!DNL Adobe Target]中的[!UICONTROL 可视化体验编辑器] (VEC)是一个WYSIWYG编辑器，可直接在网站和移动网页上创建和测试个性化体验，而无需编辑代码。
 

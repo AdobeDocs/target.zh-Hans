@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 174d4631b6f4a481c039bd7fff52a8e70161e19e
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -142,7 +142,7 @@ ht-degree: 48%
 **我如何才能发现页面上的哪些元素组合对页面的成功有帮助？每个元素可以提供多大的帮助？**
 
 +++查看详细信息
-在元素归因分析中试试我们的[全因子多变量 (MVT) 活动](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)，看看它是否符合您的需求。
+在元素归因分析中试试我们的[全因子多变量 (MVT) 活动](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt)，看看它是否符合您的需求。
 
 请注意，流量需求会随着 MVT 活动而增加。
 

@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -124,13 +124,13 @@ Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 
 [!UICONTROL 体验定位] (XT)根据营销人员定义的规则和条件向特定受众提供内容。 包括地理定位在内，XT对于定义规则以将特定体验或内容定位到特定受众非常有用。 可以在活动中设置多个规则，以将不同的内容变体交付到不同的受众。 当访客查看您的网站时，XT会评估访客，以确定他们是否符合标准。 如果他们符合条件，他们将进入活动并查看为其设计的体验。 您可以在一个活动中为多个受众创建体验。
 
-有关更多信息，请参阅[体验定位](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)。
+有关更多信息，请参阅[体验定位](/help/main/c-activities/t-experience-target/experience-target.md#get-started-xt)。
 
 ### [!UICONTROL 多变量测试] (MVT)
 
 [!UICONTROL Multivariate Testing] (MVT)比较页面元素中的选件组合，以确定哪个组合对特定受众表现最佳。 MVT 有助于找出哪个元素对活动取得成功影响最大。
 
-更多信息，请参阅[多变量测试](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)。
+更多信息，请参阅[多变量测试](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt)。
 
 ### [!UICONTROL 推荐]
 

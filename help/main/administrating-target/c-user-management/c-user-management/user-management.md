@@ -1,7 +1,7 @@
 ---
 keywords: 添加用户;管理用户;用户权限
-description: 了解如何使用 [!DNL Adobe Admin Console] 管理用户及其在 [!DNL Adobe Target Standard] 中的权限和权利。
-title: 如何为 [!DNL Target Standard] 帐户添加用户和管理权限？
+description: 了解如何使用[!DNL Adobe Admin Console]管理[!DNL Adobe Target Standard]中的用户及其权限和权限。
+title: 如何添加用户并管理[!DNL Target Standard]帐户的权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
@@ -33,14 +33,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 925
-ht-degree: 60%
-
+source-wordcount: '930'
+ht-degree: 57%
 ---
-
-# 用户
+# 用户入门
 
 在 [!DNL Adobe Admin Console] 中为 [!DNL Target Standard] 帐户添加用户和管理其权限。
 
@@ -133,8 +131,8 @@ ht-degree: 60%
 
 * 从 Adobe Target 界面访问 Adobe Admin Console（三种方式）
 * 在 Adobe Admin Console 中配置工作区
-   * 向工作区添加用户
-   * 向工作区添加属性
+  * 向工作区添加用户
+  * 向工作区添加属性
 * 了解默认工作区
 
 >[!NOTE]

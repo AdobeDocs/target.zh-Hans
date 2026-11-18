@@ -26,12 +26,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '875'
 ht-degree: 88%
 ---
-# 推荐
+# 推荐入门
 
 [!DNL Adobe Target Recommendations] 活动根据以前的用户活动、偏好或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。 [!DNL Target Recommendations] 有助于引导访客查看在其他情况下他们可能不知道的相关项目。 通过 [!DNL Recommendations]，可在正确的时间和正确的地点为访客提供相关的内容。
 

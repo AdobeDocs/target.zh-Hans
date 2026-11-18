@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: aad553690f1f399177214c94a2276d038f46d9cb
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '929'
 ht-degree: 16%
 ---
 # 创建多变量测试 {#create-mvt}
@@ -34,6 +34,8 @@ ht-degree: 16%
 使用[!DNL Target]点击式编辑器，您可以选择任意位置并添加多个选件。
 
 **[!UICONTROL 多变量测试]** (MVT)生成页面优先报表。 换言之，多变量测试会在某个特定的 URL 上运行，而测试中包含为该页面设计的所有体验。
+
+在创建测试之前，请查看[计划建议](/help/main/c-activities/c-multivariate-testing/best-practices.md#plan)以检查流量、选择要测试的元素并准备内容。
 
 按照以下步骤创建&#x200B;**[!UICONTROL 多变量测试]** (MVT)：
 
@@ -70,7 +72,7 @@ ht-degree: 16%
 
 将选件添加到每个位置，预览生成的体验，并检查测试计划是否可行。
 
-1. [在每个位置中创建产品建议](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
+1. [在每个位置中创建产品建议](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#create-combinations)。
 
    您可以添加以下类型的选件：
 
@@ -82,7 +84,7 @@ ht-degree: 16%
 
 1. 单击&#x200B;**[!UICONTROL 显示体验]**&#x200B;图标（![显示体验图标](/help/main/assets/icons/WebPages.svg)）以显示左侧框架中的所有体验列表，然后单击列表中的特定体验以查看该体验。
 
-1. [使用流量估算器](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)来检验测试计划的可行性。
+1. [使用流量估算器](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#use-traffic-estimator)来检验测试计划的可行性。
 
 ### 排除体验（可选） {#exclude-experiences}
 
@@ -124,7 +126,7 @@ ht-degree: 16%
 
    +++
 
-1. [查看测试摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)并进行任何所需的更改，然后单击&#x200B;**[!UICONTROL 下一步]**。
+1. [查看测试摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#mvt-test-summary)并进行任何所需的更改，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
 ## 配置目标和设置 {#configure-goals-and-settings}
 

@@ -33,12 +33,12 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 76%
+source-wordcount: '1129'
+ht-degree: 75%
 ---
-# [!DNL Adobe Analytics] 作为 [!DNL Adobe Target] 的报表源 (A4T)
+# A4T入门
 
 [!DNL Adobe Analytics for Target] (A4T) 是一种跨解决方案的集成，通过它，可根据 [!DNL Analytics] 转化指标和受众区段创建活动。 A4T 集成让您可以使用 [!DNL Analytics] 报表检查结果。 如果将 [!DNL Analytics] 用作活动的报表源，则该活动的所有报表和区段都基于 [!DNL Analytics] 数据收集。
 

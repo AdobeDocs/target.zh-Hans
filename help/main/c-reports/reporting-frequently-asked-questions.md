@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1392'
 ht-degree: 23%
 ---
 # 报表常见问题解答
@@ -136,7 +136,7 @@ XT 活动应始终包含一个控制体验。 如果您使用XT活动的方式�
 
 >[!NOTE]
 >
->有关如何更新[!UICONTROL Automated Personalization] (AP)活动并将控制体验更改为接收流量的体验的详细信息，请参阅[选择Automated Personalization或自动定位活动的控制](/help/main/c-activities/t-automated-personalization/experience-as-control.md)。
+>有关如何更新[!UICONTROL Automated Personalization] (AP)活动并将控制体验更改为接收流量的体验的详细信息，请参阅[选择控制体验](/help/main/c-activities/t-automated-personalization/experience-as-control.md)。
 
 
 ## 为什么我的A/B或MVT活动中在各个体验之间的流量分摊不均匀？ {#uneven}

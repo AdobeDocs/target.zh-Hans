@@ -30,12 +30,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 28%
+source-wordcount: '1027'
+ht-degree: 27%
 ---
-# [!UICONTROL Personalization Insights]报表
+# 开始使用[!UICONTROL Personalization Insights]报表
 
 [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位] (AT)活动的用户可以使用两个专用报表： [!UICONTROL 自动化区段]和[!UICONTROL 重要属性]报表。
 

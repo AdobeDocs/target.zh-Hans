@@ -29,54 +29,70 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 31%
+source-wordcount: '801'
+ht-degree: 3%
 ---
-# 选择[!UICONTROL Automated Personalization]或[!UICONTROL 自动定位]活动的控制
+# 选择控制体验 {#experience-as-control}
 
-在创建[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)或[[!UICONTROL 自动定位]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)活动时，您可以选择随机提供的体验或特定体验作为控制。
+>[!BEGINSHADEBOX]
 
-通过此功能，您可以根据活动中配置的流量分配百分比，将控制流量路由到特定体验。 然后，您可以根据该控制的控制流量评估个性化流量的性能报表。
+**在此页面上：**&#x200B;了解如何选择&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;或&#x200B;**[!UICONTROL 自动定位]**&#x200B;活动的控制，以及使用特定体验作为控制时要考虑的事项。
 
-在[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动中设置控件的选项与其他活动类型略有不同。 在手动[!UICONTROL A/B测试]中，您可以更改显示为控制的报表，并根据该控制体验的转化率计算提升度。 您可以轻松地进行此更改，因为无论最初设置的控制是什么，系统都会随机将流量提供给您在活动中包含的每个体验。 换言之，选择控制不会影响流量的提供方式。 在[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动中，您选择哪种方式作为控制确实会影响访客流量的提供方式。 因此，您必须更仔细地考虑您的决定。
+>[!ENDSHADEBOX]
 
-在[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动中，有两个选项可供您的控件使用：
+在创建[**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) (AP)或[**[!UICONTROL 自动定位]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)活动时，您可以选择随机提供的体验或特定体验作为控制。 控制流量会根据活动中配置的流量分配百分比路由到相关体验，以便您可以根据控制流量评估个性化流量的性能报表。
 
-* **随机提供的体验**：对于随机控制，流量的控制百分比会随机提供给活动中的所有体验，而不考虑该访客的配置文件。 您可以考虑使用控制来帮助回答以下问题：“如果我只是随机向访客提供体验（或选件）而不考虑他们的配置文件，那么该体验（或选件）的转化率是多少？” 该控件与AI活动中的[!UICONTROL A/B测试]类似。 在分析活动结果时，了解每个体验或产品建议的非个性化转化率信息可能会有所帮助。
+在手动&#x200B;**[!UICONTROL A/B测试]**&#x200B;中，您可以更改显示为控制的报表，并根据该体验计算提升度，因为无论控制是什么，都会随机向所有体验提供流量。 在&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;和&#x200B;**[!UICONTROL 自动定位]**&#x200B;活动中，控制确实会影响访客流量的提供方式，因此请仔细选择它。
 
-* **特定体验**：通过特定体验控制，可将[!DNL Target]个性化模型所提供的流量与特定营销人员定义的体验（例如，您的默认主页）进行比较。 使用此选项，流量的控制百分比仅会随机为该一个体验提供流量。
+控件有两个可用选项：
 
-## 指定特定体验作为控制
+* **随机提供的体验：**&#x200B;流量的控制百分比随机提供给活动中的所有体验，而不考虑访客的配置文件。 它在您的活动中像&#x200B;**[!UICONTROL A/B测试]**&#x200B;一样工作，它显示每个体验或选件的非个性化转化率，这有助于您分析结果。
 
-1. 创建或编辑[[!UICONTROL Automated Personalization]活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)或[[!UICONTROL 自动定位]活动](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)时，根据需要配置体验。
-1. 在[!UICONTROL 定位]页面（三步引导式工作流的步骤2）中，单击控制体验以在右侧窗格中显示[!UICONTROL 控制]选项。
+* **特定体验：**&#x200B;流量的控制百分比仅随机为该一个体验提供服务。 此选项允许您将[!DNL Target]个性化模型提供的流量与您定义的特定体验（例如，您的默认主页）进行比较。
+
+## 注意事项 {#considerations}
+
+在使用特定体验作为控制时，请记住以下几点：
+
+* 不建议更改已处于实时状态的活动中的控制体验。 所选的最新控制体验会在报表中进行命名，即使较旧的报表基于其他体验也是如此。
+
+* 不建议删除控制体验。
+
+* 不建议向使用特定体验作为控制的实时活动中添加许多新选件或体验。
+
+* 在&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动中，不建议包含对控制体验的定位，这可能会进一步限制能够查看该体验的用户。
+
+* 在&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动中，如果选择了特定体验，则提升度和置信度信息在选件级别报表中&#x200B;*不*&#x200B;可用。 这是因为将特定体验的转化率与选件的转化率进行比较由于单位不同，不合逻辑。 提升度和置信度信息可在活动的整体“目标”与“控制”流量级别使用，如果选择“随机”作为控制，则可在所有级别使用。 无论选择哪种类型的控制，**[!UICONTROL 自动定位]**&#x200B;活动中的可用信息都是相同的。
+
+* 当您选择特定体验作为控制时，所有控制流量都会流向一个体验或一组选件。 对于随机控制，控制流量会根据活动中的体验或选件数进行拆分。 因此，对于具有特定体验的控制项，您通常不需要那么多的流量。 分配 10% 的流量即可。
+
+* 如果您对使用特定体验作为控制的实时活动执行以下操作之一，则控制会自动重置为随机提供的体验（而不是之前选择的特定体验）：
+
+  * 删除体验。
+  * 删除位置或选件（仅限&#x200B;**[!UICONTROL Automated Personalization]**）。
+  * 通过删除重复的选件或通过排除组（仅限&#x200B;**[!UICONTROL Automated Personalization]**）手动排除体验。
+
+
+## 指定特定体验作为控制 {#specify-control}
+
+将特定体验指定为控制可为个性化流量提供一个在活动报表中与之进行比较的已知体验，例如您当前的默认体验。
+
+1. 创建或编辑[**[!UICONTROL Automated Personalization &#x200B;]**&#x200B;活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)或[**[!UICONTROL 自动定位]**&#x200B;活动](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity)时，根据需要配置体验。
+
+1. 在&#x200B;**[!UICONTROL 定位]**&#x200B;页面（三步引导式工作流的步骤2）上，单击控制体验以在右侧窗格中显示&#x200B;**[!UICONTROL 控制]**&#x200B;选项。
 
    ![控制面板](/help/main/c-activities/t-automated-personalization/assets/control.png)
 
-1. 从[!UICONTROL 控制]下拉列表中，选择[!UICONTROL 随机体验]或选择要用于控制的所需体验。
+1. 从&#x200B;**[!UICONTROL 控制]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 随机体验]**&#x200B;或选择要用作控制的体验。
 
-1. 单击[!UICONTROL 流量分配]控制，然后为控制体验和其他体验指定所需的流量分配。
+1. 单击&#x200B;**[!UICONTROL 流量分配]**&#x200B;控制，然后为控制体验和其他体验指定流量分配。
 
    ![流量分配边栏](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    对于特定体验控制，建议分配 10% 到 30% 的流量。
 
-1. 继续使用[!UICONTROL 目标和设置]页面。
+1. 继续使用&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面。
 
-## 已知限制和注意事项
-
-在使用特定体验作为控制时，请记住以下几点：
-
-* 不建议更改已处于实时状态的活动中的控制体验。 所选的最新控制体验会在报表中进行命名（即使较旧的报表基于其他体验也是如此）。
-* 不建议删除控制体验。
-* 不建议向使用特定体验作为控制的实时活动中添加许多新选件或体验。
-* 在[!UICONTROL Automated Personalization]活动中，不建议包含对控制体验的定位，这可能会进一步限制能够查看该体验的用户。
-* 在[!UICONTROL Automated Personalization]活动中，如果选择了特定体验，则提升度和置信度信息在选件级别报表中为&#x200B;*NOT*。 提升度和置信度信息适用于[!UICONTROL Automated Personalization]活动的整体“目标”与“控制”流量级别。 如果选择“随机”作为控制，则可以使用提升度和置信度信息。 造成这种差异的原因在于，由于单位不同，将特定体验的转化率与选件的转化率进行比较不合逻辑。 无论选择哪种类型的控制，[!UICONTROL 自动定位]活动中的可用信息都是相同的。
-* 由于当您选择体验作为控制时，所有控制流量都会流向一个体验或一组产品建议（与将随机体验作为控制相比，在这种情况下，控制流量会根据您的活动中的体验或产品建议数进行拆分），因此您通常无需使大量流量流向控制。 分配 10% 的流量即可。
-* 如果您对使用特定体验作为控制的实时活动执行以下操作之一，则控制会自动重置为随机提供的体验（而不是之前选择的特定体验）：
-
-  * 删除体验
-  * 删除位置或选件（仅限[!UICONTROL Automated Personalization]）
-  * 通过删除重复的选件或通过排除组手动排除体验（仅限[!UICONTROL Automated Personalization]）
+活动上线后，其报表会将个性化流量与您选择的控制体验进行比较。 在更改实时活动之前，请查看[注意事项](#considerations)，因为某些更改会自动将控制重置为随机提供的体验。

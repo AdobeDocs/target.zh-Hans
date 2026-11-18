@@ -36,12 +36,12 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 878df20c7fb08c893239135c20f358b5606d0c6f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2072'
 ht-degree: 12%
 ---
-# [!UICONTROL 自动定位]概述 {#auto-target-overview}
+# 开始使用[!UICONTROL 自动定位] {#auto-target-overview}
 
 >[!BEGINSHADEBOX]
 

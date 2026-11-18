@@ -16,58 +16,69 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 21%
+source-wordcount: '952'
+ht-degree: 14%
 ---
-# 编辑活动
+# 编辑活动 {#edit-activity}
 
-了解如何在[!DNL Adobe Target]中编辑现有活动。 本文介绍[!DNL Target]界面中用于修改活动的各种方法。 无论您是更新体验、调整定位规则还是配置目标，[!DNL Target]都可以确保在激活之前安全地保存您的更改。
+>[!BEGINSHADEBOX]
 
-[!DNL Target]在UI中提供了多个可编辑现有活动的位置。 此过程因您选择的方法而异。
+**在此页面上：**&#x200B;了解如何从&#x200B;**[!UICONTROL 活动]**&#x200B;页面编辑现有活动、如何在使用工作区时复制活动以及哪些操作适用于旧版活动。
 
-## 在“活动”页面上通过使用悬停[!UICONTROL 更多操作]图标来编辑活动 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+>[!ENDSHADEBOX]
 
-1. 在&#x200B;**[!UICONTROL 活动]**&#x200B;页面中，单击要编辑的活动旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)），然后单击&#x200B;[!UICONTROL **编辑**]。
+现有活动可以从[!DNL Adobe Target]界面中的多个位置进行编辑，因此对体验、定位规则或目标的更改不需要重新创建活动。 步骤因所选方法而异。 **[!UICONTROL 另存为草稿]**&#x200B;功能不再可用。 有关详细信息，请参阅[将筛选器应用到活动列表](/help/main/c-activities/activities.md#filters)下的&#x200B;**[!UICONTROL 状态]**。
 
-   [!DNL Target]在[!UICONTROL 可视化体验编辑器] (VEC)中打开该活动，您会看到[!UICONTROL 体验]页面（三步引导式工作流的步骤1）。
+## 从[!UICONTROL 更多操作]图标进行编辑 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. 根据需要使用 [VEC 选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)编辑活动。
+要通过逐步执行三步引导式工作流来编辑活动，请执行以下操作：
+
+1. 在&#x200B;**[!UICONTROL 活动]**&#x200B;页面中，单击活动旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)），然后单击&#x200B;**[!UICONTROL 编辑]**。
+
+   [!DNL Target]在&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)中打开活动并显示&#x200B;**[!UICONTROL 体验]**&#x200B;页面，这是工作流的第一步。
+
+   ![更多操作图标](assets/edit-activity-1.png)
+
+1. 使用[VEC选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)编辑活动。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;进入下一步，然后进行任何必要的编辑。
 
-1. 当您进入&#x200B;**目标和设置**&#x200B;页面时，您具有以下选项：
+1. 在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上，使用以下选项之一保存更改：
 
-   * **[!UICONTROL 保存并关闭]：**&#x200B;单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;可保存您的更改并显示活动的[!UICONTROL 概述]页面。
-   * **保存：**&#x200B;单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallListVert.svg)），然后选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存您的更改并保留在VEC中，以便您可以继续做出更改。 等待保存完成后，可进行其他更改。 保存完成后，VEC 会重新加载以显示刷新的更改。
+   * **[!UICONTROL 保存并关闭]：**&#x200B;保存更改并显示活动的&#x200B;**[!UICONTROL 概述]**&#x200B;页面。
+   * **[!UICONTROL 保存]：**&#x200B;单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallListVert.svg)），然后选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改并保留在VEC中，以便您可以继续做出更改。 等待保存完成后，可进行其他更改。 保存完成后，VEC 会重新加载以显示刷新的更改。
 
-## 通过从[!UICONTROL 活动]页面中单击活动名称来编辑活动 {#section_176180DAD17E40CEA441903F39E0AA1C}
+     ![更多操作图标](assets/edit-activity-2.png)
 
-1. 要避免逐步完成此工作流，请单击[!UICONTROL 活动]页面中的所需活动以将其打开，从&#x200B;**[!UICONTROL 编辑活动]**&#x200B;下拉列表中选择一个选项，然后选择所需选项。
+## 从活动名称中编辑 {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-   * **编辑体验：**&#x200B;使您直接转到[!UICONTROL 体验]页面（三步引导式工作流的步骤1）。
-   * **编辑定位**：使您直接转到[!UICONTROL 定位]页面（三步引导式工作流中的第二步）。
-   * **[!UICONTROL 目标和设置]**：使您直接转到[!UICONTROL 目标和设置]页面（三步引导式工作流的第三步）。
+直接转到需要更改的步骤，无需逐步执行工作流：
 
-1. 进行所需的更改，然后保存活动。
+1. 在&#x200B;**[!UICONTROL 活动]**&#x200B;页面中，单击该活动以将其打开，然后从&#x200B;**[!UICONTROL 编辑活动]**&#x200B;下拉列表中选择一个选项：
 
-   * **[!UICONTROL 保存并关闭]：**&#x200B;单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;可保存您的更改并显示活动的[!UICONTROL 概述]页面。
-   * **保存：**&#x200B;单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallListVert.svg)），然后选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存您的更改并保留在VEC中，以便您可以继续做出更改。 等待保存完成后，可进行其他更改。 保存完成后，VEC 会重新加载以显示刷新的更改。
+   * **[!UICONTROL 编辑体验]：**&#x200B;打开&#x200B;**[!UICONTROL 体验]**&#x200B;页面（工作流的第一步）。
+   * **[!UICONTROL 编辑定位]：**&#x200B;打开&#x200B;**[!UICONTROL 定位]**&#x200B;页面（工作流的第二步）。
+   * **[!UICONTROL 目标和设置]：**&#x200B;打开&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面（工作流的第三步）。
 
-## 使用工作区时复制/编辑活动 {#section_45A92E1DD3934523B07E71EF90C4F8B6}
+     ![编辑活动菜单](assets/edit-activity-3.png)
+
+1. 进行更改，然后使用&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;或&#x200B;**[!UICONTROL 保存]**&#x200B;保存活动，如上一节所述。
+
+## 使用工作区进行复制和编辑 {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
 工作区允许组织为一组特定用户分配一组特定属性。 工作区在许多方面与 [!DNL Adobe Analytics] 中的报表包相似。
 
 >[!NOTE]
 >
->工作区是[!UICONTROL 属性和权限]功能的一部分，该功能作为[!DNL Target Premium]解决方案的一部分提供。 如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
+>工作区是&#x200B;**[!UICONTROL 属性和权限]**&#x200B;功能的一部分，该功能作为[!DNL Target Premium]解决方案的一部分提供。 如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
 
 如果您所在的组织是跨国组织，则您可能拥有两个工作区：一个用于欧洲网页、属性或网站，而另一个用于美国网页、属性或网站。 如果您所在的组织拥有多个品牌，则您的每个品牌可能有其独立的工作区。
 
 有关工作区和企业用户权限功能的详细信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
 
-如果您在环境中启用了[!UICONTROL 企业用户权限]，则可以将活动复制到同一工作区或另一个工作区。 当前，无法将活动从一个工作区移到另一个工作区。 要将活动复制到另一个工作区，请从[!UICONTROL 活动]页面中，单击要复制的活动旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)），然后单击&#x200B;[!UICONTROL **复制**]。
+如果您在环境中启用了&#x200B;**[!UICONTROL 企业用户权限]**，则可以将活动复制到同一工作区或另一个工作区。 当前，无法将活动从一个工作区移到另一个工作区。 要将活动复制到另一个工作区，请从&#x200B;**[!UICONTROL 活动]**&#x200B;页面中，单击要复制的活动旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)），然后单击&#x200B;**[!UICONTROL 复制]**。
 
 在工作区中使用复制/编辑功能时，请考虑以下信息：
 
@@ -75,21 +86,19 @@ ht-degree: 21%
 * 将活动从非默认工作区复制到另一个工作区（默认或非默认）时，将打开活动向导，并且需要一些手动输入才能完成设置：
   * **[!UICONTROL 属性]**：工作区之间的属性可能不同。 此情况可能会触发警告：
 
-    * 在[!UICONTROL 基于表单的体验编辑器]中，警告将直接显示在用户界面中以便立即可见。
+    * 在&#x200B;**[!UICONTROL 基于表单的体验编辑器]**&#x200B;中，警告将直接显示在用户界面中以便立即可见。
 
       ![基于表单的工作区警告](/help/main/c-activities/assets/form-based-warning.png)
 
-    * 在VEC中，单击[!UICONTROL 配置] > [!UICONTROL 属性]时会显示警告。
+    * 在VEC中，单击&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 属性]**&#x200B;时会显示警告。
 
-      ![vec警告](/help/main/c-activities/assets/vec-warning.png)
-
-      要解决此问题，请单击[!UICONTROL 添加/删除]，以便只显示目标工作区中可用的属性以供选择。
+      要解决此问题，请单击&#x200B;**[!UICONTROL 添加/删除]**，以便只显示目标工作区中可用的属性以供选择。
 
   * **受众和选件**：将活动复制到新工作区时，所有关联的[!DNL Target]或原始工作区中的临时受众和选件将以下列格式复制： [!DNL Target]受众和`<Entity Name>`的临时受众和选件`<Entity Name> Copy <Date>`。
 
     行为详细信息：
 
-    * 在保存并重新打开活动之前，复制的受众和选件不会显示在[!UICONTROL 受众]和[!UICONTROL 选件]列表中。
+    * 在保存并重新打开活动之前，复制的受众和选件不会显示在&#x200B;**[!UICONTROL 受众]**&#x200B;和&#x200B;**[!UICONTROL 选件]**&#x200B;列表中。
     * 复制后无法立即编辑这些实体。 在初始编辑会话期间，客户可能会在VEC中看到这些项目的空内容。
     * 如果需要，客户可以使用目标工作区中的其他受众或选件替换复制的受众或选件。
 
@@ -103,20 +112,16 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->如果您的环境未启用[!UICONTROL 企业用户权限]功能，则在复制之前，所有活动都会以编辑模式打开。
+>如果您的环境未启用&#x200B;**[!UICONTROL 企业用户权限]**&#x200B;功能，则在复制之前，所有活动都会以编辑模式打开。
 
-## 以草稿形式保存活动 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## 旧版[!DNL Recommendations Classic]活动 {#classic}
 
-[!UICONTROL 另存为草稿]功能不再可用。 有关详细信息，请参阅[将筛选器应用到活动列表](/help/main/c-activities/activities.md#filters)下的&#x200B;*[!UICONTROL 状态]*。
+**[!UICONTROL 活动]**&#x200B;列表显示在各种源（包括[!DNL Recommendations Classic]）中创建的活动。 以下操作适用于在[!DNL Recommendations Classic]中创建的旧版活动：
 
-## 使用在[!DNL Recommendations Classic]中创建的旧版活动 {#classic}
+* **[!UICONTROL 激活]**
+* **[!UICONTROL 停用]**
+* **[!UICONTROL 存档]**
+* **[!UICONTROL 复制]**
+* **[!UICONTROL 删除]**
 
-[!UICONTROL 活动]列表显示在各种源（包括[!DNL Recommendations Classic]）中创建的活动。 使用在 [!DNL Recommendations Classic] 中创建的旧版活动时，可以执行以下操作：
-
-* [!UICONTROL 激活]
-* [!UICONTROL 停用]
-* [!UICONTROL 存档]
-* [!UICONTROL 复制]
-* [!UICONTROL 删除]
-
-不能直接编辑 [!DNL Recommendations] 活动。 如果想要编辑活动，则应使用 [!DNL Target Premium] 创建活动副本，并保存新创建的活动。 然后，可以根据需要编辑新创建的活动。
+无法直接编辑[!DNL Recommendations]活动。 要编辑该活动，请使用[!DNL Target Premium]创建活动副本并保存新活动，然后根据需要对其进行编辑。

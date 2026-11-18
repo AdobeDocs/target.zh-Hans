@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何在网站、应用程序和社交渠道中个性化客户体验，从而提升营收。
 feature-set: Target
-source-git-commit: 13fd7f8c92c5d8202d0e81518300fcc7e1fd1444
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 71%
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 71%
     + {hide-from-toc}[集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Adobe Journey Optimizer用例 {#use-cases}
       + {hide-from-toc}[Adobe Journey Optimizer中的热门优化用例 — 基于Web和代码的渠道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-      + {hide-from-toc}[在Adobe Journey Optimizer中通过A/B测试进行的内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+      + 在Adobe Journey Optimizer中通过A/B测试进行的{hide-from-toc}[内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
       + {hide-from-toc}[在网页中添加或隐藏组件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
   + 将Target与Adobe Experience Manager (AEM)集成 {#aem}
@@ -124,6 +124,8 @@ ht-degree: 71%
   + [分析功能板](c-activities/insights-dashboard.md)
   + [样本量计算器](c-activities/sample-size-calculator.md)
   + [Target 活动类型](c-activities/target-activities-guide.md)
+  + [编辑活动](c-activities/edit-activity.md)
+  + [优先级](c-activities/priority.md)
   + A/B 测试 {#abtest}
     + [A/B测试入门](c-activities/t-test-ab/test-ab.md)
     + [A/B 测试应该持续多长时间？](c-activities/t-test-ab/sample-size-determination.md)
@@ -176,10 +178,6 @@ ht-degree: 71%
       + [预览多变量测试体验](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [估算成功测试所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [测试摘要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-  + [“推荐”活动](c-activities/recommendations-activity.md)
-  + [编辑活动](c-activities/edit-activity.md)
-  + [优先级](c-activities/priority.md)
-  + [活动设置](c-activities/activity-settings.md)
   + 成功量度 {#success-metrics}
     + [成功量度](c-activities/r-success-metrics/success-metrics.md)
     + [点击跟踪](c-activities/r-success-metrics/click-tracking.md)

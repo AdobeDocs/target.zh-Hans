@@ -79,7 +79,7 @@ ht-degree: 3%
 
 将特定体验指定为控制可为个性化流量提供一个在活动报表中与之进行比较的已知体验，例如您当前的默认体验。
 
-1. 创建或编辑[**[!UICONTROL Automated Personalization ]**活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)或[**[!UICONTROL 自动定位]**&#x200B;活动](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity)时，根据需要配置体验。
+1. 创建或编辑[**[!UICONTROL Automated Personalization &#x200B;]**&#x200B;活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)或[**[!UICONTROL 自动定位]**&#x200B;活动](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity)时，根据需要配置体验。
 
 1. 在&#x200B;**[!UICONTROL 定位]**&#x200B;页面（三步引导式工作流的步骤2）上，单击控制体验以在右侧窗格中显示&#x200B;**[!UICONTROL 控制]**&#x200B;选项。
 

@@ -48,7 +48,7 @@ ht-degree: 57%
 >
 >您可以通过单击[!DNL Target] UI顶部的[!UICONTROL 管理]链接来判断贵组织是拥有[!UICONTROL Standard]许可证还是拥有[!UICONTROL Premium]许可证。
 >
->* **[!DNL Target][!UICONTROL Standard]客户**：如果您看到[!UICONTROL 用户]选项卡（[!UICONTROL 管理>用户]）（而不是&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡），则贵组织具有[!DNL Target] [!UICONTROL Standard]许可证。[!DNL Target] [!UICONTROL Standard]客户应按照本文中的相关说明进行操作，以在[!DNL Adobe Admin Console]中添加用户和分配权限。
+>* **[!DNL Target]&#x200B;[!UICONTROL Standard]客户**：如果您看到[!UICONTROL 用户]选项卡（[!UICONTROL 管理>用户]）（而不是&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡），则贵组织具有[!DNL Target] [!UICONTROL Standard]许可证。[!DNL Target] [!UICONTROL Standard]客户应按照本文中的相关说明进行操作，以在[!DNL Adobe Admin Console]中添加用户和分配权限。
 >
 >* **[!DNL Target]Premium客户**：如果您看到[!UICONTROL 用户]选项卡和[!UICONTROL 属性]选项卡（[!UICONTROL 管理>属性]），则贵组织具有[!DNL Target] Premium许可证。[!DNL Target] Premium客户应按照[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)和[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)中的说明进行操作，以在[!DNL Adobe Admin Console]中添加用户和分配权限。
 >

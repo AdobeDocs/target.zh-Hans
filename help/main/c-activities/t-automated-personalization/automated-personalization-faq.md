@@ -50,7 +50,7 @@ ht-degree: 6%
 +++ 设置[!UICONTROL Automated Personalization]活动的最佳实践是什么？
 
 * 请密切关注&#x200B;*活动形状*（位置数量×选件数量），而不仅仅是体验总数。 位置和选件的笛卡尔组合对创作时间性能的影响大于原始体验数。 为获得最佳性能和可管理性，请将&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;和&#x200B;**[!UICONTROL 自动定位]**&#x200B;活动限制为4-6个位置，每个位置提供4-6个选件，如“Automated Personalization有哪些限制？”问题中所述。 在此部分中。 不建议使用较大的配置，这可能会导致在&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;中加载或编辑缓慢。
-* 若要个性化较低流量的页面，或对要个性化的体验进行结构性更改，请考虑使用[**[!UICONTROL 自动定位&#x200B;]**活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md)，而不是**[!UICONTROL  Automated Personalization ]**。
+* 若要个性化较低流量的页面，或对要个性化的体验进行结构性更改，请考虑使用[**[!UICONTROL 自动定位&#x200B;]**&#x200B;活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md)，而不是&#x200B;**[!UICONTROL &#x200B; Automated Personalization &#x200B;]**。
 * 请考虑在您计划于&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动中使用的选件和位置之间运行&#x200B;**[!UICONTROL A/B测试]**&#x200B;活动，以确认位置和选件对优化目标有影响。 如果&#x200B;**[!UICONTROL A/B测试]**&#x200B;活动未能显示显着差异，则&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;可能也无法生成提升。
 
   如果A/B...N测试显示体验之间没有统计学上的显着差异，则可能是以下一种或多种情况造成的：

@@ -134,7 +134,7 @@ mboxTrace和mboxDebug可将营销活动数据和配置文件数据公开给外�
 
 Adobe Experience Cloud Debugger可帮助您了解[!DNL Target]实施。 您可以查看库配置、验证自定义参数是否正确传递、打开控制台日志记录并禁用所有[!DNL Target]请求。 在Experience Cloud中进行身份验证后，您可以使用mboxTrace检查您的活动、受众资格以及访客资料。
 
-有关详细信息，请参阅本页末尾的[培训视频](#training-videos)和使用Adobe Experience Cloud调试器](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}调试at.js[。
+有关详细信息，请参阅本页末尾的[培训视频](#training-videos)和使用Adobe Experience Cloud调试器[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}调试at.js。
 
 ## 常见问题 {#common-problems}
 
@@ -233,7 +233,7 @@ Adobe Experience Cloud Debugger可帮助您了解[!DNL Target]实施。 您可�
 
   +++ 查看模板规则设置
 
-  在此方案中，URL是`https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则指定具有&#x200B;**[!UICONTROL type]** > **[!UICONTROL 的**[!UICONTROL &#x200B;查询&#x200B;]**是（区分大小写）]** > type=Summers%20Offers，以OR分隔符分隔：
+  在此方案中，URL是`https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则指定具有&#x200B;**[!UICONTROL type]** > **[!UICONTROL 的**&#x200B;[!UICONTROL &#x200B;查询&#x200B;]&#x200B;**是（区分大小写）]** > type=Summers%20Offers，以OR分隔符分隔：
 
   ![模板规则利用 URL 的特定部分](assets/option3.png)
 

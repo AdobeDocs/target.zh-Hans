@@ -14,22 +14,26 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0a683f6e68bb7481b9e45c91a275a46b84a1ffd8
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 12%
+source-wordcount: '356'
+ht-degree: 6%
 ---
-# 活动 QA 书签
+# 活动 QA 书签 {#activity-qa-bookmarklet}
 
-此信息可帮助您使用[!DNL Target] QA书签强制[!DNL Target]将您从QA模式中释放出来。
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用[!DNL Target] QA小书签退出&#x200B;**[!UICONTROL 活动QA]**&#x200B;模式并像普通访客一样查看您的网站。
+
+>[!ENDSHADEBOX]
+
+以[QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md)浏览网站后，QA模式会在各个页面中持续存在，直到[!DNL Target]会话过期为止。 小书签是运行JavaScript的浏览器书签。 [!DNL Target] QA书签强制[!DNL Target]将您从QA模式中释放，因此您不必等待会话过期。 使用与网站上部署的at.js版本匹配的版本。
 
 >[!NOTE]
 >
->创建书签的过程因浏览器类型和版本而异。 请参阅浏览器的帮助或在 Internet 上搜索具体说明。
+>创建书签的过程因浏览器类型和版本而异。 请参阅浏览器的帮助或在Internet上搜索特定说明。
 
 ## at.js 1.*x*&#x200B;的活动QA书签
-
-由于[QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md)具有粘滞性，因此以QA模式浏览网站后，[!DNL Target]会话必须过期，或者需要让[!DNL Target]将您从QA模式中释放出来，然后才能像普通访客一样查看您的网站。 使用QA [!DNL Target]书签强制自己退出QA模式。
 
 要使用[!DNL Target] QA书签，请创建包含以下JavaScript代码的书签，并将其添加到浏览器的书签工具栏：
 
@@ -50,15 +54,13 @@ javascript:(
 )();
 ```
 
-您也可以手动强制自己退出QA模式，方法是在网站上使用具有空值的`at_preview_token`参数加载页面。
-
-例如：
+您也可以手动强制自己退出QA模式，方法是在将`at_preview_token`参数设置为空值的网站上加载页面。 例如：
 
 `https://www.mysite.com/?at_preview_token=`
 
 ## at.js 2.*x*&#x200B;的活动QA书签
 
-与at.js 1.*x*&#x200B;相比，at.js 2.*x*&#x200B;不支持第三方Cookie，并且QA模式仅对第一方域具有粘性（通过at.js设置的第一方Cookie）。 因此，在at.js 2.*x*&#x200B;中，QA模式会话仅在客户端进行管理，并且不会向Target发送任何QA模式Cookie。
+与at.js 1.*x*&#x200B;相比，at.js 2.*x*&#x200B;不支持第三方Cookie。 QA模式仅通过at.js设置的第一方Cookie在第一方域中持续存在。 因此，QA模式会话仅在客户端进行管理，并且不会向[!DNL Target]发送任何QA模式Cookie。
 
 要使用[!DNL Target] QA书签，请创建包含以下JavaScript代码的书签，并将其添加到浏览器的书签工具栏：
 
@@ -80,4 +82,8 @@ javascript:(
 
 ## 使用活动QA书签
 
-单击浏览器工具栏上的小书签。
+将与at.js版本匹配的书签添加到浏览器后，无论何时要退出QA模式，均可使用它：
+
+1. 在QA模式下打开网站的任何页面。
+1. 单击浏览器书签工具栏中的小书签。
+1. 加载网站的页面。 [!DNL Target]将会话从QA模式中释放，网站将像普通访客一样显示。

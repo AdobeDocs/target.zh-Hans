@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 13%
@@ -82,7 +82,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->* Target QA模式为“粘性”模式，保存在Cookie中。 如果不退出QA模式，您将在整个站点中持续看到QA结果。 要退出QA模式，请使用[小书签](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)。
+>* [!DNL Target] QA模式保存在Cookie中，并跨页面持续存在。 如果不退出QA模式，您会在整个站点中持续看到QA结果。 要退出QA模式，请使用[小书签](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)。
 >
 >* 在QA模式下，浏览网站不会影响个人资料的[!UICONTROL 最近查看的项目]或[!UICONTROL 最近购买的项目]。 这种行为在设计上旨在避免生产行为数据受到无意的污染。 要预览来自[!UICONTROL 最近查看的项目]或[!UICONTROL 基于用户的推荐]标准的结果，请首先在QA模式之外浏览网站，然后使用同一会话打开QA模式链接。
 

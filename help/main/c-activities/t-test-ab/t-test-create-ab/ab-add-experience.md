@@ -17,7 +17,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 9f1aaf5c0b172b4bbe89266800708881306e4592
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 25%
@@ -30,7 +30,7 @@ ht-degree: 25%
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Target] **[!UICONTROL 可视化体验编辑器]** (VEC)提供了一个可视化界面，用于添加和编辑您页面上的体验。 有关体验的更多详细信息，请参阅[体验](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
+[!DNL Adobe Target] **[!UICONTROL 可视化体验编辑器]** (VEC)提供了一个可视化界面，用于添加和编辑您页面上的体验。 有关体验的更多详细信息，请参阅[体验](/help/main/c-experiences/experiences.md)。
 
 ## 添加和设计体验 {#add-experience}
 

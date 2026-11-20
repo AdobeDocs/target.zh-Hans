@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: abab6b3e464bb9f294e9c3c455dca1f57bb0d458
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 24%
+source-wordcount: '1732'
+ht-degree: 18%
 ---
 # 目标和设置 {#ab-goals-and-settings}
 
@@ -103,7 +103,7 @@ ht-degree: 24%
 
   要指定报表源，请先从您的帐户绑定的[!DNL Analytics]家公司中选择任意，然后为活动选择合适的报表包。 只有配置为连接到[!DNL Adobe Target]的报表包才可供选择。 如果您没有看到预期的报表包，请先尝试注销并重新登录到[!DNL Adobe Experience Cloud]以重试。 如果列表中仍缺少报表包，请联系客户关怀团队。
 
-  [!DNL Analytics for Target] (A4T)需要跟踪服务器才能正确报告结果。 默认跟踪服务器显示在&#x200B;**[!UICONTROL 跟踪服务器]**&#x200B;字段中。 如果使用多个跟踪服务器，请确保在此字段中包含正确的跟踪服务器。 有关详细信息，请参阅[使用Analytics跟踪服务器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
+  [!DNL Analytics for Target] (A4T)需要跟踪服务器才能正确报告结果。 默认跟踪服务器显示在&#x200B;**[!UICONTROL 跟踪服务器]**&#x200B;字段中。 如果使用多个跟踪服务器，请确保在此字段中包含正确的跟踪服务器。 有关详细信息，请参阅[使用Analytics跟踪服务器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md)。
   +++
 
 * [!DNL Adobe Customer Journey Analytics]
@@ -152,7 +152,7 @@ ht-degree: 24%
 
 ## 高级设置 {#section_E2FE441AFB324E498793ABB025ED9974}
 
-通过&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面的&#x200B;**[!UICONTROL 高级设置]**&#x200B;部分，可配置高级选项。
+通过&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面的&#x200B;**[!UICONTROL 高级设置]**&#x200B;部分，可优化每个成功量度的计数方式：它是否依赖于另一个量度、达到目标后访客会发生什么情况，以及计数如何递增。
 
 要指定高级设置，请单击&#x200B;**[!UICONTROL 我的主要目标]**&#x200B;部分中的&#x200B;**[!UICONTROL 更多]**&#x200B;图标（![更多图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击&#x200B;**[!UICONTROL 高级设置]**。
 
@@ -162,11 +162,11 @@ ht-degree: 24%
 >
 >如果您将 [!DNL Adobe Analytics] 用作报表源，则设置会由 [!DNL Analytics] 服务器来管理。 高级设置选项不可用。
 
-### 递增此量度之前必须实现哪些成功量度？ {#dependencies}
+### 依赖项 {#dependencies}
 
-使用此选项可仅将之前达到不同成功量度的用户计为已达到成功量度。 例如，活动转化可能只有在转化之前访客点击了选件或访问了某个特定页面时才有效。
+使用此选项时，仅当访客之前达到不同的成功量度时，才会将访客计为达到成功量度。 例如，仅当访客在转化之前先点击了选件或访问了某个特定页面时，活动转化才可能有效。
 
-您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。 在使一个量度依赖于另一个量度之前，定义两个（或多个）成功量度。 通过“**[!UICONTROL 添加依赖项]**”选项，可以指定是否要先实现其他成功量度，然后才能递增该成功量度。
+您可以使某个量度依赖于多个量度，并为每个量度选择是否必须实现某个量度才能递增计数。 在使一个量度依赖于另一个量度之前，定义所有成功量度。 通过&#x200B;**[!UICONTROL 添加依赖项]**&#x200B;选项，可以指定是否要先实现其他成功量度，然后才能递增该成功量度。
 
 要添加依赖项，请执行以下操作：
 
@@ -174,27 +174,27 @@ ht-degree: 24%
 
 1. 单击&#x200B;**[!UICONTROL 添加依赖项]**&#x200B;选项。
 
-1. 拖放所需的量度，然后单击&#x200B;**[!UICONTROL 已实现]**&#x200B;以在&#x200B;**[!UICONTROL 已实现]**&#x200B;和&#x200B;**[!UICONTROL 未实现]**&#x200B;之间切换设置。
+1. 拖放成功量度所依赖的量度，然后单击&#x200B;**[!UICONTROL 已实现]**&#x200B;以在&#x200B;**[!UICONTROL 已实现]**&#x200B;和&#x200B;**[!UICONTROL 未实现]**&#x200B;之间切换设置。
 
-添加依赖项后，您可以编辑或删除依赖项。
+添加依赖项后，您可以编辑或删除依赖项。 对于不支持依赖项的情况，请参阅[添加依赖项](/help/main/c-activities/r-success-metrics/success-metrics.md#add-dependency)。
 
-### 用户遇到此目标量度后会出现什么情况？ {#after-goal}
+### 访客达到目标后 {#after-goal}
 
-实现活动目标后，访客可继续查看活动内容，除非该访客有资格参加更高优先级的活动。 如果访客再次实现目标，则会计为另一次转化。 这不同于[!DNL Target Classic]中的默认行为，如果访客再次看到该活动，则将其计为新访客。
+实现活动目标后，访客可继续查看活动内容，除非该访客有资格参加更高优先级的活动。 如果访客再次实现目标，则会计为另一次转化。 这不同于[!DNL Target Classic]中的默认行为，后者在访客再次看到活动时将访客计为新访客。
 
 对于访客实现此目标量度后会出现的情况，提供了以下三个选项：
 
-* **[!UICONTROL 递增计数并保持用户处于活动中]**&#x200B;以指定递增计数的方式。
-* **[!UICONTROL 递增计数、释放用户并允许再次进入]**，以指定用户再次进入活动时看到的体验。
-* **[!UICONTROL 递增计数、释放用户并阻止再次进入]**，以指定用户看到的内容而非活动内容。
+* **[!UICONTROL 递增计数并保持用户处于活动中]：**&#x200B;指定递增计数的方式，如下一节所述。
+* **[!UICONTROL 递增计数、释放用户并允许再次进入]：**&#x200B;指定访客再次进入活动时看到的体验：相同的体验（默认）、随机体验或未看到的体验。
+* **[!UICONTROL 递增计数、释放用户并阻止再次进入]：**&#x200B;指定访客看到的内容而非活动内容：没有跟踪的相同体验（默认），或者默认内容或其他活动内容。
 
-### 如何对增量进行计数？ {#count-increment}
+### 计数增量 {#count-increment}
 
-递增计数的方式包括以下三种：
+选择&#x200B;**[!UICONTROL 递增计数并保持用户处于活动中]**&#x200B;时，可通过三个选项递增计数：
 
-* 每个参加者&#x200B;**[!UICONTROL 一次]**
+* 每个参加者&#x200B;**[!UICONTROL 一次]** （默认）
 * 每次展示时&#x200B;**[!UICONTROL （不包括页面刷新）]**
-* 每次展示时&#x200B;**&#x200B;**
+* 每次展示时&#x200B;****
 
 请参阅[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#overview)，以了解有关高级设置的更多信息。
 

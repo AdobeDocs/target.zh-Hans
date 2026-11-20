@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -120,5 +120,5 @@ ht-degree: 1%
 
 ![](assets/insights-7.png){align="center"}
 
-**[!UICONTROL 随时间变化的活动]**&#x200B;图形可跟踪在选定时间范围内创建、修改和发布的活动数，从而轻松地在您的试验项目中发现趋势、峰值或安静时段。
+**[!UICONTROL 随时间变化的活动]**&#x200B;图形可跟踪在选定时间范围内创建、修改和发布的活动数，以便您能够识别实验计划中的趋势、峰值或安静时段。
 

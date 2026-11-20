@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -137,7 +137,7 @@ AP是完全自动化的，以最少的人工分析持续学习。 它构建各�
 
 ### 推荐
 
-[“推荐”活动可根据以往用户活动自动显示客户可能感兴趣的产品或内容。](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) [!UICONTROL 推荐]有助于将客户导向到他们可能不知道的相关项目。
+[“推荐”活动可根据以往用户活动自动显示客户可能感兴趣的产品或内容。](/help/main/c-recommendations/recommendations.md) [!UICONTROL 推荐]有助于将客户导向到他们可能不知道的相关项目。
 
 推荐可根据客户在网站上的活动来确定向该客户推广产品的方式。 例如：
 
@@ -200,6 +200,6 @@ AP是完全自动化的，以最少的人工分析持续学习。 它构建各�
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 

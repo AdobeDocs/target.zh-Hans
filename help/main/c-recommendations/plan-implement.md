@@ -2,7 +2,7 @@
 keywords: 推荐;设置;首选项;垂直行业;筛选不兼容的标准;默认主机组;缩览图基本 URL;推荐 API 令牌
 description: 了解如何在Adobe Target中实施推荐活动。
 title: 如何实施推荐活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 TQID: 'https://experienceleague.adobe.com/MyhZmCNB7xHmJ38T7EiQ1YplcxBNi-0f-iz-h6sEXK8'
@@ -20,15 +20,19 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: b31c0a47b82e0b96fa061075f1b8d388b6c0b567
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 21%
+source-wordcount: '134'
+ht-degree: 18%
 ---
-# 计划和实施[!DNL Recommendations]
+# 计划和实施[!DNL Recommendations] {#plan-implement}
 
-在开始使用[!DNL Adobe Target Recommendations]之前，您必须完成多个步骤。
+>[!BEGINSHADEBOX]
 
-[Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans){target=_blank}包含有关如何在您的站点上实施[!DNL Recommendations]以及如何实施[!DNL Target]的信息。
+**在此页面上：**&#x200B;了解在何处查找在您的网站上计划和实施[!DNL Adobe Target Recommendations]的说明。
 
-有关更多信息和分步说明，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;门户中的[计划和实施推荐](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
+>[!ENDSHADEBOX]
+
+在您开始使用[!DNL Adobe Target Recommendations]之前，必须完成您网站上的多个步骤。 [Adobe Target开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans){target=_blank}介绍了如何在您的站点上实施[!DNL Recommendations]，以及如何实施[!DNL Target]。
+
+有关更多信息和分步说明，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;门户中的[计划和实施推荐](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。

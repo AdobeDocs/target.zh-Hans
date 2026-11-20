@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: d27cb7e782e79c68f185f897758c6edb439da2cb
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '915'
 ht-degree: 1%
 ---
 # A/A 测试 {#aa-testing}
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-A/A测试在两个相同的体验之间拆分流量。 由于体验没有区别，因此测试是一种检查活动、实施和报表是否按预期工作的方法。 即使这样，相同的体验有时也会显示提升度差异。 了解原因有助于您正确运行测试并解释测试结果。
+A/A测试会在两个相同的体验之间拆分流量，因此该测试是一种检查活动、实施和报告是否按预期工作的方法。 即使这样，相同的体验有时也会显示提升度差异。 了解原因有助于您正确运行测试并解释测试结果。
 
 ## 什么是A/A测试？ {#what-is-aa}
 

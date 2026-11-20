@@ -4,12 +4,18 @@ description: 了解如何在Adobe Target活动概述中使用Experimentation Acc
 title: 活动概述中的AI见解
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 36%
+source-wordcount: '788'
+ht-degree: 35%
 ---
-# AI分析
+# AI分析 {#ai-insights}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用[!DNL Adobe Target] **[!UICONTROL 活动概述]**&#x200B;的&#x200B;**[!UICONTROL AI分析]**&#x200B;菜单来查看试验学习、比较处理并确定优化机会。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

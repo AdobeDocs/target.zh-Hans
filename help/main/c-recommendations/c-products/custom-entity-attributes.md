@@ -2,7 +2,7 @@
 keywords: 多值实体属性;自定义实体属性;有效 JSON;实体属性值;JSON 数组;多值的;多值
 description: 了解如何使用单值和多值自定义实体属性来定义有关Adobe [!DNL Target]推荐目录中的项目的其他信息。
 title: 如何使用自定义实体属性？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
@@ -19,14 +19,20 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5ed511322cc9f04c349471f8ad84a17526d4925f
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 80%
+source-wordcount: '1347'
+ht-degree: 54%
 ---
-# 自定义实体属性
+# 自定义实体属性 {#custom-entity-attributes}
 
-在[!DNL Adobe Target Recommendations]中使用单值和多值自定义实体属性来定义有关目录中项目的其他信息。
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何定义、发送和使用描述[!DNL Adobe Target Recommendations]目录中的项目的单值和多值自定义实体属性。
+
+>[!ENDSHADEBOX]
+
+在[!DNL Adobe Target Recommendations]中使用单值和多值自定义实体属性来定义有关目录中项目的其他信息。 然后，此信息可用于算法包含规则、目录规则和排除规则，并可在设计中显示。
 
 ## 限制 {#limits}
 
@@ -67,7 +73,7 @@ ht-degree: 80%
 
 **限制**：
 
-* 您无法将预定义实体属性的名称用于自定义实体属性。 （请参阅[实体属性](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)。）
+* 您无法将预定义实体属性的名称用于自定义实体属性。 （请参阅[实体属性](/help/main/c-recommendations/c-products/entity-attributes.md#entity-attributes)。）
 * `entity.environment` 属性由系统保留，该属性不能用于自定义实体属性。 尝试使用 `entity.environment`、信息源或 API 来传递 `targetPageParams` 的操作将会被忽略。
 * 数组必须包含单值类型。 不支持混合值数组 ( `["AB",1,true]` )。
 * 包含嵌套 JSON 数组 ( `[10,12,[1,2,3]]` ) 的多值属性会被视为单值属性。
@@ -78,11 +84,9 @@ ht-degree: 80%
 
 必须对双引号进行转义。 例如，`"[""test"", ""value""]"` 是可在 CSV 中使用的有效 JSON 数组。
 
-您最多可以在多值属性中包含 500 个值。
-
 ### 使用targetPageParams
 
-以下示例显示了如何使用 `targetPageParams`。
+以下示例说明如何使用`targetPageParams`：
 
 ```javascript
 function targetPageParams() { 
@@ -91,10 +95,10 @@ function targetPageParams() {
     'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
     'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
     'entity.event.detailsOnly':     'true', 
-    'excludedIds":                  '[123, 3232, 2323, 4344]', 
-    'orderId":                      '123456', 
-    'orderTotal":                   '195.32', 
-    'productPurchaseId":            '[001,002,003]' 
+    'excludedIds':                  '[123, 3232, 2323, 4344]', 
+    'orderId':                      '123456', 
+    'orderTotal':                   '195.32', 
+    'productPurchaseId':            '[001,002,003]' 
   }; 
 }
 ```
@@ -138,7 +142,7 @@ function targetPageParams() {
   }
 ```
 
-有关使用交付和保存实体API的信息，请参阅[Adobe Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
+有关使用交付和保存实体API的信息，请参阅[Adobe Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 ## 将运算符用于多值属性 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -151,113 +155,35 @@ function targetPageParams() {
 
 对于否定运算符，所有属性值必须都符合运算规则（布尔运算“和”**）。 例如，如果运算符为`notEquals`，则当有任何值匹配时，结果将为&#x200B;*false*。
 
-有关算法包含规则、目录规则和排除规则中的运算符行为，请参阅以下部分。
+下表总结了每个运算符的行为方式，并提供了每个示例规则的情况。
 
-### 等于
-
-如果有任何属性值等于输入值，则结果为 true。
-
-示例: `genre equals abc`
-
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 false，因为没有值等于 `abc`。
-* 用例 2：`entity.genre = ["abc", "de", "ef"]` 结果为 true，因为有一个值等于 `abc`。
-* 用例3：`entity.genre = ["abcde", "de", "ef"]`。 结果为 false，因为 `abc` 不等于列表中的任何元素。
-
-### 不等于
-
-如果没有属性值等于输入值，则结果为 true。
-
-示例: `genre not equals abc`
-
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 true，因为没有值等于 `abc`。
-* 用例 2：`entity.genre = ["abc", "de", "ef"]` 结果为 false，因为有一个值等于 `abc`。
-* 用例3：`entity.genre = ["abcde", "de", "ef"]`。 结果为 true，因为 `abc` 不等于列表中的任何元素。
-
-### 包含
-
-如果有任何属性值包含输入值，则结果为 true。
-
-示例: `genre contains abc`
-
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 false，因为没有值包含 `abc`。
-* 用例 2：`entity.genre = ["abcde", "de", "ef"]` 结果为 true，因为有一个值包含 `abc`。
-
-### 不包含
-
-如果没有属性值包含输入值，则结果为 true。
-
-示例: `genre does not contain abc`
-
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 true，因为没有值包含 `abc`。
-* 用例 2：`entity.genre = ["abcde", "de", "ef"]` 结果为 false，因为有一个值包含 `abc`。
-
-### 开始于
-
-如果有任何属性值以输入值开头，则结果为 true。
-
-示例: `genre starts with abc`
-
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 false，因为没有值开始于 `abc`。
-* 用例 2：`entity.genre = ["abcde", "de", "ef"]` 结果为 true，因为有一个值开始于 `abc`。
-* 用例3：`entity.genre = ["ab", "de", "abc"]`。 结果为 true，因为有一个值开始于 `abc`（不一定是列表中的第一个元素）。
-
-### 结束于
-
-如果有任何属性值以输入值结尾，则结果为 true。
-
-示例: `genre ends with abc`
-
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 false，因为没有值结束于 `abc`。
-* 用例 2：`entity.genre = ["deabc", "de", "ef"]` 结果为 true，因为有一个值结束于 `abc`。
-
-### 大于或等于（仅限数字值）
-
-属性值会被转换为双精度类型。 运行规则时将跳过无法转换的属性。
-
-处理后，任何大于或等于输入值的属性值都将导致结果为true。
-
-示例: `price greater than or equal to 100`
-
-* 用例 1：`entity.price = ["10", "20", "45"]`。 结果为 false，因为没有值大于或等于 100。 跳过了值 `de`，因为无法将其转换为双精度类型。
-* 用例 2：`entity.price = ["100", "101", "90", "80"]` 结果为 true，因为有两个值大于或等于 100。
-
-### 小于或等于（仅限数字值）
-
-属性值会被转换为双精度类型。 运行规则时将跳过无法转换的属性。
-
-处理后，任何小于或等于输入值的属性值都将导致结果为true。
-
-示例: `price less than or equal to 100`
-
-* 用例 1：`entity.price = ["101", "200", "141"]`。 结果为 false，因为没有值小于或等于 100。 跳过了值 `de`，因为无法将其转换为双精度类型。
-* 用例 2：`entity.price = ["100", "101", "90", "80"]` 结果为 true，因为有两个值小于或等于 100。
-
-### 动态匹配（仅在基于项目的算法中可用）
-
-如果有任何属性值与输入值匹配，则结果为 true。
-
-示例: `genre matches abc`
-
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 false，因为没有值与 `abc`。
-* 用例 2：`entity.genre = ["abc", "de", "ef"]` 结果为 true，因为有一个值与 `abc`。
-
-### 动态不匹配（仅在基于项目的算法中可用）
-
-如果有任何属性值与输入值匹配，则结果为 false。
-
-示例: `genre does not match abc`
-
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 true，因为没有值与 `abc`。
-* 用例 2：`entity.genre = ["abc", "de", "ef"]` 结果为 false，因为有一个值与 `abc`。
-
-### 动态范围（仅在基于项目的算法中可用，仅限数字值）
-
-如果有任何数字属性值位于指定的范围内，则结果为true。
-
-示例: `price dynamically ranges in 80% to 120% of 100`
-
-* 用例 1：`entity.price = ["101", "200", "125"]`。 结果为 true，因为 `101` 在 100 的 80% 到 120% 范围内。 跳过了值 `de`，因为无法将其转换为双精度类型。
-* 用例 2：`entity.price = ["130", "191", "60", "75"]` 结果为 false，因为没有值在 100 的 80% 到 120% 范围内。
+| 运算符 | 在以下情况下结果为true | 示例规则 | 属性值 | 结果 | 原因 |
+|---|---|---|---|---|---|
+| 等于 | 任何属性值均等于输入值。 | `genre equals abc` | `["ab", "bc", "de"]` | false | 没有值等于`abc`。 |
+|  |  |  | `["abc", "de", "ef"]` | true | 一个值等于`abc`。 |
+|  |  |  | `["abcde", "de", "ef"]` | false | `abc`不等于列表中的任何元素。 |
+| 不等于 | 没有属性值等于输入值。 | `genre not equals abc` | `["ab", "bc", "de"]` | true | 没有值等于`abc`。 |
+|  |  |  | `["abc", "de", "ef"]` | false | 一个值等于`abc`。 |
+|  |  |  | `["abcde", "de", "ef"]` | true | `abc`不等于列表中的任何元素。 |
+| 包含 | 任何属性值都包含输入值。 | `genre contains abc` | `["ab", "bc", "de"]` | false | 没有值包含`abc`。 |
+|  |  |  | `["abcde", "de", "ef"]` | true | 一个值包含`abc`。 |
+| 不包含 | 没有属性值包含输入值。 | `genre does not contain abc` | `["ab", "bc", "de"]` | true | 没有值包含`abc`。 |
+|  |  |  | `["abcde", "de", "ef"]` | false | 一个值包含`abc`。 |
+| 开始于 | 任何属性值都以输入值开头。 | `genre starts with abc` | `["ab", "bc", "de"]` | false | 没有值以`abc`开头。 |
+|  |  |  | `["abcde", "de", "ef"]` | true | 一个值以`abc`开头。 |
+|  |  |  | `["ab", "de", "abc"]` | true | 一个值以`abc`开头（不一定是列表中的第一个元素）。 |
+| 结束于 | 任何属性值都以输入值结尾。 | `genre ends with abc` | `["ab", "bc", "de"]` | false | 没有值结束于`abc`。 |
+|  |  |  | `["deabc", "de", "ef"]` | true | 一个值以`abc`结尾。 |
+| 大于或等于（仅限数字值） | 任何属性值都大于或等于输入值。 每个值都会转换为double，并且在规则运行时会跳过无法转换的值。 | `price greater than or equal to 100` | `["10", "20", "45", "de"]` | false | 没有值大于或等于100。 跳过了值 `de`，因为无法将其转换为双精度类型。 |
+|  |  |  | `["100", "101", "90", "80"]` | true | 两个值大于或等于100。 |
+| 小于或等于（仅限数字值） | 任何属性值都小于或等于输入值。 每个值都会转换为double，并且在规则运行时会跳过无法转换的值。 | `price less than or equal to 100` | `["101", "200", "141", "de"]` | false | 没有值小于或等于100。 跳过了值 `de`，因为无法将其转换为双精度类型。 |
+|  |  |  | `["100", "101", "90", "80"]` | true | 两个值小于或等于100。 |
+| 动态匹配（仅在基于项目的算法中可用） | 任何属性值都与输入值匹配。 | `genre matches abc` | `["ab", "bc", "de"]` | false | 没有值与`abc`匹配。 |
+|  |  |  | `["abc", "de", "ef"]` | true | 一个值与`abc`匹配。 |
+| 动态不匹配（仅在基于项目的算法中可用） | 没有与输入值匹配的属性值。 如果有任何属性值匹配，则结果为false。 | `genre does not match abc` | `["ab", "bc", "de"]` | true | 没有值与`abc`匹配。 |
+|  |  |  | `["abc", "de", "ef"]` | false | 一个值与`abc`匹配。 |
+| 动态范围（仅在基于项目的算法中可用，仅限数字值） | 任何数字属性值都位于指定的范围内。 | `price dynamically ranges in 80% to 120% of 100` | `["101", "200", "125", "de"]` | true | `101`在100的80%到120%范围内。 跳过了值 `de`，因为无法将其转换为双精度类型。 |
+|  |  |  | `["130", "191", "60", "75"]` | false | 没有值在100的80%到120%范围内。 |
 
 >[!NOTE]
 >
@@ -271,6 +197,6 @@ function targetPageParams() {
 
 当 `entity.genre=["genre1","genre2"]` 在设计中以 `$entity<N>.genre` 方式引用时，结果为 `genre1, genre2`。
 
-## 相关主题：
+## 相关主题
 
-* [实体属性](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [实体属性](/help/main/c-recommendations/c-products/entity-attributes.md#entity-attributes)

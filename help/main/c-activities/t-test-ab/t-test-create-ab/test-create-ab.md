@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 10%
 ---
 # 创建A/B测试活动 {#create-ab-activity}
@@ -134,7 +134,7 @@ ht-degree: 10%
 
    +++
 
-1. 单击&#x200B;**[!UICONTROL 流量分配]**&#x200B;控件，然后在右窗格中选择流量分配方法。 请参阅[流量分配方法](#traffic-allocation-methods)。
+1. 单击&#x200B;**[!UICONTROL 流量分配]**&#x200B;控件，然后在右窗格中选择流量分配方法。 下表列出了可用方法。
 
    ![流量分配方法设置](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -143,7 +143,7 @@ ht-degree: 10%
    | 方法 | 作用 |
    |---|---|
    | **[!UICONTROL 手动（默认）]** | 指定您希望看到各个体验的参加者所占的百分比。 您可以将百分比平分到所有体验，或者也可以为每个体验指定较高或较低的百分比。 所有体验的百分比总和必须等于 100%。 |
-   | **[!UICONTROL 自动分配到最佳体验]** | 大多数活动参加者会被自动定向到具有更高性能的体验。 为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。 有关详细信息，请参阅[**[!UICONTROL 自动分配&#x200B;]**&#x200B;概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)。 |
+   | **[!UICONTROL 自动分配到最佳体验]** | 大多数活动参加者会被自动定向到具有更高性能的体验。 为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。 有关详细信息，请参阅[**[!UICONTROL 自动分配&#x200B;]**概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)。 |
    | **[!UICONTROL 自动定位以提供个性化体验]** | [!DNL Target]使用先进的机器学习技术，确定多个高性能、由营销人员定义的体验，然后根据访客各自的客户配置文件和过去类似访客的行为，为其提供量身定制的体验，从而个性化内容并促进转化。 有关详细信息，请参阅[自动定位概述](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
    +++
@@ -156,7 +156,7 @@ ht-degree: 10%
 
 在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上，您指示[!DNL Target]如何度量该活动。 可用的设置取决于您是使用[!DNL Target]还是[Analytics作为报表源](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。
 
-1. 查看页面的各个部分，并设置您需要的。 查看[您在“目标和设置”页面](#goals-settings-overview)上设置的内容。
+1. 查看页面的各个部分，并设置您需要的。 查看[您在“目标和设置”页面](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)上设置的内容。
 
    | 区域 | 设置内容 |
    |---|---|

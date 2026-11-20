@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 20%
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 在[!DNL Target]中使用AEM [!UICONTROL 内容片段]时，请考虑以下事项：
 
-* 此功能要求您是 [!DNL Adobe Experience Manager as a Cloud Service] 客户。 有关更多信息，请见以下[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
+* 此功能要求您是 [!DNL Adobe Experience Manager as a Cloud Service] 客户。 有关更多信息，请见以下[要求](#requirements)。
 * [!UICONTROL 体验片段]和[!UICONTROL 内容片段]可用于以下活动类型：
 
   * [[!UICONTROL A/B 测试]](/help/main/c-activities/t-test-ab/test-ab.md)
@@ -55,15 +55,15 @@ ht-degree: 20%
 
 ## 要求 {#requirements}
 
-您必须使用[[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hans){target=_blank}。 您的客户代表可帮助确保您满足使用此功能的要求：
+您必须使用[[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}。 您的客户代表可帮助确保您满足使用此功能的要求：
 
 请联系 [Adobe Target 客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以启用集成并为您提供身份验证详细信息。
 
 ## 在[!DNL AEM]中配置和使用[!UICONTROL 内容片段] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-要导出[!UICONTROL 内容片段]以在[!DNL Target]活动中使用，您必须在AEM中执行一些初步步骤。 有关详细信息，请参阅&#x200B;*Adobe Target as a Cloud Service文档*&#x200B;中的[将内容片段导出到Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=zh-Hans){target=_blank}。
+要导出[!UICONTROL 内容片段]以在[!DNL Target]活动中使用，您必须在AEM中执行一些初步步骤。 有关详细信息，请参阅&#x200B;*Adobe Target as a Cloud Service文档*&#x200B;中的[将内容片段导出到Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}。
 
-有关设计、创建、管理和发布[!UICONTROL 内容片段]的信息，请参阅[Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=zh-Hans){target=_blank}中的[[!UICONTROL 内容片段]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hans){target=_blank}和[使用内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=zh-Hans){target=_blank}。
+有关设计、创建、管理和发布[!UICONTROL 内容片段]的信息，请参阅[Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}中的[[!UICONTROL 内容片段]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hans){target=_blank}和[使用内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank}。
 
 ## 在[!DNL Target]活动中使用[!UICONTROL 内容片段] {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 

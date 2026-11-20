@@ -2,7 +2,7 @@
 keywords: 推荐信息源；信息源；SAINT；ftp；sftp；csv；分类；analytics分类
 description: 了解信息源如何使用CSV文件、[!DNL Google Product Search]信息源格式和[!DNL Analytics]产品分类将实体导入[!DNL Adobe Target] [!DNL Recommendations]。
 title: 如何在[!DNL Target Recommendations]中使用[!UICONTROL 信息源]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 TQID: 'https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go'
@@ -22,20 +22,24 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 22eb14463a76adc797e57420cac0f646be3d3f00
 workflow-type: tm+mt
-source-wordcount: '2792'
-ht-degree: 29%
+source-wordcount: '2810'
+ht-degree: 25%
 ---
-# 信息源
+# 信息源 {#feeds}
 
-使用信息源将实体导入到[!DNL Adobe Target] [!DNL Recommendations]中。 可以使用CSV文件、[!DNL Google Product Search]信息源格式和[!DNL Adobe Analytics]产品分类来发送实体。
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解信息源如何将实体导入到[!DNL Adobe Target Recommendations]中，哪些源类型可用，以及如何创建和监视信息源。
+
+>[!ENDSHADEBOX]
+
+使用信息源将实体导入到[!DNL Adobe Target Recommendations]中。 可以使用CSV文件、[!DNL Google Product Search]信息源格式和[!DNL Adobe Analytics]产品分类来发送实体。
 
 ## 信息源概述 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-馈送允许您传递[实体](/help/main/c-recommendations/c-products/products.md)，或者使用页面上没有提供或不能直接从页面安全发送的信息来扩充您的mbox数据。 例如，利润、销货成本(COGS)等。
-
-信息源还允许您将详细的项目信息传递到[!DNL Recommendations]，例如产品ID、类别、名称、消息和其他属性。
+馈送允许您传递[实体](/help/main/c-recommendations/c-products/products.md)，或者使用页面上没有提供或不能直接从页面安全发送的信息来扩充您的mbox数据。 例如，利润、销货成本(COGS)等。 信息源还允许您将详细的项目信息传递到[!DNL Recommendations]，例如产品ID、类别、名称、消息和其他属性。
 
 您可以从[!DNL Target]产品分类文件或[!DNL Google Product Search]文件中选择要发送到[!DNL Recommendations]服务器的列。
 
@@ -48,33 +52,34 @@ ht-degree: 29%
 
 可使用信息源或mbox将项目描述传递到[!DNL Target]。 如果[!DNL Target]同时使用实体馈送和mbox收集数据，则最新数据将获胜。 通常，最新的数据来自 mbox，因为 mbox 的查看频率更高。 在极少数情况下，实体源数据和 mbox 数据的时间相同，这时使用 mbox 数据。
 
-[!UICONTROL 馈送]列表（**[!UICONTROL 推荐]** > **[!UICONTROL 馈送]**）提供了有关您创建的任何馈送的信息。
+上传的实体和实体属性会在61天后过期。 这意味着：
 
-[!UICONTROL 馈送]页面包含以下列：
+* 您的信息源应至少每月运行一次，以确保您的目录内容不会过期。
 
-* **名称**：创建过程中指定的信息源的名称。 要编辑信息源的名称，您必须编辑信息源本身。 使用新名称保存馈送时，将刷新馈送。
-* **状态**：信息源的当前[状态](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。
-* **类型**：类型包括[CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、[[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)和[Analytics分类](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)。
-* **项目**：显示信息源中的项目数。
-* **计划**：显示馈送的更新计划： [!UICONTROL 每日]、[!UICONTROL 每周]、[!DNL Every 2 Weeks]或[!UICONTROL 从不]。
-* **上次更新**：显示上次更新信息源的日期和时间，以及更新信息源的人员姓名。
+* 从信息源文件中删除项目时，不会从目录中删除该项目。 要从目录中删除该项，请通过[!DNL Target] UI或API手动删除该项。 或者，修改物料属性（如库存）以确保不考虑物料。
 
-单击[!UICONTROL 自定义表]图标（![自定义表图标](/help/main/assets/icons/ColumnSetting.svg)）以选择或取消选择要显示的列。
+* 至少每60天上传一次信息源文件，以避免对您的推荐活动造成干扰。 如果某个项至少每60天未包含在信息源文件（或其他实体更新方法）中一次，则[!DNL Target]推断该项不再相关，并将其从目录中删除。
 
-单击[!UICONTROL 信息]图标（![信息图标](/help/main/assets/icons/InfoOutline.svg)）可显示显示上次上传日期和馈送URL的卡片。
+### 信息源列表
 
-单击[!UICONTROL 更多操作]图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)）可访问以下操作： [!UICONTROL 停用]、[!DNL Edit]、[!UICONTROL 复制]和[!UICONTROL 删除]。
+[!UICONTROL 馈送]列表（**[!UICONTROL Recommendations]** > **[!UICONTROL 馈送]**）提供了有关您创建的任何馈送的信息。 它包含以下列：
 
->[!IMPORTANT]
->
->上传的实体和实体属性会在61天后过期。 这意味着：
->
->* 您的信息源应至少每月运行一次，以确保您的目录内容不会过期。
->* 从信息源文件中删除项目时，不会从目录中删除该项目。 要从目录中删除该项，请通过[!DNL Target] UI或API手动删除该项。 或者，修改物料属性（如库存）以确保不考虑物料。
+| 列 | 描述 |
+|---|---|
+| **名称** | 创建期间指定的信息源的名称。 要编辑信息源的名称，您必须编辑信息源本身。 使用新名称保存馈送时，将刷新馈送。 |
+| **状态** | 馈送的当前[状态](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。 |
+| **类型** | 类型包括[CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、[[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)和[Analytics分类](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)。 |
+| **项目** | 显示信息源中的项目数。 |
+| **计划** | 显示信息源的更新计划： **[!UICONTROL 每日]**、**[!UICONTROL 每周]**、**[!DNL Every 2 Weeks]**&#x200B;或&#x200B;**[!UICONTROL 从不]**。 |
+| **上次更新时间** | 显示上次更新信息源的日期和时间，以及更新信息源的人员姓名。 |
 
-## Source类型
+* 单击&#x200B;**[!UICONTROL 自定义表]**&#x200B;图标（![自定义表图标](/help/main/assets/icons/ColumnSetting.svg)）以选择或取消选择要显示的列。
+* 单击&#x200B;**[!UICONTROL 信息]**&#x200B;图标（![信息图标](/help/main/assets/icons/InfoOutline.svg)）可显示显示上次上传日期和馈送URL的卡片。
+* 单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)）可访问以下操作： **[!UICONTROL 停用]**、**[!DNL Edit]**、**[!UICONTROL 复制]**&#x200B;和&#x200B;**[!UICONTROL 删除]**。
 
-可以使用CSV文件、[!DNL Google Product Search]信息源格式和[!DNL Adobe Analytics]产品分类来发送实体。
+## Source类型 {#source-types}
+
+以下各节介绍可用于发送实体的源类型。
 
 ### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -106,13 +111,11 @@ ht-degree: 29%
 "Apples ""Bananas"" Grapes""",
 ```
 
->[!NOTE]
->
->无法使用空白值覆盖现有值。 在其位置传递另一个值以覆盖现有值。 对于售价，一种常见解决方案是传入实际的“NULL”或某种其他消息。 然后，可以写入一个模板规则，以排除具有该值的项目。
+请注意，无法使用空白值覆盖现有值。 在其位置传递另一个值以覆盖现有值。 对于售价，一种常见解决方案是传入实际的“NULL”或某种其他消息。 然后，可以写入一个模板规则，以排除具有该值的项目。
 
 成功上传产品实体约两个小时后，产品将显示在管理界面中。
 
-以下是 .csv 文件的代码示例：
++++ 示例.csv文件
 
 ```
 ## RECSRecommendations Upload File 
@@ -126,19 +129,19 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
++++
 
-[!DNL Google Product Search]信息源类型使用[!DNL Google]格式，而不是[!DNL Adobe]专有的CSV格式。 您可以重用现有的[!DNL Google Product Feed]将产品数据导入[!DNL Recommendations]。
+### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 >[!NOTE]
 >
 >您不需要向[!DNL Google]提交数据。 您可以导入自己的数据和计划更新，前提是文件使用预定义的[!DNL Google]属性名称。
 
-[!DNL Recommendations]接受遵循[!DNL Google]信息源规范并使用由Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定义的属性的.xml、.txt和.tsv文件。 指定信息源的URL或FTP位置，以便[!DNL Recommendations]服务器可以检索文件并生成您的目录。
+[!DNL Google Product Search]信息源类型使用[!DNL Google]格式，而不是[!DNL Adobe]专有的CSV格式。 您可以重用现有的[!DNL Google Product Feed]将产品数据导入[!DNL Recommendations]。
 
->[!NOTE]
->
->承载[!DNL Google]馈送的服务器必须允许POST方法。
+[!DNL Recommendations]接受遵循[!DNL Google]信息源规范并使用由Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定义的[属性的.xml、.txt和.tsv文件。 指定信息源的URL或FTP位置，以便[!DNL Recommendations]服务器可以检索文件并生成您的目录。
+
+请注意，承载[!DNL Google]馈送的服务器必须允许POST方法。
 
 请牢记以下要求和限制：
 
@@ -147,7 +150,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 在保存并激活馈送时，馈送会运行，并且其每日运行时间比初始运行时间晚一个小时。
 
-以下示例显示了.xml格式的[!DNL Google Product Search]馈送：
++++ .xml格式的[!DNL Google Product Search]馈送示例
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
@@ -214,7 +217,9 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 </feed> 
 ```
 
-以下是[!DNL Google Product Search]源.tsv文件的示例代码：
++++
+
++++ .tsv格式的[!DNL Google Product Search]馈送示例
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
@@ -222,9 +227,11 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
++++
+
 ### [!DNL Analytics]产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Adobe Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅&#x200B;*Analytics组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans)。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
+[!DNL Adobe Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅&#x200B;*Analytics组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
 
 >[!IMPORTANT]
 >
@@ -233,22 +240,29 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 > 请注意以下事项：
 >
 >* 更新实体属性会导致长达 24 小时的额外延迟。
->* [!DNL Target]仅支持[!UICONTROL 产品分类]。 [!DNL Analytics]产品SKU必须映射到与[!DNL Recommendations] `entity.id`相同的级别。 可以使用[!UICONTROL Adobe Consulting服务]来设计自定义[!DNL Analytics]分类。 如有疑问，请联系您的客户经理。
+>* [!DNL Target]仅支持&#x200B;**[!UICONTROL 产品分类]**。 [!DNL Analytics]产品SKU必须映射到与[!DNL Recommendations] `entity.id`相同的级别。 可以使用&#x200B;**[!UICONTROL Adobe Consulting服务]**&#x200B;来设计自定义[!DNL Analytics]分类。 如有疑问，请联系您的客户经理。
 
 ## 创建信息源 {#steps}
 
 可创建一个信息源，以将有关产品或服务的信息插入到 [!DNL Recommendations] 中。
 
+源确定[!DNL Recommendations]在何处检索生成目录的实体数据。
+
 1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 信息源]** > **[!UICONTROL 创建信息源]**。
 
+   ![创建信息源页面](../assets/feeds_1.png)
+
 1. 为您的信息源指定一个描述性名称。
+
 1. 选择&#x200B;**[!UICONTROL Source类型]**。
 
-   * [!UICONTROL CSV]
-   * [!UICONTROL Google产品信息源]
-   * [!UICONTROL Analytics分类]
+   * **[!UICONTROL CSV]**
+   * **[!UICONTROL Google产品信息源]**
+   * **[!UICONTROL Analytics分类]**
 
-   有关[!UICONTROL CSV]和[!UICONTROL Google产品信息源]信息源类型的信息，请参阅[信息源概述](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。 您还可以[下载模型CSV指南](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)，以帮助您正确设置信息源的格式。
+   有关&#x200B;**[!UICONTROL CSV]**&#x200B;和&#x200B;**[!UICONTROL Google产品信息源]**&#x200B;信息源类型的信息，请参阅[Source类型](#source-types)。 您还可以[下载模型CSV指南](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)，以帮助您正确设置信息源的格式。
+
+   ![创建信息源页面](../assets/feeds_2.png)
 
 1. （视情况而定）如果您选择了&#x200B;**[!UICONTROL CSV]**&#x200B;或&#x200B;**[!UICONTROL Google产品信息源]**，请指定可以访问信息源的位置。
 
@@ -260,7 +274,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
      * 对于FTPS，请将服务器配置为接受显式FTPS连接。
      * 您可以手动指定启动连接的端口（例如，`ftp://ftp.yoursite.com:2121`）。 如果未指定端口，则将使用默认的 FTP 或 FTPS 端口。
 
-   +++
+     +++
 
    * **SFTP**：输入SFTP服务器的主机名或IP地址、端口（默认值： 22）、用户名、目录和文件名。 对于身份验证，请提供密码、SSH私钥或两者。
 
@@ -273,28 +287,30 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
      * 输入没有`sftp://`前缀、端口或路径的裸主机名或IP地址。 将“端口”字段用于非默认端口。
      * 首次连接时接受服务器主机密钥，无需与Adobe交换指纹。
      * SFTP在Target界面和Recommendations API中可用，但在旧版Recommendations Classic管理界面中不可用。 Adobe不托管SFTP端点，请使用客户托管的服务器。
-     * SFTP服务器必须可从Internet访问，并允许来自Adobe Target下载地址的入站连接。 发布此更新之前，生产IP列表必须由工程部门确认。
+     * SFTP服务器必须可从Internet访问，并允许来自Adobe Target下载地址的入站连接。
 
-   +++
+     +++
 
-   * **URL**：如果选择[!UICONTROL URL]，请指定URL。
+   * **URL**：如果选择&#x200B;**[!UICONTROL URL]**，请指定URL。
 
 1. （视情况而定）如果您选择&#x200B;**[!UICONTROL Analytics分类]**，请从下拉列表中选择报表包。
 
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;箭头以显示[!UICONTROL 计划]选项。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;箭头以显示&#x200B;**[!UICONTROL 计划]**&#x200B;选项并选择更新选项：
 
-1. 选择一个更新选项：
+   * **[!UICONTROL 每天]**
+   * **[!UICONTROL 每周]**
+   * **[!UICONTROL 每2周]**
+   * **[!UICONTROL 从不]**：不计划更新。 如果您不希望运行此信息源，请选择此选项。
 
-   * [!UICONTROL 每天]
-   * [!UICONTROL 每周]
-   * [!UICONTROL 每2周]
-   * [!UICONTROL 从不]：不计划更新。 如果您不希望运行此信息源，请选择此选项。
+   ![创建信息源页面](../assets/feeds_3.png)
 
 1. 指定要运行信息源的时间。
 
    此选项基于浏览器中使用的时区。 如果您想要使用不同时区的时间，则必须根据您所在的时区计算该时间。
 
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;箭头以显示[!UICONTROL 映射]选项，然后指定您希望如何将数据映射到[!DNL Target]定义。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;箭头以显示&#x200B;**[!UICONTROL 映射]**&#x200B;选项，然后指定您希望如何将数据映射到[!DNL Target]定义。
+
+   ![创建信息源页面](../assets/feeds_4.png)
 
 1. （可选）如果您希望信息源属于某个环境（主机组），请选择该主机组。
 
@@ -302,15 +318,15 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-创建或编辑馈送后，馈送会立即运行，然后根据您的设置进行更新。 馈送在数据可用之前必须同步、处理和索引。 检查[!UICONTROL 信息源]列表中的[信息源状态](/help/main/c-recommendations/c-products/feeds.md#status)以了解进度。 即使您关闭[!DNL Target]，处理过程仍会继续。
+创建或编辑馈送后，馈送会立即运行，然后根据您的设置进行更新。 馈送在数据可用之前必须同步、处理和索引。 即使您关闭[!DNL Target]，处理过程仍会继续进行，您可以跟踪&#x200B;**[!UICONTROL 信息源]**&#x200B;列表中的进度，并显示[信息源状态](/help/main/c-recommendations/c-products/feeds.md#status)。
 
-在索引过程中，产品和信息源标题显示在单个值之前，因此您可以在索引完成之前搜索产品并创建收藏集、排除项、设计和活动。
+在索引过程中，产品和信息源标题显示在单个值之前，因此您已可以搜索产品并创建收藏集、排除项、设计和活动。
 
-“成功”状态表示已找到文件并已正确解析该文件。 其数据仅在索引后才会在[!DNL Recommendations]中可用，这需要一些时间，具体取决于文件大小。 失败可能是由于URL或FTP信息不正确、文件缺失或解析错误所致。
+“成功”状态表示已找到文件并已正确解析该文件。 其数据仅在索引后可用，对于较大的文件，索引需要更长的时间。 失败可能是由于URL或FTP信息不正确、文件缺失或解析错误所致。
 
 ## 信息源状态和指示器 {#concept_E475986720D1400999868B3DFD14A7A0}
 
-有关可能的信息源状态及其指示器的信息。
+本节将介绍可能的信息源状态及其指示器。
 
 ### 信息源状态 {#status}
 
@@ -318,27 +334,35 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 | 状态 | 描述 |
 |--- |--- |
-| [!UICONTROL 正在同步] | 正在将信息源设置详细信息保存到[!DNL Target]。 |
-| [!UICONTROL 同步失败] | 无法将信息源设置详细信息保存到[!DNL Target]。 请重试。 |
-| [!UICONTROL 没有运行的信息源] | 您已创建信息源，但尚未安排该信息源（频率设置为“从不”）。 |
+| **[!UICONTROL 正在同步]** | 正在将信息源设置详细信息保存到[!DNL Target]。 |
+| **[!UICONTROL 同步失败]** | 无法将信息源设置详细信息保存到[!DNL Target]。 请重试。 |
+| **[!UICONTROL 没有运行的信息源]** | 您已创建信息源，但尚未安排该信息源（频率设置为“从不”）。 |
 | 已计划在 &lt;日期和时间>** 运行 | 信息源尚未运行，但已计划在指定的日期和时间运行。 |
-| [!UICONTROL 正在等待下载] | [!DNL Target]正在准备下载信息源文件。 |
-| [!UICONTROL 正在下载信息源文件] | [!DNL Target]正在下载信息源文件。 |
-| [!UICONTROL 正在导入项目] | [!DNL Target]正在从信息源文件导入项目。 |
-| 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | [!DNL Target]已将信息源文件导入其内容交付系统。 已在内容交付系统中对项目属性进行了更改，这些更改将很快地反映在交付的推荐中。 如果没有看到预期的更改，请重试并刷新包含推荐的页面。<br>注意：<ul><li>如果对项目属性所做的更改导致项目被排除在推荐之外，则会立即反映该排除项。 如果项目是新添加的，或者对属性的更改导致该项目不再&#x200B;*从推荐中*，则在下一次算法更新之前不会反映此项目，此过程将在24小时内发生。</li><li>显示此状态时，更新可能尚未反映在[!UICONTROL 目录搜索] UI中。 [!UICONTROL 目录搜索]中列出了单独的状态，指示上次更新可搜索目录的时间。</li></ul> |
-| 部分导入失败 | 以前，当所有行均未上传时，馈送仍会被标记为成功。 因此，会错误地认为所有行都已上载为信息源，这表明上载成功。<P>以下是您可能会遇到部分信息源导入的情景：<ul><li>您为生产环境上传了一个信息源文件，例如100行。</li><li>馈送运行并上传了这些行中的80行，由于格式不正确、字段超出字符数等原因，删除了20行。</li><li>馈送在UI中标记为成功，这让您感觉已上传所有100行。</li><li>您预计这20种产品中会有一部分在交付活动中出现，但实际上并未出现。</li><li> 您现在很困惑，因为您上传了包含相关产品的产品详细信息的信息源。 当您通过实体API进行查询时，您不会在后端看到它，这告知您它不在后端。</li></ul>为了消除这种混淆，改进了消息以确切告知馈送发生了什么情况。 它现在不会标记为成功，而是标记为部分导入失败。 |
-| [!UICONTROL 未能编入索引] | 索引操作失败。 请重试。 |
-| 找不到[!UICONTROL 服务器] | FTP、SFTP或URL位置无效或无法访问。 |
+| **[!UICONTROL 正在等待下载]** | [!DNL Target]正在准备下载信息源文件。 |
+| **[!UICONTROL 正在下载信息源文件]** | [!DNL Target]正在下载信息源文件。 |
+| **[!UICONTROL 正在导入项目]** | [!DNL Target]正在从信息源文件导入项目。 |
+| 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | [!DNL Target]已将信息源文件导入其内容交付系统。 已在内容交付系统中对项目属性进行了更改，这些更改将很快地反映在交付的推荐中。 如果没有看到预期的更改，请重试并刷新包含推荐的页面。<br>注意：<ul><li>如果对项目属性所做的更改导致项目被排除在推荐之外，则会立即反映该排除项。 如果项目是新添加的，或者对属性的更改导致该项目不再&#x200B;*从推荐中*，则在下一次算法更新之前不会反映此项目，此过程将在24小时内发生。</li><li>显示此状态时，更新可能尚未反映在&#x200B;**[!UICONTROL 目录搜索]** UI中。 **[!UICONTROL 目录搜索]**&#x200B;中列出了单独的状态，指示上次更新可搜索目录的时间。</li></ul> |
+| 部分导入失败 | 未上载信息源文件的所有行。 查看[部分导入失败](#partial-import-failed)。 |
+| **[!UICONTROL 未能编入索引]** | 索引操作失败。 请重试。 |
+| 找不到&#x200B;**[!UICONTROL 服务器]** | FTP、SFTP或URL位置无效或无法访问。 |
 
-要更新信息源（例如，更改信息源配置或信息源文件），请打开该信息源，进行任何所需更改，然后单击&#x200B;**[!UICONTROL 保存]**。
+#### 部分导入失败 {#partial-import-failed}
 
->[!IMPORTANT]
->
->上传的实体会在 61 天后过期。 这意味着您应该至少每 60 天上传一次信息源文件，以避免对您的推荐活动造成干扰。 如果某个项至少每60天未包含在信息源文件（或其他实体更新方法）中一次，则[!DNL Target]推断该项不再相关，并将其从目录中删除。
+以前，当并非所有行都已上载时，馈送仍会标记为成功。 这会产生所有行都已上传的错误印象。 消息现在会声明所发生的情况：馈送被标记为部分导入失败，而不是成功。
+
+以下场景显示了可能发生部分信息源导入的原因：
+
+* 您为生产环境上传了一个信息源文件，例如100行。
+* 馈送运行并上传了这些行中的80行，由于格式不正确、字段超出字符数等原因，删除了20行。
+* 馈送在UI中标记为成功，这让您感觉已上传所有100行。
+* 您预计这20种产品中会有一部分在交付活动中出现，但实际上并未出现。
+* 您上传的信息源包含所讨论产品的产品详细信息，但当您通过实体API进行查询时，无法在后端看到这些信息，这表示它们不在后端。
+
+要更新信息源（例如，更改信息源配置或信息源文件），请打开该信息源，进行任何所需更改，然后单击&#x200B;**[!UICONTROL 保存]**。 上传的实体会在 61 天后过期。 有关上传频率，请参阅[信息源概述](#concept_D1E9C7347C5D4583AA69B02E79607890)中的注释。
 
 ### 信息源状态指示器 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
-以下信息源状态指示器将显示在“[!UICONTROL 状态]”列中：
+以下信息源状态指示器将显示在“**[!UICONTROL 状态]**”列中：
 
 | 状态指示器 | 描述 |
 |--- |--- |
@@ -367,20 +391,24 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 了解Recommendations中的信息源(3:01) ![概述徽章](/help/main/assets/overview.png)
++++ 了解“推荐”中的信息源
 
 本视频包含以下信息：
 
 * 了解信息源的用途
 * 了解信息源的值
 
->[!VIDEO](https://video.tv.adobe.com/v/33957?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### 创建信息源(6:44) ![教程徽章](/help/main/assets/tutorial.png)
++++
+
++++ 创建信息源
 
 本视频包含以下信息：
 
 * 设置信息源
 * 了解要使用哪种类型的信息源
 
->[!VIDEO](https://video.tv.adobe.com/v/33956?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)
+
++++

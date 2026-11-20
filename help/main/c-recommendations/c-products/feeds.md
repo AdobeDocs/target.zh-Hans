@@ -139,7 +139,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 [!DNL Google Product Search]信息源类型使用[!DNL Google]格式，而不是[!DNL Adobe]专有的CSV格式。 您可以重用现有的[!DNL Google Product Feed]将产品数据导入[!DNL Recommendations]。
 
-[!DNL Recommendations]接受遵循[!DNL Google]信息源规范并使用由Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定义的[属性的.xml、.txt和.tsv文件。 指定信息源的URL或FTP位置，以便[!DNL Recommendations]服务器可以检索文件并生成您的目录。
+[!DNL Recommendations]接受遵循[!DNL Google]信息源规范并使用由Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定义的属性的.xml、.txt和.tsv文件。 指定信息源的URL或FTP位置，以便[!DNL Recommendations]服务器可以检索文件并生成您的目录。
 
 请注意，承载[!DNL Google]馈送的服务器必须允许POST方法。
 

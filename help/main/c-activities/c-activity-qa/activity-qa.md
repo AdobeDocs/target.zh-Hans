@@ -60,7 +60,7 @@ ht-degree: 12%
 
 1. 在活动的&#x200B;**[!UICONTROL 概述]**&#x200B;页面中，单击&#x200B;**[!UICONTROL 活动QA]**。
 
-   “概述”页面](../assets/activity-qa.png)的“活动位置”部分中的![活动QA按钮
+   “概述”页面![&#128279;](../assets/activity-qa.png)的“活动位置”部分中的活动QA按钮
 
 1. 设置&#x200B;**[!UICONTROL 匹配受众规则以查看体验]**&#x200B;以选择测试人员是否必须具有受众资格。 打开以确认受众匹配可正常工作，或关闭以检查活动的外观。
 
@@ -148,7 +148,7 @@ ht-degree: 12%
 
 +++ 具有“URL is”条件的活动
 
-如果在基于表单的编辑器](/help/main/c-experiences/form-experience-composer.md)中的[细化或可视化体验编辑器](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)中的[页面交付选项中创建活动时指定了“URL is”，则QA URL不起作用，因为&#x200B;**[!UICONTROL 活动QA]**&#x200B;会附加URL参数。 要解决此问题，请单击 QA URL 以转到您的网站，并从该 URL 中删除附加的参数，然后再加载新的 URL。
+如果在基于表单的编辑器[&#128279;](/help/main/c-experiences/form-experience-composer.md)中的[细化或可视化体验编辑器](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)中的页面交付选项中创建活动时指定了“URL is”，则QA URL不起作用，因为&#x200B;**[!UICONTROL 活动QA]**&#x200B;会附加URL参数。 要解决此问题，请单击 QA URL 以转到您的网站，并从该 URL 中删除附加的参数，然后再加载新的 URL。
 
 +++
 
@@ -196,7 +196,7 @@ ht-degree: 12%
 | `at_preview_evaluate_as_true_audience_ids` | 字符串 | 留空 | 应始终（在定位和报告级别）在[!DNL Target]请求的范围内评估为“true”的区段ID的下划线分隔(“_”)列表。 |
 | `_AT_Debug` | 字符串 | 窗口或控制台 | 控制台日志记录或新窗口。 |
 | `adobe_mc_ref` |  |  | 可将默认页面的引荐 URL 传递到新页面。 如果使用了 `AppMeasurement.js` 版本 2.1（或更高版本），则 [!DNL Adobe Analytics] 会将此参数值用作新页面上的引荐 URL。 |
-| `adobe_mc_sdid` |  |  | 将[!DNL Supplemental Data Id] (SDID)和[!DNL Experience Cloud Org Id]从默认页面传递到新页面。 通过传递这些ID，Target ] (A4T)的[!UICONTROL Analytics可以将默认页面上的[!DNL Target]请求与新页面上的[!DNL Analytics]请求“拼合”在一起。 |
+| `adobe_mc_sdid` |  |  | 将[!DNL Supplemental Data Id] (SDID)和[!DNL Experience Cloud Org Id]从默认页面传递到新页面。 通过传递这些ID，Target  (A4T)的Analytics可以将默认页面上的[!DNL Target]请求与新页面上的[!DNL Analytics]请求“拼合”在一起。 |
 
 +++
 

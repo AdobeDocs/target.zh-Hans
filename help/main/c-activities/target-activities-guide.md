@@ -47,7 +47,7 @@ ht-degree: 61%
 >
 >为了获得最佳体验并与他人共享，请下载交互式 [Adobe Target 活动指南 PDF](/help/main/assets/activities_guide_82817.pdf)。
 >
->本文不包含有关[**[!UICONTROL Recommendations ]**活动](/help/main/c-recommendations/recommendations.md)的信息。 但是，您可以在**[!UICONTROL  A/B测试&#x200B;]**、**[!UICONTROL &#x200B;自动分配&#x200B;]**、**[!UICONTROL &#x200B;自动定位&#x200B;]**和**[!UICONTROL &#x200B;体验定位&#x200B;]**(XT)活动中包含推荐。 有关更多信息，请参阅[将推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)。 要使用此功能，您需要拥有 [Target Premium 许可证](/help/main/c-intro/intro.md#premium)。
+>本文不包含有关[**[!UICONTROL Recommendations &#x200B;]**&#x200B;活动](/help/main/c-recommendations/recommendations.md)的信息。 但是，您可以在&#x200B;**[!UICONTROL &#x200B; A/B测试&#x200B;]**、**[!UICONTROL &#x200B;自动分配&#x200B;]**、**[!UICONTROL &#x200B;自动定位&#x200B;]**&#x200B;和&#x200B;**[!UICONTROL &#x200B;体验定位&#x200B;]**(XT)活动中包含推荐。 有关更多信息，请参阅[将推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)。 要使用此功能，您需要拥有 [Target Premium 许可证](/help/main/c-intro/intro.md#premium)。
 
 ## 该活动有什么作用？ {#section_4ECAACC68723402EB3649033190E1BBC}
 

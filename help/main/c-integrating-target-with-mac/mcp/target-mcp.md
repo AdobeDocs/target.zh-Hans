@@ -5,7 +5,6 @@ title: Adobe Target MCP服务器概述
 description: 了解Adobe Target MCP服务器是什么、其关键功能以及它如何连接到AI助手。
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
-badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 product_v2:
@@ -24,9 +23,9 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8fd1b8e05c92c3e0b49f61b17fbf5fba522a8410
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1029'
 ht-degree: 0%
 ---
 # [!DNL Adobe Target] MCP服务器 {#target-mcp}
@@ -35,7 +34,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->[!DNL Adobe Target] MCP服务器可用于&#x200B;**公共Beta**&#x200B;中的所有客户。 当前在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中支持它。 未来版本中将增加对其他MCP兼容应用程序的支持。
+>**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;当前支持[!DNL Adobe Target] MCP服务器。 未来版本中将增加对其他MCP兼容应用程序的支持。
 
 
 ## 什么是模型上下文协议？ {#mcp-overview}
@@ -95,7 +94,7 @@ ht-degree: 0%
 
 +++我的[!DNL Adobe Target]数据是否已发送到MCP客户端提供程序？
 
-当您提交提示时，MCP客户端可能会将相关上下文（包括MCP服务器返回的[!DNL Adobe Target]数据）发送到其模型以供处理。 在连接到生产数据之前，请查看MCP客户端提供商的隐私和数据处理策略。 Adobe的数据处理受[Adobe隐私政策](https://www.adobe.com/cn/privacy.html)和[数据保护条款](https://www.adobe.com/go/dpt-ww)管辖。
+当您提交提示时，MCP客户端可能会将相关上下文（包括MCP服务器返回的[!DNL Adobe Target]数据）发送到其模型以供处理。 在连接到生产数据之前，请查看MCP客户端提供商的隐私和数据处理策略。 Adobe的数据处理受[Adobe隐私政策](https://www.adobe.com/privacy.html)和[数据保护条款](https://www.adobe.com/go/dpt-ww)管辖。
 +++
 
 +++写入操作能否对实时活动造成意外更改？

@@ -1,6 +1,6 @@
 ---
 keywords: 受众;受众规则;合并受众;排除项;添加排除项;排除;临时受众
-description: 了解如何动态合并多个受众（包括Adobe Experience Cloud受众和 [!DNL Target] 受众）以创建临时受众。
+description: 了解如何动态合并多个受众（包括Adobe Experience Cloud受众和[!DNL Target]受众）以创建临时受众。
 title: 我可以合并多个受众以创建新受众吗？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
@@ -16,13 +16,11 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: '965'
 ht-degree: 55%
-
 ---
-
 # 合并多个受众
 
 动态合并多个受众（包括[!DNL Adobe Experience Cloud]、[!DNL Adobe Experience Platform]和[!DNL Target]受众）以创建临时受众。 您也可以创建排除规则，从某个规则中排除相应受众。
@@ -45,7 +43,7 @@ ht-degree: 55%
 
 在三步引导式工作流中，您可以在活动的“[!UICONTROL 定位]”页面上创建临时组合受众。
 
-1. 创建[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 定位]**&#x200B;页面上单击三个垂直省略号，然后单击&#x200B;**[!UICONTROL 替换受众]**。
+1. 创建[活动](/help/main/c-activities/activities.md)时，在&#x200B;**[!UICONTROL 定位]**&#x200B;页面上单击三个垂直省略号，然后单击&#x200B;**[!UICONTROL 替换受众]**。
 
    ![步骤结果](assets/edit_audience.png)
 
@@ -69,7 +67,7 @@ ht-degree: 55%
 
       ![combine_multiple_audiences3图像](assets/combine_multiple_audiences3.png)
 
-      请注意，这两个基于浏览器类型的受众之间使用的运算符为“与”。 选择[!UICONTROL 和]下拉列表并将其更改为“或”，以便为使用Firefox或Safari的新访客创建新的组合受众。 务必要避免创建会将所有潜在受众成员都排除在外的规则。 例如，某个人不可能同时使用 Firefox 和 Safari 访问页面。
+      请注意，这两个基于浏览器类型的受众之间使用的运算符为“与”。 Select[!UICONTROL 和]下拉列表并将其更改为“或”，以便为使用Firefox或Safari的新访客创建新的组合受众。 务必要避免创建会将所有潜在受众成员都排除在外的规则。 例如，某个人不可能同时使用 Firefox 和 Safari 访问页面。
 
       >[!NOTE]
       >
@@ -95,7 +93,7 @@ ht-degree: 55%
 
 您可以在活动的“[!UICONTROL 目标和设置]”页面上创建一个临时组合受众，以将其用于量度定位。 例如，可以使用组合受众创建基于转化的定位：
 
-1. 编辑或创建[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上，为成功量度选择&#x200B;**[!UICONTROL 转化]**，然后选择&#x200B;**[!UICONTROL 已查看Mbox]**&#x200B;作为操作。
+1. 编辑或创建[活动](/help/main/c-activities/activities.md)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上，为成功量度选择&#x200B;**[!UICONTROL 转化]**，然后选择&#x200B;**[!UICONTROL 已查看Mbox]**&#x200B;作为操作。
 1. 在&#x200B;**[!UICONTROL 搜索 mbox]** 字段中选择所需的 mbox。
 
    ![combine_multiple_audiences4图像](assets/combine_multiple_audiences4.png)
@@ -111,7 +109,7 @@ ht-degree: 55%
 
 您可以在活动的“[!UICONTROL 目标和设置]”页面上创建一个临时组合受众，以将其用于报表。
 
-1. 编辑或创建[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上，单击[!UICONTROL 报表的受众]下的&#x200B;**[!UICONTROL 添加受众]**&#x200B;图标以显示[!UICONTROL 选择受众]页面。
+1. 编辑或创建[活动](/help/main/c-activities/activities.md)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上，单击[!UICONTROL 报表的受众]下的&#x200B;**[!UICONTROL 添加受众]**&#x200B;图标以显示[!UICONTROL 选择受众]页面。
 
    ![combine_multiple_audiences6图像](assets/combine_multiple_audiences6.png)
 

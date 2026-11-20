@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 19%
@@ -50,7 +50,7 @@ ht-degree: 19%
    {{visitor-matching}}
 
 1. 访客匹配的所有活动和体验的内容将返回到该页面，因此可以在同一调用中交付来自多个活动的内容。
-1. [!DNL Target]比较每个活动内容引用的[CSS选择器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)。 如果活动引用不同的选择器，则会显示所有内容。
+1. [!DNL Target]比较每个活动内容引用的[CSS选择器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)。 如果活动引用不同的选择器，则会显示所有内容。
 1. 如果选择器重叠或重复，则会显示最高优先级活动的内容。
 
    >[!IMPORTANT]

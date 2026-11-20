@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 8%
@@ -78,7 +78,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >您可以将多个受众与现有受众相结合，以创建按需组合受众，而不是创建新受众。 有关更多信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+   >您可以将多个受众与现有受众相结合，以创建按需组合受众，而不是创建新受众。 有关更多信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md)。
 
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 

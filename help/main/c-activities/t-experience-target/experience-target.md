@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: aaa094f4f36b6088ca180637d8054b6d5ff59d60
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 2%
 ---
 # 开始使用[!UICONTROL 体验定位] {#get-started-xt}
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 当访客查看您的网站时，[!UICONTROL 体验定位]会评估这些访客，以确定他们是否符合您设置的条件。 如果他们符合标准，则会进入活动，并且将显示为符合条件的受众设计的体验。
 
-[!UICONTROL 体验定位]是走向个性化世界的第一步，通常从A/B测试开始。 营销人员运行A/B测试，并通过使用报表受众，发现不同的体验会与不同的受众产生共鸣。 通过[!UICONTROL 体验定位]，营销人员可以轻松使用该发现，并转为将内容长期定位到这些不同的受众区段。
+[!UICONTROL 体验定位]是走向个性化世界的第一步，通常从A/B测试开始。 营销人员运行A/B测试，并通过使用报表受众，发现不同的体验会与不同的受众产生共鸣。 通过[!UICONTROL 体验定位]，营销人员可以使用该发现并切换到将内容长期定位到这些不同的受众区段。
 
 ## 情景：从A/B测试到体验定位 {#xt-scenario}
 

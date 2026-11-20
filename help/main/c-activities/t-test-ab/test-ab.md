@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '668'
 ht-degree: 19%
 ---
 # A/B测试入门 {#test-ab}
@@ -41,7 +41,7 @@ ht-degree: 19%
 在以下情况下使用手动A/B测试：
 
 * 您基于成功量度或替代内容交付，对于提高页面性能的方法有一个明确的假设。
-* 要测试较大的更改，如新布局或元素的处理方式截然不同。 如果您的测试设计不容易分解为单独的页面元素，则应在运行[多变量测试](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)之前运行A/B测试。
+* 要测试较大的更改，如新布局或元素的处理方式截然不同。 如果无法将测试设计细分为单独的页面元素，则应在运行[多变量测试](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)之前运行A/B测试。
 * 您希望确定查看每个体验的访客所占的百分比。 例如，您可以在控制体验和第二次体验之间平均拆分流量，或者通过向仅5%的受众显示来测试风险更大的新体验。
 
 有关确定 A/B 测试最佳样本大小的详细信息，请参阅[规划 A/B 测试](/help/main/c-activities/t-test-ab/sample-size-determination.md)。

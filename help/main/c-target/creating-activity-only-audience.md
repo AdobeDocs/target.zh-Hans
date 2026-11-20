@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 30%
@@ -30,7 +30,7 @@ ht-degree: 30%
 * 您可以使用仅限该活动的受众来创建只想使用一次且不想存储到[!UICONTROL 受众库]中的受众。 仅限该活动的受众有助于防止[!UICONTROL 受众库]中栈满您绝不想再次使用的受众。
 * 仅限该活动的受众在[!UICONTROL 受众库]中不可见。 由于这些受众在库中不可见，因此可以避免组织中的其他人对其进行不必要的更改。
 
-1. 创建[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 定位]**&#x200B;页面上单击三个垂直省略号，然后单击&#x200B;**[!UICONTROL 替换受众]**。
+1. 创建[活动](/help/main/c-activities/activities.md)时，在&#x200B;**[!UICONTROL 定位]**&#x200B;页面上单击三个垂直省略号，然后单击&#x200B;**[!UICONTROL 替换受众]**。
 
    ![步骤结果](assets/edit_audience.png)
 

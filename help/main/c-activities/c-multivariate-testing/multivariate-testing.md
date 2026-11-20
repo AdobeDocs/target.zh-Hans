@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 24%
@@ -94,7 +94,7 @@ ht-degree: 24%
 此概述视频介绍[!DNL Target]中可用的活动类型。 对多变量测试的讨论开始于 4:20。 在本视频中，您将学习如何：
 
 * 描述[!DNL Adobe Target]中包含的活动类型。
-* 选择适当的活动类型以实现您的目标。
+* Select适合的活动类型以实现您的目标。
 * 描述适用于所有活动类型的三步引导式工作流。
 
 >[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)

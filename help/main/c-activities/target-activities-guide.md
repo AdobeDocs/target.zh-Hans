@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 6e92e2e42c88d0802335f14e388ea24af239fa51
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 61%
@@ -101,5 +101,5 @@ ht-degree: 61%
 | **[!UICONTROL 自动分配]** | **[!UICONTROL 自动分配]**&#x200B;降低了典型A/B测试的成本，因为其总体转化率高于手动A/B测试。 转化率更高，因为&#x200B;**[!UICONTROL 自动分配]**&#x200B;会将更多流量推送到具有最高性能的体验，这意味着您可以在测试期结束之前实现该入选体验的益处（您可以偷看！）。 | **[!UICONTROL 自动分配]**&#x200B;标识入选者，但不区分失败者。 如果您必须了解每个体验的性能，那么 A/B 测试更适合。<P>**[!UICONTROL 自动分配]**&#x200B;功能只能与一项高级量度设置配合使用，即“递增计数并保持用户处于活动中”。 如果您不想计算重复的转化次数，则应改用 A/B 测试。 |
 | **[!UICONTROL Auto-Target（自动定位）]** | 使用&#x200B;**[!UICONTROL 自动定位]**，机器学习应用于任何类型的体验，包括多页面体验。 **[!UICONTROL 自动定位]**&#x200B;活动还允许您在使用熟悉的A/B测试工作流时获得&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;的值。 | 通过&#x200B;**[!UICONTROL 自动定位]**，如果您希望经常或频繁地更改选件内容，则算法需要在每次更改后有足够的时间来利用它学习到的内容并将内容交付给合适的访客。 |
 | **[!UICONTROL Automated Personalization]** (AP) | 通过使用&#x200B;**[!UICONTROL Automated Personalization]**，您可以将所有选件收集到一个位置，并且算法会确定最佳选件组合。 您无需指定或构建每一个体验。 **[!UICONTROL Automated Personalization]**&#x200B;使用与&#x200B;**[!UICONTROL 自动定位]**&#x200B;相同的机器学习算法。 | 当您合并多个产品建议时，会发生组合爆炸，导致需要大量的流量。 **[!UICONTROL Automated Personalization]**&#x200B;算法考虑许多因素；因此，需要最多的流量。<P>**[!UICONTROL Automated Personalization]**&#x200B;不能在[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)中使用报表。 |
-| **[!UICONTROL Multivariate Testing]** (MVT) | 使用&#x200B;**[!UICONTROL Multivariate Testing]**，您可以同时测试多个元素。 | **[!UICONTROL 多变量测试]**&#x200B;非常耗时，并且由于存在多个变量，因此它不一定能够令人放心地产生入选的体验。<P>达到完成这种测试所需的流量通常是一项困难的挑战。 由于所有&#x200B;**[!UICONTROL 多变量测试]**&#x200B;试验都是全因子试验，因此一次太多更改元素可能会快速增加必须测试的多个可能组合。<P>即使是流量相当高的网站也可能无法在可行的时间内完成超过 25 种组合的测试。 |
+| **[!UICONTROL Multivariate Testing]** (MVT) | 使用&#x200B;**[!UICONTROL Multivariate Testing]**，您可以同时测试多个元素。 | **[!UICONTROL 多变量测试]**&#x200B;非常耗时，并且由于存在多个变量，因此它不一定能够令人放心地产生入选的体验。<P>达到完成这种测试所需的流量通常是一项困难的挑战。 所有&#x200B;**[!UICONTROL 多变量测试]**&#x200B;实验都是全因子实验，因此一次太多更改元素可能会快速增加必须测试的多个可能组合。<P>即使是流量相当高的网站也可能无法在可行的时间内完成超过 25 种组合的测试。 |
 | **[!UICONTROL 体验定位]** (XT) | 通过&#x200B;**[!UICONTROL 体验定位]**，您可以根据从任何活动结果推导出的见解快速执行操作。<P>例如，如果您进行了A/B测试，测试结果表明，挑战体验的表现并未超出控制体验，但与控制体验相比，访客的特定区段在挑战体验上的转化率高出了四倍，那么您可以使用&#x200B;**[!UICONTROL 体验定位]**&#x200B;将挑战体验引导至该特定区段。 | **[!UICONTROL 体验定位]**&#x200B;不允许您控制跨多个受众的体验拆分百分比。 |

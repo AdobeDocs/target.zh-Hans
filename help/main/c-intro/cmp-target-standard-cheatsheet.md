@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -133,9 +133,9 @@ ht-degree: 48%
 **我如何知道哪类活动最适合我的需求？**
 
 +++查看详细信息
-请阅读[Target活动指南](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1)以了解哪些场景中由[!DNL Target]提供的每个选项都有意义。
+请阅读[Target活动指南](/help/main/c-activities/target-activities-guide.md)以了解哪些场景中由[!DNL Target]提供的每个选项都有意义。
 
-请务必考虑使用[推荐活动](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)。
+请务必考虑使用[推荐活动](/help/main/c-recommendations/recommendations.md)。
 
 +++
 
@@ -174,7 +174,7 @@ ht-degree: 48%
 **我要如何设立一个活动来实现我的目标？**
 
 +++查看详细信息
-实现[目标](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)的步骤如下。
+实现[目标](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)的步骤如下。
 
 首先应了解您想要在哪个方面进行优化。 是[!UICONTROL 收入]、[!UICONTROL 转化]还是[!UICONTROL 参与]？ 您可以在目标区域中找到这些选项。 对于每个选项，您可以进一步定义当用户在您的网站上执行何种操作时，即表示您的目标已实现。
 

@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: af388cf398e03e4ec7b4c5c44b03f772eacedf51
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 32%
@@ -48,7 +48,7 @@ ht-degree: 32%
    >
    >可用的活动类型取决于您的 [!DNL Target] 帐户。 有些活动类型可能不会显示在列表中。 例如，**[!UICONTROL Automated Personalization]**&#x200B;是[Target Premium功能](/help/main/c-intro/intro.md#premium)。
    >
-   >有关 [!DNL Target] 中可用的各种活动类型及其差异的更多信息，请参阅[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。 请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)，以帮助您确定最符合自己需求的活动类型。
+   >有关 [!DNL Target] 中可用的各种活动类型及其差异的更多信息，请参阅[活动](/help/main/c-activities/activities.md#types)。 请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)，以帮助您确定最符合自己需求的活动类型。
 
    ![](../../assets/create-xt-1.png)
 

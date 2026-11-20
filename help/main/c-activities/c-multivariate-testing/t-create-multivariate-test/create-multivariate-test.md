@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 16%
 ---
 # 创建多变量测试 {#create-mvt}
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 >[!ENDSHADEBOX]
 
-通过[!DNL Adobe Target]中的&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)，可以轻松创建&#x200B;**[!UICONTROL 多变量测试]**，并在[!DNL Target]内修改页面的各个部分。
+[!DNL Adobe Target]中的&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)允许您创建&#x200B;**[!UICONTROL 多变量测试]**，并在[!DNL Target]中修改页面的各个部分。
 
 使用[!DNL Target]点击式编辑器，您可以选择任意位置并添加多个选件。
 
@@ -50,7 +50,7 @@ ht-degree: 16%
 
 1. 单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL 多变量测试]**。
 
-   有关 [!DNL Target] 中可用的各种活动类型及其差异的更多信息，请参阅[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。 请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)，以帮助您确定最符合自己需求的活动类型。
+   有关 [!DNL Target] 中可用的各种活动类型及其差异的更多信息，请参阅[活动](/help/main/c-activities/activities.md#types)。 请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)，以帮助您确定最符合自己需求的活动类型。
 
    ![](../../assets/create-mvt-1.png)
 
@@ -132,7 +132,7 @@ ht-degree: 16%
 
 在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上，您指示[!DNL Target]如何度量测试。 可用的设置取决于您是使用[!DNL Target]还是[!DNL Analytics]作为报表源。
 
-1. 查看页面的各个部分，并设置您需要的。 查看[您在“目标和设置”页面](#goals-settings-overview)上设置的内容。
+1. 查看页面的各个部分，并设置您需要的。 查看[您在“目标和设置”页面](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)上设置的内容。
 
 
    | 区域 | 设置内容 |

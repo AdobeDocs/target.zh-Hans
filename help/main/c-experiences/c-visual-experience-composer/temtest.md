@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 23%
@@ -45,7 +45,7 @@ ht-degree: 23%
 
 您可以指定包含更改元素的页面，或将更改应用到您的网站或域。
 
-1. 按照[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)中的说明创建或编辑活动。
+1. 按照[活动](/help/main/c-activities/activities.md)中的说明创建或编辑活动。
 
 1. 要指定显示体验的页面，请在[!UICONTROL 可视化体验编辑器] (VEC)中单击[!UICONTROL 配置]图标（![配置图标](/help/main/assets/icons/Setting.svg)），然后选择&#x200B;**[!UICONTROL 页面交付]**。
 
@@ -101,7 +101,7 @@ ht-degree: 23%
 * 添加全球横幅（例如，COVID-19公告）
 * 包括全球免运费促销
 
-1. 按照[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)中的说明创建或编辑活动。
+1. 按照[活动](/help/main/c-activities/activities.md)中的说明创建或编辑活动。
 
 1. 要指定显示体验的域，请在[!UICONTROL 可视化体验编辑器]中单击[!UICONTROL 配置]图标（![配置图标](/help/main/assets/icons/Setting.svg)），然后选择&#x200B;**[!UICONTROL 页面交付]**。
 

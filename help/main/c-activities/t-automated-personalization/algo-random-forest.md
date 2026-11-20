@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 7%
+source-wordcount: '1312'
+ht-degree: 6%
 ---
 # 随机林算法 {#random-forest-algorithm}
 
@@ -60,7 +60,7 @@ ht-degree: 7%
 
 ## 随机林如何使用决策树？ {#section_536C105EF9F540C096D60450CAC6F627}
 
-决策树可堪称是强大的统计工具。 但是，它们也存在一些缺陷。 最关键的是，它们可以“过度拟合”数据，因此单个树无法很好地预测未用于构建初始树的将来数据。 这一难题在统计学习中被称为[偏差-方差权衡](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)。
+决策树是一种有用的统计工具。 但是，它们也存在一些缺陷。 最关键的是，它们可以“过度拟合”数据，因此单个树无法很好地预测未用于构建初始树的将来数据。 这一难题在统计学习中被称为[偏差-方差权衡](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)。
 
 随机森林有助于克服这一挑战。 随机林是数百个决策树的集合，这些决策树在同一个数据集上的构建方式略有不同，并且“投票”在一起产生比单个树更好的模型。 这些树是通过随机选择具有替换（称为bagging）的访问记录子集和随机选择属性子集来构建的，因此林由稍有不同的决策树组成。 这种方法在树中引入小变量。 添加此受控量的方差有助于提高算法的预测精度。
 

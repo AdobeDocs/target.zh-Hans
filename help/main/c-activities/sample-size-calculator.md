@@ -4,12 +4,18 @@ description: 使用Adobe Target样本量计算器估计试验持续时间、流�
 title: 样本量计算器
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
+source-git-commit: 39876928cad809220f39c0ffe104edf9422e2773
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 35%
+source-wordcount: '1632'
+ht-degree: 34%
 ---
-# 样本量计算器
+# 样本量计算器 {#sample-size-calculator}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用[!DNL Adobe Target]样本量计算器来估算A/B测试的流量、持续时间、体验数量或可检测的最小效果。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"

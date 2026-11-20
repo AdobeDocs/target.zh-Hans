@@ -16,7 +16,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 14%
@@ -76,7 +76,7 @@ ht-degree: 14%
 
 如果您所在的组织是跨国组织，则您可能拥有两个工作区：一个用于欧洲网页、属性或网站，而另一个用于美国网页、属性或网站。 如果您所在的组织拥有多个品牌，则您的每个品牌可能有其独立的工作区。
 
-有关工作区和企业用户权限功能的详细信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
+有关工作区和企业用户权限功能的详细信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 如果您在环境中启用了&#x200B;**[!UICONTROL 企业用户权限]**，则可以将活动复制到同一工作区或另一个工作区。 当前，无法将活动从一个工作区移到另一个工作区。 要将活动复制到另一个工作区，请从&#x200B;**[!UICONTROL 活动]**&#x200B;页面中，单击要复制的活动旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)），然后单击&#x200B;**[!UICONTROL 复制]**。
 

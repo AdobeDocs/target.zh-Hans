@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 40%
@@ -98,7 +98,7 @@ ht-degree: 40%
 
   有关更多信息，请参阅&#x200B;*可视化体验编辑器选项*&#x200B;中的[使用 DOM 路径浏览元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
 
-* 您可以浏览到其他页面，以跟踪您可能不会更改内容的页面上的点击次数。 此不同的页面必须包含在使用[多页面功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)的活动中，并且必须在其上实现[!DNL at.js]。
+* 您可以浏览到其他页面，以跟踪您可能不会更改内容的页面上的点击次数。 此不同的页面必须包含在使用[多页面功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)的活动中，并且必须在其上实现[!DNL at.js]。
 * 务必选择要跟踪的元素的级别。 例如，指定按钮时，请务必选择链接，而不要选择按钮文本。
 * 如果您选择了多个元素，则当参加者点击任一选定元素时，即会被计为一次点击。 要单独对每个项目进行计数，需为每个元素分别设置成功量度。 要通过单击页面上的多个元素而计算一项，请编辑CSS元素选择器以匹配多个元素。
 * 对于单页应用程序(SPA)上的&#x200B;**[!UICONTROL Automated Personalization]** (AP)和自动定位活动，您可以选择属于特定[!DNL Target]视图的点击跟踪元素。 有关视图的详细信息，请参阅[Adobe Target视图和单页应用程序](/help/main/c-experiences/spa-visual-experience-composer.md)。

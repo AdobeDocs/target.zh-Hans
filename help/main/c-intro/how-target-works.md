@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -136,7 +136,7 @@ Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 
 [!UICONTROL 推荐]活动可根据客户先前的活动或其他算法自动显示客户可能感兴趣的产品或内容。 “推荐”有助于将客户导向到他们可能无法通过其他方式发现的相关项目。
 
-有关更多信息，请参阅[推荐](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)。
+有关更多信息，请参阅[推荐](/help/main/c-recommendations/recommendations.md)。
 
 <!--
 ## How [!DNL Target] counts server-call usage {#usage}

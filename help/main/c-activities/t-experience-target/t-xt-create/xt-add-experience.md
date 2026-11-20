@@ -19,7 +19,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: af388cf398e03e4ec7b4c5c44b03f772eacedf51
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 16%
@@ -58,9 +58,9 @@ ht-degree: 16%
 
    +++ 有关受众的更多信息
 
-   受众库中包含以前定义的受众，其中包括作为 [!DNL Target] 的一部分预先构建的一些常用受众。 您可以从库中选择受众或[创建新受众](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
+   受众库中包含以前定义的受众，其中包括作为 [!DNL Target] 的一部分预先构建的一些常用受众。 您可以从库中选择受众或[创建新受众](/help/main/c-target/c-audiences/audiences.md)。
 
-   除了选择现有受众之外，您还可以合并多个受众以创建按需合并受众，而不是创建新受众。 有关更多信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+   除了选择现有受众之外，您还可以合并多个受众以创建按需合并受众，而不是创建新受众。 有关更多信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md)。
 
    创建受众时，您可以选择位置并指定该位置的参数。 在&#x200B;**[!UICONTROL 自定义]** （**[!UICONTROL 创建受众]** > **[!UICONTROL 自定义]**）下，选择位置，然后指定所需的参数。
 

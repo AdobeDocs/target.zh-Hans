@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 28%
@@ -35,7 +35,7 @@ ht-degree: 28%
 
 在[!DNL Target]中使用AEM [!UICONTROL 体验片段]时，请考虑以下事项：
 
-* 此功能要求您是 [!DNL Adobe Experience Manager] (AEM) 客户。 有关更多信息，请见以下[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
+* 此功能要求您是 [!DNL Adobe Experience Manager] (AEM) 客户。 有关更多信息，请见以下[要求](#requirements)。
 * [!UICONTROL 体验片段]和[!UICONTROL 内容片段]可用于以下活动类型：
 
   * [[!UICONTROL A/B 测试]](/help/main/c-activities/t-test-ab/test-ab.md)

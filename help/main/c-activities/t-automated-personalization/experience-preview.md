@@ -14,18 +14,24 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 41%
+source-wordcount: '774'
+ht-degree: 39%
 ---
-# 用体验预览 URL 预览 Automated Personalization 活动
+# 用体验预览 URL 预览 Automated Personalization 活动 {#experience-preview}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何为&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活动生成体验预览URL，以在活动上线之前查看您网站上的体验。
+
+>[!ENDSHADEBOX]
 
 可以为[!DNL Target] [!UICONTROL Automated Personalization]活动生成体验预览URL，以便在活动上线预览和QA之前，直接在网站上查看体验内容。 体验预览URL绕过定位以强制查看特定体验。
 
 >[!NOTE]
 >
->您可以为其他类型的[!DNL Target]活动创建体验预览URL。 但是，此过程略有不同。 有关更多信息，请参阅[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md#preview)。
+>您可以为其他类型的[!DNL Target]活动创建体验预览URL。 但是，此过程略有不同。 有关更多信息，请参阅[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md#section_1C59BAA247B247BDB125D1BE8EAD4547)。
 
 使用体验预览URL可与团队成员共享体验，并跨浏览器和环境进行QA体验，而无需创建单独的QA活动。 如果网站很复杂，或者您的安全策略不允许在模拟器中查看网站，则此功能将特别有用。
 

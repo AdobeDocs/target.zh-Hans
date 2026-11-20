@@ -1,7 +1,7 @@
 ---
 keywords: 实体;实体属性;将信息传递到推荐;行为数据;数据计数器;定义相对 URL;显示库存水平;定义价格;定义利润率;自定义属性
 description: 了解如何使用实体属性将产品或内容信息传递到[!DNL Target]推荐。
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 title: 如何使用实体属性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
@@ -50,7 +50,7 @@ ht-degree: 28%
 
 通常，如果您将at.js 1.*x*&#x200B;与`mboxCreate`一起使用，则显示信息mbox类似于以下示例。 所有实体参数属性都区分大小写。
 
-如果您使用的是at.js 2.*x*，则不再支持`mboxCreate`（如以下示例中所用）。 要使用at.js 2.*x*&#x200B;将产品或内容信息传递给[!DNL Recommendations]，请使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}。 有关示例，请参阅[计划和实施推荐](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
+如果您使用的是at.js 2.*x*，则不再支持`mboxCreate`（如以下示例中所用）。 要使用at.js 2.*x*&#x200B;将产品或内容信息传递给[!DNL Recommendations]，请使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}。 有关示例，请参阅[计划和实施推荐](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
 
 +++ 传递实体属性的mbox示例
 

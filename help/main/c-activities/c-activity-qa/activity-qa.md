@@ -106,7 +106,7 @@ ht-degree: 12%
 
 ### [!DNL Adobe Experience Platform Web SDK]
 
-如果您的站点部署了[[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}，则可以通过在站点上加载将`at_qa_mode`参数设置为空值的页面来手动强制自己退出。 例如：
+如果您的站点部署了[[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}，则可以通过在站点上加载将`at_qa_mode`参数设置为空值的页面来手动强制自己退出。 例如：
 
 `https://www.mysite.com/?at_qa_mode=`
 
@@ -154,7 +154,7 @@ ht-degree: 12%
 
 +++ 阻止第三方Cookie的浏览器(at.js 1.*x*)
 
-如果您有at.js 1.*x*，则在您使用Safari或其他阻止第三方Cookie的浏览器时，**[!UICONTROL 活动QA]**&#x200B;模式不会在页面之间持续存在。 在这些情况下，您必须将预览参数添加到您导航到的每个URL。 如果您实施了[CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}，则同样如此。
+如果您有at.js 1.*x*，则在您使用Safari或其他阻止第三方Cookie的浏览器时，**[!UICONTROL 活动QA]**&#x200B;模式不会在页面之间持续存在。 在这些情况下，您必须将预览参数添加到您导航到的每个URL。 如果您实施了[CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=zh-Hans){target=_blank}，则同样如此。
 
 +++
 
@@ -204,9 +204,9 @@ ht-degree: 12%
 
 [!DNL Target]支持以下JavaScript库：
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans)
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans)
 
 下表列出了各种活动类型，并指示每个库是否支持&#x200B;**[!UICONTROL 活动QA]**&#x200B;模式：
 

@@ -398,7 +398,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 了解信息源的用途
 * 了解信息源的值
 
->[!VIDEO](https://video.tv.adobe.com/v/27695)
+>[!VIDEO](https://video.tv.adobe.com/v/33957?captions=chi_hans)
 
 +++
 
@@ -409,6 +409,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 设置信息源
 * 了解要使用哪种类型的信息源
 
->[!VIDEO](https://video.tv.adobe.com/v/27696)
+>[!VIDEO](https://video.tv.adobe.com/v/33956?captions=chi_hans)
 
 +++

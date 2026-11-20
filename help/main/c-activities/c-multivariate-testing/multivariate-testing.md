@@ -97,7 +97,7 @@ ht-degree: 24%
 * Select适合的活动类型以实现您的目标。
 * 描述适用于所有活动类型的三步引导式工作流。
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
 
 ### 正在创建多变量测试(9:25) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -106,4 +106,4 @@ ht-degree: 24%
 * 定义并设计多变量测试。
 * 创建多变量测试。
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)

@@ -2,7 +2,7 @@
 keywords: 创建自定义标准；算法；标准；推荐标准；CSV；FTP；SFTP；上传CSV
 description: 了解如何上传CSV文件以在Adobe [!DNL Target]推荐中自定义您的推荐。
 title: 如何在[!DNL Recommendations]中上传自定义标准？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 TQID: 'https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50'
@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 67ee6127f023f8450e1e6798a617b2bcbd6e7ba6
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 24%
@@ -41,7 +41,7 @@ ht-degree: 24%
 
 1. 在[基本信息](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)部分中填写信息。
 
-1. 从&#x200B;**[!UICONTROL 选择算法类型]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 自定义标准]**。
+1. 从&#x200B;**[!UICONTROL Select算法类型]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 自定义标准]**。
 
 1. 从&#x200B;**[!UICONTROL 算法]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 自定义算法]**。
 
@@ -61,7 +61,7 @@ ht-degree: 24%
 
    * **FTP：**&#x200B;若要从FTP服务器上传CSV文件，请选择&#x200B;**[!UICONTROL FTP]**，然后输入所需信息。 您可以使用SSL，SSL会使用FTPS协议安全地传输CSV文件。
 
-   * **SFTP：**&#x200B;要通过SFTP服务器上传CSV文件，请选择&#x200B;**[!UICONTROL SFTP]**，然后输入主机名或IP地址、端口（默认为22）、用户名、密码和/或SSH私钥、目录和文件名。 有关详细信息，请参阅[支持的SFTP服务器设置](/help/main/c-recommendations/c-products/feeds.md#sftp-settings)。
+   * **SFTP：**&#x200B;要通过SFTP服务器上传CSV文件，请选择&#x200B;**[!UICONTROL SFTP]**，然后输入主机名或IP地址、端口（默认为22）、用户名、密码和/或SSH私钥、目录和文件名。 有关详细信息，请参阅[支持的SFTP服务器设置](/help/main/c-recommendations/c-products/feeds.md#steps)。
 
      SFTP不会更改自定义标准CSV格式。 使用`# Key,Recommendation_1,...`格式，如果使用其他馈送类型的格式，会导致导入失败。
 

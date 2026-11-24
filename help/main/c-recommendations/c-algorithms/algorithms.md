@@ -60,7 +60,7 @@ ht-degree: 5%
 | 算法类型 | 使用时间 | 可用的算法 |
 | --- | --- | --- |
 | **[!UICONTROL 基于购物车]** | 根据用户的购物车内容提供推荐。 | <ul><li>**[!UICONTROL 查看过这些项目，也查看过这些项目的人]**</li><li>**[!UICONTROL 查看了这些商品的人们也购买了]**</li><li>**[!UICONTROL 购买了这些商品的人，也购买了]**</li></ul>有关详细信息，请参阅&#x200B;*使推荐基于推荐键*&#x200B;中的[基于购物车的](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)。 |
-| **[!UICONTROL 基于热门程度]** | 根据项目在网站中的整体热门程度，或根据用户最喜爱或查看次数最多的类别、品牌、流派等中的项目热门程度提供推荐。 | <ul><li>整个网站查看的次数最多&#x200B;****</li><li>按类别查看的次数最多&#x200B;****</li><li>**[!UICONTROL 按项目属性查看的次数最多]**</li><li>**[!UICONTROL 按轮廓属性划分的最多浏览量]**</li><li>**[!UICONTROL 网站上的最畅销商品]**</li><li>**[!UICONTROL 按类别划分的最畅销商品]**</li><li>按项目属性&#x200B;**[!UICONTROL 最畅销商品]**</li><li>**[!UICONTROL 按配置文件属性排列的畅销商品排名]**</li><li>**[!UICONTROL 按Analytics指标排名]**</li></ul> |
+| **[!UICONTROL 基于热门程度]** | 根据项目在网站中的整体热门程度，或根据用户最喜爱或查看次数最多的类别、品牌、流派等中的项目热门程度提供推荐。 | <ul><li>整个网站查看的次数最多&#x200B;**&#x200B;**</li><li>按类别查看的次数最多&#x200B;**&#x200B;**</li><li>**[!UICONTROL 按项目属性查看的次数最多]**</li><li>**[!UICONTROL 按轮廓属性划分的最多浏览量]**</li><li>**[!UICONTROL 网站上的最畅销商品]**</li><li>**[!UICONTROL 按类别划分的最畅销商品]**</li><li>按项目属性&#x200B;**[!UICONTROL 最畅销商品]**</li><li>**[!UICONTROL 按配置文件属性排列的畅销商品排名]**</li><li>**[!UICONTROL 按Analytics指标排名]**</li></ul> |
 | **[!UICONTROL 基于项目]** | 根据与用户当前正在查看或最近查看的项目类似的项目提供推荐。 | <ul><li>**[!UICONTROL 查看了这个项目，也查看了那个项目的人]**</li><li>**[!UICONTROL 查看了这个项目，但购买了那个项目的人]**</li><li>**[!UICONTROL 购买了这个项目，也购买了那个项目的人]**</li><li>**[!UICONTROL 具有相似属性的项目]**</li></ul> |
 | **[!UICONTROL 基于用户]** | 根据用户的行为提供推荐。 | <ul><li>**[!UICONTROL 最近查看的项目]**</li><li>**[!UICONTROL 为您推荐]**</li></ul> |
 | **[!UICONTROL 自定义标准]** | 根据上传的自定义文件提出建议。 | <ul><li>自定义算法</li></ul> |
@@ -81,7 +81,7 @@ ht-degree: 5%
 
 1. 在[推荐的算法](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)部分中，从&#x200B;**[!UICONTROL 算法类型]**&#x200B;列表中选择&#x200B;**[!UICONTROL 基于项目的]**。
 
-1. 查看了这个项目，并从&#x200B;**[!UICONTROL 算法]**&#x200B;列表中查看了&#x200B;]**的Select**[!UICONTROL &#x200B;人员。
+1. 查看了这个项目，并从&#x200B;**[!UICONTROL 算法]**&#x200B;列表中查看了&#x200B;**的Select**&#x200B;人员。
 
 1. 从&#x200B;**[!UICONTROL 推荐键]**&#x200B;列表中Select自定义配置文件属性（例如，**[!UICONTROL 上次添加到观看列表的节目]**）。
 

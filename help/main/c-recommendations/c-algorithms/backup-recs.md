@@ -39,7 +39,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->有关详细信息（包括说明使用&#x200B;**[!UICONTROL 部分设计渲染]**&#x200B;和&#x200B;**[!UICONTROL 同时或单独显示备份内容]**&#x200B;选项结果的矩阵），请参阅创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)的[备份内容部分。
+>有关详细信息（包括说明使用&#x200B;**[!UICONTROL 部分设计渲染]**&#x200B;和&#x200B;**[!UICONTROL 同时或单独显示备份内容]**&#x200B;选项结果的矩阵），请参阅创建标准[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)的备份内容部分。
 
 备用推荐功能始终使用网站上查看次数最多的项目，来填充使用算法数据后剩余的任何空位。 例如，一个设计被配置为显示五个推荐项目，但算法拥有的数据仅够填充五个版块中的两个。 然后，备用推荐功能会将其他三个版块中的查看次数最多的项目填满。
 

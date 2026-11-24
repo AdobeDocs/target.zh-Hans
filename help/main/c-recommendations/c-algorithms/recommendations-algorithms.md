@@ -2,7 +2,7 @@
 keywords: 推荐算法；模型训练；模型提供；内容交付；基于项目；基于用户；基于热门程度；基于购物车；自定义标准
 description: 了解[!DNL Target Recommendations]中使用的算法，包括模型训练和模型服务。
 title: Target 的推荐算法背后的科学原理
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 步骤如下：
 
-* **输入数据**：在您[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}时或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的访客查看和购买形式的行为数据。
+* **输入数据**：在您[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}时或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的访客查看和购买形式的行为数据。
 
 * **模型训练**：
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 步骤如下：
 
-* **输入数据**：此算法仅使用目录数据，通过[目录馈送、实体API或页面更新](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}引入到[!DNL Target]。
+* **输入数据**：此算法仅使用目录数据，通过[目录馈送、实体API或页面更新](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}引入到[!DNL Target]。
 
 * **模型训练**：
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 步骤如下：
 
-* **输入数据**：与项 — 项协同筛选(CF)方法相同。 **[!UICONTROL 为您推荐的]**&#x200B;和基于购物车的算法都使用在您[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}时或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的用户查看和购买形式的行为数据。
+* **输入数据**：与项 — 项协同筛选(CF)方法相同。 **[!UICONTROL 为您推荐的]**&#x200B;和基于购物车的算法都使用在您[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}时或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的用户查看和购买形式的行为数据。
 
 * **模型训练**：
 

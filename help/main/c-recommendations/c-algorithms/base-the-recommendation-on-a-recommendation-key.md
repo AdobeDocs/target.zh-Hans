@@ -49,7 +49,7 @@ ht-degree: 12%
 
 ## 基于购物车 {#cart-based}
 
-**[!UICONTROL 基于购物车的]**&#x200B;算法类型根据访客当前购物车的内容推荐项目。 推荐键在[mbox参数`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}中作为逗号分隔值提供。 仅考虑前 10 个值。
+**[!UICONTROL 基于购物车的]**&#x200B;算法类型根据访客当前购物车的内容推荐项目。 推荐键在[mbox参数`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}中作为逗号分隔值提供。 仅考虑前 10 个值。
 
 基于购物车的推荐逻辑类似于“**[!UICONTROL 为您推荐]**”的基于用户的算法，以及“**[!UICONTROL 查看了这个项目，购买了那个]**”和“**[!UICONTROL 购买了这个项目，购买了那个]**”基于项目的算法。
 
@@ -121,7 +121,7 @@ ht-degree: 12%
 >title="轮廓属性"
 >abstract="您可以使用轮廓脚本创建轮廓属性。 创建并激活一个轮廓脚本后，就可以与这个算法一起使用与该脚本对应的轮廓属性。"
 
-**[!UICONTROL 个人资料属性查看次数最多]**&#x200B;和&#x200B;**[!UICONTROL 个人资料属性最畅销商品]**&#x200B;依赖于个人资料脚本来填充该属性。 脚本名称必须以`recsAttribute`前缀开头，因此[!DNL Target]将其存储为`user.recsAttribute<Name>`。 可以针对与用例相关的任何访客特征编写脚本。 有关使用配置文件脚本设置配置文件属性的详细信息，请参阅[配置文件参数](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)。
+**[!UICONTROL 个人资料属性查看次数最多]**&#x200B;和&#x200B;**[!UICONTROL 个人资料属性最畅销商品]**&#x200B;依赖于个人资料脚本来填充该属性。 脚本名称必须以`recsAttribute`前缀开头，因此[!DNL Target]将其存储为`user.recsAttribute<Name>`。 可以针对与用例相关的任何访客特征编写脚本。 有关使用配置文件脚本设置配置文件属性的详细信息，请参阅[配置文件参数](https://experienceleague.adobe.com/zh-hans/docs/target/using/audiences/visitor-profiles/profile-parameters)。
 
 例如，名为`recsAttributeRegion`的以下脚本基于访客所在的区域：
 

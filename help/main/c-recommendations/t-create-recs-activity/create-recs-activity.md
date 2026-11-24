@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 52%
@@ -33,7 +33,7 @@ ht-degree: 52%
 
 1. 单击&#x200B;**[!UICONTROL 活动]** > **[!UICONTROL 创建活动]** > **[!UICONTROL 推荐]**。
 
-1. 根据需要选择&#x200B;**[!UICONTROL Visual]**。
+1. Select **[!UICONTROL 可视化]**（如有必要）。
 
    如果您希望使用[!UICONTROL 基于表单的体验编辑器]，请选择[!UICONTROL 表单]。 请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，以了解更多信息。
 
@@ -88,7 +88,7 @@ ht-degree: 52%
 
 1. 选择一个或多个[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)。
 
-   标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。 默认情况下，[!UICONTROL 选择标准]屏幕显示的标准与您的垂直行业以及您在上一步中选择的页面类型兼容。 您可以更改这些选项以显示其他标准。
+   标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。 默认情况下，[!UICONTROL Select标准]屏幕显示的标准与您的垂直行业以及您在上一步中选择的页面类型兼容。 您可以更改这些选项以显示其他标准。
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ ht-degree: 52%
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 1. 选择一个[设计](/help/main/c-recommendations/c-design-overview/design-overview.md)。
 
-   设计是一种模板，可决定页面上各个位置的外观。 [!DNL Target]包含多个预配置的设计。 您也可以创建自己的自定义设计。 有关详细信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   设计是一种模板，可决定页面上各个位置的外观。 [!DNL Target]包含多个预配置的设计。 您也可以创建自己的自定义设计。 有关详细信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)和[自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design)。
 
    ![“选择设计”对话框](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -118,7 +118,7 @@ ht-degree: 52%
 
      如果您选择了多个标准，则只能选择一个设计。
 
-   * 要创建自定义设计，请单击&#x200B;**[!UICONTROL 创建设计]**，然后填写新设计的名称和代码。 单击&#x200B;**[!UICONTROL 下一步]**，选择或上传图像，然后单击&#x200B;**[!UICONTROL 完成]** > **[!UICONTROL 完成]**。 有关创建新设计的信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+   * 要创建自定义设计，请单击&#x200B;**[!UICONTROL 创建设计]**，然后填写新设计的名称和代码。 单击&#x200B;**[!UICONTROL 下一步]**，选择或上传图像，然后单击&#x200B;**[!UICONTROL 完成]** > **[!UICONTROL 完成]**。 有关创建新设计的信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 

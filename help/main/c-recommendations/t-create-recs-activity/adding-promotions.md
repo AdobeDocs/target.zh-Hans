@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 34%
@@ -29,7 +29,7 @@ ht-degree: 34%
 
 >[!IMPORTANT]
 >
->静态和动态排除规则是可帮助您完成营销工作的强大功能。 有关详细信息、示例和用例情景，请参阅[使用动态和静态包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
+>静态和动态排除规则是可帮助您完成营销工作的强大功能。 有关详细信息、示例和用例情景，请参阅[使用动态和静态包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules)。
 
 创建 [!DNL Recommendations] 活动时，您可以选择将促销项目包含在您的 [!DNL Recommendations] 设计中。 促销活动使用设计中的可用版块，且优先于标准结果和备用推荐。 例如，如果您的设计中有六个版块，而您将其中两个用于促销活动，则其余四个可用于基于标准推荐的项目。
 
@@ -65,7 +65,7 @@ ht-degree: 34%
 
    * 选择&#x200B;**[!UICONTROL 按属性促销]**，然后添加规则以定义要促销的项目的属性。
 
-     如果选择[!UICONTROL 按属性促销]，则可以创建动态匹配。 有关详细信息，请参阅[使用动态和静态包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
+     如果选择[!UICONTROL 按属性促销]，则可以创建动态匹配。 有关详细信息，请参阅[使用动态和静态包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules)。
 
    * 选择&#x200B;**[!UICONTROL 促销收藏集]**，然后选择要促销的项目收藏集。
 

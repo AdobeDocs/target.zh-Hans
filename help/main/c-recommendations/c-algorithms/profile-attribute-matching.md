@@ -1,7 +1,7 @@
 ---
 keywords: 包含规则；包含标准；推荐；促销活动；动态筛选；动态；配置文件属性匹配
 description: 了解如何通过比较项目（实体）与用户配置文件中的值在[!DNL Target Recommendations]中动态筛选。
-title: 如何在“推荐”活动中按配置文件属性匹配进行筛选？
+title: 轮廓属性匹配
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
@@ -18,33 +18,33 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 0%
+source-wordcount: '503'
+ht-degree: 5%
 ---
-# 配置文件属性匹配
+# 轮廓属性匹配 {#profile-attribute-matching}
 
-通过比较项目（实体）与用户配置文件中的值在[!DNL Adobe Target Recommendations]中动态筛选。
+>[!BEGINSHADEBOX]
 
-当您想要显示与访客配置文件中存储的值（如大小或最喜爱的品牌）匹配的推荐时，请使用[!UICONTROL 配置文件属性匹配]。
+**在此页面上：**&#x200B;了解如何通过比较项目（实体）与访客配置文件中的值在[!DNL Adobe Target Recommendations]中动态筛选推荐。
 
->[!NOTE]
->
->为标准和促销活动创建和使用包含规则[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的过程与用例和示例类似。
+>[!ENDSHADEBOX]
 
-以下情形显示如何使用[!UICONTROL 配置文件属性匹配]：
+使用&#x200B;**[!UICONTROL 配置文件属性匹配]**&#x200B;显示与访客配置文件中存储的值匹配的推荐，如大小或最喜爱的品牌。 如用例和示例所述，针对标准和促销活动创建和使用包含规则的过程类似。 有关详细信息，请参阅[使用动态和静态包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)。
 
-* 一家销售眼镜的公司将访客最喜欢的框架颜色存储为“核桃”。 对于该特定访客，推荐设置为仅返回颜色与“核桃”匹配的眼镜框。
-* 可以在访客浏览您公司的网站时为其服装尺寸（例如，小号、Medium或大号）定义配置文件参数。 可以设置推荐以匹配该配置文件参数，并仅返回特定于用户首选服装尺寸的产品。
+以下情形显示如何使用&#x200B;**[!UICONTROL 配置文件属性匹配]**：
 
-## 配置文件属性匹配示例 {#section_9873E2F22E094E479569D05AD5BB1D40}
+* 一家销售眼镜的公司将访客最喜欢的框架颜色存储为“核桃”。 对于该访客，推荐设置为仅返回颜色与“核桃”匹配的眼镜框。
+* 当访客浏览公司网站时，可以为该访客的服装尺寸（例如，小、Medium或大）定义配置文件参数。 可以设置推荐以匹配该配置文件参数，并仅返回访客首选服装尺寸中的产品。
 
-[!UICONTROL 配置文件属性匹配]允许您仅推荐与访客配置文件中某个属性匹配的项目，如以下示例所示。
+## 配置文件属性匹配示例
+
+**[!UICONTROL 配置文件属性匹配]**&#x200B;只建议与访客配置文件中的属性匹配的项目，如以下示例所示。
 
 ### 推荐用户最喜爱的品牌中的项目
 
-例如，您可以使用[!UICONTROL 配置文件属性匹配]选项创建一个规则，仅在品牌等于`profile.favoritebrand`中存储的值或文本时推荐项目。 在此规则下，如果访客正在查看特定品牌的运动裤，则仅显示与该用户最喜爱的品牌（访客配置文件中`profile.favoritebrand`中存储的值）匹配的推荐。
+**[!UICONTROL 配置文件属性匹配]**&#x200B;选项可以创建规则，仅在品牌等于`profile.favoritebrand`中存储的值或文本时推荐项目。 在此规则下，如果访客正在查看特定品牌的运动裤，则仅显示与该访客最喜爱的品牌相匹配的推荐（该访客的配置文件中存储在`profile.favoritebrand`中的值）。
 
 ![最喜爱的品牌](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
 
@@ -55,9 +55,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### 将职位与求职者匹配
 
-假设你试图将工作岗位与求职者相匹配。 您只想推荐与求职者在同一城市的工作。
-
-您可以使用包含规则将求职者的位置从访客配置文件匹配到工作列表，如以下示例所示：
+为了将就业岗位与求职者相匹配，只推荐与求职者位于同一城市的工作。 包含规则可以将求职者从访客个人资料的位置与工作列表相匹配，如以下示例所示：
 
 ![用户的城市](/help/main/c-recommendations/c-algorithms/assets/city-new.png)
 
@@ -68,13 +66,11 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 ### 根据大小推荐项目
 
-有关配置文件属性匹配如何影响推荐的可视示例，请考虑销售电风扇的网站。
+以下示例显示了配置文件属性匹配如何影响销售电风扇的网站上的推荐。
 
-当访客单击此网站上风扇的各种图像时，每个页面会根据图像中风扇的大小是小还是大来设置`entity.size`参数的值。
+当访客单击此网站上风扇的各种图像时，每个页面会根据图像中风扇的大小是小还是大来设置`entity.size`参数的值。 配置文件脚本跟踪和计算`entity.size`的值设置为小或大的次数。
 
-假设您创建了一个配置文件脚本来跟踪和计数`entity.size`的值设为小还是大的次数。
-
-如果访客随后返回主页，他们会根据点击的粉丝数量是小还是大查看筛选出的推荐。
+如果访客随后返回主页，则会根据点击的小粉丝还是大粉丝来显示过滤的推荐。
 
 基于在网站上查看更多小粉丝的建议：
 

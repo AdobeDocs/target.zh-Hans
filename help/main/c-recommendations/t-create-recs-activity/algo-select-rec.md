@@ -1,7 +1,7 @@
 ---
 keywords: 推荐；推荐活动；标准；算法
 description: 了解如何选择要在Adobe [!DNL Target] Recommendations活动中使用的标准（用于确定要推荐的产品或内容的规则）。
-title: 如何为“推荐”活动选择标准？
+title: 如何为“推荐”活动使用Select标准？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
@@ -14,14 +14,14 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
 ---
 # 选择标准
 
-选择要在您的[!DNL Adobe Target Recommendations]活动中使用的[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)。 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。
+Select要在您的[!DNL Adobe Target Recommendations]活动中使用的[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)。 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。
 
 您可以添加多个标准，以便对多个推荐类型进行相互测试。
 
@@ -31,11 +31,11 @@ ht-degree: 62%
 
   [!DNL Recommendations] 中提供了一些自带标准。 您和您的团队也可以创建自己的自定义标准。
 
-* 要创建新标准，请单击&#x200B;**[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准]**，然后填写有关新标准的信息。 有关创建新标准的信息，请参阅[创建新标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
+* 要创建新标准，请单击&#x200B;**[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准]**，然后填写有关新标准的信息。 有关创建新标准的信息，请参阅[创建新标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#create-criteria)。
 
 **选择标准：**
 
-1. 在[创建新推荐](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)时，在&#x200B;**[!UICONTROL 选择标准]**&#x200B;对话框中，找到并选择一个或多个标准。
+1. 在[创建新推荐](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)时，在&#x200B;**[!UICONTROL Select标准]**&#x200B;对话框中，找到并选择一个或多个标准。
 
    您可以使用[!UICONTROL 行业类型]筛选器、[!UICONTROL 页面类型]筛选器和[!UICONTROL 兼容]复选框来筛选条件列表。 这些选项可帮助您找到所需的标准。
 
@@ -43,4 +43,4 @@ ht-degree: 62%
    * **页面类型：**&#x200B;页面类型可帮助您对推荐进行分类。 每种页面类型还有一些内置标准，可供您选择。
    * **兼容：**&#x200B;仅显示要求选定页面传递所需数据的标准。 并非每个标准都能在每个页面上正常运行。 页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。 一般来说，最好只显示兼容的标准。 但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。 可以在您的设置中禁用或启用此选项：**[!UICONTROL 推荐]** > **[!UICONTROL 设置]**。
 
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以显示[选择设计](/help/main/c-recommendations/c-design-overview/design-overview.md)对话框。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以显示[Select设计](/help/main/c-recommendations/c-design-overview/design-overview.md)对话框。

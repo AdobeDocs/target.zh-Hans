@@ -1,7 +1,7 @@
 ---
 keywords: 自定义设计;Velocity;小数;逗号;自定义设计
 description: 了解如何使用开源[!DNL Velocity]设计语言自定义[!DNL Target]推荐中的推荐设计。
-title: 如何使用Velocity自定义设计？
+title: 使用 Velocity 自定义设计
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
@@ -18,22 +18,26 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 28%
+source-wordcount: '1086'
+ht-degree: 12%
 ---
-# 使用[!DNL Velocity]自定义设计
+# 使用[!DNL Velocity]自定义设计 {#customize-design}
 
-使用开源[!DNL Velocity]设计语言自定义[!DNL Adobe Target Recommendations]中的推荐设计。
+>[!BEGINSHADEBOX]
 
-## [!DNL Velocity] 概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+**在此页面上：**&#x200B;了解如何使用开源[!DNL Velocity]设计语言自定义[!DNL Adobe Target Recommendations]中的推荐设计。
+
+>[!ENDSHADEBOX]
+
+## [!DNL Velocity] 概述 {#velocity-overview}
 
 有关[!DNL Velocity]的信息可在[https://velocity.apache.org](https://velocity.apache.org)中找到。
 
-所有[!DNL Velocity]逻辑、语法等均可用于推荐设计。 这意味着您可以使用[!DNL Velocity]而不是JavaScript创建&#x200B;*for*&#x200B;循环、*if*&#x200B;语句和其他代码。
+所有[!DNL Velocity]逻辑、语法等均可用于推荐设计。 这意味着可以使用[!DNL Velocity]而不是JavaScript创建&#x200B;*for*&#x200B;循环、*if*&#x200B;语句和其他代码。
 
-发送到`productPage` mbox中的[!DNL Recommendations]或CSV上传的实体属性可以在设计中显示，但“多值”属性除外。 可以发送任何类型的属性；但是，[!DNL Target]不会将“多值”类型的属性作为模板可对其进行迭代的数组传递（例如`entityN.categoriesList`）。
+发送到`productPage` mbox中的[!DNL Recommendations]或CSV上传的实体属性可以在设计中显示，但“多值”属性除外。 可以发送任何类型的属性；但是，[!DNL Target]不会将“多值”类型的属性作为设计可对其进行迭代的数组传递（例如`entityN.categoriesList`）。
 
 这些值引用了下列语法：
 
@@ -43,14 +47,14 @@ $entityN.variable
 
 实体属性名称必须跟在[!DNL Velocity]速记符号之后，速记符号由前导&#x200B;*$*&#x200B;字符组成，后跟[!DNL Velocity]模板语言(VTL)标识符。 VTL 标识符必须以字母字符（a-z 或 A-Z）开头。
 
-Velocity实体属性名称仅限于以下字符类型：
+[!DNL Velocity]实体属性名称限制为以下字符类型：
 
 * 字母（a-z、A-Z）
 * 数字 (0-9)
 * 连字符 ( - )
 * 下划线 ( _ )
 
-以下属性可用作[!DNL Velocity]数组。 因此，可通过索引对这些变量进行迭代或引用。
+以下属性可用作[!DNL Velocity]数组。 因此，它们可以循环使用，也可以通过索引引用。
 
 * `entities`
 * `entityN.categoriesList`
@@ -71,21 +75,21 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-有关[!DNL Velocity]变量（属性）的详细信息，请参阅[https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables)。
+有关[!DNL Velocity]变量（属性）的详细信息，请参阅[Velocity文档](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables)。
 
-如果您在设计中使用配置文件脚本，脚本名称前面的$必须用`\`（反斜杠）进行转义。 例如：
+如果设计中使用了配置文件脚本，脚本名称前面的$必须用`\`（反斜杠）进行转义。 例如：
 
 `\${user.script_name}`
 
 >[!NOTE]
 >
->设计中可引用（无论是以硬编码方式引用还是通过循环引用）的最大实体数为99。 模板脚本最长可包含 65,000 个字符。
+>设计中可引用（硬编码或通过循环）的最大实体数为99。 设计脚本最多可包含65,000个字符。
 
-例如，如果您想要在设计中显示类似于下面的内容：
+显示与下图类似内容的设计：
 
-![velocity_example图像](assets/velocity_example.png)
+![标题为“其他有趣的活动”的4 x 1设计示例，其中四个项目分别显示照片、名称、价格、评分和距离](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-您可使用以下代码：
+可以使用以下代码：
 
 ```
 <table style="border:1px solid #CCCCCC;"> 
@@ -134,22 +138,22 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->如果要在指示属性名称的标记完成之前在属性的值之后添加文本，则可以使用正式表示法将属性名称括起来。 例如：`${entity1.thumbnailUrl}.gif`。
+>若要在属性值之后添加文本，在指示属性名称已完成的标记之前添加文本，请使用正式表示法将属性名称括起来。 例如：`${entity1.thumbnailUrl}.gif`。
 
-您还可以在设计中将`algorithm.name`和`algorithm.dayCount`用作实体属性，以便使用一个设计来测试多个标准，并在该设计中动态显示标准名称。 这样可指示访客查看了“最畅销商品”或属于“查看了这个项目，但购买了那个项目的人”。 您甚至还可以使用这些属性来显示`dayCount`（标准中使用的数据所对应的天数，例如“过去2天的最畅销商品”，等等）。
+`algorithm.name`和`algorithm.dayCount`也可用作设计中的实体属性，因此一个设计可用于测试多个标准，并且标准名称可在设计中动态显示。 这会向访客显示访客正在查看“最畅销商品”或“查看了这个项目，但购买了那个项目的人”。 也可以显示`dayCount`（标准中使用的数据的天数，例如“过去2天的最畅销商品”）。
 
-## 处理[!DNL Velocity]模板中的数字
+## 使用[!DNL Velocity]设计中的数字 {#numbers}
 
-默认情况下，[!DNL Velocity]模板将所有实体属性视为字符串值。 您可能希望将实体属性视为数字值，以便执行数学操作或将其与另一个数值进行比较。 要将实体属性视为数字值，请执行以下步骤：
+默认情况下，[!DNL Velocity]设计将所有实体属性视为字符串值。 可能需要将实体属性视为数字值，以执行数学运算或将其与另一个数值进行比较。 要将实体属性视为数字值，请执行以下步骤：
 
 1. 声明一个虚拟变量并将其初始化为一个任意整数或双精度值。
-1. 确保要使用的实体属性不为空（[!DNL Target Recommendations]模板解析器验证并保存模板所必需的）。
-1. 将实体属性传递到您在步骤1中创建的虚拟变量上的`parseInt`或`parseDouble`方法中，以将字符串转换为整数或双精度值。
+1. 确保要使用的实体属性不为空（为[!DNL Target Recommendations]的设计解析器验证并保存设计所必需的）。
+1. 将实体属性传递到步骤1中创建的虚拟变量的`parseInt`或`parseDouble`方法中，以将字符串转换为整数或双精度值。
 1. 对新数值执行数学运算或比较。
 
 ### 示例：计算折扣价
 
-假设您要将项目的显示价格降低0.99美元以应用折扣。 可以使用以下方法获得此结果：
+要将项目的显示价格降低0.99美元以应用折扣，可以使用以下方法：
 
 ```
 #set( $double = 0.1 )
@@ -164,7 +168,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ### 示例：根据项目的评级选择要显示的星级数
 
-假设您要根据项目的数字平均客户评级显示适当的星级数。 可以使用以下方法获得此结果：
+要根据项目的数字平均客户评级显示适当的星级数，可以使用以下方法：
 
 ```
 #set( $double = 0.1 )
@@ -189,7 +193,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ### 示例：根据项目的长度（分钟）以小时和分钟计算时间
 
-假设您以分钟为单位存储影片长度，但希望以小时和分钟为单位显示影片长度。 可以使用以下方法获得此结果：
+要在以分钟为单位存储影片长度时，以小时和分钟为单位显示影片长度，可以使用以下方法：
 
 ```
 #if( $entity1.get('length_minutes') )
@@ -200,11 +204,11 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-## 显示带有推荐产品的关键项目 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## 显示带有推荐产品的关键项目 {#key-item}
 
-您可以对设计进行修改，以便同时显示关键项目和其他推荐产品。 例如，您可能想要在推荐产品旁边显示当前项目，以供访客参考。
+设计可以将该关键项目与其他推荐产品一起显示。 例如，可以在推荐旁边显示当前项目以供参考。
 
-要实现这一点，需在设计中创建一个列，并使该列使用您的推荐所基于的 `$key` 属性，而不是 `$entity` 属性。 例如，您的关键项目列的代码可能与以下内容类似：
+为此，请在设计中创建一个列，该列使用推荐所基于的`$key`属性，而不是`$entity`属性。 例如，键列的代码可能如下所示：
 
 ```
 <div class="at-table-column"> 
@@ -219,13 +223,13 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 最终生成的设计如下所示，其中有一列显示了关键项目。
 
-![rec_key图像](assets/rec_key.png)
+![设计四列，第一列显示标记为当前产品的键项](/help/main/c-recommendations/c-design-overview/assets/rec_key.png)
 
-创建[!DNL Recommendations]活动时，如果关键项目是从访客的配置文件中获取的（例如“上次购买的项目”），则[!DNL Target]会在[!UICONTROL 可视化体验编辑器] (VEC)中显示一个随机产品。 这是因为在您设计活动时配置文件不可用。 访客查看页面时，他们将看到预期的关键项目。
+创建[!DNL Recommendations]活动时，如果关键项是从访客的配置文件中获取的（例如“上次购买的项目”），则[!DNL Target]将在&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)中显示一个随机产品。 这是因为在设计活动时，用户档案不可用。 当访客查看页面时，他们会看到预期的关键项目。
 
-## 在字符串值中执行替换 {#section_01F8C993C79F42978ED00E39956FA8CA}
+## 在字符串值中执行替换 {#replacements}
 
-您可以修改设计以替换字符串中的值。 例如，将美国使用的小数点分隔符替换为欧洲和其他国家/地区使用的逗号分隔符。
+设计可以替换字符串中的值。 例如，美国使用的小数点分隔符可以使用欧洲和其他国家使用的逗号分隔符替换。
 
 以下代码显示了条件销售定价示例中的一行内容：
 
@@ -247,17 +251,18 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                         $entity1.delivery 
                                         <br> 
                                     </span>
+</div>
 ```
 
-## 自定义模板大小并检查空白值 {#default}
+## 自定义设计大小并检查空白值 {#default}
 
-使用[!DNL Velocity]脚本控制实体显示的动态大小，以下模板可容纳一对多结果，以避免在[!DNL Recommendations]返回的匹配实体不足时创建空的HTML元素。 此脚本最适合备份推荐没有意义且已启用[!UICONTROL 部分模板渲染]的情况。
+[!DNL Velocity]脚本可以控制实体显示的动态大小。 以下设计可容纳一对多结果，以避免在从[!DNL Recommendations]返回的匹配实体不足时创建空的HTML元素。 此脚本最适合备份推荐没有意义且已启用&#x200B;**[!UICONTROL 部分设计渲染]**&#x200B;的情况。
 
 以下 HTML 代码段将替换 4x2 默认设计中的现有 HTML 部分（为简便起见，此处不包括 CSS）：
 
 * 如果存在第五个实体，脚本将插入一个闭合 div，并使用 `<div class="at-table-row">` 另起一个新行。
-* 在 4x2 设计中，显示的结果最多为 8 个，但可以通过修改 `$count <=8` 对该值进行自定义，以适应较小或较大的列表。
-* 请注意，该逻辑不会将实体均衡地分布在多个行上。 例如，如果有五个或六个实体要显示，则不会动态地变为顶行显示三个，底行显示两个（或顶行显示三个，底行显示三个）。 顶行将显示四个项目后，才会另起一行。
+* 在4x2设计中，显示的结果数量最多为8个，但可以通过修改`$count <=8`对该值进行自定义，以适应较小或较大的列表。
+* 该逻辑不会平衡多行中的实体。 例如，如果有五个或六个实体要显示，则不会动态地变为顶行显示三个，底行显示两个（或顶行显示三个，底行显示三个）。 顶行显示四个项目，然后再开始第二行。
 
 ```
 <div class="at-table">

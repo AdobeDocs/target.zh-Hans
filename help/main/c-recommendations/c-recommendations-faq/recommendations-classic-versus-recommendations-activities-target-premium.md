@@ -2,7 +2,7 @@
 keywords: 推荐;推荐算法;推荐活动;经典版推荐
 description: 查看信息以帮助您了解旧版Recommendations Classic与Recommendations activities in [!DNL Target] Premium之间的区别。
 title: Recommendations Classic与[!DNL Target] Premium中的推荐之间有何区别？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 TQID: 'https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM'
@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -79,7 +79,7 @@ ht-degree: 79%
 [!DNL Recommendations] 工作流已得到简化。 现在，您只需按照可视化工作流执行以下操作，而无需填写复杂的表单：
 
 1. 选择标准。
-1. 选择预配置的[设计](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+1. Select预配置的[设计](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)。
 1. 预览生成的推荐。
 
 ## 可视化预览 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}

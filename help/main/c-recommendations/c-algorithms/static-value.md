@@ -1,8 +1,8 @@
 ---
 keywords: 包含规则；包含标准；推荐；促销活动；促销活动；动态筛选；静态；静态筛选
 description: 了解如何在Adobe [!DNL Target]推荐中手动输入一个或多个静态值以使用包含规则进行筛选。
-title: 如何在“推荐”活动中按静态值筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+title: 静态筛选
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 TQID: 'https://experienceleague.adobe.com/-HTJO4YFi0-isyA-5LbVUaEPu7YX1WFgPy-OexMSXFY'
@@ -18,23 +18,21 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 32%
+source-wordcount: '184'
+ht-degree: 2%
 ---
-# [!UICONTROL 静态筛选]
+# 静态筛选 {#static-filter}
 
-使用[!DNL Adobe Target Recommendations]中的包含规则手动输入一个或多个要过滤的静态值。
+>[!BEGINSHADEBOX]
 
-例如，只推荐美国电影协会(MPA)评级为“G”或“PG”的内容。
+**在此页面上：**&#x200B;了解如何通过在[!DNL Adobe Target Recommendations]的包含规则中手动输入一个或多个静态值来筛选推荐。
 
-您可以根据需要创建不限数量的包含规则。 包含规则使用“与”运算符进行结合。 所有规则都必须得到满足，才能在推荐中包含某个项目。
+>[!ENDSHADEBOX]
 
->[!NOTE]
->
->如果您熟悉Target 17.6.1版本（2017年6月）之前的包含规则配置方式，那么您可能会注意到一些选项和运算符已经发生了变化。 为了更加一致和直观，现在，只有那些适用于选定选项的运算符才会显示，而且部分运算符进行了重命名（“匹配”现在为“等于”）。 此版本之前创建的所有已有排除规则均会迁移到新的结构中。 您不需要重新调整结构。
+**[!UICONTROL 静态筛选器]**&#x200B;将推荐中的项目限制为与手动输入的静态值匹配的项目。 可以创建任意数量的包含规则。 由于包含规则使用AND运算符进行连接，因此必须满足所有规则才能将项目包含在推荐中。 有关包含规则的一般信息，请参阅[使用动态和静态包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)。
 
 ## 推荐分级为G或PG的内容
 
-要使用静态值创建包含规则，以仅推荐MPA评级为“G”或“PG”的内容（不包括“R”和“NC17”内容），您可以创建以下过滤规则：“电影评级等于任何g评级”和“电影评级等于任何pg评级”。
+要仅推荐电影协会(MPA)评级为“G”或“PG”的内容（不包括“R”和“NC17”内容），请创建一个包含运算符“电影评级等于任何”的筛选规则，并输入“g评级”和“pg评级”的值。

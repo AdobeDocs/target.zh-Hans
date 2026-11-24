@@ -1,8 +1,8 @@
 ---
 keywords: 行为数据源；Analytics；推荐；标准；产品变量
 description: 了解如何在[!DNL Target Recommendations]中使用[!DNL Adobe Analytics]作为行为数据源。
-title: 如何将[!DNL Adobe Analytics]与[!DNL Target Recommendations]一起使用？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+title: 将 Adobe Analytics 与推荐配合使用
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 TQID: 'https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs'
@@ -24,85 +24,79 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 374d176c5c40826d958a8b87d220422466433690
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 0%
+source-wordcount: '736'
+ht-degree: 1%
 ---
-# 将[!DNL Adobe Analytics]与[!DNL Recommendations]一起使用
+# 将[!DNL Adobe Analytics]与[!DNL Recommendations]一起使用 {#use-analytics-with-recommendations}
 
-将[!DNL Adobe Analytics]用作行为数据源可让客户端在[!DNL Adobe Target Recommendations]活动中使用[!DNL Analytics]中基于视图和基于购买的行为数据。 此功能在[!DNL Target Recommendations]设置是新的，且[!DNL Analytics]有许多历史数据可供使用的情况下特别有用。
+>[!BEGINSHADEBOX]
 
-将[!DNL Analytics]用作行为数据源可以充当有关用户行为的丰富信息源。 此信息可能包含来自仅与[!DNL Analytics]共享的第三方源或馈送的数据。
+**在此页面上：**&#x200B;了解如何将[!DNL Adobe Analytics]用作[!DNL Adobe Target Recommendations]活动中的行为数据源。
 
-在[!DNL Recommendations]中[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)时，有两个单选按钮可让您选择要使用的数据源： [!UICONTROL mbox]或[!UICONTROL Analytics]。 要创建标准，请单击[!UICONTROL 推荐] > [!UICONTROL 标准] > [!UICONTROL 创建标准] > [!UICONTROL 创建标准]。 有关详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
+>[!ENDSHADEBOX]
+
+将[!DNL Adobe Analytics]用作行为数据源可允许[!DNL Adobe Target Recommendations]活动使用[!DNL Analytics]中基于视图和基于购买的行为数据。 当[!DNL Target Recommendations]设置是新的，并且[!DNL Analytics]有许多历史数据可供使用时，这将很有用。 数据可能还包括仅与[!DNL Analytics]共享的来自第三方源或馈送的信息。
+
+在[!DNL Recommendations]中[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)时，使用&#x200B;**[!UICONTROL 行为数据Source]**&#x200B;选项选择数据源： **[!UICONTROL Adobe Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**。
 
 >[!NOTE]
 >
->如果这两个按钮未显示在您的帐户中，请联系[客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+>如果这两个选项未显示在帐户中，请联系[客户关怀团队](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
-## [!DNL Target]中[!DNL Analytics]数据的用例
+## [!DNL Target]中[!DNL Analytics]数据的用例 {#use-cases}
 
-使用[!DNL Analytics]作为推荐的行为数据源还可让您部署特定的用例，而无需使用所有[!DNL Target]实体参数标记实体页面。 尽管这要求具备某些先决条件，但要使此功能无缝运行，“产品变量”的可用性是最重要的因素。 常规eVar和Prop不足以在[!DNL Analytics]和[!DNL Target]之间自动进行此握手。
+将[!DNL Analytics]用作行为数据源还允许部署特定用例，而无需使用所有[!DNL Target]实体参数标记实体页面。 这需要满足某些先决条件，而“产品变量”的可用性是最重要的先决条件。 常规eVar和Prop不足以让[!DNL Analytics]和[!DNL Target]自动交换此数据。
 
-您可以使用[!DNL Analytics]作为行为数据源来：
+[!DNL Analytics]可用作行为数据源，用于：
 
 * 使用[!DNL Analytics]数据，根据上个月其他用户从同一类别中购买的内容，在产品详细信息页面上向用户显示零售网站上的推荐。
 * 基于[!DNL Analytics]数据，在媒体网站的主屏幕上显示当前趋势特定类别中最受欢迎内容的内容。
 
 ## [!DNL Analytics]中的实现
 
-以下部分可帮助您在[!DNL Analytics]端实施此功能。
+### 先决条件：在[!DNL Analytics]中设置产品变量 {#prerequisites}
 
-### 先决条件：在[!DNL Analytics]中设置产品变量
-
-使用[!DNL Target Recommendations]所需的必要特性在[!DNL Analytics]中实施产品变量。
-
-[!DNL Target Recommendations]示例信息源格式用作指南，必须在其产品变量中定义所有属性。 之后，必须在[!DNL Target] UI中为相应的[!DNL Target]实体值“映射”这些值。
+使用[!DNL Target Recommendations]所需的属性在[!DNL Analytics]中实施产品变量。 [!DNL Target Recommendations]示例信息源格式将指导必须在产品变量中定义哪些属性。 这些值必须稍后在[!DNL Target] UI中“映射”到相应的[!DNL Target]实体值。
 
 >[!NOTE]
 >
->如果它是内容网站，则必须将相应的内容片段视为“产品”，并且必须将该内容的关联属性作为属性传递。 此类属性可以包括作者姓名、发布日期、内容标题、发布月份等。 类别级别的粒度或类别类型，应由业务根据用例需求来决定。
+>如果它是内容网站，则必须将相应的内容片段视为“产品”，并且必须将该内容的关联属性作为属性传递。 此类属性可以包括作者姓名、发布日期、内容标题、发布月份等。 业务部门应根据用例的要求决定类别级别的粒度，或类别类型。
 
-有关如何设置产品变量的更多详细信息，请参阅“*实施Adobe Analytics*”指南中的[产品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hans)。 该文档中的一些注释需要部署该文档的团队自行决定（例如：类别）。 在执行此活动之前，始终建议咨询[!DNL Adobe]。
+有关如何设置产品变量的更多详细信息，请参阅“*实施Adobe Analytics*”指南中的[产品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html)。 该文档中的一些说明，例如有关类别的说明，需要部署该文档的团队做出判断。 建议先咨询[!DNL Adobe]再进行此活动。
 
-### 注意事项
+### 注意事项 {#considerations}
 
-[!DNL Analytics]数据通过每日馈送发送。 行为结果可能需要24小时才能反映在您网站上的推荐结果中。 与所有[!DNL Recommendations]标准设置一样，可以也应该测试此数据源。
+[!DNL Analytics]数据通过每日馈送发送。 行为结果可能需要24小时才能反映在网站上的推荐结果中。 与所有[!DNL Recommendations]标准设置一样，应测试此数据源。
 
-对于使用哪个数据源的快速决策，如果用户每天生成的有机数据很多，并且不需要太多依赖历史数据，则使用[!DNL Target] mbox作为行为数据源可能非常合适。 如果最近生成的有机数据可用性较低，则如果要基于[!DNL Analytics]数据进行存储，则使用[!DNL Analytics]作为行为数据源非常合适。
+要选择数据源，请执行以下操作：
 
-现在是在[!DNL Target]端映射这些变量以连续提供行为数据的时候了。
+* 当用户每天生成大量有机数据并且几乎不需要依赖历史数据时，[!DNL Target] mbox非常适合。
+* 当最近生成的有机数据较少且将使用[!DNL Analytics]数据时，[!DNL Analytics]非常适合。
 
-## 在[!DNL Target]中实施
+仍必须在[!DNL Target] mbox调用中传递`entity.id`和`entity.categoryId`值。 其他属性可以通过[!DNL Analytics]馈送传递，如本页所述。
+
+动态包含规则（例如将实体参数与配置文件属性进行匹配）可以与[!DNL Analytics]信息源方法一起使用。 此方法与使用[!DNL Target]独立方法类似，但必须考虑时间：应该匹配配置文件变量的实体变量取决于数据层，该数据层可能稍后出现在页面上。
+
+## 在[!DNL Target]中实施 {#implement-target}
+
+产品变量在[!DNL Target]中映射，以提供连续的行为数据供给。
 
 1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL 推荐]**，然后单击&#x200B;**[!UICONTROL 信息源]**&#x200B;选项卡。
 
 1. 单击&#x200B;**[!UICONTROL 创建信息源]**。
 
-1. 选择&#x200B;**[!UICONTROL Analytics分类]**，然后指定报表包。
+   ![突出显示“创建馈送”按钮的“馈送”页面](../assets/feeds_1.png)
 
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;前进到&#x200B;**[!UICONTROL 计划]**&#x200B;设置，为信息源选择频率段：
+1. Select **[!UICONTROL Analytics分类]**，然后指定报表包。
 
-   * [!UICONTROL 每天]
-   * [!UICONTROL 每周]
-   * [!UICONTROL 每2周]
-   * [!UICONTROL 从不]
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以前进到&#x200B;**[!UICONTROL 计划]**&#x200B;设置，然后为信息源选择一个频率： **[!UICONTROL 每日]**、**[!UICONTROL 每周]**、**[!UICONTROL 每两周]**&#x200B;或&#x200B;**[!UICONTROL 从不]**。 也可以选择每天处理馈送的时间。
 
-   您还可以选择一天中信息源要处理的时间。
+   ![使用“频率”选项“每日”、“每周”、“每两周”和“从不”以及“时间”字段安排“创建信息源”对话框中的步骤](../assets/feeds_3.png)
 
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;前进到&#x200B;**[!UICONTROL 映射]**&#x200B;设置，然后将字段列标题映射到适当的[!UICONTROL 推荐]字段名称。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;前进到&#x200B;**[!UICONTROL 映射]**&#x200B;设置，然后将字段列标题映射到适当的&#x200B;**[!UICONTROL 推荐]**&#x200B;字段名称。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 常见问题解答
-
-在将[!DNL Analytics]与[!DNL Target]结合使用时，请考虑以下常见问题解答：
-
-### 是否需要在[!DNL Target] mbox调用中传递`entity.id`和`entity.categoryId`值？
-
-是的，仍需要这两个值。 其余属性可以通过[!DNL Analytics]信息源进行传递，如本文档中所述。
-
-### 我能否使用动态包含规则，例如实体参数是否与使用[!DNL Analytics]信息源方法的配置文件属性相匹配？
-
-是的，你可以。 使用[!DNL Target]独立时的方法类似。 但是，在这种情况下，您必须注意时间因素。 应该与配置文件变量匹配的实体变量取决于数据层，该数据层可能会在页面上稍后出现。
+有关创建馈送的详细信息，请参阅[创建馈送](/help/main/c-recommendations/c-products/feeds.md#steps)。

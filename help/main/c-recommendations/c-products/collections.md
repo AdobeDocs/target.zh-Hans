@@ -2,7 +2,7 @@
 keywords: 收藏集;定位
 description: 了解如何在[!DNL Target Recommendations]中使用产品或项目的集合。
 title: 如何在推荐活动中使用收藏集？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 TQID: 'https://experienceleague.adobe.com/kdjl2cpjaRWYZRqHFqARHvbTaTuu0iAH7ZWbD2Lrs7o'
@@ -18,60 +18,61 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 27%
+source-wordcount: '710'
+ht-degree: 8%
 ---
-# 收藏集
+# 收藏集 {#collections}
 
-收藏集是一组符合推荐标准的产品或项目。 集合的定义方式是指定作为集合一部分的项必须满足的条件。
+>[!BEGINSHADEBOX]
 
-一般情况下，收藏集是一组相似或相关的项目，例如单个产品收藏集。 但是，您可以将任何项目分组到一个对您的业务有意义的类别中，例如可以将属于某个价格范围的产品分组到一个类别中，也可以将属于某个颜色的产品分组到一个类别中，或将可能在某个特定地理区域引起客户关注的项目分组到一个类别中。
+**在此页面上：**&#x200B;了解如何在[!DNL Adobe Target Recommendations]中创建、管理和使用项目集合。
 
-使用收藏集，可将您的产品组织到逻辑分段中。 例如，如果某些项目在一个区域可用，但在另一个区域不可用，您可以创建一个收藏集，以排除在访客所在区域不可用的项目。 您还可以使用收藏集来组织季节性项目，或使用任何其他对您的业务适用的组织参数。
+>[!ENDSHADEBOX]
 
-[为推荐中的每个标准生成的备用推荐](/help/main/c-recommendations/c-algorithms/backup-recs.md)也使用此收藏集，因此备用推荐中仅包含收藏集中的项目。 使用收藏集，您可以确保仅在某个位置显示对其有意义的产品。
+收藏集是一组符合推荐标准的产品或项目。 集合由项目必须满足才能成为其一部分的条件定义。 项目可以按业务适用的任何方式进行分组，例如类似或相关的项目、特定价格范围或颜色的产品，或可能在特定地理区域引起兴趣的项目。
 
-每次运行各个标准时，都会重新构建或更新收藏集。
+收藏集将产品组织到逻辑存储桶中。 例如，如果某些项目在一个区域可用，但在另一个区域不可用，则收藏集可以排除访客所在区域不可用的项目。 收藏集还可以组织季节性项目或适用于该业务的任何其他组织参数。 项目可以分组到目录中，然后可以为每个收藏集创建单独的推荐。
 
-您可以将项目分组到不同的目录中，然后分别为每个收藏集创建单独的推荐。
+以下几点描述了收藏集如何与[!DNL Recommendations]的其余部分进行交互：
 
-包含标准与收藏集的功能类似，通过包含标准可以执行类似的操作，但不同的是您每次创建活动时都必须设置包含标准。 收藏集允许您一次性创建一组项目，然后可以在适合时使用该收藏集，而无需再次设置。
-
-创建或编辑[!DNL Recommendations]活动时，收藏集名称会显示在活动图上的[!UICONTROL 标准]标签旁边。
-
->[!NOTE]
->
->* 收集规则适用于运行标准后生成的推荐项。 它们只影响输出中的实体推荐(ER)，而不影响键。
->
->* 使用[!UICONTROL 最近查看的项目]推荐键时，不会应用收藏集。
+* 针对每个标准生成的[备份推荐](/help/main/c-recommendations/c-algorithms/backup-recs.md)也使用该集合，因此只有集合中的项目包含在备份推荐中。 因此，只会显示对某个位置有意义的产品。
+* 每次运行各个标准时，都会重新构建或更新收藏集。
+* 收集规则适用于运行标准后生成的推荐项。 它们只影响输出中的实体推荐(ER)，而不影响键。
+* 使用&#x200B;**[!UICONTROL 最近查看的项目]**&#x200B;推荐键时，不会应用收藏集。
+* 包含标准可能会产生相似的结果，但每次创建活动时都必须设置这些结果。 收藏集创建一次，之后可以重复使用，而无需再次设置。
+* 创建或编辑[!DNL Recommendations]活动时，收藏集名称会显示在活动图上的&#x200B;**[!UICONTROL 标准]**&#x200B;标签旁边。
 
 ## 创建收藏集 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
-可创建收藏集以组织要在推荐中显示的产品或内容。
+收藏集可在整个帐户中使用，因此可在任何[!DNL Recommendations]活动中选择一次创建的收藏集。 规则在集合中定义，因此无需为每个活动再次设置它们。
 
 1. 单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 收藏集]**&#x200B;以显示现有收藏集列表。
 
-   [!UICONTROL 收藏集]页面显示现有收藏集的列表。 您可以通过单击[!UICONTROL 创建收藏集]按钮来创建新收藏集。 您还可以编辑、复制和删除现有收藏集，方法是单击所需收藏集旁边的“更多操作”图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击所需选项。
+   要编辑、复制或删除现有收藏集，请单击收藏集旁边的“更多操作”图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击所需的选项。
 
-   [!UICONTROL 收藏集]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}以更改默认主机组。
+   >[!NOTE]
+   >
+   >**[!UICONTROL 收藏集]**&#x200B;列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以更改默认主机组。
 
 1. 单击&#x200B;**[!UICONTROL 创建收藏集]**。
 
-1. 键入集合的&#x200B;**[!UICONTROL 名称]**。
+   使用“创建收藏集”按钮的![收藏集页面](../assets/collection_1.png)
 
-   您还可以输入可选&#x200B;**[!UICONTROL 描述]**。
+1. 键入集合的&#x200B;**[!UICONTROL 名称]**。 也可以输入可选的&#x200B;**[!UICONTROL 描述]**。
 
-1. （视情况而定）在创建（或更新）收藏集时从&#x200B;**[!UICONTROL 环境]**&#x200B;筛选器中选择[环境](/help/main/administrating-target/environments.md)以预览该环境中收藏集的内容。 默认情况下，会显示默认主机组的结果。
+1. （视情况而定）从&#x200B;**[!UICONTROL 环境]**&#x200B;筛选器中选择[环境](/help/main/administrating-target/environments.md)以预览该环境中集合的内容。 默认情况下，会显示默认主机组的结果。
 
 1. 设置用于构建收藏集的规则。
 
-   例如，您可以根据产品 ID 或类别、利润或列表中的任何其他参数来构建收藏集。
-
-   您可以添加规则，以使用多个参数来定义收藏集。 使用AND运算符连接多个规则。 必须匹配指定的所有规则，才能应用收藏集。
+   收藏集可以围绕产品ID或类别、边距或列表中的任何其他参数构建。 添加规则以使用多个参数定义集合。 多个规则使用AND运算符相连，因此所有指定的规则都必须匹配才能应用集合。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
+
+1. 创建集合后，单击“更多操作”图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg) ）并选择适当的选项： **[!UICONTROL 编辑]**、**[!UICONTROL 复制]**&#x200B;或&#x200B;**[!UICONTROL 删除]**。
+
+   ![收藏集列表，“更多操作”菜单打开，显示“编辑”、“复制”和“删除”](../assets/collection_2.png)
 
 <!--
 ## Create a collection using [!UICONTROL Advanced Search]
@@ -87,20 +88,18 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
 -->
 
-## 编辑、复制或删除收藏集
+## 在活动中使用收藏集
 
-单击列表中所需集合旁边的（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击相应的图标： [!UICONTROL 编辑]、[!UICONTROL 复制]或[!DNL Delete]。
+为[!DNL Recommendations]活动的每个体验选择一个集合。 收藏集可确定哪些项目符合条件将显示在该体验的推荐中。
 
-您可以复制现有收藏集以创建重复的收藏集，然后对其进行修改。 这样，您就可以用更少的工作量创建类似的收藏集。
+1. [创建集合](#task_1256DFF6842141FCAADD9E1428EF7F08)。
 
-请注意，收藏集可在整个帐户中使用。 确保在删除收藏集之前考虑这一点。 无法恢复已删除的收藏集。
+   ![创建包含集合详细信息和规则部分的集合屏幕](../assets/collection_3.png)
 
-## 在[!DNL Recommendations]活动中使用收藏集
+1. 单击&#x200B;**[!UICONTROL 活动]**&#x200B;和[新建推荐活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)或编辑现有活动。
 
-1. 使用上述方法之一创建收藏集。
+   在“创建活动”菜单中选择推荐的![所有活动页面](../assets/collection_4.png)
 
-1. 单击&#x200B;**[!UICONTROL 活动]**&#x200B;和[新建推荐](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)活动或编辑现有活动。
+1. 选择标准和设计后，在&#x200B;**[!UICONTROL 选项]**&#x200B;页面上选择所需的集合。
 
-1. 选择标准和设计后，将显示[!UICONTROL 选项]页面，您可以在其中选择所需的集合。
-
-1. （视情况而定）要更改现有的收藏集设置，请在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤1）中单击放置推荐的位置，单击&#x200B;**[!UICONTROL 更改收藏集]**，然后选择所需的收藏集。
+1. （视情况而定）要更改现有活动的集合，请单击&#x200B;**[!UICONTROL 体验]**&#x200B;页面上的推荐位置，单击&#x200B;**[!UICONTROL 更改集合]**，然后选择所需的集合。

@@ -2,7 +2,7 @@
 keywords: 创建推荐;推荐活动;新建推荐;推荐概述
 description: 了解如何使用[!DNL Target] [!UICONTROL 可视化体验编辑器] (VEC)创建[!DNL Recommendations]活动。
 title: 如何创建[!DNL Recommendations]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 52%
@@ -33,7 +33,7 @@ ht-degree: 52%
 
 1. 单击&#x200B;**[!UICONTROL 活动]** > **[!UICONTROL 创建活动]** > **[!UICONTROL 推荐]**。
 
-1. 根据需要选择&#x200B;**[!UICONTROL Visual]**。
+1. Select **[!UICONTROL 可视化]**（如有必要）。
 
    如果您希望使用[!UICONTROL 基于表单的体验编辑器]，请选择[!UICONTROL 表单]。 请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，以了解更多信息。
 
@@ -49,7 +49,7 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。 因此，[!DNL `http://www.adobe.com/cn`]和[!DNL `https://wwww.adobe.com`]都匹配。
+   >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。 因此，[!DNL `http://www.adobe.com`]和[!DNL `https://wwww.adobe.com`]都匹配。
 
    活动URL是显示推荐的页面。
 
@@ -88,11 +88,11 @@ ht-degree: 52%
 
 1. 选择一个或多个[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)。
 
-   标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。 默认情况下，[!UICONTROL 选择标准]屏幕显示的标准与您的垂直行业以及您在上一步中选择的页面类型兼容。 您可以更改这些选项以显示其他标准。
+   标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。 默认情况下，[!UICONTROL Select标准]屏幕显示的标准与您的垂直行业以及您在上一步中选择的页面类型兼容。 您可以更改这些选项以显示其他标准。
 
    >[!NOTE]
    >
-   >并非每个标准都能在每个页面上正常运行。 页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。 一般来说，最好只显示兼容的标准。 但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。 根据您的推荐设置（**[!UICONTROL 推荐]** > **[!UICONTROL 设置]** > **[!UICONTROL 筛选不兼容的标准]**），可能不会显示[!UICONTROL 兼容]选项。 有关更多信息，请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
+   >并非每个标准都能在每个页面上正常运行。 页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。 一般来说，最好只显示兼容的标准。 但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。 根据您的推荐设置（**[!UICONTROL 推荐]** > **[!UICONTROL 设置]** > **[!UICONTROL 筛选不兼容的标准]**），可能不会显示[!UICONTROL 兼容]选项。 有关更多信息，请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
    ![“选择标准”对话框](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -108,7 +108,7 @@ ht-degree: 52%
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 1. 选择一个[设计](/help/main/c-recommendations/c-design-overview/design-overview.md)。
 
-   设计是一种模板，可决定页面上各个位置的外观。 [!DNL Target]包含多个预配置的设计。 您也可以创建自己的自定义设计。 有关详细信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   设计是一种模板，可决定页面上各个位置的外观。 [!DNL Target]包含多个预配置的设计。 您也可以创建自己的自定义设计。 有关详细信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)和[自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design)。
 
    ![“选择设计”对话框](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -118,7 +118,7 @@ ht-degree: 52%
 
      如果您选择了多个标准，则只能选择一个设计。
 
-   * 要创建自定义设计，请单击&#x200B;**[!UICONTROL 创建设计]**，然后填写新设计的名称和代码。 单击&#x200B;**[!UICONTROL 下一步]**，选择或上传图像，然后单击&#x200B;**[!UICONTROL 完成]** > **[!UICONTROL 完成]**。 有关创建新设计的信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+   * 要创建自定义设计，请单击&#x200B;**[!UICONTROL 创建设计]**，然后填写新设计的名称和代码。 单击&#x200B;**[!UICONTROL 下一步]**，选择或上传图像，然后单击&#x200B;**[!UICONTROL 完成]** > **[!UICONTROL 完成]**。 有关创建新设计的信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
@@ -193,4 +193,4 @@ ht-degree: 52%
 
 ## 培训视频：创建推荐活动(7:15) ![教程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33958?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

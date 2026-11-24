@@ -1,7 +1,7 @@
 ---
 keywords: 推荐设计;模板;创建设计;交付;输出
 description: 了解如何使用Adobe [!DNL Target]推荐中的设计来定义推荐在页面上的显示方式（1X4、1X6、2X2等）。
-title: 如何在推荐中使用设计？
+title: 设计入门
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 TQID: 'https://experienceleague.adobe.com/08jboJLkp6MhgXiISjkVzh2kVze5DRrxO8BbQBFLeA4'
@@ -17,25 +17,31 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 22%
+source-wordcount: '224'
+ht-degree: 9%
 ---
-# 设计入门
+# 设计入门 {#design-overview}
 
-[!DNL Adobe Target Recommendations]中的设计定义推荐在页面上的显示方式。 设计可定义推荐的布局和格式，以提高访客参与度、转化率和收入。
+>[!BEGINSHADEBOX]
 
-[!DNL Recommendations]附带多个默认（预构建）设计，您也可以创建自己的设计。
+**在此页面上：**&#x200B;了解设计如何定义[!DNL Adobe Target Recommendations]中推荐的布局和格式。
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target Recommendations]中的设计定义推荐在页面上的显示方式。 设计可定义推荐的布局和格式。
+
+[!DNL Recommendations]附带几个默认（预建）设计，也可以创建自定义设计。 有关详细信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md)。
 
 [!DNL Target]可以提供推荐的完整外观，如下图所示。 设计中可以包含 HTML、JavaScript 和 CSS。 此设计称为4 x 1设计：一行四个空格。
 
-![velocity_example图像](assets/velocity_example.png)
+![标题为“其他有趣的活动”的4 x 1设计示例，其中四个项目分别显示照片、名称、价格、评分和距离](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-Target 还可以将您的推荐作为 JSON 对象来发送，而 JSON 对象可以在电子邮件消息、IoT（物联网）设备、控制台或语音用例（Amazon Alexa 或 Google Home）中使用。
+[!DNL Target]还可以将推荐作为JSON对象发送，这些对象可用于电子邮件、物联网(IoT)设备、控制台或语音用例（Amazon Alexa或Google Home）。
 
-设计可帮助您确定：
+设计确定：
 
-* 要在推荐中显示多少项
-* 您希望如何显示项目（在行、列、网格或表格中）
-* 您希望限制访客仅查看指定数量的项目，还是希望访客能够滚动浏览多个项目？
+* 推荐中显示的项目数
+* 项目的显示方式（在行、列、网格或表中）
+* 访客是只能看到指定数量的项目，还是可以滚动浏览多个项目

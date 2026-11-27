@@ -206,7 +206,7 @@ VEC（包括&#x200B;**[!UICONTROL 增强型体验编辑器]**）通过代理服�
 
 同样，如果为某个元素添加了文本和单独的操作，然后又使用不同的文本编辑该元素，则代码编辑器会将这两个操作显示为单独的元素。 编辑操作将创建一个新元素，该元素将修改原始元素并包含已编辑的文本。 如果随后删除了原始元素，则编辑后的文本无法找到要修改的元素并且不显示。 第二个元素会保留在元素列表中，但它对页面没有影响，因为它更改的元素不再存在。
 
-查看&#x200B;**[!UICONTROL 可视化体验编辑器]**](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#vec-selectors)中使用的[元素选择器。
+查看&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;[&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#vec-selectors)中使用的元素选择器。
 
 +++
 
@@ -299,7 +299,7 @@ VEC（包括&#x200B;**[!UICONTROL 增强型体验编辑器]**）通过代理服�
 
 +++ 处理与[!DNL Chrome]扩展策略更改的VEC兼容性。
 
-在Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新的[V3清单策略下，扩展在浏览器分析原始DOM之前无法再对其进行修改。 因此，某些安全脚本（例如iframe-busting实施）可能会阻止页面在VEC中加载。
+在Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新的V3清单策略下，扩展在浏览器分析原始DOM之前无法再对其进行修改。 因此，某些安全脚本（例如iframe-busting实施）可能会阻止页面在VEC中加载。
 
 为确保兼容性，当页面加载到[!DNL Target] iframe中时，有条件地禁用这些脚本。 可以通过检查是否存在`window.adobeVecExtension`对象来安全地完成此操作，该对象在VEC加载时[!DNL Target]注入。
 

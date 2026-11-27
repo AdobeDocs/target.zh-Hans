@@ -85,7 +85,7 @@ SW可以缓存网页本身、静态资源（如JS、CSS、IMG和AJAX请求）及
 
 在[!DNL Chrome]中安装扩展后，可以在VEC中以可靠的方式加载网站，包括阻止iframe或尚未实施at.js的网站。
 
-1. 转到Chrome网上应用商店](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)中的[Adobe Target VEC助手浏览器扩展。
+1. 转到Chrome网上应用商店[&#128279;](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)中的Adobe Target VEC助手浏览器扩展。
 1. 单击&#x200B;**[!UICONTROL 添加到Chrome]** > **[!UICONTROL 添加扩展]**。
 1. 打开 [!DNL Target] 中的 VEC。
 1. 在VEC或[QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md)中，单击[!DNL Chrome]工具栏中的VEC助手浏览器扩展图标（![VEC助手图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)）。

@@ -64,7 +64,7 @@ ht-degree: 4%
 
 ![浏览器控制台错误消息，指出由于X-Frame-Options设置为SAMEORIGIN，页面被拒绝显示在框架中](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
-当这两种编辑器都不工作时，覆盖站点的X-Frame-Options标头的浏览器扩展(如[!DNL Requestly] （[!DNL Chrome]或[!DNL Firefox]）或Modify Response Headers ([!DNL Firefox]))允许站点在iFrame中加载，从而启用VEC。 当无法使用浏览器扩展时，请使用[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)。 除了下面的过程外，还可以使用[!DNL Google Chrome]的[[!DNL Adobe Target] **[!UICONTROL 可视化编辑帮助程序&#x200B;]**扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+当这两种编辑器都不工作时，覆盖站点的X-Frame-Options标头的浏览器扩展(如[!DNL Requestly] （[!DNL Chrome]或[!DNL Firefox]）或Modify Response Headers ([!DNL Firefox]))允许站点在iFrame中加载，从而启用VEC。 当无法使用浏览器扩展时，请使用[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)。 除了下面的过程外，还可以使用[!DNL Google Chrome]的[[!DNL Adobe Target] **[!UICONTROL 可视化编辑帮助程序&#x200B;]**&#x200B;扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ ht-degree: 4%
 
 检查以下原因：
 
-* **扩展版本：** [[!DNL Adobe Experience Cloud] **[!UICONTROL 可视化编辑帮助程序&#x200B;]**扩展的最新版本](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)提供了与VEC的最佳兼容性。 若要验证已安装的版本，请转到**[!UICONTROL &#x200B;扩展&#x200B;]**>**[!UICONTROL &#x200B;管理扩展&#x200B;]**，然后单击**[!UICONTROL &#x200B;详细信息&#x200B;]**。
+* **扩展版本：** [[!DNL Adobe Experience Cloud] **[!UICONTROL 可视化编辑帮助程序&#x200B;]**&#x200B;扩展的最新版本](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)提供了与VEC的最佳兼容性。 若要验证已安装的版本，请转到&#x200B;**[!UICONTROL &#x200B;扩展&#x200B;]**>**[!UICONTROL &#x200B;管理扩展&#x200B;]**，然后单击&#x200B;**[!UICONTROL &#x200B;详细信息&#x200B;]**。
 * **创作库：** VEC需要创作库才能修改网页。 它们嵌入在at.js库中，每次使用VEC时，扩展都会从[!DNL Adobe]服务器下载该库，无论at.js或[!DNL Adobe Experience Platform Web SDK]是否已在页面上。 检查&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实现]**&#x200B;中配置的at.js标头是否不包含任何无效更改。
 * **阻止的请求：**&#x200B;当页面嵌入到iFrame中时，该页面不能阻止必须加载的请求。 此类阻止包括`frame-ancestors` CSP指令、网站中的自定义JavaScript代码、元HTML标记和`x-frame-options`标头。
 * **保留的文件名：**&#x200B;页面的JavaScript不得干扰创作库。 请勿使用或包含具有以下保留名称的文件：

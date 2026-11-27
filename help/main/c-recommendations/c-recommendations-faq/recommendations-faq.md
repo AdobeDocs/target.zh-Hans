@@ -2,7 +2,7 @@
 keywords: 故障诊断;常见问题解答;FAQ;推荐;特殊字符;属性权重;内容相似度
 description: 查看有关[!DNL Target Recommendations]活动的常见问题和答案的列表。
 title: 可在何处找到关于[!DNL Recommendations]的问答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -156,7 +156,7 @@ ht-degree: 10%
 
 可用的标准取决于当前类别。 创建推荐选件时，算法选取器根据类别ID显示标准。 如果应用标准的位置不包含类别ID，则算法选择器中不会提供某些标准。 如果使用了mbox中存在类别ID的位置，则标准选取器包含所有适用的标准。
 
-[!DNL Target]具有[筛选不兼容的标准](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}设置，该设置控制算法选取器的智能筛选。 要访问&#x200B;**[!UICONTROL 筛选不兼容的标准]**&#x200B;设置，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 推荐]**。
+[!DNL Target]具有[筛选不兼容的标准](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}设置，该设置控制算法选取器的智能筛选。 要访问&#x200B;**[!UICONTROL 筛选不兼容的标准]**&#x200B;设置，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 推荐]**。
 
 将“筛选不兼容的标准”选项突出显示的![Recommendations设置页面](assets/recs_settings_filter.png)
 

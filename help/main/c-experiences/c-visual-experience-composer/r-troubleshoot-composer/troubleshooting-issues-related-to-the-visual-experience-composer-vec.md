@@ -152,7 +152,7 @@ ht-degree: 4%
 
 +++ 在浏览模式下，VEC显示为已损坏
 
-在&#x200B;**[!UICONTROL 浏览]**&#x200B;模式下，如果打开的URL缺少[!DNL Target]库（[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}）或包含frame-buster标头，则VEC显示为已损坏。 出于浏览器安全原因，[!DNL Target]无法正确访问导航到的URL，或者在页面加载时VEC URL未一致更新。
+在&#x200B;**[!UICONTROL 浏览]**&#x200B;模式下，如果打开的URL缺少[!DNL Target]库（[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=zh-Hans){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}）或包含frame-buster标头，则VEC显示为已损坏。 出于浏览器安全原因，[!DNL Target]无法正确访问导航到的URL，或者在页面加载时VEC URL未一致更新。
 
 VEC在`<iframe>`中加载网页，当前浏览器的安全机制阻止[!DNL Target] UI访问相同源策略下的框架元素。 浏览器会阻止尝试访问具有不同来源的帧的脚本，包括`location.href`等信息。
 

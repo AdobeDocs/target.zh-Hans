@@ -2,7 +2,7 @@
 keywords: 创建推荐;推荐活动;新建推荐;推荐概述
 description: 了解如何使用[!DNL Target] [!UICONTROL 可视化体验编辑器] (VEC)创建[!DNL Recommendations]活动。
 title: 创建[!DNL Recommendations]活动
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 1. 指定活动URL，然后单击&#x200B;**[!UICONTROL 创建]**。
 
-   活动URL是显示推荐的页面。 [!DNL Target]不区分URL协议（[!DNL https]和[!DNL http]），因此`http://www.adobe.com`和`https://www.adobe.com`都匹配。
+   活动URL是显示推荐的页面。 [!DNL Target]不区分URL协议（[!DNL https]和[!DNL http]），因此`http://www.adobe.com/cn`和`https://www.adobe.com/cn`都匹配。
 
    此时将打开VEC并显示页面。
 
@@ -101,7 +101,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >并非每个标准都在每个页面上正确运行。 要兼容当前项目或当前类别推荐，页面或mbox必须传入`entity.id`或`entity.categoryId`。 最好只显示兼容的标准。 要使不兼容的标准可用于该活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。 此复选框可能不会显示，具体取决于&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 推荐]** > **[!UICONTROL 筛选不兼容的标准]**&#x200B;设置。 有关更多信息，请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
+   >并非每个标准都在每个页面上正确运行。 要兼容当前项目或当前类别推荐，页面或mbox必须传入`entity.id`或`entity.categoryId`。 最好只显示兼容的标准。 要使不兼容的标准可用于该活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。 此复选框可能不会显示，具体取决于&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 推荐]** > **[!UICONTROL 筛选不兼容的标准]**&#x200B;设置。 有关更多信息，请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
 
 1. （可选）查找或创建标准：
 

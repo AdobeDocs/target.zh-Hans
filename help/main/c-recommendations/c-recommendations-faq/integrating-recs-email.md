@@ -2,7 +2,7 @@
 keywords: 电子邮件;ESP;电子邮件服务提供商;rawbox;交付 API;仅限下载模板;电子邮件模板;批量处理;构建时电子邮件
 description: 了解如何将电子邮件与Adobe [!DNL Target Recommendations]集成，包括使用[!DNL Target]投放API、rawbox模板和仅限下载的模板。
 title: 如何将“推荐”与电子邮件集成？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 TQID: 'https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE'
@@ -95,7 +95,7 @@ curl -X POST \
 >
 >为每个电子邮件收件人（每个API调用）的`sessionId`以及`tntId`或`thirdPartyId`之一提供唯一值。 如果没有这些字段的唯一值，则由于在单个配置文件中会生成许多事件，API响应可能变慢或失败。
 
-有关详细信息，请参阅[交付API文档](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank}。
+有关详细信息，请参阅[交付API文档](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=zh-Hans){target=_blank}。
 
 ## 方法 2：使用 rawbox 电子邮件模板 {#rawbox}
 

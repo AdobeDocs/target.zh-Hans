@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何在网站、应用程序和社交渠道中个性化客户体验，从而提升营收。
 feature-set: Target
-source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
+source-git-commit: d917e1b4f0d3c70eccd6c5fa1df5f799093f1f41
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 71%
@@ -107,7 +107,7 @@ ht-degree: 71%
     + {hide-from-toc}[集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Adobe Journey Optimizer用例 {#use-cases}
       + {hide-from-toc}[Adobe Journey Optimizer中的热门优化用例 — 基于Web和代码的渠道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-      + {hide-from-toc}[在Adobe Journey Optimizer中通过A/B测试进行的内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+      + 在Adobe Journey Optimizer中通过A/B测试进行的{hide-from-toc}[内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
       + {hide-from-toc}[在网页中添加或隐藏组件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
   + 将Target与Adobe Experience Manager (AEM)集成 {#aem}
@@ -161,7 +161,7 @@ ht-degree: 71%
     + [Target Automated Personalization 产品建议](c-activities/t-automated-personalization/ap-target-offers.md)
     + [管理排除项](c-activities/t-automated-personalization/managing-exclusions.md)
     + [Automated Personalization 中的产品建议报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-    + [选择控制体验](c-activities/t-automated-personalization/experience-as-control.md)
+    + [Select控制体验](c-activities/t-automated-personalization/experience-as-control.md)
     + [Automated Personalization 常见问题解答](c-activities/t-automated-personalization/automated-personalization-faq.md)
     + [Automated Personalization 疑难解答](c-activities/t-automated-personalization/ap-trouble.md)
   + 体验定位 {#experience-targeting}

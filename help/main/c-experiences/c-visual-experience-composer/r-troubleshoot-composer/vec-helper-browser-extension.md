@@ -29,86 +29,92 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 48%
+source-wordcount: '1119'
+ht-degree: 5%
 ---
-# [!UICONTROL 可视化体验编辑器]帮助程序扩展
+# [!UICONTROL 可视化体验编辑器]帮助程序扩展 {#vec-helper-extension}
 
-适用于[!DNL Google Chrome]的[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)助手浏览器扩展允许您在VEC内可靠地加载网站，以快速创作和QA Web体验。
+>[!BEGINSHADEBOX]
 
-VEC助手浏览器是[!DNL Chrome]扩展。 使用[!DNL Mozilla Firefox]时不需要此扩展。
+**在此页面上：**&#x200B;了解旧版VEC Helper浏览器扩展如何在&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)中加载网站，以及如何安装和使用它。
+
+>[!ENDSHADEBOX]
+
+适用于[!DNL Google Chrome]的[!DNL Adobe Target] **[!UICONTROL 可视化体验编辑器]** (VEC)助手浏览器扩展可以在VEC中可靠地加载网站，从而加快创作和检查Web体验的速度。 [!DNL Mozilla Firefox]中不需要该扩展。
 
 >[!IMPORTANT]
 >
->* 本文中记录的旧版[!DNL Target] VEC Helper扩展是使用Manifest V2创建的。 [!DNL Google]宣布从2024年6月起，将不再允许使用清单V2创建的扩展。 有关详细信息，请参阅&#x200B;*面向开发人员的Chrome*&#x200B;网站上[!DNL Google]的[清单V2支持时间表公告](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank}。
+>* 本文中记录的旧版[!DNL Target] VEC Helper扩展是使用Manifest V2创建的。 [!DNL Google]宣布从2024年6月起，将停止允许使用清单V2创建的扩展。 有关详细信息，请参阅&#x200B;*面向开发人员的Chrome*&#x200B;网站上[!DNL Google]的[清单V2支持时间表公告](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank}。
 >
->* 从2024年6月开始，[!DNL Google]将开始禁用使用清单V2创建的扩展，包括本主题中介绍的扩展。 [!DNL Adobe]建议客户尽快迁移到较新的[可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+>* 从2024年6月开始，[!DNL Google]将禁用使用清单V2创建的扩展，包括本文中记录的扩展。 [!DNL Adobe]建议尽快迁移到较新的[可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
-## 为什么某些网站可能无法在可视化体验编辑器 (VEC) 中以可靠的方式打开
+## 为什么某些网站无法在VEC中以可靠的方式打开
+
+网站可能无法在VEC中以可靠的方式打开，原因如下：
 
 * 网站具有严格的安全策略。
 * 网站位于 iframe 中。
 * 尚未在网站上实施 at.js 库。
-* 外部无法访问客户的 QA 或阶段站点（该站点为内部站点）。
-* 在尝试使用VEC打开使用[Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW)的网站时，当前存在一些限制。
+* 客户的QA或暂存站点为内部站点，在网络外部不可用。
+* 网站使用[Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW)，VEC当前仅支持有限制的SW。 请参阅以下部分。
+* 网站在[!DNL Chrome] 80或更高版本中打开，这将强制实施SameSite Cookie策略。 有关详细信息，请参阅[Google Chrome SameSite Cookie策略](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)。
 
-SW 是一种 Web 技术，可用于拦截对网页所安装的域的请求。 SW 在页面访问中留存，并在后续访问中自我激活。 SW 可以决定哪些请求将通过，哪些请求被拦截并从缓存中提供服务。
+针对[!DNL Chrome]的VEC Helper浏览器扩展可以解决网站加载问题，否则，客户将依赖于[!DNL Target] [增强型体验编辑器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)或第三方扩展（如Requestly）来解决该问题。
 
-SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CSS、IMG、AJAX 请求）、它们的内容和响应头，包括我们的 [Target VEC Helper 扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)尝试删除的项，例如 X-Frame-Options：SAMEORIGIN、CSP (Content-Security-Policy) 或 Set-Cookie。
+### 服务工作程序
 
-不幸的是，拦截Web请求的Chrome扩展API不会收到已由SW拦截和处理的请求。 因此，如果网页请求是由SW从缓存中提供的，则扩展无法修复标头和Cookie，因为网页将不会在VEC中加载（原因是，X-Frame-Options或CSP标头也已被缓存）。
+Service Worker (SW)是网页安装的一种Web技术，用于拦截对其域的请求。 SW 在页面访问中留存，并在后续访问中自我激活。 它决定哪些请求通过，哪些请求被拦截并从缓存提供服务。
 
-作为潜在的解决方法，您可以从Chrome的“开发人员工具”>“应用程序”选项卡中禁用Service Worker，然后启用Service Worker部分下的“绕过网络”复选框。
+SW可以缓存网页本身、静态资源（如JS、CSS、IMG和AJAX请求）及其内容和响应标头。 这些标头包括[Target VEC Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)尝试删除的标头，如`X-Frame-Options: SAMEORIGIN`、CSP (`Content-Security-Policy`)和`Set-Cookie`。
 
-* 您正在将Google Chrome 80及更高版本与增强的SameSite Cookie实施策略配合使用。 有关详细信息，请参阅[最近公布的Google Chrome SameSite Cookie强制执行政策对VEC和EEC有何影响](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)？
+拦截Web请求的[!DNL Chrome]扩展API不接收SW已拦截和处理的请求。 当SW从缓存中提供网页请求时，扩展无法修复标头和Cookie，并且由于缓存了`X-Frame-Options`或CSP标头，页面无法在VEC中加载。
 
-适用于Chrome的VEC助手浏览器扩展可以解决网站加载问题，目前，客户依赖于[!DNL Target] [增强型体验编辑器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)或第三方扩展（如Requestly）来解决该问题。
+作为潜在的解决方法，请在[!DNL Chrome]开发人员工具> **应用程序**&#x200B;选项卡中禁用Service Worker，然后在Service Worker部分中启用“绕过网络”复选框。
 
-## 使用VEC助手扩展的好处
+## VEC助手扩展的好处
 
-* 将从网站中隐式删除所有 iframe 嵌套标头（例如 X-Frame-Options 和 Content-Security-Policy）。 不再需要创建复杂的Requestly规则。
-* 如果网页尚未包含 [!DNL Target] at.js JavaScript 库，您可以使用该扩展来插入库，这样您便可以为该网站创作体验。 然后，您可以创建活动并使用预览链接进行 QA。
-
-  请注意，使用增强型体验编辑器(EEC)时，扩展不会插入.js，但是SameSite Cookie功能仍然会存在。 要在网页上插入 at.js，请关闭 EEC。
-
-* 即使没有[!UICONTROL 增强型体验编辑器] (EEC)，也支持[移动设备视区](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
-* 对于 [!DNL Target] 的新客户，即便在其 IT 开发人员尚未在其网站上实施 [!DNL Target] 的情况下，也可以使用此扩展来试用 [!DNL Target]。
-* 服务于多个客户网站和 [!DNL Target] 帐户的合作伙伴现在有一个简单的机制来支持 VEC 加载，而不用通过第三方工具管理多个规则。
+* **删除了Iframe-busting标头：**&#x200B;扩展从网站中隐式删除了`X-Frame-Options`和`Content-Security-Policy`等标头，因此不需要复杂的Requestly规则。
+* **at.js注入：**&#x200B;当网页尚未包含[!DNL Target] at.js JavaScript库时，扩展可以插入它。 随后可以为网站创作体验，并可通过预览链接创建和检查活动。 使用增强型体验编辑器(EEC)，扩展不会插入at.js，但SameSite Cookie功能会保留。 要在网页上插入at.js，请关闭EEC。
+* 即使没有&#x200B;**[!UICONTROL 增强型体验编辑器]** (EEC)，也支持&#x200B;**移动设备视区：** [移动设备视区](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
+* **新[!DNL Target]客户：**&#x200B;该扩展使尝试使用[!DNL Target]成为可能，即使IT开发人员尚未在网站上实施[!DNL Target]也是如此。
+* **合作伙伴：**&#x200B;为多个客户的网站和[!DNL Target]帐户提供服务的合作伙伴将获得一个支持VEC加载的机制，而不是第三方工具中的多个规则。
 
 ## 获取并安装 VEC 助手浏览器扩展
 
-1. 导航到Chrome网上应用商店[&#128279;](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)中的Adobe Target VEC助手浏览器扩展。
-1. 单击&#x200B;**[!UICONTROL 添加到Chrome >添加扩展]**。
+在[!DNL Chrome]中安装扩展后，可以在VEC中以可靠的方式加载网站，包括阻止iframe或尚未实施at.js的网站。
+
+1. 转到Chrome网上应用商店[&#128279;](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)中的Adobe Target VEC助手浏览器扩展。
+1. 单击&#x200B;**[!UICONTROL 添加到Chrome]** > **[!UICONTROL 添加扩展]**。
 1. 打开 [!DNL Target] 中的 VEC。
-1. 要使用此扩展，请在处于 VEC 或 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)时，单击 Chrome 浏览器工具栏中的 VEC 助手浏览器扩展图标 (![VEC 助手图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。
-1. （视情况而定）如果网页尚未包含[!DNL Target] at.js JavaScript库，请将&#x200B;**[!UICONTROL 插入Target库]**&#x200B;切换开关滑动到“开”位置。
+1. 在VEC或[QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md)中，单击[!DNL Chrome]工具栏中的VEC助手浏览器扩展图标（![VEC助手图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)）。
+1. （视情况而定）如果网页尚未包含[!DNL Target] at.js JavaScript库，请打开&#x200B;**[!UICONTROL 插入Target库]**&#x200B;切换开关。
 
-   下图显示了已启用[!UICONTROL 插入Target库]设置的VEC助手：
+   下图显示了已启用&#x200B;**[!UICONTROL 插入Target库]**&#x200B;设置的VEC助手：
 
-   ![VEC 助手 1](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
+   打开“插入Target库”开关并关闭“Cookie”开关的![VEC Helper扩展面板，显示“Cookie”设置在VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)内请求的所有Cookie上设置SameSite=None和Secure标记
 
-   下图显示，VEC 助手询问您是否希望它在页面中插入 [!DNL Target] 库以启用创作功能：
+   然后，VEC助手会询问是否应将[!DNL Target]库插入到页面中以启用创作功能：
 
-   ![VEC 助手 2](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
+   ![插入Target库提示符，表示Target VEC Helper扩展希望将Target库插入到页面中以启用创作功能，同时显示取消和允许按钮](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. （视情况而定）将&#x200B;**[!UICONTROL Cookie]**&#x200B;切换开关滑动到“开”位置，以自动添加`SameSite=None`属性浏览器修复。
+1. （视情况而定）打开&#x200B;**[!UICONTROL Cookie]**&#x200B;开关以自动添加`SameSite=None`属性浏览器修复。
 
-   VEC助手扩展中的![Cookie切换](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+   ![VEC Helper扩展面板（带有Cookie切换开关）在可视化体验编辑器中打开并突出显示，其中显示了一个示例页面](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-   若要了解有关`SameSite=None`属性浏览器修复的更多信息，请参阅“最近公布的 Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？” （在[排除与可视体验编辑器和增强体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中）。
+   有关`SameSite=None`属性浏览器修复的详细信息，请参阅[Google Chrome SameSite Cookie策略](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)。
 
-## 注释
+## 使用说明
 
-* 默认情况下，扩展中的[!UICONTROL 插入Target库]标志处于“关”状态。 如果要在尚未针对 [!DNL Target] 实施的网站上使用 VEC，则可以启用此标志。
+* 默认情况下，扩展中的&#x200B;**[!UICONTROL 插入Target库]**&#x200B;标志处于关闭状态。 将其打开以在尚未实现[!DNL Target]的网站上使用VEC。
 
-  此标志是全局设置。 可以为在 VEC 中打开的所有网站启用或禁用此标志。 因此，例如，如果您将此标志设置为“开”，并打开一个已使用at.js进行实施的网站，则会收到一则消息，告知您at.js已加载。 Adobe预计大多数客户已在其页面上实施了at.js，并且会使用默认设置“关闭”。
+  标记是全局设置，因此对于在VEC中打开的所有网站，均会启用或禁用此标记。 例如，当标记打开时，如果网站已实施at.js，则会显示一条消息，表明at.js已加载。 [!DNL Adobe]希望大多数客户已在其页面上实施了at.js，并且使用默认的“关”设置。
 
-* 该扩展加载最新版本的at.js，该版本可从[!UICONTROL 管理>实现]中的[!DNL Target UI]获得。
-* 当在 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)下使用扩展插入 at.js 时，必须打开另一个 Chrome 选项卡。 此 Chrome 选项卡必须通过您创建该活动的同一 [!DNL Adobe Experience Cloud] 组织的身份验证。
-* 以下消息有助于您随时了解以下情况：
+* 该扩展加载最新版本的at.js，该版本在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实现]**&#x200B;下的[!DNL Target] UI中可用。
+* 若要使用此扩展在[QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md)中插入at.js，必须打开另一个Chrome选项卡。 此选项卡必须通过创建该活动的同一[!DNL Adobe Experience Cloud]组织的身份验证。
+* 在以下情况下，VEC会显示消息：
 
-  * 如果尝试使用未能加载的 VEC 来加载网站，则会显示一则消息，建议您安装 VEC 助手浏览器扩展。
-  * 如果尚未在网站上实施 at.js，则 VEC 中会显示一则消息，建议您安装扩展。
-  * 如果扩展已启用并且正在为加载提供支持，则当扩展插入 at.js 库（如果需要），或帮助在 VEC 中可靠地打开网站时，将显示消息。
+  * 网站无法在VEC中加载。 此消息建议安装VEC助手浏览器扩展。
+  * 尚未在网站上实施at.js。 此消息建议安装扩展。
+  * 该扩展已启用并为加载提供支持。 如果必要，扩展会插入at.js库，或者有助于在VEC中可靠地打开网站，此时将显示消息。

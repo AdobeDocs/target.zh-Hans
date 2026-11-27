@@ -23,23 +23,29 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 5eb9c52c66c309a3db66cf01e01f6a3f09dc2ac5
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 69%
+source-wordcount: '396'
+ht-degree: 28%
 ---
-# 体验和选件入门
+# 体验和选件入门 {#experiences-overview}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解[!DNL Adobe Target]中的体验以及哪些体验编辑器可用于创建体验。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Target]中的体验可决定在访客满足活动的受众条件时显示的内容。
 
-体验可以是一个页面、整个网页、可能形成购买漏斗的一组页面或一些其他逻辑序列的页面上的一个产品建议、图像、文本、按钮、视频，以及这些不同元素的组合。 它还可以是语音助手的回复、客户服务脚本，甚至是饮料机中提供的独特口味。 您可以在 [!DNL Target] 活动中测试或个性化体验。
+体验可以是一个页面、整个网页、可能形成购买funnel的一组页面或另一个逻辑序列的页面上的一个选件、图像、文本、按钮、视频，以及这些元素的组合。 它还可以是语音助手的回复、客户服务脚本，甚至是饮料机中提供的独特口味。 在[!DNL Target]活动中测试或个性化体验。
 
-一个活动通常包含多个体验。 例如，盐湖城地区的访客可能会看到滑雪靴立减 30 美元的选件，而圣地亚哥地区的访客则可能会看到潜水服打折的选件。 或者，您可能会针对旧访客测试包含不同特殊选件的页面。 其中每个选件均在单独的体验中提供。
+一个活动通常包含多个体验。 例如，盐湖城地区的访客可能会看到滑雪靴立减 30 美元的选件，而圣地亚哥地区的访客则可能会看到潜水服打折的选件。 此外，还可能会测试为回访访客提供不同特殊优惠的页面。 其中每个选件均在单独的体验中提供。
 
-Target 提供了以下体验编辑器：
+[!DNL Target]提供了以下体验编辑器：
 
 | 类型 | 详细信息 |
 | --- | --- |
-| [可视化体验编辑器 (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | VEC 是 Adobe Target 的主要功能之一。 通过 VEC 编辑器，营销人员和设计人员可以使用可视化界面创建和更改内容。 无需直接编辑代码，便可进行多种设计选择。 使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。 |
-| [基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | 在基于表单的体验编辑器中，可采用非可视化方式创建体验。 利用此功能，可在电子邮件、网亭和使用可视化体验编辑器无法结合使用的其他位置中交付Target Standard A/B测试、体验定位、Automated Personalization和“推荐”活动。 |
-| [单页应用程序 (SPA) 可视化体验编辑器 (VEC)](/help/main/c-experiences/spa-visual-experience-composer.md) | 使用 SPA VEC，营销人员能够以 DIY（自己动手）方式创建测试并对 SPA 上的内容进行个性化，而无需持续依赖开发。 VEC 可用于在常用框架（例如 React 和 Angular）上创建 A/B 测试和体验定位 (XT) 活动。 |
+| [可视化体验编辑器 (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | VEC 是 [!DNL Adobe Target] 的主要功能之一。 它是一个编辑器，允许营销人员和设计人员使用可视化界面创建和更改内容。 许多设计选择无需直接编辑代码即可作出。 也可以使用编辑器中提供的编辑选项来编辑HTML和JavaScript。 |
+| [基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md) | 在基于表单的体验编辑器中，可采用非可视化方式创建体验。 它支持在电子邮件、网亭以及其他不适用于可视化体验编辑器的位置中交付[!DNL Target Standard]个A/B测试、体验定位、Automated Personalization和[!DNL Recommendations]活动。 |
+| [单页应用程序 (SPA) 可视化体验编辑器 (VEC)](/help/main/c-experiences/spa-visual-experience-composer.md) | 使用SPA VEC，营销人员能够独立创建测试并对SPA上的内容进行个性化，而无需持续依赖开发。 它可用于在常用框架（例如React和Angular）上创建A/B测试和体验定位(XT)活动。 |

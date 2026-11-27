@@ -18,32 +18,36 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 25%
+source-wordcount: '478'
+ht-degree: 4%
 ---
-# 可视化体验编辑器中使用的元素选择器
+# 在[!UICONTROL 可视化体验编辑器]中使用的元素选择器 {#vec-selectors}
 
-元素选择器是可以标识一个或多个元素的CSS表达式。
+>[!BEGINSHADEBOX]
 
-您可以在&#x200B;*[!DNL Mozilla Developer Network]* (MDN)上的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文档中找到有关CSS选择器的基本信息。
+**在此页面上：**&#x200B;了解元素选择器在[!UICONTROL 可视化体验编辑器] (VEC)中的工作方式、如何选择使用的选择器以及[!DNL Target]如何为元素生成选择器。
 
-您可以设置要在帐户首选项中使用元素类还是元素 ID。 单击&#x200B;**[!UICONTROL 管理>可视化体验编辑器]**，然后选择首选的CSS选择器。
+>[!ENDSHADEBOX]
 
-* **使用元素ID**：如果同一ID用于多个元素，或者元素ID在页面加载时可能发生更改，则禁用。
-* **使用元素类**：如果页面上的元素类可能发生更改，则禁用。
-* **使用首选选择器**：如果想要在VEC中使用唯一选择器来识别网站的关键区域，请启用此选项。
+元素选择器是可以标识一个或多个元素的CSS表达式。 有关CSS选择器的基本信息可在&#x200B;*[!DNL Mozilla Developer Network]* (MDN)上的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文档中找到。
+
+无论使用元素类还是元素ID，均在帐户首选项中进行设置。 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]**，然后选择首选的CSS选择器：
+
+* **[!UICONTROL 使用元素ID]**：如果同一ID用于多个元素，或者元素ID在页面加载时可能发生更改，则禁用。
+* **[!UICONTROL 使用元素类]**：如果页面上的元素类可能发生更改，则禁用。
+* **[!UICONTROL 使用首选选择器]**：启用可在VEC中使用唯一选择器来识别网站的关键区域。
 
 >[!NOTE]
 >
->元素类在[!UICONTROL A/B测试]、[!UICONTROL Automated Personalization]和[!UICONTROL 多变量测试]活动中可用作选择器。
+>元素类在&#x200B;**[!UICONTROL A/B测试]**、**[!UICONTROL Automated Personalization]**&#x200B;和&#x200B;**[!UICONTROL 多变量测试]**&#x200B;活动中可用作选择器。
 
-有关何时使用 CSS 选择器以及何时使用唯一 ID 的信息，请参阅[可视化体验编辑器最佳实践和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
+有关何时使用CSS选择器以及何时使用唯一ID的信息，请参阅[可视化体验编辑器最佳实践和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices)。
 
-## [!DNL Target]如何为元素生成选择器 {#section_D89D954BCBFB486CA081BE183776A475}
+## [!DNL Target]如何为元素生成选择器 {#generate-selector}
 
-[!DNL Target]使用简单的算法创建一个选择器。 下面简单解释了一下生成逻辑：
+[!DNL Target]使用简单的算法创建一个选择器。 生成逻辑如下：
 
 1. 如果某个元素的ID为，例如`id="container"`，则该元素的选择器为`#container`。
 
@@ -62,9 +66,9 @@ ht-degree: 25%
    </div>
    ```
 
-1. 如果元素包含类特性，则[!DNL Target]尝试利用元素上存在的任何类的第一个类。
+1. 如果元素包含类特性，则[!DNL Target]尝试使用元素上存在的任何类的第一个类。
 
-   [!DNL Target]尝试解析该父元素，直到找到`<HTML>`元素或具有ID的元素。 每当元素包含ID并且选择器计算为其子代子项时，该元素的ID即会为选择器贡献内容。
+   [!DNL Target]尝试解析该父元素，直到找到`<HTML>`元素或具有ID的元素。 每当元素包含ID并且选择器计算为其子代子项时，此元素的ID即会为选择器贡献内容。
 
    例如：
 
@@ -81,11 +85,9 @@ ht-degree: 25%
    </div>
    ```
 
-   在此示例中：
+   在此示例中，选择器是`#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` （“>”表示直接子项）。
 
-   选择器：`#container` > `ul.navigation:eq(0)` > `li.item:eq(0)`（“>”表示直接子项。)
-
-   `eq`告知索引存在一个具有“tagName=UL”的元素，第一个类为`navigation`。 因此，`index` 为 0。 有关更多信息，请参阅 MDN 中的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
+   `eq`提供具有“tagName=UL”和第一个类`navigation`的元素的索引。 因此，`index` 为 0。 有关更多信息，请参阅 MDN 中的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
 
 1. 如果元素不包含类，[!DNL Target]将对该元素使用`tagName`，并遍历父元素，直到找到`<HTML>`元素或具有ID的元素。
 
@@ -104,10 +106,10 @@ ht-degree: 25%
    </div>
    ```
 
-   选择器：`#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
+   选择器是`#container` > `ul.navigation:eq(0)` > `li:nth-of-type(4)`。
 
-在上面的流程中：
+在此过程中：
 
-* 您可以使用任何 CSS 选择器，前提是该选择器可唯一标识 DOM 中的元素。
-* 以上方法是[!DNL Target]使用的方法。 [!DNL Target]不要求您使用此方法。 只要满足第 1 点中的要求，您便可以添加任何选择器。
-* 您可以在选择器中使用任何属性。 本文档仅使用类名作为示例。
+* 可使用任何CSS选择器，只要它唯一标识DOM中的元素即可。
+* 以上方法是[!DNL Target]使用的方法。 [!DNL Target]不强制采用此方法。 可以添加任何选择器，只要它唯一标识元素即可。
+* 可以在选择器中使用任何属性。 本文仅使用类名作为示例。

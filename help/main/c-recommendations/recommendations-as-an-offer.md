@@ -18,71 +18,68 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 55%
+ht-degree: 12%
 ---
-# “推荐”作为产品建议
+# “推荐”作为产品建议 {#recommendations-as-an-offer}
 
-您现在可以在[!UICONTROL A/B测试]（包括[!UICONTROL 自动分配]和[!UICONTROL 自动定位]）和[!UICONTROL 体验定位] (XT)活动中包含推荐。
+>[!BEGINSHADEBOX]
 
-此功能提供了几项全新的功能，例如：
+**在此页面上：**&#x200B;了解如何在[!UICONTROL A/B测试]和[!UICONTROL 体验定位] (XT)活动中添加、编辑和删除推荐作为选件。
+
+>[!ENDSHADEBOX]
+
+除了[!UICONTROL 推荐]活动之外，推荐还可以包含在[!UICONTROL A/B测试]（包括[!UICONTROL 自动分配]和[!UICONTROL 自动定位]）和[!UICONTROL 体验定位] (XT)活动中。 这允许执行以下操作：
 
 * 可在同一活动中测试和锁定推荐和非推荐内容。
-* 可轻松尝试在页面上放置推荐内容，包括为多个推荐排序。
-* 使用[!UICONTROL 自动分配]自动将流量推送到性能最佳的推荐体验。
-* 使用[!UICONTROL 自动定位]，根据访客的配置文件动态地为他们分配量身定制的推荐体验。
+* 尝试在页面上放置推荐，包括多个推荐的顺序。
+* 通过&#x200B;**[!UICONTROL 自动分配]**，自动将流量推送到性能最佳的推荐体验。
+* 通过&#x200B;**[!UICONTROL 自动定位]**，根据访客的配置文件动态地为他们分配量身定制的推荐体验。
 
-若要开始，请使用[!UICONTROL 可视化体验编辑器]创建一个[!UICONTROL A/B测试]或[!UICONTROL 体验定位]活动，然后执行[!UICONTROL 此项前插入]、[!UICONTROL 此项后插入]或[!UICONTROL 替换为]操作以向体验添加推荐。
+## 添加推荐作为选件 {#add-recs-offer}
 
-## 在 A/B 测试或 XT 活动中将推荐作为产品建议添加
+在[!UICONTROL A/B测试]或XT活动中使用[!UICONTROL 可视化体验编辑器] (VEC)创建体验时，推荐将作为选件添加。
 
-1. 使用可视化体验编辑器 (VEC) 启动三步引导式工作流，以创建 [A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)或[体验定位](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) (XT) 活动。
+1. 启动VEC的三步引导式工作流以创建[A/B测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)或[体验定位](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) (XT)活动。
 
    >[!NOTE]
    >
-   >对于 A/B 测试，请记住您可以选择[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)选项以自动将流量推送到性能最佳的推荐，或者选择[自动锁定](/help/main/c-activities/auto-target/auto-target-to-optimize.md)选项以根据访客的轮廓为他们分配量身定制的推荐体验。
+   >对于A/B测试，[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)选项会自动将流量推送到性能最佳的推荐，而[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)选项会根据访客的配置文件为其分配量身定制的推荐体验。
 
-1. 创建[体验](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)时，单击要将推荐作为选件添加到的元素，单击&#x200B;**[!UICONTROL 替换内容]**，然后选择&#x200B;**[!UICONTROL 推荐]**。
+1. 在创建[体验](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)时，可通过以下方式之一将推荐作为选件添加：
 
-   ![将推荐作为产品建议插入](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
+   * 单击要向其添加推荐的元素，单击&#x200B;**[!UICONTROL 替换内容]**，然后选择&#x200B;**[!UICONTROL 推荐]**。
 
-1. 从以下选项中选择，以查看按页面类型划分的热门推荐标准：
+     ![可视化体验编辑器，在HTML选件和体验片段选项旁的菜单中，选中标题并突出显示推荐选项](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
-   * 购物车页面
-   * 类别页面
-   * 首页
-   * 登录页面
-   * 产品页面
-   * 搜索结果页面
-   * 感谢页面
-   * 其他
+   * 在&#x200B;**[!UICONTROL 组件]**&#x200B;边栏中，选择&#x200B;**[!UICONTROL 动态]**&#x200B;下的&#x200B;**[!UICONTROL 推荐]**，将鼠标悬停在页面上的现有元素上，然后单击&#x200B;**[!UICONTROL 此项前插入]**&#x200B;或&#x200B;**[!UICONTROL 此项后插入]**，将推荐置于该元素之前或之后。
 
-1. 选择所需的[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)，然后单击[!UICONTROL 下一步]。
-1. 选择所需的[设计](/help/main/c-recommendations/c-design-overview/design-overview.md)，然后单击[!UICONTROL 下一步]。
-1. 在[!UICONTROL 选项]对话框中，指定以下内容：
+1. 访问&#x200B;**[!UICONTROL 显示属性]**&#x200B;菜单并单击&#x200B;**[!UICONTROL Select推荐]**。
+
+1. Select所需的[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)，然后单击&#x200B;**[!UICONTROL 下一步]**。
+
+1. Select所需的[设计](/help/main/c-recommendations/c-design-overview/design-overview.md)，然后单击&#x200B;**[!UICONTROL 下一步]**。
+
+1. 在&#x200B;**[!UICONTROL 选项]**&#x200B;对话框中，指定以下内容：
 
    * 选择一个[收藏集](/help/main/c-recommendations/c-products/collections.md)。
-   * 根据需要配置[前端促销活动和后端促销活动](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)选项。
+   * 如有必要，请配置[前端促销活动和后端促销活动](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)选项。
 
-1. 单击[!UICONTROL 保存]。
-1. 使用三步引导式工作流完成 A/B 测试或 XT 活动配置。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 编辑推荐产品建议的配置
+1. 使用三步引导式工作流完成[!UICONTROL A/B测试]或XT活动的配置。
 
-您可以通过两种方式编辑产品建议的配置：
+## 编辑推荐选件 {#edit-recs-offer}
 
-* 使用[!UICONTROL 编辑]菜单
-* 使用[!UICONTROL 修改]面板
+推荐选件的条件、设计、收藏和促销可在添加选件后从&#x200B;**[!UICONTROL 推荐]**&#x200B;窗格中更改。
 
-### 使用“编辑”菜单编辑推荐产品建议
+1. 单击选件以编辑并浏览右窗格菜单中的选项。
 
-1. 单击要编辑的选件，然后单击&#x200B;**[!UICONTROL 编辑]**。
+   ![包含标准、设计和收藏集名称的建议窗格，以及选定优惠的“添加促销活动”按钮](assets/create_reco_7.png)
 
-   ![编辑推荐产品建议](/help/main/c-recommendations/assets/recs-offer-edit.png)
-
-1. 从以下选项中进行选择：
+1. Select提供以下任一选项：
 
    * [更改标准](/help/main/c-recommendations/c-algorithms/algorithms.md)
    * [更改设计](/help/main/c-recommendations/c-design-overview/design-overview.md)
@@ -91,44 +88,21 @@ ht-degree: 55%
 
 1. 进行编辑。
 
-### 使用“修改”面板编辑推荐产品建议
+## 删除推荐产品建议 {#delete-recs-offer}
 
-1. 单击[!UICONTROL 修改]图标&#x200B;**( `</>` )**&#x200B;以显示[修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
-1. 将鼠标悬停在所需的操作上，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
+可以从&#x200B;**[!UICONTROL 推荐]**&#x200B;窗格中删除不再需要的推荐选件。
 
-   ![“修改”面板](/help/main/c-recommendations/assets/recs-offer-modifications.png)
+单击要删除的选件，然后单击&#x200B;**[!UICONTROL 推荐]**&#x200B;窗格中的bin图标（![Bin图标](assets/Smock_Delete_18_N.svg)）。
 
-1. 进行编辑。
+![推荐窗格，其中突出显示bin图标](assets/create_reco_8.png)
 
-## 删除推荐产品建议
+## 查看推荐选件的状态 {#status}
 
-可通过两种方式来删除推荐产品建议：
+推荐选件（算法）的状态将显示在包含推荐选件的[!UICONTROL A/B测试]和XT活动的&#x200B;**[!UICONTROL 概述]**&#x200B;页面的底部。 状态为以下状态之一：
 
-* 使用[!UICONTROL 编辑]菜单
-* 使用[!UICONTROL 修改]面板
-
-### 使用“编辑”菜单删除推荐产品建议
-
-1. 单击要删除的选件，然后单击&#x200B;**[!UICONTROL 布局>删除]**。
-
-   ![删除](/help/main/c-recommendations/assets/recs-offer-remove.png)
-
-### 使用“修改”面板删除推荐产品建议
-
-1. 单击[!UICONTROL 修改]图标&#x200B;**( &lt;/> )**&#x200B;以显示[修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
-1. 将鼠标悬停在所需的操作上，然后单击[!UICONTROL 删除]图标。
-
-   ![“删除”图标](/help/main/c-recommendations/assets/recs-offer-delete.png)
-
-### 查看推荐选件的状态 {#status}
-
-推荐选件（算法）的状态将显示在包含推荐选件的A/B测试和XT活动的[!UICONTROL 概述]页面底部：
-
-* 结果已准备就绪
-* 结果未准备就绪
-* 信息源失败
-
-![推荐产品建议状态](/help/main/c-recommendations/assets/recs-offer-status.png)
+* **[!UICONTROL 个结果已准备就绪]**
+* **[!UICONTROL 个结果未就绪]**
+* **[!UICONTROL 馈送失败]**
 
 ## 培训视频：产品建议形式的推荐![“概述”徽章](/help/main/assets/overview.png)
 

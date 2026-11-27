@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -35,7 +35,7 @@ Select要在您的[!DNL Adobe Target Recommendations]活动中使用的[标准](
 
 **选择标准：**
 
-1. 在[创建新推荐](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)时，在&#x200B;**[!UICONTROL Select标准]**&#x200B;对话框中，找到并选择一个或多个标准。
+1. 在[创建新推荐](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity)时，在&#x200B;**[!UICONTROL Select标准]**&#x200B;对话框中，找到并选择一个或多个标准。
 
    您可以使用[!UICONTROL 行业类型]筛选器、[!UICONTROL 页面类型]筛选器和[!UICONTROL 兼容]复选框来筛选条件列表。 这些选项可帮助您找到所需的标准。
 

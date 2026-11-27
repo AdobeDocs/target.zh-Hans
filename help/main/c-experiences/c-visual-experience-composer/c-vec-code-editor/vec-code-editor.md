@@ -16,111 +16,135 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 79%
+source-wordcount: '2194'
+ht-degree: 22%
 ---
-# 修改入门
+# 修改入门 {#vec-code-editor}
 
-有关[!DNL Adobe Target]中[!UICONTROL 修改]页面的信息，该页面允许您查看对页面的修改并添加其他修改（CSS选择器、Mbox和自定义代码）。
+>[!BEGINSHADEBOX]
 
-[!UICONTROL 修改]页面显示了在可视化体验编辑器(VEC)中对您的页面所做的所有更改，并允许您通过单击页面上的每个元素并[选择操作](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)来进行其他更改。 您所做的每个更改都会在“[!UICONTROL 修改]”列表中单独显示为一个操作或元素。 您还可以添加修改，其中包括以下修改类型：CSS 选择器、Mbox 和自定义代码。
+**在此页面上：**&#x200B;了解如何在[!UICONTROL 可视化体验编辑器] (VEC)的&#x200B;**[!UICONTROL 修改]**&#x200B;面板中查看、编辑、删除和添加修改，以及如何使用自定义代码。
 
-## “修改”概述 {#section_EE27E7572AA74397BBDED563B2B3D509}
+>[!ENDSHADEBOX]
 
-“[!UICONTROL 修改]”页面会显示您在 VEC 中对页面进行的所有更改。 您所做的每个更改都会在“[!UICONTROL 修改]”列表中单独显示为一个操作或元素。
+[!DNL Adobe Target]中的&#x200B;**[!UICONTROL 修改]**&#x200B;面板显示对[!UICONTROL 可视化体验编辑器] (VEC)中的页面所做的所有更改，并允许通过单击页面上的每个元素并[选择操作](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)进行其他更改。 每个更改都作为单独的操作或元素显示在&#x200B;**[!UICONTROL 修改]**&#x200B;列表中。 修改也可以直接添加到以下类型中： CSS选择器、Mbox和自定义代码。
 
-![codeeditor_page_mods图像](assets/codeeditor_page_mods.png)
+## 修改概述 {#modifications-overview}
 
-在使用 VEC 对内容交付方式进行配置时，可使用“修改”页面来对 Target 所选的选择器进行细微更改。 您可以更改内容，也可以更改 HTML 属性。 您还可以编辑代码以在 mbox 中创建 HTML 选件的等效内容。
+**[!UICONTROL 修改]**&#x200B;页面对[!DNL Target]在VEC配置内容交付方式时选择的选择器进行了小幅更改。 可以更改content或HTML属性。 也可以编辑该代码以在mbox中创建与HTML选件等效的代码。
 
-使用“修改”页面可执行以下操作：
+右侧具有“修改”面板的![可视化体验编辑器，其中列出了体验B](../assets/vec_modif_1.png)的操作
+
+**[!UICONTROL 修改]**&#x200B;页面可用于：
 
 * 查看在可视化编辑器中执行的操作。
 
-  ![codeeditor_viewchange图像](assets/codeeditor_viewchange.png)
+  ![修改面板列出了三个操作：设置HTML、更改背景颜色和设置HTML](assets/codeeditor_viewchange.png)
 
-* 编辑现有的操作。 将鼠标悬停在所需的修改上，然后单击&#x200B;**[!UICONTROL 修改]**&#x200B;图标。
+* 编辑现有的操作。 访问高级菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
-  ![codeeditor_edit image](assets/codeeditor_edit.png)
+  ![修改面板，在第一项操作旁边突出显示了“编辑”图标](assets/codeeditor_edit.png)
 
   进行更改。
 
-  ![codeeditor_changechange1图像](assets/codeeditor_changechange1.png)
+  ![包含“设置HTML”操作、“CSS元素选择器”#default_content和“内容”字段的“修改”面板](assets/codeeditor_changechange1.png)
 
-* 删除现有操作。 将鼠标悬停在所需的修改上，然后单击&#x200B;**[!UICONTROL 删除]**&#x200B;图标。
+* 删除现有操作。 访问高级菜单，然后选择&#x200B;**[!UICONTROL 删除修改]**。
 
-  ![codeditor_delete图像](assets/codeditor_delete.png)
+  ![第一个操作旁边带有突出显示“删除”图标的修改面板](assets/codeditor_delete.png)
 
-* 添加新修改。 单击&#x200B;**[!UICONTROL 添加修改]**&#x200B;或“+”图标，然后按照以下所述指定更改。
+* 添加新修改。 访问&#x200B;**[!UICONTROL 修改]**&#x200B;菜单高级菜单，选择&#x200B;**[!UICONTROL 添加修改]**，然后按照[添加修改](#add-modifications)中所述指定更改。
 
-  ![codeeditor_new image](assets/codeeditor_new.png)
+  ![包含“修改类型”、“CSS元素选择器”、“操作类型”和“内容”字段的修改面板](assets/codeeditor_new.png)
 
-  请注意，创建一个修改后，Target 会在“修改”面板顶部显示一个“+”图标，而不是在面板底部显示“添加修改”按钮。
+## 添加修改 {#add-modifications}
 
-* 将“修改”面板垂直停放在 Target UI 侧面或水平停放在底部。 单击[!UICONTROL 停放]图标可在两种设置之间切换。
+修改是从&#x200B;**[!UICONTROL 修改]**&#x200B;面板为在VEC中选择的体验添加的。
 
-  ![codeditor_dock图像](assets/codeditor_dock.png)
+1. 要显示&#x200B;**[!UICONTROL 修改]**，请单击&#x200B;**[!UICONTROL 显示修改]**。
 
-  下图显示了停放在屏幕底部的“修改”面板：
+   在可视化体验编辑器的工具栏中突出显示![修改图标](assets/codeeditor_icon_big.png)
 
-  ![codeeditor_dock_bottom图像](assets/codeeditor_dock_bottom.png)
-
-## 添加修改 {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
-
-1. 要显示所选体验的“[!UICONTROL 修改]”页面，请在 VEC 中单击&#x200B;**[!UICONTROL 修改]** &lt;/> 图标。
-
-   ![codeeditor_icon_big image](assets/codeeditor_icon_big.png)
-
-   >[!NOTE]
-   >
-   >要在基于表单的体验编辑器中打开“修改”面板，请创建或编辑 HTML 产品建议。 有关更多信息，请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)。
-
-   此时会打开“[!UICONTROL 修改]”页面，该页面将屏幕分为两部分，左侧为可视化模式，右侧为“修改”面板。 单击[!UICONTROL 停放]图标，将“修改”面板垂直停放在 Target UI 侧面或水平停放在底部。 请注意，以下图示中的体验 A 先前未进行任何修改。
-
-   ![codeeditor_page图像](assets/codeeditor_page.png)
-
-   在右侧的“[!UICONTROL 修改]”面板中，体验 B 显示了先前进行的修改。
-
-   ![codeeditor_page_mods图像](assets/codeeditor_page_mods.png)
+   要在基于表单的体验编辑器中打开&#x200B;**[!UICONTROL 修改]**&#x200B;面板，请创建或编辑HTML选件。 有关更多信息，请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)。
 
 1. 要添加修改，请执行以下操作：
 
-   * 如果先前未对体验进行任何修改，请单击右侧“[!UICONTROL 修改]”面板底部的&#x200B;**[!UICONTROL 添加修改]**&#x200B;按钮。
-   * 如果先前已对体检进行了修改，请单击右侧“[!UICONTROL 修改]”面板顶部的“+”图标。
+   * 如果之前未对体验进行任何修改，请从&#x200B;**[!UICONTROL 修改]**&#x200B;面板中单击&#x200B;**[!UICONTROL 添加修改]**。
+   * 如果之前对体验进行了修改，请访问&#x200B;**[!UICONTROL 修改]**&#x200B;菜单高级菜单，然后选择&#x200B;**[!UICONTROL 添加修改]**。
 
-   “修改”面板将显示：
+   显示&#x200B;**[!UICONTROL 修改]**&#x200B;面板：
 
-   ![codeeditor_page_mods_add图像](assets/codeeditor_page_mods_add.png)
+   ![可视化体验编辑器，右侧打开“修改”面板，显示“修改类型”、“CSS元素选择器”、“操作类型”和“内容”字段](assets/codeeditor_page_mods_add.png)
 
-1. 从&#x200B;**[!UICONTROL 修改类型]**&#x200B;下拉列表中，选择所需类型：
+1. 从&#x200B;**[!UICONTROL 修改类型]**&#x200B;下拉列表中选择所需的类型：
 
    | 修改类型 | 详细信息 |
    |--- |--- |
-   | CSS 选择器 | 在“CSS 元素选择器”框中，指定要修改的所需 CSS 元素，选择操作类型（设置内容或设置属性），然后填写所需信息和所需内容。 |
-   | Mbox | 指定mbox名称和所需的内容。<p>**注意**：在使用at.js 2.*x*&#x200B;的页面中，VEC不再支持mbox。<p>解决方法：<ul><li>如果使用at.js 2.*x*，请添加CSS选择器修改而不是Mbox修改，并在mbox正在使用的选择器上添加内容。 </li><li>使用基于表单的活动（适用于mbox和at.js 1.*x*&#x200B;以及at.js 2.*x*）。</li><li>在VEC中使用at.js 1.*x*。</li></ul> |
-   | 自定义代码 | 指定可选名称，根据需要选中或取消选中[!UICONTROL 在`<HEAD>`部分]中添加代码复选框，然后添加您的自定义代码。<p>如果选择[!UICONTROL 在`<HEAD>`分区]中添加代码，则自定义代码将添加到`<head>`分区，并且不会等待主体或页面加载事件完成后才执行。 只添加 `<script>` 和 `<style>` 元素。 添加 `<div>` 标记和其他元素可能会导致其余的 `<head>` 元素出现在 `<body>` 中。 如果您使用的是at.js，则所有选件都将进行异步交付。<p> 如果取消选择[!UICONTROL 在`<HEAD>`分区]中添加代码，自定义代码将在`<body>`标记之后立即执行。 有代码将封装在一个 `<div>` 中以保留 DOM 结构。 如果您使用的是at.js，则所有选件都将进行异步交付。<p>如果`<BODY>`的HTML包含`<SCRIPT>`和`<DIV>`，则`<DIV>`将附加到`<BODY>`并在`<HEAD>`中执行`<SCRIPT>`。 此外，加载外部文件的`<SCRIPT>`已附加到`<HEAD>`。<p>**注意**：脚本是异步运行的。 这意味着您不能使用 `document.write` 或类似的脚本方法。<p>自定义代码提供了一个非可视化界面，用于在 VEC、基于表单的体验编辑器和 HTML 选件编辑器中，查看、编辑和添加新操作。 该面板提供了体验的代码视图，用于帮助您构建更复杂的体验，微调现有的体验，以及对问题进行故障诊断。<p>自定义代码适用于熟悉 HTML、JavaScript 和 CSS 的高级用户。 代码视图可以帮助您调整或微调更改，或修复选择器问题。 您也可以使用它来添加新的自定义代码和操作。 您可以添加多个自定义代码，并为每个自定义代码提供可选名称。<p>**注意**：自定义代码当前仅适用于A/B和体验定位(XT)活动。 如果应用了重定向产品建议，自定义代码将无法用于叠加。<p>自定义代码支持以下用例：<ul><li>添加要在页面顶部执行的自定义 JavaScript、HTML 或 CSS</li><li>查看或编辑修改后由 VEC 生成的代码</li><li>为选择器设置 HTML 内容（仅限 CSS 选择器）</li><li>在 HTML 元素上设置一个属性</li><li>添加要在区域 mbox 中交付的选件内容</li><li>使用 jQuery 在 DOM-ready 时进行交换</li><li>不使用 jQuery 在 DOM-ready 时进行交换（不支持 Internet Explorer 8）</li><li>通过“elementOnLoad”插件与 DOM 轮询进行交换</li><li>自定义重定向</li></ul>自定义代码可提供：<ul><li>行号以实现更好的可用性。</li><li>语法高亮显示以帮助避免 HTML 选件出现语法错误。</li><li>创建多个自定义代码并为每个自定义代码提供可选名称的功能。 创建多个自定义代码可为将来进行调试提供便利。 例如，您可以使用描述性名称为每个修改创建单独的自定义代码，而不是创建单个自定义代码来完成多个修改。 拥有单独的自定义代码可使修改更加模块化且更易于管理。 请注意，无法保证活动中的多个自定义代码按照创建这些代码的顺序执行。</li></ul>“修改”面板将屏幕分为可视化模式和代码模式。 两种模式保持同步。 以可视化方式进行的每一个修改都在代码视图中具有与之对应的一行代码。 同样，在代码视图中进行的每一个更改也会显示在可视化体验中。 单击代码视图中的任何一行，即可在可视化页面上选中与之对应的元素。<p>自定义代码支持 HTML、脚本和样式。 可以添加或编辑任何有效的 HTML 代码或脚本。 |
+   | CSS 选择器 | 在&#x200B;**[!UICONTROL CSS元素选择器]**&#x200B;框中，指定要修改的CSS元素，选择操作类型（**[!UICONTROL 设置内容]**&#x200B;或&#x200B;**[!UICONTROL 设置属性]**），然后填写所需信息和所需内容。 |
+   | Mbox | 指定mbox名称和所需的内容。 |
+   | 自定义代码 | 指定可选名称，根据需要选中或取消选中&#x200B;**[!UICONTROL 在`<HEAD>`部分]**&#x200B;中添加代码复选框，然后添加自定义代码。 有关详细信息，请参阅[自定义代码](#custom-code)。 |
+
+   >[!NOTE]
+   >
+   >使用at.js 2.*x*&#x200B;的页面的VEC不再支持mbox。 解决方法：
+   >
+   >* 如果使用at.js 2.*x*，请添加CSS选择器修改而不是Mbox修改，然后在mbox正在使用的选择器上添加内容。
+   >* 使用基于表单的活动（适用于mbox和at.js 1.*x*&#x200B;以及at.js 2.*x*）。
+   >* 在VEC中使用at.js 1.*x*。
 
 1. 根据需要添加其他修改。
 
-## 自定义代码用例 {#section_26CB3360097D400FB02E20AE5FDBA352}
+## 自定义代码 {#custom-code}
 
-**[!UICONTROL 自定义代码]**&#x200B;面板包含在页面加载开始时执行的代码。
+自定义代码提供了一个非可视化界面，用于在 VEC、基于表单的体验编辑器和 HTML 选件编辑器中，查看、编辑和添加新操作。 该面板提供了体验的代码视图，以帮助构建更复杂的体验，微调现有体验并对问题进行故障诊断。
 
-您可以执行 `<head>` 标记中的 JavaScript 代码。 代码不会等待 `<body>` 标记出现在 DOM 中才开始执行。
+自定义代码适用于熟悉 HTML、JavaScript 和 CSS 的高级用户。 代码视图可帮助调整或微调更改，或修复选择器问题。 您也可以使用它来添加新的自定义代码和操作。 可以添加多个自定义代码，还可以选择命名每个代码。
 
-适用于后续可视化操作的选择器取决于此选项卡中添加的 HTML 元素。
+![包含“自定义代码”修改类型、名称Color Blue、Add code in the head section复选框和代码](assets/codeeditor_custom.png)的修改面板
 
-“自定义代码”面板通常用于将 JavaScript 或 CSS 添加到页面的顶部。
+自定义代码的行为如下所示：
 
-![codeeditor_custom图像](assets/codeeditor_custom.png)
+* 选择&#x200B;**[!UICONTROL 在`<HEAD>`分区]**&#x200B;中添加代码后，自定义代码将添加到`<head>`分区，并且不会等待主体或页面加载事件完成后才执行。 只添加 `<script>` 和 `<style>` 元素。 添加`<div>`标记和其他元素可能会导致其余的`<head>`元素出现在`<body>`中。 如果使用at.js，则会异步交付所有选件。
+* 取消选择&#x200B;**[!UICONTROL 在`<HEAD>`分区]**&#x200B;中添加代码时，自定义代码会在`<body>`标记之后立即执行。 将所有代码封装在单个`<div>`中以保留DOM结构。 如果使用at.js，则会异步交付所有选件。
+* 如果`<BODY>`的HTML包含`<SCRIPT>`和`<DIV>`，则`<DIV>`将附加到`<BODY>`并在`<HEAD>`中执行`<SCRIPT>`。 加载外部文件的`<SCRIPT>`也会附加到`<HEAD>`。
+* 脚本是异步运行的。 这意味着无法使用`document.write`和类似的脚本方法。
+* 自定义代码目前仅适用于A/B和体验定位(XT)活动。 如果应用了重定向产品建议，自定义代码将无法用于叠加。
+
+自定义代码支持以下用例：
+
+* 添加要在页面顶部执行的自定义JavaScript、HTML或CSS
+* 查看或编辑VEC在做出修改后生成的代码
+* 为选择器设置 HTML 内容（仅限 CSS 选择器）
+* 在 HTML 元素上设置一个属性
+* 添加要在区域 mbox 中交付的选件内容
+* 使用 jQuery 在 DOM-ready 时进行交换
+* 不使用 jQuery 在 DOM-ready 时进行交换（不支持 Internet Explorer 8）
+* 通过“elementOnLoad”插件与DOM轮询交换
+* 自定义重定向
+
+自定义代码可提供：
+
+* 行号以实现更好的可用性。
+* 语法突出显示以帮助避免HTML选件的语法不正确。
+* 创建多个自定义代码并为每个自定义代码提供可选名称的功能。 创建多个自定义代码可为将来进行调试提供便利。 例如，可以为每个修改创建单独的自定义代码，并带有一个描述性名称，而不是创建单个自定义代码来完成若干修改。 单独的自定义代码使修改更加模块化和可管理。 不能保证在活动中的多个自定义代码会在创建它们的序列中执行。
+
+**[!UICONTROL 修改]**&#x200B;面板在可视模式和代码模式之间拆分屏幕。 两种模式保持同步。 以可视化方式进行的每一个修改都在代码视图中具有与之对应的一行代码。 同样，在代码视图中进行的每一个更改也会显示在可视化体验中。 单击代码视图中的任意行将在可视页面上选择相应的元素。
+
+自定义代码支持 HTML、脚本和样式。 可以添加或编辑任何有效的 HTML 代码或脚本。
+
+## 自定义代码示例 {#custom-code-examples}
+
+**[!UICONTROL 自定义代码]**&#x200B;面板包含在页面加载开始时执行的代码。 可以在`<head>`标记中执行JavaScript代码。 代码不会等待`<body>`标记出现在DOM中才开始执行。 适用于后续可视化操作的选择器取决于此选项卡中添加的 HTML 元素。
+
+**[!UICONTROL 自定义代码]**&#x200B;面板通常用于将JavaScript或CSS添加到页面顶部。
 
 使用&#x200B;**[!UICONTROL 自定义代码]**&#x200B;选项卡可执行以下操作：
 
 * 使用内联 JavaScript，或链接到外部 JavaScript 文件
 
-  例如，要更改元素的颜色：
+  例如，要更改元素的颜色，请执行以下操作：
 
   ```javascript
   <script type="text/javascript"> 
@@ -141,7 +165,7 @@ ht-degree: 79%
 
 * 添加 HTML 代码片段来定义新元素
 
-  例如，通过以下 HTML 代码片段，使用上面定义的 CSS 类创建一个叠加 `<div>`：
+  例如，使用以下HTML代码片段创建一个使用上面定义的CSS类的叠加`<div>`：
 
   ```html
   <div class="overlay"></div>
@@ -149,7 +173,7 @@ ht-degree: 79%
 
 * 使用 jQuery 在 DOM-ready 时进行交换
 
-  以下使用JQuery的示例假定当[!DNL Target]执行选件时，客户的网站在页面上具有jQuery可用。
+  以下示例假定当[!DNL Target]执行选件时，客户的网站在页面上具有jQuery。
 
   ```javascript
   <style>#default_content {visibility:hidden;}</style> 
@@ -173,7 +197,7 @@ ht-degree: 79%
   </script> 
   ```
 
-* 自定义重定向传递现有参数、`s_tnt` 参数（用于旧版集成到 Analytics）、反向链接参数和 mbox 会话
+* 传递现有参数、`s_tnt`参数（用于与Analytics的旧版集成）、反向链接参数和mbox会话的自定义重定向
 
   ```javascript
   <style type="text/css">body{display:none!important;}</style> 
@@ -183,15 +207,15 @@ ht-degree: 79%
   </script> 
   ```
 
-* 添加 Adobe Target 体验模板，以在自定义代码中使用。 Target 体验模板是具有可配置输入的预编码示例，用于执行常见的营销人员用例。 这些体验模板将作为执行常见用例的起始点，通过 VEC 或基于表单的体验编辑器免费提供给开发人员和营销人员。 用例包括灯箱、轮播、倒计时等等。
+* 添加[!DNL Adobe Target]体验模板以用于自定义代码
 
-  有关更多信息，请参阅[体验模板](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652)。
+  体验模板是经过预编码的示例，具有可配置的输入，用于执行常见的营销人员用例。 它们作为执行常见用例的起点，通过VEC或基于表单的体验编辑器免费提供给开发人员和营销人员。 用例包括灯箱、轮播、倒数计数等。 有关更多信息，请参阅[体验模板](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)。
 
-## 自定义代码最佳实践 {#section_10DFFD9FB92A43C1BB444A45E0272B28}
+## 自定义代码最佳实践 {#custom-code-best-practices}
 
-**始终将自定义代码包装在一个元素中。**
+* **始终将自定义代码包装在一个元素中。**
 
-例如：
+  例如：
 
 ```html
 <div id="custom-code"> 
@@ -199,63 +223,75 @@ ht-degree: 79%
 </div>
 ```
 
-如果需要进行任何修改，在此容器内更改即可。
+如果需要进行修改，请在此容器中进行更改。 如果不再需要自定义代码，请将此容器留空，但不要将其删除。 这可以确保其他体验修改不会受到影响。
 
-如果您不再需要该自定义代码，则只需将此容器保留为空，而不需要将其移除。 这可确保其他体验修改不受影响。
+* **请勿将元素 ID“CDQID”用于代码编辑器中对页面所做的修改。**
 
-**请勿将元素 ID“CDQID”用于代码编辑器中对页面所做的修改。**
+  [!DNL Target]将值为“CDQID”的新元素ID应用于[!DNL Target]修改的页面上的任何元素。 此ID由[!DNL Target]应用，因此不应将其用于代码编辑器中的任何进一步修改或调整。
 
-Target会将值为“CDQID”的新元素ID应用于Target修改的页面上的任何元素。 由于 Target 已应用此 ID，因此不应使用该 ID 在代码编辑器中进行任何进一步修改或调整。
+* **请勿在自定义代码脚本中执行`document.write`操作。**
 
-**请勿在自定义代码脚本中执行 document.write 操作。**
+  脚本是异步执行的。 这通常导致`document.write`操作显示在页面上的错误位置。 不建议在自定义代码内创建的脚本中使用 `document.write`。
 
-脚本是异步执行的。 这通常会导致 `document.write` 操作显示在页面上错误的位置。 不建议在自定义代码内创建的脚本中使用 `document.write`。
+* **如果创建并修改了某个元素，请不要删除原始元素。**
 
-**如果您创建了一个元素并对其进行了修改，请不要删除原始元素。**
+  每次更改都会在&#x200B;**[!UICONTROL 修改]**&#x200B;面板中创建一个新元素。 第二个操作将修改元素1，因此如果删除元素1，则该操作将没有任何可修改的内容，并且更改不再有效。 有关详细信息，请参阅[自定义代码疑难解答](#troubleshooting-custom-code)。
 
-每次更改都会在“修改”面板中创建一个新元素。 由于第二个操作修改了元素 1，因此如果删除元素 1，则该操作将没有任何可修改的内容，从而导致该更改不再有效。 有关更多信息，请参见下面的“故障诊断”。
+* **对指向同一URL的两个活动使用自定义代码功能时，请务必小心。**
 
-**如果您将自定义代码功能用于两个定位到相同 URL 的活动，请务必小心。**
+  当自定义代码功能用于针对同一URL的两个活动时，JavaScript将从两个活动中注入页面。 [!DNL Target]自动确定已交付内容的顺序。 确保代码与放置无关。 代码作者负责确保代码中没有冲突。
 
-如果您将自定义代码功能用于两个定位到相同 URL 的活动，则 JavaScript 将会注入到这两个活动的页面中。 Target 会自动确定交付内容的顺序。 请确保代码不依赖于位置。 您需要确保代码中没有冲突。
+## 自定义代码疑难解答 {#troubleshooting-custom-code}
 
-## 自定义代码疑难解答 {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
-
-使用`triggerView`时不执行&#x200B;**自定义代码。**
++++ 为何在使用`triggerView`时自定义代码未执行？
 
 当调用 `triggerView()` 并以 `{page: false}` 作为选项时，不重新呈现 VEC 中的自定义代码产品建议。
 
-**我收到一个警告，指出由于页面中的结构变化，无法应用某个操作。 这是什么意思？**
++++
 
-此消息表示，自上次保存活动以后，您的页面结构已发生更改。
++++ 由于页面中的结构更改而无法应用操作的警告意味着什么？
 
-可以使用“浏览”模式找到缺少的选择器。 我们建议您按照警告消息中的指示，删除每个体验然后重新创建，以确保您的内容如预期般显示。
+此消息表示自上次保存活动以来，页面结构发生了更改。
 
-![code_editor_2图像](assets/code_editor_2.png)
+![自上次保存活动后，页面结构发生更改的警告消息](assets/code_editor_2.png)
 
-***当我删除元素时，我看到一条警告显示“删除此操作可能影响后续操作”。 这是什么意思？***
+可以使用“浏览”模式找到缺少的选择器。 Adobe建议删除并重新创建每个体验，以确保内容按预期显示，如警告消息所示。
 
-例如，如果您执行了 2 项操作：
++++
+
++++ “删除此操作可能影响后续操作”警告是什么意思？
+
+例如，可能已采取以下两项操作：
 
 * 将一个类添加到 Element 1
 * 为 Element 1 编辑 HTML
 
-每次更改都会在“修改”面板中创建一个新元素。 因为第 2 个操作修改了 Element 1，如果删除 Element 1，则第 2 个操作将没有任何可修改的内容，因此更改不再有效。
+每次更改都会在&#x200B;**[!UICONTROL 修改]**&#x200B;面板中创建一个新元素。 第二个操作将修改元素1，因此如果删除元素1，第二个操作将没有任何可修改的内容，并且更改不再有效。
 
-换言之，如果您添加一个带有文本的元素，然后在单独的操作中使用不同的文本对该元素进行编辑，则“修改”面板会将这两个操作显示为不同的元素。 在编辑元素时，您创建了一个新元素，该元素修改了之前创建的原始元素，在其中包含已编辑的文本。 如果您随后删除原始元素，则编辑后的文本将无法找到已编辑的元素，并且不会显示。 第二个元素会保留在元素列表中，但不会对页面产生影响，因为它所更改的元素不再存在。
+换言之，如果用文本添加某个元素，然后在一个单独的操作中使用不同的文本对该元素进行编辑，则&#x200B;**[!UICONTROL 修改]**&#x200B;面板会将这两个操作显示为单独的元素。 编辑元素将创建一个新元素，该元素会修改原始元素并包含已编辑的文本。 如果随后删除了原始元素，则编辑的文本将找不到已编辑的元素，并且不会显示。 第二个元素会保留在元素列表中，但它不会影响页面，因为它更改的元素不再存在。
 
-***我在脚本中使用`document.write`创建的元素没有出现在我预期的位置。***
++++
 
-脚本是异步执行的。 这通常会导致 `document.write` 操作显示在页面上错误的位置。 Adobe 不建议在自定义代码内创建的脚本中使用 `document.write`。
++++ 为什么在脚本中使用`document.write`创建的元素没有出现在预期的位置？
 
-***我的JavaScript在自定义代码中显示错误。***
+脚本是异步执行的。 这通常导致`document.write`操作显示在页面上的错误位置。 Adobe 不建议在自定义代码内创建的脚本中使用 `document.write`。
 
-任何不是有效 JavaScript 的内联 JavaScript 都会在自定义代码中显示错误。
++++
 
-***我无法撤消自定义代码中的更改。***
++++ 为什么JavaScript在自定义代码中显示错误？
 
-当前不支持撤消“修改”面板和自定义代码中的编辑和删除操作。 撤消其中一个操作可能会导致 VEC 中的体验与自定义代码中显示的实际操作不一致。 但是，如果自定义代码中的操作处于正确的状态，则不会影响交付。 这是一个用户界面问题。 要刷新体验，请保存该体验并重新打开它，或者继续到下一步后再返回。 这两种操作都可以重新加载体验，以使体验按预期显示，并与“修改”面板中的操作一致。
+任何无效的JavaScript内联JavaScript都会在自定义代码中显示错误。
 
-**自定义代码无法在 Internet Explorer 8 中生成预期结果。**
++++
 
-Target 不再支持 IE8。
++++ 为何无法撤消自定义代码中的更改？
+
+当前，在&#x200B;**[!UICONTROL 修改]**&#x200B;面板和自定义代码中，不支持对编辑和删除操作执行撤消操作。 撤消其中一个操作可能会导致 VEC 中的体验与自定义代码中显示的实际操作不一致。 但是，自定义代码中的操作处于正确的状态，不会对投放产生影响。 这是一个用户界面问题。 要刷新体验，请保存该体验并重新打开它，或者继续到下一步后再返回。 这两个操作都会重新加载体验，因此它按预期显示，并与&#x200B;**[!UICONTROL 修改]**&#x200B;面板中的操作一致。
+
++++
+
++++ 为什么自定义代码在Internet Explorer 8中未生成预期结果？
+
+[!DNL Target]不再支持Internet Explorer 8。
+
++++

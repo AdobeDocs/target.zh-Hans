@@ -18,20 +18,24 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '193'
 ht-degree: 19%
 ---
-# [!DNL Recommendations]信息源处理服务器使用的IP地址
+# [!DNL Recommendations]信息源处理服务器使用的IP地址 {#recs-ip-addresses}
 
-[!DNL Adobe Target] [!DNL Recommendations]信息源处理服务器中使用的IP地址列表，可帮助您将防火墙配置为允许源自[!DNL Adobe]服务器的IP地址。
+>[!BEGINSHADEBOX]
+
+**在此页上：**&#x200B;查找[!DNL Adobe Target] [!DNL Recommendations]信息源处理服务器使用的IP地址，以配置允许源自[!DNL Adobe]服务器的IP地址的防火墙。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->[!DNL Target]团队当前正在更新用于下载[!DNL Recommendations]源的NAT网关地址。 如果实施IP列入允许列表，请确保您允许列表以下新的AWS主机。 现有主机将于2024年6月30日停用。 为确保平稳过渡，请允许列表所有九个地址。 无需急迫删除现有地址。
+>[!DNL Target]团队当前正在更新用于下载[!DNL Recommendations]源的NAT网关地址。 实施IP列入允许列表时，请允许列表以下新的AWS主机。 现有主机将于2024年6月30日停用。 为确保平稳过渡，请允许列表所有九个地址。 无需急迫删除现有地址。
 
-[!DNL Target] [!UICONTROL 推荐]活动在访问客户的FTP服务器时使用以下AWS主机：
+访问客户的FTP服务器时，[!DNL Target] [!UICONTROL 推荐]活动使用以下AWS主机。
 
 **新主机**：
 

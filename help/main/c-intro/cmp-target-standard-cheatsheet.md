@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -151,7 +151,7 @@ ht-degree: 48%
 **我是否可以在页面结构不同的情况下跨多个页面运行活动？ 我是否可以在其他位置应用选件（例如，结帐funnel）？**
 
 +++查看详细信息
-尝试使用[多页面活动功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，该功能允许您在体验中使用多个页面。
+尝试使用[多页面活动功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity)，该功能允许您在体验中使用多个页面。
 
 +++
 
@@ -284,7 +284,7 @@ ht-degree: 48%
 **我是否可以在页面结构相同的情况下跨多个页面运行活动？**
 
 +++查看详细信息
-使用[模板规则](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)，将许多结构类似的页面包含到活动中，同时仍通过提供的单个 URL 创建体验。
+使用[模板规则](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages)，将许多结构类似的页面包含到活动中，同时仍通过提供的单个 URL 创建体验。
 
 +++
 
@@ -293,39 +293,39 @@ ht-degree: 48%
 +++查看详细信息
 这是因为您的网站具有混合内容 — 它是一个同时获取HTTP和HTTPS资源的网站。 请让您的 IT 团队将网站内容全部移到 HTTPS。
 
-在此之前，请按照[在浏览器中启用混合内容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的说明操作，以允许浏览器加载混合内容。 这是目前大多数浏览器采用的一种安全功能。
+在此之前，请按照[在浏览器中启用混合内容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#mixed-content)中的说明操作，以允许浏览器加载混合内容。 这是目前大多数浏览器采用的一种安全功能。
 
 +++
 
 **我可以在我的网站上尝试[!UICONTROL 可视化体验编辑器] (VEC)，即使尚未部署[!DNL Target] at.js库吗？**
 
 +++查看详细信息
-尝试使用[增强型体验编辑器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)加载页面。
+尝试使用[增强型体验编辑器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)加载页面。
 
 +++
 
 **为什么我的网站没有在[!UICONTROL 可视化体验编辑器] (VEC)中加载？**
 
 +++查看详细信息
-尝试使用我们的帮助页面中列出的[故障诊断信息](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)。 如果这些方法都不起作用，请联系 [Adobe 支持](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+尝试使用我们的帮助页面中列出的[故障诊断信息](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#troubleshoot-composer)。 如果这些方法都不起作用，请联系 [Adobe 支持](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
 此外，我们还提供了[基于表单的方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，这些方法可以帮助您。
 
-另请阅读[增强型体验编辑器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何时以及为何有用。 您可能需要联系IT部门以[Adobe的代理服务器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
+另请阅读[增强型体验编辑器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)何时以及为何有用。 您可能需要联系IT部门以[Adobe的代理服务器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices)。
 
 +++
 
 **我有一个响应网站。 在创建活动时，如何确定要使用的关键设备？**
 
 +++查看详细信息
-尝试使用[移动设备视区](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)功能。 请注意，只有在启用[!UICONTROL 增强型体验编辑器]后才能使用该功能。
+尝试使用[移动设备视区](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#mobile-viewports)功能。 请注意，只有在启用[!UICONTROL 增强型体验编辑器]后才能使用该功能。
 
 +++
 
 **我有多个域。 其中一个域需要启用[!UICONTROL 增强型体验编辑器]，而其他域则需要禁用它。 我该如何处理？**
 
 +++查看详细信息
-您始终可以使用活动级别[&#128279;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的增强型体验编辑器选项来覆盖默认设置（[!UICONTROL 管理] > [!UICONTROL 可视化体验编辑器]）。
+您始终可以使用活动级别[&#128279;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)的增强型体验编辑器选项来覆盖默认设置（[!UICONTROL 管理] > [!UICONTROL 可视化体验编辑器]）。
 
 +++
 
@@ -346,7 +346,7 @@ ht-degree: 48%
 **如何查看我在[!UICONTROL 可视化体验编辑器] (VEC)中所做的修改？**
 
 +++查看详细信息
-[代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)中会始终显示您所做的更改。 [!UICONTROL 修改]选项卡显示应用于选件的CSS选择器或mbox。
+[代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor)中会始终显示您所做的更改。 [!UICONTROL 修改]选项卡显示应用于选件的CSS选择器或mbox。
 
 请注意，CSS 选择器是一个 Sizzle 选择器。 您可以使用此部分进行细微的修改或快速删除某些选件。
 
@@ -355,7 +355,7 @@ ht-degree: 48%
 **我希望将 JavaScript 作为实验/活动的一部分进行传递，以便实时对某些动态元素进行修改，或者只需将调用发送到第三方解决方案。 我该如何处理？**
 
 +++查看详细信息
-其中一种方法是使用[自定义代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)。 使用此方法在该区域输入您的 JavaScript，然后它将会得到交付。 根据您的需要，您可以选择将其交付到标头或主体的顶部。
+其中一种方法是使用[自定义代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor)。 使用此方法在该区域输入您的 JavaScript，然后它将会得到交付。 根据您的需要，您可以选择将其交付到标头或主体的顶部。
 
 +++
 
@@ -378,7 +378,7 @@ ht-degree: 48%
 **为何我没有看到我想要看到的产品建议/体验，反而看到了一些其他的活动？**
 
 +++查看详细信息
-使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
+使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions)。
 
 +++
 
@@ -402,7 +402,7 @@ ht-degree: 48%
 **为何我没有看到我想要看到的产品建议/体验，反而看到了一些其他的活动？**
 
 +++查看详细信息
-使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
+使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions)。
 
 +++
 

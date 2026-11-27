@@ -14,63 +14,67 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 60%
+source-wordcount: '701'
+ht-degree: 21%
 ---
-# 体验模板
+# 体验模板 {#experience-templates}
 
-有关在自定义代码中使用的[!DNL Adobe Target]体验模板的信息。[!DNL Target] 体验模板是经过预编码的示例，带有用于执行常见营销人员用例的可配置输入。
+>[!BEGINSHADEBOX]
 
-这些体验模板将作为执行常见用例的起始点，通过 VEC 或基于表单的体验编辑器免费提供给开发人员和营销人员。
+**在此页面上：**&#x200B;查找可在自定义代码中使用的[!DNL Adobe Target]体验模板，以及每个模板的常用内容。
 
-Adobe Marketing Cloud GitHub 上目前提供以下模板，请参阅 [Target 体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)。
+>[!ENDSHADEBOX]
 
-## 包含缩览图的横幅轮播 {#section_BEEE51D47CC44A478264BBF3FEC70DAE}
+[!DNL Adobe Target]体验模板是带有可配置输入的预编码示例，用于执行常见的营销人员用例。 它们作为执行常见用例的起点，通过VEC或基于表单的体验编辑器免费提供给开发人员和营销人员。
 
-[包含缩览图的横幅轮播体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails)是一个旋转轮播，通常用于主页和登陆页面或其他大容量条目页面。 此轮播不会自动旋转图像，可以通过单击主图像下方的较小图像直接进行交互。
+Adobe Marketing Cloud GitHub上当前提供以下模板： [Target-Experience-Templates](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)。
 
-![exp-template-banner-carousel-thumbnails图像](assets/exp-template-banner-carousel-thumbnails.png)
+## 包含缩览图的横幅轮播 {#banner-carousel-thumbnails}
 
-## 横幅轮播 {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
+[包含缩览图的横幅轮播体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails)是一个旋转轮播，通常用于主页和登陆页面或其他大容量条目页面。 此轮播不会自动旋转图像。 通过单击主图像下方的较小图像，可以直接与它交互。
 
-[横幅轮播体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel)是一个旋转轮播，通常用于主页和登陆页面或其他大容量条目页面。 此轮播不会自动旋转图像，可以通过单击向左和向右键头直接进行交互。
+![包含缩览图的横幅轮播模板：一张大照片，上面有三张较小的照片和标题](assets/exp-template-banner-carousel-thumbnails.png)
 
-![exp-template-banner-carousel图像](assets/exp-template-banner-carousel.png)
+## 横幅轮播 {#banner-carousel}
 
-## 横幅倒计时 {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+[横幅轮播体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel)是一个旋转轮播，通常用于主页和登陆页面或其他大容量条目页面。 此轮播不会自动旋转图像。 可通过单击左右箭头直接与进行交互。
+
+![横幅轮播模板：包含左右箭头和四个指标点的照片](assets/exp-template-banner-carousel.png)
+
+## 横幅倒计时 {#banner-countdown}
 
 [横幅倒计时体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown)是一个在中心包含倒计时的大型横幅，通常用于主页和登陆页面或其他大容量条目页面。
 
-![exp-template-banner-countdown图像](assets/exp-template-banner-countdown.png)
+![Banner Countdown模板：包含以天、小时、分钟和秒为单位的倒数计时的大型横幅，以及“转到此处”按钮](assets/exp-template-banner-countdown.png)
 
-## 按钮生成器 {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
+## 按钮生成器 {#button-builder}
 
-[按钮生成器体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button)是一个带有文本行动动员的小按钮。 该按钮是可配置的，可以放在页面的任何位置以添加新的行动动员，或者可以使用可配置程度更高的替代按钮替换现有按钮。
+[按钮生成器体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button)是一个带有文本行动动员的小按钮。 按钮可配置。 它可放置在页面上的任何位置，用于添加新的call to action，或使用可配置性更强的替代项替换现有按钮。
 
-![exp-template-button-builder图像](assets/exp-template-button-builder.png)
+![Button Builder模板：两个按钮，联系我们并转到横幅标题下面的此处](assets/exp-template-button-builder.png)
 
-## 包含倒计时的灯箱 {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## 包含倒计时的灯箱 {#lightbox-countdown}
 
 [包含倒计时的灯箱体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown)是一个在中心包含倒计时的灯箱覆盖弹出窗口，通常用于主页和登陆页面或其他大容量条目页面。
 
-![exp-template-lightbox-countdown图像](assets/exp-template-lightbox-countdown.png)
+![包含倒计时的灯箱模板：包含倒计时的弹出窗口、“转到此处”按钮以及“谢谢”链接](assets/exp-template-lightbox-countdown.png)
 
-## 具有退出意图的灯箱 {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
+## 具有退出意图的灯箱 {#lightbox-exit-intent}
 
-[具有退出意图的灯箱体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent)是一个在退出意图上触发的灯箱覆盖弹出窗口（将鼠标移动到屏幕的右上方），并且可以部署在您想最后捕获访客注意力的任意 Web 属性上。
+[具有退出意图的灯箱体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent)是一个在退出意图上触发的灯箱覆盖弹出窗口（将鼠标移动到屏幕的右上方）。 它可以部署在需要最后吸引注意力的任意Web资产上。
 
-![exp-template-lightbox-exit图像](assets/exp-template-lightbox-exit.png)
+![具有退出意图的灯箱模板：提供折扣的弹出窗口，带有“转到此处”按钮和“谢谢”链接](assets/exp-template-lightbox-exit.png)
 
-## 灯箱 {#section_EF4FBA08CE55407CAFB334340C6C1577}
+## 灯箱 {#lightbox}
 
 [灯箱体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)是一个带有内置延迟的灯箱覆盖弹出窗口，通常用于主页和登陆页面或其他大容量条目页面。
 
-![exp-template-lightbox图像](assets/exp-template-lightbox.png)
+![灯箱模板：一个弹出窗口，左侧显示照片，右侧显示消息，“转到此处”按钮，以及一个“不谢”链接](assets/exp-template-lightbox.png)
 
-## 功能区 {#section_CCBB656265F140AEA1B200409D719000}
+## 功能区 {#ribbon}
 
-[功能区体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon)是一个宽度为 100% 的功能区，位于网页的最顶部，通常用于指示限时抢购、免费装运、安全或天气事件或其他重要公告。
+[功能区体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon)是插入网页最顶部的100%宽度功能区。 它通常用于指示闪购、免运费、安全或天气事件或其他重要公告。
 
-![exp-template-ribbon图像](assets/exp-template-ribbon.png)
+![功能区模板：位于页面顶部的全宽功能区，带有文本查看我们正在运行的促销活动](assets/exp-template-ribbon.png)

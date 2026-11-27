@@ -27,126 +27,113 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 27%
+source-wordcount: '1150'
+ht-degree: 4%
 ---
-# 排除与[!UICONTROL 可视化体验编辑器]相关的问题
+# 排除与[!UICONTROL 可视化体验编辑器]相关的问题 {#vec-issues}
 
-有时，在某些情况下，[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)会发生显示问题。
+>[!BEGINSHADEBOX]
 
-## 当我在[!UICONTROL 可视化体验编辑器]中打开我的网站时，[!DNL Target]库未加载。 （仅 VEC） {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+**在此页面上：**&#x200B;了解如何解决仅影响&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)的问题。
 
-+++详细信息
-在[!UICONTROL 可视化体验编辑器]中打开网站时，[!DNL Target]添加了两个参数（`mboxEdit=1`和`mboxDisable=1`）。
+>[!ENDSHADEBOX]
 
-如果您的网站（特别是单页应用程序）裁切参数，或者在从一个页面导航到另一个页面（不重新加载页面）时将参数实际删除，[!DNL Target]功能会中断并且[!DNL Target]库不会加载。
+有时，在某些情况下，[!DNL Adobe Target] **[!UICONTROL 可视化体验编辑器]** (VEC)会发生显示问题。 以下项目介绍了仅影响VEC的问题以及如何解决这些问题。
 
-为避免出现此问题，请确保不要裁切掉或删除这两个参数。
++++ 在VEC中打开网站时未加载[!DNL Target]库
+
+在&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;中打开网站时，[!DNL Target]将参数`mboxEdit=1`和`mboxDisable=1`添加到URL中。
+
+在不重新加载页面的情况下从一个页面导航到另一个页面时，修剪或删除这些参数的网站（特别是单页面应用程序）会破坏[!DNL Target]功能，并且[!DNL Target]库不会加载。 要避免出现此问题，请在URL中保留这两个参数。
 
 +++
 
-## 我的页面无法在EEC中打开，或加载缓慢。 活动或体验在 VEC 中的加载速度缓慢。 （仅 VEC） {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
++++ 页面无法在EEC中打开或加载缓慢，或者活动和体验在VEC中加载缓慢
 
-+++详细信息
-若干问题可能会影响[!UICONTROL Target]体验编辑器中的页面性能。 一些常见的问题包括：
+多个问题可能会影响[!DNL Target]体验编辑器中的页面性能。 最常见的情况如下：
 
-* 您的页面上没有 mbox。
-* 您的网站使用了代理阻止，该功能不允许在任一体验编辑器中打开页面。
-* 您的站点不允许在iFrame中打开自身。
+* 页面没有mbox。
+* 网站使用代理阻止，阻止页面在任一体验编辑器中打开。
+* 该站点不允许在iFrame中打开自身。
 
-如果[!UICONTROL 增强型体验编辑器]中出现问题，请尝试关闭[!UICONTROL 增强型体验编辑器]，然后改用[!UICONTROL 可视化体验编辑器]。
+当&#x200B;**[!UICONTROL 增强型体验编辑器]**&#x200B;中发生问题时，请将其关闭并改用&#x200B;**[!UICONTROL 可视化体验编辑器]**。 为此，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]**，并关闭&#x200B;**[!UICONTROL 启用增强型体验编辑器]**&#x200B;选项。
 
-要禁用[!UICONTROL 增强型体验编辑器]，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]**，并关闭&#x200B;**[!UICONTROL 启用增强型体验编辑器]**&#x200B;选项。
+控制台中会显示以下错误消息：
 
-某些用户会在控制台中看到以下错误消息：
+![浏览器控制台错误消息，指出由于X-Frame-Options设置为SAMEORIGIN，页面被拒绝显示在框架中](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
-![控制台错误消息](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
-
-如果[!UICONTROL 可视化体验编辑器]和[!UICONTROL 增强型体验编辑器]都无法工作，请使用浏览器扩展，如[!DNL Requestly] （[!DNL Chrome]或[!DNL Firefox]）或修改响应标头(Firefox)，以覆盖网站的X-Frames标头选项并允许将它们加载到iFrames中，从而启用VEC。 如果您无法使用浏览器扩展，请使用[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)。
+当这两种编辑器都不工作时，覆盖站点的X-Frame-Options标头的浏览器扩展(如[!DNL Requestly] （[!DNL Chrome]或[!DNL Firefox]）或Modify Response Headers ([!DNL Firefox]))允许站点在iFrame中加载，从而启用VEC。 当无法使用浏览器扩展时，请使用[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)。 除了下面的过程外，还可以使用[!DNL Google Chrome]的[[!DNL Adobe Target] **[!UICONTROL 可视化编辑帮助程序&#x200B;]**&#x200B;扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
 >[!NOTE]
 >
->除了以下信息外，您还可以为[!DNL Google Chrome]使用[[!DNL Adobe Target] [!UICONTROL 可视化编辑帮助程序]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+>这些扩展仅用于VEC编辑。
+>
+>使用[!DNL Requestly]，无论何时需要删除标头，均请执行下列操作之一：
+>
+>* 为要在VEC中打开的URL添加URL规则，以便仅删除这些URL的标头。
+>* 在VEC中编辑时启用规则，并在VEC未使用时禁用规则。
+>
+>对于&#x200B;**[!UICONTROL Modify Response Headers]** ([!DNL Firefox])，URL规则不可用，因此必须在VEC中编辑时启用该规则，并在VEC未使用时禁用该规则。
 
->[!NOTE]
->
->以下插件仅应在 VEC 编辑上下文中使用。
->
->对于[!DNL Requestly]扩展，无论何时需要删除标头，都应执行以下操作之一：
->
->* 为要在 VEC 中打开的 URL 添加 URL 规则，以便仅删除这些 URL 的标头。
->
->* 在 VEC 中进行编辑时启用该规则，而在不使用 VEC 时禁用该规则。
->
->对于[!UICONTROL Modify Response Header]扩展([!DNL Firefox])，由于您无法添加URL规则，因此必须执行以下操作：
->
->* 在 VEC 中进行编辑时启用该规则，而在不使用 VEC 时禁用该规则。
+设置扩展后，即使&#x200B;**[!UICONTROL 增强型体验编辑器]**&#x200B;被禁用，页面也会在&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;中加载。
 
-**要在[!DNL Chrome]或[!DNL Firefox]上使用[!DNL Requestly]扩展：**
++++
 
-1. 关闭[!UICONTROL 增强型体验编辑器]。
++++ 使用Requestly（Chrome或Firefox）删除X-Frame-Options标头
+
+1. 关闭&#x200B;**[!UICONTROL 增强型体验编辑器]**。
 1. 在[!DNL Chrome]或[!DNL Firefox]上安装[!DNL Requestly]浏览器扩展。
-1. 打开该扩展程序，并执行以下操作以对其进行配置：
-1. 选择&#x200B;**[!UICONTROL 修改标头]**。
-1. 输入以下内容：
+1. 打开扩展并选择&#x200B;**[!UICONTROL 修改标头]**。
+1. 输入规则名称。
+1. 在修改规则中，创建一个删除标题的规则：
 
-   * 规则名称
-   * 修改规则
+   * 将&#x200B;**[!UICONTROL 添加]**&#x200B;切换为&#x200B;**[!UICONTROL 删除]**。
+   * 将&#x200B;**[!UICONTROL 请求]**&#x200B;切换为&#x200B;**[!UICONTROL 响应]**。
+   * 输入“X-Frame-Options”作为标头名称。
 
-     * 将&#x200B;**[!UICONTROL 添加]**&#x200B;切换为&#x200B;**[!UICONTROL 删除]**。
-     * 将&#x200B;**[!UICONTROL 请求]**&#x200B;切换为&#x200B;**[!UICONTROL 响应]**。
-     * 输入“X-Frame-Options”作为标头名称。
-     * 重复执行上述步骤，输入“x-frame-options”作为标头名称。
+1. 重复上一步并输入“x-frame-options”作为标题名称。
 
-       >[!NOTE]
-       >
-       >通过[!DNL Requestly]处理的标头区分大小写。
+   >[!NOTE]
+   >
+   >使用[!DNL Requestly]处理的标头区分大小写。
 
-     * 将&#x200B;**[!UICONTROL 等于]**&#x200B;更改为&#x200B;**[!UICONTROL 包含]**&#x200B;以作为源 URL 的条件，并输入您尝试在 VEC 中加载的活动的 URL。
+1. 将&#x200B;**[!UICONTROL Equals]**&#x200B;更改为&#x200B;**[!UICONTROL Contains]**&#x200B;作为源URL的条件，并输入要加载到VEC中的活动的URL。
 
-     ![chrome_extension图像](assets/chrome_extension.png)
+   ![名为Bypass iframe嵌套代码的Requestly规则，用于为包含adobe.com的URL删除X-Frame-Options响应标头](assets/chrome_extension.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   ![请求图像](assets/requestly.png)
+   ![删除所有URL的X-FRAME-OPTIONS和x-frame-options响应标头的Requestly规则](assets/requestly.png)
 
-   现在，您应该能够使用[!UICONTROL 可视化体验编辑器]快速加载页面。
-
-**要在[!UICONTROL Firefox]上使用[!DNL Modify Response Headers]扩展：**
-
-1. 在[!DNL Firefox]上安装[!UICONTROL Modify响应标头]并重新启动浏览器。
-1. 从[!DNL Firefox]扩展中，选择Modify Response Headers扩展。
-1. 单击&#x200B;**[!UICONTROL 首选项]**。
-1. 从[!UICONTROL 操作]下拉列表中选择&#x200B;**[!UICONTROL 筛选器]**。
-1. 在[!UICONTROL 标头名称]字段中，输入： **[!UICONTROL X-Frame-Options]**。
-1. 重复执行步骤 4 和 5，添加一个使用 **[!UICONTROL x-frame-options]** 的筛选器。
-1. 单击&#x200B;**[!UICONTROL 添加]**。
-1. 单击&#x200B;**[!UICONTROL 启动]**。
-
-![Firefox扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
-
-设置扩展后，打开[!DNL Target]。 您的页面现在应在[!UICONTROL 可视化体验编辑器]中加载，即使[!UICONTROL 增强型体验编辑器]被禁用也是如此。
+该页面现在应在&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;中快速加载。
 
 +++
 
-## VEC 中不显示我的页面（仅 VEC） {#does-not-load}
++++ 删除带有修改响应标头的X-Frame-Options标头(Firefox)
 
-+++详细信息
-* 最新版本的扩展确保与VEC的最佳兼容性： [[!DNL Adobe Experience Cloud] [!UICONTROL 可视化编辑帮助程序扩展]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+1. 在[!DNL Firefox]上安装[!DNL Modify Response Headers]扩展并重新启动浏览器。
+1. 从[!DNL Firefox]扩展中，选择[!DNL Modify Response Headers]扩展。
+1. 单击&#x200B;**[!UICONTROL 首选项]**。
+1. 从&#x200B;**[!UICONTROL 操作]**&#x200B;下拉列表中选择Select **[!UICONTROL 筛选器]**。
+1. 在&#x200B;**[!UICONTROL 标头名称]**&#x200B;字段中，输入&#x200B;**[!UICONTROL X-Frame-Options]**。
+1. 重复前两个步骤以添加具有&#x200B;**[!UICONTROL x-frame-options]**&#x200B;的筛选器。
+1. 单击&#x200B;**[!UICONTROL 添加]**。
+1. 单击&#x200B;**[!UICONTROL 启动]**。
 
-  要验证您是否使用的是最新版本，请转到[!UICONTROL 扩展] > [!UICONTROL 管理扩展]，然后单击[!UICONTROL 详细信息]。
+![在Firefox中修改响应标头窗口，X-Frame-Options标头上的筛选器显示为已启用](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
 
-* [!UICONTROL 可视化体验编辑器]需要创作库才能对网页执行修改。 这些库嵌入在at.js库中，并在每次使用VEC时由扩展从[!DNL Adobe]服务器下载。
++++
 
-  无论at.js或[!DNL Adobe Experience Platform Web SDK]是否已包含在页面中，该扩展都会下载at.js库。
++++ VEC中不显示页面
 
-  确保没有向[!UICONTROL 管理] > [!UICONTROL 实现]部分中配置的at.js标头添加无效的更改。
+检查以下原因：
 
-* 确保网页未阻止在嵌入到iFrame中时加载的必需请求。 这包括使用frame-ancestors CSP指令或嵌入到客户网站中的自定义JS代码、meta HTML标记或x-frame-options标头。
-
-* 确保网页的Javascript不会干扰创作库。 请勿使用或包含使用以下保留名称的文件：
+* **扩展版本：** [[!DNL Adobe Experience Cloud] **[!UICONTROL 可视化编辑帮助程序&#x200B;]**&#x200B;扩展的最新版本](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)提供了与VEC的最佳兼容性。 若要验证已安装的版本，请转到&#x200B;**[!UICONTROL &#x200B;扩展&#x200B;]**>**[!UICONTROL &#x200B;管理扩展&#x200B;]**，然后单击&#x200B;**[!UICONTROL &#x200B;详细信息&#x200B;]**。
+* **创作库：** VEC需要创作库才能修改网页。 它们嵌入在at.js库中，每次使用VEC时，扩展都会从[!DNL Adobe]服务器下载该库，无论at.js或[!DNL Adobe Experience Platform Web SDK]是否已在页面上。 检查&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实现]**&#x200B;中配置的at.js标头是否不包含任何无效更改。
+* **阻止的请求：**&#x200B;当页面嵌入到iFrame中时，该页面不能阻止必须加载的请求。 此类阻止包括`frame-ancestors` CSP指令、网站中的自定义JavaScript代码、元HTML标记和`x-frame-options`标头。
+* **保留的文件名：**&#x200B;页面的JavaScript不得干扰创作库。 请勿使用或包含具有以下保留名称的文件：
 
   * `target-vec-helper.js`
   * `target-vec.js`
@@ -155,31 +142,26 @@ ht-degree: 27%
   * `sizzle.js`
   * `mixContentCheck.html`
 
-    此外，意外覆盖这些文件内定义的变量或事件可能会导致VEC出现问题。
+  意外覆盖在这些文件中定义的变量或事件也会导致VEC出现问题。
 
-* 浏览器阻止安全网站上的不安全页面。
-
-  请单击浏览器地址栏中 URL 左侧的图标，然后再单击&#x200B;**[!UICONTROL 在此页面上禁用保护]**
-
-* 您输入了无效的 URL。
-* 如果您的网站无法在VEC中加载或行为异常，则可能的修复方法是：在尝试在[!DNL Target]中加载网站之前，在浏览器中接受您网站上的Cookie。
+* **安全站点上的非安全页面：**&#x200B;浏览器阻止该页面。 单击地址栏中URL左侧的图标，然后单击&#x200B;**[!UICONTROL 在此页面上禁用保护]**。
+* **无效的URL：**&#x200B;输入的URL无效。
+* **Cookie：**&#x200B;如果网站无法在VEC中加载或行为异常，则在[!DNL Target]中加载网站之前在浏览器中接受其Cookie可以解决此问题。
 
 +++
 
-## 当我使用[!UICONTROL 浏览]模式时，VEC显示为已损坏。 （仅 VEC） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
++++ 在浏览模式下，VEC显示为已损坏
 
-+++详细信息
-使用[!UICONTROL 浏览]模式时，如果您访问的URL未实现[!DNL Target]库（[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=zh-Hans){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}）或包含frame-buster标头，则VEC显示为已损坏。 由于浏览器安全问题，[!DNL Target]无法正确访问您导航到的URL，或者如果页面加载，VEC URL不会一致更新。
+在&#x200B;**[!UICONTROL 浏览]**&#x200B;模式下，如果打开的URL缺少[!DNL Target]库（[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=zh-Hans){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}）或包含frame-buster标头，则VEC显示为已损坏。 出于浏览器安全原因，[!DNL Target]无法正确访问导航到的URL，或者在页面加载时VEC URL未一致更新。
 
-出现此问题的原因是VEC在`<iframe>`中加载了网页。 由于相同源策略，浏览器的当前安全机制阻止[!DNL Target] UI访问给定帧的元素。 浏览器阻止脚本尝试访问具有不同来源且包含`location.href`等信息的帧。
+VEC在`<iframe>`中加载网页，当前浏览器的安全机制阻止[!DNL Target] UI访问相同源策略下的框架元素。 浏览器会阻止尝试访问具有不同来源的帧的脚本，包括`location.href`等信息。
 
-您必须使用新的[Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)将[!DNL Target]库插入到页面中，才能以最佳方式浏览页面。
+使用新的[Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)将[!DNL Target]库插入到页面中，以便以最佳方式浏览页面。
 
 +++
 
-## 由[!UICONTROL 可视化体验编辑器]中的CSS冲突导致的问题
++++ 问题由VEC中的CSS冲突导致
 
-+++详细信息
-验证在编辑器中加载网页时是否有任何可能影响可见性的CSS文件。 例如，在页面正文中使用`overflow: hidden`属性可能会导致滚动问题或触发点击事件，这些事件可能会干扰创作菜单。
+检查当页面在编辑器中加载时，是否有任何CSS文件影响可见性。 例如，页面主体上的`overflow: hidden`属性可能会导致滚动问题或触发干扰创作菜单的点击事件。
 
 +++

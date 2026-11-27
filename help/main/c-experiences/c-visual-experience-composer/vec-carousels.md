@@ -14,18 +14,22 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 66%
+source-wordcount: '193'
+ht-degree: 2%
 ---
-# 创建可以在可视化体验编辑器中工作的轮播效果
+# 创建可在[!UICONTROL 可视化体验编辑器]中工作的轮播效果 {#vec-carousels}
 
-此主题显示如何创建可以在[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)中编辑的轮播效果。
+>[!BEGINSHADEBOX]
 
-执行以下步骤时，[!DNL Target] 始终知道选定的幻灯片具有“选择器”，可选出正确的幻灯片，即使几秒钟后可视化体验编辑器中的幻灯片发生更改也是如此。
+**在此页面上：**&#x200B;了解如何构建可以在&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)中编辑的轮播。
 
-1. 创建静态 HTML 占位符。
+>[!ENDSHADEBOX]
+
+可以在[!DNL Adobe Target] **[!UICONTROL 可视化体验编辑器]** (VEC)中编辑使用以下结构构建的轮播。 此结构使每个幻灯片的选择器保持有效，因此[!DNL Target]始终标识正确的幻灯片，即使显示的幻灯片在VEC中加载页面后几秒内发生更改也是如此。
+
+1. 将幻灯片创建为静态HTML占位符，其中一张幻灯片可见，而其他幻灯片按类隐藏。
 
    ```html
    <ul>
@@ -35,14 +39,10 @@ ht-degree: 66%
    </ul>
    ```
 
-1. 添加 CSS 以设计外观。
-
-   请勿对此使用JavaScript。
+1. 仅使用CSS设计外观。 请勿对此使用JavaScript。
 
    >[!NOTE]
    >
-   >当前，不支持在可视化体验编辑器中将“[!UICONTROL 使用 JavaScript 渲染]”选项与自定义代码一起使用。
+   >在&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;中将&#x200B;**[!UICONTROL 使用JavaScript渲染]**&#x200B;选项与自定义代码一起使用时，当前不支持该选项。
 
-1. 仅更新 classNames 以隐藏其他幻灯片，并使用计时器/动画显示下一张幻灯片。
-
-   请勿使用 JavaScript 更新 DOM 结构。
+1. 通过仅更新类名显示下一张幻灯片：隐藏其他幻灯片，并使用计时器或动画显示下一张幻灯片。 切勿使用JavaScript更新DOM结构。

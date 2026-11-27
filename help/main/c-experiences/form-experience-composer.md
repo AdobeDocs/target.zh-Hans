@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 35%
@@ -36,7 +36,7 @@ ht-degree: 35%
 
    [!UICONTROL 基于表单的体验编辑器]可用于[!UICONTROL A/B测试]、[!UICONTROL 体验定位]、[!UICONTROL Automated Personalization]和[!UICONTROL 推荐]活动。
 
-1. 从[!UICONTROL 创建活动]对话框中选择&#x200B;**[!UICONTROL 表单]**。
+1. 来自[!UICONTROL 创建活动]对话框的Select **[!UICONTROL 表单]**。
 
 1. （视情况而定）如果您是[Target Premium客户](/help/main/c-intro/intro.md#premium)，请从&#x200B;**[!UICONTROL 选择Workspace]**&#x200B;下拉列表中选择一个[工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -79,9 +79,9 @@ ht-degree: 35%
 
 1. 选择位置。
 
-   单击[!UICONTROL 选择位置]框时，将显示可用位置列表。 从这些位置中选择一个位置。
+   单击[!UICONTROL Select位置]框时，将显示可用位置列表。 从这些位置中选择一个位置。
 
-   您还可以输入一个未在此处列出的位置。 如果尚未在页面上创建或查看 mbox，则可以使用此方法。 键入位置的名称。 输入尚不存在的位置时务必要仔细。 如果位置拼写或大小写与调用 mbox 时使用的拼写和大小写不匹配，则活动将无法交付。 手动输入的位置将保存到可用位置列表中。 下次尝试选择手动输入的位置时，该活动的[!UICONTROL 选择位置]下拉列表中会显示该位置。
+   您还可以输入一个未在此处列出的位置。 如果尚未在页面上创建或查看 mbox，则可以使用此方法。 键入位置的名称。 输入尚不存在的位置时务必要仔细。 如果位置拼写或大小写与调用 mbox 时使用的拼写和大小写不匹配，则活动将无法交付。 手动输入的位置将保存到可用位置列表中。 下次尝试选择手动输入的位置时，该活动的[!UICONTROL Select位置]下拉列表中将提供该位置。
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ ht-degree: 35%
 
 * [创建 A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
-* [创建“推荐”活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [创建“推荐”活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity)
 
 ## 培训视频：基于表单的编辑器![教程徽章](/help/main/assets/tutorial.png)
 

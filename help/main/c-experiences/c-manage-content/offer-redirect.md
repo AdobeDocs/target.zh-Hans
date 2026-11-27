@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 24%
@@ -44,7 +44,7 @@ ht-degree: 24%
 >
 >* 对于使用[[!UICONTROL Analytics作为报表源]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的活动中的重定向选件，您的实施必须满足某些最低要求。 除此之外，还有一些重要信息需要您知悉。 请参阅[重定向选件 — A4T常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
 >
->* 有关如何设置可重定向的体验的信息，请参阅[重定向到 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
+>* 有关如何设置可重定向的体验的信息，请参阅[重定向到 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#redirect-to-url)。
 
 重定向产品建议执行 JavaScript 代码以重定向浏览器。 由于该产品建议使用了 `window.location.replace();` 方法，因此从中对访客进行重定向的页面不会存储到浏览器历史记录中。 此流程允许访客在其浏览器中使用返回按钮。
 
@@ -128,5 +128,5 @@ ht-degree: 24%
 1. 指定所需位置并根据需要添加任何受众细化。
 
 1. 单击&#x200B;**[!UICONTROL 内容]**&#x200B;下拉列表，单击&#x200B;**[!UICONTROL 列表]**&#x200B;图标（![列表](/help/main/assets/icons/MoreSmallList.svg)），然后单击&#x200B;**[!UICONTROL 更改重定向选件]**。
-1. 从[!UICONTROL 选择重定向选件]对话框中选择所需的重定向选件，然后单击&#x200B;**[!UICONTROL 添加]**。
+1. 从[!UICONTROL Select重定向选件]对话框中Select所需的重定向选件，然后单击&#x200B;**[!UICONTROL 添加]**。
 1. 配置完活动。

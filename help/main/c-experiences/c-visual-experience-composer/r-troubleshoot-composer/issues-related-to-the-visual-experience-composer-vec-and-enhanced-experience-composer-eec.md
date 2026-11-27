@@ -27,155 +27,136 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 29%
+source-wordcount: '1218'
+ht-degree: 13%
 ---
-# 与[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器]和[!UICONTROL 增强型体验编辑器]相关的问题疑难解答
+# 与[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器]和[!UICONTROL 增强型体验编辑器]相关的问题疑难解答 {#vec-eec-issues}
 
-在某些情况下，[!DNL Target] [!UICONTROL 可视化体验编辑器] (VEC)和[!UICONTROL 增强型体验编辑器] (EEC)有时会发生显示问题和其他问题。
+>[!BEGINSHADEBOX]
 
-## Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？ {#samesite}
+**在此页面上：**&#x200B;了解如何解决同时影响&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)和&#x200B;**[!UICONTROL 增强型体验编辑器]** (EEC)的问题。
 
-+++详细信息
-在使用以下[!DNL Chrome]版本时，请注意会影响VEC和EEC的更改：
+>[!ENDSHADEBOX]
+
+在某些情况下，[!DNL Target] **[!UICONTROL 可视化体验编辑器]** (VEC)和&#x200B;**[!UICONTROL 增强型体验编辑器]** (EEC)有时会发生显示问题和其他问题。 以下项目描述了影响两种编辑器的问题以及如何解决这些问题。
+
+## 浏览器和安全性
+
+### Google Chrome SameSite Cookie 策略 {#samesite}
+
+[!DNL Google Chrome]的SameSite Cookie强制策略会影响以下版本中的VEC和EEC。
 
 >[!NOTE]
 >
->以下更改将影响下面列出的所有三次更新：
->
-> * 如果[VEC Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)未安装并为受密码保护的网站页面启用，则&#x200B;*将*&#x200B;无法使用VEC。 您的网站登录Cookie被视为第三方Cookie，在[!UICONTROL 浏览]模式下，不会与VEC编辑器中的登录请求一起发送。 唯一的例外是您的网站登录Cookie已设置`SameSite=None`和`Secure`属性。
+>以下更改适用于所有三个版本。 除非安装并启用[VEC Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)，否则无法在网站受密码保护的页面上使用VEC。 网站的登录Cookie被视为第三方Cookie，因此在&#x200B;**[!UICONTROL 浏览]**&#x200B;模式下，不会在VEC编辑器中随登录请求一起发送它们。 唯一的例外是登录Cookie已设置`SameSite=None`和`Secure`属性。
 
-**Chrome 94（2021年9月21日）**：由于计划对Chrome 94版本（2021年9月21日）进行即将进行的更改，以下更改将影响具有Chrome 94+浏览器版本的所有用户：
+* **Chrome 94（2021年9月21日）：**&#x200B;对于具有Chrome 94及更高版本的所有用户，命令行标志`--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`已被删除。
+* **Chrome 91 （2021年5月25日）：**&#x200B;对于具有Chrome 91及更高版本的所有用户，已从`chrome://flags`中删除标志`#same-site-by-default-cookies`和`#cookies-without-same-site-must-be-secure`。 默认情况下，此行为现在处于启用状态。
+* **Chrome 80（2020年8月）：**&#x200B;对于使用Chrome 80及更高版本的所有用户：
 
-* 将删除命令行标志`--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`。
+  * 如果网站上没有[!DNL Target]库，则在编辑活动时无法下载这些库。 从客户域向安全[!DNL Adobe]域发起下载调用，并因未经身份验证而被拒绝。
+  * EEC无法正常运行，因为它不能为`adobemc.com`域上的Cookie设置SameSite属性。 如果没有此属性，浏览器会拒绝这些Cookie，从而导致EEC失败。
 
-**Chrome 91（2021年5月25日）**：随着对Chrome 91版本（2021年5月25日）实施更改，以下更改将会影响具有Chrome 91+浏览器版本的所有用户：
++++ 确定阻止了哪些Cookie
 
-* 已从`chrome://flags`中删除标志`#same-site-by-default-cookies`和`#cookies-without-same-site-must-be-secure`。 默认情况下，此行为现在处于启用状态。
+要确定SameSite Cookie实施策略阻止了哪些Cookie，请在[!DNL Chrome]中使用[!DNL Developer Tools]。
 
-**Chrome 80（2020年8月）**：随着更改在2020年8月实施，具有Chrome 80+浏览器版本的所有用户：
-
-* 编辑活动时，*无法*&#x200B;下载[!DNL Target]库吗（当这些库不在网站上时）。 这是因为下载调用是从客户域向安全的[!DNL Adobe]域发起的，并且被拒绝为未经身份验证。
-
-* 对于所有用户，EEC将&#x200B;*不是*&#x200B;函数，因为它不能为`adobemc.com domain`上的Cookie设置SameSite属性。 如果没有此属性，浏览器会拒绝这些Cookie，从而导致EEC失败。
-
-+++
-
-### 确定阻止了哪些Cookie
-
-+++详细信息
-要确定由于SameSite Cookie实施策略而阻止哪些Cookie，请在[!DNL Chrome]中使用[!DNL Developer Tools]。
-
-1. 在[!DNL Chrome]中查看VEC时，要访问[!DNL Developer Tools]，请单击Chrome > **[!UICONTROL 更多工具]** > **[!UICONTROL 开发人员工具]**&#x200B;右上角的&#x200B;**[!UICONTROL 省略号]**&#x200B;图标。
-1. 单击&#x200B;**[!UICONTROL 网络]**&#x200B;选项卡> ，然后查找被阻止的Cookie。
+1. 在[!DNL Chrome]中查看VEC时，单击Chrome > **[!UICONTROL 更多工具]** > **[!UICONTROL 开发人员工具]**&#x200B;右上角的&#x200B;**[!UICONTROL 省略号]**&#x200B;图标。
+1. 单击&#x200B;**[!UICONTROL 网络]**&#x200B;选项卡，然后查找被阻止的Cookie。
 
    >[!NOTE]
    >
-   >使用&#x200B;**[!UICONTROL 已阻止Cookie]**&#x200B;复选框可更轻松地查找已阻止的Cookie。
+   >使用&#x200B;**[!UICONTROL 已阻止的Cookie]**&#x200B;复选框可更轻松地查找已阻止的Cookie。
 
 +++
 
-## [!DNL Target]是否支持多级iframe？
++++ 内容安全策略(CSP)标头阻止网站上的[!DNL Target]库
 
-+++详细信息
-[!DNL Target]不支持多级iframe。 如果您的网站加载的iframe具有子iframe，则at.js仅与父iframe交互。 [!DNL Target]库不与子iframe交互。
-
-作为解决方法，您可以在体验中添加一个页面，其中包含子 iframe 的 URL。
-
-+++
-
-## 我在尝试编辑页面时，看到的只是一个旋转图标而不是我的页面。 （VEC 和 EEC） {#section_313001039F79446DB28C70D932AF5F58}
-
-+++详细信息
-如果URL包含#字符，则可能会发生这种情况。 要解决此问题，请在VEC或EEC中切换到[!UICONTROL 浏览]模式，然后切换回[!UICONTROL 撰写]模式。 此时，旋转图标应当消失，页面应会加载。
-
-+++
-
-## 内容安全策略(CSP)标头阻止我的网站上的[!DNL Target]库。 （VEC 和 EEC） {#section_89A30C7A213D43BFA0822E66B482B803}
-
-
-+++详细信息
-如果您网站的CSP标头阻止了[!DNL Target]库，然后加载了网站但阻止编辑，请确保[!DNL Target]库未被阻止。
+如果网站的CSP标头阻止[!DNL Target]库，则网站会加载，但会阻止编辑。 确保未阻止[!DNL Target]库。
 
 >[!NOTE]
 >
->除了以下信息外，您还可以为[!DNL Google Chrome]使用[Adobe Target VEC助手浏览器扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
+>除了以下信息外，还可以使用适用于[!DNL Google Chrome]的[Adobe Target VEC Helper浏览器扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-![cps_headers图像](assets/cps_headers.png)
+![浏览器控制台显示已阻止的target.js请求，并显示违反内容安全策略指令的消息](assets/cps_headers.png)
 
-作为解决方法，您可以配置[!DNL Requestly]规则以删除CSP标头，如下所示：
+作为解决方法，请配置[!DNL Requestly]规则以删除CSP标头，如下图所示。
 
-![cps_headers_2图像](assets/cps_headers_2.png)
+![Requestly对话框，修改HTTP请求和响应中的标头，该标头具有名为Content-Security-Policy的规则，可从响应中删除Content-Security-Policy标头](assets/cps_headers_2.png)
 
-您可以为任何导致资源无法在VEC中加载的标头配置类似的[!DNL Requestly]规则。
+可以为任何导致资源无法在VEC中加载的标头配置类似的[!DNL Requestly]规则。 当需要使用[!DNL Requestly]删除标头时，请执行下列操作之一：
 
-对于[!DNL Requestly]，无论何时需要删除标头，都应执行以下操作之一：
-
-* 为要在 VEC 中打开的 URL 添加 URL 规则，以便仅删除这些 URL 的标头。
-* 在 VEC 中进行编辑时启用该规则，而在不使用 VEC 时禁用该规则。
+* 为要在VEC中打开的URL添加URL规则，以便仅删除这些URL的标头。
+* 在VEC中编辑时启用规则，并在VEC未使用时禁用规则。
 
 +++
 
-## 重新编辑保存的活动时，VEC 或 EEC 显示为已损坏或未初始化。 （VEC 和 EEC） {#section_5AC3BA8F8FBB451EA814F298D0645E54}
++++ 不支持多级iframe
 
-+++详细信息
+[!DNL Target]不支持多级iframe。 如果网站加载的iframe具有子iframe，则at.js仅与父iframe交互。 [!DNL Target]库不与子iframe交互。
+
+作为解决方法，请在体验中添加一个页面，其中包含子iframe的URL。
+
++++
+
++++ 无法在iFrame-busting网站或没有[!DNL Target]实施的页面上编辑体验
+
+启用&#x200B;**[!UICONTROL 增强型体验编辑器]** (EEC)以解决此问题。 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]**，然后选中启用&#x200B;**[!UICONTROL 增强型体验编辑器]**&#x200B;的复选框。
+
+EEC使用[!DNL Adobe]管理的代理加载页面以进行编辑。 此代理允许在iFrame-busting网站以及尚未添加[!DNL Adobe Target]代码的网站和页面上编辑。 在添加代码之前，活动不会向网站交付内容。 某些网站可能无法通过EEC加载，在这种情况下，清除此选项将通过iFrame加载页面。
+
+>[!NOTE]
+>
+>[!DNL Adobe]代理服务器无法访问本地托管的页面和无法从网络外部访问的页面，无法在EEC中打开。 这些页面可能包括测试 URL、用户验收测试 (UAT) URL 或本地托管页面。
+
++++
+
+## 页面加载和显示
+
++++ 编辑页面时，将显示旋转图标而不是页面
+
+如果URL包含#字符，则可能会发生这种情况。 要解决此问题，请在VEC或EEC中切换到&#x200B;**[!UICONTROL 浏览]**&#x200B;模式，然后切换回&#x200B;**[!UICONTROL 撰写]**&#x200B;模式。 此时，旋转图标应当消失，页面应会加载。
+
++++
+
++++ 再次编辑保存的活动时，VEC或EEC显示为已损坏或未初始化
+
 如果定义体验后，网站在VEC外部发生更改，则在打开活动以进行重新编辑时，无法找到之前对其执行操作的选择器。 页面会显示为已损坏，且不会出现任何警告。
 
 +++
 
-## VEC 或 EEC 不显示我的旋转横幅以及其他包含 JavaScript 的内容。 （VEC 和 EEC） {#section_8B5BE6EB050B42D6A14A054724C41330}
++++ 旋转横幅和包含JavaScript的其他内容不会显示在VEC或EEC中
 
-+++详细信息
-默认情况下，VEC会阻止JavaScript元素。 如果您禁用JavaScript，则可以使用这些元素。 根据网站的设置方式，某些项目可能会继续以不正确方式显示或仍然不可用。
-
-+++
-
-## 我在页面上更改一个元素时，多个元素会发生更改。 （VEC 和 EEC） {#section_309188ACF34942989BE473F63C5710AF}
-
-+++详细信息
-如果页面上的多个元素使用相同的 DOM 元素 ID，则更改其中一个元素会导致具有该 ID 的所有元素都发生更改。 为防止这种情况发生，一个 ID 只应在每个页面上使用一次。 此实践是标准的HTML最佳实践。 有关详细信息，请参阅[页面修改方案](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+默认情况下，VEC会阻止JavaScript元素。 禁用JavaScript后，可以处理这些元素。 根据网站的设置方式，某些项目可能会继续以不正确方式显示或仍然不可用。
 
 +++
 
-## 我无法编辑防iFrame嵌套网站的体验。 （VEC 和 EEC） {#section_9FE266B964314F2EB75604B4D7047200}
++++ 对于Automated Personalization活动，VEC或EEC中的图像交换显示为已中断
 
-+++详细信息
-通过启用[!UICONTROL 增强型体验编辑器] (EEC)，可以解决此问题。 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]**，然后选中启用[!UICONTROL 增强型体验编辑器]的复选框。 EEC使用[!DNL Adobe]管理的代理加载您的页面以进行编辑。 此代理允许在iFrame-busting网站上进行编辑，并允许在尚未添加[!DNL Adobe Target]代码的网站和页面上进行编辑。 在添加代码之前，活动不会向网站交付内容。 某些网站可能无法通过EEC加载，在这种情况下，您可以取消选中此选项以通过iFrame加载EEC。
-
->[!NOTE]
->
->[!DNL Adobe]代理服务器无法访问本地托管页面或在您的网络外部不可访问的页面，这些页面无法在EEC中打开。 这些页面可能包括测试 URL、用户验收测试 (UAT) URL 或本地托管页面。
+向某个位置添加图像选件会占据 VEC 或 EEC 中原始图像空间的整个大小范围。 在交付时，图像不会展开，而是会按原样显示，这样便不会影响交付。
 
 +++
 
-## 我想在尚未完成mbox/[!DNL Target]实施的页面上设置测试。 （VEC 和 EEC） {#section_DE63BCCB5B124E10A71FA579B582A80A}
+## 编辑结果
 
-+++详细信息
-请参阅上面的“我无法编辑iFrame-bursting网站的体验”。
++++ 更改页面上的一个元素会更改多个元素
+
+如果页面上的多个元素使用相同的 DOM 元素 ID，则更改其中一个元素会导致具有该 ID 的所有元素都发生更改。 要防止出现这种情况，请在每个页面上仅使用一次ID。 这是标准的 HTML 最佳实践。 有关详细信息，请参阅[页面修改方案](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#vec-scenarios)。
 
 +++
 
-## 我的页面上不显示带有[!UICONTROL 编辑文本]/[!UICONTROL 编辑HTML]或[!UICONTROL 更改文本]/[!DNL Change HTML]的粗体和斜体文本样式。 有时，在应用这些样式更改后，文本会消失。 （VEC 和 EEC） {#section_7A71D6DF41084C58B34C18701E8774E5}
++++ 在应用“编辑文本”/“编辑HTML”或“更改文本”/“更改HTML”后，不显示粗体和斜体文本样式，或文本消失
 
-+++详细信息
-如果您在VEC中对[!UICONTROL A/B测试]、[!UICONTROL 体验定位]活动使用&#x200B;**[!UICONTROL 编辑文本]/[!UICONTROL 编辑HTML]**，或者对[!UICONTROL HTML]或[!UICONTROL Automated Personalization]活动使用&#x200B;**[!UICONTROL 更改文本]/[!UICONTROL 更改]**&#x200B;以使文本变为粗体或斜体，则这些样式可能不会在页面上应用，或者文本会从VEC的页面中消失。 出现这种情况是因为富文本编辑器应用这些样式的方式可能会干扰网站标记。
+当&#x200B;**[!UICONTROL 编辑文本]**/**[!UICONTROL 编辑HTML]**&#x200B;在VEC中用于&#x200B;**[!UICONTROL A/B测试]**、**[!UICONTROL 体验定位]**&#x200B;活动，或者&#x200B;**[!UICONTROL 更改文本]**/**[!UICONTROL 更改HTML]**&#x200B;用于&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;或&#x200B;**[!UICONTROL 多变量测试]**&#x200B;活动时，要使文本变为粗体或斜体，样式可能不会在页面上应用，或者文本可能会从VEC中的页面中消失。 之所以发生这种情况，是因为富文本编辑器应用这些样式的方式可能会干扰网站标记。
 
-如果您遇到此问题：
+如果出现此问题：
 
 1. 单击富文本编辑器中的 **[!UICONTROL HTML]** 按钮以进入源编辑模式。
-1. 找到样式文本元素。
+1. 查找样式化的文本元素。
 
    * 对于粗体文本，请将 `<strong>` 元素更改为 `<b>`。
-
    * 对于斜体文本，请将 `<em>` 元素更改为 `<i>`。
-
-+++
-
-## 对于自动个性化活动，VEC 或 EEC 中的图像交换显示为已中断。 （VEC 和 EEC） {#section_88AABFDFE6A3420299B0D508B12A3994}
-
-+++详细信息
-向某个位置添加图像选件会占据 VEC 或 EEC 中原始图像空间的整个大小范围。 在交付时，图像不会展开，而是会按原样显示，这样便不会影响交付。
 
 +++

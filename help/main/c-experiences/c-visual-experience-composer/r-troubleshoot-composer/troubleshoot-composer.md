@@ -20,23 +20,27 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 61%
+source-wordcount: '276'
+ht-degree: 3%
 ---
-# 开始对[!UICONTROL 可视化体验编辑器]和[!UICONTROL 增强型体验编辑器]进行故障排除
+# 开始对[!UICONTROL 可视化体验编辑器]和[!UICONTROL 增强型体验编辑器]进行故障排除 {#troubleshoot-composer}
 
-在某些情况下，[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)和[!UICONTROL 增强型体验编辑器] (EEC)有时会发生显示问题。
+>[!BEGINSHADEBOX]
 
-VEC 是 [!DNL Adobe Target] 的主要功能之一。 通过 VEC 编辑器，营销人员和设计人员可以使用可视化界面创建和更改内容。 无需直接编辑代码，便可进行多种设计选择。 使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。
+**在此页面上：**&#x200B;了解使用哪个页面来解决&#x200B;**[!UICONTROL 可视化体验编辑器]** (VEC)和&#x200B;**[!UICONTROL 增强型体验编辑器]** (EEC)中的问题。
 
-EEC 是 VEC 的一个扩展，可帮助您编辑尚未包含 Target 实施的防 iframe 嵌套网站或页面的体验。 如果您无法在 VEC 中打开页面，请尝试使用 EEC。
+>[!ENDSHADEBOX]
 
-有关VEC和EEC的信息，请参阅[体验](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
+在某些情况下，[!DNL Adobe Target] **[!UICONTROL 可视化体验编辑器]** (VEC)和&#x200B;**[!UICONTROL 增强型体验编辑器]** (EEC)有时会发生显示问题。
 
-请注意，有些问题会影响 VEC 和 EEC 两种编辑器，有些问题仅影响其中一种编辑器。 请查看相应页面获取更多信息。
+VEC 是 [!DNL Adobe Target] 的主要功能之一。 它是一个编辑器，可让营销人员和设计人员使用可视化界面创建和更改内容，以便无需编辑代码即可做出许多设计选择。 也可以使用编辑器中提供的编辑选项来编辑HTML和JavaScript。
 
-* [对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [对与可视化体验编辑器有关的问题进行故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [对与增强型体验编辑器有关的问题进行故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
+EEC是VEC的扩展，用于编辑防iframe嵌套网站或尚未包含[!DNL Target]实施的页面上的体验。 当无法在VEC中打开页面时，请尝试EEC。 有关VEC和EEC的信息，请参阅[体验](/help/main/c-experiences/experiences.md#experiences-overview)。
+
+有些问题会影响两位作者，而有些问题只影响其中一个。 查看与问题匹配的页面：
+
+* [排除与可视化体验编辑器和增强型体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)：影响两个编辑器的问题。
+* [排除与可视化体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)：仅影响VEC的问题。
+* [与增强型体验编辑器有关的问题疑难解答](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)：仅影响EEC的问题。

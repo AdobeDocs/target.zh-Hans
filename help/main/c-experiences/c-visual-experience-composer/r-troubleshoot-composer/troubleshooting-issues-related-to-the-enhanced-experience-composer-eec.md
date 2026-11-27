@@ -22,25 +22,28 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 23%
+source-wordcount: '581'
+ht-degree: 5%
 ---
-# 与[!UICONTROL 增强型体验编辑器]相关的问题疑难解答
+# 与[!UICONTROL 增强型体验编辑器]相关的问题疑难解答 {#eec-issues}
 
-在某些情况下，[!DNL Adobe Target] [!UICONTROL 增强型体验编辑器] (EEC)有时会发生显示问题。
+>[!BEGINSHADEBOX]
 
-## EEC无法加载在公共IP上不可访问的内部QA URL。 {#section_D29E96911D5C401889B5EACE267F13CF}
+**在此页面上：**&#x200B;了解如何解决仅影响&#x200B;**[!UICONTROL 增强型体验编辑器]** (EEC)的问题，例如由于EEC代理的IP地址被阻止而未加载的页面。
 
+>[!ENDSHADEBOX]
 
-+++详细信息
-这个问题可以通过列入允许列表以下IP地址来解决。 这些IP地址用于用于EEC代理的[!DNL Adobe]服务器。 仅活动编辑需要这些IP地址。 您网站的访客不需要列入允许列表这些IP地址。
+在某些情况下，[!DNL Adobe Target] **[!UICONTROL 增强型体验编辑器]** (EEC)有时会发生显示问题。 以下项目介绍了仅影响EEC的问题以及如何解决这些问题。
 
-要求您的IT团队允许列表以下IP地址：
+## 允许列表EEC代理的IP地址 {#eec-ip-addresses}
+
+EEC无法加载在公共IP地址上不可访问的内部QA URL。 列入允许列表用于EEC代理的[!DNL Adobe]服务器的IP地址解决了此问题。 仅活动编辑需要这些IP地址，并且站点的访客不需要列入允许列表这些IP地址。 要求IT团队允许列表以下IP地址。
 
 ### 美国(va7)
 
+```
 40.70.154.136/29
 52.254.106.240/28
 52.254.106.160/28
@@ -64,9 +67,11 @@ ht-degree: 23%
 4.152.211.251
 52.254.107.144/28
 52.254.106.144/28
+```
 
 ### EMEA (nld2)
 
+```
 51.138.17.16/28
 51.138.17.48/28
 51.138.16.128/28
@@ -89,9 +94,11 @@ ht-degree: 23%
 51.138.12.100
 51.138.17.64/28
 51.138.12.160/28
+```
 
 ### APAC (aus)
 
+```
 20.43.104.160/28
 20.227.35.177
 20.40.188.227
@@ -117,11 +124,13 @@ ht-degree: 23%
 20.43.104.192/28
 20.43.105.0/28
 20.43.104.0/28
+```
 
 ### 旧版IP地址
 
 在进一步通知之前，应继续列入允许列表以下旧版IP地址。
 
+```
 34.254.77.200
 54.73.207.147
 54.229.152.123
@@ -140,52 +149,48 @@ ht-degree: 23%
 35.75.212.45
 52.199.184.130
 18.180.161.176
+```
 
-您可能会在[!DNL Target]中看到以下错误消息：
++++ EEC显示一条错误消息，指出网站域正在阻止它
 
-`Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
+以下错误消息可在[!DNL Target]中显示：
 
-![EEC_error图像](assets/EEC_error.png)
+`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can allowlist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in Configure > Page Delivery menu.`
 
-以下是您可能会看到此错误消息的原因以及相应的补救措施：
+![体验编辑器，显示错误消息：网站域(ISP)正在阻止增强型体验编辑器，并建议在“配置页面交付”菜单中列入允许列表IP地址或关闭编辑器](assets/EEC_error.png)
 
-* **问题：**&#x200B;您的网站域(ISP)正在阻止[!UICONTROL 增强型体验编辑器]。
+此错误消息有两个可能的原因：
 
-  **补救措施：**&#x200B;允许列表上面列出的IP地址。
-
-* **问题：** IP地址已，但您的网站不支持TLS版本1.2。 [!DNL Target]当前使用默认配置1.2。 在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。 有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hans){target=_blank}。
-
-  **解决方案：**&#x200B;请参阅以下问题（[!UICONTROL 增强型可视化体验编辑器]不会在使用TLS 1.2的网站的安全页面上加载）。
+* 网站域(ISP)阻止EEC。 要解决此问题，请允许列表[中列出的IP地址列入允许列表EEC代理](#eec-ip-addresses)的IP地址。
+* IP地址，但网站不支持TLS 1.2。 要解决此问题，请参阅以下项目。
 
 +++
 
-## EEC无法加载使用TLS 1.0的网站上的安全页面。 （仅 EEC） {#section_C5B31E3D32A844F68E5A8153BD17551F}
++++ EEC无法在使用TLS 1.0的网站的安全页面上加载
 
-+++详细信息
-您可能会看到上文“无法在我的网站的安全页面上加载[!UICONTROL 增强型可视化体验编辑器]”中描述的错误消息。 如果上述IP地址已列入允许列表，但您的网站不支持TLS版本1.2。 [!DNL Target]当前使用默认配置1.2。 在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。 有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hans){target=_blank}。
+当IP地址列入允许列表但网站不支持TLS 1.2时，可能会显示上一项中描述的错误消息。 [!DNL Target]当前使用版本1.2作为默认配置。 在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。 有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}。
 
-要使用 Firefox 检查您网站上的 TLS 版本（使用其他浏览器的步骤相似），请执行以下操作：
+在Firefox中检查网站的TLS版本（其他浏览器具有类似的步骤）：
 
 1. 在 Firefox 中打开受影响的网站。
 1. 单击浏览器地址栏上的&#x200B;**[!UICONTROL 显示网站信息]**&#x200B;图标。
 
-   ![firefox_more_info图像](assets/firefox_more_info.png)
+   ![Firefox地址栏，在URL左侧突出显示“显示网站信息”图标](assets/firefox_more_info.png)
 
 1. 单击&#x200B;**[!UICONTROL 显示连接详细信息]** > **[!UICONTROL 更多信息]**。
 
-   ![firefox_more_info_2图像](assets/firefox_more_info_2.png)
+   ![Firefox网站信息面板，在“安全连接”旁边突出显示“显示连接详细信息”箭头](assets/firefox_more_info_2.png)
 
-1. 检查“技术详细信息”下的 TLS 版本信息：
+1. 检查&#x200B;**[!UICONTROL 技术详细信息]**&#x200B;下的TLS版本信息。
 
-   ![firefox_more_info_3图像](assets/firefox_more_info_3.png)
+   ![Firefox页面信息窗口的“安全”选项卡，“技术详细信息”下突出显示TLS版本](assets/firefox_more_info_3.png)
 
-1. 如果您发现您的网站显示的是TLS 1.0，请参阅[TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hans){target=_blank}以了解有关Target的TLS支持策略的信息。 若要补救当前情况（有效期至2018年9月12日）{target=_blank}，请联系[客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以获取TLS版本和域的配置。
+1. 如果网站显示TLS 1.0，请参阅[TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}，以了解有关[!DNL Target]的TLS支持策略的信息。 要补救目前的情况（有效期至2018年9月12日），请联系[客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以获取TLS版本和域的配置。
 
 +++
 
-## 加载启用了代理的网站时，我遇到超时或“拒绝访问”错误。 （仅 EEC） {#section_60CBB9022DC449F593606C0E6252302D}
++++ 在启用代理的状态下加载网站时，会显示超时或“拒绝访问”错误
 
-+++详细信息
-请确保代理 IP 在您的环境中未被阻止。
+请确保代理IP地址在环境中未被阻止。 地址列在[中，列入允许列表EEC代理](#eec-ip-addresses)的IP地址。
 
 +++

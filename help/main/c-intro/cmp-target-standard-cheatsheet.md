@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -87,14 +87,14 @@ ht-degree: 48%
 **[!DNL Adobe]是否有社区/论坛，以便我可以找到关于[!DNL Target]的答案和更多信息？**
 
 +++查看详细信息
-在[Target社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hans){target=_blank}中与其他[!DNL Target]从业人员联系。 与使用[!DNL Target]推动个性化和实验的其他人分享您的专业知识、提出问题并开展协作。 一个欣欣向荣的社区有赖于积极的参与。 您的见解和经验可以帮助他人成功。 快速入门，贡献内容，找到您需要的答案。
+在[Target社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中与其他[!DNL Target]从业人员联系。 与使用[!DNL Target]推动个性化和实验的其他人分享您的专业知识、提出问题并开展协作。 一个欣欣向荣的社区有赖于积极的参与。 您的见解和经验可以帮助他人成功。 快速入门，贡献内容，找到您需要的答案。
 
 +++
 
 **[!DNL Target]支持哪些浏览器？**
 
 +++查看详细信息
-有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hans){target=_blank}矩阵图。 请注意，支持的界面有两方面：[!DNL Target Standard/Premium]以及桌面/设备上的最终用户浏览器支持。
+有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩阵图。 请注意，支持的界面有两方面：[!DNL Target Standard/Premium]以及桌面/设备上的最终用户浏览器支持。
 
 [!DNL Target]接口支持[!DNL Safari]。 您可以在[!DNL Safari]中创建基于表单的活动，并使用所有功能，但[!DNL Safari]不支持的[!UICONTROL 可视化体验编辑器] (VEC)和[!UICONTROL 增强型体验编辑器] (EEC)除外。 要在VEC或EEC中编辑体验，请使用[!DNL Google Chrome]。
 
@@ -151,7 +151,7 @@ ht-degree: 48%
 **我是否可以在页面结构不同的情况下跨多个页面运行活动？ 我是否可以在其他位置应用选件（例如，结帐funnel）？**
 
 +++查看详细信息
-尝试使用[多页面活动功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，该功能允许您在体验中使用多个页面。
+尝试使用[多页面活动功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity)，该功能允许您在体验中使用多个页面。
 
 +++
 
@@ -185,7 +185,7 @@ ht-degree: 48%
 **我是否可以安排在固定时间开始和结束活动？**
 
 +++查看详细信息
-通过指定开始日期和结束日期，使用三步活动工作流的[!UICONTROL 目标和设置]&#x200B;[&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步骤中的计划功能。
+通过指定开始日期和结束日期，使用三步活动工作流的[!UICONTROL 目标和设置]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步骤中的[计划功能。
 
 请记住激活该活动。 只有实时活动才遵守指定的计划。 达到结束日期后，活动将进入[!UICONTROL 已结束]状态。
 
@@ -274,7 +274,7 @@ ht-degree: 48%
 请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -284,7 +284,7 @@ ht-degree: 48%
 **我是否可以在页面结构相同的情况下跨多个页面运行活动？**
 
 +++查看详细信息
-使用[模板规则](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)，将许多结构类似的页面包含到活动中，同时仍通过提供的单个 URL 创建体验。
+使用[模板规则](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages)，将许多结构类似的页面包含到活动中，同时仍通过提供的单个 URL 创建体验。
 
 +++
 
@@ -293,39 +293,39 @@ ht-degree: 48%
 +++查看详细信息
 这是因为您的网站具有混合内容 — 它是一个同时获取HTTP和HTTPS资源的网站。 请让您的 IT 团队将网站内容全部移到 HTTPS。
 
-在此之前，请按照[在浏览器中启用混合内容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的说明操作，以允许浏览器加载混合内容。 这是目前大多数浏览器采用的一种安全功能。
+在此之前，请按照[在浏览器中启用混合内容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#mixed-content)中的说明操作，以允许浏览器加载混合内容。 这是目前大多数浏览器采用的一种安全功能。
 
 +++
 
 **我可以在我的网站上尝试[!UICONTROL 可视化体验编辑器] (VEC)，即使尚未部署[!DNL Target] at.js库吗？**
 
 +++查看详细信息
-尝试使用[增强型体验编辑器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)加载页面。
+尝试使用[增强型体验编辑器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)加载页面。
 
 +++
 
 **为什么我的网站没有在[!UICONTROL 可视化体验编辑器] (VEC)中加载？**
 
 +++查看详细信息
-尝试使用我们的帮助页面中列出的[故障诊断信息](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)。 如果这些方法都不起作用，请联系 [Adobe 支持](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+尝试使用我们的帮助页面中列出的[故障诊断信息](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#troubleshoot-composer)。 如果这些方法都不起作用，请联系 [Adobe 支持](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
 此外，我们还提供了[基于表单的方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，这些方法可以帮助您。
 
-另请阅读[增强型体验编辑器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何时以及为何有用。 您可能需要联系IT部门以[Adobe的代理服务器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
+另请阅读[增强型体验编辑器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)何时以及为何有用。 您可能需要联系IT部门以[Adobe的代理服务器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices)。
 
 +++
 
 **我有一个响应网站。 在创建活动时，如何确定要使用的关键设备？**
 
 +++查看详细信息
-尝试使用[移动设备视区](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)功能。 请注意，只有在启用[!UICONTROL 增强型体验编辑器]后才能使用该功能。
+尝试使用[移动设备视区](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#mobile-viewports)功能。 请注意，只有在启用[!UICONTROL 增强型体验编辑器]后才能使用该功能。
 
 +++
 
 **我有多个域。 其中一个域需要启用[!UICONTROL 增强型体验编辑器]，而其他域则需要禁用它。 我该如何处理？**
 
 +++查看详细信息
-您始终可以使用活动级别[&#128279;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的增强型体验编辑器选项来覆盖默认设置（[!UICONTROL 管理] > [!UICONTROL 可视化体验编辑器]）。
+您始终可以使用活动级别](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)的[增强型体验编辑器选项来覆盖默认设置（[!UICONTROL 管理] > [!UICONTROL 可视化体验编辑器]）。
 
 +++
 
@@ -346,7 +346,7 @@ ht-degree: 48%
 **如何查看我在[!UICONTROL 可视化体验编辑器] (VEC)中所做的修改？**
 
 +++查看详细信息
-[代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)中会始终显示您所做的更改。 [!UICONTROL 修改]选项卡显示应用于选件的CSS选择器或mbox。
+[代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor)中会始终显示您所做的更改。 [!UICONTROL 修改]选项卡显示应用于选件的CSS选择器或mbox。
 
 请注意，CSS 选择器是一个 Sizzle 选择器。 您可以使用此部分进行细微的修改或快速删除某些选件。
 
@@ -355,7 +355,7 @@ ht-degree: 48%
 **我希望将 JavaScript 作为实验/活动的一部分进行传递，以便实时对某些动态元素进行修改，或者只需将调用发送到第三方解决方案。 我该如何处理？**
 
 +++查看详细信息
-其中一种方法是使用[自定义代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)。 使用此方法在该区域输入您的 JavaScript，然后它将会得到交付。 根据您的需要，您可以选择将其交付到标头或主体的顶部。
+其中一种方法是使用[自定义代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor)。 使用此方法在该区域输入您的 JavaScript，然后它将会得到交付。 根据您的需要，您可以选择将其交付到标头或主体的顶部。
 
 +++
 
@@ -378,7 +378,7 @@ ht-degree: 48%
 **为何我没有看到我想要看到的产品建议/体验，反而看到了一些其他的活动？**
 
 +++查看详细信息
-使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
+使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions)。
 
 +++
 
@@ -402,7 +402,7 @@ ht-degree: 48%
 **为何我没有看到我想要看到的产品建议/体验，反而看到了一些其他的活动？**
 
 +++查看详细信息
-使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
+使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions)。
 
 +++
 
@@ -421,7 +421,7 @@ ht-degree: 48%
 请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -454,7 +454,7 @@ ht-degree: 48%
 **我是否可以更改用于评估报表的控制体验，或将计数方法从[!UICONTROL 访客]更改为[!UICONTROL 访问]？**
 
 +++查看详细信息
-使用[&#128279;](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮可进行这些更改。 阅读更多有关这些设置的信息，了解计算结果的差异。
+使用](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮[可进行这些更改。 阅读更多有关这些设置的信息，了解计算结果的差异。
 
 +++
 
@@ -495,6 +495,6 @@ ht-degree: 48%
 **我可以在何处了解有关[!DNL Target] API的更多信息？**
 
 +++查看详细信息
-我们提供了关于 API 的详尽文档。 请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}。
+我们提供了关于 API 的详尽文档。 请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。
 
 +++

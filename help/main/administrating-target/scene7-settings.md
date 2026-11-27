@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 5%
@@ -50,7 +50,7 @@ ht-degree: 5%
 
 ## 集成支持的功能 {#what-it-enables}
 
-设置&#x200B;**[!UICONTROL Scene7配置]**&#x200B;后，作者可以使用上载到[!DNL Target]活动中[!DNL Adobe Experience Cloud]资源文件夹的图像。 **[!UICONTROL 交换图像选件]**&#x200B;选项出现在活动工作流中，包括在[可视化体验编辑器和基于表单的体验编辑器](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中。 有关VEC中的交换行为，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+设置&#x200B;**[!UICONTROL Scene7配置]**&#x200B;后，作者可以使用上载到[!DNL Target]活动中[!DNL Adobe Experience Cloud]资源文件夹的图像。 **[!UICONTROL 交换图像选件]**&#x200B;选项出现在活动工作流中，包括在[可视化体验编辑器和基于表单的体验编辑器](/help/main/c-experiences/experiences.md#experiences-overview)中。 有关VEC中的交换行为，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
 如果未配置此设置，则在活动创建期间将无法使用&#x200B;**[!UICONTROL 交换图像选件]**。
 
@@ -88,4 +88,4 @@ Adobe不再为新[!DNL Target]客户或新用户设置使用受限、免费的[!
 
    ![Scene7配置字段](/help/main/administrating-target/assets/scene7-1.png)
 
-1. 单击“提交”**&#x200B;**。
+1. 单击“提交”****。

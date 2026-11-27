@@ -1,8 +1,8 @@
 ---
 keywords: 创建推荐;推荐活动;新建推荐;推荐概述
 description: 了解如何使用[!DNL Target] [!UICONTROL 可视化体验编辑器] (VEC)创建[!DNL Recommendations]活动。
-title: 如何创建[!DNL Recommendations]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+title: 创建[!DNL Recommendations]活动
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -22,175 +22,158 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 52%
+source-wordcount: '1169'
+ht-degree: 2%
 ---
-# 创建[!DNL Recommendations]活动
+# 创建[!DNL Recommendations]活动 {#create-recs-activity}
 
-使用[!DNL Target] [!UICONTROL 可视化体验编辑器] (VEC)直接在启用了[!DNL Target]的页面上创建[!DNL Recommendations]活动，并在[!DNL Target]内修改页面的各个部分。
+>[!BEGINSHADEBOX]
 
-1. 单击&#x200B;**[!UICONTROL 活动]** > **[!UICONTROL 创建活动]** > **[!UICONTROL 推荐]**。
+**在此页面上：**&#x200B;了解如何在[!DNL Target] **[!UICONTROL 可视化体验编辑器]** (VEC)中创建[!DNL Recommendations]活动，从选择位置到设置活动。
+
+>[!ENDSHADEBOX]
+
+[!DNL Recommendations]活动在页面上显示推荐的项目。 在[!DNL Target] **[!UICONTROL 可视化体验编辑器]** (VEC)中创建活动时，可以将推荐直接放置到启用了[!DNL Target]的页面上，且恰好是访客应该看到推荐的位置。
+
+## 创建活动并选择位置 {#create-activity}
+
+活动URL和位置定义了页面以及该页面中推荐显示的区域。
+
+1. 从&#x200B;**[!UICONTROL 活动]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL 推荐]**。
+
+   ![打开“创建活动”菜单并突出显示“推荐”选项的“所有活动”页面](../assets/create_reco_1.png)
 
 1. Select **[!UICONTROL 可视化]**（如有必要）。
 
-   如果您希望使用[!UICONTROL 基于表单的体验编辑器]，请选择[!UICONTROL 表单]。 请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，以了解更多信息。
-
-   >[!NOTE]
-   >
-   >除了VEC和[!UICONTROL 基于表单的体验编辑器]之外，[!DNL Target]还提供[!UICONTROL 单页应用程序] VEC。 有关各种编辑器的更多信息，请参阅[体验和产品建议](/help/main/c-experiences/experiences.md)。
-   >
-   >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
+   若要改用&#x200B;**[!UICONTROL 基于表单的体验编辑器]**，请选择&#x200B;**[!UICONTROL 表单]**。 请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)。 有关包括&#x200B;**[!UICONTROL 单页应用程序]** VEC在内的编辑器的比较，请参阅[体验和选件](/help/main/c-experiences/experiences.md)。 有关VEC问题，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
 1. （视情况而定）选择[工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 1. 指定活动URL，然后单击&#x200B;**[!UICONTROL 创建]**。
 
-   >[!NOTE]
-   >
-   >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。 因此，[!DNL `http://www.adobe.com/cn`]和[!DNL `https://wwww.adobe.com`]都匹配。
+   活动URL是显示推荐的页面。 [!DNL Target]不区分URL协议（[!DNL https]和[!DNL http]），因此`http://www.adobe.com`和`https://www.adobe.com`都匹配。
 
-   活动URL是显示推荐的页面。
+   此时将打开VEC并显示页面。
 
-   单击[!UICONTROL 创建]后，VEC将打开并显示您的页面。 您可以将当前元素替换为推荐，也可以插入推荐。
+1. 单击推荐应显示的元素，然后选择&#x200B;**[!UICONTROL 替换内容]** > **[!UICONTROL 推荐]**。
 
-1. 单击页面上的某个元素，如果该元素所在的位置有可用推荐，请单击&#x200B;**[!UICONTROL 替换为推荐]**、**[!UICONTROL 在之前插入推荐]**&#x200B;或&#x200B;**[!UICONTROL 在之后插入推荐]**。
+   <!--
+   * **[!UICONTROL Replace w/ Recommendations]**: Deletes the current content of the element and replaces it with the recommendations.
+   * **[!UICONTROL Insert Recommendations Before]**: Places the recommendations before the element, above or to the left of it, depending on the page construction.
+   * **[!UICONTROL Insert Recommendations After]**: Places the recommendations after the element, below or to the right of it, depending on the page construction.
 
-   >[!NOTE]
-   >
-   >[!UICONTROL 推荐]活动一次仅支持一个修改/推荐。 对于多个推荐，您可以创建多个[!DNL Recommendations]活动或使用A/B或XT测试。
+   ![Visual Experience Composer with a selected container and the menu options Replace w/ Recommendations, Insert Recommendations Before, Insert Recommendations After, and Expand Selection](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   只有访问您网站的访客符合推荐资格时，他们才会看到推荐的内容。 不符合推荐条件的访客将看到默认内容。
+   Use **[!UICONTROL Expand Selection]** to expand the selection to the parent container, so that it includes the desired page elements.
+   -->
 
-   ![“推荐”选项](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
-
-   * **[!UICONTROL 替换为推荐]**：将元素替换为推荐会删除当前内容并将其替换为推荐。 当访客访问您的网站并符合推荐资格时，他们将在指定区域看到推荐项目，而不是现有内容。
-   * **[!UICONTROL 在]**&#x200B;之前插入推荐：在选定元素之前插入推荐，将推荐内容置于该元素之前。 根据您的页面结构，推荐会显示在所选元素的上方或左侧。
-   * **[!UICONTROL 在之后插入推荐]**：在选定元素之后插入推荐，会将推荐的内容放在该元素之后。 根据页面结构，推荐将显示在所选元素的下方或右侧。
-
-   通过&#x200B;**[!UICONTROL 展开选定内容]**&#x200B;选项，您可以展开选定的位置（父容器），以帮助您更轻松地识别和包含所需的页面元素。
-
-1. 选择页面类型。
-
-   页面类型可以包括：
-
-   * 购物车页面
-   * 类别页面
-   * 首页
-   * 登录页面
-   * 产品页面
-   * 搜索结果页面
-   * 感谢页面
-   * 其他
-
-   ![“选择页面类型”选项](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
-
-1. 选择一个或多个[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)。
-
-   标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。 默认情况下，[!UICONTROL Select标准]屏幕显示的标准与您的垂直行业以及您在上一步中选择的页面类型兼容。 您可以更改这些选项以显示其他标准。
+   符合推荐条件的访客可在指定区域查看推荐项目。 不符合条件的访客将看到默认内容。
 
    >[!NOTE]
    >
-   >并非每个标准都能在每个页面上正常运行。 页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。 一般来说，最好只显示兼容的标准。 但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。 根据您的推荐设置（**[!UICONTROL 推荐]** > **[!UICONTROL 设置]** > **[!UICONTROL 筛选不兼容的标准]**），可能不会显示[!UICONTROL 兼容]选项。 有关更多信息，请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
+   >**[!UICONTROL 推荐]**&#x200B;活动一次仅支持一个修改或推荐。 要显示多个推荐，请创建多个[!DNL Recommendations]活动，或使用A/B或XT测试。
 
-   ![“选择标准”对话框](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
+   ![可视化体验编辑器，其中在页面上选择了图像，并且推荐选项显示在菜单中](../assets/create_reco_2.png)
 
-   如果选择多个标准，则流量会平均拆分到选择的标准中。 例如，如果您选择了两个标准，且您的活动设计为将默认内容显示给 20% 的活动参加者，那么 40% 的活动参加者将看到由每个标准控制的推荐。 没有选项可以用来更改每个标准的百分比。
+<!--
+1. Select a page type: Cart Page, Category Page, Home Page, Landing Page, Product Page, Search Results Page, Thank You Page, or Other.
 
-   * 要搜索现有标准（例如，如果显示了许多标准卡片），请在搜索字段中键入相应内容直到显示所需标准为止，然后选择该标准，并单击&#x200B;**[!UICONTROL 下一步]**。
+   ![Select Page Type dialog box with the list of page types open](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
-     [!DNL Recommendations] 中提供了一些自带标准。 您和您的团队也可以创建自己的自定义标准。
+   The page type determines which criteria are suggested in the next section.
+-->
 
-   * 要创建新标准，请单击&#x200B;**[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准]**，然后填写有关新标准的信息。 有关创建新标准的信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
-   * 您还可以将标准分组到序列中。 要创建新标准序列，请单击&#x200B;**[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准序列]**。 有关详细信息，请参阅[创建标准序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md)。
+1. 访问&#x200B;**[!UICONTROL 显示属性]**&#x200B;菜单并单击&#x200B;**[!UICONTROL Select推荐]**。
+
+   ![带有Select的可视化体验编辑器的推荐面板“推荐”按钮](../assets/create_reco_3.png)
+
+## Select标准 {#select-criteria}
+
+标准确定推荐哪些项目以及如何为每个访客选择这些项目。
+
+1. Select一个或多个[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)的复选框。
+
+   ![Select“标准”对话框，其中显示了“搜索”字段、“筛选器”图标、“创建标准”按钮，并且选择了某个标准的标准列表](../assets/create_reco_4.png)
+
+   如果选择多个标准，则流量会平均分配到两个标准，并且不能为每个标准更改百分比。 例如，如果选择了两个标准并且活动向20%的参加者显示默认内容，则40%的参加者会看到每个标准的推荐。
+
+   >[!NOTE]
+   >
+   >并非每个标准都在每个页面上正确运行。 要兼容当前项目或当前类别推荐，页面或mbox必须传入`entity.id`或`entity.categoryId`。 最好只显示兼容的标准。 要使不兼容的标准可用于该活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。 此复选框可能不会显示，具体取决于&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 推荐]** > **[!UICONTROL 筛选不兼容的标准]**&#x200B;设置。 有关更多信息，请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
+
+1. （可选）查找或创建标准：
+
+   * 要在列表较长时搜索现有标准，请在搜索字段中键入相应内容直到显示所需标准为止。 [!DNL Recommendations]提供了一些标准，团队也可以创建自定义标准。
+   * 要创建新标准，请单击&#x200B;**[!UICONTROL 创建标准]**，然后输入有关新标准的信息。 请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
+   * 要将标准分组到序列中，请创建标准序列。 请参阅[创建标准序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md)。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
+
+## Select设计和促销活动 {#select-design}
+
+设计是一个模板，可确定推荐在选定位置的外观，而收藏集可确定哪些项目符合显示条件。 可以选择将促销活动添加到推荐中。
+
 1. 选择一个[设计](/help/main/c-recommendations/c-design-overview/design-overview.md)。
 
-   设计是一种模板，可决定页面上各个位置的外观。 [!DNL Target]包含多个预配置的设计。 您也可以创建自己的自定义设计。 有关详细信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)和[自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design)。
+   ![包含“创建设计”按钮的“Select设计”对话框以及已选择2 x 4设计的设计列表](../assets/create_reco_5.png)
 
-   ![“选择设计”对话框](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
+   * 要使用现有设计，请选中一个或多个设计的复选框，然后单击&#x200B;**[!UICONTROL 下一步]**。 在选择了多个标准时，只能选择一个设计。
+   * 要创建自定义设计，请单击&#x200B;**[!UICONTROL 创建设计]**，然后输入新设计的名称和代码。 单击&#x200B;**[!UICONTROL 下一步]**，选择或上传图像，然后单击&#x200B;**[!UICONTROL 完成]** > **[!UICONTROL 完成]**。
 
-   每个设计都会以图表形式显示其外观，并且还会显示相应图标来反映当前使用该设计的活跃活动和不活跃活动的数量。
-
-   * 要选择一个或多个现有的设计，请单击这些设计，然后单击&#x200B;**[!UICONTROL 下一步]**。
-
-     如果您选择了多个标准，则只能选择一个设计。
-
-   * 要创建自定义设计，请单击&#x200B;**[!UICONTROL 创建设计]**，然后填写新设计的名称和代码。 单击&#x200B;**[!UICONTROL 下一步]**，选择或上传图像，然后单击&#x200B;**[!UICONTROL 完成]** > **[!UICONTROL 完成]**。 有关创建新设计的信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)。
+   [!DNL Target]包含多个预配置的设计。 有关自定义设计的详细信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)和[使用Velocity自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design)。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
-   您可以选择向推荐中添加促销活动。 有关添加前端促销活动和后端促销活动的详细信息，请参阅[添加促销活动](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+1. 在&#x200B;**[!UICONTROL 选项]**&#x200B;页面上，选择收藏集。
+
+   收藏集可确定哪些项目符合在推荐中显示的条件。 有关详细信息（包括如何创建集合），请参阅[在活动中使用集合](/help/main/c-recommendations/c-products/collections.md#use-collection)。
+
+1. （可选）将前端和后端促销活动添加到推荐中。 请参阅[添加促销活动](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#add-promotions)。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   VEC 屏幕会显示页面上的推荐设计。
+   VEC屏幕会在页面上显示推荐设计。
 
-1. （可选）单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看将向访客显示的活动的外观。
+## 查看并完成活动 {#complete-activity}
 
-   在“[!UICONTROL 预览]”模式下，您可以像访客一样与推荐进行交互。
+在保存之前查看建议和活动流程，有助于确认受众、标准和设计是否正确。
 
-   预览完推荐后，单击&#x200B;**[!UICONTROL 撰写]**。
+1. （可选）单击&#x200B;**[!UICONTROL 预览]**&#x200B;查看向访客显示的活动的外观。 此模式允许与推荐进行交互，因为访客将与这些推荐进行交互。 单击&#x200B;**[!UICONTROL 撰写]**&#x200B;以返回到VEC。
 
 1. 在VEC中查看推荐，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
-1. 在流程图中查看 [!DNL Recommendations] 活动，并做出任何必需的更改。
+1. 在流程图中查看活动，并做出任何必需的更改。 完成后，单击&#x200B;**[!UICONTROL 下一步]**。
 
-   ![“推荐”流程图](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
+   ![推荐流程图，其中所有访客都拆分为10%控制组和90%控制组，从而导致“所有收藏集”集合、选定条件和2 x 4设计](../assets/create_reco_6.png)
 
-   流程图会引导您完成以下步骤：选择活动的受众、设置体验以及指定成功量度。
+   流程图涵盖了活动的受众、体验和成功量度。 从图中，可以进行以下更改：
 
-   在流程图中，您可以执行以下操作：
+   * **受众**：默认情况下，所有访客都会看到推荐，但可以改为选择现有受众。 作为创建新受众的替代方法，可以创建[仅限该活动的受众](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)，或者[可以合并多个受众](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以构建临时受众。
+   * **标准**：查看标准或更改集合（在&#x200B;**[!UICONTROL 标准]**&#x200B;标签旁边）。
+   * **控制组**：更改查看控制体验的参加者所占的百分比。 在[!DNL Recommendations]活动中，控制组会看到没有任何推荐的页面。
+   * **设计**：查看设计代码，或更改或删除设计。
 
-   * 更改将看到推荐的受众
+1. 指定活动设置，例如名称（必需）和目标（可选）。 有关设置，包括活动名称的规则，请参阅[推荐活动设置](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#recs-activity-settings)。
 
-     >[!NOTE]
-     >
-     >除了选择现有受众之外，您还可以[创建仅限该活动的受众](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)或[合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以创建临时受众，而不是创建新的受众。
+1. 单击&#x200B;**[!UICONTROL 保存并关闭]**。
 
-     默认情况下，所有用户都会看到推荐。 但是，您可以将推荐定位到特定的受众。
+## 管理活动 {#manage-activity}
 
-     对于 [!DNL Recommendations] 活动，控制组会看到没有任何推荐的页面。
+保存活动后，**[!UICONTROL 概述]**&#x200B;页面会显示该活动的摘要。 在此页面中，可以使用以下操作：
 
-   * 查看标准
-   * 更改收藏集（位于“[!UICONTROL 标准]”标签旁边）
-   * 更改看到控制体验的参加者所占的百分比
-   * 查看设计代码
-   * 更改或删除设计
+* 激活、编辑活动或QA。
+* 将活动共享到Experience Cloud信息源。
+* 查看体验URL并下载数据。
+* 更改查看控制体验的活动参加者所占的百分比。
+* 显示或隐藏标准详细信息，并查看设计代码。
 
-1. 完成后，单击&#x200B;**[!UICONTROL 下一步]**。
-1. 指定活动设置。
+该活动中还提供了两个其他页面：
 
-   例如，键入活动的名称（必填）和目标（可选）。 有关设置的信息，请参阅[推荐活动设置](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)。
-
-   >[!NOTE]
-   >
-   >如果您指定的 [!DNL Recommendation] 活动名称已被 [!DNL Recommendations Classic] 中的其他活动使用，则会使用新名称重新同步新活动。 新名称是在原始名称后附加一个时间戳，以使其具有唯一性。 此新名称会同时显示在 [!DNL Target Standard/Premium] 和 [!DNL Recommendations Classic] 中。
-
-1. 完成后，单击&#x200B;**[!UICONTROL 保存并关闭]**。
-
-   此时会显示活动概述。
-
-   在“[!UICONTROL 概述]”页面中，您可以：
-
-   * 激活活动
-   * 编辑活动
-   * 将活动共享到Experience Cloud信息源
-   * QA活动
-   * 查看体验 URL
-   * 下载数据
-   * 更改看到控制体验的活动参加者所占的百分比
-   * 显示或隐藏标准详细信息
-   * 查看设计的代码
-
-1. （可选）打开[!UICONTROL 报表]页面以查看显示[!DNL Recommendations]活动性能的报表。
-
-1. （可选）打开[!UICONTROL 冲突]页面以查看可能会发生的所有[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md)。
-
-   如果设置了多个活动来向同一个页面交付内容，则会发生活动冲突，这可能导致页面显示意外内容。
+* **[!UICONTROL 报告]**：显示[!DNL Recommendations]活动性能报告。
+* **[!UICONTROL 冲突]**：显示可能发生的所有[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md)。 当多个活动向同一页面交付内容时出现冲突，这可能会导致显示意外内容。
 
 ## 培训视频：创建推荐活动(7:15) ![教程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33958?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)
